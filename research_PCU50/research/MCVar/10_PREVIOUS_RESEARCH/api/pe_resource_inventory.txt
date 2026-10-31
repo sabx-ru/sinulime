@@ -1,0 +1,146 @@
+[old] path=PCU_old/H/mmc2/MCVar.dll
+sha256=43a5c1991d98b6b6e155233a0114d7ff72bf4dec7edf58d0607da501e7d98712
+size=434769
+image_base=0x10000000 timestamp=1087994970 entrypoint_rva=0x1993c
+exports:
+  {'ordinal': 1, 'name': 'DllCanUnloadNow', 'rva': '0x867f', 'va': '0x1000867f'}
+  {'ordinal': 2, 'name': 'DllGetClassObject', 'rva': '0x86c3', 'va': '0x100086c3'}
+  {'ordinal': 3, 'name': 'DllRegisterServer', 'rva': '0x86dd', 'va': '0x100086dd'}
+  {'ordinal': 4, 'name': 'DllUnregisterServer', 'rva': '0x86ed', 'va': '0x100086ed'}
+resources:
+  {'path': 'REGISTRY/101/1033', 'offset': '0x3a888', 'size': 1771, 'sha256': '0c65446f8cadf34c781467f3bf553e437e1233a5752807c22a86462428c1d451'}
+  {'path': 'REGISTRY/102/1033', 'offset': '0x3af78', 'size': 588, 'sha256': '55b5767414b49ef2a1ef694fbac9f2964a6c740b0a78d28a52099a59e7697dcf'}
+  {'path': 'TYPELIB/1/1033', 'offset': '0x3b1c8', 'size': 19732, 'sha256': '0653a34a342fc6b80e9f675ff9754173b878a353744098e6eb0c9fa429c77bb3'}
+  {'path': '6/7/1033', 'offset': '0x3fee0', 'size': 42, 'sha256': 'd120f00689e4bc43c7102fbfbe71441f19576f257d9a249be2acc702c75e5bb0'}
+  {'path': '16/1/1033', 'offset': '0x3a190', 'size': 1784, 'sha256': '6e2ca3514cfcee421147031d770de83682b9f460d6490addd216d6eb459d3c08'}
+imports_selected:
+  {'dll': 'USER32.dll', 'name': 'TranslateMessage', 'ordinal': None, 'iat_rva': '0x2c208'}
+  {'dll': 'USER32.dll', 'name': 'RegisterClipboardFormatA', 'ordinal': None, 'iat_rva': '0x2c20c'}
+  {'dll': 'USER32.dll', 'name': 'WaitForInputIdle', 'ordinal': None, 'iat_rva': '0x2c210'}
+  {'dll': 'USER32.dll', 'name': 'GetThreadDesktop', 'ordinal': None, 'iat_rva': '0x2c214'}
+  {'dll': 'USER32.dll', 'name': 'DefWindowProcA', 'ordinal': None, 'iat_rva': '0x2c218'}
+  {'dll': 'USER32.dll', 'name': 'GetWindowThreadProcessId', 'ordinal': None, 'iat_rva': '0x2c21c'}
+  {'dll': 'USER32.dll', 'name': 'ReuseDDElParam', 'ordinal': None, 'iat_rva': '0x2c220'}
+  {'dll': 'USER32.dll', 'name': 'PackDDElParam', 'ordinal': None, 'iat_rva': '0x2c224'}
+  {'dll': 'USER32.dll', 'name': 'UnpackDDElParam', 'ordinal': None, 'iat_rva': '0x2c228'}
+  {'dll': 'USER32.dll', 'name': 'SendMessageA', 'ordinal': None, 'iat_rva': '0x2c22c'}
+  {'dll': 'USER32.dll', 'name': 'GetParent', 'ordinal': None, 'iat_rva': '0x2c230'}
+  {'dll': 'USER32.dll', 'name': 'FreeDDElParam', 'ordinal': None, 'iat_rva': '0x2c234'}
+  {'dll': 'USER32.dll', 'name': 'SetTimer', 'ordinal': None, 'iat_rva': '0x2c238'}
+  {'dll': 'USER32.dll', 'name': 'GetMessageA', 'ordinal': None, 'iat_rva': '0x2c23c'}
+  {'dll': 'USER32.dll', 'name': 'PostMessageA', 'ordinal': None, 'iat_rva': '0x2c240'}
+  {'dll': 'USER32.dll', 'name': 'DispatchMessageA', 'ordinal': None, 'iat_rva': '0x2c244'}
+  {'dll': 'USER32.dll', 'name': 'KillTimer', 'ordinal': None, 'iat_rva': '0x2c248'}
+  {'dll': 'USER32.dll', 'name': 'EnumWindows', 'ordinal': None, 'iat_rva': '0x2c24c'}
+  {'dll': 'USER32.dll', 'name': 'GetWindowTextA', 'ordinal': None, 'iat_rva': '0x2c250'}
+  {'dll': 'USER32.dll', 'name': 'DestroyWindow', 'ordinal': None, 'iat_rva': '0x2c254'}
+  {'dll': 'USER32.dll', 'name': 'wsprintfA', 'ordinal': None, 'iat_rva': '0x2c258'}
+  {'dll': 'USER32.dll', 'name': 'RegisterClassA', 'ordinal': None, 'iat_rva': '0x2c25c'}
+  {'dll': 'USER32.dll', 'name': 'CreateWindowExA', 'ordinal': None, 'iat_rva': '0x2c260'}
+  {'dll': 'USER32.dll', 'name': 'SetWindowLongA', 'ordinal': None, 'iat_rva': '0x2c264'}
+  {'dll': 'USER32.dll', 'name': 'SetWindowPos', 'ordinal': None, 'iat_rva': '0x2c268'}
+  {'dll': 'USER32.dll', 'name': 'GetWindowLongA', 'ordinal': None, 'iat_rva': '0x2c26c'}
+  {'dll': 'ole32.dll', 'name': 'CoCreateInstance', 'ordinal': None, 'iat_rva': '0x2c274'}
+  {'dll': 'ole32.dll', 'name': 'CreatePointerMoniker', 'ordinal': None, 'iat_rva': '0x2c278'}
+  {'dll': 'OLEAUT32.dll', 'name': 'SafeArrayCreateVector', 'ordinal': 411, 'iat_rva': '0x2c1b8'}
+  {'dll': 'OLEAUT32.dll', 'name': 'SafeArrayPutElement', 'ordinal': 26, 'iat_rva': '0x2c1bc'}
+  {'dll': 'OLEAUT32.dll', 'name': 'SysAllocStringByteLen', 'ordinal': 150, 'iat_rva': '0x2c1c0'}
+  {'dll': 'OLEAUT32.dll', 'name': 'SafeArrayLock', 'ordinal': 21, 'iat_rva': '0x2c1c4'}
+  {'dll': 'OLEAUT32.dll', 'name': 'SafeArrayUnlock', 'ordinal': 22, 'iat_rva': '0x2c1c8'}
+  {'dll': 'OLEAUT32.dll', 'name': 'LoadRegTypeLib', 'ordinal': 162, 'iat_rva': '0x2c1cc'}
+  {'dll': 'OLEAUT32.dll', 'name': 'SysStringByteLen', 'ordinal': 149, 'iat_rva': '0x2c1d0'}
+  {'dll': 'OLEAUT32.dll', 'name': 'SafeArrayCreate', 'ordinal': 15, 'iat_rva': '0x2c1d4'}
+  {'dll': 'OLEAUT32.dll', 'name': 'SafeArrayDestroy', 'ordinal': 16, 'iat_rva': '0x2c1d8'}
+  {'dll': 'OLEAUT32.dll', 'name': 'SysStringLen', 'ordinal': 7, 'iat_rva': '0x2c1dc'}
+  {'dll': 'OLEAUT32.dll', 'name': 'SafeArrayGetElement', 'ordinal': 25, 'iat_rva': '0x2c1e0'}
+  {'dll': 'OLEAUT32.dll', 'name': 'VariantChangeType', 'ordinal': 12, 'iat_rva': '0x2c1e4'}
+  {'dll': 'OLEAUT32.dll', 'name': 'VariantCopy', 'ordinal': 10, 'iat_rva': '0x2c1e8'}
+  {'dll': 'OLEAUT32.dll', 'name': 'SafeArrayAccessData', 'ordinal': 23, 'iat_rva': '0x2c1ec'}
+  {'dll': 'OLEAUT32.dll', 'name': 'VariantClear', 'ordinal': 9, 'iat_rva': '0x2c1f0'}
+  {'dll': 'OLEAUT32.dll', 'name': 'SafeArrayUnaccessData', 'ordinal': 24, 'iat_rva': '0x2c1f4'}
+  {'dll': 'OLEAUT32.dll', 'name': 'SysAllocString', 'ordinal': 2, 'iat_rva': '0x2c1f8'}
+  {'dll': 'OLEAUT32.dll', 'name': 'SysFreeString', 'ordinal': 6, 'iat_rva': '0x2c1fc'}
+  {'dll': 'OLEAUT32.dll', 'name': 'SysAllocStringLen', 'ordinal': 4, 'iat_rva': '0x2c200'}
+  {'dll': 'ATL.DLL', 'name': None, 'ordinal': 58, 'iat_rva': '0x2c000'}
+  {'dll': 'ATL.DLL', 'name': None, 'ordinal': 25, 'iat_rva': '0x2c004'}
+  {'dll': 'ATL.DLL', 'name': None, 'ordinal': 32, 'iat_rva': '0x2c008'}
+  {'dll': 'ATL.DLL', 'name': None, 'ordinal': 57, 'iat_rva': '0x2c00c'}
+  {'dll': 'ATL.DLL', 'name': None, 'ordinal': 18, 'iat_rva': '0x2c010'}
+  {'dll': 'ATL.DLL', 'name': None, 'ordinal': 15, 'iat_rva': '0x2c014'}
+  {'dll': 'ATL.DLL', 'name': None, 'ordinal': 16, 'iat_rva': '0x2c018'}
+  {'dll': 'ATL.DLL', 'name': None, 'ordinal': 21, 'iat_rva': '0x2c01c'}
+  {'dll': 'ATL.DLL', 'name': None, 'ordinal': 23, 'iat_rva': '0x2c020'}
+  {'dll': 'ATL.DLL', 'name': None, 'ordinal': 30, 'iat_rva': '0x2c024'}
+[new] path=PCU_new/C/RECYCLER/S-1-5-21-4025392478-4199590385-3038547483-1005/Dc28/files/F/mmc2/MCVar.dll
+sha256=5e7d955ebe7cfd52424b04e91471b7408f42bf6cc427e3d94c50bc7f4428c24a
+size=439177
+image_base=0x10000000 timestamp=1311598035 entrypoint_rva=0x19a4c
+exports:
+  {'ordinal': 1, 'name': 'DllCanUnloadNow', 'rva': '0x878d', 'va': '0x1000878d'}
+  {'ordinal': 2, 'name': 'DllGetClassObject', 'rva': '0x87d1', 'va': '0x100087d1'}
+  {'ordinal': 3, 'name': 'DllRegisterServer', 'rva': '0x87eb', 'va': '0x100087eb'}
+  {'ordinal': 4, 'name': 'DllUnregisterServer', 'rva': '0x87fb', 'va': '0x100087fb'}
+resources:
+  {'path': 'REGISTRY/101/1033', 'offset': '0x3b888', 'size': 1771, 'sha256': '0c65446f8cadf34c781467f3bf553e437e1233a5752807c22a86462428c1d451'}
+  {'path': 'REGISTRY/102/1033', 'offset': '0x3bf78', 'size': 588, 'sha256': '55b5767414b49ef2a1ef694fbac9f2964a6c740b0a78d28a52099a59e7697dcf'}
+  {'path': 'TYPELIB/1/1033', 'offset': '0x3c1c8', 'size': 19732, 'sha256': 'a7d9968596b9e9a17dff6fc2fcf4a2e2ddc65cedd28dba76eb77791b49dadfd1'}
+  {'path': '6/7/1033', 'offset': '0x40ee0', 'size': 42, 'sha256': 'd120f00689e4bc43c7102fbfbe71441f19576f257d9a249be2acc702c75e5bb0'}
+  {'path': '16/1/1033', 'offset': '0x3b190', 'size': 1784, 'sha256': 'd43ac461e29a3afd10a0f6a82648e417aa9a46925ed12e1a165d6ed3b46bd6dc'}
+imports_selected:
+  {'dll': 'USER32.dll', 'name': 'TranslateMessage', 'ordinal': None, 'iat_rva': '0x2d208'}
+  {'dll': 'USER32.dll', 'name': 'RegisterClipboardFormatA', 'ordinal': None, 'iat_rva': '0x2d20c'}
+  {'dll': 'USER32.dll', 'name': 'WaitForInputIdle', 'ordinal': None, 'iat_rva': '0x2d210'}
+  {'dll': 'USER32.dll', 'name': 'GetThreadDesktop', 'ordinal': None, 'iat_rva': '0x2d214'}
+  {'dll': 'USER32.dll', 'name': 'DefWindowProcA', 'ordinal': None, 'iat_rva': '0x2d218'}
+  {'dll': 'USER32.dll', 'name': 'GetWindowThreadProcessId', 'ordinal': None, 'iat_rva': '0x2d21c'}
+  {'dll': 'USER32.dll', 'name': 'ReuseDDElParam', 'ordinal': None, 'iat_rva': '0x2d220'}
+  {'dll': 'USER32.dll', 'name': 'PackDDElParam', 'ordinal': None, 'iat_rva': '0x2d224'}
+  {'dll': 'USER32.dll', 'name': 'UnpackDDElParam', 'ordinal': None, 'iat_rva': '0x2d228'}
+  {'dll': 'USER32.dll', 'name': 'SendMessageA', 'ordinal': None, 'iat_rva': '0x2d22c'}
+  {'dll': 'USER32.dll', 'name': 'GetParent', 'ordinal': None, 'iat_rva': '0x2d230'}
+  {'dll': 'USER32.dll', 'name': 'FreeDDElParam', 'ordinal': None, 'iat_rva': '0x2d234'}
+  {'dll': 'USER32.dll', 'name': 'SetTimer', 'ordinal': None, 'iat_rva': '0x2d238'}
+  {'dll': 'USER32.dll', 'name': 'GetMessageA', 'ordinal': None, 'iat_rva': '0x2d23c'}
+  {'dll': 'USER32.dll', 'name': 'PostMessageA', 'ordinal': None, 'iat_rva': '0x2d240'}
+  {'dll': 'USER32.dll', 'name': 'DispatchMessageA', 'ordinal': None, 'iat_rva': '0x2d244'}
+  {'dll': 'USER32.dll', 'name': 'KillTimer', 'ordinal': None, 'iat_rva': '0x2d248'}
+  {'dll': 'USER32.dll', 'name': 'EnumWindows', 'ordinal': None, 'iat_rva': '0x2d24c'}
+  {'dll': 'USER32.dll', 'name': 'GetWindowTextA', 'ordinal': None, 'iat_rva': '0x2d250'}
+  {'dll': 'USER32.dll', 'name': 'DestroyWindow', 'ordinal': None, 'iat_rva': '0x2d254'}
+  {'dll': 'USER32.dll', 'name': 'wsprintfA', 'ordinal': None, 'iat_rva': '0x2d258'}
+  {'dll': 'USER32.dll', 'name': 'RegisterClassA', 'ordinal': None, 'iat_rva': '0x2d25c'}
+  {'dll': 'USER32.dll', 'name': 'CreateWindowExA', 'ordinal': None, 'iat_rva': '0x2d260'}
+  {'dll': 'USER32.dll', 'name': 'SetWindowLongA', 'ordinal': None, 'iat_rva': '0x2d264'}
+  {'dll': 'USER32.dll', 'name': 'SetWindowPos', 'ordinal': None, 'iat_rva': '0x2d268'}
+  {'dll': 'USER32.dll', 'name': 'GetWindowLongA', 'ordinal': None, 'iat_rva': '0x2d26c'}
+  {'dll': 'ole32.dll', 'name': 'CoCreateInstance', 'ordinal': None, 'iat_rva': '0x2d274'}
+  {'dll': 'ole32.dll', 'name': 'CreatePointerMoniker', 'ordinal': None, 'iat_rva': '0x2d278'}
+  {'dll': 'OLEAUT32.dll', 'name': 'SafeArrayCreateVector', 'ordinal': 411, 'iat_rva': '0x2d1b8'}
+  {'dll': 'OLEAUT32.dll', 'name': 'SafeArrayPutElement', 'ordinal': 26, 'iat_rva': '0x2d1bc'}
+  {'dll': 'OLEAUT32.dll', 'name': 'SysAllocStringByteLen', 'ordinal': 150, 'iat_rva': '0x2d1c0'}
+  {'dll': 'OLEAUT32.dll', 'name': 'SafeArrayLock', 'ordinal': 21, 'iat_rva': '0x2d1c4'}
+  {'dll': 'OLEAUT32.dll', 'name': 'SafeArrayUnlock', 'ordinal': 22, 'iat_rva': '0x2d1c8'}
+  {'dll': 'OLEAUT32.dll', 'name': 'LoadRegTypeLib', 'ordinal': 162, 'iat_rva': '0x2d1cc'}
+  {'dll': 'OLEAUT32.dll', 'name': 'SysStringByteLen', 'ordinal': 149, 'iat_rva': '0x2d1d0'}
+  {'dll': 'OLEAUT32.dll', 'name': 'SafeArrayCreate', 'ordinal': 15, 'iat_rva': '0x2d1d4'}
+  {'dll': 'OLEAUT32.dll', 'name': 'SafeArrayDestroy', 'ordinal': 16, 'iat_rva': '0x2d1d8'}
+  {'dll': 'OLEAUT32.dll', 'name': 'SysStringLen', 'ordinal': 7, 'iat_rva': '0x2d1dc'}
+  {'dll': 'OLEAUT32.dll', 'name': 'SafeArrayGetElement', 'ordinal': 25, 'iat_rva': '0x2d1e0'}
+  {'dll': 'OLEAUT32.dll', 'name': 'VariantChangeType', 'ordinal': 12, 'iat_rva': '0x2d1e4'}
+  {'dll': 'OLEAUT32.dll', 'name': 'VariantCopy', 'ordinal': 10, 'iat_rva': '0x2d1e8'}
+  {'dll': 'OLEAUT32.dll', 'name': 'SafeArrayAccessData', 'ordinal': 23, 'iat_rva': '0x2d1ec'}
+  {'dll': 'OLEAUT32.dll', 'name': 'VariantClear', 'ordinal': 9, 'iat_rva': '0x2d1f0'}
+  {'dll': 'OLEAUT32.dll', 'name': 'SafeArrayUnaccessData', 'ordinal': 24, 'iat_rva': '0x2d1f4'}
+  {'dll': 'OLEAUT32.dll', 'name': 'SysAllocString', 'ordinal': 2, 'iat_rva': '0x2d1f8'}
+  {'dll': 'OLEAUT32.dll', 'name': 'SysFreeString', 'ordinal': 6, 'iat_rva': '0x2d1fc'}
+  {'dll': 'OLEAUT32.dll', 'name': 'SysAllocStringLen', 'ordinal': 4, 'iat_rva': '0x2d200'}
+  {'dll': 'ATL.DLL', 'name': None, 'ordinal': 58, 'iat_rva': '0x2d000'}
+  {'dll': 'ATL.DLL', 'name': None, 'ordinal': 25, 'iat_rva': '0x2d004'}
+  {'dll': 'ATL.DLL', 'name': None, 'ordinal': 32, 'iat_rva': '0x2d008'}
+  {'dll': 'ATL.DLL', 'name': None, 'ordinal': 57, 'iat_rva': '0x2d00c'}
+  {'dll': 'ATL.DLL', 'name': None, 'ordinal': 18, 'iat_rva': '0x2d010'}
+  {'dll': 'ATL.DLL', 'name': None, 'ordinal': 15, 'iat_rva': '0x2d014'}
+  {'dll': 'ATL.DLL', 'name': None, 'ordinal': 16, 'iat_rva': '0x2d018'}
+  {'dll': 'ATL.DLL', 'name': None, 'ordinal': 21, 'iat_rva': '0x2d01c'}
+  {'dll': 'ATL.DLL', 'name': None, 'ordinal': 23, 'iat_rva': '0x2d020'}
+  {'dll': 'ATL.DLL', 'name': None, 'ordinal': 30, 'iat_rva': '0x2d024'}

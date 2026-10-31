@@ -1,0 +1,38 @@
+{
+  "status": "conditional_pass_offline_static_runtime_open",
+  "independent_review": "CONDITIONAL PASS",
+  "review_findings_closed": [
+    "GetIDsOfNames versus Invoke callsites distinguished",
+    "32/92 direct TypeLib record counts confirmed",
+    "canonical boundary map present and caveats preserved",
+    "collector requirements and async lifecycle docs aligned with callback evidence"
+  ],
+  "correction_gate": {
+    "A_GetIDsOfNames": "PASS_STATIC",
+    "A_Invoke_shaped_callsite": "PASS_STATIC_CALLSITE",
+    "A_runtime_callback_success": "UNKNOWN",
+    "B_method_count": "PASS_32_TARGET_92_ALL",
+    "C_boundaries": "PASS_WITH_UNCERTAIN_SHARED_EXTENTS"
+  },
+  "verification": {
+    "json_artifacts": "PASS",
+    "cyclic_graph_endpoints": "PASS",
+    "count_verifier": "PASS",
+    "pe_hash_and_entry_bytes": "PASS",
+    "git_used": false,
+    "windows_execution": false,
+    "pcu_execution": false,
+    "write_operations": 0,
+    "dde_research": false
+  },
+  "runtime_status": "not_proven",
+  "remaining_high_priority_unknowns": [
+    "per-request edge to Invoke-shaped callback routine",
+    "actual callback HRESULT success and user callback entry",
+    "pCB/pDisp ownership and callback thread/apartment",
+    "generated ReqID source and transaction registration/lookup",
+    "DataChange/IdleCB scheduling chain",
+    "rate/deadband/critical semantics",
+    "removal/cancellation/destruction behavior"
+  ]
+}

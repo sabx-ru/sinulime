@@ -1,0 +1,4266 @@
+{
+  "new": {
+    "IReadVarAsyncCallback": {
+      "flags": [
+        "TYPEFLAG_FDUAL",
+        "TYPEFLAG_FOLEAUTOMATION",
+        "TYPEFLAG_FDISPATCHABLE"
+      ],
+      "guid": "c48394e1-ec79-11d0-99a9-00a0246d1792",
+      "methods": [
+        {
+          "callconv": "CC_STDCALL",
+          "memid": 1,
+          "name": "OnDataChanged",
+          "params": [
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN"
+              ],
+              "name": "Values",
+              "tdesc": {
+                "str": "VT_VARIANT",
+                "vt": "VT_VARIANT"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN"
+              ],
+              "name": "Qualities",
+              "tdesc": {
+                "str": "VT_VARIANT",
+                "vt": "VT_VARIANT"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN"
+              ],
+              "name": "ClientHandles",
+              "tdesc": {
+                "str": "VT_VARIANT",
+                "vt": "VT_VARIANT"
+              }
+            }
+          ],
+          "ret": {
+            "str": "VT_HRESULT",
+            "vt": "VT_HRESULT"
+          },
+          "vtable_offset": 28
+        }
+      ]
+    },
+    "IReadVarAsyncCallback2": {
+      "flags": [
+        "TYPEFLAG_FDUAL",
+        "TYPEFLAG_FOLEAUTOMATION",
+        "TYPEFLAG_FDISPATCHABLE"
+      ],
+      "guid": "9cd0d500-bd9a-11d1-bd5a-0080c7f7898a",
+      "methods": [
+        {
+          "callconv": "CC_STDCALL",
+          "memid": 1,
+          "name": "OnDataChanged",
+          "params": [
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN"
+              ],
+              "name": "Values",
+              "tdesc": {
+                "str": "VT_VARIANT",
+                "vt": "VT_VARIANT"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN"
+              ],
+              "name": "TimeStamps",
+              "tdesc": {
+                "str": "VT_VARIANT",
+                "vt": "VT_VARIANT"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN"
+              ],
+              "name": "ClientHandles",
+              "tdesc": {
+                "str": "VT_VARIANT",
+                "vt": "VT_VARIANT"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN",
+                "PARAMFLAG_FOPT"
+              ],
+              "name": "Qualities",
+              "tdesc": {
+                "str": "VT_VARIANT",
+                "vt": "VT_VARIANT"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN",
+                "PARAMFLAG_FOPT"
+              ],
+              "name": "ServerInfos",
+              "tdesc": {
+                "str": "VT_VARIANT",
+                "vt": "VT_VARIANT"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN",
+                "PARAMFLAG_FOPT"
+              ],
+              "name": "Errors",
+              "tdesc": {
+                "str": "VT_VARIANT",
+                "vt": "VT_VARIANT"
+              }
+            }
+          ],
+          "ret": {
+            "str": "VT_HRESULT",
+            "vt": "VT_HRESULT"
+          },
+          "vtable_offset": 28
+        }
+      ]
+    },
+    "IVar": {
+      "flags": [
+        "TYPEFLAG_FDUAL",
+        "TYPEFLAG_FOLEAUTOMATION",
+        "TYPEFLAG_FDISPATCHABLE"
+      ],
+      "guid": "c48394e0-ec79-11d0-99a9-00a0246d1792",
+      "methods": [
+        {
+          "callconv": "CC_STDCALL",
+          "memid": 1,
+          "name": "ReadVar",
+          "params": [
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN"
+              ],
+              "name": "Names",
+              "tdesc": {
+                "str": "VT_VARIANT",
+                "vt": "VT_VARIANT"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN",
+                "PARAMFLAG_FOUT"
+              ],
+              "name": "pServerHandles",
+              "tdesc": {
+                "pointee": {
+                  "str": "VT_VARIANT",
+                  "vt": "VT_VARIANT"
+                },
+                "str": "VT_VARIANT*",
+                "vt": "VT_PTR"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN"
+              ],
+              "name": "CacheDevice",
+              "tdesc": {
+                "str": "VT_I2",
+                "vt": "VT_I2"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FOUT"
+              ],
+              "name": "pValues",
+              "tdesc": {
+                "pointee": {
+                  "str": "VT_VARIANT",
+                  "vt": "VT_VARIANT"
+                },
+                "str": "VT_VARIANT*",
+                "vt": "VT_PTR"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FOUT",
+                "PARAMFLAG_FOPT"
+              ],
+              "name": "pErrors",
+              "tdesc": {
+                "pointee": {
+                  "str": "VT_VARIANT",
+                  "vt": "VT_VARIANT"
+                },
+                "str": "VT_VARIANT*",
+                "vt": "VT_PTR"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FOUT",
+                "PARAMFLAG_FOPT"
+              ],
+              "name": "pQualities",
+              "tdesc": {
+                "pointee": {
+                  "str": "VT_VARIANT",
+                  "vt": "VT_VARIANT"
+                },
+                "str": "VT_VARIANT*",
+                "vt": "VT_PTR"
+              }
+            }
+          ],
+          "ret": {
+            "str": "VT_HRESULT",
+            "vt": "VT_HRESULT"
+          },
+          "vtable_offset": 28
+        },
+        {
+          "callconv": "CC_STDCALL",
+          "memid": 2,
+          "name": "WriteVar",
+          "params": [
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN"
+              ],
+              "name": "Names",
+              "tdesc": {
+                "str": "VT_VARIANT",
+                "vt": "VT_VARIANT"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN",
+                "PARAMFLAG_FOUT"
+              ],
+              "name": "pServerHandles",
+              "tdesc": {
+                "pointee": {
+                  "str": "VT_VARIANT",
+                  "vt": "VT_VARIANT"
+                },
+                "str": "VT_VARIANT*",
+                "vt": "VT_PTR"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN"
+              ],
+              "name": "Values",
+              "tdesc": {
+                "str": "VT_VARIANT",
+                "vt": "VT_VARIANT"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FOUT",
+                "PARAMFLAG_FOPT"
+              ],
+              "name": "pErrors",
+              "tdesc": {
+                "pointee": {
+                  "str": "VT_VARIANT",
+                  "vt": "VT_VARIANT"
+                },
+                "str": "VT_VARIANT*",
+                "vt": "VT_PTR"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FOUT",
+                "PARAMFLAG_FOPT"
+              ],
+              "name": "pQualities",
+              "tdesc": {
+                "pointee": {
+                  "str": "VT_VARIANT",
+                  "vt": "VT_VARIANT"
+                },
+                "str": "VT_VARIANT*",
+                "vt": "VT_PTR"
+              }
+            }
+          ],
+          "ret": {
+            "str": "VT_HRESULT",
+            "vt": "VT_HRESULT"
+          },
+          "vtable_offset": 32
+        },
+        {
+          "callconv": "CC_STDCALL",
+          "memid": 3,
+          "name": "ReadVarAsync",
+          "params": [
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN"
+              ],
+              "name": "Names",
+              "tdesc": {
+                "str": "VT_VARIANT",
+                "vt": "VT_VARIANT"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN",
+                "PARAMFLAG_FOUT"
+              ],
+              "name": "pServerHandles",
+              "tdesc": {
+                "pointee": {
+                  "str": "VT_VARIANT",
+                  "vt": "VT_VARIANT"
+                },
+                "str": "VT_VARIANT*",
+                "vt": "VT_PTR"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN"
+              ],
+              "name": "ClientHandles",
+              "tdesc": {
+                "str": "VT_VARIANT",
+                "vt": "VT_VARIANT"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN"
+              ],
+              "name": "CacheDevice",
+              "tdesc": {
+                "str": "VT_I2",
+                "vt": "VT_I2"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN"
+              ],
+              "name": "pCB",
+              "tdesc": {
+                "pointee": {
+                  "href": 500,
+                  "ref": "IReadVarAsyncCallback",
+                  "str": "IReadVarAsyncCallback",
+                  "vt": "VT_USERDEFINED"
+                },
+                "str": "IReadVarAsyncCallback*",
+                "vt": "VT_PTR"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN"
+              ],
+              "name": "pDisp",
+              "tdesc": {
+                "str": "VT_DISPATCH",
+                "vt": "VT_DISPATCH"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FOUT"
+              ],
+              "name": "pReqID",
+              "tdesc": {
+                "pointee": {
+                  "str": "VT_I4",
+                  "vt": "VT_I4"
+                },
+                "str": "VT_I4*",
+                "vt": "VT_PTR"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FOUT",
+                "PARAMFLAG_FOPT"
+              ],
+              "name": "pErrors",
+              "tdesc": {
+                "pointee": {
+                  "str": "VT_VARIANT",
+                  "vt": "VT_VARIANT"
+                },
+                "str": "VT_VARIANT*",
+                "vt": "VT_PTR"
+              }
+            }
+          ],
+          "ret": {
+            "str": "VT_HRESULT",
+            "vt": "VT_HRESULT"
+          },
+          "vtable_offset": 36
+        },
+        {
+          "callconv": "CC_STDCALL",
+          "memid": 4,
+          "name": "WriteVarAsync",
+          "params": [
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN"
+              ],
+              "name": "Names",
+              "tdesc": {
+                "str": "VT_VARIANT",
+                "vt": "VT_VARIANT"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN",
+                "PARAMFLAG_FOUT"
+              ],
+              "name": "pServerHandles",
+              "tdesc": {
+                "pointee": {
+                  "str": "VT_VARIANT",
+                  "vt": "VT_VARIANT"
+                },
+                "str": "VT_VARIANT*",
+                "vt": "VT_PTR"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN"
+              ],
+              "name": "ClientHandles",
+              "tdesc": {
+                "str": "VT_VARIANT",
+                "vt": "VT_VARIANT"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN"
+              ],
+              "name": "Values",
+              "tdesc": {
+                "str": "VT_VARIANT",
+                "vt": "VT_VARIANT"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN"
+              ],
+              "name": "pCB",
+              "tdesc": {
+                "pointee": {
+                  "href": 600,
+                  "ref": "IWriteVarAsyncCallback",
+                  "str": "IWriteVarAsyncCallback",
+                  "vt": "VT_USERDEFINED"
+                },
+                "str": "IWriteVarAsyncCallback*",
+                "vt": "VT_PTR"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN"
+              ],
+              "name": "pDisp",
+              "tdesc": {
+                "str": "VT_DISPATCH",
+                "vt": "VT_DISPATCH"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FOUT"
+              ],
+              "name": "pReqID",
+              "tdesc": {
+                "pointee": {
+                  "str": "VT_I4",
+                  "vt": "VT_I4"
+                },
+                "str": "VT_I4*",
+                "vt": "VT_PTR"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FOUT",
+                "PARAMFLAG_FOPT"
+              ],
+              "name": "pErrors",
+              "tdesc": {
+                "pointee": {
+                  "str": "VT_VARIANT",
+                  "vt": "VT_VARIANT"
+                },
+                "str": "VT_VARIANT*",
+                "vt": "VT_PTR"
+              }
+            }
+          ],
+          "ret": {
+            "str": "VT_HRESULT",
+            "vt": "VT_HRESULT"
+          },
+          "vtable_offset": 40
+        },
+        {
+          "callconv": "CC_STDCALL",
+          "memid": 5,
+          "name": "ReadVarCyclic",
+          "params": [
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN"
+              ],
+              "name": "Names",
+              "tdesc": {
+                "str": "VT_VARIANT",
+                "vt": "VT_VARIANT"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN",
+                "PARAMFLAG_FOUT"
+              ],
+              "name": "pServerHandles",
+              "tdesc": {
+                "pointee": {
+                  "str": "VT_VARIANT",
+                  "vt": "VT_VARIANT"
+                },
+                "str": "VT_VARIANT*",
+                "vt": "VT_PTR"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN"
+              ],
+              "name": "ClientHandles",
+              "tdesc": {
+                "str": "VT_VARIANT",
+                "vt": "VT_VARIANT"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN"
+              ],
+              "name": "pCB",
+              "tdesc": {
+                "pointee": {
+                  "href": 500,
+                  "ref": "IReadVarAsyncCallback",
+                  "str": "IReadVarAsyncCallback",
+                  "vt": "VT_USERDEFINED"
+                },
+                "str": "IReadVarAsyncCallback*",
+                "vt": "VT_PTR"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN"
+              ],
+              "name": "pDisp",
+              "tdesc": {
+                "str": "VT_DISPATCH",
+                "vt": "VT_DISPATCH"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN"
+              ],
+              "name": "Deadbands",
+              "tdesc": {
+                "str": "VT_VARIANT",
+                "vt": "VT_VARIANT"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN"
+              ],
+              "name": "RequestedUpdateRates",
+              "tdesc": {
+                "str": "VT_VARIANT",
+                "vt": "VT_VARIANT"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FOUT"
+              ],
+              "name": "RevisedUpdateRates",
+              "tdesc": {
+                "pointee": {
+                  "str": "VT_VARIANT",
+                  "vt": "VT_VARIANT"
+                },
+                "str": "VT_VARIANT*",
+                "vt": "VT_PTR"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN",
+                "PARAMFLAG_FOUT"
+              ],
+              "name": "pReqID",
+              "tdesc": {
+                "pointee": {
+                  "str": "VT_I4",
+                  "vt": "VT_I4"
+                },
+                "str": "VT_I4*",
+                "vt": "VT_PTR"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FOUT",
+                "PARAMFLAG_FOPT"
+              ],
+              "name": "pErrors",
+              "tdesc": {
+                "pointee": {
+                  "str": "VT_VARIANT",
+                  "vt": "VT_VARIANT"
+                },
+                "str": "VT_VARIANT*",
+                "vt": "VT_PTR"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN",
+                "PARAMFLAG_FOPT"
+              ],
+              "name": "CriticalValues",
+              "tdesc": {
+                "str": "VT_VARIANT",
+                "vt": "VT_VARIANT"
+              }
+            }
+          ],
+          "ret": {
+            "str": "VT_HRESULT",
+            "vt": "VT_HRESULT"
+          },
+          "vtable_offset": 44
+        },
+        {
+          "callconv": "CC_STDCALL",
+          "memid": 6,
+          "name": "RemoveCyclicVariables",
+          "params": [
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN"
+              ],
+              "name": "ReqID",
+              "tdesc": {
+                "str": "VT_I4",
+                "vt": "VT_I4"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN"
+              ],
+              "name": "Names",
+              "tdesc": {
+                "str": "VT_VARIANT",
+                "vt": "VT_VARIANT"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN"
+              ],
+              "name": "ServerHandles",
+              "tdesc": {
+                "str": "VT_VARIANT",
+                "vt": "VT_VARIANT"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FOUT",
+                "PARAMFLAG_FOPT"
+              ],
+              "name": "pErrors",
+              "tdesc": {
+                "pointee": {
+                  "str": "VT_VARIANT",
+                  "vt": "VT_VARIANT"
+                },
+                "str": "VT_VARIANT*",
+                "vt": "VT_PTR"
+              }
+            }
+          ],
+          "ret": {
+            "str": "VT_HRESULT",
+            "vt": "VT_HRESULT"
+          },
+          "vtable_offset": 48
+        },
+        {
+          "callconv": "CC_STDCALL",
+          "memid": 7,
+          "name": "LookupVariables",
+          "params": [
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN",
+                "PARAMFLAG_FOUT"
+              ],
+              "name": "pServerHandles",
+              "tdesc": {
+                "pointee": {
+                  "str": "VT_VARIANT",
+                  "vt": "VT_VARIANT"
+                },
+                "str": "VT_VARIANT*",
+                "vt": "VT_PTR"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN",
+                "PARAMFLAG_FOUT"
+              ],
+              "name": "pNames",
+              "tdesc": {
+                "pointee": {
+                  "str": "VT_VARIANT",
+                  "vt": "VT_VARIANT"
+                },
+                "str": "VT_VARIANT*",
+                "vt": "VT_PTR"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FOUT"
+              ],
+              "name": "pVarTypes",
+              "tdesc": {
+                "pointee": {
+                  "str": "VT_VARIANT",
+                  "vt": "VT_VARIANT"
+                },
+                "str": "VT_VARIANT*",
+                "vt": "VT_PTR"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FOUT",
+                "PARAMFLAG_FOPT"
+              ],
+              "name": "pAccessRights",
+              "tdesc": {
+                "pointee": {
+                  "str": "VT_VARIANT",
+                  "vt": "VT_VARIANT"
+                },
+                "str": "VT_VARIANT*",
+                "vt": "VT_PTR"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FOUT",
+                "PARAMFLAG_FOPT"
+              ],
+              "name": "pErrors",
+              "tdesc": {
+                "pointee": {
+                  "str": "VT_VARIANT",
+                  "vt": "VT_VARIANT"
+                },
+                "str": "VT_VARIANT*",
+                "vt": "VT_PTR"
+              }
+            }
+          ],
+          "ret": {
+            "str": "VT_HRESULT",
+            "vt": "VT_HRESULT"
+          },
+          "vtable_offset": 52
+        },
+        {
+          "callconv": "CC_STDCALL",
+          "memid": 8,
+          "name": "Cancel",
+          "params": [
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN"
+              ],
+              "name": "ReqID",
+              "tdesc": {
+                "str": "VT_I4",
+                "vt": "VT_I4"
+              }
+            }
+          ],
+          "ret": {
+            "str": "VT_HRESULT",
+            "vt": "VT_HRESULT"
+          },
+          "vtable_offset": 56
+        },
+        {
+          "callconv": "CC_STDCALL",
+          "memid": 9,
+          "name": "Suspend",
+          "params": [
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN"
+              ],
+              "name": "ReqID",
+              "tdesc": {
+                "str": "VT_I4",
+                "vt": "VT_I4"
+              }
+            }
+          ],
+          "ret": {
+            "str": "VT_HRESULT",
+            "vt": "VT_HRESULT"
+          },
+          "vtable_offset": 60
+        },
+        {
+          "callconv": "CC_STDCALL",
+          "memid": 10,
+          "name": "Resume",
+          "params": [
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN"
+              ],
+              "name": "ReqID",
+              "tdesc": {
+                "str": "VT_I4",
+                "vt": "VT_I4"
+              }
+            }
+          ],
+          "ret": {
+            "str": "VT_HRESULT",
+            "vt": "VT_HRESULT"
+          },
+          "vtable_offset": 64
+        },
+        {
+          "callconv": "CC_STDCALL",
+          "memid": 11,
+          "name": "Remove",
+          "params": [
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN"
+              ],
+              "name": "ServerHandles",
+              "tdesc": {
+                "str": "VT_VARIANT",
+                "vt": "VT_VARIANT"
+              }
+            }
+          ],
+          "ret": {
+            "str": "VT_HRESULT",
+            "vt": "VT_HRESULT"
+          },
+          "vtable_offset": 68
+        },
+        {
+          "callconv": "CC_STDCALL",
+          "memid": 12,
+          "name": "CalculateRequestRates",
+          "params": [
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN"
+              ],
+              "name": "RequestedUpdateRates",
+              "tdesc": {
+                "str": "VT_VARIANT",
+                "vt": "VT_VARIANT"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FOUT"
+              ],
+              "name": "pRevisedUpdateRates",
+              "tdesc": {
+                "pointee": {
+                  "str": "VT_VARIANT",
+                  "vt": "VT_VARIANT"
+                },
+                "str": "VT_VARIANT*",
+                "vt": "VT_PTR"
+              }
+            }
+          ],
+          "ret": {
+            "str": "VT_HRESULT",
+            "vt": "VT_HRESULT"
+          },
+          "vtable_offset": 72
+        }
+      ]
+    },
+    "IVar2": {
+      "flags": [
+        "TYPEFLAG_FDUAL",
+        "TYPEFLAG_FOLEAUTOMATION",
+        "TYPEFLAG_FDISPATCHABLE"
+      ],
+      "guid": "23ebede0-bd9b-11d1-bd5a-0080c7f7898a",
+      "methods": [
+        {
+          "callconv": "CC_STDCALL",
+          "memid": 1,
+          "name": "ReadVar",
+          "params": [
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN",
+                "PARAMFLAG_FOPT"
+              ],
+              "name": "Names",
+              "tdesc": {
+                "str": "VT_VARIANT",
+                "vt": "VT_VARIANT"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN",
+                "PARAMFLAG_FOPT"
+              ],
+              "name": "ServerHandles",
+              "tdesc": {
+                "str": "VT_VARIANT",
+                "vt": "VT_VARIANT"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN"
+              ],
+              "name": "CacheDevice",
+              "tdesc": {
+                "str": "VT_I2",
+                "vt": "VT_I2"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FOUT"
+              ],
+              "name": "pValues",
+              "tdesc": {
+                "pointee": {
+                  "str": "VT_VARIANT",
+                  "vt": "VT_VARIANT"
+                },
+                "str": "VT_VARIANT*",
+                "vt": "VT_PTR"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FOUT",
+                "PARAMFLAG_FOPT"
+              ],
+              "name": "pErrors",
+              "tdesc": {
+                "pointee": {
+                  "str": "VT_VARIANT",
+                  "vt": "VT_VARIANT"
+                },
+                "str": "VT_VARIANT*",
+                "vt": "VT_PTR"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FOUT",
+                "PARAMFLAG_FOPT"
+              ],
+              "name": "pQualities",
+              "tdesc": {
+                "pointee": {
+                  "str": "VT_VARIANT",
+                  "vt": "VT_VARIANT"
+                },
+                "str": "VT_VARIANT*",
+                "vt": "VT_PTR"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FOUT",
+                "PARAMFLAG_FOPT"
+              ],
+              "name": "pServerInfos",
+              "tdesc": {
+                "pointee": {
+                  "str": "VT_VARIANT",
+                  "vt": "VT_VARIANT"
+                },
+                "str": "VT_VARIANT*",
+                "vt": "VT_PTR"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FOUT",
+                "PARAMFLAG_FOPT"
+              ],
+              "name": "pTimeStamps",
+              "tdesc": {
+                "pointee": {
+                  "str": "VT_VARIANT",
+                  "vt": "VT_VARIANT"
+                },
+                "str": "VT_VARIANT*",
+                "vt": "VT_PTR"
+              }
+            }
+          ],
+          "ret": {
+            "str": "VT_HRESULT",
+            "vt": "VT_HRESULT"
+          },
+          "vtable_offset": 28
+        },
+        {
+          "callconv": "CC_STDCALL",
+          "memid": 2,
+          "name": "WriteVar",
+          "params": [
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN",
+                "PARAMFLAG_FOPT"
+              ],
+              "name": "Names",
+              "tdesc": {
+                "str": "VT_VARIANT",
+                "vt": "VT_VARIANT"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN",
+                "PARAMFLAG_FOPT"
+              ],
+              "name": "ServerHandles",
+              "tdesc": {
+                "str": "VT_VARIANT",
+                "vt": "VT_VARIANT"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN"
+              ],
+              "name": "Values",
+              "tdesc": {
+                "str": "VT_VARIANT",
+                "vt": "VT_VARIANT"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FOUT",
+                "PARAMFLAG_FOPT"
+              ],
+              "name": "pErrors",
+              "tdesc": {
+                "pointee": {
+                  "str": "VT_VARIANT",
+                  "vt": "VT_VARIANT"
+                },
+                "str": "VT_VARIANT*",
+                "vt": "VT_PTR"
+              }
+            }
+          ],
+          "ret": {
+            "str": "VT_HRESULT",
+            "vt": "VT_HRESULT"
+          },
+          "vtable_offset": 32
+        },
+        {
+          "callconv": "CC_STDCALL",
+          "memid": 3,
+          "name": "ReadVarAsync",
+          "params": [
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN",
+                "PARAMFLAG_FOPT"
+              ],
+              "name": "Names",
+              "tdesc": {
+                "str": "VT_VARIANT",
+                "vt": "VT_VARIANT"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN",
+                "PARAMFLAG_FOPT"
+              ],
+              "name": "ServerHandles",
+              "tdesc": {
+                "str": "VT_VARIANT",
+                "vt": "VT_VARIANT"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN"
+              ],
+              "name": "ClientHandles",
+              "tdesc": {
+                "str": "VT_VARIANT",
+                "vt": "VT_VARIANT"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN"
+              ],
+              "name": "CacheDevice",
+              "tdesc": {
+                "str": "VT_I2",
+                "vt": "VT_I2"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN"
+              ],
+              "name": "pCB",
+              "tdesc": {
+                "pointee": {
+                  "href": 200,
+                  "ref": "IReadVarAsyncCallback2",
+                  "str": "IReadVarAsyncCallback2",
+                  "vt": "VT_USERDEFINED"
+                },
+                "str": "IReadVarAsyncCallback2*",
+                "vt": "VT_PTR"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN"
+              ],
+              "name": "pDisp",
+              "tdesc": {
+                "str": "VT_DISPATCH",
+                "vt": "VT_DISPATCH"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FOUT"
+              ],
+              "name": "pReqID",
+              "tdesc": {
+                "pointee": {
+                  "str": "VT_I4",
+                  "vt": "VT_I4"
+                },
+                "str": "VT_I4*",
+                "vt": "VT_PTR"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FOUT",
+                "PARAMFLAG_FOPT"
+              ],
+              "name": "pErrors",
+              "tdesc": {
+                "pointee": {
+                  "str": "VT_VARIANT",
+                  "vt": "VT_VARIANT"
+                },
+                "str": "VT_VARIANT*",
+                "vt": "VT_PTR"
+              }
+            }
+          ],
+          "ret": {
+            "str": "VT_HRESULT",
+            "vt": "VT_HRESULT"
+          },
+          "vtable_offset": 36
+        },
+        {
+          "callconv": "CC_STDCALL",
+          "memid": 4,
+          "name": "WriteVarAsync",
+          "params": [
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN",
+                "PARAMFLAG_FOPT"
+              ],
+              "name": "Names",
+              "tdesc": {
+                "str": "VT_VARIANT",
+                "vt": "VT_VARIANT"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN",
+                "PARAMFLAG_FOPT"
+              ],
+              "name": "ServerHandles",
+              "tdesc": {
+                "str": "VT_VARIANT",
+                "vt": "VT_VARIANT"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN"
+              ],
+              "name": "ClientHandles",
+              "tdesc": {
+                "str": "VT_VARIANT",
+                "vt": "VT_VARIANT"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN"
+              ],
+              "name": "Values",
+              "tdesc": {
+                "str": "VT_VARIANT",
+                "vt": "VT_VARIANT"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN"
+              ],
+              "name": "pCB",
+              "tdesc": {
+                "pointee": {
+                  "href": 300,
+                  "ref": "IWriteVarAsyncCallback2",
+                  "str": "IWriteVarAsyncCallback2",
+                  "vt": "VT_USERDEFINED"
+                },
+                "str": "IWriteVarAsyncCallback2*",
+                "vt": "VT_PTR"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN"
+              ],
+              "name": "pDisp",
+              "tdesc": {
+                "str": "VT_DISPATCH",
+                "vt": "VT_DISPATCH"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FOUT"
+              ],
+              "name": "pReqID",
+              "tdesc": {
+                "pointee": {
+                  "str": "VT_I4",
+                  "vt": "VT_I4"
+                },
+                "str": "VT_I4*",
+                "vt": "VT_PTR"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FOUT",
+                "PARAMFLAG_FOPT"
+              ],
+              "name": "pErrors",
+              "tdesc": {
+                "pointee": {
+                  "str": "VT_VARIANT",
+                  "vt": "VT_VARIANT"
+                },
+                "str": "VT_VARIANT*",
+                "vt": "VT_PTR"
+              }
+            }
+          ],
+          "ret": {
+            "str": "VT_HRESULT",
+            "vt": "VT_HRESULT"
+          },
+          "vtable_offset": 40
+        },
+        {
+          "callconv": "CC_STDCALL",
+          "memid": 5,
+          "name": "ReadVarCyclic",
+          "params": [
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN",
+                "PARAMFLAG_FOPT"
+              ],
+              "name": "Names",
+              "tdesc": {
+                "str": "VT_VARIANT",
+                "vt": "VT_VARIANT"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN",
+                "PARAMFLAG_FOPT"
+              ],
+              "name": "ServerHandles",
+              "tdesc": {
+                "str": "VT_VARIANT",
+                "vt": "VT_VARIANT"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN"
+              ],
+              "name": "ClientHandles",
+              "tdesc": {
+                "str": "VT_VARIANT",
+                "vt": "VT_VARIANT"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN"
+              ],
+              "name": "pCB",
+              "tdesc": {
+                "pointee": {
+                  "href": 200,
+                  "ref": "IReadVarAsyncCallback2",
+                  "str": "IReadVarAsyncCallback2",
+                  "vt": "VT_USERDEFINED"
+                },
+                "str": "IReadVarAsyncCallback2*",
+                "vt": "VT_PTR"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN"
+              ],
+              "name": "pDisp",
+              "tdesc": {
+                "str": "VT_DISPATCH",
+                "vt": "VT_DISPATCH"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN"
+              ],
+              "name": "Deadbands",
+              "tdesc": {
+                "str": "VT_VARIANT",
+                "vt": "VT_VARIANT"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN"
+              ],
+              "name": "RequestedUpdateRates",
+              "tdesc": {
+                "str": "VT_VARIANT",
+                "vt": "VT_VARIANT"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FOUT"
+              ],
+              "name": "pRevisedUpdateRates",
+              "tdesc": {
+                "pointee": {
+                  "str": "VT_VARIANT",
+                  "vt": "VT_VARIANT"
+                },
+                "str": "VT_VARIANT*",
+                "vt": "VT_PTR"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN",
+                "PARAMFLAG_FOUT"
+              ],
+              "name": "pReqID",
+              "tdesc": {
+                "pointee": {
+                  "str": "VT_I4",
+                  "vt": "VT_I4"
+                },
+                "str": "VT_I4*",
+                "vt": "VT_PTR"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FOUT",
+                "PARAMFLAG_FOPT"
+              ],
+              "name": "pErrors",
+              "tdesc": {
+                "pointee": {
+                  "str": "VT_VARIANT",
+                  "vt": "VT_VARIANT"
+                },
+                "str": "VT_VARIANT*",
+                "vt": "VT_PTR"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN",
+                "PARAMFLAG_FOPT"
+              ],
+              "name": "CriticalValues",
+              "tdesc": {
+                "str": "VT_VARIANT",
+                "vt": "VT_VARIANT"
+              }
+            }
+          ],
+          "ret": {
+            "str": "VT_HRESULT",
+            "vt": "VT_HRESULT"
+          },
+          "vtable_offset": 44
+        },
+        {
+          "callconv": "CC_STDCALL",
+          "memid": 6,
+          "name": "RemoveCyclicVariables",
+          "params": [
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN"
+              ],
+              "name": "ReqID",
+              "tdesc": {
+                "str": "VT_I4",
+                "vt": "VT_I4"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN",
+                "PARAMFLAG_FOPT"
+              ],
+              "name": "Names",
+              "tdesc": {
+                "str": "VT_VARIANT",
+                "vt": "VT_VARIANT"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN",
+                "PARAMFLAG_FOPT"
+              ],
+              "name": "ServerHandles",
+              "tdesc": {
+                "str": "VT_VARIANT",
+                "vt": "VT_VARIANT"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN",
+                "PARAMFLAG_FOPT"
+              ],
+              "name": "ClientHandles",
+              "tdesc": {
+                "str": "VT_VARIANT",
+                "vt": "VT_VARIANT"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FOUT",
+                "PARAMFLAG_FOPT"
+              ],
+              "name": "pErrors",
+              "tdesc": {
+                "pointee": {
+                  "str": "VT_VARIANT",
+                  "vt": "VT_VARIANT"
+                },
+                "str": "VT_VARIANT*",
+                "vt": "VT_PTR"
+              }
+            }
+          ],
+          "ret": {
+            "str": "VT_HRESULT",
+            "vt": "VT_HRESULT"
+          },
+          "vtable_offset": 48
+        },
+        {
+          "callconv": "CC_STDCALL",
+          "memid": 7,
+          "name": "LookupVariables",
+          "params": [
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN",
+                "PARAMFLAG_FOUT",
+                "PARAMFLAG_FOPT"
+              ],
+              "name": "ServerHandles",
+              "tdesc": {
+                "pointee": {
+                  "str": "VT_VARIANT",
+                  "vt": "VT_VARIANT"
+                },
+                "str": "VT_VARIANT*",
+                "vt": "VT_PTR"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN",
+                "PARAMFLAG_FOUT",
+                "PARAMFLAG_FOPT"
+              ],
+              "name": "pNames",
+              "tdesc": {
+                "pointee": {
+                  "str": "VT_VARIANT",
+                  "vt": "VT_VARIANT"
+                },
+                "str": "VT_VARIANT*",
+                "vt": "VT_PTR"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FOUT"
+              ],
+              "name": "pVarTypes",
+              "tdesc": {
+                "pointee": {
+                  "str": "VT_VARIANT",
+                  "vt": "VT_VARIANT"
+                },
+                "str": "VT_VARIANT*",
+                "vt": "VT_PTR"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FOUT",
+                "PARAMFLAG_FOPT"
+              ],
+              "name": "pAccessRights",
+              "tdesc": {
+                "pointee": {
+                  "str": "VT_VARIANT",
+                  "vt": "VT_VARIANT"
+                },
+                "str": "VT_VARIANT*",
+                "vt": "VT_PTR"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FOUT",
+                "PARAMFLAG_FOPT"
+              ],
+              "name": "pErrors",
+              "tdesc": {
+                "pointee": {
+                  "str": "VT_VARIANT",
+                  "vt": "VT_VARIANT"
+                },
+                "str": "VT_VARIANT*",
+                "vt": "VT_PTR"
+              }
+            }
+          ],
+          "ret": {
+            "str": "VT_HRESULT",
+            "vt": "VT_HRESULT"
+          },
+          "vtable_offset": 52
+        },
+        {
+          "callconv": "CC_STDCALL",
+          "memid": 8,
+          "name": "Cancel",
+          "params": [
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN"
+              ],
+              "name": "ReqID",
+              "tdesc": {
+                "str": "VT_I4",
+                "vt": "VT_I4"
+              }
+            }
+          ],
+          "ret": {
+            "str": "VT_HRESULT",
+            "vt": "VT_HRESULT"
+          },
+          "vtable_offset": 56
+        },
+        {
+          "callconv": "CC_STDCALL",
+          "memid": 9,
+          "name": "Suspend",
+          "params": [
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN"
+              ],
+              "name": "ReqID",
+              "tdesc": {
+                "str": "VT_I4",
+                "vt": "VT_I4"
+              }
+            }
+          ],
+          "ret": {
+            "str": "VT_HRESULT",
+            "vt": "VT_HRESULT"
+          },
+          "vtable_offset": 60
+        },
+        {
+          "callconv": "CC_STDCALL",
+          "memid": 10,
+          "name": "Resume",
+          "params": [
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN"
+              ],
+              "name": "ReqID",
+              "tdesc": {
+                "str": "VT_I4",
+                "vt": "VT_I4"
+              }
+            }
+          ],
+          "ret": {
+            "str": "VT_HRESULT",
+            "vt": "VT_HRESULT"
+          },
+          "vtable_offset": 64
+        },
+        {
+          "callconv": "CC_STDCALL",
+          "memid": 11,
+          "name": "Remove",
+          "params": [
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN"
+              ],
+              "name": "ServerHandles",
+              "tdesc": {
+                "str": "VT_VARIANT",
+                "vt": "VT_VARIANT"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FOUT",
+                "PARAMFLAG_FOPT"
+              ],
+              "name": "pErrors",
+              "tdesc": {
+                "pointee": {
+                  "str": "VT_VARIANT",
+                  "vt": "VT_VARIANT"
+                },
+                "str": "VT_VARIANT*",
+                "vt": "VT_PTR"
+              }
+            }
+          ],
+          "ret": {
+            "str": "VT_HRESULT",
+            "vt": "VT_HRESULT"
+          },
+          "vtable_offset": 68
+        },
+        {
+          "callconv": "CC_STDCALL",
+          "memid": 12,
+          "name": "CalculateRequestRates",
+          "params": [
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN"
+              ],
+              "name": "RequestedUpdateRates",
+              "tdesc": {
+                "str": "VT_VARIANT",
+                "vt": "VT_VARIANT"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FOUT"
+              ],
+              "name": "pRevisedUpdateRates",
+              "tdesc": {
+                "pointee": {
+                  "str": "VT_VARIANT",
+                  "vt": "VT_VARIANT"
+                },
+                "str": "VT_VARIANT*",
+                "vt": "VT_PTR"
+              }
+            }
+          ],
+          "ret": {
+            "str": "VT_HRESULT",
+            "vt": "VT_HRESULT"
+          },
+          "vtable_offset": 72
+        }
+      ]
+    },
+    "IWriteVarAsyncCallback": {
+      "flags": [
+        "TYPEFLAG_FDUAL",
+        "TYPEFLAG_FOLEAUTOMATION",
+        "TYPEFLAG_FDISPATCHABLE"
+      ],
+      "guid": "c48394e2-ec79-11d0-99a9-00a0246d1792",
+      "methods": [
+        {
+          "callconv": "CC_STDCALL",
+          "memid": 1,
+          "name": "OnWriteComplete",
+          "params": [
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN"
+              ],
+              "name": "Qualities",
+              "tdesc": {
+                "str": "VT_VARIANT",
+                "vt": "VT_VARIANT"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN"
+              ],
+              "name": "ClientHandles",
+              "tdesc": {
+                "str": "VT_VARIANT",
+                "vt": "VT_VARIANT"
+              }
+            }
+          ],
+          "ret": {
+            "str": "VT_HRESULT",
+            "vt": "VT_HRESULT"
+          },
+          "vtable_offset": 28
+        }
+      ]
+    },
+    "IWriteVarAsyncCallback2": {
+      "flags": [
+        "TYPEFLAG_FDUAL",
+        "TYPEFLAG_FOLEAUTOMATION",
+        "TYPEFLAG_FDISPATCHABLE"
+      ],
+      "guid": "1143eda0-bd9b-11d1-bd5a-0080c7f7898a",
+      "methods": [
+        {
+          "callconv": "CC_STDCALL",
+          "memid": 1,
+          "name": "OnWriteComplete",
+          "params": [
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN"
+              ],
+              "name": "ClientHandles",
+              "tdesc": {
+                "str": "VT_VARIANT",
+                "vt": "VT_VARIANT"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN",
+                "PARAMFLAG_FOPT"
+              ],
+              "name": "Errors",
+              "tdesc": {
+                "str": "VT_VARIANT",
+                "vt": "VT_VARIANT"
+              }
+            }
+          ],
+          "ret": {
+            "str": "VT_HRESULT",
+            "vt": "VT_HRESULT"
+          },
+          "vtable_offset": 28
+        }
+      ]
+    }
+  },
+  "old": {
+    "IReadVarAsyncCallback": {
+      "flags": [
+        "TYPEFLAG_FDUAL",
+        "TYPEFLAG_FOLEAUTOMATION",
+        "TYPEFLAG_FDISPATCHABLE"
+      ],
+      "guid": "c48394e1-ec79-11d0-99a9-00a0246d1792",
+      "methods": [
+        {
+          "callconv": "CC_STDCALL",
+          "memid": 1,
+          "name": "OnDataChanged",
+          "params": [
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN"
+              ],
+              "name": "Values",
+              "tdesc": {
+                "str": "VT_VARIANT",
+                "vt": "VT_VARIANT"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN"
+              ],
+              "name": "Qualities",
+              "tdesc": {
+                "str": "VT_VARIANT",
+                "vt": "VT_VARIANT"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN"
+              ],
+              "name": "ClientHandles",
+              "tdesc": {
+                "str": "VT_VARIANT",
+                "vt": "VT_VARIANT"
+              }
+            }
+          ],
+          "ret": {
+            "str": "VT_HRESULT",
+            "vt": "VT_HRESULT"
+          },
+          "vtable_offset": 28
+        }
+      ]
+    },
+    "IReadVarAsyncCallback2": {
+      "flags": [
+        "TYPEFLAG_FDUAL",
+        "TYPEFLAG_FOLEAUTOMATION",
+        "TYPEFLAG_FDISPATCHABLE"
+      ],
+      "guid": "9cd0d500-bd9a-11d1-bd5a-0080c7f7898a",
+      "methods": [
+        {
+          "callconv": "CC_STDCALL",
+          "memid": 1,
+          "name": "OnDataChanged",
+          "params": [
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN"
+              ],
+              "name": "Values",
+              "tdesc": {
+                "str": "VT_VARIANT",
+                "vt": "VT_VARIANT"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN"
+              ],
+              "name": "TimeStamps",
+              "tdesc": {
+                "str": "VT_VARIANT",
+                "vt": "VT_VARIANT"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN"
+              ],
+              "name": "ClientHandles",
+              "tdesc": {
+                "str": "VT_VARIANT",
+                "vt": "VT_VARIANT"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN",
+                "PARAMFLAG_FOPT"
+              ],
+              "name": "Qualities",
+              "tdesc": {
+                "str": "VT_VARIANT",
+                "vt": "VT_VARIANT"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN",
+                "PARAMFLAG_FOPT"
+              ],
+              "name": "ServerInfos",
+              "tdesc": {
+                "str": "VT_VARIANT",
+                "vt": "VT_VARIANT"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN",
+                "PARAMFLAG_FOPT"
+              ],
+              "name": "Errors",
+              "tdesc": {
+                "str": "VT_VARIANT",
+                "vt": "VT_VARIANT"
+              }
+            }
+          ],
+          "ret": {
+            "str": "VT_HRESULT",
+            "vt": "VT_HRESULT"
+          },
+          "vtable_offset": 28
+        }
+      ]
+    },
+    "IVar": {
+      "flags": [
+        "TYPEFLAG_FDUAL",
+        "TYPEFLAG_FOLEAUTOMATION",
+        "TYPEFLAG_FDISPATCHABLE"
+      ],
+      "guid": "c48394e0-ec79-11d0-99a9-00a0246d1792",
+      "methods": [
+        {
+          "callconv": "CC_STDCALL",
+          "memid": 1,
+          "name": "ReadVar",
+          "params": [
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN"
+              ],
+              "name": "Names",
+              "tdesc": {
+                "str": "VT_VARIANT",
+                "vt": "VT_VARIANT"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN",
+                "PARAMFLAG_FOUT"
+              ],
+              "name": "pServerHandles",
+              "tdesc": {
+                "pointee": {
+                  "str": "VT_VARIANT",
+                  "vt": "VT_VARIANT"
+                },
+                "str": "VT_VARIANT*",
+                "vt": "VT_PTR"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN"
+              ],
+              "name": "CacheDevice",
+              "tdesc": {
+                "str": "VT_I2",
+                "vt": "VT_I2"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FOUT"
+              ],
+              "name": "pValues",
+              "tdesc": {
+                "pointee": {
+                  "str": "VT_VARIANT",
+                  "vt": "VT_VARIANT"
+                },
+                "str": "VT_VARIANT*",
+                "vt": "VT_PTR"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FOUT",
+                "PARAMFLAG_FOPT"
+              ],
+              "name": "pErrors",
+              "tdesc": {
+                "pointee": {
+                  "str": "VT_VARIANT",
+                  "vt": "VT_VARIANT"
+                },
+                "str": "VT_VARIANT*",
+                "vt": "VT_PTR"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FOUT",
+                "PARAMFLAG_FOPT"
+              ],
+              "name": "pQualities",
+              "tdesc": {
+                "pointee": {
+                  "str": "VT_VARIANT",
+                  "vt": "VT_VARIANT"
+                },
+                "str": "VT_VARIANT*",
+                "vt": "VT_PTR"
+              }
+            }
+          ],
+          "ret": {
+            "str": "VT_HRESULT",
+            "vt": "VT_HRESULT"
+          },
+          "vtable_offset": 28
+        },
+        {
+          "callconv": "CC_STDCALL",
+          "memid": 2,
+          "name": "WriteVar",
+          "params": [
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN"
+              ],
+              "name": "Names",
+              "tdesc": {
+                "str": "VT_VARIANT",
+                "vt": "VT_VARIANT"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN",
+                "PARAMFLAG_FOUT"
+              ],
+              "name": "pServerHandles",
+              "tdesc": {
+                "pointee": {
+                  "str": "VT_VARIANT",
+                  "vt": "VT_VARIANT"
+                },
+                "str": "VT_VARIANT*",
+                "vt": "VT_PTR"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN"
+              ],
+              "name": "Values",
+              "tdesc": {
+                "str": "VT_VARIANT",
+                "vt": "VT_VARIANT"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FOUT",
+                "PARAMFLAG_FOPT"
+              ],
+              "name": "pErrors",
+              "tdesc": {
+                "pointee": {
+                  "str": "VT_VARIANT",
+                  "vt": "VT_VARIANT"
+                },
+                "str": "VT_VARIANT*",
+                "vt": "VT_PTR"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FOUT",
+                "PARAMFLAG_FOPT"
+              ],
+              "name": "pQualities",
+              "tdesc": {
+                "pointee": {
+                  "str": "VT_VARIANT",
+                  "vt": "VT_VARIANT"
+                },
+                "str": "VT_VARIANT*",
+                "vt": "VT_PTR"
+              }
+            }
+          ],
+          "ret": {
+            "str": "VT_HRESULT",
+            "vt": "VT_HRESULT"
+          },
+          "vtable_offset": 32
+        },
+        {
+          "callconv": "CC_STDCALL",
+          "memid": 3,
+          "name": "ReadVarAsync",
+          "params": [
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN"
+              ],
+              "name": "Names",
+              "tdesc": {
+                "str": "VT_VARIANT",
+                "vt": "VT_VARIANT"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN",
+                "PARAMFLAG_FOUT"
+              ],
+              "name": "pServerHandles",
+              "tdesc": {
+                "pointee": {
+                  "str": "VT_VARIANT",
+                  "vt": "VT_VARIANT"
+                },
+                "str": "VT_VARIANT*",
+                "vt": "VT_PTR"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN"
+              ],
+              "name": "ClientHandles",
+              "tdesc": {
+                "str": "VT_VARIANT",
+                "vt": "VT_VARIANT"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN"
+              ],
+              "name": "CacheDevice",
+              "tdesc": {
+                "str": "VT_I2",
+                "vt": "VT_I2"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN"
+              ],
+              "name": "pCB",
+              "tdesc": {
+                "pointee": {
+                  "href": 500,
+                  "ref": "IReadVarAsyncCallback",
+                  "str": "IReadVarAsyncCallback",
+                  "vt": "VT_USERDEFINED"
+                },
+                "str": "IReadVarAsyncCallback*",
+                "vt": "VT_PTR"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN"
+              ],
+              "name": "pDisp",
+              "tdesc": {
+                "str": "VT_DISPATCH",
+                "vt": "VT_DISPATCH"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FOUT"
+              ],
+              "name": "pReqID",
+              "tdesc": {
+                "pointee": {
+                  "str": "VT_I4",
+                  "vt": "VT_I4"
+                },
+                "str": "VT_I4*",
+                "vt": "VT_PTR"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FOUT",
+                "PARAMFLAG_FOPT"
+              ],
+              "name": "pErrors",
+              "tdesc": {
+                "pointee": {
+                  "str": "VT_VARIANT",
+                  "vt": "VT_VARIANT"
+                },
+                "str": "VT_VARIANT*",
+                "vt": "VT_PTR"
+              }
+            }
+          ],
+          "ret": {
+            "str": "VT_HRESULT",
+            "vt": "VT_HRESULT"
+          },
+          "vtable_offset": 36
+        },
+        {
+          "callconv": "CC_STDCALL",
+          "memid": 4,
+          "name": "WriteVarAsync",
+          "params": [
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN"
+              ],
+              "name": "Names",
+              "tdesc": {
+                "str": "VT_VARIANT",
+                "vt": "VT_VARIANT"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN",
+                "PARAMFLAG_FOUT"
+              ],
+              "name": "pServerHandles",
+              "tdesc": {
+                "pointee": {
+                  "str": "VT_VARIANT",
+                  "vt": "VT_VARIANT"
+                },
+                "str": "VT_VARIANT*",
+                "vt": "VT_PTR"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN"
+              ],
+              "name": "ClientHandles",
+              "tdesc": {
+                "str": "VT_VARIANT",
+                "vt": "VT_VARIANT"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN"
+              ],
+              "name": "Values",
+              "tdesc": {
+                "str": "VT_VARIANT",
+                "vt": "VT_VARIANT"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN"
+              ],
+              "name": "pCB",
+              "tdesc": {
+                "pointee": {
+                  "href": 600,
+                  "ref": "IWriteVarAsyncCallback",
+                  "str": "IWriteVarAsyncCallback",
+                  "vt": "VT_USERDEFINED"
+                },
+                "str": "IWriteVarAsyncCallback*",
+                "vt": "VT_PTR"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN"
+              ],
+              "name": "pDisp",
+              "tdesc": {
+                "str": "VT_DISPATCH",
+                "vt": "VT_DISPATCH"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FOUT"
+              ],
+              "name": "pReqID",
+              "tdesc": {
+                "pointee": {
+                  "str": "VT_I4",
+                  "vt": "VT_I4"
+                },
+                "str": "VT_I4*",
+                "vt": "VT_PTR"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FOUT",
+                "PARAMFLAG_FOPT"
+              ],
+              "name": "pErrors",
+              "tdesc": {
+                "pointee": {
+                  "str": "VT_VARIANT",
+                  "vt": "VT_VARIANT"
+                },
+                "str": "VT_VARIANT*",
+                "vt": "VT_PTR"
+              }
+            }
+          ],
+          "ret": {
+            "str": "VT_HRESULT",
+            "vt": "VT_HRESULT"
+          },
+          "vtable_offset": 40
+        },
+        {
+          "callconv": "CC_STDCALL",
+          "memid": 5,
+          "name": "ReadVarCyclic",
+          "params": [
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN"
+              ],
+              "name": "Names",
+              "tdesc": {
+                "str": "VT_VARIANT",
+                "vt": "VT_VARIANT"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN",
+                "PARAMFLAG_FOUT"
+              ],
+              "name": "pServerHandles",
+              "tdesc": {
+                "pointee": {
+                  "str": "VT_VARIANT",
+                  "vt": "VT_VARIANT"
+                },
+                "str": "VT_VARIANT*",
+                "vt": "VT_PTR"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN"
+              ],
+              "name": "ClientHandles",
+              "tdesc": {
+                "str": "VT_VARIANT",
+                "vt": "VT_VARIANT"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN"
+              ],
+              "name": "pCB",
+              "tdesc": {
+                "pointee": {
+                  "href": 500,
+                  "ref": "IReadVarAsyncCallback",
+                  "str": "IReadVarAsyncCallback",
+                  "vt": "VT_USERDEFINED"
+                },
+                "str": "IReadVarAsyncCallback*",
+                "vt": "VT_PTR"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN"
+              ],
+              "name": "pDisp",
+              "tdesc": {
+                "str": "VT_DISPATCH",
+                "vt": "VT_DISPATCH"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN"
+              ],
+              "name": "Deadbands",
+              "tdesc": {
+                "str": "VT_VARIANT",
+                "vt": "VT_VARIANT"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN"
+              ],
+              "name": "RequestedUpdateRates",
+              "tdesc": {
+                "str": "VT_VARIANT",
+                "vt": "VT_VARIANT"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FOUT"
+              ],
+              "name": "RevisedUpdateRates",
+              "tdesc": {
+                "pointee": {
+                  "str": "VT_VARIANT",
+                  "vt": "VT_VARIANT"
+                },
+                "str": "VT_VARIANT*",
+                "vt": "VT_PTR"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN",
+                "PARAMFLAG_FOUT"
+              ],
+              "name": "pReqID",
+              "tdesc": {
+                "pointee": {
+                  "str": "VT_I4",
+                  "vt": "VT_I4"
+                },
+                "str": "VT_I4*",
+                "vt": "VT_PTR"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FOUT",
+                "PARAMFLAG_FOPT"
+              ],
+              "name": "pErrors",
+              "tdesc": {
+                "pointee": {
+                  "str": "VT_VARIANT",
+                  "vt": "VT_VARIANT"
+                },
+                "str": "VT_VARIANT*",
+                "vt": "VT_PTR"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN",
+                "PARAMFLAG_FOPT"
+              ],
+              "name": "CriticalValues",
+              "tdesc": {
+                "str": "VT_VARIANT",
+                "vt": "VT_VARIANT"
+              }
+            }
+          ],
+          "ret": {
+            "str": "VT_HRESULT",
+            "vt": "VT_HRESULT"
+          },
+          "vtable_offset": 44
+        },
+        {
+          "callconv": "CC_STDCALL",
+          "memid": 6,
+          "name": "RemoveCyclicVariables",
+          "params": [
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN"
+              ],
+              "name": "ReqID",
+              "tdesc": {
+                "str": "VT_I4",
+                "vt": "VT_I4"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN"
+              ],
+              "name": "Names",
+              "tdesc": {
+                "str": "VT_VARIANT",
+                "vt": "VT_VARIANT"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN"
+              ],
+              "name": "ServerHandles",
+              "tdesc": {
+                "str": "VT_VARIANT",
+                "vt": "VT_VARIANT"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FOUT",
+                "PARAMFLAG_FOPT"
+              ],
+              "name": "pErrors",
+              "tdesc": {
+                "pointee": {
+                  "str": "VT_VARIANT",
+                  "vt": "VT_VARIANT"
+                },
+                "str": "VT_VARIANT*",
+                "vt": "VT_PTR"
+              }
+            }
+          ],
+          "ret": {
+            "str": "VT_HRESULT",
+            "vt": "VT_HRESULT"
+          },
+          "vtable_offset": 48
+        },
+        {
+          "callconv": "CC_STDCALL",
+          "memid": 7,
+          "name": "LookupVariables",
+          "params": [
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN",
+                "PARAMFLAG_FOUT"
+              ],
+              "name": "pServerHandles",
+              "tdesc": {
+                "pointee": {
+                  "str": "VT_VARIANT",
+                  "vt": "VT_VARIANT"
+                },
+                "str": "VT_VARIANT*",
+                "vt": "VT_PTR"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN",
+                "PARAMFLAG_FOUT"
+              ],
+              "name": "pNames",
+              "tdesc": {
+                "pointee": {
+                  "str": "VT_VARIANT",
+                  "vt": "VT_VARIANT"
+                },
+                "str": "VT_VARIANT*",
+                "vt": "VT_PTR"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FOUT"
+              ],
+              "name": "pVarTypes",
+              "tdesc": {
+                "pointee": {
+                  "str": "VT_VARIANT",
+                  "vt": "VT_VARIANT"
+                },
+                "str": "VT_VARIANT*",
+                "vt": "VT_PTR"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FOUT",
+                "PARAMFLAG_FOPT"
+              ],
+              "name": "pAccessRights",
+              "tdesc": {
+                "pointee": {
+                  "str": "VT_VARIANT",
+                  "vt": "VT_VARIANT"
+                },
+                "str": "VT_VARIANT*",
+                "vt": "VT_PTR"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FOUT",
+                "PARAMFLAG_FOPT"
+              ],
+              "name": "pErrors",
+              "tdesc": {
+                "pointee": {
+                  "str": "VT_VARIANT",
+                  "vt": "VT_VARIANT"
+                },
+                "str": "VT_VARIANT*",
+                "vt": "VT_PTR"
+              }
+            }
+          ],
+          "ret": {
+            "str": "VT_HRESULT",
+            "vt": "VT_HRESULT"
+          },
+          "vtable_offset": 52
+        },
+        {
+          "callconv": "CC_STDCALL",
+          "memid": 8,
+          "name": "Cancel",
+          "params": [
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN"
+              ],
+              "name": "ReqID",
+              "tdesc": {
+                "str": "VT_I4",
+                "vt": "VT_I4"
+              }
+            }
+          ],
+          "ret": {
+            "str": "VT_HRESULT",
+            "vt": "VT_HRESULT"
+          },
+          "vtable_offset": 56
+        },
+        {
+          "callconv": "CC_STDCALL",
+          "memid": 9,
+          "name": "Suspend",
+          "params": [
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN"
+              ],
+              "name": "ReqID",
+              "tdesc": {
+                "str": "VT_I4",
+                "vt": "VT_I4"
+              }
+            }
+          ],
+          "ret": {
+            "str": "VT_HRESULT",
+            "vt": "VT_HRESULT"
+          },
+          "vtable_offset": 60
+        },
+        {
+          "callconv": "CC_STDCALL",
+          "memid": 10,
+          "name": "Resume",
+          "params": [
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN"
+              ],
+              "name": "ReqID",
+              "tdesc": {
+                "str": "VT_I4",
+                "vt": "VT_I4"
+              }
+            }
+          ],
+          "ret": {
+            "str": "VT_HRESULT",
+            "vt": "VT_HRESULT"
+          },
+          "vtable_offset": 64
+        },
+        {
+          "callconv": "CC_STDCALL",
+          "memid": 11,
+          "name": "Remove",
+          "params": [
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN"
+              ],
+              "name": "ServerHandles",
+              "tdesc": {
+                "str": "VT_VARIANT",
+                "vt": "VT_VARIANT"
+              }
+            }
+          ],
+          "ret": {
+            "str": "VT_HRESULT",
+            "vt": "VT_HRESULT"
+          },
+          "vtable_offset": 68
+        },
+        {
+          "callconv": "CC_STDCALL",
+          "memid": 12,
+          "name": "CalculateRequestRates",
+          "params": [
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN"
+              ],
+              "name": "RequestedUpdateRates",
+              "tdesc": {
+                "str": "VT_VARIANT",
+                "vt": "VT_VARIANT"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FOUT"
+              ],
+              "name": "pRevisedUpdateRates",
+              "tdesc": {
+                "pointee": {
+                  "str": "VT_VARIANT",
+                  "vt": "VT_VARIANT"
+                },
+                "str": "VT_VARIANT*",
+                "vt": "VT_PTR"
+              }
+            }
+          ],
+          "ret": {
+            "str": "VT_HRESULT",
+            "vt": "VT_HRESULT"
+          },
+          "vtable_offset": 72
+        }
+      ]
+    },
+    "IVar2": {
+      "flags": [
+        "TYPEFLAG_FDUAL",
+        "TYPEFLAG_FOLEAUTOMATION",
+        "TYPEFLAG_FDISPATCHABLE"
+      ],
+      "guid": "23ebede0-bd9b-11d1-bd5a-0080c7f7898a",
+      "methods": [
+        {
+          "callconv": "CC_STDCALL",
+          "memid": 1,
+          "name": "ReadVar",
+          "params": [
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN",
+                "PARAMFLAG_FOPT"
+              ],
+              "name": "Names",
+              "tdesc": {
+                "str": "VT_VARIANT",
+                "vt": "VT_VARIANT"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN",
+                "PARAMFLAG_FOPT"
+              ],
+              "name": "ServerHandles",
+              "tdesc": {
+                "str": "VT_VARIANT",
+                "vt": "VT_VARIANT"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN"
+              ],
+              "name": "CacheDevice",
+              "tdesc": {
+                "str": "VT_I2",
+                "vt": "VT_I2"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FOUT"
+              ],
+              "name": "pValues",
+              "tdesc": {
+                "pointee": {
+                  "str": "VT_VARIANT",
+                  "vt": "VT_VARIANT"
+                },
+                "str": "VT_VARIANT*",
+                "vt": "VT_PTR"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FOUT",
+                "PARAMFLAG_FOPT"
+              ],
+              "name": "pErrors",
+              "tdesc": {
+                "pointee": {
+                  "str": "VT_VARIANT",
+                  "vt": "VT_VARIANT"
+                },
+                "str": "VT_VARIANT*",
+                "vt": "VT_PTR"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FOUT",
+                "PARAMFLAG_FOPT"
+              ],
+              "name": "pQualities",
+              "tdesc": {
+                "pointee": {
+                  "str": "VT_VARIANT",
+                  "vt": "VT_VARIANT"
+                },
+                "str": "VT_VARIANT*",
+                "vt": "VT_PTR"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FOUT",
+                "PARAMFLAG_FOPT"
+              ],
+              "name": "pServerInfos",
+              "tdesc": {
+                "pointee": {
+                  "str": "VT_VARIANT",
+                  "vt": "VT_VARIANT"
+                },
+                "str": "VT_VARIANT*",
+                "vt": "VT_PTR"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FOUT",
+                "PARAMFLAG_FOPT"
+              ],
+              "name": "pTimeStamps",
+              "tdesc": {
+                "pointee": {
+                  "str": "VT_VARIANT",
+                  "vt": "VT_VARIANT"
+                },
+                "str": "VT_VARIANT*",
+                "vt": "VT_PTR"
+              }
+            }
+          ],
+          "ret": {
+            "str": "VT_HRESULT",
+            "vt": "VT_HRESULT"
+          },
+          "vtable_offset": 28
+        },
+        {
+          "callconv": "CC_STDCALL",
+          "memid": 2,
+          "name": "WriteVar",
+          "params": [
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN",
+                "PARAMFLAG_FOPT"
+              ],
+              "name": "Names",
+              "tdesc": {
+                "str": "VT_VARIANT",
+                "vt": "VT_VARIANT"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN",
+                "PARAMFLAG_FOPT"
+              ],
+              "name": "ServerHandles",
+              "tdesc": {
+                "str": "VT_VARIANT",
+                "vt": "VT_VARIANT"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN"
+              ],
+              "name": "Values",
+              "tdesc": {
+                "str": "VT_VARIANT",
+                "vt": "VT_VARIANT"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FOUT",
+                "PARAMFLAG_FOPT"
+              ],
+              "name": "pErrors",
+              "tdesc": {
+                "pointee": {
+                  "str": "VT_VARIANT",
+                  "vt": "VT_VARIANT"
+                },
+                "str": "VT_VARIANT*",
+                "vt": "VT_PTR"
+              }
+            }
+          ],
+          "ret": {
+            "str": "VT_HRESULT",
+            "vt": "VT_HRESULT"
+          },
+          "vtable_offset": 32
+        },
+        {
+          "callconv": "CC_STDCALL",
+          "memid": 3,
+          "name": "ReadVarAsync",
+          "params": [
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN",
+                "PARAMFLAG_FOPT"
+              ],
+              "name": "Names",
+              "tdesc": {
+                "str": "VT_VARIANT",
+                "vt": "VT_VARIANT"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN",
+                "PARAMFLAG_FOPT"
+              ],
+              "name": "ServerHandles",
+              "tdesc": {
+                "str": "VT_VARIANT",
+                "vt": "VT_VARIANT"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN"
+              ],
+              "name": "ClientHandles",
+              "tdesc": {
+                "str": "VT_VARIANT",
+                "vt": "VT_VARIANT"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN"
+              ],
+              "name": "CacheDevice",
+              "tdesc": {
+                "str": "VT_I2",
+                "vt": "VT_I2"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN"
+              ],
+              "name": "pCB",
+              "tdesc": {
+                "pointee": {
+                  "href": 200,
+                  "ref": "IReadVarAsyncCallback2",
+                  "str": "IReadVarAsyncCallback2",
+                  "vt": "VT_USERDEFINED"
+                },
+                "str": "IReadVarAsyncCallback2*",
+                "vt": "VT_PTR"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN"
+              ],
+              "name": "pDisp",
+              "tdesc": {
+                "str": "VT_DISPATCH",
+                "vt": "VT_DISPATCH"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FOUT"
+              ],
+              "name": "pReqID",
+              "tdesc": {
+                "pointee": {
+                  "str": "VT_I4",
+                  "vt": "VT_I4"
+                },
+                "str": "VT_I4*",
+                "vt": "VT_PTR"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FOUT",
+                "PARAMFLAG_FOPT"
+              ],
+              "name": "pErrors",
+              "tdesc": {
+                "pointee": {
+                  "str": "VT_VARIANT",
+                  "vt": "VT_VARIANT"
+                },
+                "str": "VT_VARIANT*",
+                "vt": "VT_PTR"
+              }
+            }
+          ],
+          "ret": {
+            "str": "VT_HRESULT",
+            "vt": "VT_HRESULT"
+          },
+          "vtable_offset": 36
+        },
+        {
+          "callconv": "CC_STDCALL",
+          "memid": 4,
+          "name": "WriteVarAsync",
+          "params": [
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN",
+                "PARAMFLAG_FOPT"
+              ],
+              "name": "Names",
+              "tdesc": {
+                "str": "VT_VARIANT",
+                "vt": "VT_VARIANT"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN",
+                "PARAMFLAG_FOPT"
+              ],
+              "name": "ServerHandles",
+              "tdesc": {
+                "str": "VT_VARIANT",
+                "vt": "VT_VARIANT"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN"
+              ],
+              "name": "ClientHandles",
+              "tdesc": {
+                "str": "VT_VARIANT",
+                "vt": "VT_VARIANT"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN"
+              ],
+              "name": "Values",
+              "tdesc": {
+                "str": "VT_VARIANT",
+                "vt": "VT_VARIANT"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN"
+              ],
+              "name": "pCB",
+              "tdesc": {
+                "pointee": {
+                  "href": 300,
+                  "ref": "IWriteVarAsyncCallback2",
+                  "str": "IWriteVarAsyncCallback2",
+                  "vt": "VT_USERDEFINED"
+                },
+                "str": "IWriteVarAsyncCallback2*",
+                "vt": "VT_PTR"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN"
+              ],
+              "name": "pDisp",
+              "tdesc": {
+                "str": "VT_DISPATCH",
+                "vt": "VT_DISPATCH"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FOUT"
+              ],
+              "name": "pReqID",
+              "tdesc": {
+                "pointee": {
+                  "str": "VT_I4",
+                  "vt": "VT_I4"
+                },
+                "str": "VT_I4*",
+                "vt": "VT_PTR"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FOUT",
+                "PARAMFLAG_FOPT"
+              ],
+              "name": "pErrors",
+              "tdesc": {
+                "pointee": {
+                  "str": "VT_VARIANT",
+                  "vt": "VT_VARIANT"
+                },
+                "str": "VT_VARIANT*",
+                "vt": "VT_PTR"
+              }
+            }
+          ],
+          "ret": {
+            "str": "VT_HRESULT",
+            "vt": "VT_HRESULT"
+          },
+          "vtable_offset": 40
+        },
+        {
+          "callconv": "CC_STDCALL",
+          "memid": 5,
+          "name": "ReadVarCyclic",
+          "params": [
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN",
+                "PARAMFLAG_FOPT"
+              ],
+              "name": "Names",
+              "tdesc": {
+                "str": "VT_VARIANT",
+                "vt": "VT_VARIANT"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN",
+                "PARAMFLAG_FOPT"
+              ],
+              "name": "ServerHandles",
+              "tdesc": {
+                "str": "VT_VARIANT",
+                "vt": "VT_VARIANT"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN"
+              ],
+              "name": "ClientHandles",
+              "tdesc": {
+                "str": "VT_VARIANT",
+                "vt": "VT_VARIANT"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN"
+              ],
+              "name": "pCB",
+              "tdesc": {
+                "pointee": {
+                  "href": 200,
+                  "ref": "IReadVarAsyncCallback2",
+                  "str": "IReadVarAsyncCallback2",
+                  "vt": "VT_USERDEFINED"
+                },
+                "str": "IReadVarAsyncCallback2*",
+                "vt": "VT_PTR"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN"
+              ],
+              "name": "pDisp",
+              "tdesc": {
+                "str": "VT_DISPATCH",
+                "vt": "VT_DISPATCH"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN"
+              ],
+              "name": "Deadbands",
+              "tdesc": {
+                "str": "VT_VARIANT",
+                "vt": "VT_VARIANT"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN"
+              ],
+              "name": "RequestedUpdateRates",
+              "tdesc": {
+                "str": "VT_VARIANT",
+                "vt": "VT_VARIANT"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FOUT"
+              ],
+              "name": "pRevisedUpdateRates",
+              "tdesc": {
+                "pointee": {
+                  "str": "VT_VARIANT",
+                  "vt": "VT_VARIANT"
+                },
+                "str": "VT_VARIANT*",
+                "vt": "VT_PTR"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN",
+                "PARAMFLAG_FOUT"
+              ],
+              "name": "pReqID",
+              "tdesc": {
+                "pointee": {
+                  "str": "VT_I4",
+                  "vt": "VT_I4"
+                },
+                "str": "VT_I4*",
+                "vt": "VT_PTR"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FOUT",
+                "PARAMFLAG_FOPT"
+              ],
+              "name": "pErrors",
+              "tdesc": {
+                "pointee": {
+                  "str": "VT_VARIANT",
+                  "vt": "VT_VARIANT"
+                },
+                "str": "VT_VARIANT*",
+                "vt": "VT_PTR"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN",
+                "PARAMFLAG_FOPT"
+              ],
+              "name": "CriticalValues",
+              "tdesc": {
+                "str": "VT_VARIANT",
+                "vt": "VT_VARIANT"
+              }
+            }
+          ],
+          "ret": {
+            "str": "VT_HRESULT",
+            "vt": "VT_HRESULT"
+          },
+          "vtable_offset": 44
+        },
+        {
+          "callconv": "CC_STDCALL",
+          "memid": 6,
+          "name": "RemoveCyclicVariables",
+          "params": [
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN"
+              ],
+              "name": "ReqID",
+              "tdesc": {
+                "str": "VT_I4",
+                "vt": "VT_I4"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN",
+                "PARAMFLAG_FOPT"
+              ],
+              "name": "Names",
+              "tdesc": {
+                "str": "VT_VARIANT",
+                "vt": "VT_VARIANT"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN",
+                "PARAMFLAG_FOPT"
+              ],
+              "name": "ServerHandles",
+              "tdesc": {
+                "str": "VT_VARIANT",
+                "vt": "VT_VARIANT"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN",
+                "PARAMFLAG_FOPT"
+              ],
+              "name": "ClientHandles",
+              "tdesc": {
+                "str": "VT_VARIANT",
+                "vt": "VT_VARIANT"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FOUT",
+                "PARAMFLAG_FOPT"
+              ],
+              "name": "pErrors",
+              "tdesc": {
+                "pointee": {
+                  "str": "VT_VARIANT",
+                  "vt": "VT_VARIANT"
+                },
+                "str": "VT_VARIANT*",
+                "vt": "VT_PTR"
+              }
+            }
+          ],
+          "ret": {
+            "str": "VT_HRESULT",
+            "vt": "VT_HRESULT"
+          },
+          "vtable_offset": 48
+        },
+        {
+          "callconv": "CC_STDCALL",
+          "memid": 7,
+          "name": "LookupVariables",
+          "params": [
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN",
+                "PARAMFLAG_FOUT",
+                "PARAMFLAG_FOPT"
+              ],
+              "name": "ServerHandles",
+              "tdesc": {
+                "pointee": {
+                  "str": "VT_VARIANT",
+                  "vt": "VT_VARIANT"
+                },
+                "str": "VT_VARIANT*",
+                "vt": "VT_PTR"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN",
+                "PARAMFLAG_FOUT",
+                "PARAMFLAG_FOPT"
+              ],
+              "name": "pNames",
+              "tdesc": {
+                "pointee": {
+                  "str": "VT_VARIANT",
+                  "vt": "VT_VARIANT"
+                },
+                "str": "VT_VARIANT*",
+                "vt": "VT_PTR"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FOUT"
+              ],
+              "name": "pVarTypes",
+              "tdesc": {
+                "pointee": {
+                  "str": "VT_VARIANT",
+                  "vt": "VT_VARIANT"
+                },
+                "str": "VT_VARIANT*",
+                "vt": "VT_PTR"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FOUT",
+                "PARAMFLAG_FOPT"
+              ],
+              "name": "pAccessRights",
+              "tdesc": {
+                "pointee": {
+                  "str": "VT_VARIANT",
+                  "vt": "VT_VARIANT"
+                },
+                "str": "VT_VARIANT*",
+                "vt": "VT_PTR"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FOUT",
+                "PARAMFLAG_FOPT"
+              ],
+              "name": "pErrors",
+              "tdesc": {
+                "pointee": {
+                  "str": "VT_VARIANT",
+                  "vt": "VT_VARIANT"
+                },
+                "str": "VT_VARIANT*",
+                "vt": "VT_PTR"
+              }
+            }
+          ],
+          "ret": {
+            "str": "VT_HRESULT",
+            "vt": "VT_HRESULT"
+          },
+          "vtable_offset": 52
+        },
+        {
+          "callconv": "CC_STDCALL",
+          "memid": 8,
+          "name": "Cancel",
+          "params": [
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN"
+              ],
+              "name": "ReqID",
+              "tdesc": {
+                "str": "VT_I4",
+                "vt": "VT_I4"
+              }
+            }
+          ],
+          "ret": {
+            "str": "VT_HRESULT",
+            "vt": "VT_HRESULT"
+          },
+          "vtable_offset": 56
+        },
+        {
+          "callconv": "CC_STDCALL",
+          "memid": 9,
+          "name": "Suspend",
+          "params": [
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN"
+              ],
+              "name": "ReqID",
+              "tdesc": {
+                "str": "VT_I4",
+                "vt": "VT_I4"
+              }
+            }
+          ],
+          "ret": {
+            "str": "VT_HRESULT",
+            "vt": "VT_HRESULT"
+          },
+          "vtable_offset": 60
+        },
+        {
+          "callconv": "CC_STDCALL",
+          "memid": 10,
+          "name": "Resume",
+          "params": [
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN"
+              ],
+              "name": "ReqID",
+              "tdesc": {
+                "str": "VT_I4",
+                "vt": "VT_I4"
+              }
+            }
+          ],
+          "ret": {
+            "str": "VT_HRESULT",
+            "vt": "VT_HRESULT"
+          },
+          "vtable_offset": 64
+        },
+        {
+          "callconv": "CC_STDCALL",
+          "memid": 11,
+          "name": "Remove",
+          "params": [
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN"
+              ],
+              "name": "ServerHandles",
+              "tdesc": {
+                "str": "VT_VARIANT",
+                "vt": "VT_VARIANT"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FOUT",
+                "PARAMFLAG_FOPT"
+              ],
+              "name": "pErrors",
+              "tdesc": {
+                "pointee": {
+                  "str": "VT_VARIANT",
+                  "vt": "VT_VARIANT"
+                },
+                "str": "VT_VARIANT*",
+                "vt": "VT_PTR"
+              }
+            }
+          ],
+          "ret": {
+            "str": "VT_HRESULT",
+            "vt": "VT_HRESULT"
+          },
+          "vtable_offset": 68
+        },
+        {
+          "callconv": "CC_STDCALL",
+          "memid": 12,
+          "name": "CalculateRequestRates",
+          "params": [
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN"
+              ],
+              "name": "RequestedUpdateRates",
+              "tdesc": {
+                "str": "VT_VARIANT",
+                "vt": "VT_VARIANT"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FOUT"
+              ],
+              "name": "pRevisedUpdateRates",
+              "tdesc": {
+                "pointee": {
+                  "str": "VT_VARIANT",
+                  "vt": "VT_VARIANT"
+                },
+                "str": "VT_VARIANT*",
+                "vt": "VT_PTR"
+              }
+            }
+          ],
+          "ret": {
+            "str": "VT_HRESULT",
+            "vt": "VT_HRESULT"
+          },
+          "vtable_offset": 72
+        }
+      ]
+    },
+    "IWriteVarAsyncCallback": {
+      "flags": [
+        "TYPEFLAG_FDUAL",
+        "TYPEFLAG_FOLEAUTOMATION",
+        "TYPEFLAG_FDISPATCHABLE"
+      ],
+      "guid": "c48394e2-ec79-11d0-99a9-00a0246d1792",
+      "methods": [
+        {
+          "callconv": "CC_STDCALL",
+          "memid": 1,
+          "name": "OnWriteComplete",
+          "params": [
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN"
+              ],
+              "name": "Qualities",
+              "tdesc": {
+                "str": "VT_VARIANT",
+                "vt": "VT_VARIANT"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN"
+              ],
+              "name": "ClientHandles",
+              "tdesc": {
+                "str": "VT_VARIANT",
+                "vt": "VT_VARIANT"
+              }
+            }
+          ],
+          "ret": {
+            "str": "VT_HRESULT",
+            "vt": "VT_HRESULT"
+          },
+          "vtable_offset": 28
+        }
+      ]
+    },
+    "IWriteVarAsyncCallback2": {
+      "flags": [
+        "TYPEFLAG_FDUAL",
+        "TYPEFLAG_FOLEAUTOMATION",
+        "TYPEFLAG_FDISPATCHABLE"
+      ],
+      "guid": "1143eda0-bd9b-11d1-bd5a-0080c7f7898a",
+      "methods": [
+        {
+          "callconv": "CC_STDCALL",
+          "memid": 1,
+          "name": "OnWriteComplete",
+          "params": [
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN"
+              ],
+              "name": "ClientHandles",
+              "tdesc": {
+                "str": "VT_VARIANT",
+                "vt": "VT_VARIANT"
+              }
+            },
+            {
+              "custom_data": [],
+              "default_value": null,
+              "flags": [
+                "PARAMFLAG_FIN",
+                "PARAMFLAG_FOPT"
+              ],
+              "name": "Errors",
+              "tdesc": {
+                "str": "VT_VARIANT",
+                "vt": "VT_VARIANT"
+              }
+            }
+          ],
+          "ret": {
+            "str": "VT_HRESULT",
+            "vt": "VT_HRESULT"
+          },
+          "vtable_offset": 28
+        }
+      ]
+    }
+  }
+}

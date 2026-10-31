@@ -1,0 +1,243 @@
+WARNING: config-hold: failed to get 'esil.nonull'
+┌ sym.public:_unsigned_short_int___thiscall_CDdeAction::GetVarType_void(int32_t arg_8h, int32_t arg_ch, int32_t arg_10h, int32_t arg_14h, int32_t arg_18h, int32_t arg_1ch, int32_t arg_20h, int32_t arg_24h);
+│    ╎╎╎╎   ; var int32_t var_d0h @ stack - 0xd0
+│    ╎╎╎╎   ; var int32_t var_c0h @ stack - 0xc0
+│    ╎╎╎╎   ; var int32_t var_b0h @ stack - 0xb0
+│    ╎╎╎╎   ; var int32_t var_a0h @ stack - 0xa0
+│    ╎╎╎╎   ; var int32_t var_90h @ stack - 0x90
+│    ╎╎╎╎   ; var int32_t var_80h @ stack - 0x80
+│    ╎╎╎╎   ; var int32_t var_6ch @ stack - 0x6c
+│    ╎╎╎╎   ; var int32_t var_64h @ stack - 0x64
+│    ╎╎╎╎   ; var int32_t var_5ch @ stack - 0x5c
+│    ╎╎╎╎   ; var int32_t var_50h @ stack - 0x50
+│    ╎╎╎╎   ; var int32_t var_4ch @ stack - 0x4c
+│    ╎╎╎╎   ; var int32_t var_48h @ stack - 0x48
+│    ╎╎╎╎   ; var int32_t var_44h @ stack - 0x44
+│    ╎╎╎╎   ; var int32_t var_34h @ stack - 0x34
+│    ╎╎╎╎   ; var int32_t var_28h @ stack - 0x28
+│    ╎╎╎╎   ; var int32_t var_24h @ stack - 0x24
+│    ╎╎╎╎   ; var int32_t var_20h @ stack - 0x20
+│    ╎╎╎╎   ; var int32_t var_1ch @ stack - 0x1c
+│    ╎╎╎╎   ; var unknown_t *pvargDest @ stack - 0x18
+│    ╎╎╎╎   ; var int32_t var_14h @ stack - 0x14
+│    ╎╎╎╎   ; var int32_t var_10h @ stack - 0x10
+│    ╎╎╎╎   ; var int32_t var_ch @ stack - 0xc
+│    ╎╎╎╎   ; var int32_t var_8h @ stack - 0x8
+│    ╎╎╎╎   ; var int32_t var_4h @ stack - 0x4
+│    ╎╎╎╎   ; arg int32_t arg_8h @ stack + 0x8
+│    ╎╎╎╎   ; arg int32_t arg_ch @ stack + 0xc
+│    ╎╎╎╎   ; arg int32_t arg_10h @ stack + 0x10
+│    ╎╎╎╎   ; arg int32_t arg_14h @ stack + 0x14
+│    ╎╎╎╎   ; arg int32_t arg_18h @ stack + 0x18
+│    ╎╎╎╎   ; arg int32_t arg_1ch @ stack + 0x1c
+│    ╎╎╎╎   ; arg int32_t arg_20h @ stack + 0x20
+│    ╎╎╎╎   ; arg int32_t arg_24h @ stack + 0x24
+│    ╎╎╎╎   0x1001464d      push  dword [var_4ch]                      ; int32_t arg_4h ; public: unsigned short int __thiscall CDdeAction::GetVarType(void)
+│    ╎╎╎╎   0x10014650      call  fcn.1000a0d4
+│    ╎╎╎╎   0x10014655      pop   ecx
+│    ╎╎╎╎   0x10014656      push  eax
+│    ╎╎╎╎   0x10014657      mov   eax, dword [arg_8h]
+│    ╎╎╎╎   0x1001465a      push  dword [var_44h]
+│    ╎╎╎╎   0x1001465d      mov   ecx, dword [arg_ch]
+│    ╎╎╎╎   0x10014660      push  dword [var_48h]
+│    ╎╎╎╎   0x10014663      push  dword [var_ch]
+│    ╎╎╎╎   0x10014666      push  dword [ecx+eax*4]
+│    ╎╎╎╎   0x10014669      push  eax
+│    ╎╎╎╎   0x1001466a      push  str.arg_02d_0x_x__ls:_ch:0x_08x_err:0x_x_qual:_s_val:_.300s ; 0x1003454c ; ">>arg%02d 0x%x %ls: ch:0x%08x err:0x%x qual:%s val:%.300s\n" ; uint_least32_t arg_4h
+│    ╎╎╎╎   0x1001466f      call  fcn.10009ec1
+│    ╎╎╎╎   0x10014674      add   esp, 0x20
+│    ╎╎╎╎   0x10014677      lea   ecx, dword [var_10h]
+│    ╎╎╎╎   0x1001467a      call  fcn.1000275b
+│    ╎╎╎╎   0x1001467f      lea   ecx, dword [var_6ch]
+│    ╎╎╎╎   0x10014682      mov   dword [var_6ch], edi
+│    ╎╎╎╎   0x10014685      call  fcn.1000489f
+│    ╎╎╎╎   0x1001468a      push  dword [pvargDest]                    ; unknown_t *pvargDest
+│    ╎╎╎╎   0x1001468d      call  dword [sym.imp.OLEAUT32.dll_VariantCopy] ; 0x1002d1f0 ; "\t" ; HRESULT VariantCopy(unknown_t *pvargDest, unknown_t *pvargSrc)
+│    ╎╎╎╎   0x10014693      mov   eax, dword [arg_10h]
+│    ╎╎╎╎   0x10014696      inc   dword [arg_8h]
+│    ╎╎╎╎   0x10014699      mov   ecx, dword [arg_8h]
+│    ╎╎╎╎   0x1001469c      mov   eax, dword [eax+0x08]
+│    ╎╎╎╎   0x1001469f      cmp   ecx, dword [eax+0x10]
+│    └────< 0x100146a2      jl    0x100145c5
+│     ╎╎╎   0x100146a8      mov   esi, dword [arg_10h]
+│     ╎╎╎   0x100146ab      lea   edi, dword [var_80h]
+│     ╎╎╎   0x100146ae      movsd
+│     ╎╎╎   0x100146af      movsd
+│     ╎╎╎   0x100146b0      movsd
+│     ╎╎╎   0x100146b1      movsd
+│     ╎╎╎   0x100146b2      mov   esi, dword [arg_14h]
+│     ╎╎╎   0x100146b5      lea   edi, dword [var_90h]
+│     ╎╎╎   0x100146bb      movsd
+│     ╎╎╎   0x100146bc      movsd
+│     ╎╎╎   0x100146bd      movsd
+│     ╎╎╎   0x100146be      movsd
+│     ╎╎╎   0x100146bf      mov   esi, dword [arg_18h]
+│     ╎╎╎   0x100146c2      lea   edi, dword [var_a0h]
+│     ╎╎╎   0x100146c8      movsd
+│     ╎╎╎   0x100146c9      movsd
+│     ╎╎╎   0x100146ca      movsd
+│     ╎╎╎   0x100146cb      movsd
+│     ╎╎╎   0x100146cc      mov   esi, dword [arg_1ch]
+│     ╎╎╎   0x100146cf      lea   edi, dword [var_b0h]
+│     ╎╎╎   0x100146d5      movsd
+│     ╎╎╎   0x100146d6      movsd
+│     ╎╎╎   0x100146d7      movsd
+│     ╎╎╎   0x100146d8      movsd
+│     ╎╎╎   0x100146d9      mov   esi, dword [arg_20h]
+│     ╎╎╎   0x100146dc      lea   edi, dword [var_c0h]
+│     ╎╎╎   0x100146e2      movsd
+│     ╎╎╎   0x100146e3      movsd
+│     ╎╎╎   0x100146e4      movsd
+│     ╎╎╎   0x100146e5      movsd
+│     ╎╎╎   0x100146e6      mov   esi, dword [arg_24h]
+│     ╎╎╎   0x100146e9      lea   edi, dword [var_d0h]
+│     ╎╎╎   0x100146ef      movsd
+│     ╎╎╎   0x100146f0      movsd
+│     ╎╎╎   0x100146f1      movsd
+│     ╎╎╎   0x100146f2      and   dword [var_24h], 0x00
+│     ╎╎╎   0x100146f6      and   dword [var_1ch], 0x00
+│     ╎╎╎   0x100146fa      movsd
+│     ╎╎╎   0x100146fb      lea   eax, dword [var_d0h]
+│     ╎╎╎   0x10014701      lea   edx, dword [var_14h]
+│     ╎╎╎   0x10014704      mov   edi, 0x800                           ; 2048
+│     ╎╎╎   0x10014709      mov   dword [var_28h], eax
+│     ╎╎╎   0x1001470c      mov   eax, dword [ebx+0x14]
+│     ╎╎╎   0x1001470f      push  edx
+│     ╎╎╎   0x10014710      push  edi
+│     ╎╎╎   0x10014711      lea   edx, dword [var_50h]
+│     ╎╎╎   0x10014714      push  0x01                                 ; 1
+│     ╎╎╎   0x10014716      mov   esi, data.1002e6d8                   ; 0x1002e6d8
+│     ╎╎╎   ;-- (0x1001471f) public: void __thiscall CTransactionID::SyncErrorCloseUp(long int):
+│     ╎╎╎   0x1001471b  ~   mov   dword [var_20h], 0x06
+│     ╎╎╎   0x10014722      mov   ecx, dword [eax]
+│     ╎╎╎   0x10014724      push  edx
+│     ╎╎╎   0x10014725      push  esi
+│     ╎╎╎   0x10014726      push  eax
+│     ╎╎╎   0x10014727      call  dword [ecx+0x14]                     ; 20
+│     ╎╎╎   0x1001472a      test  eax, eax
+│     └───< 0x1001472c      jl    0x10013f21
+│      ╎╎   0x10014732      lea   ecx, dword [ebx+0x08]
+│      ╎╎   0x10014735      call  fcn.10007c65
+│      ╎╎   0x1001473a      test  eax, eax
+│     ┌───< 0x1001473c      jz    0x10014be7
+│     │╎╎   0x10014742      call  fcn.100017f3
+│     │╎╎   0x10014747      cmp   dword [eax], 0x02
+│    ┌────< 0x1001474a      jz    0x10014750
+│    ││╎╎   0x1001474c      xor   eax, eax
+│   ┌─────< 0x1001474e      jmp   0x10014755
+│   │└────> 0x10014750      mov   eax, dword [eax+0x0c]
+│   │ │╎╎   0x10014753      mov   eax, dword [eax]
+│   │ │╎╎   ; CODE XREF from sym.public:_unsigned_short_int___thiscall_CDdeAction::GetVarType_void @ 0x1001474e
+│   └─────> 0x10014755      test  al, 0x01                             ; 1
+│    ┌────< 0x10014757      jz    0x10014794
+│    ││╎╎   0x10014759      mov   eax, dword [ebx+0x14]
+│    ││╎╎   0x1001475c      mov   dword [arg_ch], eax
+│    ││╎╎   0x1001475f      mov   eax, dword [var_4h]
+│    ││╎╎   0x10014762      test  eax, eax
+│   ┌─────< 0x10014764      jz    0x10014771
+│   │││╎╎   0x10014766      mov   eax, dword [eax+0x28]
+│   │││╎╎   0x10014769      mov   eax, dword [eax+0x4c]
+│   │││╎╎   0x1001476c      mov   dword [arg_18h], eax
+│  ┌──────< 0x1001476f      jmp   0x10014778
+│  │└─────> 0x10014771      mov   dword [arg_18h], 0x63                ; 'c' ; 99
+│  │ ││╎╎   ; CODE XREF from sym.public:_unsigned_short_int___thiscall_CDdeAction::GetVarType_void @ 0x1001476f
+│  └──────> 0x10014778      call  fcn.1000a04b
+│    ││╎╎   0x1001477d      push  eax
+│    ││╎╎   0x1001477e      push  dword [arg_ch]
+│    ││╎╎   0x10014781      push  ebx
+│    ││╎╎   0x10014782      push  dword [ebx]
+│    ││╎╎   0x10014784      push  dword [arg_18h]
+│    ││╎╎   0x10014787      push  str.d:IVar2_0x_x_ReqId:0x_x_Dispatch:0x_x__OnDataChanged__called__s ; 0x100343cc ; "%d:IVar2 0x%x ReqId:0x%x Dispatch:0x%x \"OnDataChanged\" called %s" ; uint_least32_t arg_4h
+│    ││╎╎   0x1001478c      call  fcn.10009ec1
+│    ││╎╎   0x10014791      add   esp, 0x18
+│    └────> 0x10014794      xor   ecx, ecx
+│     │╎╎   0x10014796      mov   eax, dword [ebx+0x14]
+│     │╎╎   0x10014799      push  ecx
+│     │╎╎   0x1001479a      push  ecx
+│     │╎╎   0x1001479b      push  ecx
+│     │╎╎   0x1001479c      lea   ecx, dword [var_28h]
+│     │╎╎   0x1001479f      mov   edx, dword [eax]
+│     │╎╎   0x100147a1      push  ecx
+│     │╎╎   0x100147a2      push  0x01                                 ; 1
+│     │╎╎   0x100147a4      push  edi
+│     │╎╎   0x100147a5      push  esi
+│     │╎╎   0x100147a6      push  dword [var_14h]
+│     │╎╎   0x100147a9      push  eax
+│     │╎╎   0x100147aa      call  dword [edx+0x18]                     ; 24
+│     │╎╎   0x100147ad      mov   edi, eax
+│     │╎╎   0x100147af      call  fcn.100017f3
+│     │╎╎   0x100147b4      cmp   dword [eax], 0x02
+│    ┌────< 0x100147b7      jz    0x100147bd
+│    ││╎╎   0x100147b9      xor   eax, eax
+│   ┌─────< 0x100147bb      jmp   0x100147c2
+│   │└────> 0x100147bd      mov   eax, dword [eax+0x0c]
+│   │ │╎╎   0x100147c0      mov   eax, dword [eax]
+│   │ │╎╎   ; CODE XREF from sym.public:_unsigned_short_int___thiscall_CDdeAction::GetVarType_void @ 0x100147bb
+│   └─────> 0x100147c2      test  al, 0x01                             ; 1
+│    ┌────< 0x100147c4      jz    0x10014b50
+│    ││╎╎   0x100147ca      mov   eax, dword [var_4h]
+│    ││╎╎   0x100147cd      test  eax, eax
+│   ┌─────< 0x100147cf      jz    0x100147d9
+│   │││╎╎   0x100147d1      mov   eax, dword [eax+0x28]
+│   │││╎╎   0x100147d4      mov   esi, dword [eax+0x4c]
+│  ┌──────< 0x100147d7      jmp   0x100147dc
+│  │└─────> 0x100147d9      push  0x63                                 ; 'c' ; 99
+│  │ ││╎╎   0x100147db      pop   esi
+│  │ ││╎╎   ; CODE XREF from sym.public:_unsigned_short_int___thiscall_CDdeAction::GetVarType_void @ 0x100147d7
+│  └──────> 0x100147dc      call  fcn.1000a04b
+│    ││╎╎   0x100147e1      push  eax
+│    ││╎╎   0x100147e2      push  edi
+│    ││╎╎   0x100147e3      push  ebx
+│    ││╎╎   0x100147e4      push  dword [ebx]
+│    ││╎╎   0x100147e6      push  esi
+│    ││╎╎   0x100147e7      push  str.d:IVar2_0x_x_ReqId:0x_x_Dispatch__OnDataChanged__returned_HRESULT:0x_x__s ; 0x10034380 ; "%d:IVar2 0x%x ReqId:0x%x Dispatch \"OnDataChanged\" returned HRESULT:0x%x %s"
+│   ┌─────< 0x100147ec      jmp   0x10014b48
+..
+│ │ │││╎╎   ; CODE XREF from sym.public:_class_CResult_____thiscall_CXVariant::Append_struct_tagVARIANT @ 0x100147fd
+│ │││││╎╎   ; CODE XREF from sym.public:_class_CResult_____thiscall_CXVariant::Append_struct_tagVARIANT @ 0x10014845
+│ │ ││││╎   ; CODE XREF from sym.public:_class_CResult_____thiscall_CXVariant::Append_struct_tagVARIANT @ 0x100148fd
+│  │││││╎   ; CODE XREF from sym.public:_class_CResult_____thiscall_CXVariant::Append_struct_tagVARIANT @ 0x1001491e
+│ │ ││││╎   ; CODE XREF from sym.public:_class_CResult_____thiscall_CXVariant::Append_struct_tagVARIANT @ 0x1001496a
+│  │││││╎   ; CODE XREF from sym.public:_class_CResult_____thiscall_CXVariant::Append_struct_tagVARIANT @ 0x10014986
+│ ││││││╎   ; CODE XREF from sym.public:_class_CResult_____thiscall_CXVariant::Append_struct_tagVARIANT @ 0x10014a53
+│ ││││││╎   ; CODE XREF from sym.public:_class_CResult_____thiscall_CXVariant::Append_struct_tagVARIANT @ 0x10014ab8
+│ ││││││╎   ; CODE XREF from sym.public:_class_CResult_____thiscall_CXVariant::Append_struct_tagVARIANT @ 0x10014ad6
+│ ││││││╎   ; CODE XREF from sym.public:_class_CResult_____thiscall_CXVariant::Append_struct_tagVARIANT @ 0x10014b1b
+│ ││││││╎   ; CODE XREF from sym.public:_class_CResult_____thiscall_CXVariant::Append_struct_tagVARIANT @ 0x10014b33
+│ ││││││╎   ; XREFS: CODE 0x10013c1e  CODE 0x10013d81  CODE 0x10013ff4
+│ ││││││╎   ; XREFS: CODE 0x100141d5  CODE 0x10014416  CODE 0x10014557
+│ ││││││╎   ; XREFS: CODE 0x100147ec  CODE 0x1001499b  CODE 0x10014c9b
+│ └─└─────> 0x10014b48      call  fcn.10009ec1                         ; uint_least32_t arg_4h
+│  │ │││╎   0x10014b4d      add   esp, 0x18
+│  └┌└────> 0x10014b50      test  edi, edi
+│   ╎┌────< 0x10014b52      jnl   0x10014ca0
+│   ╎│││╎   0x10014b58      push  edi
+│   ╎│││╎   0x10014b59      push  dword [data.1002d8f4]                ; 0x1002d8f4 ; "X\U00000010\U00000003\U00000010\xd3\U00000010"
+│   ╎│││╎   ; CODE XREF from sym.public:_unsigned_short_int___thiscall_CDdeAction::GetVarType_void @ 0x10013f27
+│   ╎│││╎   0x10014b5f      call  fcn.100081e3
+│   ╎│││╎   0x10014b64      pop   ecx
+│   ╎│││╎   0x10014b65      pop   ecx
+│  ┌──────< 0x10014b66      jmp   0x10014cdf
+..
+│ ││╎│└└──> 0x10014be7      call  fcn.1000cf0f
+│ ││╎│ ┌──< 0x10014bec      jmp   0x10014cdf
+..
+│ ││╎│││    ; CODE XREF from sym.public:_class_CResult_____thiscall_CXVariant::Append_struct_tagVARIANT @ 0x10014bfd
+│ ││╎│ ││   ; CODE XREF from sym.public:_class_CResult_____thiscall_CXVariant::Append_struct_tagVARIANT @ 0x10014c1e
+│ ││╎│││    ; CODE XREF from sym.public:_class_CResult_____thiscall_CXVariant::Append_struct_tagVARIANT @ 0x10014c6a
+│ ││ │││    ; CODE XREF from sym.public:_class_CResult_____thiscall_CXVariant::Append_struct_tagVARIANT @ 0x10014c86
+│ ││ └────> 0x10014ca0      xor   esi, esi                             ; uint_least32_t arg_4h
+│ ││   │┌─< 0x10014ca2      jmp   0x10014ce1
+..
+│  ││││││   ; CODE XREFS from sym.public:_class_CResult_____thiscall_CXVariant::Append_struct_tagVARIANT @ 0x100141e4, 0x100149aa, 0x10014cae, 0x10014cba, 0x10014cc6
+│  │   ││   ; CODE XREFS from sym.public:_unsigned_short_int___thiscall_CDdeAction::GetVarType_void @ 0x10014b66, 0x10014bec
+│  └───└──> 0x10014cdf      mov   esi, eax                             ; int32_t arg_ch
+│       │   ; CODE XREF from sym.public:_unsigned_short_int___thiscall_CDdeAction::GetVarType_void @ 0x10014ca2
+│       └─> 0x10014ce1      lea   ecx, dword [var_8h]
+│           0x10014ce4      call  fcn.10014dc8
+│           0x10014ce9      mov   eax, esi
+│           0x10014ceb      pop   edi
+│           0x10014cec      pop   esi
+│           0x10014ced      pop   ebx
+│           0x10014cee      leave
+│           0x10014cef      ret   0x20

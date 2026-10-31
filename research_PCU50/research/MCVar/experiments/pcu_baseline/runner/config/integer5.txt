@@ -1,0 +1,5 @@
+/Nck/Configuration/numGlobMachAxes
+/Nck/Configuration/numChannels
+/Bag/State/opMode[u1]
+/Channel/SelectedFunctions/Mval[u1]
+/Nck/Configuration/accessLevel

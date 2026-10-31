@@ -1,0 +1,80 @@
+WATCHDOG START timeout_ms=60000 command="bin\dde_series.exe" "--confirm=YES" "--items=config\doubles5.txt" "--expect-items=5" "--mode=both" "--rounds=1" "--order=text-first" "--interval-ms=1500" "--timeout-ms=5000"
+2026-10-31 18:20:51.108 [INFO] === dde_series v0.5 BEGIN ===
+2026-10-31 18:20:51.108 [INFO] EXE=C:\PCU_test\bin\dde_series.exe
+2026-10-31 18:20:51.108 [INFO] PID=1508 args=9 target=Windows XP x86; log=C:\PCU_test\bin\logs\dde_series_20261031_182051_108_pid1508.log
+2026-10-31 18:20:51.108 [INFO] Items=5 rounds=1 mode=3 interval=1500 timeout=5000 total_read_requests_max=10 order=text-first
+2026-10-31 18:20:51.108 [WARN] No write or advise operations; read may load Siemens runtime; value freshness NOT established
+2026-10-31 18:20:51.118 [INFO] DDE_CONNECTED ncdde|machineswitch single persistent conversation
+2026-10-31 18:20:51.118 [INFO] READ round=1 index=1 format=text item=/Channel/State/actParts[u1] elapsed_ms=0 result=DATA_HANDLE
+2026-10-31 18:20:51.118 [DATA] RESPONSE round=1 index=1 format=text bytes=9
+2026-10-31 18:20:51.118 [HEX] 0000 30 2E 30 30 30 30 30 30 00                      | 0.000000.
+2026-10-31 18:20:51.118 [INFO] Raw response: C:\PCU_test\bin\logs\dde_series_20261031_182051_108_pid1508_r01_i01_text.bin (9 bytes)
+2026-10-31 18:20:51.118 [INFO] Full HEX: C:\PCU_test\bin\logs\dde_series_20261031_182051_108_pid1508_r01_i01_text.hex
+2026-10-31 18:20:51.118 [DATA] TEXT_CLASS=MD_CANDIDATE_NOT_CONFIRMED TEXT_VALUE=0.000000
+2026-10-31 18:20:52.620 [INFO] READ round=1 index=1 format=binary item=/Channel/State/actParts[u1] elapsed_ms=0 result=DATA_HANDLE
+2026-10-31 18:20:52.620 [DATA] RESPONSE round=1 index=1 format=binary bytes=28
+2026-10-31 18:20:52.620 [HEX] 0000 14 00 01 00 02 00 05 0D 01 00 00 00 08 00 00 00 | ................
+2026-10-31 18:20:52.620 [HEX] 0010 F9 F8 F7 F6 00 00 00 00 00 00 00 00             | ............
+2026-10-31 18:20:52.620 [INFO] Raw response: C:\PCU_test\bin\logs\dde_series_20261031_182051_108_pid1508_r01_i01_binary.bin (28 bytes)
+2026-10-31 18:20:52.620 [INFO] Full HEX: C:\PCU_test\bin\logs\dde_series_20261031_182051_108_pid1508_r01_i01_binary.hex
+2026-10-31 18:20:52.620 [DATA] BINARY_HEADER hlen=0x0014 field_02=0x0001 field_04=0x0002 field_06=0x0D05 count_candidate=1 element_size_candidate=8 marker=0xF6F7F8F9
+2026-10-31 18:20:52.620 [DATA] BINARY_SIZE_CHECK expected=28 observed=28 MATCH
+2026-10-31 18:20:54.122 [INFO] READ round=1 index=2 format=text item=/Channel/Spindle/actSpeed[u1,1] elapsed_ms=0 result=DATA_HANDLE
+2026-10-31 18:20:54.122 [DATA] RESPONSE round=1 index=2 format=text bytes=9
+2026-10-31 18:20:54.122 [HEX] 0000 30 2E 30 30 30 30 30 30 00                      | 0.000000.
+2026-10-31 18:20:54.122 [INFO] Raw response: C:\PCU_test\bin\logs\dde_series_20261031_182051_108_pid1508_r01_i02_text.bin (9 bytes)
+2026-10-31 18:20:54.122 [INFO] Full HEX: C:\PCU_test\bin\logs\dde_series_20261031_182051_108_pid1508_r01_i02_text.hex
+2026-10-31 18:20:54.122 [DATA] TEXT_CLASS=MD_CANDIDATE_NOT_CONFIRMED TEXT_VALUE=0.000000
+2026-10-31 18:20:55.624 [INFO] READ round=1 index=2 format=binary item=/Channel/Spindle/actSpeed[u1,1] elapsed_ms=0 result=DATA_HANDLE
+2026-10-31 18:20:55.624 [DATA] RESPONSE round=1 index=2 format=binary bytes=28
+2026-10-31 18:20:55.624 [HEX] 0000 14 00 01 00 02 00 05 0E 01 00 00 00 08 00 00 00 | ................
+2026-10-31 18:20:55.624 [HEX] 0010 F9 F8 F7 F6 00 00 00 00 00 00 00 00             | ............
+2026-10-31 18:20:55.624 [INFO] Raw response: C:\PCU_test\bin\logs\dde_series_20261031_182051_108_pid1508_r01_i02_binary.bin (28 bytes)
+2026-10-31 18:20:55.624 [INFO] Full HEX: C:\PCU_test\bin\logs\dde_series_20261031_182051_108_pid1508_r01_i02_binary.hex
+2026-10-31 18:20:55.624 [DATA] BINARY_HEADER hlen=0x0014 field_02=0x0001 field_04=0x0002 field_06=0x0E05 count_candidate=1 element_size_candidate=8 marker=0xF6F7F8F9
+2026-10-31 18:20:55.624 [DATA] BINARY_SIZE_CHECK expected=28 observed=28 MATCH
+2026-10-31 18:20:57.126 [INFO] READ round=1 index=3 format=text item=/Channel/Spindle/speedOvr[u1,1] elapsed_ms=0 result=DATA_HANDLE
+2026-10-31 18:20:57.126 [DATA] RESPONSE round=1 index=3 format=text bytes=9
+2026-10-31 18:20:57.126 [HEX] 0000 30 2E 30 30 30 30 30 30 00                      | 0.000000.
+2026-10-31 18:20:57.126 [INFO] Raw response: C:\PCU_test\bin\logs\dde_series_20261031_182051_108_pid1508_r01_i03_text.bin (9 bytes)
+2026-10-31 18:20:57.126 [INFO] Full HEX: C:\PCU_test\bin\logs\dde_series_20261031_182051_108_pid1508_r01_i03_text.hex
+2026-10-31 18:20:57.126 [DATA] TEXT_CLASS=MD_CANDIDATE_NOT_CONFIRMED TEXT_VALUE=0.000000
+2026-10-31 18:20:58.629 [INFO] READ round=1 index=3 format=binary item=/Channel/Spindle/speedOvr[u1,1] elapsed_ms=0 result=DATA_HANDLE
+2026-10-31 18:20:58.629 [DATA] RESPONSE round=1 index=3 format=binary bytes=28
+2026-10-31 18:20:58.629 [HEX] 0000 14 00 01 00 02 00 05 0F 01 00 00 00 08 00 00 00 | ................
+2026-10-31 18:20:58.629 [HEX] 0010 F9 F8 F7 F6 00 00 00 00 00 00 00 00             | ............
+2026-10-31 18:20:58.629 [INFO] Raw response: C:\PCU_test\bin\logs\dde_series_20261031_182051_108_pid1508_r01_i03_binary.bin (28 bytes)
+2026-10-31 18:20:58.629 [INFO] Full HEX: C:\PCU_test\bin\logs\dde_series_20261031_182051_108_pid1508_r01_i03_binary.hex
+2026-10-31 18:20:58.629 [DATA] BINARY_HEADER hlen=0x0014 field_02=0x0001 field_04=0x0002 field_06=0x0F05 count_candidate=1 element_size_candidate=8 marker=0xF6F7F8F9
+2026-10-31 18:20:58.629 [DATA] BINARY_SIZE_CHECK expected=28 observed=28 MATCH
+2026-10-31 18:21:00.131 [INFO] READ round=1 index=4 format=text item=/Channel/State/feedRateIpoOvr[u1] elapsed_ms=0 result=DATA_HANDLE
+2026-10-31 18:21:00.131 [DATA] RESPONSE round=1 index=4 format=text bytes=9
+2026-10-31 18:21:00.131 [HEX] 0000 30 2E 30 30 30 30 30 30 00                      | 0.000000.
+2026-10-31 18:21:00.131 [INFO] Raw response: C:\PCU_test\bin\logs\dde_series_20261031_182051_108_pid1508_r01_i04_text.bin (9 bytes)
+2026-10-31 18:21:00.131 [INFO] Full HEX: C:\PCU_test\bin\logs\dde_series_20261031_182051_108_pid1508_r01_i04_text.hex
+2026-10-31 18:21:00.131 [DATA] TEXT_CLASS=MD_CANDIDATE_NOT_CONFIRMED TEXT_VALUE=0.000000
+2026-10-31 18:21:01.633 [INFO] READ round=1 index=4 format=binary item=/Channel/State/feedRateIpoOvr[u1] elapsed_ms=0 result=DATA_HANDLE
+2026-10-31 18:21:01.633 [DATA] RESPONSE round=1 index=4 format=binary bytes=28
+2026-10-31 18:21:01.633 [HEX] 0000 14 00 01 00 02 00 05 10 01 00 00 00 08 00 00 00 | ................
+2026-10-31 18:21:01.633 [HEX] 0010 F9 F8 F7 F6 00 00 00 00 00 00 00 00             | ............
+2026-10-31 18:21:01.633 [INFO] Raw response: C:\PCU_test\bin\logs\dde_series_20261031_182051_108_pid1508_r01_i04_binary.bin (28 bytes)
+2026-10-31 18:21:01.633 [INFO] Full HEX: C:\PCU_test\bin\logs\dde_series_20261031_182051_108_pid1508_r01_i04_binary.hex
+2026-10-31 18:21:01.633 [DATA] BINARY_HEADER hlen=0x0014 field_02=0x0001 field_04=0x0002 field_06=0x1005 count_candidate=1 element_size_candidate=8 marker=0xF6F7F8F9
+2026-10-31 18:21:01.633 [DATA] BINARY_SIZE_CHECK expected=28 observed=28 MATCH
+2026-10-31 18:21:03.135 [INFO] READ round=1 index=5 format=text item=/Channel/Parameter/R[u1,10] elapsed_ms=0 result=DATA_HANDLE
+2026-10-31 18:21:03.135 [DATA] RESPONSE round=1 index=5 format=text bytes=9
+2026-10-31 18:21:03.135 [HEX] 0000 30 2E 30 30 30 30 30 30 00                      | 0.000000.
+2026-10-31 18:21:03.135 [INFO] Raw response: C:\PCU_test\bin\logs\dde_series_20261031_182051_108_pid1508_r01_i05_text.bin (9 bytes)
+2026-10-31 18:21:03.135 [INFO] Full HEX: C:\PCU_test\bin\logs\dde_series_20261031_182051_108_pid1508_r01_i05_text.hex
+2026-10-31 18:21:03.135 [DATA] TEXT_CLASS=MD_CANDIDATE_NOT_CONFIRMED TEXT_VALUE=0.000000
+2026-10-31 18:21:04.637 [INFO] READ round=1 index=5 format=binary item=/Channel/Parameter/R[u1,10] elapsed_ms=0 result=DATA_HANDLE
+2026-10-31 18:21:04.637 [DATA] RESPONSE round=1 index=5 format=binary bytes=28
+2026-10-31 18:21:04.637 [HEX] 0000 14 00 01 00 02 00 05 11 01 00 00 00 08 00 00 00 | ................
+2026-10-31 18:21:04.637 [HEX] 0010 F9 F8 F7 F6 00 00 00 00 00 00 00 00             | ............
+2026-10-31 18:21:04.637 [INFO] Raw response: C:\PCU_test\bin\logs\dde_series_20261031_182051_108_pid1508_r01_i05_binary.bin (28 bytes)
+2026-10-31 18:21:04.637 [INFO] Full HEX: C:\PCU_test\bin\logs\dde_series_20261031_182051_108_pid1508_r01_i05_binary.hex
+2026-10-31 18:21:04.637 [DATA] BINARY_HEADER hlen=0x0014 field_02=0x0001 field_04=0x0002 field_06=0x1105 count_candidate=1 element_size_candidate=8 marker=0xF6F7F8F9
+2026-10-31 18:21:04.637 [DATA] BINARY_SIZE_CHECK expected=28 observed=28 MATCH
+2026-10-31 18:21:06.139 [INFO] SUMMARY success_response=10 failed_response=0 (success means bytes received; not independently verified)
+2026-10-31 18:21:06.139 [INFO] === dde_series END exit_code=20 elapsed_ms=15031 ===
+WATCHDOG END exit=20 child_raw_exit=20

@@ -1,0 +1,16 @@
+{
+  "stage": "16",
+  "status": "offline_typeinfo_decode_reviewed_conditional",
+  "decoder": "pycomtypelib==0.1.0",
+  "old_resource_sha256": "0653a34a342fc6b80e9f675ff9754173b878a353744098e6eb0c9fa429c77bb3",
+  "new_resource_sha256": "a7d9968596b9e9a17dff6fc2fcf4a2e2ddc65cedd28dba76eb77791b49dadfd1",
+  "test_results": {
+    "command": ".venv/bin/python -m pytest -q",
+    "passed": 2,
+    "result": "PASS"
+  },
+  "old_new_target_typeinfo_equal": true,
+  "windows_loadtypelibex_oracle": "not_run",
+  "pcu_runtime_async_cyclic": "not_run",
+  "write_operations": 0
+}

@@ -1,0 +1,10 @@
+{
+  "id": "/Nck/Configuration/numGlobMachAxes",
+  "confidence": "CONFIRMED_READABLE",
+  "value_state": "NOT_DECODED",
+  "transport": "mcvar",
+  "request": {"names": ["/Nck/Configuration/numGlobMachAxes"], "shape": "array-bstr"},
+  "result": {"invoke_hresult": "0x00000000", "read_status": "DATA_HANDLE"},
+  "applicability": {"machine": "C:\\PCU_test", "target": "Windows XP x86", "provider_version": "mcvar_multiread v0.5", "evidence_session": "21704_14346"},
+  "provenance": ["real_tests/config/items_1.txt", "real_tests/logs/console_21704_14346_A00_METADATA.txt"]
+}

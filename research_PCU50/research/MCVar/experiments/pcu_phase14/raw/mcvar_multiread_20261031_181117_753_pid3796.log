@@ -1,0 +1,59 @@
+2026-10-31 18:11:17.753 [INFO] === mcvar_multiread v0.5 BEGIN ===
+2026-10-31 18:11:17.753 [INFO] EXE=C:\PCU_test\bin\mcvar_multiread.exe
+2026-10-31 18:11:17.753 [INFO] PID=3796 args=8 target=Windows XP x86; log=C:\PCU_test\bin\logs\mcvar_multiread_20261031_181117_753_pid3796.log
+2026-10-31 18:11:17.753 [INFO] EXPERIMENT read=YES items=1 shape=array-bstr lb=1 cacheDevice=2 repeat=1 reverse=0 duplicateLast=0 invalidLast=0 invalidFirst=0 invalidMiddle=0
+2026-10-31 18:11:17.753 [WARN] Every item read is a live runtime request. NO freshness guarantee and NO NCU round-trip guarantee.
+2026-10-31 18:11:17.753 [DATA] REQUEST_INDEX ordinal=0 input_array_index=1 item=/Nck/Configuration/numGlobMachAxes
+2026-10-31 18:11:17.753 [INFO] CoInitializeEx STA HRESULT=0x00000000 (The operation completed successfully.  )
+2026-10-31 18:11:17.753 [INFO] CLSIDFromProgID HRESULT=0x00000000 (The operation completed successfully.  )
+2026-10-31 18:11:17.753 [INFO] CoCreateInstance HRESULT=0x00000000 (The operation completed successfully.  )
+2026-10-31 18:11:17.753 [INFO] GetIDsOfNames(ReadVar) HRESULT=0x00000000 (The operation completed successfully.  )
+2026-10-31 18:11:17.753 [INFO] DISPID=1, historical expected 1
+2026-10-31 18:11:17.753 [INFO] GetTypeInfo HRESULT=0x00000000 (The operation completed successfully.  )
+2026-10-31 18:11:17.753 [INFO] TypeInfo functions=19 typekind=4
+2026-10-31 18:11:17.753 [INFO] ReadVar FUNCDESC memid=1 invkind=1 params=8 optional=4
+2026-10-31 18:11:17.753 [INFO]   param[0] vt=0xC flags=0x0011
+2026-10-31 18:11:17.753 [INFO]   param[1] vt=0xC flags=0x0011
+2026-10-31 18:11:17.753 [INFO]   param[2] vt=0x2 flags=0x0001
+2026-10-31 18:11:17.753 [INFO]   param[3] vt=0x1A flags=0x0002
+2026-10-31 18:11:17.753 [INFO]   param[4] vt=0x1A flags=0x0012
+2026-10-31 18:11:17.753 [INFO]   param[5] vt=0x1A flags=0x0012
+2026-10-31 18:11:17.753 [INFO]   param[6] vt=0x1A flags=0x0012
+2026-10-31 18:11:17.753 [INFO]   param[7] vt=0x1A flags=0x0012
+2026-10-31 18:11:17.753 [INFO] make_names HRESULT=0x00000000 (The operation completed successfully.  )
+2026-10-31 18:11:17.753 [WARN] BEGIN ReadVar invocation round=1 count=1
+2026-10-31 18:11:17.783 [INFO] IDispatch.Invoke(ReadVar) HRESULT=0x00000000 (The operation completed successfully.  )
+2026-10-31 18:11:17.783 [DATA] ROUND=1 elapsed_ms=30 invoke_hresult=0x00000000 argErr_reverse_index=4294967295
+2026-10-31 18:11:17.783 [INFO] EXCEPINFO.scode=0x00000000 wCode=0
+2026-10-31 18:11:17.783 [INFO] Invoke.result VT=0x0000 depth=0
+2026-10-31 18:11:17.783 [INFO] Invoke.result=EMPTY
+2026-10-31 18:11:17.783 [INFO] pValues VT=0x200C depth=0
+2026-10-31 18:11:17.783 [INFO] pValues SAFEARRAY dims=1 element_type=0x000C GetVartype_HR=0x00000000
+2026-10-31 18:11:17.783 [INFO] pValues bounds=0..0 size=1
+2026-10-31 18:11:17.783 [INFO] pValues[0] VT=0x0003 depth=1
+2026-10-31 18:11:17.783 [INFO] pValues[0] I4=2
+2026-10-31 18:11:17.783 [INFO] pErrors VT=0x2003 depth=0
+2026-10-31 18:11:17.783 [INFO] pErrors SAFEARRAY dims=1 element_type=0x0003 GetVartype_HR=0x00000000
+2026-10-31 18:11:17.783 [INFO] pErrors bounds=0..0 size=1
+2026-10-31 18:11:17.783 [INFO] pErrors[0] I4=0 hex=0x00000000
+2026-10-31 18:11:17.783 [INFO] pQualities VT=0x2002 depth=0
+2026-10-31 18:11:17.783 [INFO] pQualities SAFEARRAY dims=1 element_type=0x0002 GetVartype_HR=0x00000000
+2026-10-31 18:11:17.783 [INFO] pQualities bounds=0..0 size=1
+2026-10-31 18:11:17.783 [INFO] pQualities[0] I2=192 hex=0x00C0
+2026-10-31 18:11:17.783 [INFO] pServerInfos VT=0x000A depth=0
+2026-10-31 18:11:17.783 [INFO] pServerInfos SCODE=0x80020004
+2026-10-31 18:11:17.783 [INFO] pTimeStamps VT=0x000A depth=0
+2026-10-31 18:11:17.783 [INFO] pTimeStamps SCODE=0x80020004
+2026-10-31 18:11:17.783 [DATA] SLOT_INDEX round=1 ordinal=0 item=/Nck/Configuration/numGlobMachAxes
+2026-10-31 18:11:17.783 [DATA] slot[0].value output_array_bounds=0..0 output_array_index=0
+2026-10-31 18:11:17.783 [INFO] slot[0].value VT=0x0003 depth=0
+2026-10-31 18:11:17.783 [INFO] slot[0].value I4=2
+2026-10-31 18:11:17.783 [DATA] slot[0].error output_array_bounds=0..0 output_array_index=0
+2026-10-31 18:11:17.783 [DATA] slot[0].error VT=0x0003 I4=0 HEX=0x00000000
+2026-10-31 18:11:17.783 [DATA] slot[0].quality output_array_bounds=0..0 output_array_index=0
+2026-10-31 18:11:17.783 [DATA] slot[0].quality VT=0x0002 I2=192
+2026-10-31 18:11:17.783 [INFO] slot[0].server_info VT=0x000A depth=0
+2026-10-31 18:11:17.783 [INFO] slot[0].server_info SCODE=0x80020004
+2026-10-31 18:11:17.783 [INFO] slot[0].timestamp VT=0x000A depth=0
+2026-10-31 18:11:17.783 [INFO] slot[0].timestamp SCODE=0x80020004
+2026-10-31 18:11:17.783 [INFO] === mcvar_multiread END exit_code=20 elapsed_ms=30 ===

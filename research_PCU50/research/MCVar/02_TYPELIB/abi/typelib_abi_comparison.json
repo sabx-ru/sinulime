@@ -1,0 +1,69 @@
+{
+  "interfaces": {
+    "IMCCommand": {
+      "changed_paths": [],
+      "new_present": true,
+      "old_present": true,
+      "status": "unchanged"
+    },
+    "IMCCommandAsyncCallback": {
+      "changed_paths": [],
+      "new_present": true,
+      "old_present": true,
+      "status": "unchanged"
+    },
+    "IReadVarAsyncCallback": {
+      "changed_paths": [],
+      "new_present": true,
+      "old_present": true,
+      "status": "unchanged"
+    },
+    "IReadVarAsyncCallback2": {
+      "changed_paths": [],
+      "new_present": true,
+      "old_present": true,
+      "status": "unchanged"
+    },
+    "IVar": {
+      "changed_paths": [],
+      "new_present": true,
+      "old_present": true,
+      "status": "unchanged"
+    },
+    "IVar2": {
+      "changed_paths": [],
+      "new_present": true,
+      "old_present": true,
+      "status": "unchanged"
+    },
+    "IWriteVarAsyncCallback": {
+      "changed_paths": [],
+      "new_present": true,
+      "old_present": true,
+      "status": "unchanged"
+    },
+    "IWriteVarAsyncCallback2": {
+      "changed_paths": [],
+      "new_present": true,
+      "old_present": true,
+      "status": "unchanged"
+    }
+  },
+  "schema": "stage16_5.type-library-abi-comparison.v1",
+  "scope": [
+    "IMCCommand",
+    "IMCCommandAsyncCallback",
+    "IReadVarAsyncCallback",
+    "IReadVarAsyncCallback2",
+    "IVar",
+    "IVar2",
+    "IWriteVarAsyncCallback",
+    "IWriteVarAsyncCallback2"
+  ],
+  "source": "/root/PL/stages/stage16/reports/typelib_decode.json",
+  "summary": {
+    "changed_count": 0,
+    "target_count": 8,
+    "unchanged_count": 8
+  }
+}

@@ -1,0 +1,76 @@
+{
+  "schema": "stage16.6.rate-filter-evidence.v1",
+  "scope": "offline_static_only",
+  "runtime_excluded": ["Windows builds", "client", "collector", "DDE", "PCU"],
+  "binaries": {
+    "old": {
+      "path": "/root/PL/PCU_old/H/mmc2/MCVar.dll",
+      "sha256": "43a5c1991d98b6b6e155233a0114d7ff72bf4dec7edf58d0607da501e7d98712",
+      "image_base": "0x10000000",
+      "calculate_request_rates_va": "0x10012868",
+      "normalize_update_rate_va": "0x100129a2"
+    },
+    "new": {
+      "path": "/root/PL/PCU_new/C/RECYCLER/S-1-5-21-4025392478-4199590385-3038547483-1005/Dc28/files/F/mmc2/MCVar.dll",
+      "sha256": "5e7d955ebe7cfd52424b04e91471b7408f42bf6cc427e3d94c50bc7f4428c24a",
+      "image_base": "0x10000000",
+      "calculate_request_rates_va": "0x1001297a",
+      "normalize_update_rate_va": "0x10012ab4"
+    }
+  },
+  "claims": [
+    {
+      "id": "RFR-001",
+      "status": "STATIC_PROVEN",
+      "claim": "The exposed CalculateRequestRates ABI is VARIANT input plus VARIANT-pointer output in both interface revisions/build artifacts.",
+      "evidence": ["stage16_5/abi/typelib_abi_records.json", "stage16_5/abi/README.md"]
+    },
+    {
+      "id": "RFR-002",
+      "status": "STATIC_PROVEN",
+      "claim": "Both versions contain an interior loop loading bytes, ANDing with a stack-selected byte mask, using neg/sbb to produce 0x0000 or 0xffff, and storing 16-bit words; old 0x10012869-0x10012897/0x100128ab-0x100128d1, new 0x1001296f-0x100129a1/0x100129b5-0x100129db.",
+      "evidence": ["RATE_AND_FILTER_ALGORITHMS.md", "rizin pd output on exact binaries"]
+    },
+    {
+      "id": "RFR-003",
+      "status": "STATIC_PROVEN",
+      "claim": "Adjacent helper paths perform low-12-bit VARTYPE checks, flag-bit tests, SafeArrayCopyData, SafeArrayCopy and SafeArrayPutElement operations in both versions.",
+      "evidence": ["RATE_AND_FILTER_ALGORITHMS.md", "old helper 0x10012914", "new helper 0x10012a1e"]
+    },
+    {
+      "id": "RFR-004",
+      "status": "UNRESOLVED",
+      "claim": "Scalar requested-to-revised rate formula, units, bounds, rounding, clamping, and server negotiation semantics.",
+      "blocker": "Misaligned/invalid public symbol-start disassembly and overlapping helper/function analysis prevent a complete CFG and argument mapping."
+    },
+    {
+      "id": "RFR-005",
+      "status": "UNRESOLVED",
+      "claim": "Deadband comparison and delivery semantics, including absolute/relative delta, equality boundary, type conversion, NaN/error behavior, and state scope.",
+      "blocker": "No reliable current/prior-value comparison consuming the deadband was isolated in either exact image."
+    },
+    {
+      "id": "RFR-006",
+      "status": "UNRESOLVED",
+      "claim": "CriticalValues threshold/comparison and delivery semantics.",
+      "blocker": "No reliable threshold comparison consuming CriticalValues was isolated; parameter names and stored diagnostic fields are insufficient."
+    },
+    {
+      "id": "RFR-007",
+      "status": "UNRESOLVED",
+      "claim": "Complete old/new algorithm equivalence or delta.",
+      "blocker": "Interior patterns match at observed sites, but complete instruction boundaries and control flow are not established in either build."
+    }
+  ],
+  "regression_checks": {
+    "status": "NOT_ADDED",
+    "reason": "No fully recovered pure rate/deadband/critical-value logic; adding a model would encode unsupported semantics."
+  },
+  "verification": {
+    "commands": [
+      "rizin -q -c 'aaa; afl~CalculateRequestRates; afl~normalizeUpdateRate; pdf @ ...' <exact old/new MCVar.dll>",
+      "sha256 of both exact binaries"
+    ],
+    "result": "Evidence report and explicit unresolved boundaries produced; no binary modified."
+  }
+}

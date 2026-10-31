@@ -1,0 +1,226 @@
+{
+  "component": "MCVar.dll",
+  "type_library_name": "Sinumerik HMI MCVar 1.0 Type Library",
+  "versions": {
+    "old": {
+      "path": "PCU_old/H/mmc2/MCVar.dll",
+      "sha256": "43a5c1991d98b6b6e155233a0114d7ff72bf4dec7edf58d0607da501e7d98712",
+      "timestamp": "2004-06-23",
+      "image_base": "0x10000000",
+      "readvar_entry_rva": "0x1000BC30 (approx body), 0x1000BD47 helper callsite"
+    },
+    "new": {
+      "path": "PCU_new/C/RECYCLER/S-1-5-21-4025392478-4199590385-3038547483-1005/Dc28/files/F/mmc2/MCVar.dll",
+      "sha256": "5e7d955ebe7cfd52424b04e91471b7408f42bf6cc427e3d94c50bc7f4428c24a",
+      "timestamp": "2011-07-25",
+      "image_base": "0x10000000",
+      "readvar_entry_rva": "0x1000BE59 helper callsite"
+    }
+  },
+  "classes": [
+    {
+      "class": "Var2 Class",
+      "clsid": "{8F64C6F2-C2A4-11D2-BFCA-00609792C500}",
+      "progids": [
+        "MCVar.Var2.1",
+        "MCVar.Var2"
+      ],
+      "threading_model": "Apartment"
+    },
+    {
+      "class": "Var Class / MCCommand Class (resource aliases)",
+      "clsid": "{8F64C6F2-C2A4-11D2-BFCA-00609792C500}",
+      "progids": [
+        "MCVar.Var.1",
+        "MCVar.Var",
+        "MCVar.MCCommand.1",
+        "MCVar.MCCommand"
+      ],
+      "threading_model": "Apartment",
+      "caveat": "embedded registration maps these names to the same CLSID; distinct coclasses are not proven"
+    },
+    {
+      "class": "Trace Class",
+      "clsid": "{DEB5BB92-C585-11D2-BFCF-000000000000}",
+      "progids": [
+        "MCVar.Trace.1",
+        "MCVar.Trace"
+      ],
+      "threading_model": "Both"
+    }
+  ],
+  "typelib": {
+    "guid": "{8F64C6E3-C2A4-11D2-BFCA-00609792C500}",
+    "resource": "TYPELIB/1/1033",
+    "old_sha256": "0653a34a342fc6b80e9f675ff9754173b878a353744098e6eb0c9fa429c77bb3",
+    "new_sha256": "a7d9968596b9e9a17dff6fc2fcf4a2e2ddc65cedd28dba76eb77791b49dadfd1",
+    "version_name": "Sinumerik HMI MCVar 1.0 Type Library"
+  },
+  "methods": [
+    {
+      "name": "ReadVar",
+      "interfaces": "IVar / IVar2",
+      "description": "synchronous read; exact Automation parameters unresolved statically",
+      "status": "PROVEN_STATIC_NAME_ONLY",
+      "evidence": "raw type library names, decorated C++ symbols, prior runtime evidence in phase12/COM_ERROR_SEMANTICS.md"
+    },
+    {
+      "name": "WriteVar",
+      "interfaces": "IVar / IVar2",
+      "description": "write method name and dispatch presence; signature and behavior not reconstructed",
+      "status": "PROVEN_STATIC_NAME_ONLY; NEVER EXECUTED",
+      "evidence": "embedded typelib strings and decorated symbols"
+    },
+    {
+      "name": "ReadVarAsync",
+      "interfaces": "IVar / IVar2",
+      "description": "async read with callback interface; exact parameter types unresolved",
+      "status": "PROVEN_STATIC_NAME_ONLY",
+      "evidence": "embedded typelib strings and decorated symbols"
+    },
+    {
+      "name": "WriteVarAsync",
+      "interfaces": "IVar / IVar2",
+      "description": "async write with callback interface; exact parameter types unresolved",
+      "status": "PROVEN_STATIC_NAME_ONLY; NEVER EXECUTED",
+      "evidence": "embedded typelib strings and decorated symbols"
+    },
+    {
+      "name": "ReadVarCyclic",
+      "interfaces": "IVar / IVar2",
+      "description": "cyclic read with callback/dispatch parameters; exact types unresolved",
+      "status": "PROVEN_STATIC_NAME_ONLY",
+      "evidence": "embedded typelib strings and decorated symbols"
+    },
+    {
+      "name": "RemoveCyclicVariables",
+      "interfaces": "IVar / IVar2",
+      "description": "cyclic subscription removal; exact parameter types unresolved",
+      "status": "PROVEN_STATIC_NAME_ONLY",
+      "evidence": "embedded typelib strings"
+    },
+    {
+      "name": "LookupVariables",
+      "interfaces": "IVarX?",
+      "description": "lookup method name; owning interface and signature unresolved",
+      "status": "PROVEN_STATIC_NAME_ONLY",
+      "evidence": "embedded typelib strings and decorated symbol text"
+    },
+    {
+      "name": "Cancel",
+      "interfaces": "IMCCommand?",
+      "description": "command interface method name; ownership/signature unresolved",
+      "status": "PROVEN_STATIC_NAME_ONLY; NEVER EXECUTED",
+      "evidence": "embedded typelib strings"
+    },
+    {
+      "name": "Suspend",
+      "interfaces": "IMCCommand?",
+      "description": "command interface method name; ownership/signature unresolved",
+      "status": "PROVEN_STATIC_NAME_ONLY; NEVER EXECUTED",
+      "evidence": "embedded typelib strings"
+    },
+    {
+      "name": "Resume",
+      "interfaces": "IMCCommand? / IVarX?",
+      "description": "method name; ownership/signature unresolved",
+      "status": "PROVEN_STATIC_NAME_ONLY",
+      "evidence": "embedded typelib strings and CVarX::Resume string"
+    },
+    {
+      "name": "Remove",
+      "interfaces": "IMCCommand?",
+      "description": "command interface method name; ownership/signature unresolved",
+      "status": "PROVEN_STATIC_NAME_ONLY; NEVER EXECUTED",
+      "evidence": "embedded typelib strings"
+    },
+    {
+      "name": "CalculateRequestRates",
+      "interfaces": "IMCCommand?",
+      "description": "method name; signature unresolved",
+      "status": "PROVEN_STATIC_NAME_ONLY; NEVER EXECUTED",
+      "evidence": "embedded typelib strings"
+    },
+    {
+      "name": "Execute",
+      "interfaces": "IMCCommand?",
+      "description": "method name; signature unresolved",
+      "status": "PROVEN_STATIC_NAME_ONLY; NEVER EXECUTED",
+      "evidence": "embedded typelib strings"
+    },
+    {
+      "name": "ExecuteAsync",
+      "interfaces": "IMCCommand?",
+      "description": "async command method and callback name; signature unresolved",
+      "status": "PROVEN_STATIC_NAME_ONLY; NEVER EXECUTED",
+      "evidence": "embedded typelib strings and decorated symbol"
+    },
+    {
+      "name": "OnDataChanged",
+      "interfaces": "IReadVarAsyncCallback / ...2",
+      "description": "read callback method name; exact parameters unresolved",
+      "status": "PROVEN_STATIC_NAME_ONLY",
+      "evidence": "embedded typelib strings"
+    },
+    {
+      "name": "OnWriteComplete",
+      "interfaces": "IWriteVarAsyncCallback / ...2",
+      "description": "write callback method name; exact parameters unresolved",
+      "status": "PROVEN_STATIC_NAME_ONLY",
+      "evidence": "embedded typelib strings"
+    },
+    {
+      "name": "OnCommandCompleted",
+      "interfaces": "IMCCommandAsyncCallback",
+      "description": "command callback method name; exact parameters unresolved",
+      "status": "PROVEN_STATIC_NAME_ONLY; NEVER EXECUTED",
+      "evidence": "embedded typelib strings"
+    },
+    {
+      "name": "Print",
+      "interfaces": "ITrace",
+      "description": "trace method name; signature unresolved",
+      "status": "PROVEN_STATIC_NAME_ONLY",
+      "evidence": "embedded typelib strings"
+    },
+    {
+      "name": "GetDebugFlags",
+      "interfaces": "ITrace",
+      "description": "trace method name; signature unresolved",
+      "status": "PROVEN_STATIC_NAME_ONLY",
+      "evidence": "embedded typelib strings"
+    },
+    {
+      "name": "SetDebugFlags",
+      "interfaces": "ITrace",
+      "description": "trace method name; signature unresolved",
+      "status": "PROVEN_STATIC_NAME_ONLY; NEVER EXECUTED",
+      "evidence": "embedded typelib strings"
+    }
+  ],
+  "exports": [
+    "DllCanUnloadNow",
+    "DllGetClassObject",
+    "DllRegisterServer",
+    "DllUnregisterServer"
+  ],
+  "connection_points": {
+    "status": "PARTIALLY_PROVEN_STATIC",
+    "interfaces": [
+      "IReadVarAsyncCallback",
+      "IReadVarAsyncCallback2",
+      "IWriteVarAsyncCallback",
+      "IWriteVarAsyncCallback2",
+      "IMCCommandAsyncCallback"
+    ],
+    "evidence": "type library names, callback method names, decorated C++ symbols; no runtime Advise/connection-point enumeration performed"
+  },
+  "unresolved": [
+    "exact IIDs for named interfaces",
+    "exact DISPPARAMS/VARTYPE/retval signatures for all methods",
+    "whether Var, Var2 and MCCommand aliases are intended as distinct logical coclasses",
+    "runtime QueryInterface support and connection-point enumeration",
+    "registry state actually present in offline hives; only embedded ATL registration was found",
+    "documented CacheDevice semantics and exact ReadVar aggregate behavior"
+  ]
+}

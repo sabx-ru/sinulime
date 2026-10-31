@@ -1,0 +1,80 @@
+{
+  "artifact": "CALLBACK_AND_LIFECYCLE.md",
+  "scope": "Conservative client-side request/subscription state and cleanup contract; offline static evidence only",
+  "binaries": {
+    "old": {
+      "sha256": "43a5c1991d98b6b6e155233a0114d7ff72bf4dec7edf58d0607da501e7d98712"
+    },
+    "new": {
+      "sha256": "5e7d955ebe7cfd52424b04e91471b7408f42bf6cc427e3d94c50bc7f4428c24a"
+    }
+  },
+  "client_model": {
+    "states": ["Submitting", "Pending", "Terminal", "Retired"],
+    "identity_policy": [
+      "Keep caller output pointer, transaction pointer, numeric request value, and cyclic-ID object distinct.",
+      "Treat returned ID as opaque; preserve exact bits and do not infer allocation, scope, uniqueness, reuse, or cross-instance validity.",
+      "Track async requests and cyclic subscriptions independently, even for equal numeric IDs.",
+      "If output is absent/unchanged/ambiguous, do not synthesize an ID or remove by a guessed value."
+    ],
+    "cleanup_policy": [
+      "Keep pReqID output storage writable and alive while a request may still write through it.",
+      "Do not release callback/output resources while in-flight access remains possible.",
+      "Treat RemoveCyclicVariables as a removal request, not a proven synchronous drain barrier.",
+      "Shutdown: stop new work, request removal of known cyclic items, maintain resources through chosen quiescence, then release; no binary-proven cancellation/drain guarantee."
+    ]
+  },
+  "evidence": [
+    {
+      "claim": "Public entrypoint targets/slots for async, cyclic read, and cyclic removal",
+      "source": "MCVAR_CLIENT_CONTRACT.md",
+      "anchors": ["lines 11-24"],
+      "classification": "static vtable map"
+    },
+    {
+      "claim": "pReqID pointer stored at transaction +0x98; transaction pointer returned and stored separately in wrapper +0x04",
+      "source": "stages/stage16_7/reqid/REQID_LIFECYCLE.md",
+      "anchors": ["lines 14-16", "line 23"],
+      "classification": "direct instruction dataflow"
+    },
+    {
+      "claim": "+0x20 scalar passed to RID formatter; producer/output identity and ReqID lookup not established",
+      "source": "stages/stage16_7/reqid/REQID_LIFECYCLE.md",
+      "anchors": ["lines 16", "lines 31-39"],
+      "classification": "partial dataflow; transition unresolved"
+    },
+    {
+      "claim": "CCyclicID lifecycle separate from CTransactionID lifecycle",
+      "source": "stages/stage16_7/reqid/REQID_LIFECYCLE.md",
+      "anchors": ["line 41"],
+      "classification": "separate symbols/list machinery; no identity bridge"
+    },
+    {
+      "claim": "StartCyclics code slice",
+      "source": "stages/stage16_7/evidence/new_internal_read_raw.txt",
+      "anchors": ["lines 879-941"],
+      "classification": "disassembly; does not prove insertion/quiescence semantics"
+    },
+    {
+      "claim": "RemoveCyclicVariables entry and helper cross-references",
+      "source": "stages/stage16_7/evidence/ghidra_new_iter2_xrefs.txt",
+      "anchors": ["lines 30-32", "line 53"],
+      "classification": "function/xref evidence, not removal barrier"
+    },
+    {
+      "claim": "Field-use scan is candidate offsets, not semantic ownership",
+      "source": "stages/stage16_7/reqid/iter2_field_use_scan.json",
+      "anchors": ["lines 1-2"],
+      "classification": "explicit scope limitation"
+    }
+  ],
+  "unresolved_transitions": [
+    "Async submission -> numeric ID producer -> caller output write",
+    "Request registration -> lookup/comparison key",
+    "Completion/cancel/wait/free/delete/destructor per-request chain",
+    "Cyclic ID production -> StartCyclics -> list insertion",
+    "Cyclic removal -> per-record deletion and callback quiescence",
+    "COM release/shutdown -> cancellation or drain guarantee"
+  ],
+  "runtime_execution_performed": false
+}

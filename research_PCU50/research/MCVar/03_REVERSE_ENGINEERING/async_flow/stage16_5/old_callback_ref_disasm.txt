@@ -1,0 +1,1709 @@
+### 0x100320a4
+WARNING: config-hold: failed to get 'esil.nonull'
+            ; DATA XREF from sym.protected:_unsigned_short_int_____thiscall_CVar2::MakeCommandString_struct_tagSAFEARRAY @ 0x1000ca12
+            ; DATA XREF from sym.public:_class_CResult_____thiscall_CXVariant::Append_struct_tagVARIANT @ 0x100148b3
+            ;-- str.OnCommandCompleted:
+            0x100320a4     .string "OnCommandCompleted" ; len=38
+            0x100320ca      add   byte [eax], al
+            ; DATA XREF from sym.protected:_unsigned_short_int_____thiscall_CVar2::MakeCommandString_struct_tagSAFEARRAY @ 0x1000ca09
+            ; DATA XREF from fcn.1000fc68 @ 0x1000feea
+            ; DATA XREF from fcn.100138b8 @ 0x100138e6
+            ;-- str.OnDataChanged:
+            0x100320cc     .string "OnDataChanged" ; len=28
+            ; DATA XREF from sym.protected:_unsigned_short_int_____thiscall_CVar2::MakeCommandString_struct_tagSAFEARRAY @ 0x1000ca00
+            ; DATA XREF from fcn.100138b8 @ 0x100138ef
+            ;-- str.OnWriteComplete:
+            0x100320e8     .string "OnWriteComplete" ; len=32
+            ; DATA XREF from sym.protected:_unsigned_short_int_____thiscall_CVar2::MakeCommandString_struct_tagSAFEARRAY @ 0x1000c9f7
+            ;-- data.10032108:
+            0x10032108 hex length=156 delta=0
+0x10032108  3f00 3f00 3f00 0000 5772 6f6e 6720 6361  ?.?.?...Wrong ca
+0x10032118  6c6c 6261 636b 2069 6e74 6572 6661 6365  llback interface
+0x10032128  2070 6f69 6e74 6572 0000 0000 5468 6520   pointer....The 
+0x10032138  6172 6974 7920 6f66 2076 616c 7565 7320  arity of values 
+0x10032148  6d75 7374 2063 6f6e 666f 726d 2074 6f20  must conform to 
+0x10032158  7468 6520 6e75 6d62 6572 206f 6620 5661  the number of Va
+0x10032168  7269 6162 6c65 7300 5661 6c75 6573 0000  riables.Values..
+0x10032178  5468 6520 6172 6974 7920 6f66 2043 6c69  The arity of Cli
+0x10032188  656e 7448 616e 646c 6573 206d 7573 7420  entHandles must 
+0x10032198  6e6f 7420 6578 6365 6564 2074            not exceed t
+
+            ; DATA XREFS from sym.protected:_unsigned_short_int_____thiscall_CVar2::MakeCommandString_struct_tagSAFEARRAY @ 0x1000c952, 0x1000c9d0
+            ; DATA XREFS from fcn.1000fc68 @ 0x1000fe7a, 0x1000fec9
+            ;-- str.Wrong_callback_interface_pointer:
+            0x10032110     .string "Wrong callback interface pointer" ; len=33
+            0x10032131      add   byte [eax], al
+            0x10032133  ~   add   byte [eax+ebp*2+0x65], dl
+            ; DATA XREF from sym.protected:_unsigned_short_int_____thiscall_CVar2::MakeCommandString_struct_tagSAFEARRAY @ 0x1000c921
+            ;-- str.The_arity_of_values_must_conform_to_the_number_of_Variables:
+            0x10032134     .string "The arity of values must conform to the number of Variables" ; len=60
+            ; DATA XREF from sym.protected:_unsigned_short_int_____thiscall_CVar2::MakeCommandString_struct_tagSAFEARRAY @ 0x1000c8f4
+            ;-- str.Values:
+            0x10032170     .string "Values" ; len=7
+            0x10032177  ~   add   byte [eax+ebp*2+0x65], dl
+            ; DATA XREF from sym.protected:_unsigned_short_int_____thiscall_CVar2::MakeCommandString_struct_tagSAFEARRAY @ 0x1000c8cb
+            ;-- str.The_arity_of_ClientHandles_must_not_exceed_the_number_of_Variables:
+            0x10032178     .string "The arity of ClientHandles must not exceed the number of Variables" ; len=67
+            0x100321bb  ~   add   byte [ecx+0x6e], ch
+            ; DATA XREF from sym.protected:_unsigned_short_int_____thiscall_CVar2::MakeCommandString_struct_tagSAFEARRAY @ 0x1000c88e
+            ; DATA XREF from sym.public:_void___thiscall_ATL::CComVariant::InternalCopy_struct_tagVARIANT_const @ 0x1000ccc7
+            ; DATA XREF from sym.public_virtual:_void___thiscall_CTransaction::_destructor_void @ 0x1001013f
+            ;-- str.invalid_server_handle:0x_x:
+            0x100321bc     .string "invalid server handle:0x%x" ; len=27
+            0x100321d7  ~   add   byte [ebp+0x69], al
+            ; DATA XREF from sym.protected:_unsigned_short_int_____thiscall_CVar2::MakeCommandString_struct_tagSAFEARRAY @ 0x1000c87d
+            ;-- str.Either_a_name_or_a_ServerHandle_must_be_specified:
+            0x100321d8     .string "Either a name or a ServerHandle must be specified" ; len=50
+            0x1003220a      add   byte [eax], al
+            ; DATA XREF from sym.protected:_unsigned_short_int_____thiscall_CVar2::MakeCommandString_struct_tagSAFEARRAY @ 0x1000c84e
+            ; DATA XREF from fcn.1000fc68 @ 0x1000fd67
+            ; DATA XREF from fcn.10010cbf @ 0x10010d4d
+            ;-- str.ClientHandles:
+            0x1003220c     .string "ClientHandles" ; len=14
+            0x1003221a      add   byte [eax], al
+            ; DATA XREF from sym.public_virtual:_long_int___stdcall_CVar2::ReadVar_struct_tagVARIANT__struct_tagVARIANT____short_int__struct_tagVARIANT____struct_tagVARIANT____struct_tagVARIANT @ 0x1000c61e
+            ; DATA XREF from fcn.1000cdcf @ 0x1000cdde
+            ;-- str.Safearray_creation_failed:
+            0x1003221c     .string "Safearray creation failed" ; len=26
+            0x10032236      add   byte [eax], al
+            ; DATA XREF from fcn.1000c532 @ 0x1000c5d7
+            ; DATA XREF from sym.public:_void___thiscall_ATL::CComVariant::InternalCopy_struct_tagVARIANT_const @ 0x1000cd2c
+            ; DATA XREF from fcn.1000fc68 @ 0x1000fd48
+            ; DATA XREF from sym.public_virtual:_void_____thiscall_CDdeAction::scalar_dtor_unsigned_int @ 0x100101c0
+            ;-- str.Either_a_Name_or_a_ServerHandle_must_to_be_specified:
+            0x10032238     .string "Either a Name or a ServerHandle must to be specified" ; len=53
+            0x1003226d      add   byte [eax], al
+            0x1003226f  ~   add   byte [ebx+0x65], dl
+            ; DATA XREF from fcn.1000c532 @ 0x1000c59f
+            ; DATA XREF from sym.public_virtual:_long_int___stdcall_CVar2::ReadVar_struct_tagVARIANT__struct_tagVARIANT____short_int__struct_tagVARIANT____struct_tagVARIANT____struct_tagVARIANT @ 0x1000c683
+            ; DATA XREF from fcn.1000fc68 @ 0x1000fd09
+            ; DATA XREF from fcn.10010cbf @ 0x10010d12
+            ; DATA XREF from fcn.10011727 @ 0x10011781
+            ;-- str.ServerHandles:
+            0x10032270     .string "ServerHandles" ; len=14
+            0x1003227e      add   byte [eax], al
+            ; DATA XREF from fcn.1000c532 @ 0x1000c55f
+            ; DATA XREF from sym.public_virtual:_long_int___stdcall_CVar2::ReadVar_struct_tagVARIANT__struct_tagVARIANT____short_int__struct_tagVARIANT____struct_tagVARIANT____struct_tagVARIANT @ 0x1000c741
+            ; DATA XREF from sym.public:_static_char_const_____cdecl_String::GetFromBSTR_unsigned_short_int____class_CBuffer_char_____int @ 0x1000fcd2
+            ; DATA XREF from fcn.10010cbf @ 0x10010cdd
+            ;-- str.Names:
+            0x10032280     .string "Names" ; len=6
+            0x10032286      add   byte [eax], al
+            ; DATA XREF from fcn.1000cdfd @ 0x1000ce0c
+            ;-- str.Com_Object_released_or_Async_Transaction_cancelled:
+            0x10032288     .string "Com-Object released or Async-Transaction cancelled" ; len=51
+            0x100322bb  ~   add   byte [ebx+0x53], al
+            ; DATA XREF from fcn.1000ce6f @ 0x1000ced8
+            ;-- str.CServerHandle_0x_x_create___ls__key:0x_x_lst:0x_x:
+            0x100322bc     .string "CServerHandle 0x%x create \"%ls\" key:0x%x lst:0x%x" ; len=50
+            0x100322ee      add   byte [eax], al
+            ; DATA XREF from fcn.1000cf3b @ 0x1000cf6f
+            ;-- str.CServerHandle_0x_x_delete___ls__key:0x_x_lst:0x_x:
+            0x100322f0     .string "CServerHandle 0x%x delete \"%ls\" key:0x%x lst:0x%x" ; len=50
+            0x10032322      add   byte [eax], al
+            ; DATA XREF from fcn.1000cf94 @ 0x1000d021
+            ;-- str.new_CTransactionID_0x_x_lst:0x_x_var2:0x_x:
+            0x10032324     .string "new CTransactionID 0x%x lst:0x%x var2:0x%x" ; len=43
+            0x1003234f  ~   add   byte [esi+0x72], ah
+            ; DATA XREF from fcn.1000d0ab @ 0x1000d0ba
+            ;-- str.free_CTransactionID_0x_x:
+            0x10032350     .string "free CTransactionID 0x%x" ; len=25
+            0x10032369      add   byte [eax], al
+            0x1003236b  ~   add   byte [ebx+0x74], dl
+            ; DATA XREF from fcn.1000d1bd @ 0x1000d776
+            ;-- str.StartRead_0x_x_RID:0x_x_nam:_ls__ls__cache:_d_shdl:0x_x_chdl:0x_x:
+            0x1003236c     .string "StartRead 0x%x RID:0x%x nam:%ls(%ls) cache:%d shdl:0x%x chdl:0x%x" ; len=66
+            0x100323ae      add   byte [eax], al
+            ; DATA XREF from fcn.1000d1bd @ 0x1000d727
+            ;-- str.StartExec_0x_x_RID:0x_x_shdl:0x_x_chdl:0x_x:
+            0x100323b0     .string "StartExec 0x%x RID:0x%x shdl:0x%x chdl:0x%x" ; len=44
+            ; DATA XREF from fcn.1000d1bd @ 0x1000d6d2
+            ;-- str.StartWrite_0x_x_RID:0x_x_nam:_ls__ls__shdl:0x_x_chdl:0x_x_val:_s:
+            0x100323dc     .string "StartWrite 0x%x RID:0x%x nam:%ls(%ls) shdl:0x%x chdl:0x%x val:%s" ; len=65
+            0x1003241d      add   byte [eax], al
+            0x1003241f  ~   add   byte [ebx+0x74], dl
+            ; DATA XREF from sym.public_virtual:_long_int___stdcall_CVar2::ReadVarAsync_struct_tagVARIANT__struct_tagVARIANT__struct_tagVARIANT__short_int__struct_IReadVarAsyncCallback2____struct_IDispatch____long_int____struct_tagVARIANT @ 0x1000d47d
+            ;-- str.StartRead__s_0x_x_RID:0x_x_nam:_ls__ls__cache:_d_shdl:0x_x_chdl:0x_x:
+            0x10032420     .string "StartRead %s 0x%x RID:0x%x nam:%ls(%ls) cache:%d shdl:0x%x chdl:0x%x" ; len=69
+            0x10032465      add   byte [eax], al
+            0x10032467  ~   add   byte [ebx+0x74], dl
+            ; DATA XREF from sym.public_virtual:_long_int___stdcall_CVar2::ReadVarAsync_struct_tagVARIANT__struct_tagVARIANT__struct_tagVARIANT__short_int__struct_IReadVarAsyncCallback2____struct_IDispatch____long_int____struct_tagVARIANT @ 0x1000d41a
+            ;-- str.StartExec__s_0x_x_RID:0x_x_shdl:0x_x_chdl:0x_x:
+            0x10032468     .string "StartExec %s 0x%x RID:0x%x shdl:0x%x chdl:0x%x" ; len=47
+            0x10032497  ~   add   byte [ebx+0x74], dl
+            ; DATA XREF from sym.public_virtual:_long_int___stdcall_CVar2::ReadVarAsync_struct_tagVARIANT__struct_tagVARIANT__struct_tagVARIANT__short_int__struct_IReadVarAsyncCallback2____struct_IDispatch____long_int____struct_tagVARIANT @ 0x1000d3ad
+            ;-- str.StartWrite__s_0x_x_RID:0x_x_nam:_ls__ls__shdl:0x_x_chdl:0x_x_val:_s:
+            0x10032498     .string "StartWrite %s 0x%x RID:0x%x nam:%ls(%ls) shdl:0x%x chdl:0x%x val:%s" ; len=68
+            ; DATA XREFS from sym.public_virtual:_long_int___stdcall_CVar2::ReadVarAsync_struct_tagVARIANT__struct_tagVARIANT__struct_tagVARIANT__short_int__struct_IReadVarAsyncCallback2____struct_IDispatch____long_int____struct_tagVARIANT @ 0x1000d380, 0x1000d40a, 0x1000d466
+            ; DATA XREF from fcn.100105f3 @ 0x10010752
+            ;-- str.Master:
+            0x100324dc     .string "Master" ; len=7
+            0x100324e3  ~   add   byte [ebx+0x6c], dl
+            ; DATA XREFS from sym.public_virtual:_long_int___stdcall_CVar2::ReadVarAsync_struct_tagVARIANT__struct_tagVARIANT__struct_tagVARIANT__short_int__struct_IReadVarAsyncCallback2____struct_IDispatch____long_int____struct_tagVARIANT @ 0x1000d379, 0x1000d403, 0x1000d45f
+            ; DATA XREF from fcn.100105f3 @ 0x1001074b
+            ;-- str.Slave:
+            0x100324e4     .string "Slave" ; len=6
+            0x100324ea      add   byte [eax], al
+            ; DATA XREF from fcn.1000d7a4 @ 0x1000d886
+            ;-- str.new_CTransaction_0x_x_RID:0x_x_nam:_ls_cache:_d:
+            0x100324ec     .string "new CTransaction 0x%x RID:0x%x nam:%ls cache:%d" ; len=48
+            ; DATA XREF from fcn.1000d8bf @ 0x1000ea55
+            ;-- str.d._d._d__d:_d:_d._03d_____0019:
+            0x1003251c     .string "%d.%d.%d %d:%d:%d.%03d ??? 0019" ; len=64
+            ; DATA XREF from fcn.1000d8bf @ 0x1000da91
+            ;-- str.new_CDdeAction_0x_x__item:_s__s_s:
+            0x1003255c     .string "new CDdeAction 0x%x (item:%s)%s%s" ; len=34
+            0x1003257e      add   byte [eax], al
+            ; DATA XREF from fcn.1000d8bf @ 0x1000da6d
+            ;-- str.ori::
+            0x10032580     .string " ori:" ; len=6
+            0x10032586      add   byte [eax], al
+            ; DATA XREF from fcn.1000d8bf @ 0x1000d97c
+            ;-- data.10032588:
+            0x10032588      sub   byte [eax], al
+            0x1003258a      add   byte ds:[ecx], ch
+            0x1003258d      add   byte [eax], al
+            0x1003258f  ~   add   byte [eax], ch
+            ; DATA XREF from fcn.1000d8bf @ 0x1000d96e
+            ;-- data.10032590:
+            0x10032590      sub   byte [eax], al
+            0x10032592      pop   esi
+            0x10032593      add   byte [ecx], ch
+            0x10032595      add   byte [eax], al
+            0x10032597  ~   add   byte [ecx+0x72], al
+            ; DATA XREF from fcn.1000ee33 @ 0x1000effd
+            ;-- str.Array:
+            0x10032598     .string "Array" ; len=6
+            0x1003259e      add   byte [eax], al
+            ; DATA XREF from fcn.1000ee33 @ 0x1000eff0
+            ;-- str.Internal_unexpected__converting_safearray:
+            0x100325a0     .string "Internal unexpected (converting safearray)" ; len=43
+            0x100325cb  ~   add   byte [esi+0x72], ah
+            ; DATA XREF from fcn.1000f058 @ 0x1000f075
+            ;-- str.free_CDdeAction_0x_x__item:_s:
+            0x100325cc     .string "free CDdeAction 0x%x (item:%s)" ; len=31
+            0x100325eb  ~   add   byte [esi+0x72], ah
+            ; DATA XREF from fcn.1000f139 @ 0x1000f14d
+            ;-- str.free_CTransaction_0x_x:
+            0x100325ec     .string "free CTransaction 0x%x" ; len=23
+            0x10032603  ~   add   byte [0x56492064], ah
+            ; DATA XREF from fcn.1000f1b5 @ +0x8d
+            ;-- str.d_IVar2::WriteVarAsync_0x_x__s:
+            0x10032604     .string "%d IVar2::WriteVarAsync 0x%x %s" ; len=32
+            ; DATA XREF from fcn.1000f1b5 @ +0x4b
+            ;-- str.IVar2_0x_x_WriteVarAsync:
+            0x10032624     .string "IVar2 0x%x WriteVarAsync\n" ; len=26
+            0x1003263e      add   byte [eax], al
+            ; DATA XREF from fcn.1000f1b5 @ +0x1f7
+            ;-- str.d_IVar::WriteVarAsync_0x_x__s:
+            0x10032640     .string "%d IVar::WriteVarAsync 0x%x %s" ; len=31
+            0x1003265f  ~   add   byte [ecx+0x56], cl
+            ; DATA XREF from fcn.1000f1b5 @ +0x1b6
+            ;-- str.IVar_0x_x_WriteVarAsync:
+            0x10032660     .string "IVar 0x%x WriteVarAsync\n" ; len=25
+            0x10032679      add   byte [eax], al
+            0x1003267b  ~   add   byte [ebp+0x6f], cl
+            ; DATA XREF from fcn.1000f1b5 @ +0x66c
+            ;-- str.Moniker_creation_failed:
+            0x1003267c     .string "Moniker creation failed" ; len=24
+            ; DATA XREF from fcn.1000f1b5 @ +0x54c
+            ;-- str.NcddeMachineName:
+            0x10032694     .string "NcddeMachineName" ; len=17
+            0x100326a5      add   byte [eax], al
+            0x100326a7  ~   add   byte [esi+0x63], cl
+### 0x1000ca12
+WARNING: config-hold: failed to get 'esil.nonull'
+│     ╎╎╎   0x1000ca12      mov   dword [arg_8h], str.OnCommandCompleted ; 0x100320a4 ; u"OnCommandCompleted"
+│     ╎╎╎   ; CODE XREFS from sym.protected:_unsigned_short_int_____thiscall_CVar2::MakeCommandString_struct_tagSAFEARRAY @ 0x1000c9fe, 0x1000ca07, 0x1000ca10
+│     ╎╎╎   0x1000ca19      mov   eax, dword [edi]
+│     ╎╎╎   0x1000ca1b      lea   ecx, dword [arg_14h]
+│     ╎╎╎   0x1000ca1e      push  ecx
+│     ╎╎╎   0x1000ca1f      push  0x800                                ; 2048
+│     ╎╎╎   0x1000ca24      lea   ecx, dword [arg_8h]
+│     ╎╎╎   0x1000ca27      push  0x01                                 ; 1
+│     ╎╎╎   0x1000ca29      push  ecx
+│     ╎╎╎   0x1000ca2a      push  data.1002d6c8                        ; 0x1002d6c8
+│     ╎╎╎   0x1000ca2f      push  edi
+│     ╎╎╎   0x1000ca30      call  dword [eax+0x14]                     ; 20
+│     ╎╎╎   0x1000ca33      test  eax, eax
+│    ┌────< 0x1000ca35      jnl   0x1000ca44
+│    │╎╎╎   0x1000ca37      push  0x00
+│    │╎╎╎   0x1000ca39      push  eax
+│    │╎╎╎   0x1000ca3a      push  str.Wrong_dispatch_interface         ; 0x10032088 ; "Wrong dispatch interface"
+│    │╎╎└─< 0x1000ca3f      jmp   0x1000c926
+│    └────> 0x1000ca44      mov   esi, dword [var_4h]
+│     ╎╎    0x1000ca47      lea   ecx, dword [esi+0x30]
+│     ╎╎    0x1000ca4a      call  fcn.1000ce67
+│     ╎╎    0x1000ca4f      test  eax, eax
+│     └───< 0x1000ca51      jnz   0x1000c95c
+│      ╎    0x1000ca57      call  fcn.1000cdfd
+│      ╎    0x1000ca5c      push  eax
+│      ╎    0x1000ca5d      mov   ecx, esi
+│      ╎    ; CODE XREF from sym.protected:_unsigned_short_int_____thiscall_CVar2::MakeCommandString_struct_tagSAFEARRAY @ 0x1000ca84
+│      ╎┌─> 0x1000ca5f      call  fcn.10008a8e
+│      ╎╎   ; CODE XREF from sym.protected:_unsigned_short_int_____thiscall_CVar2::MakeCommandString_struct_tagSAFEARRAY @ 0x1000c92e
+│      ╎╎   0x1000ca64      mov   esi, eax
+│     ┌───< 0x1000ca66      jmp   0x1000cda0                           ; sym.public_virtual:_long_int___stdcall_CVar2::Execute_struct_tagVARIANT__struct_tagVARIANT+0x170
+│     │╎╎   0x1000ca6b      test  byte [arg_2eh], 0x08
+│     │└──< 0x1000ca6f      jz    0x1000c95c
+│     │ ╎   0x1000ca75      push  str.Callbacks                        ; 0x1003207c ; "Callbacks" ; unknown_t arg_4h
+│     │ ╎   0x1000ca7a      call  fcn.10008000
+│     │ ╎   0x1000ca7f      pop   ecx
+│     │ ╎   0x1000ca80      mov   ecx, dword [var_4h]
+│     │ ╎   0x1000ca83      push  eax
+│     │ └─< 0x1000ca84      jmp   0x1000ca5f
+│     │     0x1000ca86      xor   eax, eax
+│     │     ; CODE XREF from sym.protected:_unsigned_short_int_____thiscall_CVar2::MakeCommandString_struct_tagSAFEARRAY @ 0x1000c9a9
+│     │     0x1000ca88      cmp   eax, esi
+│     │     0x1000ca8a      mov   dword [var_78h], eax
+│     │ ┌─< 0x1000ca8d      jnz   0x1000caa4
+│     │ │   0x1000ca8f      call  fcn.10001e73
+│     │ │   ; CODE XREF from sym.protected:_unsigned_short_int_____thiscall_CVar2::MakeCommandString_struct_tagSAFEARRAY @ 0x1000cad1
+│     │┌──> 0x1000ca94      mov   ecx, dword [var_4h]
+│     │╎│   0x1000ca97      push  eax                                  ; int32_t arg_4h
+│     │╎│   0x1000ca98      call  fcn.10008a8e
+│     │╎│   0x1000ca9d      mov   esi, eax
+│    ┌────< 0x1000ca9f      jmp   0x1000cd98                           ; sym.public_virtual:_long_int___stdcall_CVar2::Execute_struct_tagVARIANT__struct_tagVARIANT+0x168
+│    ││╎└─> 0x1000caa4      mov   ecx, dword [arg_24h]
+│    ││╎    0x1000caa7      mov   edi, dword [arg_28h]
+│    ││╎    0x1000caaa      mov   dword [ecx], eax
+│    ││╎    0x1000caac      mov   eax, dword [arg_2ch]
+│    ││╎    0x1000caaf      and   eax, 0x8000000
+│    ││╎    0x1000cab4      mov   dword [arg_14h], eax
+│    ││╎┌─< 0x1000cab7      jz    0x1000cad8
+│    ││╎│   0x1000cab9      push  dword [arg_ch]
+│    ││╎│   0x1000cabc      push  esi                                  ; SAFEARRAY *psaTarget
+│    ││╎│   0x1000cabd      push  0x03                                 ; 3 ; SAFEARRAY *psaSource
+│    ││╎│   0x1000cabf      call  dword [sym.imp.OLEAUT32.dll_SafeArrayCopyData] ; 0x1002c1b8 ; HRESULT SafeArrayCopyData(SAFEARRAY *psaSource, SAFEARRAY *psaTarget)
+│    ││╎│   0x1000cac5      cmp   eax, esi
+│    ││╎│   0x1000cac7      mov   dword [edi+0x08], eax
+│   ┌─────< 0x1000caca      jnz   0x1000cad3
+│   │││╎│   0x1000cacc      call  fcn.1000cdcf
+│   │││└──< 0x1000cad1      jmp   0x1000ca94
+│   └─────> 0x1000cad3      mov   word [edi], 0x2003                   ; [0x2003:2]=0xffff
+│    ││ └─> 0x1000cad8      xor   edi, edi
+│    ││     0x1000cada      lea   ecx, dword [var_50h]
+│    ││     0x1000cadd      mov   dword [lp], edi
+│    ││     0x1000cae0      call  fcn.100010d9
+│    ││     0x1000cae5      cmp   dword [arg_ch], edi
+│    ││     0x1000cae8      mov   ebx, data.1002c8e8                   ; 0x1002c8e8
+│    ││     0x1000caed      mov   dword [var_38h], 0x01
+│    ││     0x1000caf4      mov   dword [var_50h], ebx
+│    ││ ┌─< 0x1000caf7      jle   sym.public_virtual:_long_int___stdcall_CVar2::Execute_struct_tagVARIANT__struct_tagVARIANT
+│    ││ │   0x1000cafd      mov   dword [arg_8h], edi
+│    ││ │   0x1000cb00      cmp   edi, dword [var_14h]
+│    ││ │   0x1000cb03      mov   eax, dword [var_28h]
+│    ││┌──< 0x1000cb06      jnl   0x1000cb51
+│    ││││   0x1000cb08      mov   edx, dword [var_18h]
+│    ││││   0x1000cb0b      mov   ecx, eax
+│    ││││   0x1000cb0d      and   edx, 0x02
+│   ┌─────< 0x1000cb10      jz    0x1000cb15
+│   │││││   0x1000cb12      mov   ecx, dword [eax+edi*4]
+│   └─────> 0x1000cb15      test  ecx, ecx
+│    ││││   0x1000cb17      jz    0x1000cb51
+│    ││││   0x1000cb19      test  edx, edx
+│    ││││   0x1000cb1b      jz    0x1000cb20
+│    ││││   0x1000cb1d      mov   eax, dword [eax+edi*4]
+│    ││││   0x1000cb20      push  eax                                  ; uint_least32_t arg_4h
+│    ││││   0x1000cb21      mov   eax, dword [var_4h]
+│    ││││   0x1000cb24      lea   ecx, dword [eax+0x68]
+│    ││││   0x1000cb27      call  fcn.10003a81
+### 0x100148b3
+WARNING: config-hold: failed to get 'esil.nonull'
+│           ;-- (0x100148b8) public: class CResult * __thiscall CRequestID::MakeCB(unsigned long int, class CDdeAction * *, struct tagVARIANT *, struct tagVARIANT *, struct tagVARIANT *, struct tagVARIANT *, struct tagVARIANT *, struct tagVARIANT *):
+│           0x100148b3  ~   mov   dword [arg_8h], str.OnCommandCompleted ; 0x100320a4 ; u"OnCommandCompleted"
+│           0x100148ba      test  byte [esi+0x01], 0x20
+│       ┌─< 0x100148be      jz    0x10014bb2
+│       │   0x100148c4      mov   eax, dword [esi+0x08]
+│       │   0x100148c7      mov   edi, dword [sym.imp.OLEAUT32.dll_SafeArrayUnaccessData] ; [0x1002c1ec:4]=0x80000017
+│       │   0x100148cd      and   dword [psa], 0x00
+│       │   0x100148d1      lea   ecx, dword [arg_14h]
+│       │   0x100148d4      push  ecx
+│       │   0x100148d5      push  eax
+│       │   0x100148d6      mov   dword [arg_1ch], eax
+│       │   0x100148d9      call  edi
+│       │   0x100148db      test  eax, eax
+│      ┌──< 0x100148dd      jl    0x100148e5
+│      ││   0x100148df      mov   eax, dword [arg_1ch]
+│      ││   0x100148e2      mov   dword [psa], eax
+│      └──> 0x100148e5      mov   eax, dword [esi+0x08]
+│       │   0x100148e8      cmp   dword [psa], 0x00
+│       │   0x100148ec      mov   eax, dword [eax+0x0c]
+│       │   0x100148ef      mov   eax, dword [eax]
+│       │   0x100148f1      mov   dword [arg_1ch], eax
+│      ┌──< 0x100148f4      jz    0x100148ff
+│      ││   0x100148f6      push  dword [psa]                          ; SAFEARRAY *psa
+│      ││   0x100148f9      call  dword [sym.imp.OLEAUT32.dll_SafeArrayGetElement] ; 0x1002c1f4 ; HRESULT SafeArrayGetElement(SAFEARRAY *psa, LONG *rgIndices, void *pv)
+│      └──> 0x100148ff      mov   esi, dword [arg_18h]
+│       │   0x10014902      test  byte [esi+0x01], 0x20
+│      ┌──< 0x10014906      jz    0x10014ba6
+│      ││   0x1001490c      mov   eax, dword [esi+0x08]
+│      ││   0x1001490f      and   dword [psa], 0x00
+│      ││   0x10014913      lea   ecx, dword [arg_14h]
+│      ││   0x10014916      mov   dword [arg_18h], eax
+│      ││   0x10014919      push  ecx
+│      ││   0x1001491a      push  eax
+│      ││   0x1001491b      call  edi
+│      ││   0x1001491d      test  eax, eax
+│      ││   0x1001491f      mov   eax, dword [arg_18h]
+│     ┌───< 0x10014922      jnl   0x10014927
+│     │││   0x10014924      mov   eax, dword [psa]
+│     └───> 0x10014927      mov   ecx, dword [esi+0x08]
+│      ││   0x1001492a      test  eax, eax
+│      ││   0x1001492c      mov   ecx, dword [ecx+0x0c]
+│      ││   0x1001492f      mov   edi, dword [ecx]
+│      ││   0x10014931      mov   dword [arg_18h], edi
+│     ┌───< 0x10014934      jz    0x1001493d
+│     │││   0x10014936      push  eax                                  ; SAFEARRAY *psa
+│     │││   0x10014937      call  dword [sym.imp.OLEAUT32.dll_SafeArrayGetElement] ; 0x1002c1f4 ; HRESULT SafeArrayGetElement(SAFEARRAY *psa, LONG *rgIndices, void *pv)
+│     └───> 0x1001493d      call  fcn.100017f3
+│      ││   0x10014942      cmp   dword [eax], 0x02
+│     ┌───< 0x10014945      jz    0x1001494b
+│     │││   0x10014947      xor   eax, eax
+│    ┌────< 0x10014949      jmp   0x10014950
+│    │└───> 0x1001494b      mov   eax, dword [eax+0x0c]
+│    │ ││   0x1001494e      mov   eax, dword [eax]
+│    │ ││   ; CODE XREF from sym.public:_class_CResult_____thiscall_CXVariant::Append_struct_tagVARIANT @ 0x10014949
+│    └────> 0x10014950      mov   esi, dword [arg_10h]
+│      ││   0x10014953      test  al, 0x01                             ; 1
+│     ┌───< 0x10014955      jz    0x10014998
+│     │││   0x10014957      mov   ecx, esi
+│     │││   0x10014959      lea   eax, dword [arg_10h]
+│     │││   0x1001495c      push  0x00                                 ; BSTR *arg_4h
+│     │││   0x1001495e      push  eax                                  ; unknown_t arg_8h
+│     │││   0x1001495f      neg   ecx
+│     │││   0x10014961      lea   eax, dword [esi-0x08]
+│     │││   0x10014964      sbb   ecx, ecx
+│     │││   0x10014966      and   ecx, eax
+│     │││   0x10014968      call  fcn.10006da3
+│     │││   0x1001496d      push  dword [eax]
+│     │││   0x1001496f      mov   eax, dword [arg_ch]
+│     │││   0x10014972      push  dword [arg_1ch]
+│     │││   0x10014975      push  edi
+│     │││   0x10014976      push  dword [eax]
+│     │││   0x10014978      push  str.args_0x_x_OnCommandCompleted_cook:0x_x_err:0x_x_data:_.300s ; 0x10033264 ; ">>args 0x%x OnCommandCompleted cook:0x%x err:0x%x data:%.300s\n" ; uint_least32_t arg_4h
+│     │││   0x1001497d      call  fcn.10009daf
+│     │││   0x10014982      mov   eax, dword [arg_10h]
+│     │││   0x10014985      add   esp, 0x14
+│     │││   0x10014988      test  eax, eax
+│    ┌────< 0x1001498a      jz    0x10014998
+│    ││││   0x1001498c      cmp   byte [eax], 0x00
+│   ┌─────< 0x1001498f      jz    0x10014998
+│   │││││   0x10014991      push  eax                                  ; int32_t arg_4h
+│   │││││   0x10014992      call  fcn.100179d2
+│   │││││   0x10014997      pop   ecx
+│   └└└───> 0x10014998      cmp   dword [ebx+0x10], 0x00
+│     ┌───< 0x1001499c      jz    0x10014a61
+│     │││   0x100149a2      call  fcn.100017f3
+│     │││   0x100149a7      cmp   dword [eax], 0x02
+│    ┌────< 0x100149aa      jz    0x100149b0
+│    ││││   0x100149ac      xor   eax, eax
+│   ┌─────< 0x100149ae      jmp   0x100149b5
+│   │└────> 0x100149b0      mov   eax, dword [eax+0x0c]
+│   │ │││   0x100149b3      mov   eax, dword [eax]
+│   │ │││   ; CODE XREF from sym.public:_class_CResult_____thiscall_CXVariant::Append_struct_tagVARIANT @ 0x100149ae
+│   └─────> 0x100149b5      test  al, 0x01                             ; 1
+### 0x100320e8
+WARNING: config-hold: failed to get 'esil.nonull'
+            ; DATA XREF from sym.protected:_unsigned_short_int_____thiscall_CVar2::MakeCommandString_struct_tagSAFEARRAY @ 0x1000ca00
+            ; DATA XREF from fcn.100138b8 @ 0x100138ef
+            ;-- str.OnWriteComplete:
+            0x100320e8     .string "OnWriteComplete" ; len=32
+            ; DATA XREF from sym.protected:_unsigned_short_int_____thiscall_CVar2::MakeCommandString_struct_tagSAFEARRAY @ 0x1000c9f7
+            ;-- data.10032108:
+            0x10032108 hex length=224 delta=0
+0x10032108  3f00 3f00 3f00 0000 5772 6f6e 6720 6361  ?.?.?...Wrong ca
+0x10032118  6c6c 6261 636b 2069 6e74 6572 6661 6365  llback interface
+0x10032128  2070 6f69 6e74 6572 0000 0000 5468 6520   pointer....The 
+0x10032138  6172 6974 7920 6f66 2076 616c 7565 7320  arity of values 
+0x10032148  6d75 7374 2063 6f6e 666f 726d 2074 6f20  must conform to 
+0x10032158  7468 6520 6e75 6d62 6572 206f 6620 5661  the number of Va
+0x10032168  7269 6162 6c65 7300 5661 6c75 6573 0000  riables.Values..
+0x10032178  5468 6520 6172 6974 7920 6f66 2043 6c69  The arity of Cli
+0x10032188  656e 7448 616e 646c 6573 206d 7573 7420  entHandles must 
+0x10032198  6e6f 7420 6578 6365 6564 2074 6865 206e  not exceed the n
+0x100321a8  756d 6265 7220 6f66 2056 6172 6961 626c  umber of Variabl
+0x100321b8  6573 0000 696e 7661 6c69 6420 7365 7276  es..invalid serv
+0x100321c8  6572 2068 616e 646c 653a 3078 2578 0000  er handle:0x%x..
+0x100321d8  4569 7468 6572 2061 206e 616d 6520 6f72  Either a name or
+
+            ; DATA XREFS from sym.protected:_unsigned_short_int_____thiscall_CVar2::MakeCommandString_struct_tagSAFEARRAY @ 0x1000c952, 0x1000c9d0
+            ; DATA XREFS from fcn.1000fc68 @ 0x1000fe7a, 0x1000fec9
+            ;-- str.Wrong_callback_interface_pointer:
+            0x10032110     .string "Wrong callback interface pointer" ; len=33
+            0x10032131      add   byte [eax], al
+            0x10032133  ~   add   byte [eax+ebp*2+0x65], dl
+            ; DATA XREF from sym.protected:_unsigned_short_int_____thiscall_CVar2::MakeCommandString_struct_tagSAFEARRAY @ 0x1000c921
+            ;-- str.The_arity_of_values_must_conform_to_the_number_of_Variables:
+            0x10032134     .string "The arity of values must conform to the number of Variables" ; len=60
+            ; DATA XREF from sym.protected:_unsigned_short_int_____thiscall_CVar2::MakeCommandString_struct_tagSAFEARRAY @ 0x1000c8f4
+            ;-- str.Values:
+            0x10032170     .string "Values" ; len=7
+            0x10032177  ~   add   byte [eax+ebp*2+0x65], dl
+            ; DATA XREF from sym.protected:_unsigned_short_int_____thiscall_CVar2::MakeCommandString_struct_tagSAFEARRAY @ 0x1000c8cb
+            ;-- str.The_arity_of_ClientHandles_must_not_exceed_the_number_of_Variables:
+            0x10032178     .string "The arity of ClientHandles must not exceed the number of Variables" ; len=67
+            0x100321bb  ~   add   byte [ecx+0x6e], ch
+            ; DATA XREF from sym.protected:_unsigned_short_int_____thiscall_CVar2::MakeCommandString_struct_tagSAFEARRAY @ 0x1000c88e
+            ; DATA XREF from sym.public:_void___thiscall_ATL::CComVariant::InternalCopy_struct_tagVARIANT_const @ 0x1000ccc7
+            ; DATA XREF from sym.public_virtual:_void___thiscall_CTransaction::_destructor_void @ 0x1001013f
+            ;-- str.invalid_server_handle:0x_x:
+            0x100321bc     .string "invalid server handle:0x%x" ; len=27
+            0x100321d7  ~   add   byte [ebp+0x69], al
+            ; DATA XREF from sym.protected:_unsigned_short_int_____thiscall_CVar2::MakeCommandString_struct_tagSAFEARRAY @ 0x1000c87d
+            ;-- str.Either_a_name_or_a_ServerHandle_must_be_specified:
+            0x100321d8     .string "Either a name or a ServerHandle must be specified" ; len=50
+            0x1003220a      add   byte [eax], al
+            ; DATA XREF from sym.protected:_unsigned_short_int_____thiscall_CVar2::MakeCommandString_struct_tagSAFEARRAY @ 0x1000c84e
+            ; DATA XREF from fcn.1000fc68 @ 0x1000fd67
+            ; DATA XREF from fcn.10010cbf @ 0x10010d4d
+            ;-- str.ClientHandles:
+            0x1003220c     .string "ClientHandles" ; len=14
+            0x1003221a      add   byte [eax], al
+            ; DATA XREF from sym.public_virtual:_long_int___stdcall_CVar2::ReadVar_struct_tagVARIANT__struct_tagVARIANT____short_int__struct_tagVARIANT____struct_tagVARIANT____struct_tagVARIANT @ 0x1000c61e
+            ; DATA XREF from fcn.1000cdcf @ 0x1000cdde
+            ;-- str.Safearray_creation_failed:
+            0x1003221c     .string "Safearray creation failed" ; len=26
+            0x10032236      add   byte [eax], al
+            ; DATA XREF from fcn.1000c532 @ 0x1000c5d7
+            ; DATA XREF from sym.public:_void___thiscall_ATL::CComVariant::InternalCopy_struct_tagVARIANT_const @ 0x1000cd2c
+            ; DATA XREF from fcn.1000fc68 @ 0x1000fd48
+            ; DATA XREF from sym.public_virtual:_void_____thiscall_CDdeAction::scalar_dtor_unsigned_int @ 0x100101c0
+            ;-- str.Either_a_Name_or_a_ServerHandle_must_to_be_specified:
+            0x10032238     .string "Either a Name or a ServerHandle must to be specified" ; len=53
+            0x1003226d      add   byte [eax], al
+            0x1003226f  ~   add   byte [ebx+0x65], dl
+            ; DATA XREF from fcn.1000c532 @ 0x1000c59f
+            ; DATA XREF from sym.public_virtual:_long_int___stdcall_CVar2::ReadVar_struct_tagVARIANT__struct_tagVARIANT____short_int__struct_tagVARIANT____struct_tagVARIANT____struct_tagVARIANT @ 0x1000c683
+            ; DATA XREF from fcn.1000fc68 @ 0x1000fd09
+            ; DATA XREF from fcn.10010cbf @ 0x10010d12
+            ; DATA XREF from fcn.10011727 @ 0x10011781
+            ;-- str.ServerHandles:
+            0x10032270     .string "ServerHandles" ; len=14
+            0x1003227e      add   byte [eax], al
+            ; DATA XREF from fcn.1000c532 @ 0x1000c55f
+            ; DATA XREF from sym.public_virtual:_long_int___stdcall_CVar2::ReadVar_struct_tagVARIANT__struct_tagVARIANT____short_int__struct_tagVARIANT____struct_tagVARIANT____struct_tagVARIANT @ 0x1000c741
+            ; DATA XREF from sym.public:_static_char_const_____cdecl_String::GetFromBSTR_unsigned_short_int____class_CBuffer_char_____int @ 0x1000fcd2
+            ; DATA XREF from fcn.10010cbf @ 0x10010cdd
+            ;-- str.Names:
+            0x10032280     .string "Names" ; len=6
+            0x10032286      add   byte [eax], al
+            ; DATA XREF from fcn.1000cdfd @ 0x1000ce0c
+            ;-- str.Com_Object_released_or_Async_Transaction_cancelled:
+            0x10032288     .string "Com-Object released or Async-Transaction cancelled" ; len=51
+            0x100322bb  ~   add   byte [ebx+0x53], al
+            ; DATA XREF from fcn.1000ce6f @ 0x1000ced8
+            ;-- str.CServerHandle_0x_x_create___ls__key:0x_x_lst:0x_x:
+            0x100322bc     .string "CServerHandle 0x%x create \"%ls\" key:0x%x lst:0x%x" ; len=50
+            0x100322ee      add   byte [eax], al
+            ; DATA XREF from fcn.1000cf3b @ 0x1000cf6f
+            ;-- str.CServerHandle_0x_x_delete___ls__key:0x_x_lst:0x_x:
+            0x100322f0     .string "CServerHandle 0x%x delete \"%ls\" key:0x%x lst:0x%x" ; len=50
+            0x10032322      add   byte [eax], al
+            ; DATA XREF from fcn.1000cf94 @ 0x1000d021
+            ;-- str.new_CTransactionID_0x_x_lst:0x_x_var2:0x_x:
+            0x10032324     .string "new CTransactionID 0x%x lst:0x%x var2:0x%x" ; len=43
+            0x1003234f  ~   add   byte [esi+0x72], ah
+            ; DATA XREF from fcn.1000d0ab @ 0x1000d0ba
+            ;-- str.free_CTransactionID_0x_x:
+            0x10032350     .string "free CTransactionID 0x%x" ; len=25
+            0x10032369      add   byte [eax], al
+            0x1003236b  ~   add   byte [ebx+0x74], dl
+            ; DATA XREF from fcn.1000d1bd @ 0x1000d776
+            ;-- str.StartRead_0x_x_RID:0x_x_nam:_ls__ls__cache:_d_shdl:0x_x_chdl:0x_x:
+            0x1003236c     .string "StartRead 0x%x RID:0x%x nam:%ls(%ls) cache:%d shdl:0x%x chdl:0x%x" ; len=66
+            0x100323ae      add   byte [eax], al
+            ; DATA XREF from fcn.1000d1bd @ 0x1000d727
+            ;-- str.StartExec_0x_x_RID:0x_x_shdl:0x_x_chdl:0x_x:
+            0x100323b0     .string "StartExec 0x%x RID:0x%x shdl:0x%x chdl:0x%x" ; len=44
+            ; DATA XREF from fcn.1000d1bd @ 0x1000d6d2
+            ;-- str.StartWrite_0x_x_RID:0x_x_nam:_ls__ls__shdl:0x_x_chdl:0x_x_val:_s:
+            0x100323dc     .string "StartWrite 0x%x RID:0x%x nam:%ls(%ls) shdl:0x%x chdl:0x%x val:%s" ; len=65
+            0x1003241d      add   byte [eax], al
+            0x1003241f  ~   add   byte [ebx+0x74], dl
+            ; DATA XREF from sym.public_virtual:_long_int___stdcall_CVar2::ReadVarAsync_struct_tagVARIANT__struct_tagVARIANT__struct_tagVARIANT__short_int__struct_IReadVarAsyncCallback2____struct_IDispatch____long_int____struct_tagVARIANT @ 0x1000d47d
+            ;-- str.StartRead__s_0x_x_RID:0x_x_nam:_ls__ls__cache:_d_shdl:0x_x_chdl:0x_x:
+            0x10032420     .string "StartRead %s 0x%x RID:0x%x nam:%ls(%ls) cache:%d shdl:0x%x chdl:0x%x" ; len=69
+            0x10032465      add   byte [eax], al
+            0x10032467  ~   add   byte [ebx+0x74], dl
+            ; DATA XREF from sym.public_virtual:_long_int___stdcall_CVar2::ReadVarAsync_struct_tagVARIANT__struct_tagVARIANT__struct_tagVARIANT__short_int__struct_IReadVarAsyncCallback2____struct_IDispatch____long_int____struct_tagVARIANT @ 0x1000d41a
+            ;-- str.StartExec__s_0x_x_RID:0x_x_shdl:0x_x_chdl:0x_x:
+            0x10032468     .string "StartExec %s 0x%x RID:0x%x shdl:0x%x chdl:0x%x" ; len=47
+            0x10032497  ~   add   byte [ebx+0x74], dl
+            ; DATA XREF from sym.public_virtual:_long_int___stdcall_CVar2::ReadVarAsync_struct_tagVARIANT__struct_tagVARIANT__struct_tagVARIANT__short_int__struct_IReadVarAsyncCallback2____struct_IDispatch____long_int____struct_tagVARIANT @ 0x1000d3ad
+            ;-- str.StartWrite__s_0x_x_RID:0x_x_nam:_ls__ls__shdl:0x_x_chdl:0x_x_val:_s:
+            0x10032498     .string "StartWrite %s 0x%x RID:0x%x nam:%ls(%ls) shdl:0x%x chdl:0x%x val:%s" ; len=68
+            ; DATA XREFS from sym.public_virtual:_long_int___stdcall_CVar2::ReadVarAsync_struct_tagVARIANT__struct_tagVARIANT__struct_tagVARIANT__short_int__struct_IReadVarAsyncCallback2____struct_IDispatch____long_int____struct_tagVARIANT @ 0x1000d380, 0x1000d40a, 0x1000d466
+            ; DATA XREF from fcn.100105f3 @ 0x10010752
+            ;-- str.Master:
+            0x100324dc     .string "Master" ; len=7
+            0x100324e3  ~   add   byte [ebx+0x6c], dl
+            ; DATA XREFS from sym.public_virtual:_long_int___stdcall_CVar2::ReadVarAsync_struct_tagVARIANT__struct_tagVARIANT__struct_tagVARIANT__short_int__struct_IReadVarAsyncCallback2____struct_IDispatch____long_int____struct_tagVARIANT @ 0x1000d379, 0x1000d403, 0x1000d45f
+            ; DATA XREF from fcn.100105f3 @ 0x1001074b
+            ;-- str.Slave:
+            0x100324e4     .string "Slave" ; len=6
+            0x100324ea      add   byte [eax], al
+            ; DATA XREF from fcn.1000d7a4 @ 0x1000d886
+            ;-- str.new_CTransaction_0x_x_RID:0x_x_nam:_ls_cache:_d:
+            0x100324ec     .string "new CTransaction 0x%x RID:0x%x nam:%ls cache:%d" ; len=48
+            ; DATA XREF from fcn.1000d8bf @ 0x1000ea55
+            ;-- str.d._d._d__d:_d:_d._03d_____0019:
+            0x1003251c     .string "%d.%d.%d %d:%d:%d.%03d ??? 0019" ; len=64
+            ; DATA XREF from fcn.1000d8bf @ 0x1000da91
+            ;-- str.new_CDdeAction_0x_x__item:_s__s_s:
+            0x1003255c     .string "new CDdeAction 0x%x (item:%s)%s%s" ; len=34
+            0x1003257e      add   byte [eax], al
+            ; DATA XREF from fcn.1000d8bf @ 0x1000da6d
+            ;-- str.ori::
+            0x10032580     .string " ori:" ; len=6
+            0x10032586      add   byte [eax], al
+            ; DATA XREF from fcn.1000d8bf @ 0x1000d97c
+            ;-- data.10032588:
+            0x10032588      sub   byte [eax], al
+            0x1003258a      add   byte ds:[ecx], ch
+            0x1003258d      add   byte [eax], al
+            0x1003258f  ~   add   byte [eax], ch
+            ; DATA XREF from fcn.1000d8bf @ 0x1000d96e
+            ;-- data.10032590:
+            0x10032590      sub   byte [eax], al
+            0x10032592      pop   esi
+            0x10032593      add   byte [ecx], ch
+            0x10032595      add   byte [eax], al
+            0x10032597  ~   add   byte [ecx+0x72], al
+            ; DATA XREF from fcn.1000ee33 @ 0x1000effd
+            ;-- str.Array:
+            0x10032598     .string "Array" ; len=6
+            0x1003259e      add   byte [eax], al
+            ; DATA XREF from fcn.1000ee33 @ 0x1000eff0
+            ;-- str.Internal_unexpected__converting_safearray:
+            0x100325a0     .string "Internal unexpected (converting safearray)" ; len=43
+            0x100325cb  ~   add   byte [esi+0x72], ah
+            ; DATA XREF from fcn.1000f058 @ 0x1000f075
+            ;-- str.free_CDdeAction_0x_x__item:_s:
+            0x100325cc     .string "free CDdeAction 0x%x (item:%s)" ; len=31
+            0x100325eb  ~   add   byte [esi+0x72], ah
+            ; DATA XREF from fcn.1000f139 @ 0x1000f14d
+            ;-- str.free_CTransaction_0x_x:
+            0x100325ec     .string "free CTransaction 0x%x" ; len=23
+            0x10032603  ~   add   byte [0x56492064], ah
+            ; DATA XREF from fcn.1000f1b5 @ +0x8d
+            ;-- str.d_IVar2::WriteVarAsync_0x_x__s:
+            0x10032604     .string "%d IVar2::WriteVarAsync 0x%x %s" ; len=32
+            ; DATA XREF from fcn.1000f1b5 @ +0x4b
+            ;-- str.IVar2_0x_x_WriteVarAsync:
+            0x10032624     .string "IVar2 0x%x WriteVarAsync\n" ; len=26
+            0x1003263e      add   byte [eax], al
+            ; DATA XREF from fcn.1000f1b5 @ +0x1f7
+            ;-- str.d_IVar::WriteVarAsync_0x_x__s:
+            0x10032640     .string "%d IVar::WriteVarAsync 0x%x %s" ; len=31
+            0x1003265f  ~   add   byte [ecx+0x56], cl
+            ; DATA XREF from fcn.1000f1b5 @ +0x1b6
+            ;-- str.IVar_0x_x_WriteVarAsync:
+            0x10032660     .string "IVar 0x%x WriteVarAsync\n" ; len=25
+            0x10032679      add   byte [eax], al
+            0x1003267b  ~   add   byte [ebp+0x6f], cl
+            ; DATA XREF from fcn.1000f1b5 @ +0x66c
+            ;-- str.Moniker_creation_failed:
+            0x1003267c     .string "Moniker creation failed" ; len=24
+            ; DATA XREF from fcn.1000f1b5 @ +0x54c
+            ;-- str.NcddeMachineName:
+            0x10032694     .string "NcddeMachineName" ; len=17
+            0x100326a5      add   byte [eax], al
+            0x100326a7  ~   add   byte [esi+0x63], cl
+            ; DATA XREF from fcn.1000f1b5 @ +0x51d
+            ;-- str.NcddeServiceName:
+            0x100326a8     .string "NcddeServiceName" ; len=17
+            0x100326b9      add   byte [eax], al
+            0x100326bb  ~   add   byte [edi+0x6c], al
+### 0x1000ca00
+WARNING: config-hold: failed to get 'esil.nonull'
+│     ╎╎╎   0x1000ca00      mov   dword [arg_8h], str.OnWriteComplete  ; 0x100320e8 ; u"OnWriteComplete"
+│    ┌────< 0x1000ca07      jmp   0x1000ca19
+│    │╎╎╎   0x1000ca09      mov   dword [arg_8h], str.OnDataChanged    ; 0x100320cc ; u"OnDataChanged"
+│   ┌─────< 0x1000ca10      jmp   0x1000ca19
+│   ││╎╎╎   0x1000ca12      mov   dword [arg_8h], str.OnCommandCompleted ; 0x100320a4 ; u"OnCommandCompleted"
+│   ││╎╎╎   ; CODE XREFS from sym.protected:_unsigned_short_int_____thiscall_CVar2::MakeCommandString_struct_tagSAFEARRAY @ 0x1000c9fe, 0x1000ca07, 0x1000ca10
+│   └└────> 0x1000ca19      mov   eax, dword [edi]
+│     ╎╎╎   0x1000ca1b      lea   ecx, dword [arg_14h]
+│     ╎╎╎   0x1000ca1e      push  ecx
+│     ╎╎╎   0x1000ca1f      push  0x800                                ; 2048
+│     ╎╎╎   0x1000ca24      lea   ecx, dword [arg_8h]
+│     ╎╎╎   0x1000ca27      push  0x01                                 ; 1
+│     ╎╎╎   0x1000ca29      push  ecx
+│     ╎╎╎   0x1000ca2a      push  data.1002d6c8                        ; 0x1002d6c8
+│     ╎╎╎   0x1000ca2f      push  edi
+│     ╎╎╎   0x1000ca30      call  dword [eax+0x14]                     ; 20
+│     ╎╎╎   0x1000ca33      test  eax, eax
+│    ┌────< 0x1000ca35      jnl   0x1000ca44
+│    │╎╎╎   0x1000ca37      push  0x00
+│    │╎╎╎   0x1000ca39      push  eax
+│    │╎╎╎   0x1000ca3a      push  str.Wrong_dispatch_interface         ; 0x10032088 ; "Wrong dispatch interface"
+│    │╎╎└─< 0x1000ca3f      jmp   0x1000c926
+│    └────> 0x1000ca44      mov   esi, dword [var_4h]
+│     ╎╎    0x1000ca47      lea   ecx, dword [esi+0x30]
+│     ╎╎    0x1000ca4a      call  fcn.1000ce67
+│     ╎╎    0x1000ca4f      test  eax, eax
+│     └───< 0x1000ca51      jnz   0x1000c95c
+│      ╎    0x1000ca57      call  fcn.1000cdfd
+│      ╎    0x1000ca5c      push  eax
+│      ╎    0x1000ca5d      mov   ecx, esi
+│      ╎    ; CODE XREF from sym.protected:_unsigned_short_int_____thiscall_CVar2::MakeCommandString_struct_tagSAFEARRAY @ 0x1000ca84
+│      ╎┌─> 0x1000ca5f      call  fcn.10008a8e
+│      ╎╎   ; CODE XREF from sym.protected:_unsigned_short_int_____thiscall_CVar2::MakeCommandString_struct_tagSAFEARRAY @ 0x1000c92e
+│      ╎╎   0x1000ca64      mov   esi, eax
+│     ┌───< 0x1000ca66      jmp   0x1000cda0                           ; sym.public_virtual:_long_int___stdcall_CVar2::Execute_struct_tagVARIANT__struct_tagVARIANT+0x170
+│     │╎╎   0x1000ca6b      test  byte [arg_2eh], 0x08
+│     │└──< 0x1000ca6f      jz    0x1000c95c
+│     │ ╎   0x1000ca75      push  str.Callbacks                        ; 0x1003207c ; "Callbacks" ; unknown_t arg_4h
+│     │ ╎   0x1000ca7a      call  fcn.10008000
+│     │ ╎   0x1000ca7f      pop   ecx
+│     │ ╎   0x1000ca80      mov   ecx, dword [var_4h]
+│     │ ╎   0x1000ca83      push  eax
+│     │ └─< 0x1000ca84      jmp   0x1000ca5f
+│     │     0x1000ca86      xor   eax, eax
+│     │     ; CODE XREF from sym.protected:_unsigned_short_int_____thiscall_CVar2::MakeCommandString_struct_tagSAFEARRAY @ 0x1000c9a9
+│     │     0x1000ca88      cmp   eax, esi
+│     │     0x1000ca8a      mov   dword [var_78h], eax
+│     │ ┌─< 0x1000ca8d      jnz   0x1000caa4
+│     │ │   0x1000ca8f      call  fcn.10001e73
+│     │ │   ; CODE XREF from sym.protected:_unsigned_short_int_____thiscall_CVar2::MakeCommandString_struct_tagSAFEARRAY @ 0x1000cad1
+│     │┌──> 0x1000ca94      mov   ecx, dword [var_4h]
+│     │╎│   0x1000ca97      push  eax                                  ; int32_t arg_4h
+│     │╎│   0x1000ca98      call  fcn.10008a8e
+│     │╎│   0x1000ca9d      mov   esi, eax
+│    ┌────< 0x1000ca9f      jmp   0x1000cd98                           ; sym.public_virtual:_long_int___stdcall_CVar2::Execute_struct_tagVARIANT__struct_tagVARIANT+0x168
+│    ││╎└─> 0x1000caa4      mov   ecx, dword [arg_24h]
+│    ││╎    0x1000caa7      mov   edi, dword [arg_28h]
+│    ││╎    0x1000caaa      mov   dword [ecx], eax
+│    ││╎    0x1000caac      mov   eax, dword [arg_2ch]
+│    ││╎    0x1000caaf      and   eax, 0x8000000
+│    ││╎    0x1000cab4      mov   dword [arg_14h], eax
+│    ││╎┌─< 0x1000cab7      jz    0x1000cad8
+│    ││╎│   0x1000cab9      push  dword [arg_ch]
+│    ││╎│   0x1000cabc      push  esi                                  ; SAFEARRAY *psaTarget
+│    ││╎│   0x1000cabd      push  0x03                                 ; 3 ; SAFEARRAY *psaSource
+│    ││╎│   0x1000cabf      call  dword [sym.imp.OLEAUT32.dll_SafeArrayCopyData] ; 0x1002c1b8 ; HRESULT SafeArrayCopyData(SAFEARRAY *psaSource, SAFEARRAY *psaTarget)
+│    ││╎│   0x1000cac5      cmp   eax, esi
+│    ││╎│   0x1000cac7      mov   dword [edi+0x08], eax
+│   ┌─────< 0x1000caca      jnz   0x1000cad3
+│   │││╎│   0x1000cacc      call  fcn.1000cdcf
+│   │││└──< 0x1000cad1      jmp   0x1000ca94
+│   └─────> 0x1000cad3      mov   word [edi], 0x2003                   ; [0x2003:2]=0xffff
+│    ││ └─> 0x1000cad8      xor   edi, edi
+│    ││     0x1000cada      lea   ecx, dword [var_50h]
+│    ││     0x1000cadd      mov   dword [lp], edi
+│    ││     0x1000cae0      call  fcn.100010d9
+│    ││     0x1000cae5      cmp   dword [arg_ch], edi
+│    ││     0x1000cae8      mov   ebx, data.1002c8e8                   ; 0x1002c8e8
+│    ││     0x1000caed      mov   dword [var_38h], 0x01
+│    ││     0x1000caf4      mov   dword [var_50h], ebx
+│    ││ ┌─< 0x1000caf7      jle   sym.public_virtual:_long_int___stdcall_CVar2::Execute_struct_tagVARIANT__struct_tagVARIANT
+│    ││ │   0x1000cafd      mov   dword [arg_8h], edi
+│    ││ │   0x1000cb00      cmp   edi, dword [var_14h]
+│    ││ │   0x1000cb03      mov   eax, dword [var_28h]
+│    ││ │   0x1000cb06      jnl   0x1000cb51
+│    ││ │   0x1000cb08      mov   edx, dword [var_18h]
+│    ││ │   0x1000cb0b      mov   ecx, eax
+│    ││ │   0x1000cb0d      and   edx, 0x02
+│    ││ │   0x1000cb10      jz    0x1000cb15
+│    ││ │   0x1000cb12      mov   ecx, dword [eax+edi*4]
+│    ││ │   0x1000cb15      test  ecx, ecx
+│    ││ │   0x1000cb17      jz    0x1000cb51
+│    ││ │   0x1000cb19      test  edx, edx
+│    ││ │   0x1000cb1b      jz    0x1000cb20
+│    ││ │   0x1000cb1d      mov   eax, dword [eax+edi*4]
+### 0x100138ef
+WARNING: config-hold: failed to get 'esil.nonull'
+│           0x100138ef      mov   dword [var_58h], str.OnWriteComplete ; 0x100320e8 ; u"OnWriteComplete"
+│       ┌─< 0x100138f6      jz    0x10013900
+│       │   0x100138f8      mov   eax, dword [eax+0x28]
+│       │   0x100138fb      mov   eax, dword [eax+0x4c]
+│      ┌──< 0x100138fe      jmp   0x10013903
+│      │└─> 0x10013900      push  0x63                                 ; 'c' ; 99
+│      │    0x10013902      pop   eax
+│      │    ; CODE XREF from fcn.100138b8 @ 0x100138fe
+│      └──> 0x10013903      push  ebx
+│           0x10013904      push  eax
+│           0x10013905      lea   eax, dword [var_74h]
+│           0x10013908      push  str.d_CRequestID::MakeCB_0x_x        ; 0x100337f8 ; "%d CRequestID::MakeCB 0x%x"
+│           0x1001390d      push  eax                                  ; int32_t arg_4h
+│           0x1001390e      call  fcn.10007a42
+│           0x10013913  ~   mov   eax, dword [ebx]
+┌ sym.public:_class_CResult_____thiscall_CXVariant::Append_struct_tagVARIANT(const char *arg_8h, int32_t arg_ah, int32_t arg_ch, int32_t arg_10h, int32_t arg_14h, int32_t arg_18h, int32_t arg_1ch, int32_t arg_20h, int32_t arg_24h);
+│           ; var int32_t var_d0h @ stack - 0xd0
+│           ; var int32_t var_c0h @ stack - 0xc0
+│           ; var int32_t var_b8h @ stack - 0xb8
+│           ; var int32_t var_b0h @ stack - 0xb0
+│           ; var int32_t var_a8h @ stack - 0xa8
+│           ; var int32_t var_6ch @ stack - 0x6c
+│           ; var int32_t var_64h @ stack - 0x64
+│           ; var int32_t var_54h @ stack - 0x54
+│           ; var int32_t var_50h @ stack - 0x50
+│           ; var int32_t var_4ch @ stack - 0x4c
+│           ; var int32_t var_48h @ stack - 0x48
+│           ; var int32_t var_44h @ stack - 0x44
+│           ; var int32_t var_40h @ stack - 0x40
+│           ; var int32_t var_3ch @ stack - 0x3c
+│           ; var SAFEARRAY *psa @ stack - 0x38
+│           ; var unknown_t *var_34h @ stack - 0x34
+│           ; var int32_t var_30h @ stack - 0x30
+│           ; var int32_t var_28h @ stack - 0x28
+│           ; var int32_t var_24h @ stack - 0x24
+│           ; var int32_t var_20h @ stack - 0x20
+│           ; var int32_t var_1ch @ stack - 0x1c
+│           ; var int32_t var_18h @ stack - 0x18
+│           ; var int32_t var_14h @ stack - 0x14
+│           ; var unknown_t *pvargDest @ stack - 0x10
+│           ; var unknown_t *var_ch @ stack - 0xc
+│           ; var int32_t var_4h @ stack - 0x4
+│           ; arg const char *arg_8h @ stack + 0x8
+│           ; arg int32_t arg_ah @ stack + 0xa
+│           ; arg int32_t arg_ch @ stack + 0xc
+│           ; arg int32_t arg_10h @ stack + 0x10
+│           ; arg int32_t arg_14h @ stack + 0x14
+│           ; arg int32_t arg_18h @ stack + 0x18
+│           ; arg int32_t arg_1ch @ stack + 0x1c
+│           ; arg int32_t arg_20h @ stack + 0x20
+│           ; arg int32_t arg_24h @ stack + 0x24
+│           0x10013914      add   eax, dword [ebx-0x7f74ef3c]          ; public: class CResult * __thiscall CXVariant::Append(struct tagVARIANT &)
+│           0x1001391a      mov   byte [eax], al
+└           0x1001391c      add   byte [eax], al
+│           0x1001391e      cmp   eax, data.1002c460                   ; 0x1002c460
+│       ┌─< 0x10013923      jnz   0x100140df
+│       │   0x10013929      cmp   dword [ebx+0x10], edi
+│      ┌──< 0x1001392c      jz    0x10013c7c
+│      ││   0x10013932      test  byte [arg_ah], 0x04
+│     ┌───< 0x10013936      jnz   0x10013b19
+│     │││   0x1001393c      call  fcn.100017f3
+│     │││   0x10013941      cmp   dword [eax], 0x02
+│    ┌────< 0x10013944      jz    0x1001394a
+│    ││││   0x10013946      xor   eax, eax
+│   ┌─────< 0x10013948      jmp   0x1001394f
+│   │└────> 0x1001394a      mov   eax, dword [eax+0x0c]
+│   │ │││   0x1001394d      mov   eax, dword [eax]
+│   │ │││   ; CODE XREF from sym.public:_class_CResult_____thiscall_CXVariant::Append_struct_tagVARIANT @ 0x10013948
+│   └─────> 0x1001394f      test  al, 0x01                             ; 1
+│    ┌────< 0x10013951      jz    0x10013a64
+│    ││││   0x10013957      mov   eax, dword [arg_10h]
+│    ││││   0x1001395a      and   dword [arg_24h], 0x00
+│    ││││   0x1001395e      mov   eax, dword [eax+0x08]
+│    ││││   0x10013961      cmp   dword [eax+0x10], 0x00
+│   ┌─────< 0x10013965      jle   0x10013a64
+│   │││││   0x1001396b      lea   ecx, dword [var_30h]
+│   │││││   0x1001396e      lea   edx, dword [var_28h]
+│   │││││   0x10013971      neg   ecx
+│   │││││   0x10013973      sbb   ecx, ecx
+│   │││││   0x10013975      mov   esi, dword [sym.imp.OLEAUT32.dll_SafeArrayPutElement] ; [0x1002c1e0:4]=0x80000019
+│   │││││   0x1001397b      and   ecx, edx
+│   │││││   0x1001397d      lea   edx, dword [var_28h]
+│   │││││   0x10013980      mov   dword [arg_14h], ecx
+│   │││││   0x10013983      lea   ecx, dword [var_30h]
+│   │││││   0x10013986      neg   ecx
+│   │││││   0x10013988      sbb   ecx, ecx
+│   │││││   0x1001398a      mov   edi, data.1002c3b8                   ; 0x1002c3b8
+│   │││││   0x1001398f      and   ecx, edx
+│   │││││   0x10013991      mov   dword [pvargDest], ecx
+│   │││││   0x10013994      push  dword [arg_14h]
+│   │││││   0x10013997      and   word [var_28h], 0x00
+│   │││││   0x1001399c      and   dword [var_20h], 0x00
+│   │││││   0x100139a0      lea   ecx, dword [arg_24h]
+│   │││││   0x100139a3      push  ecx
+│   │││││   0x100139a4      push  eax
+│   │││││   0x100139a5      mov   dword [var_30h], edi
+│   │││││   0x100139a8      call  esi
+│   │││││   0x100139aa      lea   eax, dword [var_ch]
+│   │││││   0x100139ad      push  eax
+│   │││││   0x100139ae      lea   eax, dword [arg_24h]
+│   │││││   0x100139b1      push  eax
+│   │││││   0x100139b2      mov   eax, dword [arg_18h]
+│   │││││   0x100139b5      push  dword [eax+0x08]
+│   │││││   0x100139b8      call  esi
+│   │││││   0x100139ba      lea   eax, dword [arg_20h]
+│   │││││   0x100139bd      push  eax
+│   │││││   0x100139be      lea   eax, dword [arg_24h]
+│   │││││   0x100139c1      push  eax
+│   │││││   0x100139c2      mov   eax, dword [arg_1ch]
+│   │││││   0x100139c5      push  dword [eax+0x08]
+│   │││││   0x100139c8      call  esi
+│   │││││   0x100139ca      call  fcn.100017f3
+│   │││││   0x100139cf      cmp   dword [eax], 0x02
+│  ┌──────< 0x100139d2      jz    0x100139d8
+│  ││││││   0x100139d4      xor   eax, eax
+│ ┌───────< 0x100139d6      jmp   0x100139dd
+│ │└──────> 0x100139d8      mov   eax, dword [eax+0x0c]
+│ │ │││││   0x100139db      mov   eax, dword [eax]
+│ │ │││││   ; CODE XREF from sym.public:_class_CResult_____thiscall_CXVariant::Append_struct_tagVARIANT @ 0x100139d6
+│ └───────> 0x100139dd      test  al, 0x01                             ; 1
+│  ┌──────< 0x100139df      jz    0x10013a3b
+│  ││││││   0x100139e1      lea   eax, dword [var_18h]
+│  ││││││   0x100139e4      push  0x00                                 ; BSTR *arg_4h
+│  ││││││   0x100139e6      push  eax                                  ; unknown_t arg_8h
+│  ││││││   0x100139e7      lea   ecx, dword [var_30h]
+│  ││││││   0x100139ea      call  fcn.10006da3
+│  ││││││   0x100139ef      mov   ecx, dword [arg_24h]
+│  ││││││   0x100139f2      mov   edx, dword [arg_ch]
+│  ││││││   0x100139f5      mov   eax, dword [eax]
+### 0x10032288
+WARNING: config-hold: failed to get 'esil.nonull'
+            ; DATA XREF from fcn.1000cdfd @ 0x1000ce0c
+            ;-- str.Com_Object_released_or_Async_Transaction_cancelled:
+            0x10032288     .string "Com-Object released or Async-Transaction cancelled" ; len=51
+            0x100322bb  ~   add   byte [ebx+0x53], al
+            ; DATA XREF from fcn.1000ce6f @ 0x1000ced8
+            ;-- str.CServerHandle_0x_x_create___ls__key:0x_x_lst:0x_x:
+            0x100322bc     .string "CServerHandle 0x%x create \"%ls\" key:0x%x lst:0x%x" ; len=50
+            0x100322ee      add   byte [eax], al
+            ; DATA XREF from fcn.1000cf3b @ 0x1000cf6f
+            ;-- str.CServerHandle_0x_x_delete___ls__key:0x_x_lst:0x_x:
+            0x100322f0     .string "CServerHandle 0x%x delete \"%ls\" key:0x%x lst:0x%x" ; len=50
+            0x10032322      add   byte [eax], al
+            ; DATA XREF from fcn.1000cf94 @ 0x1000d021
+            ;-- str.new_CTransactionID_0x_x_lst:0x_x_var2:0x_x:
+            0x10032324     .string "new CTransactionID 0x%x lst:0x%x var2:0x%x" ; len=43
+            0x1003234f  ~   add   byte [esi+0x72], ah
+            ; DATA XREF from fcn.1000d0ab @ 0x1000d0ba
+            ;-- str.free_CTransactionID_0x_x:
+            0x10032350     .string "free CTransactionID 0x%x" ; len=25
+            0x10032369      add   byte [eax], al
+            0x1003236b  ~   add   byte [ebx+0x74], dl
+            ; DATA XREF from fcn.1000d1bd @ 0x1000d776
+            ;-- str.StartRead_0x_x_RID:0x_x_nam:_ls__ls__cache:_d_shdl:0x_x_chdl:0x_x:
+            0x1003236c     .string "StartRead 0x%x RID:0x%x nam:%ls(%ls) cache:%d shdl:0x%x chdl:0x%x" ; len=66
+            0x100323ae      add   byte [eax], al
+            ; DATA XREF from fcn.1000d1bd @ 0x1000d727
+            ;-- str.StartExec_0x_x_RID:0x_x_shdl:0x_x_chdl:0x_x:
+            0x100323b0     .string "StartExec 0x%x RID:0x%x shdl:0x%x chdl:0x%x" ; len=44
+            ; DATA XREF from fcn.1000d1bd @ 0x1000d6d2
+            ;-- str.StartWrite_0x_x_RID:0x_x_nam:_ls__ls__shdl:0x_x_chdl:0x_x_val:_s:
+            0x100323dc     .string "StartWrite 0x%x RID:0x%x nam:%ls(%ls) shdl:0x%x chdl:0x%x val:%s" ; len=65
+            0x1003241d      add   byte [eax], al
+            0x1003241f  ~   add   byte [ebx+0x74], dl
+            ; DATA XREF from sym.public_virtual:_long_int___stdcall_CVar2::ReadVarAsync_struct_tagVARIANT__struct_tagVARIANT__struct_tagVARIANT__short_int__struct_IReadVarAsyncCallback2____struct_IDispatch____long_int____struct_tagVARIANT @ 0x1000d47d
+            ;-- str.StartRead__s_0x_x_RID:0x_x_nam:_ls__ls__cache:_d_shdl:0x_x_chdl:0x_x:
+            0x10032420     .string "StartRead %s 0x%x RID:0x%x nam:%ls(%ls) cache:%d shdl:0x%x chdl:0x%x" ; len=69
+            0x10032465      add   byte [eax], al
+            0x10032467  ~   add   byte [ebx+0x74], dl
+            ; DATA XREF from sym.public_virtual:_long_int___stdcall_CVar2::ReadVarAsync_struct_tagVARIANT__struct_tagVARIANT__struct_tagVARIANT__short_int__struct_IReadVarAsyncCallback2____struct_IDispatch____long_int____struct_tagVARIANT @ 0x1000d41a
+            ;-- str.StartExec__s_0x_x_RID:0x_x_shdl:0x_x_chdl:0x_x:
+            0x10032468     .string "StartExec %s 0x%x RID:0x%x shdl:0x%x chdl:0x%x" ; len=47
+            0x10032497  ~   add   byte [ebx+0x74], dl
+            ; DATA XREF from sym.public_virtual:_long_int___stdcall_CVar2::ReadVarAsync_struct_tagVARIANT__struct_tagVARIANT__struct_tagVARIANT__short_int__struct_IReadVarAsyncCallback2____struct_IDispatch____long_int____struct_tagVARIANT @ 0x1000d3ad
+            ;-- str.StartWrite__s_0x_x_RID:0x_x_nam:_ls__ls__shdl:0x_x_chdl:0x_x_val:_s:
+            0x10032498     .string "StartWrite %s 0x%x RID:0x%x nam:%ls(%ls) shdl:0x%x chdl:0x%x val:%s" ; len=68
+            ; DATA XREFS from sym.public_virtual:_long_int___stdcall_CVar2::ReadVarAsync_struct_tagVARIANT__struct_tagVARIANT__struct_tagVARIANT__short_int__struct_IReadVarAsyncCallback2____struct_IDispatch____long_int____struct_tagVARIANT @ 0x1000d380, 0x1000d40a, 0x1000d466
+            ; DATA XREF from fcn.100105f3 @ 0x10010752
+            ;-- str.Master:
+            0x100324dc     .string "Master" ; len=7
+            0x100324e3  ~   add   byte [ebx+0x6c], dl
+            ; DATA XREFS from sym.public_virtual:_long_int___stdcall_CVar2::ReadVarAsync_struct_tagVARIANT__struct_tagVARIANT__struct_tagVARIANT__short_int__struct_IReadVarAsyncCallback2____struct_IDispatch____long_int____struct_tagVARIANT @ 0x1000d379, 0x1000d403, 0x1000d45f
+            ; DATA XREF from fcn.100105f3 @ 0x1001074b
+            ;-- str.Slave:
+            0x100324e4     .string "Slave" ; len=6
+            0x100324ea      add   byte [eax], al
+            ; DATA XREF from fcn.1000d7a4 @ 0x1000d886
+            ;-- str.new_CTransaction_0x_x_RID:0x_x_nam:_ls_cache:_d:
+            0x100324ec     .string "new CTransaction 0x%x RID:0x%x nam:%ls cache:%d" ; len=48
+            ; DATA XREF from fcn.1000d8bf @ 0x1000ea55
+            ;-- str.d._d._d__d:_d:_d._03d_____0019:
+            0x1003251c     .string "%d.%d.%d %d:%d:%d.%03d ??? 0019" ; len=64
+            ; DATA XREF from fcn.1000d8bf @ 0x1000da91
+            ;-- str.new_CDdeAction_0x_x__item:_s__s_s:
+            0x1003255c     .string "new CDdeAction 0x%x (item:%s)%s%s" ; len=34
+            0x1003257e      add   byte [eax], al
+            ; DATA XREF from fcn.1000d8bf @ 0x1000da6d
+            ;-- str.ori::
+            0x10032580     .string " ori:" ; len=6
+            0x10032586      add   byte [eax], al
+            ; DATA XREF from fcn.1000d8bf @ 0x1000d97c
+            ;-- data.10032588:
+            0x10032588      sub   byte [eax], al
+            0x1003258a      add   byte ds:[ecx], ch
+            0x1003258d      add   byte [eax], al
+            0x1003258f  ~   add   byte [eax], ch
+            ; DATA XREF from fcn.1000d8bf @ 0x1000d96e
+            ;-- data.10032590:
+            0x10032590      sub   byte [eax], al
+            0x10032592      pop   esi
+            0x10032593      add   byte [ecx], ch
+            0x10032595      add   byte [eax], al
+            0x10032597  ~   add   byte [ecx+0x72], al
+            ; DATA XREF from fcn.1000ee33 @ 0x1000effd
+            ;-- str.Array:
+            0x10032598     .string "Array" ; len=6
+            0x1003259e      add   byte [eax], al
+            ; DATA XREF from fcn.1000ee33 @ 0x1000eff0
+            ;-- str.Internal_unexpected__converting_safearray:
+            0x100325a0     .string "Internal unexpected (converting safearray)" ; len=43
+            0x100325cb  ~   add   byte [esi+0x72], ah
+            ; DATA XREF from fcn.1000f058 @ 0x1000f075
+            ;-- str.free_CDdeAction_0x_x__item:_s:
+            0x100325cc     .string "free CDdeAction 0x%x (item:%s)" ; len=31
+            0x100325eb  ~   add   byte [esi+0x72], ah
+            ; DATA XREF from fcn.1000f139 @ 0x1000f14d
+            ;-- str.free_CTransaction_0x_x:
+            0x100325ec     .string "free CTransaction 0x%x" ; len=23
+            0x10032603  ~   add   byte [0x56492064], ah
+            ; DATA XREF from fcn.1000f1b5 @ +0x8d
+            ;-- str.d_IVar2::WriteVarAsync_0x_x__s:
+            0x10032604     .string "%d IVar2::WriteVarAsync 0x%x %s" ; len=32
+            ; DATA XREF from fcn.1000f1b5 @ +0x4b
+            ;-- str.IVar2_0x_x_WriteVarAsync:
+            0x10032624     .string "IVar2 0x%x WriteVarAsync\n" ; len=26
+            0x1003263e      add   byte [eax], al
+            ; DATA XREF from fcn.1000f1b5 @ +0x1f7
+            ;-- str.d_IVar::WriteVarAsync_0x_x__s:
+            0x10032640     .string "%d IVar::WriteVarAsync 0x%x %s" ; len=31
+            0x1003265f  ~   add   byte [ecx+0x56], cl
+            ; DATA XREF from fcn.1000f1b5 @ +0x1b6
+            ;-- str.IVar_0x_x_WriteVarAsync:
+            0x10032660     .string "IVar 0x%x WriteVarAsync\n" ; len=25
+            0x10032679      add   byte [eax], al
+            0x1003267b  ~   add   byte [ebp+0x6f], cl
+            ; DATA XREF from fcn.1000f1b5 @ +0x66c
+            ;-- str.Moniker_creation_failed:
+            0x1003267c     .string "Moniker creation failed" ; len=24
+            ; DATA XREF from fcn.1000f1b5 @ +0x54c
+            ;-- str.NcddeMachineName:
+            0x10032694     .string "NcddeMachineName" ; len=17
+            0x100326a5      add   byte [eax], al
+            0x100326a7  ~   add   byte [esi+0x63], cl
+            ; DATA XREF from fcn.1000f1b5 @ +0x51d
+            ;-- str.NcddeServiceName:
+            0x100326a8     .string "NcddeServiceName" ; len=17
+            0x100326b9      add   byte [eax], al
+            0x100326bb  ~   add   byte [edi+0x6c], al
+            ; DATA XREF from fcn.1000f1b5 @ +0x518
+            ;-- str.Global:
+            0x100326bc     .string "Global" ; len=7
+            0x100326c3  ~   add   byte [ebp+0x6d], ch
+            ; DATA XREFS from fcn.1000f1b5 @ +0x50a, +0x53e
+            ;-- str.mmc.ini:
+            0x100326c4     .string "mmc.ini" ; len=8
+            ; DATA XREF from fcn.1000f1b5 @ +0x4e0
+            ;-- str.machineswitch:
+            0x100326cc     .string "machineswitch" ; len=14
+            0x100326da      add   byte [eax], al
+            ; DATA XREF from fcn.1000f1b5 @ +0x4c8
+            ;-- str.Interface_not_implemented:
+            0x100326dc     .string "Interface not implemented" ; len=26
+            0x100326f6      add   byte [eax], al
+            ; DATA XREF from fcn.1000f1b5 @ +0x4a7
+            ;-- str.IMCCommand:
+            0x100326f8     .string "IMCCommand" ; len=22
+            0x1003270e      add   byte [eax], al
+            ; DATA XREF from fcn.1000f1b5 @ +0x48e
+            ;-- str.IVar2:
+            0x10032710     .string "IVar2" ; len=12
+            ; DATA XREF from fcn.1000f1b5 @ +0x471
+            ;-- str.IVar:
+            0x1003271c     .string "IVar" ; len=10
+            0x10032726      add   byte [eax], al
+            ; DATA XREF from fcn.1000f1b5 @ +0x435
+            ;-- str.ncdde:
+            0x10032728     .string "ncdde|" ; len=7
+            0x1003272f      add   byte [esi], cl
+            0x10032732      inc   ebx
+            0x10032733      add   byte [eax], al
+            0x10032735      add   byte [eax], al
+            0x10032737      add   byte [esi], dl
+            0x1003273a      popad
+            0x1003273b      add   byte [edx], dh
+            0x1003273e      add   byte [eax], al
+            ; DATA XREF from fcn.1000f1b5 @ +0x3c1
+            ;-- str.MCCommand:
+            0x10032740     .string "MCCommand" ; len=20
+            ; DATA XREF from fcn.1000f1b5 @ +0x3a8
+            ;-- str.Var2:
+            0x10032754     .string "Var2" ; len=10
+            0x1003275e      add   byte [eax], al
+            ; DATA XREF from fcn.1000f1b5 @ +0x31e
+            ;-- str.d_CVar2::ParseDisplayName_0x_x___ls___s:
+            0x10032760     .string "%d CVar2::ParseDisplayName 0x%x \"%ls\" %s" ; len=41
+### 0x1000ce0c
+WARNING: config-hold: failed to get 'esil.nonull'
+│       ╎   0x1000ce0c      push  str.Com_Object_released_or_Async_Transaction_cancelled ; 0x10032288 ; "Com-Object released or Async-Transaction cancelled" ; int32_t arg_4h
+│       ╎   0x1000ce11      lea   ecx, dword [esi+0x04]
+│       ╎   0x1000ce14      mov   dword [esi], 0x80004004              ; [0x80004004:4]=-1
+│       ╎   0x1000ce1a      call  fcn.10001d75
+│       ╎   0x1000ce1f      and   dword [esi+0x08], 0x00
+│       ╎   0x1000ce23      mov   eax, esi
+│       ╎   0x1000ce25      pop   esi
+│       ╎   0x1000ce26      ret
+│       ╎   0x1000ce27      xor   eax, eax
+│       ╎   0x1000ce29      pop   esi
+└       ╎   0x1000ce2a      ret
+        ╎   ; XREFS: CALL 0x1000c546  CALL 0x1000c589  CALL 0x1000c836
+        ╎   ; XREFS: CALL 0x1000c8e1  CALL 0x1000fcc5  CALL 0x1000fcfd
+        ╎   ; XREFS: CALL 0x1000fd5b  CALL 0x1000fd97  CALL 0x1000fdd3
+        ╎   ; XREFS: CALL 0x10010cd4  CALL 0x10010d0c  CALL 0x10010d3a
+        ╎   ; XREFS: CALL 0x100118ef
+┌ fcn.1000ce2b(int32_t arg_4h);
+│       ╎   ; arg int32_t arg_4h @ stack + 0x4
+│       ╎   0x1000ce2b      mov   eax, ecx
+│       ╎   0x1000ce2d      mov   cx, word [arg_4h]
+│       ╎   0x1000ce32      mov   word [eax], cx
+│       ╎   0x1000ce35      xor   ecx, ecx
+│       ╎   0x1000ce37      mov   dword [eax+0x04], ecx
+│       ╎   0x1000ce3a      mov   dword [eax+0x08], ecx
+│       ╎   0x1000ce3d      mov   dword [eax+0x18], ecx
+│       ╎   0x1000ce40      mov   dword [eax+0x1c], ecx
+└       ╎   0x1000ce43      ret   0x04
+        ╎   ; XREFS: CALL 0x1000cc53  CALL 0x1000cc79  CALL 0x100101ea
+        ╎   ; XREFS: CALL 0x10010202  CALL 0x10013e25  CALL 0x10014006
+┌ fcn.1000ce46();
+│       ╎   0x1000ce46      push  esi
+│       ╎   0x1000ce47      mov   esi, ecx
+│       ╎   0x1000ce49      push  0x04                                 ; 4 ; UINT_PTR ucb
+│       ╎   0x1000ce4b      push  esi                                  ; VOID *lp
+│       ╎   0x1000ce4c      call  dword [sym.imp.KERNEL32.dll_IsBadReadPtr] ; 0x1002c184 ; BOOL IsBadReadPtr(VOID *lp, UINT_PTR ucb)
+│       ╎   0x1000ce52      test  eax, eax
+│      ┌──< 0x1000ce54      jnz   0x1000ce63
+│      │╎   0x1000ce56      cmp   dword [esi+0x04], 0x890abcde
+│     ┌───< 0x1000ce5d      jnz   0x1000ce63
+│     ││╎   0x1000ce5f      mov   eax, dword [esi]
+│     ││╎   0x1000ce61      pop   esi
+│     ││╎   0x1000ce62      ret
+│     └└──> 0x1000ce63      xor   eax, eax
+│       ╎   0x1000ce65      pop   esi
+└       ╎   0x1000ce66      ret
+        ╎   ; CALL XREF from sym.protected:_unsigned_short_int_____thiscall_CVar2::MakeCommandString_struct_tagSAFEARRAY @ 0x1000ca4a
+        ╎   ; CALL XREF from fcn.1000fc68 @ 0x1000ff0e
+        ╎   ; CALL XREF from fcn.10013615 @ 0x1001361e
+┌ fcn.1000ce67();
+│       ╎   0x1000ce67      add   ecx, 0x04
+└       └─< 0x1000ce6a      jmp   fcn.10007b57
+            ; CALL XREF from sym.protected:_unsigned_short_int_____thiscall_CVar2::MakeCommandString_struct_tagSAFEARRAY @ 0x1000c7e1
+┌ fcn.1000ce6f(int32_t arg_4h, BSTR *pbstr, uint_least32_t arg_10h);
+│           ; arg int32_t arg_4h @ stack + 0x4
+│           ; arg BSTR *pbstr @ stack + 0x8
+│           ; arg uint_least32_t arg_10h @ stack + 0x10
+│           0x1000ce6f      push  esi
+│           0x1000ce70      push  edi
+│           0x1000ce71      mov   edi, dword [arg_4h]
+│           0x1000ce75      mov   esi, ecx
+│           0x1000ce77      test  edi, edi
+│           0x1000ce79      mov   dword [esi], data.1002c8fc           ; [0x1002c8fc:4]=0x100172c6
+│           0x1000ce7f      mov   dword [esi+0x04], edi
+│       ┌─< 0x1000ce82      jz    0x1000ce8c
+│       │   0x1000ce84      push  esi                                  ; int32_t arg_4h
+│       │   0x1000ce85      mov   ecx, edi
+│       │   0x1000ce87      call  fcn.1000218a
+│       └─> 0x1000ce8c      push  dword [pbstr]                        ; BSTR *pbstr
+│           0x1000ce90      call  dword [sym.imp.OLEAUT32.dll_SysReAllocString] ; 0x1002c1f8 ; INT SysReAllocString(BSTR *pbstr, OLECHAR *psz)
+│           0x1000ce96      mov   dword [esi+0x08], eax
+│           0x1000ce99      push  dword [esi+0x08]                     ; int32_t arg_4h
+│           0x1000ce9c      mov   dword [esi], data.1002c8f8           ; [0x1002c8f8:4]=0x1000cf1f
+│           0x1000cea2      call  fcn.1000ceec
+│           0x1000cea7      pop   ecx
+│           0x1000cea8      mov   dword [esi+0x0c], eax
+│           0x1000ceab      call  fcn.100017f3
+│           0x1000ceb0      cmp   dword [eax], 0x02
+│       ┌─< 0x1000ceb3      jz    0x1000ceb9
+│       │   0x1000ceb5      xor   eax, eax
+│      ┌──< 0x1000ceb7      jmp   0x1000cebe
+│      │└─> 0x1000ceb9      mov   eax, dword [eax+0x0c]
+│      │    0x1000cebc      mov   eax, dword [eax]
+│      │    ; CODE XREF from fcn.1000ce6f @ 0x1000ceb7
+│      └──> 0x1000cebe      test  al, 0x01                             ; 1
+│       ┌─< 0x1000cec0      jz    0x1000cee5
+│       │   0x1000cec2      cmp   dword [arg_10h], 0x00
+│       │   0x1000cec7      mov   eax, data.10037434                   ; 0x10037434
+│      ┌──< 0x1000cecc      jz    0x1000ced2
+│      ││   0x1000cece      mov   eax, dword [arg_10h]
+│      └──> 0x1000ced2      push  edi
+│       │   0x1000ced3      push  dword [esi+0x0c]
+│       │   0x1000ced6      push  eax
+│       │   0x1000ced7      push  esi
+│       │   0x1000ced8      push  str.CServerHandle_0x_x_create___ls__key:0x_x_lst:0x_x ; 0x100322bc ; "CServerHandle 0x%x create \"%ls\" key:0x%x lst:0x%x" ; int32_t arg_4h
+│       │   0x1000cedd      call  fcn.10009daf
+│       │   0x1000cee2      add   esp, 0x14
+│       └─> 0x1000cee5      mov   eax, esi
+│           0x1000cee7      pop   edi
+│           0x1000cee8      pop   esi
+└           0x1000cee9      ret   0x08
+            ; CALL XREF from fcn.1000ce6f @ 0x1000cea2
+            ; CALL XREF from fcn.10014e38 @ 0x10014e41
+┌ fcn.1000ceec(int32_t arg_4h);
+│           ; arg int32_t arg_4h @ stack + 0x4
+│           0x1000ceec      push  esi
+│           0x1000ceed      mov   esi, dword [arg_4h]
+│           0x1000cef1      push  edi
+│           0x1000cef2      xor   edi, edi
+│           ; CODE XREF from fcn.1000ceec @ 0x1000cf18
+│           0x1000cef4      mov   ax, word [esi]
+│           0x1000cef7      test  ax, ax
+│       ┌─< 0x1000cefa      jz    0x1000cf1a
+│       │   0x1000cefc      inc   esi
+│       │   0x1000cefd      push  eax
+│       │   0x1000cefe      inc   esi
+### 0x10032324
+WARNING: config-hold: failed to get 'esil.nonull'
+            ; DATA XREF from fcn.1000cf94 @ 0x1000d021
+            ;-- str.new_CTransactionID_0x_x_lst:0x_x_var2:0x_x:
+            0x10032324     .string "new CTransactionID 0x%x lst:0x%x var2:0x%x" ; len=43
+            0x1003234f  ~   add   byte [esi+0x72], ah
+            ; DATA XREF from fcn.1000d0ab @ 0x1000d0ba
+            ;-- str.free_CTransactionID_0x_x:
+            0x10032350     .string "free CTransactionID 0x%x" ; len=25
+            0x10032369      add   byte [eax], al
+            0x1003236b  ~   add   byte [ebx+0x74], dl
+            ; DATA XREF from fcn.1000d1bd @ 0x1000d776
+            ;-- str.StartRead_0x_x_RID:0x_x_nam:_ls__ls__cache:_d_shdl:0x_x_chdl:0x_x:
+            0x1003236c     .string "StartRead 0x%x RID:0x%x nam:%ls(%ls) cache:%d shdl:0x%x chdl:0x%x" ; len=66
+            0x100323ae      add   byte [eax], al
+            ; DATA XREF from fcn.1000d1bd @ 0x1000d727
+            ;-- str.StartExec_0x_x_RID:0x_x_shdl:0x_x_chdl:0x_x:
+            0x100323b0     .string "StartExec 0x%x RID:0x%x shdl:0x%x chdl:0x%x" ; len=44
+            ; DATA XREF from fcn.1000d1bd @ 0x1000d6d2
+            ;-- str.StartWrite_0x_x_RID:0x_x_nam:_ls__ls__shdl:0x_x_chdl:0x_x_val:_s:
+            0x100323dc     .string "StartWrite 0x%x RID:0x%x nam:%ls(%ls) shdl:0x%x chdl:0x%x val:%s" ; len=65
+            0x1003241d      add   byte [eax], al
+            0x1003241f  ~   add   byte [ebx+0x74], dl
+            ; DATA XREF from sym.public_virtual:_long_int___stdcall_CVar2::ReadVarAsync_struct_tagVARIANT__struct_tagVARIANT__struct_tagVARIANT__short_int__struct_IReadVarAsyncCallback2____struct_IDispatch____long_int____struct_tagVARIANT @ 0x1000d47d
+            ;-- str.StartRead__s_0x_x_RID:0x_x_nam:_ls__ls__cache:_d_shdl:0x_x_chdl:0x_x:
+            0x10032420     .string "StartRead %s 0x%x RID:0x%x nam:%ls(%ls) cache:%d shdl:0x%x chdl:0x%x" ; len=69
+            0x10032465      add   byte [eax], al
+            0x10032467  ~   add   byte [ebx+0x74], dl
+            ; DATA XREF from sym.public_virtual:_long_int___stdcall_CVar2::ReadVarAsync_struct_tagVARIANT__struct_tagVARIANT__struct_tagVARIANT__short_int__struct_IReadVarAsyncCallback2____struct_IDispatch____long_int____struct_tagVARIANT @ 0x1000d41a
+            ;-- str.StartExec__s_0x_x_RID:0x_x_shdl:0x_x_chdl:0x_x:
+            0x10032468     .string "StartExec %s 0x%x RID:0x%x shdl:0x%x chdl:0x%x" ; len=47
+            0x10032497  ~   add   byte [ebx+0x74], dl
+            ; DATA XREF from sym.public_virtual:_long_int___stdcall_CVar2::ReadVarAsync_struct_tagVARIANT__struct_tagVARIANT__struct_tagVARIANT__short_int__struct_IReadVarAsyncCallback2____struct_IDispatch____long_int____struct_tagVARIANT @ 0x1000d3ad
+            ;-- str.StartWrite__s_0x_x_RID:0x_x_nam:_ls__ls__shdl:0x_x_chdl:0x_x_val:_s:
+            0x10032498     .string "StartWrite %s 0x%x RID:0x%x nam:%ls(%ls) shdl:0x%x chdl:0x%x val:%s" ; len=68
+            ; DATA XREFS from sym.public_virtual:_long_int___stdcall_CVar2::ReadVarAsync_struct_tagVARIANT__struct_tagVARIANT__struct_tagVARIANT__short_int__struct_IReadVarAsyncCallback2____struct_IDispatch____long_int____struct_tagVARIANT @ 0x1000d380, 0x1000d40a, 0x1000d466
+            ; DATA XREF from fcn.100105f3 @ 0x10010752
+            ;-- str.Master:
+            0x100324dc     .string "Master" ; len=7
+            0x100324e3  ~   add   byte [ebx+0x6c], dl
+            ; DATA XREFS from sym.public_virtual:_long_int___stdcall_CVar2::ReadVarAsync_struct_tagVARIANT__struct_tagVARIANT__struct_tagVARIANT__short_int__struct_IReadVarAsyncCallback2____struct_IDispatch____long_int____struct_tagVARIANT @ 0x1000d379, 0x1000d403, 0x1000d45f
+            ; DATA XREF from fcn.100105f3 @ 0x1001074b
+            ;-- str.Slave:
+            0x100324e4     .string "Slave" ; len=6
+            0x100324ea      add   byte [eax], al
+            ; DATA XREF from fcn.1000d7a4 @ 0x1000d886
+            ;-- str.new_CTransaction_0x_x_RID:0x_x_nam:_ls_cache:_d:
+            0x100324ec     .string "new CTransaction 0x%x RID:0x%x nam:%ls cache:%d" ; len=48
+            ; DATA XREF from fcn.1000d8bf @ 0x1000ea55
+            ;-- str.d._d._d__d:_d:_d._03d_____0019:
+            0x1003251c     .string "%d.%d.%d %d:%d:%d.%03d ??? 0019" ; len=64
+            ; DATA XREF from fcn.1000d8bf @ 0x1000da91
+            ;-- str.new_CDdeAction_0x_x__item:_s__s_s:
+            0x1003255c     .string "new CDdeAction 0x%x (item:%s)%s%s" ; len=34
+            0x1003257e      add   byte [eax], al
+            ; DATA XREF from fcn.1000d8bf @ 0x1000da6d
+            ;-- str.ori::
+            0x10032580     .string " ori:" ; len=6
+            0x10032586      add   byte [eax], al
+            ; DATA XREF from fcn.1000d8bf @ 0x1000d97c
+            ;-- data.10032588:
+            0x10032588      sub   byte [eax], al
+            0x1003258a      add   byte ds:[ecx], ch
+            0x1003258d      add   byte [eax], al
+            0x1003258f  ~   add   byte [eax], ch
+            ; DATA XREF from fcn.1000d8bf @ 0x1000d96e
+            ;-- data.10032590:
+            0x10032590      sub   byte [eax], al
+            0x10032592      pop   esi
+            0x10032593      add   byte [ecx], ch
+            0x10032595      add   byte [eax], al
+            0x10032597  ~   add   byte [ecx+0x72], al
+            ; DATA XREF from fcn.1000ee33 @ 0x1000effd
+            ;-- str.Array:
+            0x10032598     .string "Array" ; len=6
+            0x1003259e      add   byte [eax], al
+            ; DATA XREF from fcn.1000ee33 @ 0x1000eff0
+            ;-- str.Internal_unexpected__converting_safearray:
+            0x100325a0     .string "Internal unexpected (converting safearray)" ; len=43
+            0x100325cb  ~   add   byte [esi+0x72], ah
+            ; DATA XREF from fcn.1000f058 @ 0x1000f075
+            ;-- str.free_CDdeAction_0x_x__item:_s:
+            0x100325cc     .string "free CDdeAction 0x%x (item:%s)" ; len=31
+            0x100325eb  ~   add   byte [esi+0x72], ah
+            ; DATA XREF from fcn.1000f139 @ 0x1000f14d
+            ;-- str.free_CTransaction_0x_x:
+            0x100325ec     .string "free CTransaction 0x%x" ; len=23
+            0x10032603  ~   add   byte [0x56492064], ah
+            ; DATA XREF from fcn.1000f1b5 @ +0x8d
+            ;-- str.d_IVar2::WriteVarAsync_0x_x__s:
+            0x10032604     .string "%d IVar2::WriteVarAsync 0x%x %s" ; len=32
+            ; DATA XREF from fcn.1000f1b5 @ +0x4b
+            ;-- str.IVar2_0x_x_WriteVarAsync:
+            0x10032624     .string "IVar2 0x%x WriteVarAsync\n" ; len=26
+            0x1003263e      add   byte [eax], al
+            ; DATA XREF from fcn.1000f1b5 @ +0x1f7
+            ;-- str.d_IVar::WriteVarAsync_0x_x__s:
+            0x10032640     .string "%d IVar::WriteVarAsync 0x%x %s" ; len=31
+            0x1003265f  ~   add   byte [ecx+0x56], cl
+            ; DATA XREF from fcn.1000f1b5 @ +0x1b6
+            ;-- str.IVar_0x_x_WriteVarAsync:
+            0x10032660     .string "IVar 0x%x WriteVarAsync\n" ; len=25
+            0x10032679      add   byte [eax], al
+            0x1003267b  ~   add   byte [ebp+0x6f], cl
+            ; DATA XREF from fcn.1000f1b5 @ +0x66c
+            ;-- str.Moniker_creation_failed:
+            0x1003267c     .string "Moniker creation failed" ; len=24
+            ; DATA XREF from fcn.1000f1b5 @ +0x54c
+            ;-- str.NcddeMachineName:
+            0x10032694     .string "NcddeMachineName" ; len=17
+            0x100326a5      add   byte [eax], al
+            0x100326a7  ~   add   byte [esi+0x63], cl
+            ; DATA XREF from fcn.1000f1b5 @ +0x51d
+            ;-- str.NcddeServiceName:
+            0x100326a8     .string "NcddeServiceName" ; len=17
+            0x100326b9      add   byte [eax], al
+            0x100326bb  ~   add   byte [edi+0x6c], al
+            ; DATA XREF from fcn.1000f1b5 @ +0x518
+            ;-- str.Global:
+            0x100326bc     .string "Global" ; len=7
+            0x100326c3  ~   add   byte [ebp+0x6d], ch
+            ; DATA XREFS from fcn.1000f1b5 @ +0x50a, +0x53e
+            ;-- str.mmc.ini:
+            0x100326c4     .string "mmc.ini" ; len=8
+            ; DATA XREF from fcn.1000f1b5 @ +0x4e0
+            ;-- str.machineswitch:
+            0x100326cc     .string "machineswitch" ; len=14
+            0x100326da      add   byte [eax], al
+            ; DATA XREF from fcn.1000f1b5 @ +0x4c8
+            ;-- str.Interface_not_implemented:
+            0x100326dc     .string "Interface not implemented" ; len=26
+            0x100326f6      add   byte [eax], al
+            ; DATA XREF from fcn.1000f1b5 @ +0x4a7
+            ;-- str.IMCCommand:
+            0x100326f8     .string "IMCCommand" ; len=22
+            0x1003270e      add   byte [eax], al
+            ; DATA XREF from fcn.1000f1b5 @ +0x48e
+            ;-- str.IVar2:
+            0x10032710     .string "IVar2" ; len=12
+            ; DATA XREF from fcn.1000f1b5 @ +0x471
+            ;-- str.IVar:
+            0x1003271c     .string "IVar" ; len=10
+            0x10032726      add   byte [eax], al
+            ; DATA XREF from fcn.1000f1b5 @ +0x435
+            ;-- str.ncdde:
+            0x10032728     .string "ncdde|" ; len=7
+            0x1003272f      add   byte [esi], cl
+            0x10032732      inc   ebx
+            0x10032733      add   byte [eax], al
+            0x10032735      add   byte [eax], al
+            0x10032737      add   byte [esi], dl
+            0x1003273a      popad
+            0x1003273b      add   byte [edx], dh
+            0x1003273e      add   byte [eax], al
+            ; DATA XREF from fcn.1000f1b5 @ +0x3c1
+            ;-- str.MCCommand:
+            0x10032740     .string "MCCommand" ; len=20
+            ; DATA XREF from fcn.1000f1b5 @ +0x3a8
+            ;-- str.Var2:
+            0x10032754     .string "Var2" ; len=10
+            0x1003275e      add   byte [eax], al
+            ; DATA XREF from fcn.1000f1b5 @ +0x31e
+            ;-- str.d_CVar2::ParseDisplayName_0x_x___ls___s:
+            0x10032760     .string "%d CVar2::ParseDisplayName 0x%x \"%ls\" %s" ; len=41
+            0x10032789      add   byte [eax], al
+            0x1003278b  ~   add   byte [ebx+0x56], al
+            ; DATA XREF from fcn.1000f1b5 @ +0x2e5
+            ;-- str.CVar2::ParseDisplayName_0x_x:
+            0x1003278c     .string "CVar2::ParseDisplayName 0x%x" ; len=29
+            0x100327a9      add   byte [eax], al
+            0x100327ab  ~   add   byte [0x56492064], ah
+            ; DATA XREF from fcn.1000f8ff @ +0xa4
+            ;-- str.d_IVar2::ReadVarCyclic_0x_x_ReqID:0x_x__s:
+            0x100327ac     .string "%d IVar2::ReadVarCyclic 0x%x ReqID:0x%x %s" ; len=43
+### 0x1000d021
+WARNING: config-hold: failed to get 'esil.nonull'
+│           0x1000d021      push  str.new_CTransactionID_0x_x_lst:0x_x_var2:0x_x ; 0x10032324 ; "new CTransactionID 0x%x lst:0x%x var2:0x%x"
+│           0x1000d026      push  eax                                  ; int32_t arg_4h
+│           0x1000d027      mov   dword [esi], data.1002c904           ; [0x1002c904:4]=0x1001707e ; "~p\U00000001\U00000010\x88p\U00000001\U00000010\x8f\xd0"
+│           0x1000d02d      mov   dword [edi], data.1002c900           ; [0x1002c900:4]=0x10017771 ; "qw\U00000001\U00000010~p\U00000001\U00000010\x88p\U00000001\U00000010\x8f\xd0"
+│           0x1000d033      call  fcn.10007a3d
+│           0x1000d038      add   esp, 0x14
+│           0x1000d03b      mov   eax, esi
+│           0x1000d03d      pop   edi
+│           0x1000d03e      pop   esi
+│           0x1000d03f      pop   ebx
+│           0x1000d040      pop   ebp
+└           0x1000d041      ret   0x34
+            ; CALL XREF from fcn.1000cf94 @ 0x1000cfba
+            ; CALL XREF from fcn.100103ba @ 0x100103d0
+┌ fcn.1000d044(int32_t arg_4h, int32_t arg_8h, int32_t arg_ch, int32_t arg_10h);
+│           ; arg int32_t arg_4h @ stack + 0x4
+│           ; arg int32_t arg_8h @ stack + 0x8
+│           ; arg int32_t arg_ch @ stack + 0xc
+│           ; arg int32_t arg_10h @ stack + 0x10
+│           0x1000d044      mov   eax, dword [arg_4h]
+│           0x1000d048      push  esi
+│           0x1000d049      mov   esi, ecx
+│           0x1000d04b      push  edi
+│           0x1000d04c      mov   dword [esi], eax
+│           0x1000d04e      mov   eax, dword [arg_10h]
+│           0x1000d052      lea   edi, dword [esi+0x08]
+│           0x1000d055      mov   dword [esi+0x04], eax
+│           0x1000d058      mov   ecx, edi
+│           0x1000d05a      call  fcn.10001104
+│           0x1000d05f      mov   eax, dword [arg_8h]
+│           0x1000d063      mov   dword [edi+0x04], 0x890abcde         ; [0x890abcde:4]=-1
+│           0x1000d06a      test  eax, eax
+│           0x1000d06c      mov   dword [esi+0x10], eax
+│       ┌─< 0x1000d06f      jz    0x1000d077
+│       │   0x1000d071      mov   ecx, dword [eax]
+│       │   0x1000d073      push  eax
+│       │   0x1000d074      call  dword [ecx+0x04]                     ; 4
+│       └─> 0x1000d077      mov   eax, dword [arg_ch]
+│           0x1000d07b      test  eax, eax
+│           0x1000d07d      mov   dword [esi+0x14], eax
+│       ┌─< 0x1000d080      jz    0x1000d088
+│       │   0x1000d082      mov   ecx, dword [eax]
+│       │   0x1000d084      push  eax
+│       │   0x1000d085      call  dword [ecx+0x04]                     ; 4
+│       └─> 0x1000d088      mov   eax, esi
+│           0x1000d08a      pop   edi
+│           0x1000d08b      pop   esi
+└           0x1000d08c      ret   0x10
+            ; CODE XREF from fcn.10017724 @ +0x50
+            0x1000d08f      push  esi
+            0x1000d090      mov   esi, ecx
+            0x1000d092      call  fcn.1000d0ab
+            0x1000d097      test  byte [esp+0x08], 0x01
+        ┌─< 0x1000d09c      jz    0x1000d0a5
+        │   0x1000d09e      push  esi
+        │   0x1000d09f      call  fcn.100179d2
+        │   0x1000d0a4      pop   ecx
+        └─> 0x1000d0a5      mov   eax, esi
+            0x1000d0a7      pop   esi
+            0x1000d0a8      ret   0x04
+            ; CALL XREF from fcn.1000d044 @ +0x4e
+┌ fcn.1000d0ab();
+│           ; var int32_t var_24h @ stack - 0x24
+│           ; var int32_t var_18h @ stack - 0x18
+│           ; var int32_t var_ch @ stack - 0xc
+│           ; var int32_t var_8h @ stack - 0x8
+│           0x1000d0ab      push  ebp
+│           0x1000d0ac      mov   ebp, esp
+│           0x1000d0ae      sub   esp, 0x20
+│           0x1000d0b1      push  ebx
+│           0x1000d0b2      push  esi
+│           0x1000d0b3      mov   esi, ecx
+│           0x1000d0b5      push  edi
+│           0x1000d0b6      push  esi
+│           0x1000d0b7      lea   eax, dword [var_8h]
+│           0x1000d0ba      push  str.free_CTransactionID_0x_x         ; 0x10032350 ; "free CTransactionID 0x%x"
+│           0x1000d0bf      push  eax                                  ; int32_t arg_4h
+│           0x1000d0c0      mov   dword [esi], data.1002c904           ; [0x1002c904:4]=0x1001707e ; "~p\U00000001\U00000010\x88p\U00000001\U00000010\x8f\xd0"
+│           0x1000d0c6      mov   dword [esi+0x1c], 0x1002c900         ; data.1002c900
+│                                                                      ; [0x1002c900:4]=0x10017771 ; "qw\U00000001\U00000010~p\U00000001\U00000010\x88p\U00000001\U00000010\x8f\xd0"
+│           0x1000d0cd      call  fcn.10007a42
+│           0x1000d0d2      add   esp, 0x0c
+│           0x1000d0d5      lea   ecx, dword [var_24h]
+│           0x1000d0d8      call  fcn.100010d9
+│           0x1000d0dd      and   dword [var_ch], 0x00
+│           0x1000d0e1      mov   ebx, data.1002c920                   ; 0x1002c920
+│           0x1000d0e6      push  esi                                  ; int32_t arg_4h
+│           0x1000d0e7      lea   ecx, dword [var_24h]
+│           0x1000d0ea      mov   dword [var_24h], ebx
+│           0x1000d0ed      call  fcn.100029ee
+└           0x1000d0f2      mov   edi, dword [var_18h]
+│           ; CODE XREF from sym.public_virtual:_long_int___stdcall_CVar2::WriteVar_struct_tagVARIANT__struct_tagVARIANT____struct_tagVARIANT__struct_tagVARIANT____struct_tagVARIANT @ 0x1000d106
+│       ┌─> 0x1000d0f5      test  edi, edi
+│      ┌──< 0x1000d0f7      jz    0x1000d108
+│      │╎   0x1000d0f9      mov   eax, dword [edi+0x08]
+│      │╎   0x1000d0fc      mov   edi, dword [edi]
+│      │╎   0x1000d0fe      push  eax                                  ; int32_t arg_4h
+│      │╎   0x1000d0ff      mov   ecx, esi
+│      │╎   0x1000d101      call  fcn.1000d189
+┌ sym.public_virtual:_long_int___stdcall_CVar2::WriteVar_struct_tagVARIANT__struct_tagVARIANT____struct_tagVARIANT__struct_tagVARIANT____struct_tagVARIANT();
+│      ││   ; var int32_t var_20h @ stack - 0x20
+│      ││   ; var uint_least32_t var_8h @ stack - 0x8
+│      │└─< 0x1000d106      jmp   0x1000d0f5                           ; public virtual: long int __stdcall CVar2::WriteVar(struct tagVARIANT, struct tagVARIANT *, struct tagVARIANT, struct tagVARIANT *, struct tagVARIANT *)
+│      └──> 0x1000d108      cmp   dword [var_8h], 0x01
+│           0x1000d10c      mov   dword [var_20h], ebx
+│       ┌─< 0x1000d10f      jnz   0x1000d119
+│       │   0x1000d111      lea   ecx, dword [var_20h]
+│       │   0x1000d114      call  fcn.1001768d
+│       └─> 0x1000d119      lea   ecx, dword [var_20h]
+### 0x1003236c
+WARNING: config-hold: failed to get 'esil.nonull'
+            ; DATA XREF from fcn.1000d1bd @ 0x1000d776
+            ;-- str.StartRead_0x_x_RID:0x_x_nam:_ls__ls__cache:_d_shdl:0x_x_chdl:0x_x:
+            0x1003236c     .string "StartRead 0x%x RID:0x%x nam:%ls(%ls) cache:%d shdl:0x%x chdl:0x%x" ; len=66
+            0x100323ae      add   byte [eax], al
+            ; DATA XREF from fcn.1000d1bd @ 0x1000d727
+            ;-- str.StartExec_0x_x_RID:0x_x_shdl:0x_x_chdl:0x_x:
+            0x100323b0     .string "StartExec 0x%x RID:0x%x shdl:0x%x chdl:0x%x" ; len=44
+            ; DATA XREF from fcn.1000d1bd @ 0x1000d6d2
+            ;-- str.StartWrite_0x_x_RID:0x_x_nam:_ls__ls__shdl:0x_x_chdl:0x_x_val:_s:
+            0x100323dc     .string "StartWrite 0x%x RID:0x%x nam:%ls(%ls) shdl:0x%x chdl:0x%x val:%s" ; len=65
+            0x1003241d      add   byte [eax], al
+            0x1003241f  ~   add   byte [ebx+0x74], dl
+            ; DATA XREF from sym.public_virtual:_long_int___stdcall_CVar2::ReadVarAsync_struct_tagVARIANT__struct_tagVARIANT__struct_tagVARIANT__short_int__struct_IReadVarAsyncCallback2____struct_IDispatch____long_int____struct_tagVARIANT @ 0x1000d47d
+            ;-- str.StartRead__s_0x_x_RID:0x_x_nam:_ls__ls__cache:_d_shdl:0x_x_chdl:0x_x:
+            0x10032420     .string "StartRead %s 0x%x RID:0x%x nam:%ls(%ls) cache:%d shdl:0x%x chdl:0x%x" ; len=69
+            0x10032465      add   byte [eax], al
+            0x10032467  ~   add   byte [ebx+0x74], dl
+            ; DATA XREF from sym.public_virtual:_long_int___stdcall_CVar2::ReadVarAsync_struct_tagVARIANT__struct_tagVARIANT__struct_tagVARIANT__short_int__struct_IReadVarAsyncCallback2____struct_IDispatch____long_int____struct_tagVARIANT @ 0x1000d41a
+            ;-- str.StartExec__s_0x_x_RID:0x_x_shdl:0x_x_chdl:0x_x:
+            0x10032468     .string "StartExec %s 0x%x RID:0x%x shdl:0x%x chdl:0x%x" ; len=47
+            0x10032497  ~   add   byte [ebx+0x74], dl
+            ; DATA XREF from sym.public_virtual:_long_int___stdcall_CVar2::ReadVarAsync_struct_tagVARIANT__struct_tagVARIANT__struct_tagVARIANT__short_int__struct_IReadVarAsyncCallback2____struct_IDispatch____long_int____struct_tagVARIANT @ 0x1000d3ad
+            ;-- str.StartWrite__s_0x_x_RID:0x_x_nam:_ls__ls__shdl:0x_x_chdl:0x_x_val:_s:
+            0x10032498     .string "StartWrite %s 0x%x RID:0x%x nam:%ls(%ls) shdl:0x%x chdl:0x%x val:%s" ; len=68
+            ; DATA XREFS from sym.public_virtual:_long_int___stdcall_CVar2::ReadVarAsync_struct_tagVARIANT__struct_tagVARIANT__struct_tagVARIANT__short_int__struct_IReadVarAsyncCallback2____struct_IDispatch____long_int____struct_tagVARIANT @ 0x1000d380, 0x1000d40a, 0x1000d466
+            ; DATA XREF from fcn.100105f3 @ 0x10010752
+            ;-- str.Master:
+            0x100324dc     .string "Master" ; len=7
+            0x100324e3  ~   add   byte [ebx+0x6c], dl
+            ; DATA XREFS from sym.public_virtual:_long_int___stdcall_CVar2::ReadVarAsync_struct_tagVARIANT__struct_tagVARIANT__struct_tagVARIANT__short_int__struct_IReadVarAsyncCallback2____struct_IDispatch____long_int____struct_tagVARIANT @ 0x1000d379, 0x1000d403, 0x1000d45f
+            ; DATA XREF from fcn.100105f3 @ 0x1001074b
+            ;-- str.Slave:
+            0x100324e4     .string "Slave" ; len=6
+            0x100324ea      add   byte [eax], al
+            ; DATA XREF from fcn.1000d7a4 @ 0x1000d886
+            ;-- str.new_CTransaction_0x_x_RID:0x_x_nam:_ls_cache:_d:
+            0x100324ec     .string "new CTransaction 0x%x RID:0x%x nam:%ls cache:%d" ; len=48
+            ; DATA XREF from fcn.1000d8bf @ 0x1000ea55
+            ;-- str.d._d._d__d:_d:_d._03d_____0019:
+            0x1003251c     .string "%d.%d.%d %d:%d:%d.%03d ??? 0019" ; len=64
+            ; DATA XREF from fcn.1000d8bf @ 0x1000da91
+            ;-- str.new_CDdeAction_0x_x__item:_s__s_s:
+            0x1003255c     .string "new CDdeAction 0x%x (item:%s)%s%s" ; len=34
+            0x1003257e      add   byte [eax], al
+            ; DATA XREF from fcn.1000d8bf @ 0x1000da6d
+            ;-- str.ori::
+            0x10032580     .string " ori:" ; len=6
+            0x10032586      add   byte [eax], al
+            ; DATA XREF from fcn.1000d8bf @ 0x1000d97c
+            ;-- data.10032588:
+            0x10032588      sub   byte [eax], al
+            0x1003258a      add   byte ds:[ecx], ch
+            0x1003258d      add   byte [eax], al
+            0x1003258f  ~   add   byte [eax], ch
+            ; DATA XREF from fcn.1000d8bf @ 0x1000d96e
+            ;-- data.10032590:
+            0x10032590      sub   byte [eax], al
+            0x10032592      pop   esi
+            0x10032593      add   byte [ecx], ch
+            0x10032595      add   byte [eax], al
+            0x10032597  ~   add   byte [ecx+0x72], al
+            ; DATA XREF from fcn.1000ee33 @ 0x1000effd
+            ;-- str.Array:
+            0x10032598     .string "Array" ; len=6
+            0x1003259e      add   byte [eax], al
+            ; DATA XREF from fcn.1000ee33 @ 0x1000eff0
+            ;-- str.Internal_unexpected__converting_safearray:
+            0x100325a0     .string "Internal unexpected (converting safearray)" ; len=43
+            0x100325cb  ~   add   byte [esi+0x72], ah
+            ; DATA XREF from fcn.1000f058 @ 0x1000f075
+            ;-- str.free_CDdeAction_0x_x__item:_s:
+            0x100325cc     .string "free CDdeAction 0x%x (item:%s)" ; len=31
+            0x100325eb  ~   add   byte [esi+0x72], ah
+            ; DATA XREF from fcn.1000f139 @ 0x1000f14d
+            ;-- str.free_CTransaction_0x_x:
+            0x100325ec     .string "free CTransaction 0x%x" ; len=23
+            0x10032603  ~   add   byte [0x56492064], ah
+            ; DATA XREF from fcn.1000f1b5 @ +0x8d
+            ;-- str.d_IVar2::WriteVarAsync_0x_x__s:
+            0x10032604     .string "%d IVar2::WriteVarAsync 0x%x %s" ; len=32
+            ; DATA XREF from fcn.1000f1b5 @ +0x4b
+            ;-- str.IVar2_0x_x_WriteVarAsync:
+            0x10032624     .string "IVar2 0x%x WriteVarAsync\n" ; len=26
+            0x1003263e      add   byte [eax], al
+            ; DATA XREF from fcn.1000f1b5 @ +0x1f7
+            ;-- str.d_IVar::WriteVarAsync_0x_x__s:
+            0x10032640     .string "%d IVar::WriteVarAsync 0x%x %s" ; len=31
+            0x1003265f  ~   add   byte [ecx+0x56], cl
+            ; DATA XREF from fcn.1000f1b5 @ +0x1b6
+            ;-- str.IVar_0x_x_WriteVarAsync:
+            0x10032660     .string "IVar 0x%x WriteVarAsync\n" ; len=25
+            0x10032679      add   byte [eax], al
+            0x1003267b  ~   add   byte [ebp+0x6f], cl
+            ; DATA XREF from fcn.1000f1b5 @ +0x66c
+            ;-- str.Moniker_creation_failed:
+            0x1003267c     .string "Moniker creation failed" ; len=24
+            ; DATA XREF from fcn.1000f1b5 @ +0x54c
+            ;-- str.NcddeMachineName:
+            0x10032694     .string "NcddeMachineName" ; len=17
+            0x100326a5      add   byte [eax], al
+            0x100326a7  ~   add   byte [esi+0x63], cl
+            ; DATA XREF from fcn.1000f1b5 @ +0x51d
+            ;-- str.NcddeServiceName:
+            0x100326a8     .string "NcddeServiceName" ; len=17
+            0x100326b9      add   byte [eax], al
+            0x100326bb  ~   add   byte [edi+0x6c], al
+            ; DATA XREF from fcn.1000f1b5 @ +0x518
+            ;-- str.Global:
+            0x100326bc     .string "Global" ; len=7
+            0x100326c3  ~   add   byte [ebp+0x6d], ch
+            ; DATA XREFS from fcn.1000f1b5 @ +0x50a, +0x53e
+            ;-- str.mmc.ini:
+            0x100326c4     .string "mmc.ini" ; len=8
+            ; DATA XREF from fcn.1000f1b5 @ +0x4e0
+            ;-- str.machineswitch:
+            0x100326cc     .string "machineswitch" ; len=14
+            0x100326da      add   byte [eax], al
+            ; DATA XREF from fcn.1000f1b5 @ +0x4c8
+            ;-- str.Interface_not_implemented:
+            0x100326dc     .string "Interface not implemented" ; len=26
+            0x100326f6      add   byte [eax], al
+            ; DATA XREF from fcn.1000f1b5 @ +0x4a7
+            ;-- str.IMCCommand:
+            0x100326f8     .string "IMCCommand" ; len=22
+            0x1003270e      add   byte [eax], al
+            ; DATA XREF from fcn.1000f1b5 @ +0x48e
+            ;-- str.IVar2:
+            0x10032710     .string "IVar2" ; len=12
+            ; DATA XREF from fcn.1000f1b5 @ +0x471
+            ;-- str.IVar:
+            0x1003271c     .string "IVar" ; len=10
+            0x10032726      add   byte [eax], al
+            ; DATA XREF from fcn.1000f1b5 @ +0x435
+            ;-- str.ncdde:
+            0x10032728     .string "ncdde|" ; len=7
+            0x1003272f      add   byte [esi], cl
+            0x10032732      inc   ebx
+            0x10032733      add   byte [eax], al
+            0x10032735      add   byte [eax], al
+            0x10032737      add   byte [esi], dl
+            0x1003273a      popad
+            0x1003273b      add   byte [edx], dh
+            0x1003273e      add   byte [eax], al
+            ; DATA XREF from fcn.1000f1b5 @ +0x3c1
+            ;-- str.MCCommand:
+            0x10032740     .string "MCCommand" ; len=20
+            ; DATA XREF from fcn.1000f1b5 @ +0x3a8
+            ;-- str.Var2:
+            0x10032754     .string "Var2" ; len=10
+            0x1003275e      add   byte [eax], al
+            ; DATA XREF from fcn.1000f1b5 @ +0x31e
+            ;-- str.d_CVar2::ParseDisplayName_0x_x___ls___s:
+            0x10032760     .string "%d CVar2::ParseDisplayName 0x%x \"%ls\" %s" ; len=41
+            0x10032789      add   byte [eax], al
+            0x1003278b  ~   add   byte [ebx+0x56], al
+            ; DATA XREF from fcn.1000f1b5 @ +0x2e5
+            ;-- str.CVar2::ParseDisplayName_0x_x:
+            0x1003278c     .string "CVar2::ParseDisplayName 0x%x" ; len=29
+            0x100327a9      add   byte [eax], al
+            0x100327ab  ~   add   byte [0x56492064], ah
+            ; DATA XREF from fcn.1000f8ff @ +0xa4
+            ;-- str.d_IVar2::ReadVarCyclic_0x_x_ReqID:0x_x__s:
+            0x100327ac     .string "%d IVar2::ReadVarCyclic 0x%x ReqID:0x%x %s" ; len=43
+            0x100327d7  ~   add   byte [ecx+0x56], cl
+            ; DATA XREF from fcn.1000f8ff @ +0x60
+            ;-- str.IVar2_0x_x_ReadVarCyclic:
+            0x100327d8     .string "IVar2 0x%x ReadVarCyclic\n" ; len=26
+            0x100327f2      add   byte [eax], al
+            ; DATA XREF from fcn.1000f8ff @ +0x258
+            ;-- str.d_IVar::ReadVarCyclic_0x_x_ReqID:0x_x__s:
+            0x100327f4     .string "%d IVar::ReadVarCyclic 0x%x ReqID:0x%x %s" ; len=42
+            0x1003281e      add   byte [eax], al
+### 0x1000d776
+WARNING: config-hold: failed to get 'esil.nonull'
+│      ╎╎   0x1000d776      push  str.StartRead_0x_x_RID:0x_x_nam:_ls__ls__cache:_d_shdl:0x_x_chdl:0x_x ; 0x1003236c ; "StartRead 0x%x RID:0x%x nam:%ls(%ls) cache:%d shdl:0x%x chdl:0x%x" ; int32_t arg_4h
+│      ╎╎   0x1000d77b      call  fcn.10009daf
+│      ╎╎   0x1000d780      add   esp, 0x20
+│      ╎╎   ; CODE XREFS from fcn.1000d1bd @ 0x1000d6fa, 0x1000d734
+│      ╎╎   0x1000d783      mov   eax, dword [arg_8h]
+│      ╎╎   0x1000d786      mov   ecx, dword [var_8h]
+│      ╎╎   0x1000d789      push  eax                                  ; int32_t arg_4h
+│      ╎╎   0x1000d78a      mov   dword [eax+0x04], ecx
+│      ╎╎   0x1000d78d      mov   ecx, dword [arg_24h]
+│      ╎╎   0x1000d790      call  fcn.10001ea1
+│      ╎╎   0x1000d795      test  eax, eax
+│      ╎└─< 0x1000d797      jz    0x1000d53c
+│      ╎    0x1000d79d      xor   esi, esi
+└      └──< 0x1000d79f      jmp   0x1000d543
+            ; CALL XREF from sym.public_virtual:_long_int___stdcall_CVar2::ReadVarAsync_struct_tagVARIANT__struct_tagVARIANT__struct_tagVARIANT__short_int__struct_IReadVarAsyncCallback2____struct_IDispatch____long_int____struct_tagVARIANT @ 0x1000d2d5
+            ; CALL XREFS from fcn.1000d1bd @ 0x1000d5a9, 0x1000d60b
+┌ fcn.1000d7a4(int32_t arg_4h, int32_t arg_8h, int32_t arg_ch, int32_t arg_10h, int32_t arg_14h, int32_t arg_18h, int32_t arg_24h, int32_t arg_28h, int32_t arg_2ch, int32_t arg_2fh, int32_t arg_30h, int32_t arg_34h, int32_t arg_38h);
+│           ; arg int32_t arg_4h @ stack + 0x4
+│           ; arg int32_t arg_8h @ stack + 0x8
+│           ; arg int32_t arg_ch @ stack + 0xc
+│           ; arg int32_t arg_10h @ stack + 0x10
+│           ; arg int32_t arg_14h @ stack + 0x14
+│           ; arg int32_t arg_18h @ stack + 0x18
+│           ; arg int32_t arg_24h @ stack + 0x24
+│           ; arg int32_t arg_28h @ stack + 0x28
+│           ; arg int32_t arg_2ch @ stack + 0x2c
+│           ; arg int32_t arg_2fh @ stack + 0x2f
+│           ; arg int32_t arg_30h @ stack + 0x30
+│           ; arg int32_t arg_34h @ stack + 0x34
+│           ; arg int32_t arg_38h @ stack + 0x38
+│           0x1000d7a4      push  ebp
+│           0x1000d7a5      mov   ebp, esp
+│           0x1000d7a7      mov   ax, word [arg_2ch]
+│           0x1000d7ab      push  ebx
+│           0x1000d7ac      dec   ax
+│           0x1000d7ae      push  esi
+│           0x1000d7af      neg   ax
+│           0x1000d7b2      sbb   eax, eax
+│           0x1000d7b4      push  edi
+│           0x1000d7b5      and   al, 0x00
+│           0x1000d7b7      push  0x64                                 ; 'd' ; 100
+│           0x1000d7b9      add   eax, 0x100                           ; 256
+│           0x1000d7be      push  0x00
+│           0x1000d7c0      push  eax
+│           0x1000d7c1      lea   esi, dword [arg_18h]
+│           0x1000d7c4      push  dword [arg_28h]
+│           0x1000d7c7      mov   ebx, ecx
+│           0x1000d7c9      push  dword [arg_38h]
+│           0x1000d7cc      push  dword [arg_24h]
+│           0x1000d7cf      sub   esp, 0x0c
+│           0x1000d7d2      mov   edi, esp
+│           0x1000d7d4      movsd
+│           0x1000d7d5      movsd
+│           0x1000d7d6      push  ecx
+│           0x1000d7d7      mov   ecx, esp
+│           0x1000d7d9      push  dword [arg_14h]                      ; unknown_t *pbstr
+│           0x1000d7dc      movsd
+│           0x1000d7dd      call  fcn.1000d89d
+│           0x1000d7e2      push  dword [arg_10h]
+│           0x1000d7e5      xor   edi, edi
+│           0x1000d7e7      mov   ecx, ebx
+│           0x1000d7e9      push  dword [arg_ch]                       ; HRESULT arg_4h
+│           0x1000d7ec      push  dword [arg_8h]                       ; HRESULT arg_ch
+│           0x1000d7ef      push  edi                                  ; BSTR *lpWideCharStr
+│           0x1000d7f0      call  fcn.1000d8bf
+│           0x1000d7f5      mov   ecx, dword [arg_4h]
+│           0x1000d7f8      lea   esi, dword [ebx+0x78]
+│           0x1000d7fb      cmp   ecx, edi
+│           0x1000d7fd      mov   dword [esi], data.1002c94c           ; [0x1002c94c:4]=0x10017288
+│           0x1000d803      mov   dword [esi+0x04], ecx
+│       ┌─< 0x1000d806      jz    0x1000d819
+│       │   0x1000d808      mov   eax, esi
+│       │   0x1000d80a      lea   edx, dword [esi-0x78]
+│       │   0x1000d80d      neg   eax
+│       │   0x1000d80f      sbb   eax, eax
+│       │   0x1000d811      and   eax, edx
+│       │   0x1000d813      push  eax                                  ; int32_t arg_4h
+│       │   0x1000d814      call  fcn.1000218a
+│       └─> 0x1000d819      mov   eax, dword [arg_30h]
+│           0x1000d81c      mov   cx, word [arg_2ch]
+│           0x1000d820      mov   dword [ebx+0x94], edi
+│           0x1000d826      mov   dword [ebx+0x84], edi
+│           0x1000d82c      mov   dword [ebx+0x88], edi
+│           0x1000d832      mov   dword [ebx+0x90], edi
+│           0x1000d838      mov   dword [ebx+0x80], 0x1002c34c         ; data.1002c34c
+│                                                                      ; [0x1002c34c:4]=0x100021ee
+│           0x1000d842      mov   dword [ebx+0x98], eax
+│           0x1000d848      mov   eax, dword [arg_34h]
+│           0x1000d84b      mov   word [ebx+0xa0], cx
+│           0x1000d852      mov   dword [ebx+0x9c], eax
+│           0x1000d858      mov   eax, dword [ebx+0x20]
+│           0x1000d85b      cmp   eax, edi
+│           0x1000d85d      mov   dword [ebx], data.1002c93c           ; [0x1002c93c:4]=0x1000f11d
+│           0x1000d863      mov   dword [esi], data.1002c938           ; [0x1002c938:4]=0x1001774e ; "Nw\U00000001\U00000010\U0000001d\xf1"
+│           0x1000d869      mov   dword [ebx+0x80], 0x1002c930         ; data.1002c930
+│                                                                      ; [0x1002c930:4]=0x100021ee
+│       ┌─< 0x1000d873      jnz   0x1000d87a
+│       │   0x1000d875      invalid                                    ; 0x10037434
+│       │                                                              ; data.10037434
+│       │   0x1000d876      xor   al, 0x74                             ; 116
+│       │   0x1000d878      add   edx, dword [eax]
+│       └─> 0x1000d87a      movsx ecx, cx
+│           0x1000d87d      push  ecx
+│           0x1000d87e      push  eax
+│           0x1000d87f      push  dword [arg_8h]
+│           0x1000d882      lea   eax, dword [arg_2fh]
+│           0x1000d885      push  ebx
+│           0x1000d886      push  str.new_CTransaction_0x_x_RID:0x_x_nam:_ls_cache:_d ; 0x100324ec ; "new CTransaction 0x%x RID:0x%x nam:%ls cache:%d"
+│           0x1000d88b      push  eax                                  ; int32_t arg_4h
+│           0x1000d88c      call  fcn.10007a3d

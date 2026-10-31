@@ -1,0 +1,217 @@
+
+/root/PL/PCU_old/H/mmc2/MCVar.dll:     file format pei-i386
+
+
+Disassembly of section .text:
+
+10011b4c <?RemoveCyclicVariables@CVar2@@UAGJJUtagVARIANT@@00PAU2@@Z+0xb8>:
+10011b4c:	55                   	push   ebp
+10011b4d:	8b ec                	mov    ebp,esp
+10011b4f:	53                   	push   ebx
+10011b50:	56                   	push   esi
+10011b51:	8b 75 0c             	mov    esi,DWORD PTR [ebp+0xc]
+10011b54:	57                   	push   edi
+10011b55:	8b f9                	mov    edi,ecx
+10011b57:	8b 9e 80 00 00 00    	mov    ebx,DWORD PTR [esi+0x80]
+10011b5d:	e8 d7 83 ff ff       	call   10009f39 <??0CVar2@@QAE@XZ+0x35>
+10011b62:	50                   	push   eax
+10011b63:	53                   	push   ebx
+10011b64:	56                   	push   esi
+10011b65:	8d 45 0c             	lea    eax,[ebp+0xc]
+10011b68:	ff 75 08             	push   DWORD PTR [ebp+0x8]
+10011b6b:	57                   	push   edi
+10011b6c:	68 0c 2f 03 10       	push   0x10032f0c
+10011b71:	50                   	push   eax
+10011b72:	e8 cb 5e ff ff       	call   10007a42 <??0CSafeArrayDataBase@@QAE@GHH@Z+0x2b>
+10011b77:	83 c4 1c             	add    esp,0x1c
+10011b7a:	83 7d 08 00          	cmp    DWORD PTR [ebp+0x8],0x0
+10011b7e:	74 7a                	je     10011bfa <?RemoveCyclicVariables@CVar2@@UAGJJUtagVARIANT@@0PAU2@@Z+0x3f>
+10011b80:	83 8e 80 00 00 00 02 	or     DWORD PTR [esi+0x80],0x2
+10011b87:	e8 67 fc fe ff       	call   100017f3 <??_Estringdispid@CComTypeInfoHolder@ATL@@QAEPAXI@Z-0x80d>
+10011b8c:	83 38 02             	cmp    DWORD PTR [eax],0x2
+10011b8f:	74 04                	je     10011b95 <?RemoveCyclicVariables@CVar2@@UAGJJUtagVARIANT@@00PAU2@@Z+0x101>
+10011b91:	33 c0                	xor    eax,eax
+10011b93:	eb 05                	jmp    10011b9a <?RemoveCyclicVariables@CVar2@@UAGJJUtagVARIANT@@00PAU2@@Z+0x106>
+10011b95:	8b 40 0c             	mov    eax,DWORD PTR [eax+0xc]
+10011b98:	8b 00                	mov    eax,DWORD PTR [eax]
+10011b9a:	a8 20                	test   al,0x20
+10011b9c:	74 1a                	je     10011bb8 <?RemoveCyclicVariables@CVar2@@UAGJJUtagVARIANT@@00PAU2@@Z+0x124>
+10011b9e:	ff 77 50             	push   DWORD PTR [edi+0x50]
+10011ba1:	ff 77 4c             	push   DWORD PTR [edi+0x4c]
+10011ba4:	ff b6 80 00 00 00    	push   DWORD PTR [esi+0x80]
+10011baa:	57                   	push   edi
+10011bab:	68 d0 2e 03 10       	push   0x10032ed0
+10011bb0:	e8 fa 81 ff ff       	call   10009daf <??_E?$CList@PAVCTransactionID@@@@UAEPAXI@Z+0x1b>
+10011bb5:	83 c4 14             	add    esp,0x14
+10011bb8:	83                   	.byte 0x83
+10011bb9:	7f 4c                	jg     10011c07 <?RemoveCyclicVariables@CVar2@@UAGJJUtagVARIANT@@0PAU2@@Z+0x4c>
+
+10011bbb <?RemoveCyclicVariables@CVar2@@UAGJJUtagVARIANT@@0PAU2@@Z>:
+10011bbb:	01 74 3c f6          	add    DWORD PTR [esp+edi*1-0xa],esi
+10011bbf:	86 80 00 00 00 04    	xchg   BYTE PTR [eax+0x4000000],al
+10011bc5:	74 16                	je     10011bdd <?RemoveCyclicVariables@CVar2@@UAGJJUtagVARIANT@@0PAU2@@Z+0x22>
+10011bc7:	6a 06                	push   0x6
+10011bc9:	8b cf                	mov    ecx,edi
+10011bcb:	e8 af 01 00 00       	call   10011d7f <?InternalRemoveCyclicVariables@CVar2@@IAEJKJAAUtagVARIANT@@00PAU2@@Z+0xc0>
+10011bd0:	8d 4d 08             	lea    ecx,[ebp+0x8]
+10011bd3:	89 45 08             	mov    DWORD PTR [ebp+0x8],eax
+10011bd6:	e8 d4 60 ff ff       	call   10007caf <?DecodeError@CDdeAction@@IAEHAAUNCDDE_BINARY_HEADER@@PAJPAF@Z+0x31>
+10011bdb:	eb 1d                	jmp    10011bfa <?RemoveCyclicVariables@CVar2@@UAGJJUtagVARIANT@@0PAU2@@Z+0x3f>
+10011bdd:	83 7f 28 00          	cmp    DWORD PTR [edi+0x28],0x0
+10011be1:	75 17                	jne    10011bfa <?RemoveCyclicVariables@CVar2@@UAGJJUtagVARIANT@@0PAU2@@Z+0x3f>
+10011be3:	8b c7                	mov    eax,edi
+10011be5:	8d 4f 24             	lea    ecx,[edi+0x24]
+10011be8:	f7 d8                	neg    eax
+10011bea:	1b c0                	sbb    eax,eax
+10011bec:	23 c1                	and    eax,ecx
+10011bee:	50                   	push   eax
+10011bef:	8b 47 34             	mov    eax,DWORD PTR [edi+0x34]
+10011bf2:	8b 48 28             	mov    ecx,DWORD PTR [eax+0x28]
+10011bf5:	e8 26 fe ff ff       	call   10011a20 <??1CCyclic@@UAE@XZ+0x18>
+10011bfa:	5f                   	pop    edi
+10011bfb:	5e                   	pop    esi
+10011bfc:	5b                   	pop    ebx
+10011bfd:	5d                   	pop    ebp
+10011bfe:	c2 08 00             	ret    0x8
+10011c01:	55                   	push   ebp
+10011c02:	8b ec                	mov    ebp,esp
+10011c04:	51                   	push   ecx
+10011c05:	56                   	push   esi
+10011c06:	8b f1                	mov    esi,ecx
+10011c08:	e8 e6 fb fe ff       	call   100017f3 <??_Estringdispid@CComTypeInfoHolder@ATL@@QAEPAXI@Z-0x80d>
+10011c0d:	83 38 02             	cmp    DWORD PTR [eax],0x2
+10011c10:	74 04                	je     10011c16 <?RemoveCyclicVariables@CVar2@@UAGJJUtagVARIANT@@0PAU2@@Z+0x5b>
+10011c12:	33 c0                	xor    eax,eax
+10011c14:	eb 05                	jmp    10011c1b <?RemoveCyclicVariables@CVar2@@UAGJJUtagVARIANT@@0PAU2@@Z+0x60>
+10011c16:	8b 40 0c             	mov    eax,DWORD PTR [eax+0xc]
+10011c19:	8b 00                	mov    eax,DWORD PTR [eax]
+10011c1b:	a8 20                	test   al,0x20
+10011c1d:	74 10                	je     10011c2f <?RemoveCyclicVariables@CVar2@@UAGJJUtagVARIANT@@0PAU2@@Z+0x74>
+10011c1f:	8d 46 dc             	lea    eax,[esi-0x24]
+10011c22:	50                   	push   eax
+10011c23:	68 48 2f 03 10       	push   0x10032f48
+10011c28:	e8 82 81 ff ff       	call   10009daf <??_E?$CList@PAVCTransactionID@@@@UAEPAXI@Z+0x1b>
+10011c2d:	59                   	pop    ecx
+10011c2e:	59                   	pop    ecx
+10011c2f:	83 7e 28 00          	cmp    DWORD PTR [esi+0x28],0x0
+10011c33:	75 15                	jne    10011c4a <?RemoveCyclicVariables@CVar2@@UAGJJUtagVARIANT@@0PAU2@@Z+0x8f>
+10011c35:	6a 02                	push   0x2
+10011c37:	8d 4e dc             	lea    ecx,[esi-0x24]
+10011c3a:	e8 40 01 00 00       	call   10011d7f <?InternalRemoveCyclicVariables@CVar2@@IAEJKJAAUtagVARIANT@@00PAU2@@Z+0xc0>
+10011c3f:	8d 4d fc             	lea    ecx,[ebp-0x4]
+10011c42:	89 45 fc             	mov    DWORD PTR [ebp-0x4],eax
+10011c45:	e8 65 60 ff ff       	call   10007caf <?DecodeError@CDdeAction@@IAEHAAUNCDDE_BINARY_HEADER@@PAJPAF@Z+0x31>
+10011c4a:	5e                   	pop    esi
+10011c4b:	c9                   	leave
+10011c4c:	c3                   	ret
+10011c4d:	55                   	push   ebp
+10011c4e:	8b ec                	mov    ebp,esp
+10011c50:	83 ec 10             	sub    esp,0x10
+10011c53:	57                   	push   edi
+10011c54:	8b f9                	mov    edi,ecx
+10011c56:	89 7d f0             	mov    DWORD PTR [ebp-0x10],edi
+10011c59:	ff 77 34             	push   DWORD PTR [edi+0x34]
+10011c5c:	ff 77 4c             	push   DWORD PTR [edi+0x4c]
+10011c5f:	57                   	push   edi
+10011c60:	68 e8 2f 03 10       	push   0x10032fe8
+10011c65:	e8 45 81 ff ff       	call   10009daf <??_E?$CList@PAVCTransactionID@@@@UAEPAXI@Z+0x1b>
+10011c6a:	8b 47 0c             	mov    eax,DWORD PTR [edi+0xc]
+10011c6d:	83 65 fc 00          	and    DWORD PTR [ebp-0x4],0x0
+10011c71:	83 c4 10             	add    esp,0x10
+10011c74:	85 c0                	test   eax,eax
+10011c76:	0f 84 d0 00 00 00    	je     10011d4c <?InternalRemoveCyclicVariables@CVar2@@IAEJKJAAUtagVARIANT@@00PAU2@@Z+0x8d>
+10011c7c:	53                   	push   ebx
+10011c7d:	56                   	push   esi
+10011c7e:	bb 30 74 03 10       	mov    ebx,0x10037430
+10011c83:	eb 03                	jmp    10011c88 <?RemoveCyclicVariables@CVar2@@UAGJJUtagVARIANT@@0PAU2@@Z+0xcd>
+10011c85:	8b 45 f4             	mov    eax,DWORD PTR [ebp-0xc]
+10011c88:	8b 70 08             	mov    esi,DWORD PTR [eax+0x8]
+10011c8b:	8b 00                	mov    eax,DWORD PTR [eax]
+10011c8d:	89 45 f4             	mov    DWORD PTR [ebp-0xc],eax
+10011c90:	f6 86 80 00 00 00 01 	test   BYTE PTR [esi+0x80],0x1
+10011c97:	0f 85 a3 00 00 00    	jne    10011d40 <?InternalRemoveCyclicVariables@CVar2@@IAEJKJAAUtagVARIANT@@00PAU2@@Z+0x81>
+10011c9d:	83 7e 74 02          	cmp    DWORD PTR [esi+0x74],0x2
+10011ca1:	0f 8d 99 00 00 00    	jge    10011d40 <?InternalRemoveCyclicVariables@CVar2@@IAEJKJAAUtagVARIANT@@00PAU2@@Z+0x81>
+10011ca7:	8b 46 20             	mov    eax,DWORD PTR [esi+0x20]
+10011caa:	8b 4e 24             	mov    ecx,DWORD PTR [esi+0x24]
+10011cad:	85 c0                	test   eax,eax
+10011caf:	ba 34 74 03 10       	mov    edx,0x10037434
+10011cb4:	74 02                	je     10011cb8 <?RemoveCyclicVariables@CVar2@@UAGJJUtagVARIANT@@0PAU2@@Z+0xfd>
+10011cb6:	8b d0                	mov    edx,eax
+10011cb8:	68 17 70 01 10       	push   0x10017017
+10011cbd:	8b                   	.byte 0x8b
+10011cbe:	45                   	inc    ebp
+
+10011cbf <?InternalRemoveCyclicVariables@CVar2@@IAEJKJAAUtagVARIANT@@00PAU2@@Z>:
+10011cbf:	fc                   	cld
+10011cc0:	51                   	push   ecx
+10011cc1:	52                   	push   edx
+10011cc2:	ff b6 84 00 00 00    	push   DWORD PTR [esi+0x84]
+10011cc8:	ff 45 fc             	inc    DWORD PTR [ebp-0x4]
+10011ccb:	ff b6 88 00 00 00    	push   DWORD PTR [esi+0x88]
+10011cd1:	56                   	push   esi
+10011cd2:	50                   	push   eax
+10011cd3:	68 b0 2f 03 10       	push   0x10032fb0
+10011cd8:	e8 d2 80 ff ff       	call   10009daf <??_E?$CList@PAVCTransactionID@@@@UAEPAXI@Z+0x1b>
+10011cdd:	8d 4e 38             	lea    ecx,[esi+0x38]
+10011ce0:	83 c4 20             	add    esp,0x20
+10011ce3:	f7 d9                	neg    ecx
+10011ce5:	8d 46 40             	lea    eax,[esi+0x40]
+10011ce8:	66 8b 7e 5e          	mov    di,WORD PTR [esi+0x5e]
+10011cec:	1b c9                	sbb    ecx,ecx
+10011cee:	53                   	push   ebx
+10011cef:	23 c8                	and    ecx,eax
+10011cf1:	8d 45 f8             	lea    eax,[ebp-0x8]
+10011cf4:	50                   	push   eax
+10011cf5:	8d 41 f8             	lea    eax,[ecx-0x8]
+10011cf8:	f7 d9                	neg    ecx
+10011cfa:	1b c9                	sbb    ecx,ecx
+10011cfc:	23 c8                	and    ecx,eax
+10011cfe:	e8 a0 50 ff ff       	call   10006da3 <?Set@CXVariant@@QAEPAVCResult@@AAUNCDDE_BINARY_HEADER@@UTagConvSpec@@PAE@Z+0x2da>
+10011d03:	ff 30                	push   DWORD PTR [eax]
+10011d05:	8b ce                	mov    ecx,esi
+10011d07:	0f bf c7             	movsx  eax,di
+10011d0a:	50                   	push   eax
+10011d0b:	e8 4c 00 00 00       	call   10011d5c <?InternalRemoveCyclicVariables@CVar2@@IAEJKJAAUtagVARIANT@@00PAU2@@Z+0x9d>
+10011d10:	50                   	push   eax
+10011d11:	33 c0                	xor    eax,eax
+10011d13:	50                   	push   eax
+10011d14:	b8 78 1d 01 10       	mov    eax,0x10011d78
+10011d19:	50                   	push   eax
+10011d1a:	68 80 2f 03 10       	push   0x10032f80
+10011d1f:	e8 8b 80 ff ff       	call   10009daf <??_E?$CList@PAVCTransactionID@@@@UAEPAXI@Z+0x1b>
+10011d24:	8b 45 f8             	mov    eax,DWORD PTR [ebp-0x8]
+10011d27:	83 c4 18             	add    esp,0x18
+10011d2a:	85 c0                	test   eax,eax
+10011d2c:	74 0c                	je     10011d3a <?InternalRemoveCyclicVariables@CVar2@@IAEJKJAAUtagVARIANT@@00PAU2@@Z+0x7b>
+10011d2e:	80 38 00             	cmp    BYTE PTR [eax],0x0
+10011d31:	74 07                	je     10011d3a <?InternalRemoveCyclicVariables@CVar2@@IAEJKJAAUtagVARIANT@@00PAU2@@Z+0x7b>
+10011d33:	50                   	push   eax
+10011d34:	e8 99 5c 00 00       	call   100179d2 <?ASLookupVarType@CVar2@@SAGAAVCComBSTR@ATL@@@Z+0x3d7>
+10011d39:	59                   	pop    ecx
+10011d3a:	8b 7d f0             	mov    edi,DWORD PTR [ebp-0x10]
+10011d3d:	89 5d f8             	mov    DWORD PTR [ebp-0x8],ebx
+10011d40:	83 7d f4 00          	cmp    DWORD PTR [ebp-0xc],0x0
+10011d44:	0f 85 3b ff ff ff    	jne    10011c85 <?RemoveCyclicVariables@CVar2@@UAGJJUtagVARIANT@@0PAU2@@Z+0xca>
+10011d4a:	5e                   	pop    esi
+10011d4b:	5b                   	pop    ebx
+10011d4c:	57                   	push   edi
+10011d4d:	68 64 2f 03 10       	push   0x10032f64
+10011d52:	e8 58 80 ff ff       	call   10009daf <??_E?$CList@PAVCTransactionID@@@@UAEPAXI@Z+0x1b>
+10011d57:	59                   	pop    ecx
+10011d58:	59                   	pop    ecx
+10011d59:	5f                   	pop    edi
+10011d5a:	c9                   	leave
+10011d5b:	c3                   	ret
+10011d5c:	8b 41 60             	mov    eax,DWORD PTR [ecx+0x60]
+10011d5f:	8b c8                	mov    ecx,eax
+10011d61:	c1 f9 18             	sar    ecx,0x18
+10011d64:	84 c9                	test   cl,cl
+10011d66:	76 0f                	jbe    10011d77 <?InternalRemoveCyclicVariables@CVar2@@IAEJKJAAUtagVARIANT@@00PAU2@@Z+0xb8>
+10011d68:	80 f9 0c             	cmp    cl,0xc
+10011d6b:	73 0a                	jae    10011d77 <?InternalRemoveCyclicVariables@CVar2@@IAEJKJAAUtagVARIANT@@00PAU2@@Z+0xb8>
+10011d6d:	25 ff ff 00 ff       	and    eax,0xff00ffff
+10011d72:	0d 00 00 00 80       	or     eax,0x80000000
+10011d77:	c3                   	ret
+10011d78:	d9 81 8c 00 00 00    	fld    DWORD PTR [ecx+0x8c]
+10011d7e:	c3                   	ret

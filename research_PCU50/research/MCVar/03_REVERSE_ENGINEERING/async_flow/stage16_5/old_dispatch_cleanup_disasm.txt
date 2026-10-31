@@ -1,0 +1,498 @@
+### 0x1000fc68
+WARNING: config-hold: failed to get 'esil.nonull'
+            ; CALL XREFS from fcn.1000f8ff @ +0x1b7, +0x32f
+┌ fcn.1000fc68(int32_t arg_4h, int32_t arg_5h, int32_t arg_7h, uint_least32_t arg_8h, const char *arg_ch, int32_t arg_10h, uint_least32_t arg_14h, int32_t arg_18h, int32_t arg_1ch, int32_t arg_20h, int32_t arg_24h, int32_t arg_28h, int32_t arg_2ch, int32_t arg_30h);
+│           ; var int32_t var_d8h @ stack - 0xd8
+│           ; var int32_t var_bch @ stack - 0xbc
+│           ; var int32_t var_b8h @ stack - 0xb8
+│           ; var int32_t var_9ch @ stack - 0x9c
+│           ; var int32_t var_98h @ stack - 0x98
+│           ; var int32_t var_7ch @ stack - 0x7c
+│           ; var int32_t var_78h @ stack - 0x78
+│           ; var int32_t var_5ch @ stack - 0x5c
+│           ; var int32_t var_58h @ stack - 0x58
+│           ; var int32_t var_40h @ stack - 0x40
+│           ; var int32_t var_3ch @ stack - 0x3c
+│           ; var int32_t var_20h @ stack - 0x20
+│           ; var uint_least32_t var_1ch  { > 0x1} @ stack - 0x1c
+│           ; var int32_t var_14h @ stack - 0x14
+│           ; var int32_t var_10h @ stack - 0x10
+│           ; var int32_t var_ch @ stack - 0xc
+│           ; var int32_t var_8h @ stack - 0x8
+│           ; arg int32_t arg_4h @ stack + 0x4
+│           ; arg int32_t arg_5h @ stack + 0x5
+│           ; arg int32_t arg_7h @ stack + 0x7
+│           ; arg uint_least32_t arg_8h @ stack + 0x8
+│           ; arg const char *arg_ch @ stack + 0xc
+│           ; arg int32_t arg_10h @ stack + 0x10
+│           ; arg uint_least32_t arg_14h @ stack + 0x14
+│           ; arg int32_t arg_18h @ stack + 0x18
+│           ; arg int32_t arg_1ch @ stack + 0x1c
+│           ; arg int32_t arg_20h @ stack + 0x20
+│           ; arg int32_t arg_24h @ stack + 0x24
+│           ; arg int32_t arg_28h @ stack + 0x28
+│           ; arg int32_t arg_2ch @ stack + 0x2c
+│           ; arg int32_t arg_30h @ stack + 0x30
+│           0x1000fc68      push  ebp
+│           0x1000fc69      mov   ebp, esp
+│           0x1000fc6b      sub   esp, 0xfc
+│           0x1000fc71      push  ebx
+│           0x1000fc72      push  esi
+│           0x1000fc73      push  edi
+│           0x1000fc74      mov   edi, ecx
+│           0x1000fc76      xor   ebx, ebx
+│           0x1000fc78      mov   dword [var_8h], edi
+│           0x1000fc7b      test  byte [arg_7h], 0x10
+│           0x1000fc7f      mov   dword [var_1ch], ebx
+│       ┌─< 0x1000fc82      jz    0x1000fcc0
+│       │   0x1000fc84      lea   eax, dword [var_1ch]
+│       │   0x1000fc87      push  eax                                  ; int32_t arg_8h
+│       │   0x1000fc88      push  dword [arg_30h]                      ; int32_t arg_4h
+│       │   0x1000fc8b      call  fcn.1000a0f9
+│       │   0x1000fc90      pop   ecx
+│       │   0x1000fc91      test  eax, eax
+│       │   0x1000fc93      pop   ecx
+│      ┌──< 0x1000fc94      jnl   0x1000fca2
+│      ││   0x1000fc96      push  str.CriticalValues                   ; 0x100328e8 ; "CriticalValues" ; int32_t arg_4h
+│      ││   0x1000fc9b      call  fcn.10008000
+│     ┌───< 0x1000fca0      jmp   0x1000fcb2
+│     │└──> 0x1000fca2      cmp   dword [var_1ch], 0x01
+│     │┌──< 0x1000fca6      jbe   0x1000fcc0
+│     │││   0x1000fca8      push  str.CriticalValues                   ; 0x100328e8 ; "CriticalValues" ; int32_t arg_4h
+│     │││   0x1000fcad      call  fcn.10010340
+│     │││   ; CODE XREF from fcn.1000fc68 @ 0x1000fca0
+│     └───> 0x1000fcb2      pop   ecx
+│      ││   0x1000fcb3      push  eax                                  ; int32_t arg_4h
+│      ││   0x1000fcb4      mov   ecx, edi
+│      ││   0x1000fcb6      call  fcn.10008a8e
+│     ┌───< 0x1000fcbb      jmp   0x10010339                           ; sym.public_virtual:_void_____thiscall_CTransactionDestructor::scalar_dtor_unsigned_int+0x1a0
+│     │└└─> 0x1000fcc0      push  0x08                                 ; 8 ; int32_t arg_4h
+│     │     0x1000fcc2      lea   ecx, dword [var_78h]
+│     │     0x1000fcc5      call  fcn.1000ce2b
+│     │     0x1000fcca      test  byte [arg_5h], 0x08
+│     │ ┌─< 0x1000fcce      jz    0x1000fcf6
+│     │ │   0x1000fcd0  ~   push  0x08                                 ; 8
+..
+│     │ │   0x1000fcd2      push  str.Names                            ; 0x10032280 ; "Names" ; int32_t arg_8h
+│     │ │   0x1000fcd7      push  ebx                                  ; int32_t arg_ch
+│     │ │   0x1000fcd8      lea   ecx, dword [var_78h]
+│     │ │   0x1000fcdb      push  dword [arg_8h]                       ; int32_t arg_10h
+│     │ │   0x1000fcde      call  fcn.10007e2f
+│     │ │   0x1000fce3      cmp   eax, ebx
+│     │┌──< 0x1000fce5      jz    0x1000fcf6
+│     │││   0x1000fce7      push  eax                                  ; int32_t arg_4h
+│     │││   0x1000fce8      mov   ecx, edi
+│     │││   0x1000fcea      call  fcn.10008a8e
+│     │││   0x1000fcef      mov   esi, eax
+│    ┌────< 0x1000fcf1      jmp   0x1001032f                           ; sym.public_virtual:_void_____thiscall_CTransactionDestructor::scalar_dtor_unsigned_int+0x196
+│    ││└└─> 0x1000fcf6      push  0x03                                 ; 3
+│    ││     0x1000fcf8      lea   ecx, dword [var_3ch]
+│    ││     0x1000fcfb      pop   esi
+│    ││     0x1000fcfc      push  esi                                  ; int32_t arg_4h
+│    ││     0x1000fcfd      call  fcn.1000ce2b
+│    ││     0x1000fd02      test  byte [arg_5h], 0x02
+│    ││ ┌─< 0x1000fd06      jz    0x1000fd2d
+│    ││ │   0x1000fd08      push  esi
+│    ││ │   0x1000fd09      push  str.ServerHandles                    ; 0x10032270 ; "ServerHandles" ; int32_t arg_8h
+│    ││ │   0x1000fd0e      push  ebx                                  ; int32_t arg_ch
+│    ││ │   0x1000fd0f      lea   ecx, dword [var_3ch]
+│    ││ │   0x1000fd12      push  dword [arg_ch]                       ; int32_t arg_10h
+│    ││ │   0x1000fd15      call  fcn.10007e2f
+│    ││ │   0x1000fd1a      cmp   eax, ebx
+│    ││┌──< 0x1000fd1c      jz    0x1000fd2d
+│    ││││   0x1000fd1e      push  eax                                  ; int32_t arg_4h
+│    ││││   0x1000fd1f      mov   ecx, edi
+│    ││││   0x1000fd21      call  fcn.10008a8e
+│    ││││   ; CODE XREF from fcn.1000fc68 @ 0x1000fd52
+│   ┌─────> 0x1000fd26      mov   esi, eax
+│  ┌──────< 0x1000fd28      jmp   0x10010327                           ; sym.public_virtual:_void_____thiscall_CTransactionDestructor::scalar_dtor_unsigned_int+0x18e
+│  │╎││└└─> 0x1000fd2d      mov   edi, dword [var_20h]
+│  │╎││     0x1000fd30      cmp   dword [var_5ch], edi
+│  │╎││ ┌─< 0x1000fd33      jle   0x1000fd38
+│  │╎││ │   0x1000fd35      mov   edi, dword [var_5ch]
+│  │╎││ └─> 0x1000fd38      cmp   edi, ebx
+│  │╎││     0x1000fd3a      mov   dword [arg_8h], edi
+│  │╎││ ┌─< 0x1000fd3d      jnz   0x1000fd54
+│  │╎││ │   0x1000fd3f      mov   ecx, dword [var_8h]
+│  │╎││ │   0x1000fd42      push  ebx                                  ; int32_t arg_4h
+│  │╎││ │   0x1000fd43      push  0x80070057                           ; 'W' ; int32_t arg_8h
+│  │╎││ │   0x1000fd48      push  str.Either_a_Name_or_a_ServerHandle_must_to_be_specified ; 0x10032238 ; "Either a Name or a ServerHandle must to be specified" ; int32_t arg_ch
+│  │╎││ │   ;-- (0x1000fd50) public: int __thiscall String::Equal(char const *):
+│  │╎││ │   0x1000fd4d  ~   call  fcn.1000af93
+│  │└─────< 0x1000fd52      jmp   0x1000fd26
+│  │ ││ └─> 0x1000fd54      push  esi                                  ; int32_t arg_4h
+│  │ ││     0x1000fd55      lea   ecx, dword [var_b8h]
+│  │ ││     0x1000fd5b      call  fcn.1000ce2b
+│  │ ││     0x1000fd60      test  byte [arg_5h], 0x04
+│  │ ││ ┌─< 0x1000fd64      jz    0x1000fd8f
+│  │ ││ │   0x1000fd66      push  esi
+│  │ ││ │   0x1000fd67      push  str.ClientHandles                    ; 0x1003220c ; "ClientHandles" ; int32_t arg_8h
+│  │ ││ │   0x1000fd6c      push  ebx                                  ; int32_t arg_ch
+│  │ ││ │   0x1000fd6d      lea   ecx, dword [var_b8h]
+│  │ ││ │   0x1000fd73  ~   push  dword [arg_10h]                      ; int32_t arg_10h
+..
+│  │ ││ │   0x1000fd76      call  fcn.10007e2f                         ; public: void __thiscall CAtom::operator=(unsigned short int const *)
+│  │ ││ │   0x1000fd7b      cmp   eax, ebx
+│  │ ││┌──< 0x1000fd7d      jz    0x1000fd8f
+│  │ ││││   0x1000fd7f      mov   ecx, dword [var_8h]
+│  │ ││││   0x1000fd82      push  eax                                  ; int32_t arg_4h
+│  │ ││││   0x1000fd83      call  fcn.10008a8e
+│  │ ││││   0x1000fd88      mov   esi, eax
+│  │┌─────< 0x1000fd8a      jmp   0x1001031c                           ; sym.public_virtual:_void_____thiscall_CTransactionDestructor::scalar_dtor_unsigned_int+0x183
+│  ││││└└─> 0x1000fd8f      push  0x04                                 ; 4 ; int32_t arg_4h
+│  ││││     0x1000fd91      lea   ecx, dword [var_d8h]
+│  ││││     0x1000fd97      call  fcn.1000ce2b
+│  ││││     0x1000fd9c      test  byte [arg_7h], 0x02
+│  ││││ ┌─< 0x1000fda0      jz    0x1000fdcc
+│  ││││ │   0x1000fda2      push  0x04                                 ; 4
+│  ││││ │   0x1000fda4      push  str.Deadbands                        ; 0x100328dc ; "Deadbands" ; int32_t arg_8h
+│  ││││ │   0x1000fda9      push  ebx                                  ; int32_t arg_ch
+│  ││││ │   0x1000fdaa      lea   ecx, dword [var_d8h]
+│  ││││ │   0x1000fdb0      push  dword [arg_1ch]                      ; int32_t arg_10h
+│  ││││ │   0x1000fdb3      call  fcn.10007e2f
+│  ││││ │   0x1000fdb8      cmp   eax, ebx
+│  ││││┌──< 0x1000fdba      jz    0x1000fdcc
+│  ││││││   0x1000fdbc      mov   ecx, dword [var_8h]
+│  ││││││   0x1000fdbf      push  eax                                  ; int32_t arg_4h
+│  ││││││   0x1000fdc0      call  fcn.10008a8e
+│  ││││││   0x1000fdc5      mov   esi, eax
+│ ┌───────< 0x1000fdc7      jmp   0x10010311                           ; sym.public_virtual:_void_____thiscall_CTransactionDestructor::scalar_dtor_unsigned_int+0x178
+│ │││││└└─> 0x1000fdcc      push  esi                                  ; int32_t arg_4h
+│ │││││     0x1000fdcd      lea   ecx, dword [var_98h]
+│ │││││     0x1000fdd3      call  fcn.1000ce2b
+│ │││││     0x1000fdd8      test  byte [arg_7h], 0x04
+│ │││││ ┌─< 0x1000fddc      jz    0x1000fe05
+│ │││││ │   0x1000fdde      push  esi
+│ │││││ │   0x1000fddf      push  str.RequestedUpdateRates             ; 0x100328c4 ; "RequestedUpdateRates" ; int32_t arg_8h
+│ │││││ │   0x1000fde4      push  ebx                                  ; int32_t arg_ch
+│ │││││ │   0x1000fde5      lea   ecx, dword [var_98h]
+│ │││││ │   0x1000fdeb      push  dword [arg_20h]                      ; int32_t arg_10h
+│ │││││ │   0x1000fdee  ~   call  fcn.10007e2f
+..
+│ │││││ │   0x1000fdf3      cmp   eax, ebx                             ; public: class ATL::CComVariant & __thiscall ATL::CComVariant::operator=(unsigned short int const *)
+│ │││││┌──< 0x1000fdf5      jz    0x1000fe05
+│ │││││││   0x1000fdf7      mov   ecx, dword [var_8h]
+│ │││││││   0x1000fdfa      push  eax                                  ; int32_t arg_4h
+│ │││││││   0x1000fdfb      call  fcn.10008a8e
+│ │││││││   0x1000fe00      jmp   0x10010304
+│ │││││└└─> 0x1000fe05      cmp   dword [var_9ch], edi
+│ │││││ ┌─< 0x1000fe0b      jnle  0x100102f1
+│ │││││ │   0x1000fe11      cmp   dword [var_bch], edi
+│ │││││┌──< 0x1000fe17      jnle  0x100102f1
+│ │││││││   0x1000fe1d      cmp   dword [var_7ch], edi
+│ │││││││   0x1000fe20      jnle  0x100102f1
+│ │││││││   0x1000fe26      mov   edi, dword [arg_28h]
+│ │││││││   0x1000fe29      mov   esi, dword [sym.imp.KERNEL32.dll_IsBadReadPtr] ; [0x1002c184:4]=0x2f0f8
+│ │││││││   0x1000fe2f      push  0x04                                 ; 4
+│ │││││││   0x1000fe31      push  edi
+│ │││││││   ;-- (0x1000fe33) public: class CResult * __thiscall CXVariant::ChangeArrayType(unsigned short int, struct tagVARIANT &):
+│ │││││││   0x1000fe32  ~   mov   dword [var_10h], ebx
+│ │││││││   0x1000fe35      mov   dword [var_ch], ebx
+│ │││││││   0x1000fe38      mov   dword [var_14h], data.1002c97c       ; 0x1002c97c ; "Ut\U00000001\U00000010iw\U00000001\U00000010\U00000001\U0000001c\U00000001\U00000010aw\U00000001\U00000010gp\U00000001\U00000010"
+│ │││││││   0x1000fe3f      call  esi
+│ │││││││   0x1000fe41      test  eax, eax
+│ │││││││   0x1000fe43      jz    0x1000fe55
+│ │││││││   0x1000fe45      push  ebx
+│ │││││││   0x1000fe46      push  0x80070057                           ; 'W'
+│ │││││││   0x1000fe4b      push  str.Request_Id__parameter_invalid    ; 0x100328a4 ; "\"Request Id\" parameter invalid"
+│ │││││││   0x1000fe50      jmp   0x1000ff03
+│ │││││││   0x1000fe55      mov   eax, dword [edi]
+│ │││││││   0x1000fe57      cmp   eax, ebx
+│ │││││││   0x1000fe59      jnz   0x1000ff4f
+│ │││││││   0x1000fe5f      cmp   dword [arg_14h], ebx
+│ │││││││   0x1000fe62      jz    0x1000feac
+│ │││││││   0x1000fe64      push  0x04                                 ; 4
+│ │││││││   0x1000fe66      xor   edi, edi
+│ │││││││   0x1000fe68      push  dword [arg_14h]
+│ │││││││   0x1000fe6b      call  esi
+│ │││││││   0x1000fe6d      test  eax, eax
+│ │││││││   0x1000fe6f      jz    0x1000fe84
+│ │││││││   0x1000fe71      mov   ecx, dword [var_8h]
+│ │││││││   0x1000fe74      push  ebx                                  ; int32_t arg_4h
+│ │││││││   0x1000fe75      push  0x80004003                           ; int32_t arg_8h
+│ │││││││   0x1000fe7a      push  str.Wrong_callback_interface_pointer ; 0x10032110 ; "Wrong callback interface pointer" ; int32_t arg_ch
+│ │││││││   0x1000fe7f      call  fcn.1000af93
+│ │││││││   0x1000fe84      push  0x54                                 ; 'T' ; 84 ; int32_t arg_4h
+│ │││││││   0x1000fe86      call  fcn.10017dd5
+│ │││││││   0x1000fe8b      cmp   eax, ebx
+│ │││││││   0x1000fe8d      pop   ecx
+│ │││││││   0x1000fe8e      jz    0x1000ff28
+│ │││││││   0x1000fe94      push  dword [arg_4h]
+│ │││││││   0x1000fe97      mov   ecx, dword [var_8h]
+│ │││││││   0x1000fe9a      push  edi
+│ │││││││   0x1000fe9b      push  dword [arg_14h]                      ; int32_t arg_ch
+│ │││││││   0x1000fe9e      push  ecx                                  ; int32_t arg_10h
+│ │││││││   0x1000fe9f      add   ecx, 0x30                            ; 48
+│ │││││││   0x1000fea2      push  ecx                                  ; int32_t arg_14h
+│ │││││││   0x1000fea3      mov   ecx, eax
+│ │││││││   0x1000fea5      call  fcn.100103ba
+│ │││││││   0x1000feaa      jmp   0x1000ff2a
+│ │││││││   0x1000feac      mov   edi, dword [arg_18h]
+│ │││││││   0x1000feaf      cmp   edi, ebx
+│ │││││││   0x1000feb1      jz    0x1000ff42
+│ │││││││   0x1000feb7      push  0x04                                 ; 4
+│ │││││││   0x1000feb9      push  edi
+│ │││││││   0x1000feba      call  esi
+│ │││││││   0x1000febc      test  eax, eax
+│ │││││││   0x1000febe      jz    0x1000fed3
+│ │││││││   0x1000fec0      mov   ecx, dword [var_8h]
+│ │││││││   0x1000fec3      push  ebx                                  ; int32_t arg_4h
+│ │││││││   0x1000fec4      push  0x80004003                           ; int32_t arg_8h
+│ │││││││   0x1000fec9      push  str.Wrong_callback_interface_pointer ; 0x10032110 ; "Wrong callback interface pointer" ; int32_t arg_ch
+│ │││││││   0x1000fece      call  fcn.1000af93
+│ │││││││   0x1000fed3      mov   eax, dword [edi]
+│ │││││││   0x1000fed5      lea   ecx, dword [arg_10h]
+│ │││││││   0x1000fed8      push  ecx
+│ │││││││   0x1000fed9      push  0x800                                ; 2048
+│ │││││││   0x1000fede      lea   ecx, dword [arg_ch]
+│ │││││││   0x1000fee1      push  0x01                                 ; 1
+│ │││││││   0x1000fee3      push  ecx
+│ │││││││   0x1000fee4      push  data.1002d6c8                        ; 0x1002d6c8
+│ │││││││   0x1000fee9      push  edi
+│ │││││││   0x1000feea      mov   dword [arg_ch], str.OnDataChanged    ; 0x100320cc ; u"OnDataChanged"
+│ │││││││   0x1000fef1      call  dword [eax+0x14]                     ; 20
+│ │││││││   0x1000fef4      test  eax, eax
+│ │││││││   0x1000fef6      jnl   0x1000ff08
+│ │││││││   0x1000fef8      push  ebx
+│ │││││││   0x1000fef9      push  0x80020006
+│ │││││││   0x1000fefe      push  str.Wrong_dispatch_interface         ; 0x10032088 ; "Wrong dispatch interface"
+│ │││││││   ; CODE XREF from fcn.1000fc68 @ 0x1000fe50
+│ │││││││   0x1000ff03      mov   ecx, dword [var_8h]
+│ │││││││   0x1000ff06      jmp   0x1000ff6c
+│ │││││││   0x1000ff08      mov   esi, dword [var_8h]
+│ │││││││   0x1000ff0b      lea   ecx, dword [esi+0x30]
+│ │││││││   0x1000ff0e      call  fcn.1000ce67
+│ │││││││   0x1000ff13      test  eax, eax
+│ │││││││   0x1000ff15      jnz   0x1000fe84
+│ │││││││   0x1000ff1b      call  fcn.1000cdfd
+│ │││││││   0x1000ff20      push  eax
+│ │││││││   0x1000ff21      mov   ecx, esi
+│ │││││││   0x1000ff23      jmp   0x1000ffcb
+│ │││││││   0x1000ff28      xor   eax, eax
+│ │││││││   ; CODE XREF from fcn.1000fc68 @ 0x1000feaa
+│ │││││││   0x1000ff2a      cmp   eax, ebx
+│ │││││││   0x1000ff2c      mov   dword [var_10h], eax
+│ │││││││   0x1000ff2f      jnz   0x1000ff3b
+│ │││││││   0x1000ff31      call  fcn.10001e73
+│ │││││││   0x1000ff36      jmp   0x1000ffc7
+│ │││││││   0x1000ff3b      mov   ecx, dword [arg_28h]
+│ │││││││   0x1000ff3e      mov   dword [ecx], eax
+│ │││││││   0x1000ff40      jmp   0x1000ff80
+│ │││││││   0x1000ff42      push  str.Callbacks                        ; 0x1003207c ; "Callbacks" ; int32_t arg_4h
+│ │││││││   0x1000ff47      call  fcn.10008000
+│ │││││││   0x1000ff4c      pop   ecx
+│ │││││││   0x1000ff4d      jmp   0x1000ffc7
+│ │││││││   0x1000ff4f      mov   esi, dword [var_8h]
+│ │││││││   0x1000ff52      push  eax                                  ; int32_t arg_4h
+│ │││││││   0x1000ff53      lea   ecx, dword [esi+0x30]
+│ │││││││   0x1000ff56      call  fcn.10003a81
+│ │││││││   0x1000ff5b      cmp   eax, ebx
+│ │││││││   0x1000ff5d      jnz   0x1000ff73
+│ │││││││   0x1000ff5f      push  ebx
+│ │││││││   0x1000ff60      push  0x80070057                           ; 'W'
+│ │││││││   0x1000ff65      push  str.Request_Id__parameter_invalid    ; 0x100328a4 ; "\"Request Id\" parameter invalid"
+│ │││││││   0x1000ff6a      mov   ecx, esi
+│ │││││││   ; CODE XREF from fcn.1000fc68 @ 0x1000ff06
+│ │││││││   0x1000ff6c      call  fcn.1000af93
+│ │││││││   0x1000ff71      jmp   0x1000ffd0
+│ │││││││   0x1000ff73      mov   eax, dword [eax+0x08]
+│ │││││││   0x1000ff76      mov   dword [var_ch], 0x01
+│ │││││││   0x1000ff7d      mov   dword [var_10h], eax
+│ │││││││   ; CODE XREF from fcn.1000fc68 @ 0x1000ff40
+│ │││││││   0x1000ff80      test  byte [arg_7h], 0x01
+│ │││││││   0x1000ff84      mov   edi, dword [arg_24h]
+│ │││││││   0x1000ff87      mov   esi, dword [sym.imp.OLEAUT32.dll_SafeArrayCopyData] ; [0x1002c1b8:4]=0x8000019b
+│ │││││││   0x1000ff8d      jz    0x1000ffa3
+│ │││││││   0x1000ff8f      push  dword [arg_8h]
+│ │││││││   0x1000ff92      push  ebx
+│ │││││││   0x1000ff93      push  0x03                                 ; 3
+│ │││││││   0x1000ff95      call  esi
+│ │││││││   0x1000ff97      cmp   eax, ebx
+│ │││││││   0x1000ff99      mov   dword [edi+0x08], eax
+│ │││││││   0x1000ff9c      jz    0x1000ffc2
+│ │││││││   0x1000ff9e      mov   word [edi], 0x2003                   ; [0x2003:2]=0xffff
+│ │││││││   0x1000ffa3      mov   eax, dword [arg_4h]
+│ │││││││   0x1000ffa6      mov   edi, dword [arg_2ch]
+│ │││││││   0x1000ffa9      and   eax, 0x8000000
+│ │││││││   0x1000ffae      mov   dword [arg_14h], eax
+│ │││││││   0x1000ffb1      jz    0x1000ffdc
+│ │││││││   0x1000ffb3      push  dword [arg_8h]
+│ │││││││   0x1000ffb6      push  ebx
+│ │││││││   0x1000ffb7      push  0x03                                 ; 3
+│ │││││││   0x1000ffb9      call  esi
+│ │││││││   0x1000ffbb      cmp   eax, ebx
+│ │││││││   0x1000ffbd      mov   dword [edi+0x08], eax
+│ │││││││   0x1000ffc0      jnz   0x1000ffd7
+│ │││││││   0x1000ffc2      call  fcn.1000cdcf
+│ │││││││   ; CODE XREFS from fcn.1000fc68 @ 0x1000ff36, 0x1000ff4d
+│ │││││││   0x1000ffc7      mov   ecx, dword [var_8h]
+│ │││││││   0x1000ffca      push  eax
+│ │││││││   ; CODE XREF from fcn.1000fc68 @ 0x1000ff23
+│ │││││││   0x1000ffcb      call  fcn.10008a8e
+│ │││││││   ; CODE XREF from fcn.1000fc68 @ 0x1000ff71
+│ │││││││   0x1000ffd0      mov   esi, eax
+│ │││││││   0x1000ffd2      jmp   0x100101a9                           ; sym.public_virtual:_void_____thiscall_CTransactionDestructor::scalar_dtor_unsigned_int+0x10
+│ │││││││   0x1000ffd7      mov   word [edi], 0x2003                   ; [0x2003:2]=0xffff
+│ │││││││   0x1000ffdc      lea   ecx, dword [var_58h]
+│ │││││││   0x1000ffdf      call  fcn.100010d9
+│ │││││││   0x1000ffe4      xor   eax, eax
+│ │││││││   0x1000ffe6      mov   ebx, data.1002c970                   ; 0x1002c970
+│ │││││││   0x1000ffeb      cmp   dword [arg_8h], eax
+│ │││││││   0x1000ffee      mov   dword [var_40h], 0x01
+│ │││││││   0x1000fff5      mov   dword [var_58h], ebx
+│ │││││││   0x1000fff8      mov   dword [arg_30h], eax
+│ │││││││   0x1000fffb      jle   0x100101c7                           ; sym.public_virtual:_void_____thiscall_CDdeAction::scalar_dtor_unsigned_int+0x18b
+│ │││││││   ; CODE XREF from sym.public_virtual:_void_____thiscall_CDdeAction::scalar_dtor_unsigned_int @ 0x10010119
+..
+│ │││││││   ; CODE XREF from sym.public_virtual:_void_____thiscall_CDdeAction::scalar_dtor_unsigned_int @ 0x10010020
+  │││││││   ;-- public virtual: void * __thiscall CDdeAction::vector_dtor(unsigned int):
+│ │││││││   ; CODE XREF from sym.public_virtual:_void_____thiscall_CDdeAction::scalar_dtor_unsigned_int @ 0x10010043
+│ │││││││   ;-- (0x10010058) public virtual: void __thiscall CDdeAction::~destructor(void):
+│ │││││││   ; CODE XREF from sym.public_virtual:_void_____thiscall_CDdeAction::scalar_dtor_unsigned_int @ 0x10010054
+│ │││││││   ;-- (0x1001011d) public virtual: void * __thiscall CTransaction::scalar_dtor(unsigned int):
+│ │││││││   ;-- (0x1001011d) public virtual: void * __thiscall CTransaction::vector_dtor(unsigned int):
+│ │││││││   ; CODE XREFS from sym.public_virtual:_void_____thiscall_CDdeAction::scalar_dtor_unsigned_int @ 0x10010125, 0x10010130
+│ │││││││   ; CODE XREF from sym.public_virtual:_void_____thiscall_CDdeAction::scalar_dtor_unsigned_int @ 0x100101c5
+  │││││││   ;-- public virtual: void * __thiscall CTransactionDestructor::vector_dtor(unsigned int):
+│ │││││││   ; CODE XREF from sym.public_virtual:_void_____thiscall_CDdeAction::scalar_dtor_unsigned_int @ 0x10010194
+│ │││││││   ; CODE XREF from fcn.1000fc68 @ 0x1000ffd2
+│ │││││││   ; CODE XREF from sym.public_virtual:_void___thiscall_CTransaction::_destructor_void @ 0x1001017e
+│ │││││││   ; CODE XREF from sym.public_virtual:_void_____thiscall_CDdeAction::scalar_dtor_unsigned_int @ 0x10010273
+│ │││││││   ;-- (0x100101e0) public virtual: long int __stdcall CVar2::WriteVarAsync(struct tagVARIANT, struct tagVARIANT, struct tagVARIANT, struct tagVARIANT, struct IWriteVarAsyncCallback2 *, struct IDispatch *, long int *, struct tagVARIANT *):
+│ │││││││   ; CODE XREF from sym.public_virtual:_void_____thiscall_CDdeAction::scalar_dtor_unsigned_int @ 0x1001021e
+│ │││││││   ; CODE XREF from sym.public_virtual:_void_____thiscall_CDdeAction::scalar_dtor_unsigned_int @ 0x1001023c
+│ │││││││   ; CODE XREF from sym.public_virtual:_void_____thiscall_CDdeAction::scalar_dtor_unsigned_int @ 0x1001028b
+│ │││││││   ; CODE XREF from sym.public_virtual:_void_____thiscall_CDdeAction::scalar_dtor_unsigned_int @ 0x100102a2
+│ │││││││   ; CODE XREF from sym.public_virtual:_void_____thiscall_CDdeAction::scalar_dtor_unsigned_int @ 0x100102ba
+│ │││││││   ; CODE XREF from sym.public_virtual:_void_____thiscall_CDdeAction::scalar_dtor_unsigned_int @ 0x100102d3
+│ │││││└└─> 0x100102f1      mov   ecx, dword [var_8h]                  ; int32_t arg_4h
+│ │││││     0x100102f4      push  ebx                                  ; int32_t arg_4h
+│ │││││     0x100102f5      push  0x80070057                           ; 'W' ; int32_t arg_8h
+│ │││││     0x100102fa      push  str.The_arity_of_ClientHandles__RequestedUpdateRates_and_Deadbands_must_not_exceed_the_number_of_Variables ; 0x1003283c ; "The arity of ClientHandles, RequestedUpdateRates and Deadbands must not exceed the number of Variables" ; int32_t arg_ch
+│ │││││     0x100102ff      call  fcn.1000af93
+│ │││││     ; CODE XREF from fcn.1000fc68 @ 0x1000fe00
+└ │││││     0x10010304      mov   esi, eax
+### 0x100138b8
+WARNING: config-hold: failed to get 'esil.nonull'
+            ; CALL XREF from sym.public_virtual:_long_int___stdcall_CVar2::Remove_struct_tagVARIANT__struct_tagVARIANT @ +0x32
+            ; CALL XREF from fcn.10012b78 @ 0x100133a1
+┌ fcn.100138b8();
+│           ; var int32_t var_74h @ stack - 0x74
+│           ; var const char *var_58h @ stack - 0x58
+│           ; var const char *var_54h @ stack - 0x54
+│           ; var int32_t var_ch @ stack - 0xc
+│           ; var int32_t var_8h @ stack - 0x8
+│           0x100138b8      push  ebp
+│           0x100138b9      mov   ebp, esp
+│           0x100138bb      sub   esp, 0xd0
+│           0x100138c1      push  ebx
+│           0x100138c2      mov   ebx, ecx
+│           0x100138c4      push  esi
+│           0x100138c5      push  edi
+│           0x100138c6      mov   esi, dword [ebx]
+│           0x100138c8      lea   ecx, dword [var_8h]
+│           0x100138cb      push  esi                                  ; int32_t arg_4h
+│           0x100138cc      call  fcn.1001704e
+│           0x100138d1      xor   edi, edi
+│           0x100138d3      cmp   esi, edi
+│       ┌─< 0x100138d5      jz    0x100138e3
+│       │   0x100138d7      mov   eax, dword [esi+0x28]
+│       │   0x100138da      inc   dword [eax+0x4c]
+│       │   0x100138dd      mov   eax, dword [esi+0x24]
+│       │   0x100138e0      mov   dword [var_ch], eax
+│       └─> 0x100138e3      mov   eax, dword [var_8h]
+│           0x100138e6      mov   dword [var_54h], str.OnDataChanged   ; 0x100320cc ; u"OnDataChanged"
+│           0x100138ed      cmp   eax, edi
+│           0x100138ef      mov   dword [var_58h], str.OnWriteComplete ; 0x100320e8 ; u"OnWriteComplete"
+│       ┌─< 0x100138f6      jz    0x10013900
+│       │   0x100138f8      mov   eax, dword [eax+0x28]
+│       │   0x100138fb      mov   eax, dword [eax+0x4c]
+│      ┌──< 0x100138fe      jmp   0x10013903
+│      │└─> 0x10013900      push  0x63                                 ; 'c' ; 99
+│      │    0x10013902      pop   eax
+│      │    ; CODE XREF from fcn.100138b8 @ 0x100138fe
+│      └──> 0x10013903      push  ebx
+│           0x10013904      push  eax
+│           0x10013905      lea   eax, dword [var_74h]
+│           0x10013908      push  str.d_CRequestID::MakeCB_0x_x        ; 0x100337f8 ; "%d CRequestID::MakeCB 0x%x"
+│           0x1001390d      push  eax                                  ; int32_t arg_4h
+│           0x1001390e      call  fcn.10007a42
+│           0x10013913  ~   mov   eax, dword [ebx]
+..
+│           0x10013915      add   esp, 0x10                            ; public: class CResult * __thiscall CXVariant::Append(struct tagVARIANT &)
+└           0x10013918      mov   eax, dword [eax+0x88]
+### 0x1000cdfd
+WARNING: config-hold: failed to get 'esil.nonull'
+            ; CALL XREF from sym.protected:_unsigned_short_int_____thiscall_CVar2::MakeCommandString_struct_tagSAFEARRAY @ 0x1000ca57
+            ; CALL XREF from fcn.1000fc68 @ 0x1000ff1b
+            ; CALL XREF from sym.public:_unsigned_short_int___thiscall_CDdeAction::GetVarType_void @ 0x10014add
+┌ fcn.1000cdfd();
+│           0x1000cdfd      push  esi
+│           0x1000cdfe      push  0x0c                                 ; 0xc ; 12 ; int32_t arg_4h
+│           0x1000ce00      call  fcn.10017dd5
+│           0x1000ce05      mov   esi, eax
+│           0x1000ce07      pop   ecx
+│           0x1000ce08      test  esi, esi
+│       ┌─< 0x1000ce0a      jz    0x1000ce27
+│       │   0x1000ce0c      push  str.Com_Object_released_or_Async_Transaction_cancelled ; 0x10032288 ; "Com-Object released or Async-Transaction cancelled" ; int32_t arg_4h
+│       │   0x1000ce11      lea   ecx, dword [esi+0x04]
+│       │   0x1000ce14      mov   dword [esi], 0x80004004              ; [0x80004004:4]=-1
+│       │   0x1000ce1a      call  fcn.10001d75
+│       │   0x1000ce1f      and   dword [esi+0x08], 0x00
+│       │   0x1000ce23      mov   eax, esi
+│       │   0x1000ce25      pop   esi
+│       │   0x1000ce26      ret
+│       └─> 0x1000ce27      xor   eax, eax
+│           0x1000ce29      pop   esi
+└           0x1000ce2a      ret
+### 0x1000ce6f
+WARNING: config-hold: failed to get 'esil.nonull'
+            ; CALL XREF from sym.protected:_unsigned_short_int_____thiscall_CVar2::MakeCommandString_struct_tagSAFEARRAY @ 0x1000c7e1
+┌ fcn.1000ce6f(int32_t arg_4h, BSTR *pbstr, uint_least32_t arg_10h);
+│           ; arg int32_t arg_4h @ stack + 0x4
+│           ; arg BSTR *pbstr @ stack + 0x8
+│           ; arg uint_least32_t arg_10h @ stack + 0x10
+│           0x1000ce6f      push  esi
+│           0x1000ce70      push  edi
+│           0x1000ce71      mov   edi, dword [arg_4h]
+│           0x1000ce75      mov   esi, ecx
+│           0x1000ce77      test  edi, edi
+│           0x1000ce79      mov   dword [esi], data.1002c8fc           ; [0x1002c8fc:4]=0x100172c6
+│           0x1000ce7f      mov   dword [esi+0x04], edi
+│       ┌─< 0x1000ce82      jz    0x1000ce8c
+│       │   0x1000ce84      push  esi                                  ; int32_t arg_4h
+│       │   0x1000ce85      mov   ecx, edi
+│       │   0x1000ce87      call  fcn.1000218a
+│       └─> 0x1000ce8c      push  dword [pbstr]                        ; BSTR *pbstr
+│           0x1000ce90      call  dword [sym.imp.OLEAUT32.dll_SysReAllocString] ; 0x1002c1f8 ; INT SysReAllocString(BSTR *pbstr, OLECHAR *psz)
+│           0x1000ce96      mov   dword [esi+0x08], eax
+│           0x1000ce99      push  dword [esi+0x08]                     ; int32_t arg_4h
+│           0x1000ce9c      mov   dword [esi], data.1002c8f8           ; [0x1002c8f8:4]=0x1000cf1f
+│           0x1000cea2      call  fcn.1000ceec
+│           0x1000cea7      pop   ecx
+│           0x1000cea8      mov   dword [esi+0x0c], eax
+│           0x1000ceab      call  fcn.100017f3
+│           0x1000ceb0      cmp   dword [eax], 0x02
+│       ┌─< 0x1000ceb3      jz    0x1000ceb9
+│       │   0x1000ceb5      xor   eax, eax
+│      ┌──< 0x1000ceb7      jmp   0x1000cebe
+│      │└─> 0x1000ceb9      mov   eax, dword [eax+0x0c]
+│      │    0x1000cebc      mov   eax, dword [eax]
+│      │    ; CODE XREF from fcn.1000ce6f @ 0x1000ceb7
+│      └──> 0x1000cebe      test  al, 0x01                             ; 1
+│       ┌─< 0x1000cec0      jz    0x1000cee5
+│       │   0x1000cec2      cmp   dword [arg_10h], 0x00
+│       │   0x1000cec7      mov   eax, data.10037434                   ; 0x10037434
+│      ┌──< 0x1000cecc      jz    0x1000ced2
+│      ││   0x1000cece      mov   eax, dword [arg_10h]
+│      └──> 0x1000ced2      push  edi
+│       │   0x1000ced3      push  dword [esi+0x0c]
+│       │   0x1000ced6      push  eax
+│       │   0x1000ced7      push  esi
+│       │   0x1000ced8      push  str.CServerHandle_0x_x_create___ls__key:0x_x_lst:0x_x ; 0x100322bc ; "CServerHandle 0x%x create \"%ls\" key:0x%x lst:0x%x" ; int32_t arg_4h
+│       │   0x1000cedd      call  fcn.10009daf
+│       │   0x1000cee2      add   esp, 0x14
+│       └─> 0x1000cee5      mov   eax, esi
+│           0x1000cee7      pop   edi
+│           0x1000cee8      pop   esi
+└           0x1000cee9      ret   0x08

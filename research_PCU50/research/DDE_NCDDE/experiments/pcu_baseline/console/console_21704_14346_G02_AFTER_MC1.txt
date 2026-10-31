@@ -1,0 +1,19 @@
+WATCHDOG START timeout_ms=35000 command="bin\dde_series.exe" "--confirm=YES" "--items=config\items_1.txt" "--expect-items=1" "--mode=binary" "--rounds=1" "--order=text-first" "--interval-ms=1500" "--timeout-ms=5000"
+2026-10-31 13:37:15.470 [INFO] === dde_series v0.5 BEGIN ===
+2026-10-31 13:37:15.470 [INFO] EXE=C:\PCU_test\bin\dde_series.exe
+2026-10-31 13:37:15.470 [INFO] PID=3780 args=9 target=Windows XP x86; log=C:\PCU_test\bin\logs\dde_series_20261031_133715_470_pid3780.log
+2026-10-31 13:37:15.470 [INFO] Items=1 rounds=1 mode=2 interval=1500 timeout=5000 total_read_requests_max=1 order=text-first
+2026-10-31 13:37:15.470 [WARN] No write or advise operations; read may load Siemens runtime; value freshness NOT established
+2026-10-31 13:37:15.480 [INFO] DDE_CONNECTED ncdde|machineswitch single persistent conversation
+2026-10-31 13:37:15.480 [INFO] READ round=1 index=1 format=binary item=/Nck/Configuration/numGlobMachAxes elapsed_ms=0 result=DATA_HANDLE
+2026-10-31 13:37:15.480 [DATA] RESPONSE round=1 index=1 format=binary bytes=24
+2026-10-31 13:37:15.480 [HEX] 0000 14 00 01 00 01 00 02 F0 01 00 00 00 04 00 00 00 | ................
+2026-10-31 13:37:15.480 [HEX] 0010 F9 F8 F7 F6 02 00 00 00                         | ........
+2026-10-31 13:37:15.480 [INFO] Raw response: C:\PCU_test\bin\logs\dde_series_20261031_133715_470_pid3780_r01_i01_binary.bin (24 bytes)
+2026-10-31 13:37:15.480 [INFO] Full HEX: C:\PCU_test\bin\logs\dde_series_20261031_133715_470_pid3780_r01_i01_binary.hex
+2026-10-31 13:37:15.480 [DATA] BINARY_HEADER hlen=0x0014 field_02=0x0001 field_04=0x0001 field_06=0xF002 count_candidate=1 element_size_candidate=4 marker=0xF6F7F8F9
+2026-10-31 13:37:15.480 [DATA] BINARY_SIZE_CHECK expected=24 observed=24 MATCH
+2026-10-31 13:37:15.480 [DATA] BINARY_PAYLOAD_LE32=0x00000002 signed_candidate=2 (type NOT established)
+2026-10-31 13:37:16.983 [INFO] SUMMARY success_response=1 failed_response=0 (success means bytes received; not independently verified)
+2026-10-31 13:37:16.983 [INFO] === dde_series END exit_code=20 elapsed_ms=1512 ===
+WATCHDOG END exit=20 child_raw_exit=20

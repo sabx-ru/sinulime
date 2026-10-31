@@ -1,0 +1,17 @@
+digraph MCVAR_REQUEST_TRANSPORT {
+ rankdir=LR; node [shape=box,fontname="Courier"];
+ rv [label="CVar2::ReadVar\nold call 0x1000BD47\nnew call 0x1000BE59"];
+ prep [label="request/error preparation\nold 0x1000C532\nnew 0x1000C644"];
+ arrays [label="SAFEARRAY prep + ascending loops\nold 0x1000C60C..C728\nnew 0x1000C71E..C83A"];
+ lookup [label="keyed lookup\nold 0x1000C7C3 -> 0x10014E38\nnew 0x1000C8D3 -> 0x10014F42"];
+ callback [label="indirect object call\nold 0x1000CA30 [eax+0x14]\nnew 0x1000CB42 [eax+0x14]"];
+ ddemsg [label="WM_DDE / PostMessageA\ncomponent-level evidence only",style="filled",fillcolor="#fff4d6"];
+ ncdde [label="NCDDE DDEML receiver\nprocess join unresolved",style="filled",fillcolor="#fff4d6"];
+ rv -> prep [label="direct CALL; CONFIRMED_STATIC"];
+ prep -> arrays [label="direct local flow"];
+ arrays -> lookup [label="per-item loop/direct CALL"];
+ lookup -> callback [label="callback-shaped indirect op; target unresolved"];
+ callback -> ddemsg [style=dashed,label="target/vptr not resolved"];
+ ddemsg -> ncdde [style=dashed,label="no HWND/service/topic/transaction join"];
+ note [shape=note,label="H01/H02/H03 PARTIAL/OPEN. SAFEARRAY iteration is not proof of one transport transaction per item."];
+}

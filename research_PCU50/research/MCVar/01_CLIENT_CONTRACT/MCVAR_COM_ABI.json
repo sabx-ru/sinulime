@@ -1,0 +1,1186 @@
+{
+  "schema": "stage16_7_final.mcvar-com-abi.v1",
+  "scope": "Requested MCVar client contract only; exact TypeLib declarations plus static iter2 vtable bindings. No runtime execution.",
+  "sources": {
+    "typelib_records": "/root/PL/stages/stage16_5/abi/typelib_abi_records.json",
+    "typelib_source": "/root/PL/stages/stage16/reports/typelib_decode.json",
+    "iter2_vtable_map": "/root/PL/stages/stage16_7/entrypoints/iter2/VTABLE_MAP.json",
+    "binaries": {
+      "old": {
+        "path": "/root/PL/PCU_old/H/mmc2/MCVar.dll",
+        "sha256": "43a5c1991d98b6b6e155233a0114d7ff72bf4dec7edf58d0607da501e7d98712",
+        "image_base": "0x10000000"
+      },
+      "new": {
+        "path": "/root/PL/PCU_new/C/RECYCLER/S-1-5-21-4025392478-4199590385-3038547483-1005/Dc28/files/F/mmc2/MCVar.dll",
+        "sha256": "5e7d955ebe7cfd52424b04e91471b7408f42bf6cc427e3d94c50bc7f4428c24a",
+        "image_base": "0x10000000"
+      }
+    }
+  },
+  "activation": {
+    "clsid": "8f64c6f2-c2a4-11d2-bfca-00609792c500",
+    "progids": ["MCVar.Var2.1", "MCVar.Var2", "MCVar.Var.1", "MCVar.Var", "MCVar.MCCommand.1", "MCVar.MCCommand"],
+    "threading_model": "Apartment",
+    "typelib_resource": "TYPELIB/1/1033",
+    "status": "STATIC_REGISTRATION_METADATA_RUNTIME_ACTIVATION_UNVERIFIED",
+    "caveat": "Embedded registration maps Var/MCCommand names to the same CLSID; distinct coclasses and successful activation on a target deployment are not proven."
+  },
+  "interface_records": {
+    "old.IVar": {
+      "iid": "c48394e0-ec79-11d0-99a9-00a0246d1792",
+      "functions": [
+        {
+          "name": "ReadVarAsync",
+          "memid": 3,
+          "callconv": "CC_STDCALL",
+          "params": [
+            {
+              "ordinal": 1,
+              "name": "Names",
+              "type": "VT_VARIANT",
+              "flags": [
+                "PARAMFLAG_FIN"
+              ]
+            },
+            {
+              "ordinal": 2,
+              "name": "pServerHandles",
+              "type": "VT_VARIANT*",
+              "flags": [
+                "PARAMFLAG_FIN",
+                "PARAMFLAG_FOUT"
+              ]
+            },
+            {
+              "ordinal": 3,
+              "name": "ClientHandles",
+              "type": "VT_VARIANT",
+              "flags": [
+                "PARAMFLAG_FIN"
+              ]
+            },
+            {
+              "ordinal": 4,
+              "name": "CacheDevice",
+              "type": "VT_I2",
+              "flags": [
+                "PARAMFLAG_FIN"
+              ]
+            },
+            {
+              "ordinal": 5,
+              "name": "pCB",
+              "type": "IReadVarAsyncCallback*",
+              "flags": [
+                "PARAMFLAG_FIN"
+              ]
+            },
+            {
+              "ordinal": 6,
+              "name": "pDisp",
+              "type": "VT_DISPATCH",
+              "flags": [
+                "PARAMFLAG_FIN"
+              ]
+            },
+            {
+              "ordinal": 7,
+              "name": "pReqID",
+              "type": "VT_I4*",
+              "flags": [
+                "PARAMFLAG_FOUT"
+              ]
+            },
+            {
+              "ordinal": 8,
+              "name": "pErrors",
+              "type": "VT_VARIANT*",
+              "flags": [
+                "PARAMFLAG_FOUT",
+                "PARAMFLAG_FOPT"
+              ]
+            }
+          ],
+          "slot": 9,
+          "target_va": "0x1000c3f6",
+          "target_rva": "0xc3f6",
+          "pointer_location": "0x1002c608"
+        },
+        {
+          "name": "ReadVarCyclic",
+          "memid": 5,
+          "callconv": "CC_STDCALL",
+          "params": [
+            {
+              "ordinal": 1,
+              "name": "Names",
+              "type": "VT_VARIANT",
+              "flags": [
+                "PARAMFLAG_FIN"
+              ]
+            },
+            {
+              "ordinal": 2,
+              "name": "pServerHandles",
+              "type": "VT_VARIANT*",
+              "flags": [
+                "PARAMFLAG_FIN",
+                "PARAMFLAG_FOUT"
+              ]
+            },
+            {
+              "ordinal": 3,
+              "name": "ClientHandles",
+              "type": "VT_VARIANT",
+              "flags": [
+                "PARAMFLAG_FIN"
+              ]
+            },
+            {
+              "ordinal": 4,
+              "name": "pCB",
+              "type": "IReadVarAsyncCallback*",
+              "flags": [
+                "PARAMFLAG_FIN"
+              ]
+            },
+            {
+              "ordinal": 5,
+              "name": "pDisp",
+              "type": "VT_DISPATCH",
+              "flags": [
+                "PARAMFLAG_FIN"
+              ]
+            },
+            {
+              "ordinal": 6,
+              "name": "Deadbands",
+              "type": "VT_VARIANT",
+              "flags": [
+                "PARAMFLAG_FIN"
+              ]
+            },
+            {
+              "ordinal": 7,
+              "name": "RequestedUpdateRates",
+              "type": "VT_VARIANT",
+              "flags": [
+                "PARAMFLAG_FIN"
+              ]
+            },
+            {
+              "ordinal": 8,
+              "name": "RevisedUpdateRates",
+              "type": "VT_VARIANT*",
+              "flags": [
+                "PARAMFLAG_FOUT"
+              ]
+            },
+            {
+              "ordinal": 9,
+              "name": "pReqID",
+              "type": "VT_I4*",
+              "flags": [
+                "PARAMFLAG_FIN",
+                "PARAMFLAG_FOUT"
+              ]
+            },
+            {
+              "ordinal": 10,
+              "name": "pErrors",
+              "type": "VT_VARIANT*",
+              "flags": [
+                "PARAMFLAG_FOUT",
+                "PARAMFLAG_FOPT"
+              ]
+            },
+            {
+              "ordinal": 11,
+              "name": "CriticalValues",
+              "type": "VT_VARIANT",
+              "flags": [
+                "PARAMFLAG_FIN",
+                "PARAMFLAG_FOPT"
+              ]
+            }
+          ],
+          "slot": 11,
+          "target_va": "0x1000faf0",
+          "target_rva": "0xfaf0",
+          "pointer_location": "0x1002c610"
+        },
+        {
+          "name": "RemoveCyclicVariables",
+          "memid": 6,
+          "callconv": "CC_STDCALL",
+          "params": [
+            {
+              "ordinal": 1,
+              "name": "ReqID",
+              "type": "VT_I4",
+              "flags": [
+                "PARAMFLAG_FIN"
+              ]
+            },
+            {
+              "ordinal": 2,
+              "name": "Names",
+              "type": "VT_VARIANT",
+              "flags": [
+                "PARAMFLAG_FIN"
+              ]
+            },
+            {
+              "ordinal": 3,
+              "name": "ServerHandles",
+              "type": "VT_VARIANT",
+              "flags": [
+                "PARAMFLAG_FIN"
+              ]
+            },
+            {
+              "ordinal": 4,
+              "name": "pErrors",
+              "type": "VT_VARIANT*",
+              "flags": [
+                "PARAMFLAG_FOUT",
+                "PARAMFLAG_FOPT"
+              ]
+            }
+          ],
+          "slot": 12,
+          "target_va": "0x10010bbb",
+          "target_rva": "0x10bbb",
+          "pointer_location": "0x1002c614"
+        }
+      ]
+    },
+    "old.IVar2": {
+      "iid": "23ebede0-bd9b-11d1-bd5a-0080c7f7898a",
+      "functions": [
+        {
+          "name": "ReadVarAsync",
+          "memid": 3,
+          "callconv": "CC_STDCALL",
+          "params": [
+            {
+              "ordinal": 1,
+              "name": "Names",
+              "type": "VT_VARIANT",
+              "flags": [
+                "PARAMFLAG_FIN",
+                "PARAMFLAG_FOPT"
+              ]
+            },
+            {
+              "ordinal": 2,
+              "name": "ServerHandles",
+              "type": "VT_VARIANT",
+              "flags": [
+                "PARAMFLAG_FIN",
+                "PARAMFLAG_FOPT"
+              ]
+            },
+            {
+              "ordinal": 3,
+              "name": "ClientHandles",
+              "type": "VT_VARIANT",
+              "flags": [
+                "PARAMFLAG_FIN"
+              ]
+            },
+            {
+              "ordinal": 4,
+              "name": "CacheDevice",
+              "type": "VT_I2",
+              "flags": [
+                "PARAMFLAG_FIN"
+              ]
+            },
+            {
+              "ordinal": 5,
+              "name": "pCB",
+              "type": "IReadVarAsyncCallback2*",
+              "flags": [
+                "PARAMFLAG_FIN"
+              ]
+            },
+            {
+              "ordinal": 6,
+              "name": "pDisp",
+              "type": "VT_DISPATCH",
+              "flags": [
+                "PARAMFLAG_FIN"
+              ]
+            },
+            {
+              "ordinal": 7,
+              "name": "pReqID",
+              "type": "VT_I4*",
+              "flags": [
+                "PARAMFLAG_FOUT"
+              ]
+            },
+            {
+              "ordinal": 8,
+              "name": "pErrors",
+              "type": "VT_VARIANT*",
+              "flags": [
+                "PARAMFLAG_FOUT",
+                "PARAMFLAG_FOPT"
+              ]
+            }
+          ],
+          "slot": 9,
+          "target_va": "0x1000c28a",
+          "target_rva": "0xc28a",
+          "pointer_location": "0x1002c654"
+        },
+        {
+          "name": "ReadVarCyclic",
+          "memid": 5,
+          "callconv": "CC_STDCALL",
+          "params": [
+            {
+              "ordinal": 1,
+              "name": "Names",
+              "type": "VT_VARIANT",
+              "flags": [
+                "PARAMFLAG_FIN",
+                "PARAMFLAG_FOPT"
+              ]
+            },
+            {
+              "ordinal": 2,
+              "name": "ServerHandles",
+              "type": "VT_VARIANT",
+              "flags": [
+                "PARAMFLAG_FIN",
+                "PARAMFLAG_FOPT"
+              ]
+            },
+            {
+              "ordinal": 3,
+              "name": "ClientHandles",
+              "type": "VT_VARIANT",
+              "flags": [
+                "PARAMFLAG_FIN"
+              ]
+            },
+            {
+              "ordinal": 4,
+              "name": "pCB",
+              "type": "IReadVarAsyncCallback2*",
+              "flags": [
+                "PARAMFLAG_FIN"
+              ]
+            },
+            {
+              "ordinal": 5,
+              "name": "pDisp",
+              "type": "VT_DISPATCH",
+              "flags": [
+                "PARAMFLAG_FIN"
+              ]
+            },
+            {
+              "ordinal": 6,
+              "name": "Deadbands",
+              "type": "VT_VARIANT",
+              "flags": [
+                "PARAMFLAG_FIN"
+              ]
+            },
+            {
+              "ordinal": 7,
+              "name": "RequestedUpdateRates",
+              "type": "VT_VARIANT",
+              "flags": [
+                "PARAMFLAG_FIN"
+              ]
+            },
+            {
+              "ordinal": 8,
+              "name": "pRevisedUpdateRates",
+              "type": "VT_VARIANT*",
+              "flags": [
+                "PARAMFLAG_FOUT"
+              ]
+            },
+            {
+              "ordinal": 9,
+              "name": "pReqID",
+              "type": "VT_I4*",
+              "flags": [
+                "PARAMFLAG_FIN",
+                "PARAMFLAG_FOUT"
+              ]
+            },
+            {
+              "ordinal": 10,
+              "name": "pErrors",
+              "type": "VT_VARIANT*",
+              "flags": [
+                "PARAMFLAG_FOUT",
+                "PARAMFLAG_FOPT"
+              ]
+            },
+            {
+              "ordinal": 11,
+              "name": "CriticalValues",
+              "type": "VT_VARIANT",
+              "flags": [
+                "PARAMFLAG_FIN",
+                "PARAMFLAG_FOPT"
+              ]
+            }
+          ],
+          "slot": 11,
+          "target_va": "0x1000f93e",
+          "target_rva": "0xf93e",
+          "pointer_location": "0x1002c65c"
+        },
+        {
+          "name": "RemoveCyclicVariables",
+          "memid": 6,
+          "callconv": "CC_STDCALL",
+          "params": [
+            {
+              "ordinal": 1,
+              "name": "ReqID",
+              "type": "VT_I4",
+              "flags": [
+                "PARAMFLAG_FIN"
+              ]
+            },
+            {
+              "ordinal": 2,
+              "name": "Names",
+              "type": "VT_VARIANT",
+              "flags": [
+                "PARAMFLAG_FIN",
+                "PARAMFLAG_FOPT"
+              ]
+            },
+            {
+              "ordinal": 3,
+              "name": "ServerHandles",
+              "type": "VT_VARIANT",
+              "flags": [
+                "PARAMFLAG_FIN",
+                "PARAMFLAG_FOPT"
+              ]
+            },
+            {
+              "ordinal": 4,
+              "name": "ClientHandles",
+              "type": "VT_VARIANT",
+              "flags": [
+                "PARAMFLAG_FIN",
+                "PARAMFLAG_FOPT"
+              ]
+            },
+            {
+              "ordinal": 5,
+              "name": "pErrors",
+              "type": "VT_VARIANT*",
+              "flags": [
+                "PARAMFLAG_FOUT",
+                "PARAMFLAG_FOPT"
+              ]
+            }
+          ],
+          "slot": 12,
+          "target_va": "0x10010a94",
+          "target_rva": "0x10a94",
+          "pointer_location": "0x1002c660"
+        }
+      ]
+    },
+    "old.IReadVarAsyncCallback": {
+      "iid": "c48394e1-ec79-11d0-99a9-00a0246d1792",
+      "functions": [
+        {
+          "name": "OnDataChanged",
+          "memid": 1,
+          "callconv": "CC_STDCALL",
+          "params": [
+            {
+              "ordinal": 1,
+              "name": "Values",
+              "type": "VT_VARIANT",
+              "flags": [
+                "PARAMFLAG_FIN"
+              ]
+            },
+            {
+              "ordinal": 2,
+              "name": "Qualities",
+              "type": "VT_VARIANT",
+              "flags": [
+                "PARAMFLAG_FIN"
+              ]
+            },
+            {
+              "ordinal": 3,
+              "name": "ClientHandles",
+              "type": "VT_VARIANT",
+              "flags": [
+                "PARAMFLAG_FIN"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "old.IReadVarAsyncCallback2": {
+      "iid": "9cd0d500-bd9a-11d1-bd5a-0080c7f7898a",
+      "functions": [
+        {
+          "name": "OnDataChanged",
+          "memid": 1,
+          "callconv": "CC_STDCALL",
+          "params": [
+            {
+              "ordinal": 1,
+              "name": "Values",
+              "type": "VT_VARIANT",
+              "flags": [
+                "PARAMFLAG_FIN"
+              ]
+            },
+            {
+              "ordinal": 2,
+              "name": "TimeStamps",
+              "type": "VT_VARIANT",
+              "flags": [
+                "PARAMFLAG_FIN"
+              ]
+            },
+            {
+              "ordinal": 3,
+              "name": "ClientHandles",
+              "type": "VT_VARIANT",
+              "flags": [
+                "PARAMFLAG_FIN"
+              ]
+            },
+            {
+              "ordinal": 4,
+              "name": "Qualities",
+              "type": "VT_VARIANT",
+              "flags": [
+                "PARAMFLAG_FIN",
+                "PARAMFLAG_FOPT"
+              ]
+            },
+            {
+              "ordinal": 5,
+              "name": "ServerInfos",
+              "type": "VT_VARIANT",
+              "flags": [
+                "PARAMFLAG_FIN",
+                "PARAMFLAG_FOPT"
+              ]
+            },
+            {
+              "ordinal": 6,
+              "name": "Errors",
+              "type": "VT_VARIANT",
+              "flags": [
+                "PARAMFLAG_FIN",
+                "PARAMFLAG_FOPT"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "new.IVar": {
+      "iid": "c48394e0-ec79-11d0-99a9-00a0246d1792",
+      "functions": [
+        {
+          "name": "ReadVarAsync",
+          "memid": 3,
+          "callconv": "CC_STDCALL",
+          "params": [
+            {
+              "ordinal": 1,
+              "name": "Names",
+              "type": "VT_VARIANT",
+              "flags": [
+                "PARAMFLAG_FIN"
+              ]
+            },
+            {
+              "ordinal": 2,
+              "name": "pServerHandles",
+              "type": "VT_VARIANT*",
+              "flags": [
+                "PARAMFLAG_FIN",
+                "PARAMFLAG_FOUT"
+              ]
+            },
+            {
+              "ordinal": 3,
+              "name": "ClientHandles",
+              "type": "VT_VARIANT",
+              "flags": [
+                "PARAMFLAG_FIN"
+              ]
+            },
+            {
+              "ordinal": 4,
+              "name": "CacheDevice",
+              "type": "VT_I2",
+              "flags": [
+                "PARAMFLAG_FIN"
+              ]
+            },
+            {
+              "ordinal": 5,
+              "name": "pCB",
+              "type": "IReadVarAsyncCallback*",
+              "flags": [
+                "PARAMFLAG_FIN"
+              ]
+            },
+            {
+              "ordinal": 6,
+              "name": "pDisp",
+              "type": "VT_DISPATCH",
+              "flags": [
+                "PARAMFLAG_FIN"
+              ]
+            },
+            {
+              "ordinal": 7,
+              "name": "pReqID",
+              "type": "VT_I4*",
+              "flags": [
+                "PARAMFLAG_FOUT"
+              ]
+            },
+            {
+              "ordinal": 8,
+              "name": "pErrors",
+              "type": "VT_VARIANT*",
+              "flags": [
+                "PARAMFLAG_FOUT",
+                "PARAMFLAG_FOPT"
+              ]
+            }
+          ],
+          "slot": 9,
+          "target_va": "0x1000c508",
+          "target_rva": "0xc508",
+          "pointer_location": "0x1002d618"
+        },
+        {
+          "name": "ReadVarCyclic",
+          "memid": 5,
+          "callconv": "CC_STDCALL",
+          "params": [
+            {
+              "ordinal": 1,
+              "name": "Names",
+              "type": "VT_VARIANT",
+              "flags": [
+                "PARAMFLAG_FIN"
+              ]
+            },
+            {
+              "ordinal": 2,
+              "name": "pServerHandles",
+              "type": "VT_VARIANT*",
+              "flags": [
+                "PARAMFLAG_FIN",
+                "PARAMFLAG_FOUT"
+              ]
+            },
+            {
+              "ordinal": 3,
+              "name": "ClientHandles",
+              "type": "VT_VARIANT",
+              "flags": [
+                "PARAMFLAG_FIN"
+              ]
+            },
+            {
+              "ordinal": 4,
+              "name": "pCB",
+              "type": "IReadVarAsyncCallback*",
+              "flags": [
+                "PARAMFLAG_FIN"
+              ]
+            },
+            {
+              "ordinal": 5,
+              "name": "pDisp",
+              "type": "VT_DISPATCH",
+              "flags": [
+                "PARAMFLAG_FIN"
+              ]
+            },
+            {
+              "ordinal": 6,
+              "name": "Deadbands",
+              "type": "VT_VARIANT",
+              "flags": [
+                "PARAMFLAG_FIN"
+              ]
+            },
+            {
+              "ordinal": 7,
+              "name": "RequestedUpdateRates",
+              "type": "VT_VARIANT",
+              "flags": [
+                "PARAMFLAG_FIN"
+              ]
+            },
+            {
+              "ordinal": 8,
+              "name": "RevisedUpdateRates",
+              "type": "VT_VARIANT*",
+              "flags": [
+                "PARAMFLAG_FOUT"
+              ]
+            },
+            {
+              "ordinal": 9,
+              "name": "pReqID",
+              "type": "VT_I4*",
+              "flags": [
+                "PARAMFLAG_FIN",
+                "PARAMFLAG_FOUT"
+              ]
+            },
+            {
+              "ordinal": 10,
+              "name": "pErrors",
+              "type": "VT_VARIANT*",
+              "flags": [
+                "PARAMFLAG_FOUT",
+                "PARAMFLAG_FOPT"
+              ]
+            },
+            {
+              "ordinal": 11,
+              "name": "CriticalValues",
+              "type": "VT_VARIANT",
+              "flags": [
+                "PARAMFLAG_FIN",
+                "PARAMFLAG_FOPT"
+              ]
+            }
+          ],
+          "slot": 11,
+          "target_va": "0x1000fc02",
+          "target_rva": "0xfc02",
+          "pointer_location": "0x1002d620"
+        },
+        {
+          "name": "RemoveCyclicVariables",
+          "memid": 6,
+          "callconv": "CC_STDCALL",
+          "params": [
+            {
+              "ordinal": 1,
+              "name": "ReqID",
+              "type": "VT_I4",
+              "flags": [
+                "PARAMFLAG_FIN"
+              ]
+            },
+            {
+              "ordinal": 2,
+              "name": "Names",
+              "type": "VT_VARIANT",
+              "flags": [
+                "PARAMFLAG_FIN"
+              ]
+            },
+            {
+              "ordinal": 3,
+              "name": "ServerHandles",
+              "type": "VT_VARIANT",
+              "flags": [
+                "PARAMFLAG_FIN"
+              ]
+            },
+            {
+              "ordinal": 4,
+              "name": "pErrors",
+              "type": "VT_VARIANT*",
+              "flags": [
+                "PARAMFLAG_FOUT",
+                "PARAMFLAG_FOPT"
+              ]
+            }
+          ],
+          "slot": 12,
+          "target_va": "0x10010ccd",
+          "target_rva": "0x10ccd",
+          "pointer_location": "0x1002d624"
+        }
+      ]
+    },
+    "new.IVar2": {
+      "iid": "23ebede0-bd9b-11d1-bd5a-0080c7f7898a",
+      "functions": [
+        {
+          "name": "ReadVarAsync",
+          "memid": 3,
+          "callconv": "CC_STDCALL",
+          "params": [
+            {
+              "ordinal": 1,
+              "name": "Names",
+              "type": "VT_VARIANT",
+              "flags": [
+                "PARAMFLAG_FIN",
+                "PARAMFLAG_FOPT"
+              ]
+            },
+            {
+              "ordinal": 2,
+              "name": "ServerHandles",
+              "type": "VT_VARIANT",
+              "flags": [
+                "PARAMFLAG_FIN",
+                "PARAMFLAG_FOPT"
+              ]
+            },
+            {
+              "ordinal": 3,
+              "name": "ClientHandles",
+              "type": "VT_VARIANT",
+              "flags": [
+                "PARAMFLAG_FIN"
+              ]
+            },
+            {
+              "ordinal": 4,
+              "name": "CacheDevice",
+              "type": "VT_I2",
+              "flags": [
+                "PARAMFLAG_FIN"
+              ]
+            },
+            {
+              "ordinal": 5,
+              "name": "pCB",
+              "type": "IReadVarAsyncCallback2*",
+              "flags": [
+                "PARAMFLAG_FIN"
+              ]
+            },
+            {
+              "ordinal": 6,
+              "name": "pDisp",
+              "type": "VT_DISPATCH",
+              "flags": [
+                "PARAMFLAG_FIN"
+              ]
+            },
+            {
+              "ordinal": 7,
+              "name": "pReqID",
+              "type": "VT_I4*",
+              "flags": [
+                "PARAMFLAG_FOUT"
+              ]
+            },
+            {
+              "ordinal": 8,
+              "name": "pErrors",
+              "type": "VT_VARIANT*",
+              "flags": [
+                "PARAMFLAG_FOUT",
+                "PARAMFLAG_FOPT"
+              ]
+            }
+          ],
+          "slot": 9,
+          "target_va": "0x1000c39c",
+          "target_rva": "0xc39c",
+          "pointer_location": "0x1002d664"
+        },
+        {
+          "name": "ReadVarCyclic",
+          "memid": 5,
+          "callconv": "CC_STDCALL",
+          "params": [
+            {
+              "ordinal": 1,
+              "name": "Names",
+              "type": "VT_VARIANT",
+              "flags": [
+                "PARAMFLAG_FIN",
+                "PARAMFLAG_FOPT"
+              ]
+            },
+            {
+              "ordinal": 2,
+              "name": "ServerHandles",
+              "type": "VT_VARIANT",
+              "flags": [
+                "PARAMFLAG_FIN",
+                "PARAMFLAG_FOPT"
+              ]
+            },
+            {
+              "ordinal": 3,
+              "name": "ClientHandles",
+              "type": "VT_VARIANT",
+              "flags": [
+                "PARAMFLAG_FIN"
+              ]
+            },
+            {
+              "ordinal": 4,
+              "name": "pCB",
+              "type": "IReadVarAsyncCallback2*",
+              "flags": [
+                "PARAMFLAG_FIN"
+              ]
+            },
+            {
+              "ordinal": 5,
+              "name": "pDisp",
+              "type": "VT_DISPATCH",
+              "flags": [
+                "PARAMFLAG_FIN"
+              ]
+            },
+            {
+              "ordinal": 6,
+              "name": "Deadbands",
+              "type": "VT_VARIANT",
+              "flags": [
+                "PARAMFLAG_FIN"
+              ]
+            },
+            {
+              "ordinal": 7,
+              "name": "RequestedUpdateRates",
+              "type": "VT_VARIANT",
+              "flags": [
+                "PARAMFLAG_FIN"
+              ]
+            },
+            {
+              "ordinal": 8,
+              "name": "pRevisedUpdateRates",
+              "type": "VT_VARIANT*",
+              "flags": [
+                "PARAMFLAG_FOUT"
+              ]
+            },
+            {
+              "ordinal": 9,
+              "name": "pReqID",
+              "type": "VT_I4*",
+              "flags": [
+                "PARAMFLAG_FIN",
+                "PARAMFLAG_FOUT"
+              ]
+            },
+            {
+              "ordinal": 10,
+              "name": "pErrors",
+              "type": "VT_VARIANT*",
+              "flags": [
+                "PARAMFLAG_FOUT",
+                "PARAMFLAG_FOPT"
+              ]
+            },
+            {
+              "ordinal": 11,
+              "name": "CriticalValues",
+              "type": "VT_VARIANT",
+              "flags": [
+                "PARAMFLAG_FIN",
+                "PARAMFLAG_FOPT"
+              ]
+            }
+          ],
+          "slot": 11,
+          "target_va": "0x1000fa50",
+          "target_rva": "0xfa50",
+          "pointer_location": "0x1002d66c"
+        },
+        {
+          "name": "RemoveCyclicVariables",
+          "memid": 6,
+          "callconv": "CC_STDCALL",
+          "params": [
+            {
+              "ordinal": 1,
+              "name": "ReqID",
+              "type": "VT_I4",
+              "flags": [
+                "PARAMFLAG_FIN"
+              ]
+            },
+            {
+              "ordinal": 2,
+              "name": "Names",
+              "type": "VT_VARIANT",
+              "flags": [
+                "PARAMFLAG_FIN",
+                "PARAMFLAG_FOPT"
+              ]
+            },
+            {
+              "ordinal": 3,
+              "name": "ServerHandles",
+              "type": "VT_VARIANT",
+              "flags": [
+                "PARAMFLAG_FIN",
+                "PARAMFLAG_FOPT"
+              ]
+            },
+            {
+              "ordinal": 4,
+              "name": "ClientHandles",
+              "type": "VT_VARIANT",
+              "flags": [
+                "PARAMFLAG_FIN",
+                "PARAMFLAG_FOPT"
+              ]
+            },
+            {
+              "ordinal": 5,
+              "name": "pErrors",
+              "type": "VT_VARIANT*",
+              "flags": [
+                "PARAMFLAG_FOUT",
+                "PARAMFLAG_FOPT"
+              ]
+            }
+          ],
+          "slot": 12,
+          "target_va": "0x10010ba6",
+          "target_rva": "0x10ba6",
+          "pointer_location": "0x1002d670"
+        }
+      ]
+    },
+    "new.IReadVarAsyncCallback": {
+      "iid": "c48394e1-ec79-11d0-99a9-00a0246d1792",
+      "functions": [
+        {
+          "name": "OnDataChanged",
+          "memid": 1,
+          "callconv": "CC_STDCALL",
+          "params": [
+            {
+              "ordinal": 1,
+              "name": "Values",
+              "type": "VT_VARIANT",
+              "flags": [
+                "PARAMFLAG_FIN"
+              ]
+            },
+            {
+              "ordinal": 2,
+              "name": "Qualities",
+              "type": "VT_VARIANT",
+              "flags": [
+                "PARAMFLAG_FIN"
+              ]
+            },
+            {
+              "ordinal": 3,
+              "name": "ClientHandles",
+              "type": "VT_VARIANT",
+              "flags": [
+                "PARAMFLAG_FIN"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "new.IReadVarAsyncCallback2": {
+      "iid": "9cd0d500-bd9a-11d1-bd5a-0080c7f7898a",
+      "functions": [
+        {
+          "name": "OnDataChanged",
+          "memid": 1,
+          "callconv": "CC_STDCALL",
+          "params": [
+            {
+              "ordinal": 1,
+              "name": "Values",
+              "type": "VT_VARIANT",
+              "flags": [
+                "PARAMFLAG_FIN"
+              ]
+            },
+            {
+              "ordinal": 2,
+              "name": "TimeStamps",
+              "type": "VT_VARIANT",
+              "flags": [
+                "PARAMFLAG_FIN"
+              ]
+            },
+            {
+              "ordinal": 3,
+              "name": "ClientHandles",
+              "type": "VT_VARIANT",
+              "flags": [
+                "PARAMFLAG_FIN"
+              ]
+            },
+            {
+              "ordinal": 4,
+              "name": "Qualities",
+              "type": "VT_VARIANT",
+              "flags": [
+                "PARAMFLAG_FIN",
+                "PARAMFLAG_FOPT"
+              ]
+            },
+            {
+              "ordinal": 5,
+              "name": "ServerInfos",
+              "type": "VT_VARIANT",
+              "flags": [
+                "PARAMFLAG_FIN",
+                "PARAMFLAG_FOPT"
+              ]
+            },
+            {
+              "ordinal": 6,
+              "name": "Errors",
+              "type": "VT_VARIANT",
+              "flags": [
+                "PARAMFLAG_FIN",
+                "PARAMFLAG_FOPT"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "old_new_normalized_differences": [],
+  "semantics": {
+    "VARIANT_array_shape": "UNKNOWN",
+    "SAFEARRAY_bounds_ordering_element_type": "UNKNOWN",
+    "ownership_and_lifetime": "UNKNOWN",
+    "callback_retention_and_threading": "UNKNOWN",
+    "HRESULT_return_semantics": "UNKNOWN",
+    "basis": "TypeLib records expose VT_VARIANT parameters and in/out flags, but do not specify contained VARIANT/SAFEARRAY shape or allocation/lifetime; vtable evidence is static and does not establish runtime behavior."
+  },
+  "implementation_notes": [
+    "Use stdcall and preserve declared parameter order and directions exactly.",
+    "IVar slots 9/11/12 and IVar2 slots 9/11/12 are implementation slots after IUnknown (0-2) and IDispatch (3-6).",
+    "IVar ReadVarAsync/ReadVarCyclic use IReadVarAsyncCallback; IVar2 counterparts use IReadVarAsyncCallback2.",
+    "Use the old/new-specific target addresses as listed; identical declarations do not imply identical code bodies."
+  ]
+}

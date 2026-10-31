@@ -1,0 +1,40 @@
+WATCHDOG START timeout_ms=35000 command="bin\dde_series.exe" "--confirm=YES" "--items=config\items_5.txt" "--expect-items=5" "--mode=text" "--rounds=1" "--order=text-first" "--interval-ms=1500" "--timeout-ms=5000"
+2026-10-31 17:58:31.962 [INFO] === dde_series v0.5 BEGIN ===
+2026-10-31 17:58:31.962 [INFO] EXE=C:\PCU_test\bin\dde_series.exe
+2026-10-31 17:58:31.962 [INFO] PID=2092 args=9 target=Windows XP x86; log=C:\PCU_test\bin\logs\dde_series_20261031_175831_962_pid2092.log
+2026-10-31 17:58:31.962 [INFO] Items=5 rounds=1 mode=1 interval=1500 timeout=5000 total_read_requests_max=5 order=text-first
+2026-10-31 17:58:31.962 [WARN] No write or advise operations; read may load Siemens runtime; value freshness NOT established
+2026-10-31 17:58:31.972 [INFO] DDE_CONNECTED ncdde|machineswitch single persistent conversation
+2026-10-31 17:58:31.972 [INFO] READ round=1 index=1 format=text item=/Nck/Configuration/numGlobMachAxes elapsed_ms=0 result=DATA_HANDLE
+2026-10-31 17:58:31.972 [DATA] RESPONSE round=1 index=1 format=text bytes=2
+2026-10-31 17:58:31.972 [HEX] 0000 32 00                                           | 2.
+2026-10-31 17:58:31.972 [INFO] Raw response: C:\PCU_test\bin\logs\dde_series_20261031_175831_962_pid2092_r01_i01_text.bin (2 bytes)
+2026-10-31 17:58:31.972 [INFO] Full HEX: C:\PCU_test\bin\logs\dde_series_20261031_175831_962_pid2092_r01_i01_text.hex
+2026-10-31 17:58:31.972 [DATA] TEXT_CLASS=MD_CANDIDATE_NOT_CONFIRMED TEXT_VALUE=2
+2026-10-31 17:58:33.474 [INFO] READ round=1 index=2 format=text item=/Nck/Configuration/numChannels elapsed_ms=0 result=DATA_HANDLE
+2026-10-31 17:58:33.474 [DATA] RESPONSE round=1 index=2 format=text bytes=2
+2026-10-31 17:58:33.474 [HEX] 0000 31 00                                           | 1.
+2026-10-31 17:58:33.474 [INFO] Raw response: C:\PCU_test\bin\logs\dde_series_20261031_175831_962_pid2092_r01_i02_text.bin (2 bytes)
+2026-10-31 17:58:33.474 [INFO] Full HEX: C:\PCU_test\bin\logs\dde_series_20261031_175831_962_pid2092_r01_i02_text.hex
+2026-10-31 17:58:33.474 [DATA] TEXT_CLASS=MD_CANDIDATE_NOT_CONFIRMED TEXT_VALUE=1
+2026-10-31 17:58:34.976 [INFO] READ round=1 index=3 format=text item=/Nck/State/SysTimeBCD elapsed_ms=0 result=DATA_HANDLE
+2026-10-31 17:58:34.976 [DATA] RESPONSE round=1 index=3 format=text bytes=11
+2026-10-31 17:58:34.976 [HEX] 0000 94 04 28 03 43 51 66 05 55 54 00                | ..(.CQf.UT.
+2026-10-31 17:58:34.976 [INFO] Raw response: C:\PCU_test\bin\logs\dde_series_20261031_175831_962_pid2092_r01_i03_text.bin (11 bytes)
+2026-10-31 17:58:34.976 [INFO] Full HEX: C:\PCU_test\bin\logs\dde_series_20261031_175831_962_pid2092_r01_i03_text.hex
+2026-10-31 17:58:34.976 [DATA] TEXT_CLASS=UNKNOWN_RESPONSE TEXT_VALUE=(empty or not printable)
+2026-10-31 17:58:36.479 [INFO] READ round=1 index=4 format=text item=/Nck/State/accIndex elapsed_ms=0 result=DATA_HANDLE
+2026-10-31 17:58:36.479 [DATA] RESPONSE round=1 index=4 format=text bytes=2
+2026-10-31 17:58:36.479 [HEX] 0000 30 00                                           | 0.
+2026-10-31 17:58:36.479 [INFO] Raw response: C:\PCU_test\bin\logs\dde_series_20261031_175831_962_pid2092_r01_i04_text.bin (2 bytes)
+2026-10-31 17:58:36.479 [INFO] Full HEX: C:\PCU_test\bin\logs\dde_series_20261031_175831_962_pid2092_r01_i04_text.hex
+2026-10-31 17:58:36.479 [DATA] TEXT_CLASS=MD_CANDIDATE_NOT_CONFIRMED TEXT_VALUE=0
+2026-10-31 17:58:37.981 [INFO] READ round=1 index=5 format=text item=/Nck/Configuration/accessLevel elapsed_ms=0 result=DATA_HANDLE
+2026-10-31 17:58:37.981 [DATA] RESPONSE round=1 index=5 format=text bytes=2
+2026-10-31 17:58:37.981 [HEX] 0000 31 00                                           | 1.
+2026-10-31 17:58:37.981 [INFO] Raw response: C:\PCU_test\bin\logs\dde_series_20261031_175831_962_pid2092_r01_i05_text.bin (2 bytes)
+2026-10-31 17:58:37.981 [INFO] Full HEX: C:\PCU_test\bin\logs\dde_series_20261031_175831_962_pid2092_r01_i05_text.hex
+2026-10-31 17:58:37.981 [DATA] TEXT_CLASS=MD_CANDIDATE_NOT_CONFIRMED TEXT_VALUE=1
+2026-10-31 17:58:39.483 [INFO] SUMMARY success_response=5 failed_response=0 (success means bytes received; not independently verified)
+2026-10-31 17:58:39.483 [INFO] === dde_series END exit_code=20 elapsed_ms=7521 ===
+WATCHDOG END exit=20 child_raw_exit=20

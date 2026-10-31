@@ -1,0 +1,76 @@
+HKCR
+{
+	MCVar.Var2.1 = s 'Var2 Class'
+	{
+		CLSID = s '{8F64C6F2-C2A4-11D2-BFCA-00609792C500}'
+	}
+	MCVar.Var2 = s 'Var2 Class'
+	{
+		CLSID = s '{8F64C6F2-C2A4-11D2-BFCA-00609792C500}'
+		CurVer = s 'MCVar.Var2.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {8F64C6F2-C2A4-11D2-BFCA-00609792C500} = s 'Var2 Class'
+		{
+			ProgID = s 'MCVar.Var2.1'
+			VersionIndependentProgID = s 'MCVar.Var2'
+			ForceRemove 'Programmable'
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			'TypeLib' = s '{8F64C6E3-C2A4-11D2-BFCA-00609792C500}'
+		}
+	}
+
+
+	MCVar.Var.1 = s 'Var Class'
+	{
+		CLSID = s '{8F64C6F2-C2A4-11D2-BFCA-00609792C500}'
+	}
+	MCVar.Var = s 'Var Class'
+	{
+		CLSID = s '{8F64C6F2-C2A4-11D2-BFCA-00609792C500}'
+		CurVer = s 'MCVar.Var.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {8F64C6F2-C2A4-11D2-BFCA-00609792C500} = s 'Var Class'
+		{
+			ProgID = s 'MCVar.Var.1'
+			VersionIndependentProgID = s 'MCVar.Var'
+			ForceRemove 'Programmable'
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			'TypeLib' = s '{8F64C6E3-C2A4-11D2-BFCA-00609792C500}'
+		}
+	}
+
+
+	MCVar.MCCommand.1 = s 'MCCommand Class'
+	{
+		CLSID = s '{8F64C6F2-C2A4-11D2-BFCA-00609792C500}'
+	}
+	MCVar.MCCommand = s 'MCCommand Class'
+	{
+		CLSID = s '{8F64C6F2-C2A4-11D2-BFCA-00609792C500}'
+		CurVer = s 'MCVar.MCCommand.1'
+	}
+	NoRemove CLSID
+	{
+		ForceRemove {8F64C6F2-C2A4-11D2-BFCA-00609792C500} = s 'MCCommand Class'
+		{
+			ProgID = s 'MCVar.MCCommand.1'
+			VersionIndependentProgID = s 'MCVar.MCCommand'
+			ForceRemove 'Programmable'
+			InprocServer32 = s '%MODULE%'
+			{
+				val ThreadingModel = s 'Apartment'
+			}
+			'TypeLib' = s '{8F64C6E3-C2A4-11D2-BFCA-00609792C500}'
+		}
+	}
+}

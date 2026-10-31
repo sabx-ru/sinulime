@@ -1,0 +1,48 @@
+2026-10-31 18:27:19.696 [INFO] === dde_series v0.5 BEGIN ===
+2026-10-31 18:27:19.696 [INFO] EXE=C:\PCU_test\bin\dde_series.exe
+2026-10-31 18:27:19.696 [INFO] PID=1488 args=9 target=Windows XP x86; log=C:\PCU_test\bin\logs\dde_series_20261031_182719_696_pid1488.log
+2026-10-31 18:27:19.696 [INFO] Items=20 rounds=1 mode=4 interval=1500 timeout=5000 total_read_requests_max=20 order=text-first
+2026-10-31 18:27:19.696 [WARN] No write or advise operations; read may load Siemens runtime; value freshness NOT established
+2026-10-31 18:27:19.707 [INFO] DDE_CONNECTED ncdde|machineswitch single persistent conversation
+2026-10-31 18:27:19.707 [ERROR] READ round=1 index=1 format=oem item=/Channel/Parameter/R[u1,10] elapsed_ms=0 result=FAILED
+2026-10-31 18:27:19.707 [ERROR] DMLERR=0x4009
+2026-10-31 18:27:21.209 [ERROR] READ round=1 index=2 format=oem item=/Channel/SelectedFunctions/Mval[u1] elapsed_ms=0 result=FAILED
+2026-10-31 18:27:21.209 [ERROR] DMLERR=0x4009
+2026-10-31 18:27:22.711 [ERROR] READ round=1 index=3 format=oem item=/Channel/GeometricAxis/feedRateOvr[u1,1] elapsed_ms=0 result=FAILED
+2026-10-31 18:27:22.711 [ERROR] DMLERR=0x4009
+2026-10-31 18:27:24.213 [ERROR] READ round=1 index=4 format=oem item=/Channel/State/feedRateIpoOvr[u1] elapsed_ms=0 result=FAILED
+2026-10-31 18:27:24.213 [ERROR] DMLERR=0x4009
+2026-10-31 18:27:25.715 [ERROR] READ round=1 index=5 format=oem item=/Channel/Spindle/speedOvr[u1,1] elapsed_ms=0 result=FAILED
+2026-10-31 18:27:25.715 [ERROR] DMLERR=0x4009
+2026-10-31 18:27:27.217 [ERROR] READ round=1 index=6 format=oem item=/Channel/Spindle/actSpeed[u1,1] elapsed_ms=0 result=FAILED
+2026-10-31 18:27:27.217 [ERROR] DMLERR=0x4009
+2026-10-31 18:27:28.719 [ERROR] READ round=1 index=7 format=oem item=/Channel/State/actToolIdent[u1] elapsed_ms=0 result=FAILED
+2026-10-31 18:27:28.719 [ERROR] DMLERR=0x4009
+2026-10-31 18:27:30.222 [ERROR] READ round=1 index=8 format=oem item=/Channel/State/actParts[u1] elapsed_ms=0 result=FAILED
+2026-10-31 18:27:30.222 [ERROR] DMLERR=0x4009
+2026-10-31 18:27:31.724 [ERROR] READ round=1 index=9 format=oem item=/Channel/ProgramPointer/progName[u1,1] elapsed_ms=0 result=FAILED
+2026-10-31 18:27:31.724 [ERROR] DMLERR=0x4009
+2026-10-31 18:27:33.226 [ERROR] READ round=1 index=10 format=oem item=/Channel/ProgramInfo/selectedWorkPProg[u1,1] elapsed_ms=0 result=FAILED
+2026-10-31 18:27:33.226 [ERROR] DMLERR=0x4009
+2026-10-31 18:27:34.728 [ERROR] READ round=1 index=11 format=oem item=/Channel/State/NcResetCounter[u1,1] elapsed_ms=0 result=FAILED
+2026-10-31 18:27:34.728 [ERROR] DMLERR=0x4009
+2026-10-31 18:27:36.230 [ERROR] READ round=1 index=12 format=oem item=/Channel/State/stopCond[u1] elapsed_ms=0 result=FAILED
+2026-10-31 18:27:36.230 [ERROR] DMLERR=0x4009
+2026-10-31 18:27:37.732 [ERROR] READ round=1 index=13 format=oem item=/Channel/State/progStatus[u1] elapsed_ms=0 result=FAILED
+2026-10-31 18:27:37.732 [ERROR] DMLERR=0x4009
+2026-10-31 18:27:39.235 [ERROR] READ round=1 index=14 format=oem item=/Bag/State/opMode[u1] elapsed_ms=0 result=FAILED
+2026-10-31 18:27:39.235 [ERROR] DMLERR=0x4009
+2026-10-31 18:27:40.737 [ERROR] READ round=1 index=15 format=oem item=/Nck/State/numAlarms[u1] elapsed_ms=0 result=FAILED
+2026-10-31 18:27:40.737 [ERROR] DMLERR=0x4009
+2026-10-31 18:27:42.239 [ERROR] READ round=1 index=16 format=oem item=/Nck/Configuration/accessLevel elapsed_ms=0 result=FAILED
+2026-10-31 18:27:42.239 [ERROR] DMLERR=0x4009
+2026-10-31 18:27:43.741 [ERROR] READ round=1 index=17 format=oem item=/Nck/State/accIndex elapsed_ms=0 result=FAILED
+2026-10-31 18:27:43.741 [ERROR] DMLERR=0x4009
+2026-10-31 18:27:45.243 [ERROR] READ round=1 index=18 format=oem item=/Nck/State/SysTimeBCD elapsed_ms=0 result=FAILED
+2026-10-31 18:27:45.243 [ERROR] DMLERR=0x4009
+2026-10-31 18:27:46.745 [ERROR] READ round=1 index=19 format=oem item=/Nck/Configuration/numChannels elapsed_ms=0 result=FAILED
+2026-10-31 18:27:46.745 [ERROR] DMLERR=0x4009
+2026-10-31 18:27:48.248 [ERROR] READ round=1 index=20 format=oem item=/Nck/Configuration/numGlobMachAxes elapsed_ms=0 result=FAILED
+2026-10-31 18:27:48.248 [ERROR] DMLERR=0x4009
+2026-10-31 18:27:49.750 [INFO] SUMMARY success_response=0 failed_response=20 (success means bytes received; not independently verified)
+2026-10-31 18:27:49.750 [FAIL] === dde_series END exit_code=21 elapsed_ms=30054 ===

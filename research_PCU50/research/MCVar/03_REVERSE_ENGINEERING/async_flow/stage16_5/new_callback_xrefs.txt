@@ -1,0 +1,17 @@
+### 0x100330f4
+WARNING: config-hold: failed to get 'esil.nonull'
+sym.protected:_unsigned_short_int_____thiscall_CVar2::MakeCommandString_struct_tagSAFEARRAY 0x1000cb24 [DATA] mov dword [arg_8h], str.OnCommandCompleted
+sym.public:_class_CResult_____thiscall_CXVariant::Append_struct_tagVARIANT 0x100149bd [DATA] mov dword [arg_8h], str.OnCommandCompleted
+### 0x10033138
+WARNING: config-hold: failed to get 'esil.nonull'
+sym.protected:_unsigned_short_int_____thiscall_CVar2::MakeCommandString_struct_tagSAFEARRAY 0x1000cb12 [DATA] mov dword [arg_8h], str.OnWriteComplete
+fcn.100139c2 0x100139f9 [DATA] mov dword [var_58h], str.OnWriteComplete
+### 0x100332d8
+WARNING: config-hold: failed to get 'esil.nonull'
+fcn.1000cf0f 0x1000cf1e [DATA] push str.Com_Object_released_or_Async_Transaction_cancelled
+### 0x10033374
+WARNING: config-hold: failed to get 'esil.nonull'
+fcn.1000d0a6 0x1000d133 [DATA] push str.new_CTransactionID_0x_x_lst:0x_x_var2:0x_x
+### 0x100333bc
+WARNING: config-hold: failed to get 'esil.nonull'
+fcn.1000d2cf 0x1000d888 [DATA] push str.StartRead_0x_x_RID:0x_x_nam:_ls__ls__cache:_d_shdl:0x_x_chdl:0x_x

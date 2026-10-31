@@ -1,0 +1,38 @@
+{
+  "schema": "stage16_7.vtable-map.v1",
+  "status": "incomplete_pointer_provenance",
+  "scope": "Offline MCVar old/new only; exact COM slot target addresses intentionally null unless recovered from arrays and object-pointer provenance.",
+  "abi_source": "/root/PL/stages/stage16_5/abi/typelib_abi_records.json",
+  "pointer_width": 4,
+  "image_base": "0x10000000",
+  "binary_identity": {
+    "old": {
+      "path": "/root/PL/PCU_old/H/mmc2/MCVar.dll",
+      "sha256": "43a5c1991d98b6b6e155233a0114d7ff72bf4dec7edf58d0607da501e7d98712",
+      "format": "PE32 i386",
+      "sections": {".text": {"rva": "0x1000", "raw_size": "0x2b000"}, ".rdata": {"rva": "0x2c000", "raw_size": "0x4000"}, ".data": {"rva": "0x30000", "raw_size": "0x8000", "virtual_size": "0xa000"}}
+    },
+    "new": {
+      "path": "/root/PL/PCU_new/C/RECYCLER/S-1-5-21-4025392478-4199590385-3038547483-1005/Dc28/files/F/mmc2/MCVar.dll",
+      "sha256": "5e7d955ebe7cfd52424b04e91471b7408f42bf6cc427e3d94c50bc7f4428c24a",
+      "format": "PE32 i386",
+      "sections": {".text": {"rva": "0x1000", "raw_size": "0x2c000"}, ".rdata": {"rva": "0x2d000", "raw_size": "0x4000"}, ".data": {"rva": "0x31000", "raw_size": "0x8000", "virtual_size": "0xa000"}}
+    }
+  },
+  "interfaces": {
+    "IVar": {"iid_old": "c48394e0-ec79-11d0-99a9-00a0246d1792", "iid_new": "c48394e0-ec79-11d0-99a9-00a0246d1792", "base": "IDispatch", "table_rva": null},
+    "IVar2": {"iid_old": "23ebede0-bd9b-11d1-bd5a-0080c7f7898a", "iid_new": "23ebede0-bd9b-11d1-bd5a-0080c7f7898a", "base": "IDispatch", "table_rva": null}
+  },
+  "method_slot_convention": "IUnknown slots 0..2; IDispatch slots 3..6; IVar methods listed in typelib begin at slot 7.",
+  "targets": [
+    {"method": "ReadVarAsync", "method_ordinal": 2, "slot": 9, "old": {"slot_pointer": null, "entry_candidate_va": "0x1000d28a", "entry_kind": "candidate_body_not_slot_proven"}, "new": {"slot_pointer": null, "entry_candidate_va": "0x1000d39c", "entry_kind": "candidate_body_not_slot_proven"}, "interface_binding": null},
+    {"method": "ReadVarCyclic", "method_ordinal": 4, "slot": 11, "old": {"slot_pointer": null, "entry_candidate_va": null, "entry_kind": "unresolved"}, "new": {"slot_pointer": null, "entry_candidate_va": null, "entry_kind": "unresolved"}, "interface_binding": null},
+    {"method": "RemoveCyclicVariables", "method_ordinal": 5, "slot": 12, "old": {"slot_pointer": null, "entry_candidate_va": null, "entry_kind": "unresolved"}, "new": {"slot_pointer": null, "entry_candidate_va": null, "entry_kind": "unresolved"}, "interface_binding": null},
+    {"method": "CalculateRequestRates", "method_ordinal": 11, "slot": 18, "old": {"slot_pointer": null, "entry_candidate_va": null, "entry_kind": "unresolved"}, "new": {"slot_pointer": null, "entry_candidate_va": null, "entry_kind": "unresolved"}, "interface_binding": null}
+  ],
+  "static_scans": {
+    "old": {"initialized_rdata_code_pointer_runs": [], "data_code_pointer_runs": [{"va": "0x10033f58", "count": 10, "normalized_values": ["0x3d25", "0x3d2f", "0x3d2d", "0x3d2b", "0x3d2a", "0x7c7c", "0x2626"]}, {"va": "0x10033f98", "count": 10, "normalized_values": ["0x10020002", "0x10020002", "0x10020002", "0x10020002", "0x10020002", "0x10020002", "0x10020002", "0x10020002", "0x10020002", "0x10020002"]}], "interpretation": "No plausible contiguous IVar/IVar2 method pointer array recovered from raw initialized sections."},
+    "new": {"initialized_rdata_code_pointer_runs": [], "data_code_pointer_runs": [{"va": "0x10034fa8", "count": 10, "normalized_values": ["0x3d25", "0x3d2f", "0x3d2d", "0x3d2b", "0x3d2a", "0x7c7c", "0x2626"]}, {"va": "0x10034fe8", "count": 10, "normalized_values": ["0x10020002", "0x10020002", "0x10020002", "0x10020002", "0x10020002", "0x10020002", "0x10020002", "0x10020002", "0x10020002", "0x10020002"]}], "interpretation": "No plausible contiguous IVar/IVar2 method pointer array recovered from raw initialized sections."}
+  },
+  "evidence_refs": ["COM_VTABLE_ENTRYPOINTS.md", "FUNCTION_BOUNDARIES.json"]
+}

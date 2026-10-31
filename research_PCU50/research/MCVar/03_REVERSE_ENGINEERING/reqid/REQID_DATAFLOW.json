@@ -1,0 +1,44 @@
+{
+  "scope": "offline static dataflow, exact old/new 32-bit MCVar.dll; no Windows/DDE/runtime execution",
+  "inputs": {
+    "old": {"path": "/root/PL/PCU_old/H/mmc2/MCVar.dll", "sha256": "43a5c1991d98b6b6e155233a0114d7ff72bf4dec7edf58d0607da501e7d98712", "image_base": "0x10000000"},
+    "new": {"path": "/root/PL/PCU_new/C/RECYCLER/S-1-5-21-4025392478-4199590385-3038547483-1005/Dc28/files/F/mmc2/MCVar.dll", "sha256": "5e7d955ebe7cfd52424b04e91471b7408f42bf6cc427e3d94c50bc7f4428c24a", "image_base": "0x10000000"}
+  },
+  "identities": {
+    "caller_output_pointer": {"transaction_field": "0x98", "provenance_old": "starter argument [ebp+0x34] loaded at 0x1000d819 and stored [ebx+0x98] at 0x1000d842", "provenance_new": "starter argument [ebp+0x34] loaded at 0x1000d92b and stored [ebx+0x98] at 0x1000d954", "meaning": "pointer to caller output storage; not numeric ReqID"},
+    "transaction_pointer": {"meaning": "starter return pointer stored separately in ReadVarAsync wrapper +0x04", "old": "starter 0x1000d7a4 return at 0x1000d894-0x1000d89a; wrapper store 0x1000d48d-0x1000d494", "new": "starter 0x1000d8b6 return; wrapper store 0x1000d59f-0x1000d5a6"},
+    "numeric_transaction_id": {"field": "transaction +0x20", "meaning": "starter tests value for zero and passes scalar to RID format; producer/key semantics not recovered", "old": "0x1000d858-0x1000d88c", "new": "matched starter relocated +0x112"},
+    "cyclic_id": {"meaning": "separate CCyclicID object/list family; do not merge with CTransactionID or async transaction", "old_constructor": "0x100113ba", "cyclic_start": "0x100115f3", "cyclic_delete": "0x1001155c"}
+  },
+  "lifecycle_symbols": {
+    "old": {"CRequestID_constructor": "0x1000e044", "CRequestID_destructor": "0x1000e162", "CTransactionID_constructor": "0x1000df94", "CTransactionID_WaitComplete": "0x1000be8d", "CTransactionID_Free": "0x1000bf73", "CTransactionID_CloseUp": "0x10013b78", "CTransactionID_Delete": "0x1000e189", "CTransactionID_destructor": "0x1000e0ab", "CTransactionID_list_DeleteAll": "0x10009e2a", "CyclicID_constructor": "0x100113ba", "CCyclicID_list_DeleteAll": "0x10009e07"},
+    "new": {"CTransactionID_constructor": "0x1000e0a6", "CTransactionID_WaitComplete": "0x1000bf9f", "CTransactionID_Free": "0x1000c085", "CTransactionID_CloseUp": "0x10013c82", "CTransactionID_Delete": "0x1000e29b", "CTransactionID_destructor": "0x1000e1bd", "CTransactionID_list_DeleteAll": "0x10009f38"},
+    "qualification": "Presence/symbol labels do not establish invocation for this ReadVarAsync instance. Constructor takes CList<CTransactionID*>* and CVar2*; inspected evidence does not demonstrate the async instance's list insertion."
+  },
+  "edges": [
+    {"id": "REQ-1", "edge": "ReadVarAsync -> shared starter", "old": "0x1000d2d5 calls 0x1000d7a4", "new": "0x1000d3e7 calls 0x1000d8b6", "status": "direct_proven"},
+    {"id": "REQ-2", "edge": "caller output pointer -> transaction +0x98", "status": "direct_proven", "interpretation": "stored pointer, not scalar identifier"},
+    {"id": "REQ-3", "edge": "starter return transaction pointer -> wrapper +0x04", "status": "direct_proven", "interpretation": "separate pointer from pReqID"},
+    {"id": "REQ-4", "edge": "transaction +0x20 -> zero test -> RID format argument", "status": "direct_proven_dataflow_only", "interpretation": "numeric scalar association; origin and lookup key unproven"},
+    {"id": "REQ-5", "edge": "CTransactionID construction/list registration for this async request", "status": "machinery_present_instance_link_unproven"},
+    {"id": "REQ-6", "edge": "numeric ReqID lookup/comparison", "status": "not_proven"},
+    {"id": "REQ-7", "edge": "completion helper -> output pointer write", "old": "0x1000ff3e", "new": "0x10010050", "status": "write_proven_value_identity_to_this_request_unproven"},
+    {"id": "REQ-8", "edge": "cancel/error status 0x80004004 + diagnostic", "old": "0x1000cdfd-0x1000ce23", "new": "0x1000cf0f-0x1000cf35", "status": "path_proven_trigger_and_instance_link_unproven"},
+    {"id": "REQ-9", "edge": "WaitComplete/Free/CloseUp/Delete/destructor/list DeleteAll", "status": "lifecycle_facilities_present_terminal_request_binding_unproven"},
+    {"id": "REQ-10", "edge": "CCyclicID construction/start/delete/list teardown", "status": "separate_cyclic_family_proven_not_async_transaction_registration"}
+  ],
+  "non_conflations": [
+    "transaction +0x98 stores caller pReqID output pointer, not numeric ReqID",
+    "ReadVarAsync wrapper +0x04 stores transaction pointer, not pReqID",
+    "transaction +0x20 scalar test/RID logging does not establish scalar generator or lookup key",
+    "CRequestID symbol is not evidence that CTransactionID and CCyclicID share an identifier object",
+    "CCyclicID/ReqID routines and strings are separate from CTransactionID list lifecycle",
+    "a completion output-pointer store does not by itself prove the stored scalar's identity"
+  ],
+  "limitations": [
+    "No specific CTransactionID list insertion instruction connected to the ReadVarAsync instance was established",
+    "No comparison instruction establishing lookup by the numeric ReqID was established",
+    "No exact numeric ID producer was identified",
+    "Exact per-request cancellation, completion wait, and destruction chain remains open"
+  ]
+}

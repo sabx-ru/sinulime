@@ -1,0 +1,16 @@
+{
+  "status": "PASS_OFFLINE_ARCHIVE_INTEGRITY",
+  "files_with_provenance": 237,
+  "json_parsed": 42,
+  "typelib_resources": "old+new exact SHA",
+  "decoded_typeinfo_per_version": 28,
+  "direct_functions_per_version": 92,
+  "target_typeinfo_direct_functions_per_version": 32,
+  "saved_vtable_checks": "12 recorded PASS; original binaries not embedded",
+  "collector_unit_tests": "9/9 PASS (mock-only)",
+  "original_dll_sha256": {
+    "old": "NOT_SUPPLIED",
+    "new": "NOT_SUPPLIED"
+  },
+  "runtime_PCUs_tested_in_this_archive": false
+}

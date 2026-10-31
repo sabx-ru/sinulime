@@ -1,0 +1,5 @@
+/Nck/State/SysTimeBCD
+/Channel/Parameter/R[u1,1]
+/Channel/Parameter/R[u1,10]
+/Nck/State/SysTimeBCD
+/Channel/Parameter/R[u1,2]

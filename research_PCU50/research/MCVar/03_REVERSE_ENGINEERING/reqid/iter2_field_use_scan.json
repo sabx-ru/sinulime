@@ -1,0 +1,353 @@
+{
+  "scope": "All x86 instructions in executable PE sections decoded linearly; matches are candidate field-offset uses, not semantic ownership proofs.",
+  "images": {
+    "old": {
+      "path": "/root/PL/PCU_old/H/mmc2/MCVar.dll",
+      "sha256": "43a5c1991d98b6b6e155233a0114d7ff72bf4dec7edf58d0607da501e7d98712",
+      "matches": [
+        {
+          "va": "0x10001913",
+          "rva": "0x1913",
+          "field_disp": "0x20",
+          "mnemonic": "mov",
+          "op_str": "dword ptr [esi + 0x20], eax",
+          "bytes": "894620"
+        },
+        {
+          "va": "0x1000193e",
+          "rva": "0x193e",
+          "field_disp": "0x20",
+          "mnemonic": "push",
+          "op_str": "dword ptr [esi + 0x20]",
+          "bytes": "ff7620"
+        },
+        {
+          "va": "0x10001946",
+          "rva": "0x1946",
+          "field_disp": "0x20",
+          "mnemonic": "mov",
+          "op_str": "eax, dword ptr [esi + 0x20]",
+          "bytes": "8b4620"
+        },
+        {
+          "va": "0x10001956",
+          "rva": "0x1956",
+          "field_disp": "0x20",
+          "mnemonic": "mov",
+          "op_str": "eax, dword ptr [esi + 0x20]",
+          "bytes": "8b4620"
+        },
+        {
+          "va": "0x10001966",
+          "rva": "0x1966",
+          "field_disp": "0x20",
+          "mnemonic": "mov",
+          "op_str": "ecx, dword ptr [esi + 0x20]",
+          "bytes": "8b4e20"
+        },
+        {
+          "va": "0x100019cb",
+          "rva": "0x19cb",
+          "field_disp": "0x20",
+          "mnemonic": "push",
+          "op_str": "dword ptr [esi + 0x20]",
+          "bytes": "ff7620"
+        },
+        {
+          "va": "0x10002d08",
+          "rva": "0x2d08",
+          "field_disp": "0x20",
+          "mnemonic": "mov",
+          "op_str": "dword ptr [esi + 0x20], eax",
+          "bytes": "894620"
+        },
+        {
+          "va": "0x10002d27",
+          "rva": "0x2d27",
+          "field_disp": "0x20",
+          "mnemonic": "push",
+          "op_str": "dword ptr [edi + 0x20]",
+          "bytes": "ff7720"
+        },
+        {
+          "va": "0x10002d3c",
+          "rva": "0x2d3c",
+          "field_disp": "0x20",
+          "mnemonic": "cmp",
+          "op_str": "dword ptr [edi + 0x20], eax",
+          "bytes": "394720"
+        },
+        {
+          "va": "0x10002d4a",
+          "rva": "0x2d4a",
+          "field_disp": "0x20",
+          "mnemonic": "mov",
+          "op_str": "dword ptr [edi + 0x20], eax",
+          "bytes": "894720"
+        },
+        {
+          "va": "0x10002e42",
+          "rva": "0x2e42",
+          "field_disp": "0x20",
+          "mnemonic": "and",
+          "op_str": "dword ptr [edi + 0x20], 0",
+          "bytes": "83672000"
+        }
+      ]
+    },
+    "new": {
+      "path": "/root/PL/PCU_new/C/RECYCLER/S-1-5-21-4025392478-4199590385-3038547483-1005/Dc28/files/F/mmc2/MCVar.dll",
+      "sha256": "5e7d955ebe7cfd52424b04e91471b7408f42bf6cc427e3d94c50bc7f4428c24a",
+      "matches": [
+        {
+          "va": "0x10001913",
+          "rva": "0x1913",
+          "field_disp": "0x20",
+          "mnemonic": "mov",
+          "op_str": "dword ptr [esi + 0x20], eax",
+          "bytes": "894620"
+        },
+        {
+          "va": "0x1000193e",
+          "rva": "0x193e",
+          "field_disp": "0x20",
+          "mnemonic": "push",
+          "op_str": "dword ptr [esi + 0x20]",
+          "bytes": "ff7620"
+        },
+        {
+          "va": "0x10001946",
+          "rva": "0x1946",
+          "field_disp": "0x20",
+          "mnemonic": "mov",
+          "op_str": "eax, dword ptr [esi + 0x20]",
+          "bytes": "8b4620"
+        },
+        {
+          "va": "0x10001956",
+          "rva": "0x1956",
+          "field_disp": "0x20",
+          "mnemonic": "mov",
+          "op_str": "eax, dword ptr [esi + 0x20]",
+          "bytes": "8b4620"
+        },
+        {
+          "va": "0x10001966",
+          "rva": "0x1966",
+          "field_disp": "0x20",
+          "mnemonic": "mov",
+          "op_str": "ecx, dword ptr [esi + 0x20]",
+          "bytes": "8b4e20"
+        },
+        {
+          "va": "0x100019cb",
+          "rva": "0x19cb",
+          "field_disp": "0x20",
+          "mnemonic": "push",
+          "op_str": "dword ptr [esi + 0x20]",
+          "bytes": "ff7620"
+        },
+        {
+          "va": "0x10002d47",
+          "rva": "0x2d47",
+          "field_disp": "0x20",
+          "mnemonic": "mov",
+          "op_str": "dword ptr [esi + 0x20], eax",
+          "bytes": "894620"
+        },
+        {
+          "va": "0x10002d66",
+          "rva": "0x2d66",
+          "field_disp": "0x20",
+          "mnemonic": "push",
+          "op_str": "dword ptr [edi + 0x20]",
+          "bytes": "ff7720"
+        },
+        {
+          "va": "0x10002d7b",
+          "rva": "0x2d7b",
+          "field_disp": "0x20",
+          "mnemonic": "cmp",
+          "op_str": "dword ptr [edi + 0x20], eax",
+          "bytes": "394720"
+        },
+        {
+          "va": "0x10002d89",
+          "rva": "0x2d89",
+          "field_disp": "0x20",
+          "mnemonic": "mov",
+          "op_str": "dword ptr [edi + 0x20], eax",
+          "bytes": "894720"
+        },
+        {
+          "va": "0x10002e81",
+          "rva": "0x2e81",
+          "field_disp": "0x20",
+          "mnemonic": "and",
+          "op_str": "dword ptr [edi + 0x20], 0",
+          "bytes": "83672000"
+        },
+        {
+          "va": "0x10006dde",
+          "rva": "0x6dde",
+          "field_disp": "0x20",
+          "mnemonic": "mov",
+          "op_str": "ecx, dword ptr [esi + 0x20]",
+          "bytes": "8b4e20"
+        },
+        {
+          "va": "0x100073c8",
+          "rva": "0x73c8",
+          "field_disp": "0x20",
+          "mnemonic": "mov",
+          "op_str": "ecx, dword ptr [esi + 0x20]",
+          "bytes": "8b4e20"
+        },
+        {
+          "va": "0x10007a5f",
+          "rva": "0x7a5f",
+          "field_disp": "0x20",
+          "mnemonic": "lea",
+          "op_str": "eax, [esi + 0x20]",
+          "bytes": "8d4620"
+        },
+        {
+          "va": "0x1000840d",
+          "rva": "0x840d",
+          "field_disp": "0x20",
+          "mnemonic": "mov",
+          "op_str": "eax, dword ptr [ebp + 0x20]",
+          "bytes": "8b4520"
+        },
+        {
+          "va": "0x10008854",
+          "rva": "0x8854",
+          "field_disp": "0x20",
+          "mnemonic": "mov",
+          "op_str": "dword ptr [esi + 0x20], eax",
+          "bytes": "894620"
+        },
+        {
+          "va": "0x100088c0",
+          "rva": "0x88c0",
+          "field_disp": "0x20",
+          "mnemonic": "call",
+          "op_str": "dword ptr [eax + 0x20]",
+          "bytes": "ff5020"
+        },
+        {
+          "va": "0x10008cd3",
+          "rva": "0x8cd3",
+          "field_disp": "0x20",
+          "mnemonic": "cmp",
+          "op_str": "dword ptr [edi + 0x20], 1",
+          "bytes": "837f2001"
+        },
+        {
+          "va": "0x100094c7",
+          "rva": "0x94c7",
+          "field_disp": "0x20",
+          "mnemonic": "push",
+          "op_str": "dword ptr [ebp + 0x20]",
+          "bytes": "ff7520"
+        },
+        {
+          "va": "0x1000955c",
+          "rva": "0x955c",
+          "field_disp": "0x20",
+          "mnemonic": "push",
+          "op_str": "dword ptr [ebp + 0x20]",
+          "bytes": "ff7520"
+        },
+        {
+          "va": "0x100095f1",
+          "rva": "0x95f1",
+          "field_disp": "0x20",
+          "mnemonic": "push",
+          "op_str": "dword ptr [ebp + 0x20]",
+          "bytes": "ff7520"
+        },
+        {
+          "va": "0x10009686",
+          "rva": "0x9686",
+          "field_disp": "0x20",
+          "mnemonic": "push",
+          "op_str": "dword ptr [ebp + 0x20]",
+          "bytes": "ff7520"
+        },
+        {
+          "va": "0x1000971b",
+          "rva": "0x971b",
+          "field_disp": "0x20",
+          "mnemonic": "push",
+          "op_str": "dword ptr [ebp + 0x20]",
+          "bytes": "ff7520"
+        },
+        {
+          "va": "0x10009bc8",
+          "rva": "0x9bc8",
+          "field_disp": "0x20",
+          "mnemonic": "push",
+          "op_str": "dword ptr [ebp + 0x20]",
+          "bytes": "ff7520"
+        },
+        {
+          "va": "0x1000aaf3",
+          "rva": "0xaaf3",
+          "field_disp": "0x20",
+          "mnemonic": "mov",
+          "op_str": "eax, dword ptr [esi + 0x20]",
+          "bytes": "8b4620"
+        },
+        {
+          "va": "0x1000ab73",
+          "rva": "0xab73",
+          "field_disp": "0x20",
+          "mnemonic": "mov",
+          "op_str": "esi, dword ptr [edi + 0x20]",
+          "bytes": "8b7720"
+        },
+        {
+          "va": "0x1000ab93",
+          "rva": "0xab93",
+          "field_disp": "0x20",
+          "mnemonic": "mov",
+          "op_str": "ecx, dword ptr [edi + 0x20]",
+          "bytes": "8b4f20"
+        },
+        {
+          "va": "0x1000abd1",
+          "rva": "0xabd1",
+          "field_disp": "0x20",
+          "mnemonic": "mov",
+          "op_str": "ecx, dword ptr [edi + 0x20]",
+          "bytes": "8b4f20"
+        },
+        {
+          "va": "0x1000abde",
+          "rva": "0xabde",
+          "field_disp": "0x20",
+          "mnemonic": "mov",
+          "op_str": "eax, dword ptr [edi + 0x20]",
+          "bytes": "8b4720"
+        },
+        {
+          "va": "0x1000abeb",
+          "rva": "0xabeb",
+          "field_disp": "0x20",
+          "mnemonic": "mov",
+          "op_str": "eax, dword ptr [edi + 0x20]",
+          "bytes": "8b4720"
+        },
+        {
+          "va": "0x1000ac16",
+          "rva": "0xac16",
+          "field_disp": "0x20",
+          "mnemonic": "mov",
+          "op_str": "ecx, dword ptr [ecx + 0x20]",
+          "bytes": "8b4920"
+        }
+      ]
+    }
+  }
+}

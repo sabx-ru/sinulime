@@ -1,0 +1,278 @@
+1000a25d:	56                   	push   esi
+1000a25e:	3b c3                	cmp    eax,ebx
+1000a260:	be 80 76 03 10       	mov    esi,0x10037680
+1000a265:	0f 84 a4 00 00 00    	je     1000a30f <?GetIDsOfNames@CComTypeInfoHolder@ATL@@QAEJABU_GUID@@PAPAGIKPAJ@Z+0x5b>
+1000a26b:	38 18                	cmp    BYTE PTR [eax],bl
+1000a26d:	0f 85 9c 00 00 00    	jne    1000a30f <?GetIDsOfNames@CComTypeInfoHolder@ATL@@QAEJABU_GUID@@PAPAGIKPAJ@Z+0x5b>
+1000a273:	68 4c 15 03 10       	push   0x1003154c
+1000a278:	ff 15 a4 c0 02 10    	call   DWORD PTR ds:0x1002c0a4
+1000a27e:	3b c3                	cmp    eax,ebx
+1000a280:	74 74                	je     1000a2f6 <?GetIDsOfNames@CComTypeInfoHolder@ATL@@QAEJABU_GUID@@PAPAGIKPAJ@Z+0x42>
+1000a282:	8d 8d 18 fc ff ff    	lea    ecx,[ebp-0x3e8]
+1000a288:	68 e8 03 00 00       	push   0x3e8
+1000a28d:	51                   	push   ecx
+1000a28e:	50                   	push   eax
+1000a28f:	ff                   	.byte 0xff
+--
+1000a292:	c0                   	.byte 0xc0
+1000a293:	02                   	.byte 0x2
+
+1000a294 <?GetIDsOfNames@?$IDispatchImpl@UIVar2@@$1?IID_IVar2@@3U_GUID@@B$1?LIBID_MELBOURNE_Lib@@3U3@B$00$0A@VCComTypeInfoHolder@ATL@@@ATL@@UAGJABU_GUID@@PAPAGIKPAJ@Z>:
+1000a294:	10 85 c0 74 5d 8d    	adc    BYTE PTR [ebp-0x72a28b40],al
+1000a29a:	85 18                	test   DWORD PTR [eax],ebx
+1000a29c:	fc                   	cld
+1000a29d:	ff                   	(bad)
+1000a29e:	ff 50 e8             	call   DWORD PTR [eax-0x18]
+--
+1000a2a2:	dc 00                	fadd   QWORD PTR [eax]
+1000a2a4:	00 59 8b             	add    BYTE PTR [ecx-0x75],bl
+1000a2a7:	c8 48 85 c9          	enter  0x8548,0xc9
+1000a2ab:	7e 0a                	jle    1000a2b7 <?GetIDsOfNames@CComTypeInfoHolder@ATL@@QAEJABU_GUID@@PAPAGIKPAJ@Z+0x3>
+1000a2ad:	80                   	.byte 0x80
+1000a2ae:	bc 05 18 fc ff       	mov    esp,0xfffc1805
+1000a2b3:	ff                   	.byte 0xff
+
+1000a2b4 <?GetIDsOfNames@CComTypeInfoHolder@ATL@@QAEJABU_GUID@@PAPAGIKPAJ@Z>:
+1000a2b4:	5c                   	pop    esp
+1000a2b5:	75 ef                	jne    1000a2a6 <?GetIDsOfNames@?$IDispatchImpl@UIVar2@@$1?IID_IVar2@@3U_GUID@@B$1?LIBID_MELBOURNE_Lib@@3U3@B$00$0A@VCComTypeInfoHolder@ATL@@@ATL@@UAGJABU_GUID@@PAPAGIKPAJ@Z+0x12>
+1000a2b7:	3b c3                	cmp    eax,ebx
+1000a2b9:	7e 3b                	jle    1000a2f6 <?GetIDsOfNames@CComTypeInfoHolder@ATL@@QAEJABU_GUID@@PAPAGIKPAJ@Z+0x42>
+1000a2bb:	88 9c 05 19 fc ff ff 	mov    BYTE PTR [ebp+eax*1-0x3e7],bl
+1000a2c2:	8d 85 18 fc ff ff    	lea    eax,[ebp-0x3e8]
+1000a2c8:	50                   	push   eax
+1000a2c9:	8b ce                	mov    ecx,esi
+1000a2cb:	e8 5d cb ff ff       	call   10006e2d <?Set@CXVariant@@QAEPAVCResult@@AAUNCDDE_BINARY_HEADER@@UTagConvSpec@@PAE@Z+0x364>
+--
+1000a2de:	e8 37 e9 00 00       	call   10018c1a <TrailUp2+0xe>
+1000a2e3:	83 c4 0c             	add    esp,0xc
+1000a2e6:	85 c0                	test   eax,eax
+1000a2e8:	75 0c                	jne    1000a2f6 <?GetIDsOfNames@CComTypeInfoHolder@ATL@@QAEJABU_GUID@@PAPAGIKPAJ@Z+0x42>
+1000a2ea:	68 0c 13 03 10       	push   0x1003130c
+1000a2ef:	8b ce                	mov    ecx,esi
+1000a2f1:	e8 37 cb ff ff       	call   10006e2d <?Set@CXVariant@@QAEPAVCResult@@AAUNCDDE_BINARY_HEADER@@UTagConvSpec@@PAE@Z+0x364>
+1000a2f6:	a1 80 76 03 10       	mov    eax,ds:0x10037680
+1000a2fb:	3b c3                	cmp    eax,ebx
+1000a2fd:	74 10                	je     1000a30f <?GetIDsOfNames@CComTypeInfoHolder@ATL@@QAEJABU_GUID@@PAPAGIKPAJ@Z+0x5b>
+1000a2ff:	38 18                	cmp    BYTE PTR [eax],bl
+1000a301:	75 0c                	jne    1000a30f <?GetIDsOfNames@CComTypeInfoHolder@ATL@@QAEJABU_GUID@@PAPAGIKPAJ@Z+0x5b>
+1000a303:	68 74 12 03 10       	push   0x10031274
+1000a308:	8b ce                	mov    ecx,esi
+1000a30a:	e8 1e cb ff ff       	call   10006e2d <?Set@CXVariant@@QAEPAVCResult@@AAUNCDDE_BINARY_HEADER@@UTagConvSpec@@PAE@Z+0x364>
+1000a30f:	56                   	push   esi
+1000a310:	8b 75 08             	mov    esi,DWORD PTR [ebp+0x8]
+1000a313:	8b ce                	mov    ecx,esi
+1000a315:	e8 24 00 00 00       	call   1000a33e <?GetIDsOfNames@CComTypeInfoHolder@ATL@@QAEJABU_GUID@@PAPAGIKPAJ@Z+0x8a>
+1000a31a:	39 5d 0c             	cmp    DWORD PTR [ebp+0xc],ebx
+1000a31d:	74 0a                	je     1000a329 <?GetIDsOfNames@CComTypeInfoHolder@ATL@@QAEJABU_GUID@@PAPAGIKPAJ@Z+0x75>
+1000a31f:	ff 75 0c             	push   DWORD PTR [ebp+0xc]
+1000a322:	8b ce                	mov    ecx,esi
+1000a324:	e8 27 ce ff ff       	call   10007150 <?Set@CXVariant@@QAEPAVCResult@@AAUNCDDE_BINARY_HEADER@@UTagConvSpec@@PAE@Z+0x687>
+1000a329:	39 5d 10             	cmp    DWORD PTR [ebp+0x10],ebx
+1000a32c:	74 0a                	je     1000a338 <?GetIDsOfNames@CComTypeInfoHolder@ATL@@QAEJABU_GUID@@PAPAGIKPAJ@Z+0x84>
+1000a32e:	ff 75 10             	push   DWORD PTR [ebp+0x10]
+1000a331:	8b ce                	mov    ecx,esi
+1000a333:	e8 18 ce ff ff       	call   10007150 <?Set@CXVariant@@QAEPAVCResult@@AAUNCDDE_BINARY_HEADER@@UTagConvSpec@@PAE@Z+0x687>
+1000a338:	8b 06                	mov    eax,DWORD PTR [esi]
+1000a33a:	5e                   	pop    esi
+--
+1000a33f:	8b f1                	mov    esi,ecx
+1000a341:	8b 06                	mov    eax,DWORD PTR [esi]
+1000a343:	85 c0                	test   eax,eax
+1000a345:	74 0c                	je     1000a353 <?GetIDsOfNames@CComTypeInfoHolder@ATL@@QAEJABU_GUID@@PAPAGIKPAJ@Z+0x9f>
+1000a347:	80 38 00             	cmp    BYTE PTR [eax],0x0
+1000a34a:	74 07                	je     1000a353 <?GetIDsOfNames@CComTypeInfoHolder@ATL@@QAEJABU_GUID@@PAPAGIKPAJ@Z+0x9f>
+1000a34c:	50                   	push   eax
+1000a34d:	e8 80 d6 00 00       	call   100179d2 <?ASLookupVarType@CVar2@@SAGAAVCComBSTR@ATL@@@Z+0x3d7>
+1000a352:	59                   	pop    ecx
+1000a353:	8b 44 24 08          	mov    eax,DWORD PTR [esp+0x8]
+1000a357:	c7 06 30 74 03 10    	mov    DWORD PTR [esi],0x10037430
+--
+1000a385:	8d                   	.byte 0x8d
+1000a386:	45                   	inc    ebp
+
+1000a387 <?Invoke@?$IDispatchImpl@UIVar2@@$1?IID_IVar2@@3U_GUID@@B$1?LIBID_MELBOURNE_Lib@@3U3@B$00$0A@VCComTypeInfoHolder@ATL@@@ATL@@UAGJJABU_GUID@@KGPAUtagDISPPARAMS@@PAUtagVARIANT@@PAUtagEXCEPINFO@@PAI@Z>:
+1000a387:	fc                   	cld
+1000a388:	ff 37                	push   DWORD PTR [edi]
+1000a38a:	50                   	push   eax
+1000a38b:	e8 bc fe ff ff       	call   1000a24c <?LoadNameCache@CComTypeInfoHolder@ATL@@QAEJPAUITypeInfo@@@Z+0xb1>
+1000a390:	83 c4 0c             	add    esp,0xc
+--
+1000a3a7:	75 26                	jne    1000a3cf <?GetTypeInfoCount@?$IDispatchImpl@UIVar@@$1?IID_IVar@@3U_GUID@@B$1?LIBID_MELBOURNE_Lib@@3U3@B$00$0A@VCComTypeInfoHolder@ATL@@@ATL@@UAGJPAI@Z+0x3>
+1000a3a9:	83 c7 04             	add    edi,0x4
+1000a3ac:	81 ff 74 12 03 10    	cmp    edi,0x10031274
+1000a3b2:	72 ce                	jb     1000a382 <?GetIDsOfNames@CComTypeInfoHolder@ATL@@QAEJABU_GUID@@PAPAGIKPAJ@Z+0xce>
+1000a3b4:	8b 45 fc             	mov    eax,DWORD PTR [ebp-0x4]
+1000a3b7:	85 c0                	test   eax,eax
+1000a3b9:	74 0c                	je     1000a3c7 <?Invoke@?$IDispatchImpl@UIVar2@@$1?IID_IVar2@@3U_GUID@@B$1?LIBID_MELBOURNE_Lib@@3U3@B$00$0A@VCComTypeInfoHolder@ATL@@@ATL@@UAGJJABU_GUID@@KGPAUtagDISPPARAMS@@PAUtagVARIANT@@PAUtagEXCEPINFO@@PAI@Z+0x40>
+1000a3bb:	80 38 00             	cmp    BYTE PTR [eax],0x0
+1000a3be:	74 07                	je     1000a3c7 <?Invoke@?$IDispatchImpl@UIVar2@@$1?IID_IVar2@@3U_GUID@@B$1?LIBID_MELBOURNE_Lib@@3U3@B$00$0A@VCComTypeInfoHolder@ATL@@@ATL@@UAGJJABU_GUID@@KGPAUtagDISPPARAMS@@PAUtagVARIANT@@PAUtagEXCEPINFO@@PAI@Z+0x40>
+1000a3c0:	50                   	push   eax
+1000a3c1:	e8 0c d6 00 00       	call   100179d2 <?ASLookupVarType@CVar2@@SAGAAVCComBSTR@ATL@@@Z+0x3d7>
+1000a3c6:	59                   	pop    ecx
+1000a3c7:	8b 45 10             	mov    eax,DWORD PTR [ebp+0x10]
+1000a3ca:	5f                   	pop    edi
+--
+1000a3dc:	e8 f1 d5 00 00       	call   100179d2 <?ASLookupVarType@CVar2@@SAGAAVCComBSTR@ATL@@@Z+0x3d7>
+1000a3e1:	59                   	pop    ecx
+1000a3e2:	8b c3                	mov    eax,ebx
+1000a3e4:	eb e4                	jmp    1000a3ca <?Invoke@?$IDispatchImpl@UIVar2@@$1?IID_IVar2@@3U_GUID@@B$1?LIBID_MELBOURNE_Lib@@3U3@B$00$0A@VCComTypeInfoHolder@ATL@@@ATL@@UAGJJABU_GUID@@KGPAUtagDISPPARAMS@@PAUtagVARIANT@@PAUtagEXCEPINFO@@PAI@Z+0x43>
+1000a3e6:	55                   	push   ebp
+1000a3e7:	8b ec                	mov    ebp,esp
+1000a3e9:	51                   	push   ecx
+1000a3ea:	53                   	push   ebx
+1000a3eb:	56                   	push   esi
+--
+1000a3fa:	58                   	pop    eax
+1000a3fb:	15                   	.byte 0x15
+
+1000a3fc <?GetIDsOfNames@?$IDispatchImpl@UIVar@@$1?IID_IVar@@3U_GUID@@B$1?LIBID_MELBOURNE_Lib@@3U3@B$00$0A@VCComTypeInfoHolder@ATL@@@ATL@@UAGJABU_GUID@@PAPAGIKPAJ@Z>:
+1000a3fc:	03 10                	add    edx,DWORD PTR [eax]
+1000a3fe:	ff 75 1c             	push   DWORD PTR [ebp+0x1c]
+1000a401:	8d 45 fc             	lea    eax,[ebp-0x4]
+1000a404:	ff 37                	push   DWORD PTR [edi]
+1000a406:	50                   	push   eax
+--
+1000a418:	56                   	push   esi
+1000a419:	ff 75 0c             	push   DWORD PTR [ebp+0xc]
+
+1000a41c <?Invoke@?$IDispatchImpl@UIVar@@$1?IID_IVar@@3U_GUID@@B$1?LIBID_MELBOURNE_Lib@@3U3@B$00$0A@VCComTypeInfoHolder@ATL@@@ATL@@UAGJJABU_GUID@@KGPAUtagDISPPARAMS@@PAUtagVARIANT@@PAUtagEXCEPINFO@@PAI@Z>:
+1000a41c:	ff 75 08             	push   DWORD PTR [ebp+0x8]
+1000a41f:	ff 15 2c c0 02 10    	call   DWORD PTR ds:0x1002c02c
+1000a425:	8b d8                	mov    ebx,eax
+1000a427:	83 fb 04             	cmp    ebx,0x4
+1000a42a:	75 4b                	jne    1000a477 <?GetTypeInfo@?$IDispatchImpl@UIMCCommand@@$1?IID_IMCCommand@@3U_GUID@@B$1?LIBID_IMCCOMMANDLib@@3U3@B$00$0A@VCComTypeInfoHolder@ATL@@@ATL@@UAGJIKPAPAUITypeInfo@@@Z+0x7>
+--
+1000a439:	75 3c                	jne    1000a477 <?GetTypeInfo@?$IDispatchImpl@UIMCCommand@@$1?IID_IMCCommand@@3U_GUID@@B$1?LIBID_IMCCOMMANDLib@@3U3@B$00$0A@VCComTypeInfoHolder@ATL@@@ATL@@UAGJIKPAPAUITypeInfo@@@Z+0x7>
+1000a43b:	03 fb                	add    edi,ebx
+1000a43d:	81 ff 74 12 03 10    	cmp    edi,0x10031274
+1000a443:	72 b9                	jb     1000a3fe <?GetIDsOfNames@?$IDispatchImpl@UIVar@@$1?IID_IVar@@3U_GUID@@B$1?LIBID_MELBOURNE_Lib@@3U3@B$00$0A@VCComTypeInfoHolder@ATL@@@ATL@@UAGJABU_GUID@@PAPAGIKPAJ@Z+0x2>
+1000a445:	ff 75 10             	push   DWORD PTR [ebp+0x10]
+1000a448:	ff 75 14             	push   DWORD PTR [ebp+0x14]
+1000a44b:	e8 70 de 00 00       	call   100182c0 <??_E?$CDestructor@PAVCTransaction@@@@UAEPAXI@Z+0x16>
+1000a450:	ff 75 10             	push   DWORD PTR [ebp+0x10]
+1000a453:	e8 a8 da 00 00       	call   10017f00 <?Ok@?$CSafeArrayAccess@G@@QAEHXZ+0x22>
+--
+1000a48e:	55                   	push   ebp
+1000a48f:	8b ec                	mov    ebp,esp
+
+1000a491 <?GetIDsOfNames@?$IDispatchImpl@UIMCCommand@@$1?IID_IMCCommand@@3U_GUID@@B$1?LIBID_IMCCOMMANDLib@@3U3@B$00$0A@VCComTypeInfoHolder@ATL@@@ATL@@UAGJABU_GUID@@PAPAGIKPAJ@Z>:
+1000a491:	83 ec 60             	sub    esp,0x60
+1000a494:	53                   	push   ebx
+1000a495:	56                   	push   esi
+1000a496:	57                   	push   edi
+1000a497:	33 db                	xor    ebx,ebx
+--
+1000a4af:	ed                   	in     eax,dx
+1000a4b0:	d9                   	.byte 0xd9
+
+1000a4b1 <?Invoke@?$IDispatchImpl@UIMCCommand@@$1?IID_IMCCommand@@3U_GUID@@B$1?LIBID_IMCCOMMANDLib@@3U3@B$00$0A@VCComTypeInfoHolder@ATL@@@ATL@@UAGJJABU_GUID@@KGPAUtagDISPPARAMS@@PAUtagVARIANT@@PAUtagEXCEPINFO@@PAI@Z>:
+1000a4b1:	00 00                	add    BYTE PTR [eax],al
+1000a4b3:	83 c4 18             	add    esp,0x18
+1000a4b6:	8d 4d fc             	lea    ecx,[ebp-0x4]
+1000a4b9:	89 75 a0             	mov    DWORD PTR [ebp-0x60],esi
+1000a4bc:	c7 45 cc 80 00 00 00 	mov    DWORD PTR [ebp-0x34],0x80
+--
+1000a4c6:	e8 aa 78 ff ff       	call   10001d75 <??_Estringdispid@CComTypeInfoHolder@ATL@@QAEPAXI@Z-0x28b>
+1000a4cb:	68 70 15 03 10       	push   0x10031570
+1000a4d0:	8d 4d fc             	lea    ecx,[ebp-0x4]
+1000a4d3:	e8 20 01 00 00       	call   1000a5f8 <?Invoke@?$IDispatchImpl@UIParseDisplayName@@$1?IID_IParseDisplayName@@3U_GUID@@B$1?LIBID_MCVARLib@@3U3@B$00$0A@VCComTypeInfoHolder@ATL@@@ATL@@UAGJJABU_GUID@@KGPAUtagDISPPARAMS@@PAUtagVARIANT@@PAUtagEXCEPINFO@@PAI@Z+0x1d>
+1000a4d8:	be 68 15 03 10       	mov    esi,0x10031568
+1000a4dd:	8d 4d fc             	lea    ecx,[ebp-0x4]
+1000a4e0:	56                   	push   esi
+1000a4e1:	e8 5d 01 00 00       	call   1000a643 <??1?$CComObject@VCVar2@@@ATL@@QAE@XZ+0x23>
+1000a4e6:	85 c0                	test   eax,eax
+--
+1000a524:	50                   	push   eax
+1000a525:	e8                   	.byte 0xe8
+
+1000a526 <?GetIDsOfNames@?$IDispatchImpl@UITrace@@$1?IID_ITrace@@3U_GUID@@B$1?LIBID_ITRACELib@@3U3@B$00$0A@VCComTypeInfoHolder@ATL@@@ATL@@UAGJABU_GUID@@PAPAGIKPAJ@Z>:
+1000a526:	22 fd                	and    bh,ch
+1000a528:	ff                   	(bad)
+1000a529:	ff 83 c4 0c 8d 45    	inc    DWORD PTR [ebx+0x458d0cc4]
+1000a52f:	e4 50                	in     al,0x50
+1000a531:	8d 45 a0             	lea    eax,[ebp-0x60]
+--
+1000a543:	a8 c0                	test   al,0xc0
+1000a545:	02                   	.byte 0x2
+
+1000a546 <?Invoke@?$IDispatchImpl@UITrace@@$1?IID_ITrace@@3U_GUID@@B$1?LIBID_ITRACELib@@3U3@B$00$0A@VCComTypeInfoHolder@ATL@@@ATL@@UAGJJABU_GUID@@KGPAUtagDISPPARAMS@@PAUtagVARIANT@@PAUtagEXCEPINFO@@PAI@Z>:
+1000a546:	10 85 c0 75 4e 83    	adc    BYTE PTR [ebp-0x7cb18a40],al
+1000a54c:	c7 04 81 ff 74 12 03 	mov    DWORD PTR [ecx+eax*4],0x31274ff
+1000a553:	10 7c c6 8b          	adc    BYTE PTR [esi+eax*8-0x75],bh
+1000a557:	45                   	inc    ebp
+1000a558:	f4                   	hlt
+1000a559:	3b c3                	cmp    eax,ebx
+1000a55b:	74 0b                	je     1000a568 <?Invoke@?$IDispatchImpl@UITrace@@$1?IID_ITrace@@3U_GUID@@B$1?LIBID_ITRACELib@@3U3@B$00$0A@VCComTypeInfoHolder@ATL@@@ATL@@UAGJJABU_GUID@@KGPAUtagDISPPARAMS@@PAUtagVARIANT@@PAUtagEXCEPINFO@@PAI@Z+0x22>
+1000a55d:	38 18                	cmp    BYTE PTR [eax],bl
+1000a55f:	74 07                	je     1000a568 <?Invoke@?$IDispatchImpl@UITrace@@$1?IID_ITrace@@3U_GUID@@B$1?LIBID_ITRACELib@@3U3@B$00$0A@VCComTypeInfoHolder@ATL@@@ATL@@UAGJJABU_GUID@@KGPAUtagDISPPARAMS@@PAUtagVARIANT@@PAUtagEXCEPINFO@@PAI@Z+0x22>
+1000a561:	50                   	push   eax
+1000a562:	e8 6b d4 00 00       	call   100179d2 <?ASLookupVarType@CVar2@@SAGAAVCComBSTR@ATL@@@Z+0x3d7>
+1000a567:	59                   	pop    ecx
+1000a568:	8b 45 f8             	mov    eax,DWORD PTR [ebp-0x8]
+1000a56b:	89 75 f4             	mov    DWORD PTR [ebp-0xc],esi
+1000a56e:	3b c3                	cmp    eax,ebx
+1000a570:	74 0b                	je     1000a57d <?Invoke@?$IDispatchImpl@UITrace@@$1?IID_ITrace@@3U_GUID@@B$1?LIBID_ITRACELib@@3U3@B$00$0A@VCComTypeInfoHolder@ATL@@@ATL@@UAGJJABU_GUID@@KGPAUtagDISPPARAMS@@PAUtagVARIANT@@PAUtagEXCEPINFO@@PAI@Z+0x37>
+1000a572:	38 18                	cmp    BYTE PTR [eax],bl
+1000a574:	74 07                	je     1000a57d <?Invoke@?$IDispatchImpl@UITrace@@$1?IID_ITrace@@3U_GUID@@B$1?LIBID_ITRACELib@@3U3@B$00$0A@VCComTypeInfoHolder@ATL@@@ATL@@UAGJJABU_GUID@@KGPAUtagDISPPARAMS@@PAUtagVARIANT@@PAUtagEXCEPINFO@@PAI@Z+0x37>
+1000a576:	50                   	push   eax
+1000a577:	e8 56 d4 00 00       	call   100179d2 <?ASLookupVarType@CVar2@@SAGAAVCComBSTR@ATL@@@Z+0x3d7>
+1000a57c:	59                   	pop    ecx
+1000a57d:	8b 45 fc             	mov    eax,DWORD PTR [ebp-0x4]
+1000a580:	89 75 f8             	mov    DWORD PTR [ebp-0x8],esi
+--
+1000a59a <?GetTypeInfo@?$IDispatchImpl@UIParseDisplayName@@$1?IID_IParseDisplayName@@3U_GUID@@B$1?LIBID_MCVARLib@@3U3@B$00$0A@VCComTypeInfoHolder@ATL@@@ATL@@UAGJIKPAPAUITypeInfo@@@Z>:
+1000a59a:	20 4e 00             	and    BYTE PTR [esi+0x0],cl
+1000a59d:	00 ff                	add    bh,bh
+1000a59f:	75 e4                	jne    1000a585 <?Invoke@?$IDispatchImpl@UITrace@@$1?IID_ITrace@@3U_GUID@@B$1?LIBID_ITRACELib@@3U3@B$00$0A@VCComTypeInfoHolder@ATL@@@ATL@@UAGJJABU_GUID@@KGPAUtagDISPPARAMS@@PAUtagVARIANT@@PAUtagEXCEPINFO@@PAI@Z+0x3f>
+1000a5a1:	ff 15 10 c2 02 10    	call   DWORD PTR ds:0x1002c210
+1000a5a7:	ff 75 e8             	push   DWORD PTR [ebp-0x18]
+1000a5aa:	8b 3d 34 c0 02 10    	mov    edi,DWORD PTR ds:0x1002c034
+1000a5b0:	ff d7                	call   edi
+1000a5b2:	ff 75 e4             	push   DWORD PTR [ebp-0x1c]
+--
+1000a5b7:	8b 45 f4             	mov    eax,DWORD PTR [ebp-0xc]
+1000a5ba:	3b                   	.byte 0x3b
+
+1000a5bb <?GetIDsOfNames@?$IDispatchImpl@UIParseDisplayName@@$1?IID_IParseDisplayName@@3U_GUID@@B$1?LIBID_MCVARLib@@3U3@B$00$0A@VCComTypeInfoHolder@ATL@@@ATL@@UAGJABU_GUID@@PAPAGIKPAJ@Z>:
+1000a5bb:	c3                   	ret
+1000a5bc:	74 0b                	je     1000a5c9 <?GetIDsOfNames@?$IDispatchImpl@UIParseDisplayName@@$1?IID_IParseDisplayName@@3U_GUID@@B$1?LIBID_MCVARLib@@3U3@B$00$0A@VCComTypeInfoHolder@ATL@@@ATL@@UAGJABU_GUID@@PAPAGIKPAJ@Z+0xe>
+1000a5be:	38 18                	cmp    BYTE PTR [eax],bl
+1000a5c0:	74 07                	je     1000a5c9 <?GetIDsOfNames@?$IDispatchImpl@UIParseDisplayName@@$1?IID_IParseDisplayName@@3U_GUID@@B$1?LIBID_MCVARLib@@3U3@B$00$0A@VCComTypeInfoHolder@ATL@@@ATL@@UAGJABU_GUID@@PAPAGIKPAJ@Z+0xe>
+1000a5c2:	50                   	push   eax
+1000a5c3:	e8 0a d4 00 00       	call   100179d2 <?ASLookupVarType@CVar2@@SAGAAVCComBSTR@ATL@@@Z+0x3d7>
+1000a5c8:	59                   	pop    ecx
+1000a5c9:	8b 45 f8             	mov    eax,DWORD PTR [ebp-0x8]
+1000a5cc:	89 75 f4             	mov    DWORD PTR [ebp-0xc],esi
+1000a5cf:	3b c3                	cmp    eax,ebx
+1000a5d1:	74 0b                	je     1000a5de <?Invoke@?$IDispatchImpl@UIParseDisplayName@@$1?IID_IParseDisplayName@@3U_GUID@@B$1?LIBID_MCVARLib@@3U3@B$00$0A@VCComTypeInfoHolder@ATL@@@ATL@@UAGJJABU_GUID@@KGPAUtagDISPPARAMS@@PAUtagVARIANT@@PAUtagEXCEPINFO@@PAI@Z+0x3>
+1000a5d3:	38 18                	cmp    BYTE PTR [eax],bl
+1000a5d5:	74 07                	je     1000a5de <?Invoke@?$IDispatchImpl@UIParseDisplayName@@$1?IID_IParseDisplayName@@3U_GUID@@B$1?LIBID_MCVARLib@@3U3@B$00$0A@VCComTypeInfoHolder@ATL@@@ATL@@UAGJJABU_GUID@@KGPAUtagDISPPARAMS@@PAUtagVARIANT@@PAUtagEXCEPINFO@@PAI@Z+0x3>
+1000a5d7:	50                   	push   eax
+1000a5d8:	e8                   	.byte 0xe8
+1000a5d9:	f5                   	cmc
+1000a5da:	d3                   	.byte 0xd3
+
+1000a5db <?Invoke@?$IDispatchImpl@UIParseDisplayName@@$1?IID_IParseDisplayName@@3U_GUID@@B$1?LIBID_MCVARLib@@3U3@B$00$0A@VCComTypeInfoHolder@ATL@@@ATL@@UAGJJABU_GUID@@KGPAUtagDISPPARAMS@@PAUtagVARIANT@@PAUtagEXCEPINFO@@PAI@Z>:
+1000a5db:	00 00                	add    BYTE PTR [eax],al
+1000a5dd:	59                   	pop    ecx
+1000a5de:	8b 45 fc             	mov    eax,DWORD PTR [ebp-0x4]
+1000a5e1:	89 75 f8             	mov    DWORD PTR [ebp-0x8],esi
+1000a5e4:	3b c3                	cmp    eax,ebx
+1000a5e6:	74 0b                	je     1000a5f3 <?Invoke@?$IDispatchImpl@UIParseDisplayName@@$1?IID_IParseDisplayName@@3U_GUID@@B$1?LIBID_MCVARLib@@3U3@B$00$0A@VCComTypeInfoHolder@ATL@@@ATL@@UAGJJABU_GUID@@KGPAUtagDISPPARAMS@@PAUtagVARIANT@@PAUtagEXCEPINFO@@PAI@Z+0x18>
+1000a5e8:	38 18                	cmp    BYTE PTR [eax],bl
+1000a5ea:	74 07                	je     1000a5f3 <?Invoke@?$IDispatchImpl@UIParseDisplayName@@$1?IID_IParseDisplayName@@3U_GUID@@B$1?LIBID_MCVARLib@@3U3@B$00$0A@VCComTypeInfoHolder@ATL@@@ATL@@UAGJJABU_GUID@@KGPAUtagDISPPARAMS@@PAUtagVARIANT@@PAUtagEXCEPINFO@@PAI@Z+0x18>
+1000a5ec:	50                   	push   eax
+1000a5ed:	e8 e0 d3 00 00       	call   100179d2 <?ASLookupVarType@CVar2@@SAGAAVCComBSTR@ATL@@@Z+0x3d7>
+1000a5f2:	59                   	pop    ecx
+1000a5f3:	6a 01                	push   0x1
+1000a5f5:	58                   	pop    eax
+--
+1000a61a:	59                   	pop    ecx
+1000a61b:	75 03                	jne    1000a620 <??1?$CComObject@VCVar2@@@ATL@@QAE@XZ>
+1000a61d:	47                   	inc    edi
+1000a61e:	eb e5                	jmp    1000a605 <?Invoke@?$IDispatchImpl@UIParseDisplayName@@$1?IID_IParseDisplayName@@3U_GUID@@B$1?LIBID_MCVARLib@@3U3@B$00$0A@VCComTypeInfoHolder@ATL@@@ATL@@UAGJJABU_GUID@@KGPAUtagDISPPARAMS@@PAUtagVARIANT@@PAUtagEXCEPINFO@@PAI@Z+0x2a>
+
+1000a620 <??1?$CComObject@VCVar2@@@ATL@@QAE@XZ>:
+1000a620:	80 20 00             	and    BYTE PTR [eax],0x0
+1000a623:	8b 06                	mov    eax,DWORD PTR [esi]
+1000a625:	80 38 00             	cmp    BYTE PTR [eax],0x0

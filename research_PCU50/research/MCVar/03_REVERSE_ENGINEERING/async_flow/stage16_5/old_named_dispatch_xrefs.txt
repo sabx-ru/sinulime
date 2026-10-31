@@ -1,0 +1,8 @@
+WARNING: config-hold: failed to get 'esil.nonull'
+sym.protected:_unsigned_short_int_____thiscall_CVar2::MakeCommandString_struct_tagSAFEARRAY 0x1000ca09 [DATA] mov dword [arg_8h], str.OnDataChanged
+fcn.1000fc68 0x1000feea [DATA] mov dword [arg_ch], str.OnDataChanged
+fcn.100138b8 0x100138e6 [DATA] mov dword [var_54h], str.OnDataChanged
+sym.protected:_unsigned_short_int_____thiscall_CVar2::MakeCommandString_struct_tagSAFEARRAY 0x1000ca12 [DATA] mov dword [arg_8h], str.OnCommandCompleted
+sym.public:_class_CResult_____thiscall_CXVariant::Append_struct_tagVARIANT 0x100148b3 [DATA] mov dword [arg_8h], str.OnCommandCompleted
+sym.protected:_unsigned_short_int_____thiscall_CVar2::MakeCommandString_struct_tagSAFEARRAY 0x1000ca00 [DATA] mov dword [arg_8h], str.OnWriteComplete
+fcn.100138b8 0x100138ef [DATA] mov dword [var_58h], str.OnWriteComplete

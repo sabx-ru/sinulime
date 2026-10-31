@@ -1,0 +1,5 @@
+/Nck/Configuration/numGlobMachAxes
+/Nck/Configuration/numChannels
+/Nck/State/SysTimeBCD
+/Nck/State/accIndex
+/Nck/Configuration/accessLevel

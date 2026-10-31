@@ -1,0 +1,23 @@
+WATCHDOG START timeout_ms=45000 command="bin\mcvar_multiread.exe" "--metadata"
+2026-10-31 13:29:07.058 [INFO] === mcvar_multiread v0.5 BEGIN ===
+2026-10-31 13:29:07.058 [INFO] EXE=C:\PCU_test\bin\mcvar_multiread.exe
+2026-10-31 13:29:07.058 [INFO] PID=3428 args=2 target=Windows XP x86; log=C:\PCU_test\bin\logs\mcvar_multiread_20261031_132907_058_pid3428.log
+2026-10-31 13:29:07.058 [INFO] CoInitializeEx STA HRESULT=0x00000000 (The operation completed successfully.  )
+2026-10-31 13:29:07.058 [INFO] CLSIDFromProgID HRESULT=0x00000000 (The operation completed successfully.  )
+2026-10-31 13:29:07.058 [INFO] CoCreateInstance HRESULT=0x00000000 (The operation completed successfully.  )
+2026-10-31 13:29:07.058 [INFO] GetIDsOfNames(ReadVar) HRESULT=0x00000000 (The operation completed successfully.  )
+2026-10-31 13:29:07.058 [INFO] DISPID=1, historical expected 1
+2026-10-31 13:29:07.058 [INFO] GetTypeInfo HRESULT=0x00000000 (The operation completed successfully.  )
+2026-10-31 13:29:07.058 [INFO] TypeInfo functions=19 typekind=4
+2026-10-31 13:29:07.058 [INFO] ReadVar FUNCDESC memid=1 invkind=1 params=8 optional=4
+2026-10-31 13:29:07.058 [INFO]   param[0] vt=0xC flags=0x0011
+2026-10-31 13:29:07.058 [INFO]   param[1] vt=0xC flags=0x0011
+2026-10-31 13:29:07.058 [INFO]   param[2] vt=0x2 flags=0x0001
+2026-10-31 13:29:07.058 [INFO]   param[3] vt=0x1A flags=0x0002
+2026-10-31 13:29:07.058 [INFO]   param[4] vt=0x1A flags=0x0012
+2026-10-31 13:29:07.058 [INFO]   param[5] vt=0x1A flags=0x0012
+2026-10-31 13:29:07.058 [INFO]   param[6] vt=0x1A flags=0x0012
+2026-10-31 13:29:07.058 [INFO]   param[7] vt=0x1A flags=0x0012
+2026-10-31 13:29:07.058 [PASS] Metadata only: ReadVar NEVER invoked
+2026-10-31 13:29:07.058 [PASS] === mcvar_multiread END exit_code=0 elapsed_ms=0 ===
+WATCHDOG END exit=0 child_raw_exit=0

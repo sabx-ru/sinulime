@@ -1,0 +1,44 @@
+
+/root/PL/PCU_new/C/RECYCLER/S-1-5-21-4025392478-4199590385-3038547483-1005/Dc28/files/F/mmc2/MCVar.dll:     file format pei-i386
+
+
+Disassembly of section .text:
+
+10011ab4 <??0CCyclic@@QAE@PAV?$CList@PAVCCyclic@@@@PAVCCyclicID@@AAVString@@PAGAAVCComBSTR@ATL@@UTagConvSpec@@JJJMJHJH@Z+0x8d>:
+10011ab4:	8b 4c 24 04          	mov    ecx,DWORD PTR [esp+0x4]
+10011ab8:	6a 64                	push   0x64
+10011aba:	58                   	pop    eax
+10011abb:	3b c8                	cmp    ecx,eax
+10011abd:	7e 54                	jle    10011b13 <??_ECCyclic@@UAEPAXI@Z+0x15>
+10011abf:	b8 2c 01 00 00       	mov    eax,0x12c
+10011ac4:	3b c8                	cmp    ecx,eax
+10011ac6:	7e 4b                	jle    10011b13 <??_ECCyclic@@UAEPAXI@Z+0x15>
+10011ac8:	b8 58 02 00 00       	mov    eax,0x258
+10011acd:	3b c8                	cmp    ecx,eax
+10011acf:	7e 42                	jle    10011b13 <??_ECCyclic@@UAEPAXI@Z+0x15>
+10011ad1:	b8 e8 03 00 00       	mov    eax,0x3e8
+10011ad6:	3b c8                	cmp    ecx,eax
+10011ad8:	7e 39                	jle    10011b13 <??_ECCyclic@@UAEPAXI@Z+0x15>
+10011ada:	b8 b8 0b 00 00       	mov    eax,0xbb8
+10011adf:	3b c8                	cmp    ecx,eax
+10011ae1:	7e 30                	jle    10011b13 <??_ECCyclic@@UAEPAXI@Z+0x15>
+10011ae3:	b8 70 17 00 00       	mov    eax,0x1770
+10011ae8:	3b c8                	cmp    ecx,eax
+10011aea:	7e 27                	jle    10011b13 <??_ECCyclic@@UAEPAXI@Z+0x15>
+10011aec:	b8 10 27 00 00       	mov    eax,0x2710
+10011af1:	3b c8                	cmp    ecx,eax
+10011af3:	7e 1e                	jle    10011b13 <??_ECCyclic@@UAEPAXI@Z+0x15>
+
+10011af5 <?Acknoledge@CCyclic@@UAEHXZ>:
+10011af5:	b8 30 75 00 00       	mov    eax,0x7530
+10011afa:	3b c8                	cmp    ecx,eax
+10011afc:	7e 15                	jle    10011b13 <??_ECCyclic@@UAEPAXI@Z+0x15>
+
+10011afe <??_ECCyclic@@UAEPAXI@Z>:
+10011afe:	33 c0                	xor    eax,eax
+10011b00:	81 f9 60 ea 00 00    	cmp    ecx,0xea60
+10011b06:	0f 9f c0             	setg   al
+10011b09:	48                   	dec    eax
+10011b0a:	66 25 d0 8a          	and    ax,0x8ad0
+10011b0e:	05 90 5f 01 00       	add    eax,0x15f90
+10011b13:	c2 04 00             	ret    0x4

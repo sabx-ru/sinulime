@@ -1,0 +1,14 @@
+digraph MCVAR_RESPONSE_PATH {
+ rankdir=LR; node [shape=box,fontname="Courier"];
+ ncdde [label="NCDDE response\ntransaction/handle source unresolved"];
+ msg [label="WM_DDE_DATA / callback\nnot statically joined"];
+ buffer [label="buffer ownership / decode\nOPEN"];
+ variant [label="VARIANT result preparation\nold helper local records"];
+ itemerr [label="per-item error / quality\norigin OPEN"];
+ ret [label="ReadVar outputs + outer HRESULT\naggregate branches OPEN"];
+ ncdde -> msg [style=dashed,label="possible classic DDE path"];
+ msg -> buffer [style=dashed]; buffer -> variant [style=dashed];
+ variant -> itemerr [label="local result-shape evidence"];
+ itemerr -> ret [label="observed output contract; exact branches unresolved"];
+ note [shape=note,label="Do not claim DDE_DATA->VARIANT causal chain. Callback-shaped [object+0x14] calls remain unresolved."];
+}

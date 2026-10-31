@@ -1,0 +1,5 @@
+/Nck/Configuration/numGlobMachAxes
+/Bag/State/opMode[u1]
+/Channel/State/progStatus[u1]
+/Channel/Spindle/speedOvr[u1,1]
+/Channel/Parameter/R[u1,10]

@@ -1,0 +1,98 @@
+0x00031fd4 0x10031fd4   15   16 .data   ascii   free IVar2 0x%x
+0x00031fe4 0x10031fe4   14   15 .data   ascii   new IVar2 0x%x
+0x000325dc 0x100325dc    9   10 .data   ascii   IVar2.hlp
+0x0003262c 0x1003262c   25   26 .data   ascii   %d IVar2::ReadVar 0x%x %s
+0x00032648 0x10032648   19   20 .data   ascii   IVar2 0x%x ReadVar\n
+0x00032fd8 0x10032fd8   26   27 .data   ascii   %d IVar2::WriteVar 0x%x %s
+0x00032ff4 0x10032ff4   20   21 .data   ascii   IVar2 0x%x WriteVar\n
+0x0003303c 0x1003303c   30   31 .data   ascii   %d IVar2::ReadVarAsync 0x%x %s
+0x0003305c 0x1003305c   24   25 .data   ascii   IVar2 0x%x ReadVarAsync\n
+0x00033654 0x10033654   31   32 .data   ascii   %d IVar2::WriteVarAsync 0x%x %s
+0x00033674 0x10033674   25   26 .data   ascii   IVar2 0x%x WriteVarAsync\n
+0x00033758 0x10033758    5   12 .data   utf16le IVar2
+0x000337f4 0x100337f4   42   43 .data   ascii   %d IVar2::ReadVarCyclic 0x%x ReqID:0x%x %s
+0x00033820 0x10033820   25   26 .data   ascii   IVar2 0x%x ReadVarCyclic\n
+0x00033abc 0x10033abc   51   52 .data   ascii   %d IVar2::RemoveCyclicVariables 0x%x ReqID:0x%lx %s
+0x00033af0 0x10033af0   33   34 .data   ascii   IVar2 0x%x RemoveCyclicVariables\n
+0x00033db8 0x10033db8   24   25 .data   ascii   %d IVar2::Remove 0x%x %s
+0x00033dd4 0x10033dd4   18   19 .data   ascii   IVar2 0x%x Remove\n
+0x000342ec 0x100342ec   76   77 .data   ascii   %d IVar2:0x%x ReqId:0x%x Dispatch "OnWriteComplete" returned HRESULT:0x%x %s
+0x0003433c 0x1003433c   66   67 .data   ascii   %d IVar2:0x%x ReqId:0x%x Dispatch:0x%x "OnWriteComplete" called %s
+0x00034380 0x10034380   74   75 .data   ascii   %d:IVar2 0x%x ReqId:0x%x Dispatch "OnDataChanged" returned HRESULT:0x%x %s
+0x000343cc 0x100343cc   64   65 .data   ascii   %d:IVar2 0x%x ReqId:0x%x Dispatch:0x%x "OnDataChanged" called %s
+0x00034410 0x10034410   72   73 .data   ascii   %d:IVar2:0x%x ReqId:0x%x Dual "OnWriteComplete" returned HRESULT:0x%x %s
+0x0003445c 0x1003445c   62   63 .data   ascii   %d:IVar2:0x%x ReqId:0x%x Dual:0x%x "OnWriteComplete" called %s
+0x000344c4 0x100344c4   70   71 .data   ascii   %d IVar2:0x%x ReqId:0x%x Dual "OnDataChanged" returned HRESULT:0x%x %s
+0x0003450c 0x1003450c   60   61 .data   ascii   %d IVar2:0x%x ReqId:0x%x Dual:0x%x "OnDataChanged" called %s
+0x0003b440 0x1003d440    9   10 .rsrc   ascii   IVar2WWWd
+0x0003cafa 0x1003eafa   18   18 .rsrc   ascii   IVar2 InterfaceWWW
+0x0003cb32 0x1003eb32   30   30 .rsrc   ascii   IVar2 Read-Callback InterfaceW
+0x0003cb82 0x1003eb82   30   30 .rsrc   ascii   IVar2 Write-Callback Interface
+0x000311d0 0x100311d0   14   15 .data   ascii   IVarConnection
+0x0003139c 0x1003139c   19   20 .data   ascii   IVar Dde Connection
+0x0003153c 0x1003153c   16   17 .data   ascii   IVar Main Window
+0x00031fd4 0x10031fd4   15   16 .data   ascii   free IVar2 0x%x
+0x00031fe4 0x10031fe4   14   15 .data   ascii   new IVar2 0x%x
+0x000325dc 0x100325dc    9   10 .data   ascii   IVar2.hlp
+0x0003262c 0x1003262c   25   26 .data   ascii   %d IVar2::ReadVar 0x%x %s
+0x00032648 0x10032648   19   20 .data   ascii   IVar2 0x%x ReadVar\n
+0x00032e7c 0x10032e7c   24   25 .data   ascii   %d IVar::ReadVar 0x%x %s
+0x00032e98 0x10032e98   18   19 .data   ascii   IVar 0x%x ReadVar\n
+0x00032fd8 0x10032fd8   26   27 .data   ascii   %d IVar2::WriteVar 0x%x %s
+0x00032ff4 0x10032ff4   20   21 .data   ascii   IVar2 0x%x WriteVar\n
+0x0003300c 0x1003300c   25   26 .data   ascii   %d IVar::WriteVar 0x%x %s
+0x00033028 0x10033028   19   20 .data   ascii   IVar 0x%x WriteVar\n
+0x0003303c 0x1003303c   30   31 .data   ascii   %d IVar2::ReadVarAsync 0x%x %s
+0x0003305c 0x1003305c   24   25 .data   ascii   IVar2 0x%x ReadVarAsync\n
+0x00033078 0x10033078   29   30 .data   ascii   %d IVar::ReadVarAsync 0x%x %s
+0x00033098 0x10033098   23   24 .data   ascii   IVar 0x%x ReadVarAsync\n
+0x00033654 0x10033654   31   32 .data   ascii   %d IVar2::WriteVarAsync 0x%x %s
+0x00033674 0x10033674   25   26 .data   ascii   IVar2 0x%x WriteVarAsync\n
+0x00033690 0x10033690   30   31 .data   ascii   %d IVar::WriteVarAsync 0x%x %s
+0x000336b0 0x100336b0   24   25 .data   ascii   IVar 0x%x WriteVarAsync\n
+0x00033758 0x10033758    5   12 .data   utf16le IVar2
+0x00033764 0x10033764    4   10 .data   utf16le IVar
+0x000337f4 0x100337f4   42   43 .data   ascii   %d IVar2::ReadVarCyclic 0x%x ReqID:0x%x %s
+0x00033820 0x10033820   25   26 .data   ascii   IVar2 0x%x ReadVarCyclic\n
+0x0003383c 0x1003383c   41   42 .data   ascii   %d IVar::ReadVarCyclic 0x%x ReqID:0x%x %s
+0x00033868 0x10033868   24   25 .data   ascii   IVar 0x%x ReadVarCyclic\n
+0x00033abc 0x10033abc   51   52 .data   ascii   %d IVar2::RemoveCyclicVariables 0x%x ReqID:0x%lx %s
+0x00033af0 0x10033af0   33   34 .data   ascii   IVar2 0x%x RemoveCyclicVariables\n
+0x00033b14 0x10033b14   50   51 .data   ascii   %d IVar::RemoveCyclicVariables 0x%x ReqID:0x%lx %s
+0x00033b48 0x10033b48   32   33 .data   ascii   IVar 0x%x RemoveCyclicVariables\n
+0x00033c44 0x10033c44   33   34 .data   ascii   %d IVarX::LookupVariables 0x%x %s
+0x00033c68 0x10033c68   27   28 .data   ascii   IVar? 0x%x LookupVariables\n
+0x00033c94 0x10033c94   24   25 .data   ascii   %d IVarX::Cancel 0x%x %s
+0x00033cb0 0x10033cb0   29   30 .data   ascii   IVar?/IMCCommand 0x%x Cancel\n
+0x00033d58 0x10033d58   25   26 .data   ascii   %d IVarX::Suspend 0x%x %s
+0x00033d74 0x10033d74   19   20 .data   ascii   IVar? 0x%x Suspend\n
+0x00033da4 0x10033da4   18   19 .data   ascii   IVar? 0x%x Resume\n
+0x00033db8 0x10033db8   24   25 .data   ascii   %d IVar2::Remove 0x%x %s
+0x00033dd4 0x10033dd4   18   19 .data   ascii   IVar2 0x%x Remove\n
+0x00033de8 0x10033de8   23   24 .data   ascii   %d IVar::Remove 0x%x %s
+0x00033e00 0x10033e00   17   18 .data   ascii   IVar 0x%x Remove\n
+0x00033e2c 0x10033e2c   39   40 .data   ascii   %d IVarX::CalculateRequestRates 0x%x %s
+0x00033e54 0x10033e54   33   34 .data   ascii   IVar? 0x%x CalculateRequestRates\n
+0x000342ec 0x100342ec   76   77 .data   ascii   %d IVar2:0x%x ReqId:0x%x Dispatch "OnWriteComplete" returned HRESULT:0x%x %s
+0x0003433c 0x1003433c   66   67 .data   ascii   %d IVar2:0x%x ReqId:0x%x Dispatch:0x%x "OnWriteComplete" called %s
+0x00034380 0x10034380   74   75 .data   ascii   %d:IVar2 0x%x ReqId:0x%x Dispatch "OnDataChanged" returned HRESULT:0x%x %s
+0x000343cc 0x100343cc   64   65 .data   ascii   %d:IVar2 0x%x ReqId:0x%x Dispatch:0x%x "OnDataChanged" called %s
+0x00034410 0x10034410   72   73 .data   ascii   %d:IVar2:0x%x ReqId:0x%x Dual "OnWriteComplete" returned HRESULT:0x%x %s
+0x0003445c 0x1003445c   62   63 .data   ascii   %d:IVar2:0x%x ReqId:0x%x Dual:0x%x "OnWriteComplete" called %s
+0x000344c4 0x100344c4   70   71 .data   ascii   %d IVar2:0x%x ReqId:0x%x Dual "OnDataChanged" returned HRESULT:0x%x %s
+0x0003450c 0x1003450c   60   61 .data   ascii   %d IVar2:0x%x ReqId:0x%x Dual:0x%x "OnDataChanged" called %s
+0x000345a8 0x100345a8   75   76 .data   ascii   %d IVar:0x%x ReqId:0x%x Dispatch "OnWriteComplete" returned HRESULT:0x%x %s
+0x000345f4 0x100345f4   65   66 .data   ascii   %d IVar:0x%x ReqId:0x%x Dispatch:0x%x "OnWriteComplete" called %s
+0x00034638 0x10034638   73   74 .data   ascii   %d IVar:0x%x ReqId:0x%x Dispatch "OnDataChanged" returned HRESULT:0x%x %s
+0x00034684 0x10034684   63   64 .data   ascii   %d IVar:0x%x ReqId:0x%x Dispatch:0x%x "OnDataChanged" called %s
+0x000346d8 0x100346d8   71   72 .data   ascii   %d IVar:0x%x ReqId:0x%x Dual "OnWriteComplete" returned HRESULT:0x%x %s
+0x00034720 0x10034720   61   62 .data   ascii   %d IVar:0x%x ReqId:0x%x Dual:0x%x "OnWriteComplete" called %s
+0x00034788 0x10034788   69   70 .data   ascii   %d IVar:0x%x ReqId:0x%x Dual "OnDataChanged" returned HRESULT:0x%x %s
+0x000347d0 0x100347d0   59   60 .data   ascii   %d IVar:0x%x ReqId:0x%x Dual:0x%x "OnDataChanged" called %s
+0x0003485c 0x1003485c   35   36 .data   ascii   Dump (%s) ERROR, no IVar list avail
+0x00034880 0x10034880   10   11 .data   ascii   IVar:0x%lx
+0x0003b440 0x1003d440    9   10 .rsrc   ascii   IVar2WWWd
+0x0003b84c 0x1003d84c    4    4 .rsrc   ascii   IVar
+0x0003cafa 0x1003eafa   18   18 .rsrc   ascii   IVar2 InterfaceWWW
+0x0003cb32 0x1003eb32   30   30 .rsrc   ascii   IVar2 Read-Callback InterfaceW
+0x0003cb82 0x1003eb82   30   30 .rsrc   ascii   IVar2 Write-Callback Interface

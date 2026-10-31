@@ -1,0 +1,194 @@
+2026-10-31 17:56:42.355 [INFO] === mcvar_multiread v0.5 BEGIN ===
+2026-10-31 17:56:42.355 [INFO] EXE=C:\PCU_test\bin\mcvar_multiread.exe
+2026-10-31 17:56:42.355 [INFO] PID=2428 args=7 target=Windows XP x86; log=C:\PCU_test\bin\logs\mcvar_multiread_20261031_175642_355_pid2428.log
+2026-10-31 17:56:42.355 [INFO] EXPERIMENT read=YES items=10 shape=array-bstr lb=0 cacheDevice=1 repeat=1 reverse=0 duplicateLast=0 invalidLast=0 invalidFirst=0 invalidMiddle=0
+2026-10-31 17:56:42.355 [WARN] Every item read is a live runtime request. NO freshness guarantee and NO NCU round-trip guarantee.
+2026-10-31 17:56:42.355 [DATA] REQUEST_INDEX ordinal=0 input_array_index=0 item=/Nck/Configuration/numGlobMachAxes
+2026-10-31 17:56:42.355 [DATA] REQUEST_INDEX ordinal=1 input_array_index=1 item=/Nck/Configuration/numChannels
+2026-10-31 17:56:42.355 [DATA] REQUEST_INDEX ordinal=2 input_array_index=2 item=/Nck/State/SysTimeBCD
+2026-10-31 17:56:42.355 [DATA] REQUEST_INDEX ordinal=3 input_array_index=3 item=/Nck/State/accIndex
+2026-10-31 17:56:42.355 [DATA] REQUEST_INDEX ordinal=4 input_array_index=4 item=/Nck/Configuration/accessLevel
+2026-10-31 17:56:42.355 [DATA] REQUEST_INDEX ordinal=5 input_array_index=5 item=/Nck/State/numAlarms[u1]
+2026-10-31 17:56:42.355 [DATA] REQUEST_INDEX ordinal=6 input_array_index=6 item=/Bag/State/opMode[u1]
+2026-10-31 17:56:42.355 [DATA] REQUEST_INDEX ordinal=7 input_array_index=7 item=/Channel/State/progStatus[u1]
+2026-10-31 17:56:42.355 [DATA] REQUEST_INDEX ordinal=8 input_array_index=8 item=/Channel/State/stopCond[u1]
+2026-10-31 17:56:42.355 [DATA] REQUEST_INDEX ordinal=9 input_array_index=9 item=/Channel/State/NcResetCounter[u1,1]
+2026-10-31 17:56:42.355 [INFO] CoInitializeEx STA HRESULT=0x00000000 (The operation completed successfully.  )
+2026-10-31 17:56:42.355 [INFO] CLSIDFromProgID HRESULT=0x00000000 (The operation completed successfully.  )
+2026-10-31 17:56:42.355 [INFO] CoCreateInstance HRESULT=0x00000000 (The operation completed successfully.  )
+2026-10-31 17:56:42.355 [INFO] GetIDsOfNames(ReadVar) HRESULT=0x00000000 (The operation completed successfully.  )
+2026-10-31 17:56:42.355 [INFO] DISPID=1, historical expected 1
+2026-10-31 17:56:42.355 [INFO] GetTypeInfo HRESULT=0x00000000 (The operation completed successfully.  )
+2026-10-31 17:56:42.355 [INFO] TypeInfo functions=19 typekind=4
+2026-10-31 17:56:42.355 [INFO] ReadVar FUNCDESC memid=1 invkind=1 params=8 optional=4
+2026-10-31 17:56:42.355 [INFO]   param[0] vt=0xC flags=0x0011
+2026-10-31 17:56:42.355 [INFO]   param[1] vt=0xC flags=0x0011
+2026-10-31 17:56:42.355 [INFO]   param[2] vt=0x2 flags=0x0001
+2026-10-31 17:56:42.355 [INFO]   param[3] vt=0x1A flags=0x0002
+2026-10-31 17:56:42.355 [INFO]   param[4] vt=0x1A flags=0x0012
+2026-10-31 17:56:42.355 [INFO]   param[5] vt=0x1A flags=0x0012
+2026-10-31 17:56:42.355 [INFO]   param[6] vt=0x1A flags=0x0012
+2026-10-31 17:56:42.355 [INFO]   param[7] vt=0x1A flags=0x0012
+2026-10-31 17:56:42.355 [INFO] make_names HRESULT=0x00000000 (The operation completed successfully.  )
+2026-10-31 17:56:42.355 [WARN] BEGIN ReadVar invocation round=1 count=10
+2026-10-31 17:56:42.425 [INFO] IDispatch.Invoke(ReadVar) HRESULT=0x00000000 (The operation completed successfully.  )
+2026-10-31 17:56:42.425 [DATA] ROUND=1 elapsed_ms=70 invoke_hresult=0x00000000 argErr_reverse_index=4294967295
+2026-10-31 17:56:42.425 [INFO] EXCEPINFO.scode=0x00000000 wCode=0
+2026-10-31 17:56:42.425 [INFO] Invoke.result VT=0x0000 depth=0
+2026-10-31 17:56:42.425 [INFO] Invoke.result=EMPTY
+2026-10-31 17:56:42.425 [INFO] pValues VT=0x200C depth=0
+2026-10-31 17:56:42.425 [INFO] pValues SAFEARRAY dims=1 element_type=0x000C GetVartype_HR=0x00000000
+2026-10-31 17:56:42.425 [INFO] pValues bounds=0..9 size=10
+2026-10-31 17:56:42.425 [INFO] pValues[0] VT=0x0003 depth=1
+2026-10-31 17:56:42.425 [INFO] pValues[0] I4=2
+2026-10-31 17:56:42.425 [INFO] pValues[1] VT=0x0003 depth=1
+2026-10-31 17:56:42.425 [INFO] pValues[1] I4=1
+2026-10-31 17:56:42.425 [INFO] pValues[2] VT=0x0007 depth=1
+2026-10-31 17:56:42.425 [INFO] pValues[2] OLE_DATE=34452.154156412034
+2026-10-31 17:56:42.425 [INFO] pValues[3] VT=0x0003 depth=1
+2026-10-31 17:56:42.425 [INFO] pValues[3] I4=0
+2026-10-31 17:56:42.425 [INFO] pValues[4] VT=0x0003 depth=1
+2026-10-31 17:56:42.425 [INFO] pValues[4] I4=1
+2026-10-31 17:56:42.425 [INFO] pValues[5] VT=0x0003 depth=1
+2026-10-31 17:56:42.425 [INFO] pValues[5] I4=0
+2026-10-31 17:56:42.425 [INFO] pValues[6] VT=0x0003 depth=1
+2026-10-31 17:56:42.425 [INFO] pValues[6] I4=0
+2026-10-31 17:56:42.425 [INFO] pValues[7] VT=0x0003 depth=1
+2026-10-31 17:56:42.425 [INFO] pValues[7] I4=5
+2026-10-31 17:56:42.425 [INFO] pValues[8] VT=0x0003 depth=1
+2026-10-31 17:56:42.425 [INFO] pValues[8] I4=0
+2026-10-31 17:56:42.425 [INFO] pValues[9] VT=0x0003 depth=1
+2026-10-31 17:56:42.425 [INFO] pValues[9] I4=0
+2026-10-31 17:56:42.425 [INFO] pErrors VT=0x2003 depth=0
+2026-10-31 17:56:42.425 [INFO] pErrors SAFEARRAY dims=1 element_type=0x0003 GetVartype_HR=0x00000000
+2026-10-31 17:56:42.425 [INFO] pErrors bounds=0..9 size=10
+2026-10-31 17:56:42.425 [INFO] pErrors[0] I4=0 hex=0x00000000
+2026-10-31 17:56:42.425 [INFO] pErrors[1] I4=0 hex=0x00000000
+2026-10-31 17:56:42.425 [INFO] pErrors[2] I4=0 hex=0x00000000
+2026-10-31 17:56:42.425 [INFO] pErrors[3] I4=0 hex=0x00000000
+2026-10-31 17:56:42.425 [INFO] pErrors[4] I4=0 hex=0x00000000
+2026-10-31 17:56:42.425 [INFO] pErrors[5] I4=0 hex=0x00000000
+2026-10-31 17:56:42.425 [INFO] pErrors[6] I4=0 hex=0x00000000
+2026-10-31 17:56:42.425 [INFO] pErrors[7] I4=0 hex=0x00000000
+2026-10-31 17:56:42.425 [INFO] pErrors[8] I4=0 hex=0x00000000
+2026-10-31 17:56:42.425 [INFO] pErrors[9] I4=0 hex=0x00000000
+2026-10-31 17:56:42.425 [INFO] pQualities VT=0x2002 depth=0
+2026-10-31 17:56:42.425 [INFO] pQualities SAFEARRAY dims=1 element_type=0x0002 GetVartype_HR=0x00000000
+2026-10-31 17:56:42.425 [INFO] pQualities bounds=0..9 size=10
+2026-10-31 17:56:42.425 [INFO] pQualities[0] I2=192 hex=0x00C0
+2026-10-31 17:56:42.425 [INFO] pQualities[1] I2=192 hex=0x00C0
+2026-10-31 17:56:42.425 [INFO] pQualities[2] I2=192 hex=0x00C0
+2026-10-31 17:56:42.425 [INFO] pQualities[3] I2=192 hex=0x00C0
+2026-10-31 17:56:42.425 [INFO] pQualities[4] I2=192 hex=0x00C0
+2026-10-31 17:56:42.425 [INFO] pQualities[5] I2=192 hex=0x00C0
+2026-10-31 17:56:42.425 [INFO] pQualities[6] I2=192 hex=0x00C0
+2026-10-31 17:56:42.425 [INFO] pQualities[7] I2=192 hex=0x00C0
+2026-10-31 17:56:42.425 [INFO] pQualities[8] I2=192 hex=0x00C0
+2026-10-31 17:56:42.425 [INFO] pQualities[9] I2=192 hex=0x00C0
+2026-10-31 17:56:42.425 [INFO] pServerInfos VT=0x000A depth=0
+2026-10-31 17:56:42.425 [INFO] pServerInfos SCODE=0x80020004
+2026-10-31 17:56:42.425 [INFO] pTimeStamps VT=0x000A depth=0
+2026-10-31 17:56:42.425 [INFO] pTimeStamps SCODE=0x80020004
+2026-10-31 17:56:42.425 [DATA] SLOT_INDEX round=1 ordinal=0 item=/Nck/Configuration/numGlobMachAxes
+2026-10-31 17:56:42.425 [DATA] slot[0].value output_array_bounds=0..9 output_array_index=0
+2026-10-31 17:56:42.425 [INFO] slot[0].value VT=0x0003 depth=0
+2026-10-31 17:56:42.425 [INFO] slot[0].value I4=2
+2026-10-31 17:56:42.425 [DATA] slot[0].error output_array_bounds=0..9 output_array_index=0
+2026-10-31 17:56:42.425 [DATA] slot[0].error VT=0x0003 I4=0 HEX=0x00000000
+2026-10-31 17:56:42.425 [DATA] slot[0].quality output_array_bounds=0..9 output_array_index=0
+2026-10-31 17:56:42.425 [DATA] slot[0].quality VT=0x0002 I2=192
+2026-10-31 17:56:42.425 [INFO] slot[0].server_info VT=0x000A depth=0
+2026-10-31 17:56:42.425 [INFO] slot[0].server_info SCODE=0x80020004
+2026-10-31 17:56:42.425 [INFO] slot[0].timestamp VT=0x000A depth=0
+2026-10-31 17:56:42.425 [INFO] slot[0].timestamp SCODE=0x80020004
+2026-10-31 17:56:42.425 [DATA] SLOT_INDEX round=1 ordinal=1 item=/Nck/Configuration/numChannels
+2026-10-31 17:56:42.425 [DATA] slot[1].value output_array_bounds=0..9 output_array_index=1
+2026-10-31 17:56:42.425 [INFO] slot[1].value VT=0x0003 depth=0
+2026-10-31 17:56:42.425 [INFO] slot[1].value I4=1
+2026-10-31 17:56:42.425 [DATA] slot[1].error output_array_bounds=0..9 output_array_index=1
+2026-10-31 17:56:42.425 [DATA] slot[1].error VT=0x0003 I4=0 HEX=0x00000000
+2026-10-31 17:56:42.425 [DATA] slot[1].quality output_array_bounds=0..9 output_array_index=1
+2026-10-31 17:56:42.425 [DATA] slot[1].quality VT=0x0002 I2=192
+2026-10-31 17:56:42.425 [WARN] slot[1].server_info SCALAR_OUTPUT_FOR_MULTIVALUE_REQUEST
+2026-10-31 17:56:42.425 [WARN] slot[1].timestamp SCALAR_OUTPUT_FOR_MULTIVALUE_REQUEST
+2026-10-31 17:56:42.425 [DATA] SLOT_INDEX round=1 ordinal=2 item=/Nck/State/SysTimeBCD
+2026-10-31 17:56:42.425 [DATA] slot[2].value output_array_bounds=0..9 output_array_index=2
+2026-10-31 17:56:42.425 [INFO] slot[2].value VT=0x0007 depth=0
+2026-10-31 17:56:42.425 [INFO] slot[2].value OLE_DATE=34452.154156412034
+2026-10-31 17:56:42.425 [DATA] slot[2].error output_array_bounds=0..9 output_array_index=2
+2026-10-31 17:56:42.425 [DATA] slot[2].error VT=0x0003 I4=0 HEX=0x00000000
+2026-10-31 17:56:42.425 [DATA] slot[2].quality output_array_bounds=0..9 output_array_index=2
+2026-10-31 17:56:42.425 [DATA] slot[2].quality VT=0x0002 I2=192
+2026-10-31 17:56:42.425 [WARN] slot[2].server_info SCALAR_OUTPUT_FOR_MULTIVALUE_REQUEST
+2026-10-31 17:56:42.425 [WARN] slot[2].timestamp SCALAR_OUTPUT_FOR_MULTIVALUE_REQUEST
+2026-10-31 17:56:42.425 [DATA] SLOT_INDEX round=1 ordinal=3 item=/Nck/State/accIndex
+2026-10-31 17:56:42.425 [DATA] slot[3].value output_array_bounds=0..9 output_array_index=3
+2026-10-31 17:56:42.425 [INFO] slot[3].value VT=0x0003 depth=0
+2026-10-31 17:56:42.425 [INFO] slot[3].value I4=0
+2026-10-31 17:56:42.425 [DATA] slot[3].error output_array_bounds=0..9 output_array_index=3
+2026-10-31 17:56:42.425 [DATA] slot[3].error VT=0x0003 I4=0 HEX=0x00000000
+2026-10-31 17:56:42.425 [DATA] slot[3].quality output_array_bounds=0..9 output_array_index=3
+2026-10-31 17:56:42.425 [DATA] slot[3].quality VT=0x0002 I2=192
+2026-10-31 17:56:42.425 [WARN] slot[3].server_info SCALAR_OUTPUT_FOR_MULTIVALUE_REQUEST
+2026-10-31 17:56:42.425 [WARN] slot[3].timestamp SCALAR_OUTPUT_FOR_MULTIVALUE_REQUEST
+2026-10-31 17:56:42.425 [DATA] SLOT_INDEX round=1 ordinal=4 item=/Nck/Configuration/accessLevel
+2026-10-31 17:56:42.425 [DATA] slot[4].value output_array_bounds=0..9 output_array_index=4
+2026-10-31 17:56:42.425 [INFO] slot[4].value VT=0x0003 depth=0
+2026-10-31 17:56:42.425 [INFO] slot[4].value I4=1
+2026-10-31 17:56:42.425 [DATA] slot[4].error output_array_bounds=0..9 output_array_index=4
+2026-10-31 17:56:42.425 [DATA] slot[4].error VT=0x0003 I4=0 HEX=0x00000000
+2026-10-31 17:56:42.425 [DATA] slot[4].quality output_array_bounds=0..9 output_array_index=4
+2026-10-31 17:56:42.425 [DATA] slot[4].quality VT=0x0002 I2=192
+2026-10-31 17:56:42.425 [WARN] slot[4].server_info SCALAR_OUTPUT_FOR_MULTIVALUE_REQUEST
+2026-10-31 17:56:42.425 [WARN] slot[4].timestamp SCALAR_OUTPUT_FOR_MULTIVALUE_REQUEST
+2026-10-31 17:56:42.425 [DATA] SLOT_INDEX round=1 ordinal=5 item=/Nck/State/numAlarms[u1]
+2026-10-31 17:56:42.425 [DATA] slot[5].value output_array_bounds=0..9 output_array_index=5
+2026-10-31 17:56:42.425 [INFO] slot[5].value VT=0x0003 depth=0
+2026-10-31 17:56:42.425 [INFO] slot[5].value I4=0
+2026-10-31 17:56:42.425 [DATA] slot[5].error output_array_bounds=0..9 output_array_index=5
+2026-10-31 17:56:42.425 [DATA] slot[5].error VT=0x0003 I4=0 HEX=0x00000000
+2026-10-31 17:56:42.425 [DATA] slot[5].quality output_array_bounds=0..9 output_array_index=5
+2026-10-31 17:56:42.425 [DATA] slot[5].quality VT=0x0002 I2=192
+2026-10-31 17:56:42.425 [WARN] slot[5].server_info SCALAR_OUTPUT_FOR_MULTIVALUE_REQUEST
+2026-10-31 17:56:42.425 [WARN] slot[5].timestamp SCALAR_OUTPUT_FOR_MULTIVALUE_REQUEST
+2026-10-31 17:56:42.425 [DATA] SLOT_INDEX round=1 ordinal=6 item=/Bag/State/opMode[u1]
+2026-10-31 17:56:42.425 [DATA] slot[6].value output_array_bounds=0..9 output_array_index=6
+2026-10-31 17:56:42.425 [INFO] slot[6].value VT=0x0003 depth=0
+2026-10-31 17:56:42.425 [INFO] slot[6].value I4=0
+2026-10-31 17:56:42.425 [DATA] slot[6].error output_array_bounds=0..9 output_array_index=6
+2026-10-31 17:56:42.425 [DATA] slot[6].error VT=0x0003 I4=0 HEX=0x00000000
+2026-10-31 17:56:42.425 [DATA] slot[6].quality output_array_bounds=0..9 output_array_index=6
+2026-10-31 17:56:42.425 [DATA] slot[6].quality VT=0x0002 I2=192
+2026-10-31 17:56:42.425 [WARN] slot[6].server_info SCALAR_OUTPUT_FOR_MULTIVALUE_REQUEST
+2026-10-31 17:56:42.425 [WARN] slot[6].timestamp SCALAR_OUTPUT_FOR_MULTIVALUE_REQUEST
+2026-10-31 17:56:42.425 [DATA] SLOT_INDEX round=1 ordinal=7 item=/Channel/State/progStatus[u1]
+2026-10-31 17:56:42.425 [DATA] slot[7].value output_array_bounds=0..9 output_array_index=7
+2026-10-31 17:56:42.425 [INFO] slot[7].value VT=0x0003 depth=0
+2026-10-31 17:56:42.425 [INFO] slot[7].value I4=5
+2026-10-31 17:56:42.425 [DATA] slot[7].error output_array_bounds=0..9 output_array_index=7
+2026-10-31 17:56:42.425 [DATA] slot[7].error VT=0x0003 I4=0 HEX=0x00000000
+2026-10-31 17:56:42.425 [DATA] slot[7].quality output_array_bounds=0..9 output_array_index=7
+2026-10-31 17:56:42.425 [DATA] slot[7].quality VT=0x0002 I2=192
+2026-10-31 17:56:42.425 [WARN] slot[7].server_info SCALAR_OUTPUT_FOR_MULTIVALUE_REQUEST
+2026-10-31 17:56:42.425 [WARN] slot[7].timestamp SCALAR_OUTPUT_FOR_MULTIVALUE_REQUEST
+2026-10-31 17:56:42.425 [DATA] SLOT_INDEX round=1 ordinal=8 item=/Channel/State/stopCond[u1]
+2026-10-31 17:56:42.425 [DATA] slot[8].value output_array_bounds=0..9 output_array_index=8
+2026-10-31 17:56:42.425 [INFO] slot[8].value VT=0x0003 depth=0
+2026-10-31 17:56:42.425 [INFO] slot[8].value I4=0
+2026-10-31 17:56:42.425 [DATA] slot[8].error output_array_bounds=0..9 output_array_index=8
+2026-10-31 17:56:42.425 [DATA] slot[8].error VT=0x0003 I4=0 HEX=0x00000000
+2026-10-31 17:56:42.425 [DATA] slot[8].quality output_array_bounds=0..9 output_array_index=8
+2026-10-31 17:56:42.425 [DATA] slot[8].quality VT=0x0002 I2=192
+2026-10-31 17:56:42.425 [WARN] slot[8].server_info SCALAR_OUTPUT_FOR_MULTIVALUE_REQUEST
+2026-10-31 17:56:42.425 [WARN] slot[8].timestamp SCALAR_OUTPUT_FOR_MULTIVALUE_REQUEST
+2026-10-31 17:56:42.425 [DATA] SLOT_INDEX round=1 ordinal=9 item=/Channel/State/NcResetCounter[u1,1]
+2026-10-31 17:56:42.425 [DATA] slot[9].value output_array_bounds=0..9 output_array_index=9
+2026-10-31 17:56:42.425 [INFO] slot[9].value VT=0x0003 depth=0
+2026-10-31 17:56:42.425 [INFO] slot[9].value I4=0
+2026-10-31 17:56:42.425 [DATA] slot[9].error output_array_bounds=0..9 output_array_index=9
+2026-10-31 17:56:42.425 [DATA] slot[9].error VT=0x0003 I4=0 HEX=0x00000000
+2026-10-31 17:56:42.425 [DATA] slot[9].quality output_array_bounds=0..9 output_array_index=9
+2026-10-31 17:56:42.425 [DATA] slot[9].quality VT=0x0002 I2=192
+2026-10-31 17:56:42.425 [WARN] slot[9].server_info SCALAR_OUTPUT_FOR_MULTIVALUE_REQUEST
+2026-10-31 17:56:42.425 [WARN] slot[9].timestamp SCALAR_OUTPUT_FOR_MULTIVALUE_REQUEST
+2026-10-31 17:56:42.425 [INFO] === mcvar_multiread END exit_code=20 elapsed_ms=70 ===

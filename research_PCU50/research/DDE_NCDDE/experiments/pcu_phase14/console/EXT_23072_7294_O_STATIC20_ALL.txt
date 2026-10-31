@@ -1,0 +1,1 @@
+pcu_watchdog --timeout-ms=N -- program.exe [arguments...]

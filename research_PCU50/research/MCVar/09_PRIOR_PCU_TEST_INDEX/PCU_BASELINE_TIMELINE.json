@@ -1,0 +1,626 @@
+[
+  {
+    "timestamp": "2026-10-31 13:29:07.058",
+    "console": "MCVar/experiments/pcu_baseline/console/console_21704_14346_A00_METADATA.txt",
+    "direction": "MCVar",
+    "command": "WATCHDOG START timeout_ms=45000 command=\"bin\\mcvar_multiread.exe\" \"--metadata\""
+  },
+  {
+    "timestamp": "2026-10-31 13:29:09.141",
+    "console": "MCVar/experiments/pcu_baseline/console/console_21704_14346_A01_BATCH_01.txt",
+    "direction": "MCVar",
+    "command": "WATCHDOG START timeout_ms=90000 command=\"bin\\mcvar_multiread.exe\" \"--read\" \"--confirm=YES\" \"--items=config\\items_control.txt\" \"--limit=1\" \"--shape=array-bstr\" \"--cache-device=1\""
+  },
+  {
+    "timestamp": "2026-10-31 13:29:11.184",
+    "console": "MCVar/experiments/pcu_baseline/console/console_21704_14346_A02_BATCH_02.txt",
+    "direction": "MCVar",
+    "command": "WATCHDOG START timeout_ms=90000 command=\"bin\\mcvar_multiread.exe\" \"--read\" \"--confirm=YES\" \"--items=config\\items_control.txt\" \"--limit=2\" \"--shape=array-bstr\" \"--cache-device=1\""
+  },
+  {
+    "timestamp": "2026-10-31 13:29:13.257",
+    "console": "MCVar/experiments/pcu_baseline/console/console_21704_14346_A03_BATCH_03.txt",
+    "direction": "MCVar",
+    "command": "WATCHDOG START timeout_ms=90000 command=\"bin\\mcvar_multiread.exe\" \"--read\" \"--confirm=YES\" \"--items=config\\items_control.txt\" \"--limit=3\" \"--shape=array-bstr\" \"--cache-device=1\""
+  },
+  {
+    "timestamp": "2026-10-31 13:29:15.320",
+    "console": "MCVar/experiments/pcu_baseline/console/console_21704_14346_A04_BATCH_05.txt",
+    "direction": "MCVar",
+    "command": "WATCHDOG START timeout_ms=90000 command=\"bin\\mcvar_multiread.exe\" \"--read\" \"--confirm=YES\" \"--items=config\\items_control.txt\" \"--limit=5\" \"--shape=array-bstr\" \"--cache-device=1\""
+  },
+  {
+    "timestamp": "2026-10-31 13:29:17.393",
+    "console": "MCVar/experiments/pcu_baseline/console/console_21704_14346_A05_BATCH_07.txt",
+    "direction": "MCVar",
+    "command": "WATCHDOG START timeout_ms=90000 command=\"bin\\mcvar_multiread.exe\" \"--read\" \"--confirm=YES\" \"--items=config\\items_control.txt\" \"--limit=7\" \"--shape=array-bstr\" \"--cache-device=1\""
+  },
+  {
+    "timestamp": "2026-10-31 13:29:19.486",
+    "console": "MCVar/experiments/pcu_baseline/console/console_21704_14346_A06_BATCH_10.txt",
+    "direction": "MCVar",
+    "command": "WATCHDOG START timeout_ms=90000 command=\"bin\\mcvar_multiread.exe\" \"--read\" \"--confirm=YES\" \"--items=config\\items_control.txt\" \"--limit=10\" \"--shape=array-bstr\" \"--cache-device=1\""
+  },
+  {
+    "timestamp": "2026-10-31 13:29:21.579",
+    "console": "MCVar/experiments/pcu_baseline/console/console_21704_14346_A07_BATCH_15.txt",
+    "direction": "MCVar",
+    "command": "WATCHDOG START timeout_ms=90000 command=\"bin\\mcvar_multiread.exe\" \"--read\" \"--confirm=YES\" \"--items=config\\items_control.txt\" \"--limit=15\" \"--shape=array-bstr\" \"--cache-device=1\""
+  },
+  {
+    "timestamp": "2026-10-31 13:29:23.722",
+    "console": "MCVar/experiments/pcu_baseline/console/console_21704_14346_A08_BATCH_20.txt",
+    "direction": "MCVar",
+    "command": "WATCHDOG START timeout_ms=90000 command=\"bin\\mcvar_multiread.exe\" \"--read\" \"--confirm=YES\" \"--items=config\\items_control.txt\" \"--limit=20\" \"--shape=array-bstr\" \"--cache-device=1\""
+  },
+  {
+    "timestamp": "2026-10-31 13:29:25.855",
+    "console": "MCVar/experiments/pcu_baseline/console/console_21704_14346_A09_SCALAR.txt",
+    "direction": "MCVar",
+    "command": "WATCHDOG START timeout_ms=90000 command=\"bin\\mcvar_multiread.exe\" \"--read\" \"--confirm=YES\" \"--items=config\\items_1.txt\" \"--limit=1\" \"--shape=scalar\" \"--cache-device=1\""
+  },
+  {
+    "timestamp": "2026-10-31 13:29:27.908",
+    "console": "MCVar/experiments/pcu_baseline/console/console_21704_14346_A10_LOWERBOUND_1.txt",
+    "direction": "MCVar",
+    "command": "WATCHDOG START timeout_ms=90000 command=\"bin\\mcvar_multiread.exe\" \"--read\" \"--confirm=YES\" \"--items=config\\items_control.txt\" \"--limit=1\" \"--shape=array-bstr\" \"--lower-bound=1\" \"--cache-device=1\""
+  },
+  {
+    "timestamp": "2026-10-31 13:29:29.951",
+    "console": "MCVar/experiments/pcu_baseline/console/console_21704_14346_A11_LOWERBOUND_5.txt",
+    "direction": "MCVar",
+    "command": "WATCHDOG START timeout_ms=90000 command=\"bin\\mcvar_multiread.exe\" \"--read\" \"--confirm=YES\" \"--items=config\\items_control.txt\" \"--limit=5\" \"--shape=array-bstr\" \"--lower-bound=1\" \"--cache-device=1\""
+  },
+  {
+    "timestamp": "2026-10-31 13:29:32.024",
+    "console": "MCVar/experiments/pcu_baseline/console/console_21704_14346_A12_LOWERBOUND_20.txt",
+    "direction": "MCVar",
+    "command": "WATCHDOG START timeout_ms=90000 command=\"bin\\mcvar_multiread.exe\" \"--read\" \"--confirm=YES\" \"--items=config\\items_control.txt\" \"--limit=20\" \"--shape=array-bstr\" \"--lower-bound=1\" \"--cache-device=1\""
+  },
+  {
+    "timestamp": "2026-10-31 13:29:34.187",
+    "console": "MCVar/experiments/pcu_baseline/console/console_21704_14346_A13_REPEAT_20.txt",
+    "direction": "MCVar",
+    "command": "WATCHDOG START timeout_ms=90000 command=\"bin\\mcvar_multiread.exe\" \"--read\" \"--confirm=YES\" \"--items=config\\items_control.txt\" \"--limit=20\" \"--shape=array-bstr\" \"--repeat=2\" \"--interval-ms=2500\" \"--cache-device=1\""
+  },
+  {
+    "timestamp": "2026-10-31 13:29:38.924",
+    "console": "MCVar/experiments/pcu_baseline/console/console_21704_14346_B01_REVERSE_5.txt",
+    "direction": "MCVar",
+    "command": "WATCHDOG START timeout_ms=90000 command=\"bin\\mcvar_multiread.exe\" \"--read\" \"--confirm=YES\" \"--items=config\\items_control.txt\" \"--limit=5\" \"--reverse\" \"--shape=array-bstr\" \"--cache-device=1\""
+  },
+  {
+    "timestamp": "2026-10-31 13:29:40.997",
+    "console": "MCVar/experiments/pcu_baseline/console/console_21704_14346_B02_REVERSE_20.txt",
+    "direction": "MCVar",
+    "command": "WATCHDOG START timeout_ms=90000 command=\"bin\\mcvar_multiread.exe\" \"--read\" \"--confirm=YES\" \"--items=config\\items_control.txt\" \"--limit=20\" \"--reverse\" \"--shape=array-bstr\" \"--cache-device=1\""
+  },
+  {
+    "timestamp": "2026-10-31 13:29:43.130",
+    "console": "MCVar/experiments/pcu_baseline/console/console_21704_14346_B03_DUPLICATE_LAST_20.txt",
+    "direction": "MCVar",
+    "command": "WATCHDOG START timeout_ms=90000 command=\"bin\\mcvar_multiread.exe\" \"--read\" \"--confirm=YES\" \"--items=config\\items_control.txt\" \"--limit=20\" \"--duplicate-last\" \"--shape=array-bstr\" \"--cache-device=1\""
+  },
+  {
+    "timestamp": "2026-10-31 13:29:45.303",
+    "console": "MCVar/experiments/pcu_baseline/console/console_21704_14346_B04_DUPLICATE_MIX.txt",
+    "direction": "MCVar",
+    "command": "WATCHDOG START timeout_ms=90000 command=\"bin\\mcvar_multiread.exe\" \"--read\" \"--confirm=YES\" \"--items=config\\duplicate5.txt\" \"--limit=5\" \"--shape=array-bstr\" \"--cache-device=1\""
+  },
+  {
+    "timestamp": "2026-10-31 13:29:47.386",
+    "console": "MCVar/experiments/pcu_baseline/console/console_21704_14346_B05_STATIC_20.txt",
+    "direction": "MCVar",
+    "command": "WATCHDOG START timeout_ms=90000 command=\"bin\\mcvar_multiread.exe\" \"--read\" \"--confirm=YES\" \"--items=config\\static20.txt\" \"--limit=20\" \"--shape=array-bstr\" \"--cache-device=1\""
+  },
+  {
+    "timestamp": "2026-10-31 13:29:49.519",
+    "console": "MCVar/experiments/pcu_baseline/console/console_21704_14346_B06_CLOCK_20.txt",
+    "direction": "MCVar",
+    "command": "WATCHDOG START timeout_ms=90000 command=\"bin\\mcvar_multiread.exe\" \"--read\" \"--confirm=YES\" \"--items=config\\clock20.txt\" \"--limit=20\" \"--shape=array-bstr\" \"--cache-device=1\""
+  },
+  {
+    "timestamp": "2026-10-31 13:29:51.672",
+    "console": "MCVar/experiments/pcu_baseline/console/console_21704_14346_B07_CLOCK_20_REPEAT.txt",
+    "direction": "MCVar",
+    "command": "WATCHDOG START timeout_ms=90000 command=\"bin\\mcvar_multiread.exe\" \"--read\" \"--confirm=YES\" \"--items=config\\clock20.txt\" \"--limit=20\" \"--shape=array-bstr\" \"--repeat=2\" \"--interval-ms=3000\" \"--cache-device=1\""
+  },
+  {
+    "timestamp": "2026-10-31 13:29:56.950",
+    "console": "MCVar/experiments/pcu_baseline/console/console_21704_14346_B08_DYN_MIX_20.txt",
+    "direction": "MCVar",
+    "command": "WATCHDOG START timeout_ms=90000 command=\"bin\\mcvar_multiread.exe\" \"--read\" \"--confirm=YES\" \"--items=config\\dyn_interleaved20.txt\" \"--limit=20\" \"--shape=array-bstr\" \"--cache-device=1\""
+  },
+  {
+    "timestamp": "2026-10-31 13:29:59.103",
+    "console": "MCVar/experiments/pcu_baseline/console/console_21704_14346_B09_STRINGS_5.txt",
+    "direction": "MCVar",
+    "command": "WATCHDOG START timeout_ms=90000 command=\"bin\\mcvar_multiread.exe\" \"--read\" \"--confirm=YES\" \"--items=config\\strings5.txt\" \"--limit=5\" \"--shape=array-bstr\" \"--cache-device=1\""
+  },
+  {
+    "timestamp": "2026-10-31 13:30:01.186",
+    "console": "MCVar/experiments/pcu_baseline/console/console_21704_14346_B10_DOUBLES_5.txt",
+    "direction": "MCVar",
+    "command": "WATCHDOG START timeout_ms=90000 command=\"bin\\mcvar_multiread.exe\" \"--read\" \"--confirm=YES\" \"--items=config\\doubles5.txt\" \"--limit=5\" \"--shape=array-bstr\" \"--cache-device=1\""
+  },
+  {
+    "timestamp": "2026-10-31 13:30:03.269",
+    "console": "MCVar/experiments/pcu_baseline/console/console_21704_14346_B11_INTS_5.txt",
+    "direction": "MCVar",
+    "command": "WATCHDOG START timeout_ms=90000 command=\"bin\\mcvar_multiread.exe\" \"--read\" \"--confirm=YES\" \"--items=config\\integer5.txt\" \"--limit=5\" \"--shape=array-bstr\" \"--cache-device=1\""
+  },
+  {
+    "timestamp": "2026-10-31 13:30:05.352",
+    "console": "MCVar/experiments/pcu_baseline/console/console_21704_14346_B12_DOMAINS_5.txt",
+    "direction": "MCVar",
+    "command": "WATCHDOG START timeout_ms=90000 command=\"bin\\mcvar_multiread.exe\" \"--read\" \"--confirm=YES\" \"--items=config\\domain5.txt\" \"--limit=5\" \"--shape=array-bstr\" \"--cache-device=1\""
+  },
+  {
+    "timestamp": "2026-10-31 13:30:07.425",
+    "console": "MCVar/experiments/pcu_baseline/console/console_21704_14346_B13_R_INDICES_5.txt",
+    "direction": "MCVar",
+    "command": "WATCHDOG START timeout_ms=90000 command=\"bin\\mcvar_multiread.exe\" \"--read\" \"--confirm=YES\" \"--items=config\\r_indices5.txt\" \"--limit=5\" \"--shape=array-bstr\" \"--cache-device=1\""
+  },
+  {
+    "timestamp": "2026-10-31 13:30:09.498",
+    "console": "MCVar/experiments/pcu_baseline/console/console_21704_14346_B14_CLOCK_AND_R.txt",
+    "direction": "MCVar",
+    "command": "WATCHDOG START timeout_ms=90000 command=\"bin\\mcvar_multiread.exe\" \"--read\" \"--confirm=YES\" \"--items=config\\clock_and_params5.txt\" \"--limit=5\" \"--shape=array-bstr\" \"--cache-device=1\""
+  },
+  {
+    "timestamp": "2026-10-31 13:30:11.571",
+    "console": "MCVar/experiments/pcu_baseline/console/console_21704_14346_C01_ONE_BAD_FIRST.txt",
+    "direction": "MCVar",
+    "command": "WATCHDOG START timeout_ms=90000 command=\"bin\\mcvar_multiread.exe\" \"--read\" \"--confirm=YES\" \"--items=config\\items_control.txt\" \"--limit=5\" \"--invalid-first\" \"--shape=array-bstr\" \"--cache-device=1\""
+  },
+  {
+    "timestamp": "2026-10-31 13:30:13.644",
+    "console": "MCVar/experiments/pcu_baseline/console/console_21704_14346_C02_ONE_BAD_MIDDLE.txt",
+    "direction": "MCVar",
+    "command": "WATCHDOG START timeout_ms=90000 command=\"bin\\mcvar_multiread.exe\" \"--read\" \"--confirm=YES\" \"--items=config\\items_control.txt\" \"--limit=5\" \"--invalid-middle\" \"--shape=array-bstr\" \"--cache-device=1\""
+  },
+  {
+    "timestamp": "2026-10-31 13:30:15.707",
+    "console": "MCVar/experiments/pcu_baseline/console/console_21704_14346_C03_ONE_BAD_LAST.txt",
+    "direction": "MCVar",
+    "command": "WATCHDOG START timeout_ms=90000 command=\"bin\\mcvar_multiread.exe\" \"--read\" \"--confirm=YES\" \"--items=config\\items_control.txt\" \"--limit=5\" \"--invalid-last\" \"--shape=array-bstr\" \"--cache-device=1\""
+  },
+  {
+    "timestamp": "2026-10-31 13:30:17.820",
+    "console": "MCVar/experiments/pcu_baseline/console/console_21704_14346_C04_BAD_TWO.txt",
+    "direction": "MCVar",
+    "command": "WATCHDOG START timeout_ms=90000 command=\"bin\\mcvar_multiread.exe\" \"--read\" \"--confirm=YES\" \"--items=config\\bad2mixed5.txt\" \"--limit=5\" \"--shape=array-bstr\" \"--cache-device=1\""
+  },
+  {
+    "timestamp": "2026-10-31 13:30:19.903",
+    "console": "MCVar/experiments/pcu_baseline/console/console_21704_14346_C05_ALL_BAD.txt",
+    "direction": "MCVar",
+    "command": "WATCHDOG START timeout_ms=90000 command=\"bin\\mcvar_multiread.exe\" \"--read\" \"--confirm=YES\" \"--items=config\\bad3only.txt\" \"--limit=3\" \"--shape=array-bstr\" \"--cache-device=1\""
+  },
+  {
+    "timestamp": "2026-10-31 13:30:21.966",
+    "console": "MCVar/experiments/pcu_baseline/console/console_21704_14346_C06_BAD20_SPARSE.txt",
+    "direction": "MCVar",
+    "command": "WATCHDOG START timeout_ms=90000 command=\"bin\\mcvar_multiread.exe\" \"--read\" \"--confirm=YES\" \"--items=config\\bad20spread.txt\" \"--limit=20\" \"--shape=array-bstr\" \"--cache-device=1\""
+  },
+  {
+    "timestamp": "2026-10-31 13:30:24.079",
+    "console": "MCVar/experiments/pcu_baseline/console/console_21704_14346_C07_DUP_BAD5.txt",
+    "direction": "MCVar",
+    "command": "WATCHDOG START timeout_ms=90000 command=\"bin\\mcvar_multiread.exe\" \"--read\" \"--confirm=YES\" \"--items=config\\bad5same.txt\" \"--limit=5\" \"--shape=array-bstr\" \"--cache-device=1\""
+  },
+  {
+    "timestamp": "2026-10-31 13:30:26.142",
+    "console": "MCVar/experiments/pcu_baseline/console/console_21704_14346_C08_UNSUPPORTED_VARIANT.txt",
+    "direction": "MCVar",
+    "command": "WATCHDOG START timeout_ms=90000 command=\"bin\\mcvar_multiread.exe\" \"--read\" \"--confirm=YES\" \"--items=config\\items_1.txt\" \"--limit=1\" \"--shape=array-variant\" \"--cache-device=1\""
+  },
+  {
+    "timestamp": "2026-10-31 13:30:28.175",
+    "console": "MCVar/experiments/pcu_baseline/console/console_21704_14346_C09_RECOVER_AFTER_ERR.txt",
+    "direction": "MCVar",
+    "command": "WATCHDOG START timeout_ms=90000 command=\"bin\\mcvar_multiread.exe\" \"--read\" \"--confirm=YES\" \"--items=config\\items_control.txt\" \"--limit=20\" \"--shape=array-bstr\" \"--cache-device=1\""
+  },
+  {
+    "timestamp": "2026-10-31 13:30:30.328",
+    "console": "MCVar/experiments/pcu_baseline/console/console_21704_14346_D01_CACHE_STATIC_1.txt",
+    "direction": "MCVar",
+    "command": "WATCHDOG START timeout_ms=90000 command=\"bin\\mcvar_multiread.exe\" \"--read\" \"--confirm=YES\" \"--items=config\\items_1.txt\" \"--limit=1\" \"--shape=array-bstr\" \"--cache-device=1\""
+  },
+  {
+    "timestamp": "2026-10-31 13:30:32.391",
+    "console": "MCVar/experiments/pcu_baseline/console/console_21704_14346_D02_CACHE_STATIC_0.txt",
+    "direction": "MCVar",
+    "command": "WATCHDOG START timeout_ms=90000 command=\"bin\\mcvar_multiread.exe\" \"--read\" \"--confirm=YES\" \"--items=config\\items_1.txt\" \"--limit=1\" \"--shape=array-bstr\" \"--cache-device=0\""
+  },
+  {
+    "timestamp": "2026-10-31 13:30:34.444",
+    "console": "MCVar/experiments/pcu_baseline/console/console_21704_14346_D03_CACHE_STATIC_2.txt",
+    "direction": "MCVar",
+    "command": "WATCHDOG START timeout_ms=90000 command=\"bin\\mcvar_multiread.exe\" \"--read\" \"--confirm=YES\" \"--items=config\\items_1.txt\" \"--limit=1\" \"--shape=array-bstr\" \"--cache-device=2\""
+  },
+  {
+    "timestamp": "2026-10-31 13:30:36.497",
+    "console": "MCVar/experiments/pcu_baseline/console/console_21704_14346_D04_CACHE_STATIC_1.txt",
+    "direction": "MCVar",
+    "command": "WATCHDOG START timeout_ms=90000 command=\"bin\\mcvar_multiread.exe\" \"--read\" \"--confirm=YES\" \"--items=config\\items_1.txt\" \"--limit=1\" \"--shape=array-bstr\" \"--cache-device=1\""
+  },
+  {
+    "timestamp": "2026-10-31 13:30:38.560",
+    "console": "MCVar/experiments/pcu_baseline/console/console_21704_14346_D05_CACHE_CLOCK_1.txt",
+    "direction": "MCVar",
+    "command": "WATCHDOG START timeout_ms=90000 command=\"bin\\mcvar_multiread.exe\" \"--read\" \"--confirm=YES\" \"--items=config\\clock1.txt\" \"--limit=1\" \"--shape=array-bstr\" \"--repeat=2\" \"--interval-ms=3000\" \"--cache-device=1\""
+  },
+  {
+    "timestamp": "2026-10-31 13:30:43.627",
+    "console": "MCVar/experiments/pcu_baseline/console/console_21704_14346_D06_CACHE_CLOCK_0.txt",
+    "direction": "MCVar",
+    "command": "WATCHDOG START timeout_ms=90000 command=\"bin\\mcvar_multiread.exe\" \"--read\" \"--confirm=YES\" \"--items=config\\clock1.txt\" \"--limit=1\" \"--shape=array-bstr\" \"--repeat=2\" \"--interval-ms=3000\" \"--cache-device=0\""
+  },
+  {
+    "timestamp": "2026-10-31 13:30:48.704",
+    "console": "MCVar/experiments/pcu_baseline/console/console_21704_14346_D07_CACHE_CLOCK_2.txt",
+    "direction": "MCVar",
+    "command": "WATCHDOG START timeout_ms=90000 command=\"bin\\mcvar_multiread.exe\" \"--read\" \"--confirm=YES\" \"--items=config\\clock1.txt\" \"--limit=1\" \"--shape=array-bstr\" \"--repeat=2\" \"--interval-ms=3000\" \"--cache-device=2\""
+  },
+  {
+    "timestamp": "2026-10-31 13:30:53.762",
+    "console": "MCVar/experiments/pcu_baseline/console/console_21704_14346_D08_CACHE_CLOCK_1.txt",
+    "direction": "MCVar",
+    "command": "WATCHDOG START timeout_ms=90000 command=\"bin\\mcvar_multiread.exe\" \"--read\" \"--confirm=YES\" \"--items=config\\clock1.txt\" \"--limit=1\" \"--shape=array-bstr\" \"--repeat=2\" \"--interval-ms=3000\" \"--cache-device=1\""
+  },
+  {
+    "timestamp": "2026-10-31 13:30:58.819",
+    "console": "MCVar/experiments/pcu_baseline/console/console_21704_14346_D11_CACHE_CLOCK20_0.txt",
+    "direction": "MCVar",
+    "command": "WATCHDOG START timeout_ms=90000 command=\"bin\\mcvar_multiread.exe\" \"--read\" \"--confirm=YES\" \"--items=config\\clock20.txt\" \"--limit=20\" \"--shape=array-bstr\" \"--cache-device=0\""
+  },
+  {
+    "timestamp": "2026-10-31 13:31:00.992",
+    "console": "MCVar/experiments/pcu_baseline/console/console_21704_14346_D12_CACHE_CLOCK20_1.txt",
+    "direction": "MCVar",
+    "command": "WATCHDOG START timeout_ms=90000 command=\"bin\\mcvar_multiread.exe\" \"--read\" \"--confirm=YES\" \"--items=config\\clock20.txt\" \"--limit=20\" \"--shape=array-bstr\" \"--cache-device=1\""
+  },
+  {
+    "timestamp": "2026-10-31 13:31:03.135",
+    "console": "MCVar/experiments/pcu_baseline/console/console_21704_14346_D13_CACHE_CLOCK20_2.txt",
+    "direction": "MCVar",
+    "command": "WATCHDOG START timeout_ms=90000 command=\"bin\\mcvar_multiread.exe\" \"--read\" \"--confirm=YES\" \"--items=config\\clock20.txt\" \"--limit=20\" \"--shape=array-bstr\" \"--cache-device=2\""
+  },
+  {
+    "timestamp": "2026-10-31 13:31:05.328",
+    "console": "DDE_NCDDE/experiments/pcu_baseline/console/console_21704_14346_E01_BINARY_ONE.txt",
+    "direction": "DDE_NCDDE",
+    "command": "WATCHDOG START timeout_ms=35000 command=\"bin\\dde_series.exe\" \"--confirm=YES\" \"--items=config\\items_1.txt\" \"--expect-items=1\" \"--mode=binary\" \"--rounds=1\" \"--order=text-first\" \"--interval-ms=1500\" \"--timeout-ms=5000\""
+  },
+  {
+    "timestamp": "2026-10-31 13:31:08.893",
+    "console": "DDE_NCDDE/experiments/pcu_baseline/console/console_21704_14346_E02_TEXT_ONLY_FIVE.txt",
+    "direction": "DDE_NCDDE",
+    "command": "WATCHDOG START timeout_ms=35000 command=\"bin\\dde_series.exe\" \"--confirm=YES\" \"--items=config\\items_5.txt\" \"--expect-items=5\" \"--mode=text\" \"--rounds=1\" \"--order=text-first\" \"--interval-ms=1500\" \"--timeout-ms=5000\""
+  },
+  {
+    "timestamp": "2026-10-31 13:31:18.447",
+    "console": "DDE_NCDDE/experiments/pcu_baseline/console/console_21704_14346_E03_BINARY_ONE_AFTER_TEXT.txt",
+    "direction": "DDE_NCDDE",
+    "command": "WATCHDOG START timeout_ms=35000 command=\"bin\\dde_series.exe\" \"--confirm=YES\" \"--items=config\\items_1.txt\" \"--expect-items=1\" \"--mode=binary\" \"--rounds=1\" \"--order=text-first\" \"--interval-ms=1500\" \"--timeout-ms=5000\""
+  },
+  {
+    "timestamp": "2026-10-31 13:31:22.002",
+    "console": "DDE_NCDDE/experiments/pcu_baseline/console/console_21704_14346_E04_BINARY_TWENTY.txt",
+    "direction": "DDE_NCDDE",
+    "command": "WATCHDOG START timeout_ms=68000 command=\"bin\\dde_series.exe\" \"--confirm=YES\" \"--items=config\\items_control.txt\" \"--expect-items=20\" \"--mode=binary\" \"--rounds=1\" \"--order=text-first\" \"--interval-ms=1500\" \"--timeout-ms=5000\""
+  },
+  {
+    "timestamp": "2026-10-31 13:31:54.098",
+    "console": "DDE_NCDDE/experiments/pcu_baseline/console/console_21704_14346_E05_BOTH_5_TEXT_FIRST.txt",
+    "direction": "DDE_NCDDE",
+    "command": "WATCHDOG START timeout_ms=43000 command=\"bin\\dde_series.exe\" \"--confirm=YES\" \"--items=config\\items_5.txt\" \"--expect-items=5\" \"--mode=both\" \"--rounds=1\" \"--order=text-first\" \"--interval-ms=1500\" \"--timeout-ms=5000\""
+  },
+  {
+    "timestamp": "2026-10-31 13:32:11.163",
+    "console": "DDE_NCDDE/experiments/pcu_baseline/console/console_21704_14346_E06_BOTH_5_BINARY_FIRST.txt",
+    "direction": "DDE_NCDDE",
+    "command": "WATCHDOG START timeout_ms=43000 command=\"bin\\dde_series.exe\" \"--confirm=YES\" \"--items=config\\items_5.txt\" \"--expect-items=5\" \"--mode=both\" \"--rounds=1\" \"--order=binary-first\" \"--interval-ms=1500\" \"--timeout-ms=5000\""
+  },
+  {
+    "timestamp": "2026-10-31 13:32:28.227",
+    "console": "DDE_NCDDE/experiments/pcu_baseline/console/console_21704_14346_E07_REPEAT_BINARY_1.txt",
+    "direction": "DDE_NCDDE",
+    "command": "WATCHDOG START timeout_ms=35000 command=\"bin\\dde_series.exe\" \"--confirm=YES\" \"--items=config\\items_1.txt\" \"--expect-items=1\" \"--mode=binary\" \"--rounds=2\" \"--order=text-first\" \"--interval-ms=1500\" \"--timeout-ms=5000\""
+  },
+  {
+    "timestamp": "2026-10-31 13:32:33.265",
+    "console": "DDE_NCDDE/experiments/pcu_baseline/console/console_21704_14346_E08_REPEAT_BINARY_5.txt",
+    "direction": "DDE_NCDDE",
+    "command": "WATCHDOG START timeout_ms=43000 command=\"bin\\dde_series.exe\" \"--confirm=YES\" \"--items=config\\items_5.txt\" \"--expect-items=5\" \"--mode=binary\" \"--rounds=2\" \"--order=text-first\" \"--interval-ms=1500\" \"--timeout-ms=5000\""
+  },
+  {
+    "timestamp": "2026-10-31 13:32:50.329",
+    "console": "DDE_NCDDE/experiments/pcu_baseline/console/console_21704_14346_E09_REPEAT_MIXED_5.txt",
+    "direction": "DDE_NCDDE",
+    "command": "WATCHDOG START timeout_ms=68000 command=\"bin\\dde_series.exe\" \"--confirm=YES\" \"--items=config\\items_5.txt\" \"--expect-items=5\" \"--mode=both\" \"--rounds=2\" \"--order=binary-first\" \"--interval-ms=1500\" \"--timeout-ms=5000\""
+  },
+  {
+    "timestamp": "2026-10-31 13:33:22.415",
+    "console": "DDE_NCDDE/experiments/pcu_baseline/console/console_21704_14346_E10_DDE_STRINGS.txt",
+    "direction": "DDE_NCDDE",
+    "command": "WATCHDOG START timeout_ms=43000 command=\"bin\\dde_series.exe\" \"--confirm=YES\" \"--items=config\\strings5.txt\" \"--expect-items=5\" \"--mode=both\" \"--rounds=1\" \"--order=text-first\" \"--interval-ms=1500\" \"--timeout-ms=5000\""
+  },
+  {
+    "timestamp": "2026-10-31 13:33:39.470",
+    "console": "DDE_NCDDE/experiments/pcu_baseline/console/console_21704_14346_E11_DDE_DOUBLES.txt",
+    "direction": "DDE_NCDDE",
+    "command": "WATCHDOG START timeout_ms=35000 command=\"bin\\dde_series.exe\" \"--confirm=YES\" \"--items=config\\doubles5.txt\" \"--expect-items=5\" \"--mode=binary\" \"--rounds=1\" \"--order=text-first\" \"--interval-ms=1500\" \"--timeout-ms=5000\""
+  },
+  {
+    "timestamp": "2026-10-31 13:33:49.024",
+    "console": "DDE_NCDDE/experiments/pcu_baseline/console/console_21704_14346_E12_DDE_INTS.txt",
+    "direction": "DDE_NCDDE",
+    "command": "WATCHDOG START timeout_ms=35000 command=\"bin\\dde_series.exe\" \"--confirm=YES\" \"--items=config\\integer5.txt\" \"--expect-items=5\" \"--mode=binary\" \"--rounds=1\" \"--order=text-first\" \"--interval-ms=1500\" \"--timeout-ms=5000\""
+  },
+  {
+    "timestamp": "2026-10-31 13:33:58.587",
+    "console": "DDE_NCDDE/experiments/pcu_baseline/console/console_21704_14346_E13_DDE_DOMAINS.txt",
+    "direction": "DDE_NCDDE",
+    "command": "WATCHDOG START timeout_ms=43000 command=\"bin\\dde_series.exe\" \"--confirm=YES\" \"--items=config\\domain5.txt\" \"--expect-items=5\" \"--mode=both\" \"--rounds=1\" \"--order=text-first\" \"--interval-ms=1500\" \"--timeout-ms=5000\""
+  },
+  {
+    "timestamp": "2026-10-31 13:34:15.662",
+    "console": "DDE_NCDDE/experiments/pcu_baseline/console/console_21704_14346_E14_DDE_CLOCK5.txt",
+    "direction": "DDE_NCDDE",
+    "command": "WATCHDOG START timeout_ms=35000 command=\"bin\\dde_series.exe\" \"--confirm=YES\" \"--items=config\\clock5.txt\" \"--expect-items=5\" \"--mode=binary\" \"--rounds=1\" \"--order=text-first\" \"--interval-ms=1500\" \"--timeout-ms=5000\""
+  },
+  {
+    "timestamp": "2026-10-31 13:34:25.206",
+    "console": "DDE_NCDDE/experiments/pcu_baseline/console/console_21704_14346_E15_DDE_STATIC5.txt",
+    "direction": "DDE_NCDDE",
+    "command": "WATCHDOG START timeout_ms=68000 command=\"bin\\dde_series.exe\" \"--confirm=YES\" \"--items=config\\static20.txt\" \"--expect-items=20\" \"--mode=binary\" \"--rounds=1\" \"--order=text-first\" \"--interval-ms=1500\" \"--timeout-ms=5000\""
+  },
+  {
+    "timestamp": "2026-10-31 13:34:57.342",
+    "console": "DDE_NCDDE/experiments/pcu_baseline/console/console_21704_14346_E16_DDE_REVERSE20.txt",
+    "direction": "DDE_NCDDE",
+    "command": "WATCHDOG START timeout_ms=68000 command=\"bin\\dde_series.exe\" \"--confirm=YES\" \"--items=config\\reverse20.txt\" \"--expect-items=20\" \"--mode=binary\" \"--rounds=1\" \"--order=text-first\" \"--interval-ms=1500\" \"--timeout-ms=5000\""
+  },
+  {
+    "timestamp": "2026-10-31 13:35:29.428",
+    "console": "DDE_NCDDE/experiments/pcu_baseline/console/console_21704_14346_E17_DDE_R_INDICES.txt",
+    "direction": "DDE_NCDDE",
+    "command": "WATCHDOG START timeout_ms=35000 command=\"bin\\dde_series.exe\" \"--confirm=YES\" \"--items=config\\r_indices5.txt\" \"--expect-items=5\" \"--mode=binary\" \"--rounds=1\" \"--order=text-first\" \"--interval-ms=1500\" \"--timeout-ms=5000\""
+  },
+  {
+    "timestamp": "2026-10-31 13:35:38.992",
+    "console": "DDE_NCDDE/experiments/pcu_baseline/console/console_21704_14346_F01_OEM_ONE.txt",
+    "direction": "DDE_NCDDE",
+    "command": "WATCHDOG START timeout_ms=35000 command=\"bin\\dde_series.exe\" \"--confirm=YES\" \"--items=config\\items_1.txt\" \"--expect-items=1\" \"--mode=oem\" \"--rounds=1\" \"--order=text-first\" \"--interval-ms=1500\" \"--timeout-ms=5000\""
+  },
+  {
+    "timestamp": "2026-10-31 13:35:42.517",
+    "console": "DDE_NCDDE/experiments/pcu_baseline/console/console_21704_14346_F02_OEM_FIVE.txt",
+    "direction": "DDE_NCDDE",
+    "command": "WATCHDOG START timeout_ms=35000 command=\"bin\\dde_series.exe\" \"--confirm=YES\" \"--items=config\\items_5.txt\" \"--expect-items=5\" \"--mode=oem\" \"--rounds=1\" \"--order=text-first\" \"--interval-ms=1500\" \"--timeout-ms=5000\""
+  },
+  {
+    "timestamp": "2026-10-31 13:35:52.061",
+    "console": "DDE_NCDDE/experiments/pcu_baseline/console/console_21704_14346_F03_ALL_FORMATS_1.txt",
+    "direction": "DDE_NCDDE",
+    "command": "WATCHDOG START timeout_ms=35000 command=\"bin\\dde_series.exe\" \"--confirm=YES\" \"--items=config\\items_1.txt\" \"--expect-items=1\" \"--mode=all\" \"--rounds=1\" \"--order=text-first\" \"--interval-ms=1500\" \"--timeout-ms=5000\""
+  },
+  {
+    "timestamp": "2026-10-31 13:35:58.600",
+    "console": "DDE_NCDDE/experiments/pcu_baseline/console/console_21704_14346_F04_ALL_FORMATS_5.txt",
+    "direction": "DDE_NCDDE",
+    "command": "WATCHDOG START timeout_ms=55500 command=\"bin\\dde_series.exe\" \"--confirm=YES\" \"--items=config\\items_5.txt\" \"--expect-items=5\" \"--mode=all\" \"--rounds=1\" \"--order=text-first\" \"--interval-ms=1500\" \"--timeout-ms=5000\""
+  },
+  {
+    "timestamp": "2026-10-31 13:36:23.165",
+    "console": "DDE_NCDDE/experiments/pcu_baseline/console/console_21704_14346_F05_ALL_BINARY_FIRST.txt",
+    "direction": "DDE_NCDDE",
+    "command": "WATCHDOG START timeout_ms=55500 command=\"bin\\dde_series.exe\" \"--confirm=YES\" \"--items=config\\items_5.txt\" \"--expect-items=5\" \"--mode=all\" \"--rounds=1\" \"--order=binary-first\" \"--interval-ms=1500\" \"--timeout-ms=5000\""
+  },
+  {
+    "timestamp": "2026-10-31 13:36:47.731",
+    "console": "DDE_NCDDE/experiments/pcu_baseline/console/console_21704_14346_F06_OEM_BAD.txt",
+    "direction": "DDE_NCDDE",
+    "command": "WATCHDOG START timeout_ms=35000 command=\"bin\\dde_series.exe\" \"--confirm=YES\" \"--items=config\\bad_middle3.txt\" \"--expect-items=3\" \"--mode=oem\" \"--rounds=1\" \"--order=text-first\" \"--interval-ms=1500\" \"--timeout-ms=5000\""
+  },
+  {
+    "timestamp": "2026-10-31 13:36:54.270",
+    "console": "DDE_NCDDE/experiments/pcu_baseline/console/console_21704_14346_F07_ALL_BAD_MIX.txt",
+    "direction": "DDE_NCDDE",
+    "command": "WATCHDOG START timeout_ms=40500 command=\"bin\\dde_series.exe\" \"--confirm=YES\" \"--items=config\\bad_middle3.txt\" \"--expect-items=3\" \"--mode=all\" \"--rounds=1\" \"--order=text-first\" \"--interval-ms=1500\" \"--timeout-ms=5000\""
+  },
+  {
+    "timestamp": "2026-10-31 13:37:09.842",
+    "console": "DDE_NCDDE/experiments/pcu_baseline/console/console_21704_14346_G00_BEFORE_1.txt",
+    "direction": "DDE_NCDDE",
+    "command": "WATCHDOG START timeout_ms=35000 command=\"bin\\dde_series.exe\" \"--confirm=YES\" \"--items=config\\items_1.txt\" \"--expect-items=1\" \"--mode=binary\" \"--rounds=1\" \"--order=text-first\" \"--interval-ms=1500\" \"--timeout-ms=5000\""
+  },
+  {
+    "timestamp": "2026-10-31 13:37:13.407",
+    "console": "MCVar/experiments/pcu_baseline/console/console_21704_14346_G01_MC_1.txt",
+    "direction": "MCVar",
+    "command": "WATCHDOG START timeout_ms=90000 command=\"bin\\mcvar_multiread.exe\" \"--read\" \"--confirm=YES\" \"--items=config\\items_1.txt\" \"--limit=1\" \"--shape=array-bstr\" \"--cache-device=1\""
+  },
+  {
+    "timestamp": "2026-10-31 13:37:15.470",
+    "console": "DDE_NCDDE/experiments/pcu_baseline/console/console_21704_14346_G02_AFTER_MC1.txt",
+    "direction": "DDE_NCDDE",
+    "command": "WATCHDOG START timeout_ms=35000 command=\"bin\\dde_series.exe\" \"--confirm=YES\" \"--items=config\\items_1.txt\" \"--expect-items=1\" \"--mode=binary\" \"--rounds=1\" \"--order=text-first\" \"--interval-ms=1500\" \"--timeout-ms=5000\""
+  },
+  {
+    "timestamp": "2026-10-31 13:37:19.016",
+    "console": "MCVar/experiments/pcu_baseline/console/console_21704_14346_G03_MC_5.txt",
+    "direction": "MCVar",
+    "command": "WATCHDOG START timeout_ms=90000 command=\"bin\\mcvar_multiread.exe\" \"--read\" \"--confirm=YES\" \"--items=config\\items_control.txt\" \"--limit=5\" \"--shape=array-bstr\" \"--cache-device=1\""
+  },
+  {
+    "timestamp": "2026-10-31 13:37:21.089",
+    "console": "DDE_NCDDE/experiments/pcu_baseline/console/console_21704_14346_G04_AFTER_MC5.txt",
+    "direction": "DDE_NCDDE",
+    "command": "WATCHDOG START timeout_ms=35000 command=\"bin\\dde_series.exe\" \"--confirm=YES\" \"--items=config\\items_1.txt\" \"--expect-items=1\" \"--mode=binary\" \"--rounds=1\" \"--order=text-first\" \"--interval-ms=1500\" \"--timeout-ms=5000\""
+  },
+  {
+    "timestamp": "2026-10-31 13:37:24.634",
+    "console": "MCVar/experiments/pcu_baseline/console/console_21704_14346_G05_MC_20.txt",
+    "direction": "MCVar",
+    "command": "WATCHDOG START timeout_ms=90000 command=\"bin\\mcvar_multiread.exe\" \"--read\" \"--confirm=YES\" \"--items=config\\items_control.txt\" \"--limit=20\" \"--shape=array-bstr\" \"--cache-device=1\""
+  },
+  {
+    "timestamp": "2026-10-31 13:37:26.757",
+    "console": "DDE_NCDDE/experiments/pcu_baseline/console/console_21704_14346_G06_AFTER_MC20.txt",
+    "direction": "DDE_NCDDE",
+    "command": "WATCHDOG START timeout_ms=35000 command=\"bin\\dde_series.exe\" \"--confirm=YES\" \"--items=config\\items_1.txt\" \"--expect-items=1\" \"--mode=binary\" \"--rounds=1\" \"--order=text-first\" \"--interval-ms=1500\" \"--timeout-ms=5000\""
+  },
+  {
+    "timestamp": "2026-10-31 13:37:30.302",
+    "console": "MCVar/experiments/pcu_baseline/console/console_21704_14346_G07_MC_5_BAD2.txt",
+    "direction": "MCVar",
+    "command": "WATCHDOG START timeout_ms=90000 command=\"bin\\mcvar_multiread.exe\" \"--read\" \"--confirm=YES\" \"--items=config\\bad2mixed5.txt\" \"--limit=5\" \"--shape=array-bstr\" \"--cache-device=1\""
+  },
+  {
+    "timestamp": "2026-10-31 13:37:32.375",
+    "console": "DDE_NCDDE/experiments/pcu_baseline/console/console_21704_14346_G08_AFTER_BAD2.txt",
+    "direction": "DDE_NCDDE",
+    "command": "WATCHDOG START timeout_ms=35000 command=\"bin\\dde_series.exe\" \"--confirm=YES\" \"--items=config\\items_1.txt\" \"--expect-items=1\" \"--mode=binary\" \"--rounds=1\" \"--order=text-first\" \"--interval-ms=1500\" \"--timeout-ms=5000\""
+  },
+  {
+    "timestamp": "2026-10-31 13:37:35.960",
+    "console": "MCVar/experiments/pcu_baseline/console/console_21704_14346_G09_MC_ALL_BAD.txt",
+    "direction": "MCVar",
+    "command": "WATCHDOG START timeout_ms=90000 command=\"bin\\mcvar_multiread.exe\" \"--read\" \"--confirm=YES\" \"--items=config\\bad3only.txt\" \"--limit=3\" \"--shape=array-bstr\" \"--cache-device=1\""
+  },
+  {
+    "timestamp": "2026-10-31 13:37:38.013",
+    "console": "DDE_NCDDE/experiments/pcu_baseline/console/console_21704_14346_G10_AFTER_ALL_BAD.txt",
+    "direction": "DDE_NCDDE",
+    "command": "WATCHDOG START timeout_ms=35000 command=\"bin\\dde_series.exe\" \"--confirm=YES\" \"--items=config\\items_1.txt\" \"--expect-items=1\" \"--mode=binary\" \"--rounds=1\" \"--order=text-first\" \"--interval-ms=1500\" \"--timeout-ms=5000\""
+  },
+  {
+    "timestamp": "2026-10-31 13:37:41.548",
+    "console": "MCVar/experiments/pcu_baseline/console/console_21704_14346_G11_MC_BAD_SHAPE.txt",
+    "direction": "MCVar",
+    "command": "WATCHDOG START timeout_ms=90000 command=\"bin\\mcvar_multiread.exe\" \"--read\" \"--confirm=YES\" \"--items=config\\items_1.txt\" \"--limit=1\" \"--shape=array-variant\" \"--cache-device=1\""
+  },
+  {
+    "timestamp": "2026-10-31 13:37:43.581",
+    "console": "DDE_NCDDE/experiments/pcu_baseline/console/console_21704_14346_G12_AFTER_BAD_SHAPE.txt",
+    "direction": "DDE_NCDDE",
+    "command": "WATCHDOG START timeout_ms=35000 command=\"bin\\dde_series.exe\" \"--confirm=YES\" \"--items=config\\items_1.txt\" \"--expect-items=1\" \"--mode=binary\" \"--rounds=1\" \"--order=text-first\" \"--interval-ms=1500\" \"--timeout-ms=5000\""
+  },
+  {
+    "timestamp": "2026-10-31 13:37:47.126",
+    "console": "DDE_NCDDE/experiments/pcu_baseline/console/console_21704_14346_G13_TEXT_ONLY.txt",
+    "direction": "DDE_NCDDE",
+    "command": "WATCHDOG START timeout_ms=35000 command=\"bin\\dde_series.exe\" \"--confirm=YES\" \"--items=config\\items_5.txt\" \"--expect-items=5\" \"--mode=text\" \"--rounds=1\" \"--order=text-first\" \"--interval-ms=1500\" \"--timeout-ms=5000\""
+  },
+  {
+    "timestamp": "2026-10-31 13:37:56.670",
+    "console": "DDE_NCDDE/experiments/pcu_baseline/console/console_21704_14346_G14_AFTER_TEXT.txt",
+    "direction": "DDE_NCDDE",
+    "command": "WATCHDOG START timeout_ms=35000 command=\"bin\\dde_series.exe\" \"--confirm=YES\" \"--items=config\\items_1.txt\" \"--expect-items=1\" \"--mode=binary\" \"--rounds=1\" \"--order=text-first\" \"--interval-ms=1500\" \"--timeout-ms=5000\""
+  },
+  {
+    "timestamp": "2026-10-31 13:38:00.205",
+    "console": "DDE_NCDDE/experiments/pcu_baseline/console/console_21704_14346_G15_DDE_BAD.txt",
+    "direction": "DDE_NCDDE",
+    "command": "WATCHDOG START timeout_ms=35000 command=\"bin\\dde_series.exe\" \"--confirm=YES\" \"--items=config\\bad3only.txt\" \"--expect-items=3\" \"--mode=binary\" \"--rounds=1\" \"--order=text-first\" \"--interval-ms=1500\" \"--timeout-ms=5000\""
+  },
+  {
+    "timestamp": "2026-10-31 13:38:06.744",
+    "console": "DDE_NCDDE/experiments/pcu_baseline/console/console_21704_14346_G16_AFTER_DDE_BAD.txt",
+    "direction": "DDE_NCDDE",
+    "command": "WATCHDOG START timeout_ms=35000 command=\"bin\\dde_series.exe\" \"--confirm=YES\" \"--items=config\\items_1.txt\" \"--expect-items=1\" \"--mode=binary\" \"--rounds=1\" \"--order=text-first\" \"--interval-ms=1500\" \"--timeout-ms=5000\""
+  },
+  {
+    "timestamp": "2026-10-31 13:38:10.289",
+    "console": "MCVar/experiments/pcu_baseline/console/console_21704_14346_G17_MCV_20_REPEAT2.txt",
+    "direction": "MCVar",
+    "command": "WATCHDOG START timeout_ms=90000 command=\"bin\\mcvar_multiread.exe\" \"--read\" \"--confirm=YES\" \"--items=config\\items_control.txt\" \"--limit=20\" \"--repeat=2\" \"--interval-ms=2500\" \"--shape=array-bstr\" \"--cache-device=1\""
+  },
+  {
+    "timestamp": "2026-10-31 13:38:15.006",
+    "console": "DDE_NCDDE/experiments/pcu_baseline/console/console_21704_14346_G18_AFTER_40.txt",
+    "direction": "DDE_NCDDE",
+    "command": "WATCHDOG START timeout_ms=35000 command=\"bin\\dde_series.exe\" \"--confirm=YES\" \"--items=config\\items_1.txt\" \"--expect-items=1\" \"--mode=binary\" \"--rounds=1\" \"--order=text-first\" \"--interval-ms=1500\" \"--timeout-ms=5000\""
+  },
+  {
+    "timestamp": "2026-10-31 13:38:18.551",
+    "console": "DDE_NCDDE/experiments/pcu_baseline/console/console_21704_14346_H01_DDE_BAD_FIRST.txt",
+    "direction": "DDE_NCDDE",
+    "command": "WATCHDOG START timeout_ms=35000 command=\"bin\\dde_series.exe\" \"--confirm=YES\" \"--items=config\\bad_first3.txt\" \"--expect-items=3\" \"--mode=both\" \"--rounds=1\" \"--order=text-first\" \"--interval-ms=1500\" \"--timeout-ms=5000\""
+  },
+  {
+    "timestamp": "2026-10-31 13:38:29.587",
+    "console": "DDE_NCDDE/experiments/pcu_baseline/console/console_21704_14346_H02_DDE_BAD_MIDDLE.txt",
+    "direction": "DDE_NCDDE",
+    "command": "WATCHDOG START timeout_ms=35000 command=\"bin\\dde_series.exe\" \"--confirm=YES\" \"--items=config\\bad_middle3.txt\" \"--expect-items=3\" \"--mode=both\" \"--rounds=1\" \"--order=text-first\" \"--interval-ms=1500\" \"--timeout-ms=5000\""
+  },
+  {
+    "timestamp": "2026-10-31 13:38:40.633",
+    "console": "DDE_NCDDE/experiments/pcu_baseline/console/console_21704_14346_H03_DDE_BAD_LAST.txt",
+    "direction": "DDE_NCDDE",
+    "command": "WATCHDOG START timeout_ms=35000 command=\"bin\\dde_series.exe\" \"--confirm=YES\" \"--items=config\\bad_last3.txt\" \"--expect-items=3\" \"--mode=both\" \"--rounds=1\" \"--order=text-first\" \"--interval-ms=1500\" \"--timeout-ms=5000\""
+  },
+  {
+    "timestamp": "2026-10-31 13:38:51.679",
+    "console": "DDE_NCDDE/experiments/pcu_baseline/console/console_21704_14346_H04_DDE_ALL_BAD.txt",
+    "direction": "DDE_NCDDE",
+    "command": "WATCHDOG START timeout_ms=35000 command=\"bin\\dde_series.exe\" \"--confirm=YES\" \"--items=config\\bad3only.txt\" \"--expect-items=3\" \"--mode=both\" \"--rounds=1\" \"--order=text-first\" \"--interval-ms=1500\" \"--timeout-ms=5000\""
+  },
+  {
+    "timestamp": "2026-10-31 13:39:02.725",
+    "console": "DDE_NCDDE/experiments/pcu_baseline/console/console_21704_14346_H05_DDE_RECOVERY.txt",
+    "direction": "DDE_NCDDE",
+    "command": "WATCHDOG START timeout_ms=43000 command=\"bin\\dde_series.exe\" \"--confirm=YES\" \"--items=config\\items_5.txt\" \"--expect-items=5\" \"--mode=both\" \"--rounds=1\" \"--order=text-first\" \"--interval-ms=1500\" \"--timeout-ms=5000\""
+  },
+  {
+    "timestamp": "2026-10-31 13:39:19.789",
+    "console": "MCVar/experiments/pcu_baseline/console/console_21704_14346_H06_MC_RECOVERY.txt",
+    "direction": "MCVar",
+    "command": "WATCHDOG START timeout_ms=90000 command=\"bin\\mcvar_multiread.exe\" \"--read\" \"--confirm=YES\" \"--items=config\\items_control.txt\" \"--limit=20\" \"--shape=array-bstr\" \"--cache-device=1\""
+  },
+  {
+    "timestamp": "2026-10-31 13:39:21.932",
+    "console": "DDE_NCDDE/experiments/pcu_baseline/console/console_21704_14346_H07_SPINDLE_VALUES.txt",
+    "direction": "DDE_NCDDE",
+    "command": "WATCHDOG START timeout_ms=43000 command=\"bin\\dde_series.exe\" \"--confirm=YES\" \"--items=config\\spindle5.txt\" \"--expect-items=5\" \"--mode=both\" \"--rounds=1\" \"--order=text-first\" \"--interval-ms=1500\" \"--timeout-ms=5000\""
+  },
+  {
+    "timestamp": "2026-10-31 13:39:39.017",
+    "console": "DDE_NCDDE/experiments/pcu_baseline/console/console_21704_14346_H08_CLOCK_MIXED.txt",
+    "direction": "DDE_NCDDE",
+    "command": "WATCHDOG START timeout_ms=35000 command=\"bin\\dde_series.exe\" \"--confirm=YES\" \"--items=config\\clock_and_params5.txt\" \"--expect-items=5\" \"--mode=binary\" \"--rounds=1\" \"--order=text-first\" \"--interval-ms=1500\" \"--timeout-ms=5000\""
+  },
+  {
+    "timestamp": "2026-10-31 13:39:48.671",
+    "console": "MCVar/experiments/pcu_baseline/console/console_21704_14346_I01_MC20.txt",
+    "direction": "MCVar",
+    "command": "WATCHDOG START timeout_ms=90000 command=\"bin\\mcvar_multiread.exe\" \"--read\" \"--confirm=YES\" \"--items=config\\items_control.txt\" \"--limit=20\" \"--shape=array-bstr\" \"--cache-device=1\""
+  },
+  {
+    "timestamp": "2026-10-31 13:39:50.794",
+    "console": "DDE_NCDDE/experiments/pcu_baseline/console/console_21704_14346_I02_DDE20.txt",
+    "direction": "DDE_NCDDE",
+    "command": "WATCHDOG START timeout_ms=68000 command=\"bin\\dde_series.exe\" \"--confirm=YES\" \"--items=config\\items_control.txt\" \"--expect-items=20\" \"--mode=binary\" \"--rounds=1\" \"--order=text-first\" \"--interval-ms=1500\" \"--timeout-ms=5000\""
+  },
+  {
+    "timestamp": "2026-10-31 13:40:22.890",
+    "console": "MCVar/experiments/pcu_baseline/console/console_21704_14346_I03_CLOCK20.txt",
+    "direction": "MCVar",
+    "command": "WATCHDOG START timeout_ms=90000 command=\"bin\\mcvar_multiread.exe\" \"--read\" \"--confirm=YES\" \"--items=config\\clock20.txt\" \"--limit=20\" \"--repeat=2\" \"--interval-ms=3000\" \"--shape=array-bstr\" \"--cache-device=1\""
+  },
+  {
+    "timestamp": "2026-10-31 13:40:28.107",
+    "console": "DDE_NCDDE/experiments/pcu_baseline/console/console_21704_14346_I04_DDE_CLOCK5.txt",
+    "direction": "DDE_NCDDE",
+    "command": "WATCHDOG START timeout_ms=43000 command=\"bin\\dde_series.exe\" \"--confirm=YES\" \"--items=config\\clock5.txt\" \"--expect-items=5\" \"--mode=binary\" \"--rounds=2\" \"--order=text-first\" \"--interval-ms=1500\" \"--timeout-ms=5000\""
+  },
+  {
+    "timestamp": "2026-10-31 13:40:45.162",
+    "console": "DDE_NCDDE/experiments/pcu_baseline/console/console_21704_14346_I05_COUNTER_END.txt",
+    "direction": "DDE_NCDDE",
+    "command": "WATCHDOG START timeout_ms=35000 command=\"bin\\dde_series.exe\" \"--confirm=YES\" \"--items=config\\items_1.txt\" \"--expect-items=1\" \"--mode=binary\" \"--rounds=1\" \"--order=text-first\" \"--interval-ms=1500\" \"--timeout-ms=5000\""
+  }
+]

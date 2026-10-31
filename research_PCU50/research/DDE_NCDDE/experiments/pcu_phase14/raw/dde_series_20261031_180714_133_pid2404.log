@@ -1,0 +1,192 @@
+2026-10-31 18:07:14.133 [INFO] === dde_series v0.5 BEGIN ===
+2026-10-31 18:07:14.133 [INFO] EXE=C:\PCU_test\bin\dde_series.exe
+2026-10-31 18:07:14.133 [INFO] PID=2404 args=9 target=Windows XP x86; log=C:\PCU_test\bin\logs\dde_series_20261031_180714_133_pid2404.log
+2026-10-31 18:07:14.133 [INFO] Items=20 rounds=1 mode=2 interval=1500 timeout=5000 total_read_requests_max=20 order=text-first
+2026-10-31 18:07:14.133 [WARN] No write or advise operations; read may load Siemens runtime; value freshness NOT established
+2026-10-31 18:07:14.143 [INFO] DDE_CONNECTED ncdde|machineswitch single persistent conversation
+2026-10-31 18:07:14.143 [INFO] READ round=1 index=1 format=binary item=/Nck/Configuration/numGlobMachAxes elapsed_ms=0 result=DATA_HANDLE
+2026-10-31 18:07:14.143 [DATA] RESPONSE round=1 index=1 format=binary bytes=24
+2026-10-31 18:07:14.143 [HEX] 0000 14 00 01 00 01 00 02 A1 01 00 00 00 04 00 00 00 | ................
+2026-10-31 18:07:14.143 [HEX] 0010 F9 F8 F7 F6 02 00 00 00                         | ........
+2026-10-31 18:07:14.153 [INFO] Raw response: C:\PCU_test\bin\logs\dde_series_20261031_180714_133_pid2404_r01_i01_binary.bin (24 bytes)
+2026-10-31 18:07:14.153 [INFO] Full HEX: C:\PCU_test\bin\logs\dde_series_20261031_180714_133_pid2404_r01_i01_binary.hex
+2026-10-31 18:07:14.153 [DATA] BINARY_HEADER hlen=0x0014 field_02=0x0001 field_04=0x0001 field_06=0xA102 count_candidate=1 element_size_candidate=4 marker=0xF6F7F8F9
+2026-10-31 18:07:14.153 [DATA] BINARY_SIZE_CHECK expected=24 observed=24 MATCH
+2026-10-31 18:07:14.153 [DATA] BINARY_PAYLOAD_LE32=0x00000002 signed_candidate=2 (type NOT established)
+2026-10-31 18:07:15.655 [INFO] READ round=1 index=2 format=binary item=/Nck/Configuration/numChannels elapsed_ms=0 result=DATA_HANDLE
+2026-10-31 18:07:15.655 [DATA] RESPONSE round=1 index=2 format=binary bytes=24
+2026-10-31 18:07:15.655 [HEX] 0000 14 00 01 00 01 00 02 A2 01 00 00 00 04 00 00 00 | ................
+2026-10-31 18:07:15.655 [HEX] 0010 F9 F8 F7 F6 01 00 00 00                         | ........
+2026-10-31 18:07:15.655 [INFO] Raw response: C:\PCU_test\bin\logs\dde_series_20261031_180714_133_pid2404_r01_i02_binary.bin (24 bytes)
+2026-10-31 18:07:15.655 [INFO] Full HEX: C:\PCU_test\bin\logs\dde_series_20261031_180714_133_pid2404_r01_i02_binary.hex
+2026-10-31 18:07:15.655 [DATA] BINARY_HEADER hlen=0x0014 field_02=0x0001 field_04=0x0001 field_06=0xA202 count_candidate=1 element_size_candidate=4 marker=0xF6F7F8F9
+2026-10-31 18:07:15.655 [DATA] BINARY_SIZE_CHECK expected=24 observed=24 MATCH
+2026-10-31 18:07:15.655 [DATA] BINARY_PAYLOAD_LE32=0x00000001 signed_candidate=1 (type NOT established)
+2026-10-31 18:07:17.157 [INFO] READ round=1 index=3 format=binary item=/Nck/State/SysTimeBCD elapsed_ms=0 result=DATA_HANDLE
+2026-10-31 18:07:17.157 [DATA] RESPONSE round=1 index=3 format=binary bytes=28
+2026-10-31 18:07:17.157 [HEX] 0000 14 00 01 00 64 00 06 A3 01 00 00 00 08 00 00 00 | ....d...........
+2026-10-31 18:07:17.157 [HEX] 0010 F9 F8 F7 F6 94 04 28 03 52 33 84 05             | ......(.R3..
+2026-10-31 18:07:17.157 [INFO] Raw response: C:\PCU_test\bin\logs\dde_series_20261031_180714_133_pid2404_r01_i03_binary.bin (28 bytes)
+2026-10-31 18:07:17.157 [INFO] Full HEX: C:\PCU_test\bin\logs\dde_series_20261031_180714_133_pid2404_r01_i03_binary.hex
+2026-10-31 18:07:17.157 [DATA] BINARY_HEADER hlen=0x0014 field_02=0x0001 field_04=0x0064 field_06=0xA306 count_candidate=1 element_size_candidate=8 marker=0xF6F7F8F9
+2026-10-31 18:07:17.157 [DATA] BINARY_SIZE_CHECK expected=28 observed=28 MATCH
+2026-10-31 18:07:18.659 [INFO] READ round=1 index=4 format=binary item=/Nck/State/accIndex elapsed_ms=0 result=DATA_HANDLE
+2026-10-31 18:07:18.659 [DATA] RESPONSE round=1 index=4 format=binary bytes=24
+2026-10-31 18:07:18.659 [HEX] 0000 14 00 01 00 01 00 02 A4 01 00 00 00 04 00 00 00 | ................
+2026-10-31 18:07:18.659 [HEX] 0010 F9 F8 F7 F6 00 00 00 00                         | ........
+2026-10-31 18:07:18.659 [INFO] Raw response: C:\PCU_test\bin\logs\dde_series_20261031_180714_133_pid2404_r01_i04_binary.bin (24 bytes)
+2026-10-31 18:07:18.659 [INFO] Full HEX: C:\PCU_test\bin\logs\dde_series_20261031_180714_133_pid2404_r01_i04_binary.hex
+2026-10-31 18:07:18.659 [DATA] BINARY_HEADER hlen=0x0014 field_02=0x0001 field_04=0x0001 field_06=0xA402 count_candidate=1 element_size_candidate=4 marker=0xF6F7F8F9
+2026-10-31 18:07:18.659 [DATA] BINARY_SIZE_CHECK expected=24 observed=24 MATCH
+2026-10-31 18:07:18.659 [DATA] BINARY_PAYLOAD_LE32=0x00000000 signed_candidate=0 (type NOT established)
+2026-10-31 18:07:20.162 [INFO] READ round=1 index=5 format=binary item=/Nck/Configuration/accessLevel elapsed_ms=0 result=DATA_HANDLE
+2026-10-31 18:07:20.162 [DATA] RESPONSE round=1 index=5 format=binary bytes=24
+2026-10-31 18:07:20.162 [HEX] 0000 14 00 01 00 01 00 02 A5 01 00 00 00 04 00 00 00 | ................
+2026-10-31 18:07:20.162 [HEX] 0010 F9 F8 F7 F6 01 00 00 00                         | ........
+2026-10-31 18:07:20.162 [INFO] Raw response: C:\PCU_test\bin\logs\dde_series_20261031_180714_133_pid2404_r01_i05_binary.bin (24 bytes)
+2026-10-31 18:07:20.162 [INFO] Full HEX: C:\PCU_test\bin\logs\dde_series_20261031_180714_133_pid2404_r01_i05_binary.hex
+2026-10-31 18:07:20.162 [DATA] BINARY_HEADER hlen=0x0014 field_02=0x0001 field_04=0x0001 field_06=0xA502 count_candidate=1 element_size_candidate=4 marker=0xF6F7F8F9
+2026-10-31 18:07:20.162 [DATA] BINARY_SIZE_CHECK expected=24 observed=24 MATCH
+2026-10-31 18:07:20.162 [DATA] BINARY_PAYLOAD_LE32=0x00000001 signed_candidate=1 (type NOT established)
+2026-10-31 18:07:21.664 [INFO] READ round=1 index=6 format=binary item=/Nck/State/numAlarms[u1] elapsed_ms=0 result=DATA_HANDLE
+2026-10-31 18:07:21.664 [DATA] RESPONSE round=1 index=6 format=binary bytes=24
+2026-10-31 18:07:21.664 [HEX] 0000 14 00 01 00 01 00 02 A6 01 00 00 00 04 00 00 00 | ................
+2026-10-31 18:07:21.664 [HEX] 0010 F9 F8 F7 F6 00 00 00 00                         | ........
+2026-10-31 18:07:21.664 [INFO] Raw response: C:\PCU_test\bin\logs\dde_series_20261031_180714_133_pid2404_r01_i06_binary.bin (24 bytes)
+2026-10-31 18:07:21.664 [INFO] Full HEX: C:\PCU_test\bin\logs\dde_series_20261031_180714_133_pid2404_r01_i06_binary.hex
+2026-10-31 18:07:21.664 [DATA] BINARY_HEADER hlen=0x0014 field_02=0x0001 field_04=0x0001 field_06=0xA602 count_candidate=1 element_size_candidate=4 marker=0xF6F7F8F9
+2026-10-31 18:07:21.664 [DATA] BINARY_SIZE_CHECK expected=24 observed=24 MATCH
+2026-10-31 18:07:21.664 [DATA] BINARY_PAYLOAD_LE32=0x00000000 signed_candidate=0 (type NOT established)
+2026-10-31 18:07:23.166 [INFO] READ round=1 index=7 format=binary item=/Bag/State/opMode[u1] elapsed_ms=0 result=DATA_HANDLE
+2026-10-31 18:07:23.166 [DATA] RESPONSE round=1 index=7 format=binary bytes=24
+2026-10-31 18:07:23.166 [HEX] 0000 14 00 01 00 01 00 02 A7 01 00 00 00 04 00 00 00 | ................
+2026-10-31 18:07:23.166 [HEX] 0010 F9 F8 F7 F6 00 00 00 00                         | ........
+2026-10-31 18:07:23.166 [INFO] Raw response: C:\PCU_test\bin\logs\dde_series_20261031_180714_133_pid2404_r01_i07_binary.bin (24 bytes)
+2026-10-31 18:07:23.166 [INFO] Full HEX: C:\PCU_test\bin\logs\dde_series_20261031_180714_133_pid2404_r01_i07_binary.hex
+2026-10-31 18:07:23.166 [DATA] BINARY_HEADER hlen=0x0014 field_02=0x0001 field_04=0x0001 field_06=0xA702 count_candidate=1 element_size_candidate=4 marker=0xF6F7F8F9
+2026-10-31 18:07:23.166 [DATA] BINARY_SIZE_CHECK expected=24 observed=24 MATCH
+2026-10-31 18:07:23.166 [DATA] BINARY_PAYLOAD_LE32=0x00000000 signed_candidate=0 (type NOT established)
+2026-10-31 18:07:24.668 [INFO] READ round=1 index=8 format=binary item=/Channel/State/progStatus[u1] elapsed_ms=0 result=DATA_HANDLE
+2026-10-31 18:07:24.668 [DATA] RESPONSE round=1 index=8 format=binary bytes=24
+2026-10-31 18:07:24.668 [HEX] 0000 14 00 01 00 01 00 02 A8 01 00 00 00 04 00 00 00 | ................
+2026-10-31 18:07:24.668 [HEX] 0010 F9 F8 F7 F6 05 00 00 00                         | ........
+2026-10-31 18:07:24.668 [INFO] Raw response: C:\PCU_test\bin\logs\dde_series_20261031_180714_133_pid2404_r01_i08_binary.bin (24 bytes)
+2026-10-31 18:07:24.668 [INFO] Full HEX: C:\PCU_test\bin\logs\dde_series_20261031_180714_133_pid2404_r01_i08_binary.hex
+2026-10-31 18:07:24.668 [DATA] BINARY_HEADER hlen=0x0014 field_02=0x0001 field_04=0x0001 field_06=0xA802 count_candidate=1 element_size_candidate=4 marker=0xF6F7F8F9
+2026-10-31 18:07:24.668 [DATA] BINARY_SIZE_CHECK expected=24 observed=24 MATCH
+2026-10-31 18:07:24.668 [DATA] BINARY_PAYLOAD_LE32=0x00000005 signed_candidate=5 (type NOT established)
+2026-10-31 18:07:26.170 [INFO] READ round=1 index=9 format=binary item=/Channel/State/stopCond[u1] elapsed_ms=0 result=DATA_HANDLE
+2026-10-31 18:07:26.170 [DATA] RESPONSE round=1 index=9 format=binary bytes=24
+2026-10-31 18:07:26.170 [HEX] 0000 14 00 01 00 01 00 02 A9 01 00 00 00 04 00 00 00 | ................
+2026-10-31 18:07:26.170 [HEX] 0010 F9 F8 F7 F6 00 00 00 00                         | ........
+2026-10-31 18:07:26.170 [INFO] Raw response: C:\PCU_test\bin\logs\dde_series_20261031_180714_133_pid2404_r01_i09_binary.bin (24 bytes)
+2026-10-31 18:07:26.170 [INFO] Full HEX: C:\PCU_test\bin\logs\dde_series_20261031_180714_133_pid2404_r01_i09_binary.hex
+2026-10-31 18:07:26.170 [DATA] BINARY_HEADER hlen=0x0014 field_02=0x0001 field_04=0x0001 field_06=0xA902 count_candidate=1 element_size_candidate=4 marker=0xF6F7F8F9
+2026-10-31 18:07:26.170 [DATA] BINARY_SIZE_CHECK expected=24 observed=24 MATCH
+2026-10-31 18:07:26.170 [DATA] BINARY_PAYLOAD_LE32=0x00000000 signed_candidate=0 (type NOT established)
+2026-10-31 18:07:27.672 [INFO] READ round=1 index=10 format=binary item=/Channel/State/NcResetCounter[u1,1] elapsed_ms=0 result=DATA_HANDLE
+2026-10-31 18:07:27.672 [DATA] RESPONSE round=1 index=10 format=binary bytes=24
+2026-10-31 18:07:27.672 [HEX] 0000 14 00 01 00 01 00 02 AA 01 00 00 00 04 00 00 00 | ................
+2026-10-31 18:07:27.672 [HEX] 0010 F9 F8 F7 F6 00 00 00 00                         | ........
+2026-10-31 18:07:27.672 [INFO] Raw response: C:\PCU_test\bin\logs\dde_series_20261031_180714_133_pid2404_r01_i10_binary.bin (24 bytes)
+2026-10-31 18:07:27.672 [INFO] Full HEX: C:\PCU_test\bin\logs\dde_series_20261031_180714_133_pid2404_r01_i10_binary.hex
+2026-10-31 18:07:27.672 [DATA] BINARY_HEADER hlen=0x0014 field_02=0x0001 field_04=0x0001 field_06=0xAA02 count_candidate=1 element_size_candidate=4 marker=0xF6F7F8F9
+2026-10-31 18:07:27.672 [DATA] BINARY_SIZE_CHECK expected=24 observed=24 MATCH
+2026-10-31 18:07:27.672 [DATA] BINARY_PAYLOAD_LE32=0x00000000 signed_candidate=0 (type NOT established)
+2026-10-31 18:07:29.175 [INFO] READ round=1 index=11 format=binary item=/Channel/ProgramInfo/selectedWorkPProg[u1,1] elapsed_ms=0 result=DATA_HANDLE
+2026-10-31 18:07:29.175 [DATA] RESPONSE round=1 index=11 format=binary bytes=180
+2026-10-31 18:07:29.175 [HEX] 0000 14 00 01 00 64 00 06 AB 01 00 00 00 A0 00 00 00 | ....d...........
+2026-10-31 18:07:29.175 [HEX] 0010 F9 F8 F7 F6 2F 5F 4E 5F 57 4B 53 5F 44 49 52 2F | ..../_N_WKS_DIR/
+2026-10-31 18:07:29.175 [HEX] 0020 5F 4E 5F 53 41 42 5F 57 50 44 2F 5F 4E 5F 53 41 | _N_SAB_WPD/_N_SA
+2026-10-31 18:07:29.175 [HEX] 0030 42 5F 4D 50 46 00 00 00 00 00 00 00 00 00 00 00 | B_MPF...........
+2026-10-31 18:07:29.175 [HEX] 0040 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 | ................
+2026-10-31 18:07:29.175 [HEX] 0050 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 | ................
+2026-10-31 18:07:29.175 [HEX] 0060 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 | ................
+2026-10-31 18:07:29.175 [HEX] 0070 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 | ................
+2026-10-31 18:07:29.175 [HEX] 0080 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 | ................
+2026-10-31 18:07:29.175 [HEX] 0090 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 | ................
+2026-10-31 18:07:29.175 [HEX] 00A0 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 | ................
+2026-10-31 18:07:29.175 [HEX] 00B0 00 00 00 00                                     | ....
+2026-10-31 18:07:29.175 [INFO] Raw response: C:\PCU_test\bin\logs\dde_series_20261031_180714_133_pid2404_r01_i11_binary.bin (180 bytes)
+2026-10-31 18:07:29.185 [INFO] Full HEX: C:\PCU_test\bin\logs\dde_series_20261031_180714_133_pid2404_r01_i11_binary.hex
+2026-10-31 18:07:29.185 [DATA] BINARY_HEADER hlen=0x0014 field_02=0x0001 field_04=0x0064 field_06=0xAB06 count_candidate=1 element_size_candidate=160 marker=0xF6F7F8F9
+2026-10-31 18:07:29.185 [DATA] BINARY_SIZE_CHECK expected=180 observed=180 MATCH
+2026-10-31 18:07:30.717 [INFO] READ round=1 index=12 format=binary item=/Channel/ProgramPointer/progName[u1,1] elapsed_ms=10 result=DATA_HANDLE
+2026-10-31 18:07:30.717 [DATA] RESPONSE round=1 index=12 format=binary bytes=52
+2026-10-31 18:07:30.717 [HEX] 0000 14 00 01 00 64 00 06 AC 01 00 00 00 20 00 00 00 | ....d....... ...
+2026-10-31 18:07:30.717 [HEX] 0010 F9 F8 F7 F6 5F 4E 5F 53 41 42 5F 4D 50 46 00 00 | ...._N_SAB_MPF..
+2026-10-31 18:07:30.717 [HEX] 0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 | ................
+2026-10-31 18:07:30.717 [HEX] 0030 00 00 00 00                                     | ....
+2026-10-31 18:07:30.717 [INFO] Raw response: C:\PCU_test\bin\logs\dde_series_20261031_180714_133_pid2404_r01_i12_binary.bin (52 bytes)
+2026-10-31 18:07:30.717 [INFO] Full HEX: C:\PCU_test\bin\logs\dde_series_20261031_180714_133_pid2404_r01_i12_binary.hex
+2026-10-31 18:07:30.717 [DATA] BINARY_HEADER hlen=0x0014 field_02=0x0001 field_04=0x0064 field_06=0xAC06 count_candidate=1 element_size_candidate=32 marker=0xF6F7F8F9
+2026-10-31 18:07:30.717 [DATA] BINARY_SIZE_CHECK expected=52 observed=52 MATCH
+2026-10-31 18:07:32.219 [INFO] READ round=1 index=13 format=binary item=/Channel/State/actParts[u1] elapsed_ms=0 result=DATA_HANDLE
+2026-10-31 18:07:32.219 [DATA] RESPONSE round=1 index=13 format=binary bytes=28
+2026-10-31 18:07:32.219 [HEX] 0000 14 00 01 00 02 00 05 AD 01 00 00 00 08 00 00 00 | ................
+2026-10-31 18:07:32.219 [HEX] 0010 F9 F8 F7 F6 00 00 00 00 00 00 00 00             | ............
+2026-10-31 18:07:32.219 [INFO] Raw response: C:\PCU_test\bin\logs\dde_series_20261031_180714_133_pid2404_r01_i13_binary.bin (28 bytes)
+2026-10-31 18:07:32.219 [INFO] Full HEX: C:\PCU_test\bin\logs\dde_series_20261031_180714_133_pid2404_r01_i13_binary.hex
+2026-10-31 18:07:32.219 [DATA] BINARY_HEADER hlen=0x0014 field_02=0x0001 field_04=0x0002 field_06=0xAD05 count_candidate=1 element_size_candidate=8 marker=0xF6F7F8F9
+2026-10-31 18:07:32.219 [DATA] BINARY_SIZE_CHECK expected=28 observed=28 MATCH
+2026-10-31 18:07:33.721 [INFO] READ round=1 index=14 format=binary item=/Channel/State/actToolIdent[u1] elapsed_ms=0 result=DATA_HANDLE
+2026-10-31 18:07:33.721 [DATA] RESPONSE round=1 index=14 format=binary bytes=52
+2026-10-31 18:07:33.721 [HEX] 0000 14 00 01 00 64 00 06 AE 01 00 00 00 20 00 00 00 | ....d....... ...
+2026-10-31 18:07:33.721 [HEX] 0010 F9 F8 F7 F6 00 00 00 00 00 00 00 00 00 00 00 00 | ................
+2026-10-31 18:07:33.721 [HEX] 0020 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 | ................
+2026-10-31 18:07:33.721 [HEX] 0030 00 00 00 00                                     | ....
+2026-10-31 18:07:33.721 [INFO] Raw response: C:\PCU_test\bin\logs\dde_series_20261031_180714_133_pid2404_r01_i14_binary.bin (52 bytes)
+2026-10-31 18:07:33.721 [INFO] Full HEX: C:\PCU_test\bin\logs\dde_series_20261031_180714_133_pid2404_r01_i14_binary.hex
+2026-10-31 18:07:33.721 [DATA] BINARY_HEADER hlen=0x0014 field_02=0x0001 field_04=0x0064 field_06=0xAE06 count_candidate=1 element_size_candidate=32 marker=0xF6F7F8F9
+2026-10-31 18:07:33.721 [DATA] BINARY_SIZE_CHECK expected=52 observed=52 MATCH
+2026-10-31 18:07:35.223 [INFO] READ round=1 index=15 format=binary item=/Channel/Spindle/actSpeed[u1,1] elapsed_ms=0 result=DATA_HANDLE
+2026-10-31 18:07:35.223 [DATA] RESPONSE round=1 index=15 format=binary bytes=28
+2026-10-31 18:07:35.223 [HEX] 0000 14 00 01 00 02 00 05 AF 01 00 00 00 08 00 00 00 | ................
+2026-10-31 18:07:35.223 [HEX] 0010 F9 F8 F7 F6 00 00 00 00 00 00 00 00             | ............
+2026-10-31 18:07:35.223 [INFO] Raw response: C:\PCU_test\bin\logs\dde_series_20261031_180714_133_pid2404_r01_i15_binary.bin (28 bytes)
+2026-10-31 18:07:35.223 [INFO] Full HEX: C:\PCU_test\bin\logs\dde_series_20261031_180714_133_pid2404_r01_i15_binary.hex
+2026-10-31 18:07:35.223 [DATA] BINARY_HEADER hlen=0x0014 field_02=0x0001 field_04=0x0002 field_06=0xAF05 count_candidate=1 element_size_candidate=8 marker=0xF6F7F8F9
+2026-10-31 18:07:35.223 [DATA] BINARY_SIZE_CHECK expected=28 observed=28 MATCH
+2026-10-31 18:07:36.725 [INFO] READ round=1 index=16 format=binary item=/Channel/Spindle/speedOvr[u1,1] elapsed_ms=0 result=DATA_HANDLE
+2026-10-31 18:07:36.725 [DATA] RESPONSE round=1 index=16 format=binary bytes=28
+2026-10-31 18:07:36.725 [HEX] 0000 14 00 01 00 02 00 05 B0 01 00 00 00 08 00 00 00 | ................
+2026-10-31 18:07:36.725 [HEX] 0010 F9 F8 F7 F6 00 00 00 00 00 00 00 00             | ............
+2026-10-31 18:07:36.725 [INFO] Raw response: C:\PCU_test\bin\logs\dde_series_20261031_180714_133_pid2404_r01_i16_binary.bin (28 bytes)
+2026-10-31 18:07:36.725 [INFO] Full HEX: C:\PCU_test\bin\logs\dde_series_20261031_180714_133_pid2404_r01_i16_binary.hex
+2026-10-31 18:07:36.725 [DATA] BINARY_HEADER hlen=0x0014 field_02=0x0001 field_04=0x0002 field_06=0xB005 count_candidate=1 element_size_candidate=8 marker=0xF6F7F8F9
+2026-10-31 18:07:36.725 [DATA] BINARY_SIZE_CHECK expected=28 observed=28 MATCH
+2026-10-31 18:07:38.228 [INFO] READ round=1 index=17 format=binary item=/Channel/State/feedRateIpoOvr[u1] elapsed_ms=0 result=DATA_HANDLE
+2026-10-31 18:07:38.228 [DATA] RESPONSE round=1 index=17 format=binary bytes=28
+2026-10-31 18:07:38.228 [HEX] 0000 14 00 01 00 02 00 05 B1 01 00 00 00 08 00 00 00 | ................
+2026-10-31 18:07:38.228 [HEX] 0010 F9 F8 F7 F6 00 00 00 00 00 00 00 00             | ............
+2026-10-31 18:07:38.228 [INFO] Raw response: C:\PCU_test\bin\logs\dde_series_20261031_180714_133_pid2404_r01_i17_binary.bin (28 bytes)
+2026-10-31 18:07:38.228 [INFO] Full HEX: C:\PCU_test\bin\logs\dde_series_20261031_180714_133_pid2404_r01_i17_binary.hex
+2026-10-31 18:07:38.228 [DATA] BINARY_HEADER hlen=0x0014 field_02=0x0001 field_04=0x0002 field_06=0xB105 count_candidate=1 element_size_candidate=8 marker=0xF6F7F8F9
+2026-10-31 18:07:38.228 [DATA] BINARY_SIZE_CHECK expected=28 observed=28 MATCH
+2026-10-31 18:07:39.730 [INFO] READ round=1 index=18 format=binary item=/Channel/GeometricAxis/feedRateOvr[u1,1] elapsed_ms=0 result=DATA_HANDLE
+2026-10-31 18:07:39.730 [DATA] RESPONSE round=1 index=18 format=binary bytes=28
+2026-10-31 18:07:39.730 [HEX] 0000 14 00 01 00 02 00 05 B2 01 00 00 00 08 00 00 00 | ................
+2026-10-31 18:07:39.730 [HEX] 0010 F9 F8 F7 F6 00 00 00 00 00 00 00 00             | ............
+2026-10-31 18:07:39.730 [INFO] Raw response: C:\PCU_test\bin\logs\dde_series_20261031_180714_133_pid2404_r01_i18_binary.bin (28 bytes)
+2026-10-31 18:07:39.740 [INFO] Full HEX: C:\PCU_test\bin\logs\dde_series_20261031_180714_133_pid2404_r01_i18_binary.hex
+2026-10-31 18:07:39.740 [DATA] BINARY_HEADER hlen=0x0014 field_02=0x0001 field_04=0x0002 field_06=0xB205 count_candidate=1 element_size_candidate=8 marker=0xF6F7F8F9
+2026-10-31 18:07:39.740 [DATA] BINARY_SIZE_CHECK expected=28 observed=28 MATCH
+2026-10-31 18:07:41.242 [INFO] READ round=1 index=19 format=binary item=/Channel/SelectedFunctions/Mval[u1] elapsed_ms=0 result=DATA_HANDLE
+2026-10-31 18:07:41.242 [DATA] RESPONSE round=1 index=19 format=binary bytes=24
+2026-10-31 18:07:41.242 [HEX] 0000 14 00 01 00 01 00 03 B3 01 00 00 00 04 00 00 00 | ................
+2026-10-31 18:07:41.242 [HEX] 0010 F9 F8 F7 F6 FF FF FF FF                         | ........
+2026-10-31 18:07:41.242 [INFO] Raw response: C:\PCU_test\bin\logs\dde_series_20261031_180714_133_pid2404_r01_i19_binary.bin (24 bytes)
+2026-10-31 18:07:41.242 [INFO] Full HEX: C:\PCU_test\bin\logs\dde_series_20261031_180714_133_pid2404_r01_i19_binary.hex
+2026-10-31 18:07:41.242 [DATA] BINARY_HEADER hlen=0x0014 field_02=0x0001 field_04=0x0001 field_06=0xB303 count_candidate=1 element_size_candidate=4 marker=0xF6F7F8F9
+2026-10-31 18:07:41.242 [DATA] BINARY_SIZE_CHECK expected=24 observed=24 MATCH
+2026-10-31 18:07:41.242 [DATA] BINARY_PAYLOAD_LE32=0xFFFFFFFF signed_candidate=-1 (type NOT established)
+2026-10-31 18:07:42.744 [INFO] READ round=1 index=20 format=binary item=/Channel/Parameter/R[u1,10] elapsed_ms=0 result=DATA_HANDLE
+2026-10-31 18:07:42.744 [DATA] RESPONSE round=1 index=20 format=binary bytes=28
+2026-10-31 18:07:42.744 [HEX] 0000 14 00 01 00 02 00 05 B4 01 00 00 00 08 00 00 00 | ................
+2026-10-31 18:07:42.744 [HEX] 0010 F9 F8 F7 F6 00 00 00 00 00 00 00 00             | ............
+2026-10-31 18:07:42.744 [INFO] Raw response: C:\PCU_test\bin\logs\dde_series_20261031_180714_133_pid2404_r01_i20_binary.bin (28 bytes)
+2026-10-31 18:07:42.744 [INFO] Full HEX: C:\PCU_test\bin\logs\dde_series_20261031_180714_133_pid2404_r01_i20_binary.hex
+2026-10-31 18:07:42.744 [DATA] BINARY_HEADER hlen=0x0014 field_02=0x0001 field_04=0x0002 field_06=0xB405 count_candidate=1 element_size_candidate=8 marker=0xF6F7F8F9
+2026-10-31 18:07:42.744 [DATA] BINARY_SIZE_CHECK expected=28 observed=28 MATCH
+2026-10-31 18:07:44.246 [INFO] SUMMARY success_response=20 failed_response=0 (success means bytes received; not independently verified)
+2026-10-31 18:07:44.246 [INFO] === dde_series END exit_code=20 elapsed_ms=30113 ===

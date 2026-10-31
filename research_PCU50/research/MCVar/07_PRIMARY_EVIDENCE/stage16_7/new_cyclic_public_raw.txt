@@ -1,0 +1,117 @@
+
+/root/PL/PCU_new/C/RECYCLER/S-1-5-21-4025392478-4199590385-3038547483-1005/Dc28/files/F/mmc2/MCVar.dll:     file format pei-i386
+
+
+Disassembly of section .text:
+
+10010ba6 <?ReadVarCyclic@CVar2@@UAGJUtagVARIANT@@00PAUIReadVarAsyncCallback2@@PAUIDispatch@@00PAU2@PAJ30@Z+0x156>:
+10010ba6:	55                   	push   ebp
+10010ba7:	8b ec                	mov    ebp,esp
+10010ba9:	51                   	push   ecx
+10010baa:	51                   	push   ecx
+10010bab:	8b 45 08             	mov    eax,DWORD PTR [ebp+0x8]
+10010bae:	56                   	push   esi
+10010baf:	57                   	push   edi
+10010bb0:	8d 4d f8             	lea    ecx,[ebp-0x8]
+10010bb3:	8d 78 fc             	lea    edi,[eax-0x4]
+10010bb6:	57                   	push   edi
+10010bb7:	6a 06                	push   0x6
+10010bb9:	e8 d8 41 00 00       	call   10014d96 <?MakeCB@CRequestID@@QAEPAVCResult@@KPAPAVCDdeAction@@PAUtagVARIANT@@11111@Z+0x3d4>
+10010bbe:	57                   	push   edi
+10010bbf:	8d 45 08             	lea    eax,[ebp+0x8]
+10010bc2:	68 f0 3a 03 10       	push   0x10033af0
+10010bc7:	50                   	push   eax
+10010bc8:	e8 d2 65 00 00       	call   1001719f <?AS2NCDDE@CVar2@@IAEHAAVCComBSTR@ATL@@AAUAS_ADR@1@PAPAGPAUtagVARIANT@@3@Z+0x112e>
+10010bcd:	83 c4 0c             	add    esp,0xc
+10010bd0:	e8 1e 0c ff ff       	call   100017f3 <??_Estringdispid@CComTypeInfoHolder@ATL@@QAEPAXI@Z-0x80d>
+10010bd5:	83 38 02             	cmp    DWORD PTR [eax],0x2
+10010bd8:	74 04                	je     10010bde <?ReadVarCyclic@CVar2@@UAGJUtagVARIANT@@00PAUIReadVarAsyncCallback2@@PAUIDispatch@@00PAU2@PAJ30@Z+0x18e>
+10010bda:	33 c0                	xor    eax,eax
+10010bdc:	eb 05                	jmp    10010be3 <?ReadVarCyclic@CVar2@@UAGJUtagVARIANT@@00PAUIReadVarAsyncCallback2@@PAUIDispatch@@00PAU2@PAJ30@Z+0x193>
+10010bde:	8b 40 0c             	mov    eax,DWORD PTR [eax+0xc]
+10010be1:	8b 00                	mov    eax,DWORD PTR [eax]
+10010be3:	a8 01                	test   al,0x1
+10010be5:	74 2a                	je     10010c11 <?ReadVarCyclic@CVar2@@UAGJUtagVARIANT@@PAU2@0PAUIReadVarAsyncCallback@@PAUIDispatch@@001PAJ10@Z+0xf>
+10010be7:	8b 45 fc             	mov    eax,DWORD PTR [ebp-0x4]
+10010bea:	85 c0                	test   eax,eax
+10010bec:	74 08                	je     10010bf6 <?ReadVarCyclic@CVar2@@UAGJUtagVARIANT@@00PAUIReadVarAsyncCallback2@@PAUIDispatch@@00PAU2@PAJ30@Z+0x1a6>
+10010bee:	8b 40 28             	mov    eax,DWORD PTR [eax+0x28]
+10010bf1:	8b 70 4c             	mov    esi,DWORD PTR [eax+0x4c]
+10010bf4:	eb 03                	jmp    10010bf9 <?ReadVarCyclic@CVar2@@UAGJUtagVARIANT@@00PAUIReadVarAsyncCallback2@@PAUIDispatch@@00PAU2@PAJ30@Z+0x1a9>
+10010bf6:	6a 63                	push   0x63
+10010bf8:	5e                   	pop    esi
+10010bf9:	e8 4d 94 ff ff       	call   1000a04b <??0CVar2@@QAE@XZ+0x39>
+10010bfe:	50                   	push   eax
+10010bff:	ff 75 0c             	push   DWORD PTR [ebp+0xc]
+
+10010c02 <?ReadVarCyclic@CVar2@@UAGJUtagVARIANT@@PAU2@0PAUIReadVarAsyncCallback@@PAUIDispatch@@001PAJ10@Z>:
+10010c02:	57                   	push   edi
+10010c03:	56                   	push   esi
+10010c04:	68 bc 3a 03 10       	push   0x10033abc
+10010c09:	e8 b3 92 ff ff       	call   10009ec1 <??_E?$CList@PAVCTransactionID@@@@UAEPAXI@Z+0x1f>
+10010c0e:	83 c4 14             	add    esp,0x14
+10010c11:	8b 75 40             	mov    esi,DWORD PTR [ebp+0x40]
+10010c14:	6a 10                	push   0x10
+10010c16:	56                   	push   esi
+10010c17:	ff 15 84 d1 02 10    	call   DWORD PTR ds:0x1002d184
+10010c1d:	85 c0                	test   eax,eax
+10010c1f:	75 22                	jne    10010c43 <?ReadVarCyclic@CVar2@@UAGJUtagVARIANT@@PAU2@0PAUIReadVarAsyncCallback@@PAUIDispatch@@001PAJ10@Z+0x41>
+10010c21:	66 21 06             	and    WORD PTR [esi],ax
+10010c24:	21 46 08             	and    DWORD PTR [esi+0x8],eax
+10010c27:	8d 45 10             	lea    eax,[ebp+0x10]
+10010c2a:	b9 04 00 02 80       	mov    ecx,0x80020004
+10010c2f:	85 c0                	test   eax,eax
+10010c31:	74 25                	je     10010c58 <?ReadVarCyclic@CVar2@@UAGJUtagVARIANT@@PAU2@0PAUIReadVarAsyncCallback@@PAUIDispatch@@001PAJ10@Z+0x56>
+10010c33:	66 83 7d 10 0a       	cmp    WORD PTR [ebp+0x10],0xa
+10010c38:	75 05                	jne    10010c3f <?ReadVarCyclic@CVar2@@UAGJUtagVARIANT@@PAU2@0PAUIReadVarAsyncCallback@@PAUIDispatch@@001PAJ10@Z+0x3d>
+10010c3a:	39 4d 18             	cmp    DWORD PTR [ebp+0x18],ecx
+10010c3d:	74 19                	je     10010c58 <?ReadVarCyclic@CVar2@@UAGJUtagVARIANT@@PAU2@0PAUIReadVarAsyncCallback@@PAUIDispatch@@001PAJ10@Z+0x56>
+10010c3f:	33 c0                	xor    eax,eax
+10010c41:	eb 18                	jmp    10010c5b <?ReadVarCyclic@CVar2@@UAGJUtagVARIANT@@PAU2@0PAUIReadVarAsyncCallback@@PAUIDispatch@@001PAJ10@Z+0x59>
+10010c43:	6a 00                	push   0x0
+10010c45:	68 03 40 00 80       	push   0x80004003
+10010c4a:	68 10 26 03 10       	push   0x10032610
+10010c4f:	8b cf                	mov    ecx,edi
+10010c51:	e8 4f a4 ff ff       	call   1000b0a5 <?Tim@@YAPBDXZ+0x24>
+10010c56:	eb 63                	jmp    10010cbb <?ReadVarCyclic@CVar2@@UAGJUtagVARIANT@@PAU2@0PAUIReadVarAsyncCallback@@PAUIDispatch@@001PAJ10@Z+0xb9>
+10010c58:	6a 01                	push   0x1
+10010c5a:	58                   	pop    eax
+10010c5b:	8d 55 20             	lea    edx,[ebp+0x20]
+10010c5e:	85 d2                	test   edx,edx
+10010c60:	74 10                	je     10010c72 <?ReadVarCyclic@CVar2@@UAGJUtagVARIANT@@PAU2@0PAUIReadVarAsyncCallback@@PAUIDispatch@@001PAJ10@Z+0x70>
+10010c62:	66 83 7d 20 0a       	cmp    WORD PTR [ebp+0x20],0xa
+10010c67:	75 05                	jne    10010c6e <?ReadVarCyclic@CVar2@@UAGJUtagVARIANT@@PAU2@0PAUIReadVarAsyncCallback@@PAUIDispatch@@001PAJ10@Z+0x6c>
+10010c69:	39 4d 28             	cmp    DWORD PTR [ebp+0x28],ecx
+10010c6c:	74 04                	je     10010c72 <?ReadVarCyclic@CVar2@@UAGJUtagVARIANT@@PAU2@0PAUIReadVarAsyncCallback@@PAUIDispatch@@001PAJ10@Z+0x70>
+10010c6e:	33 c9                	xor    ecx,ecx
+10010c70:	eb 03                	jmp    10010c75 <?ReadVarCyclic@CVar2@@UAGJUtagVARIANT@@PAU2@0PAUIReadVarAsyncCallback@@PAUIDispatch@@001PAJ10@Z+0x73>
+10010c72:	6a 01                	push   0x1
+10010c74:	59                   	pop    ecx
+10010c75:	f7 d8                	neg    eax
+10010c77:	1b c0                	sbb    eax,eax
+10010c79:	8d 55 30             	lea    edx,[ebp+0x30]
+10010c7c:	66 25 00 f8          	and    ax,0xf800
+10010c80:	56                   	push   esi
+10010c81:	05 00 08 00 00       	add    eax,0x800
+10010c86:	52                   	push   edx
+10010c87:	f7 d9                	neg    ecx
+10010c89:	8d 55 20             	lea    edx,[ebp+0x20]
+10010c8c:	1b c9                	sbb    ecx,ecx
+10010c8e:	52                   	push   edx
+10010c8f:	66 81 e1 00 fe       	and    cx,0xfe00
+10010c94:	8d 55 10             	lea    edx,[ebp+0x10]
+10010c97:	81 c1 00 02 00 00    	add    ecx,0x200
+10010c9d:	52                   	push   edx
+10010c9e:	ff 75 0c             	push   DWORD PTR [ebp+0xc]
+10010ca1:	0b c1                	or     eax,ecx
+10010ca3:	0d 00 04 08 08       	or     eax,0x8080400
+10010ca8:	8b cf                	mov    ecx,edi
+10010caa:	50                   	push   eax
+10010cab:	e8 21 01 00 00       	call   10010dd1 <?InternalReadVarCyclic@CVar2@@IAEJKAAUtagVARIANT@@00PAUIUnknown@@PAUIDispatch@@00PAU2@PAJ30@Z+0x57>
+10010cb0:	6a 00                	push   0x0
+10010cb2:	56                   	push   esi
+10010cb3:	50                   	push   eax
+10010cb4:	8b cf                	mov    ecx,edi
+10010cb6:	e8 62 a4 ff ff       	call   1000b11d <?qual2txt@@YAPBDF@Z+0x49>
+10010cbb:	8d 4d f8             	lea    ecx,[ebp-0x8]
+10010cbe:	8b                   	.byte 0x8b

@@ -1,0 +1,576 @@
+            [31m[31m; CALL XREF from sym.public_virtual:_long_int___stdcall_CVar2::ReadVarAsync_struct_tagVARIANT__struct_tagVARIANT__struct_tagVARIANT__short_int__struct_IReadVarAsyncCallback2____struct_IDispatch____long_int____struct_tagVARIANT @ 0x1000d2d5[0m
+            [31m[31m; CALL XREFS from fcn.1000d1bd @ 0x1000d5a9, 0x1000d60b[0m
+[36m┌[0m [31m[31mfcn.1000d7a4[0m(int32_t arg_4h, int32_t arg_8h, int32_t arg_ch, int32_t arg_10h, int32_t arg_14h, int32_t arg_18h, int32_t arg_24h, int32_t arg_28h, int32_t arg_2ch, int32_t arg_2fh, int32_t arg_30h, int32_t arg_34h, int32_t arg_38h);
+[36m│[0m           [37m; [37marg [34mint32_t arg_4h [36m@ stack + 0x4[0m
+[36m│[0m           [37m; [37marg [34mint32_t arg_8h [36m@ stack + 0x8[0m
+[36m│[0m           [37m; [37marg [34mint32_t arg_ch [36m@ stack + 0xc[0m
+[36m│[0m           [37m; [37marg [34mint32_t arg_10h [36m@ stack + 0x10[0m
+[36m│[0m           [37m; [37marg [34mint32_t arg_14h [36m@ stack + 0x14[0m
+[36m│[0m           [37m; [37marg [34mint32_t arg_18h [36m@ stack + 0x18[0m
+[36m│[0m           [37m; [37marg [34mint32_t arg_24h [36m@ stack + 0x24[0m
+[36m│[0m           [37m; [37marg [34mint32_t arg_28h [36m@ stack + 0x28[0m
+[36m│[0m           [37m; [37marg [34mint32_t arg_2ch [36m@ stack + 0x2c[0m
+[36m│[0m           [37m; [37marg [34mint32_t arg_2fh [36m@ stack + 0x2f[0m
+[36m│[0m           [37m; [37marg [34mint32_t arg_30h [36m@ stack + 0x30[0m
+[36m│[0m           [37m; [37marg [34mint32_t arg_34h [36m@ stack + 0x34[0m
+[36m│[0m           [37m; [37marg [34mint32_t arg_38h [36m@ stack + 0x38[0m
+[36m│[0m           [32m0x1000d7a4[0m      [35mpush[0m[37m  [0m[36mebp[0m[0m[0m
+[36m│[0m           [32m0x1000d7a5[0m      [37mmov[0m[37m   [0m[36mebp[0m[37m, [0m[36mesp[0m[0m[0m
+[36m│[0m           [32m0x1000d7a7[0m      [37mmov[0m[37m   [0m[36max[0m[37m, [0m[37mword[0m[37m [[0m[37marg[0m[37m_[0m[37m2ch[0m[37m][0m[0m[0m
+[36m│[0m           [32m0x1000d7ab[0m      [35mpush[0m[37m  [0m[36mebx[0m[0m[0m
+[36m│[0m           [32m0x1000d7ac[0m      [33mdec[0m[37m   [0m[36max[0m[0m[0m
+[36m│[0m           [32m0x1000d7ae[0m      [35mpush[0m[37m  [0m[36mesi[0m[0m[0m
+[36m│[0m           [32m0x1000d7af[0m      [33mneg[0m[37m   [0m[36max[0m[0m[0m
+[36m│[0m           [32m0x1000d7b2[0m      [33msbb[0m[37m   [0m[36meax[0m[37m, [0m[36meax[0m[0m[0m
+[36m│[0m           [32m0x1000d7b4[0m      [35mpush[0m[37m  [0m[36medi[0m[0m[0m
+[36m│[0m           [32m0x1000d7b5[0m      [36mand[0m[37m   [0m[36mal[0m[37m, [0m[33m0x00[0m[0m[0m
+[36m│[0m           [32m0x1000d7b7[0m      [35mpush[0m[37m  [0m[33m0x64[0m[0m[31m                                 ; 'd'[31m ; 100[0m
+[36m│[0m           [32m0x1000d7b9[0m      [33madd[0m[37m   [0m[36meax[0m[37m, [0m[33m0x100[0m[0m[31m                           ; 256[0m
+[36m│[0m           [32m0x1000d7be[0m      [35mpush[0m[37m  [0m[33m0x00[0m[0m[0m
+[36m│[0m           [32m0x1000d7c0[0m      [35mpush[0m[37m  [0m[36meax[0m[0m[0m
+[36m│[0m           [32m0x1000d7c1[0m      [37mlea[0m[37m   [0m[36mesi[0m[37m, [0m[37mdword[0m[37m [[0m[37marg[0m[37m_[0m[37m18h[0m[37m][0m[0m[0m
+[36m│[0m           [32m0x1000d7c4[0m      [35mpush[0m[37m  [0m[37mdword[0m[37m [[0m[37marg[0m[37m_[0m[37m28h[0m[37m][0m[0m[0m
+[36m│[0m           [32m0x1000d7c7[0m      [37mmov[0m[37m   [0m[36mebx[0m[37m, [0m[36mecx[0m[0m[0m
+[36m│[0m           [32m0x1000d7c9[0m      [35mpush[0m[37m  [0m[37mdword[0m[37m [[0m[37marg[0m[37m_[0m[37m38h[0m[37m][0m[0m[0m
+[36m│[0m           [32m0x1000d7cc[0m      [35mpush[0m[37m  [0m[37mdword[0m[37m [[0m[37marg[0m[37m_[0m[37m24h[0m[37m][0m[0m[0m
+[36m│[0m           [32m0x1000d7cf[0m      [33msub[0m[37m   [0m[36mesp[0m[37m, [0m[33m0x0c[0m[0m[0m
+[36m│[0m           [32m0x1000d7d2[0m      [37mmov[0m[37m   [0m[36medi[0m[37m, [0m[36mesp[0m[0m[0m
+[36m│[0m           [32m0x1000d7d4[0m      [37mmovsd[0m[0m
+[36m│[0m           [32m0x1000d7d5[0m      [37mmovsd[0m[0m
+[36m│[0m           [32m0x1000d7d6[0m      [35mpush[0m[37m  [0m[36mecx[0m[0m[0m
+[36m│[0m           [32m0x1000d7d7[0m      [37mmov[0m[37m   [0m[36mecx[0m[37m, [0m[36mesp[0m[0m[0m
+[36m│[0m           [32m0x1000d7d9[0m      [35mpush[0m[37m  [0m[37mdword[0m[37m [[0m[37marg[0m[37m_[0m[37m14h[0m[37m][0m[0m[0m                      [34m; unknown_t *pbstr[0m
+[36m│[0m           [32m0x1000d7dc[0m      [37mmovsd[0m[0m
+[36m│[0m           [32m0x1000d7dd[0m      [1;92mcall[0m[37m  [0m[37mfcn[0m[37m.[0m[33m1000d89d[0m[0m[0m
+[36m│[0m           [32m0x1000d7e2[0m      [35mpush[0m[37m  [0m[37mdword[0m[37m [[0m[37marg[0m[37m_[0m[37m10h[0m[37m][0m[0m[0m
+[36m│[0m           [32m0x1000d7e5[0m      [36mxor[0m[37m   [0m[36medi[0m[37m, [0m[36medi[0m[0m[0m
+[36m│[0m           [32m0x1000d7e7[0m      [37mmov[0m[37m   [0m[36mecx[0m[37m, [0m[36mebx[0m[0m[0m
+[36m│[0m           [32m0x1000d7e9[0m      [35mpush[0m[37m  [0m[37mdword[0m[37m [[0m[37marg[0m[37m_[0m[37mch[0m[37m][0m[0m[0m                       [34m; HRESULT arg_4h[0m
+[36m│[0m           [32m0x1000d7ec[0m      [35mpush[0m[37m  [0m[37mdword[0m[37m [[0m[37marg[0m[37m_[0m[37m8h[0m[37m][0m[0m[0m                       [34m; HRESULT arg_ch[0m
+[36m│[0m           [32m0x1000d7ef[0m      [35mpush[0m[37m  [0m[36medi[0m[0m[0m                                  [34m; BSTR *lpWideCharStr[0m
+[36m│[0m           [32m0x1000d7f0[0m      [1;92mcall[0m[37m  [0m[37mfcn[0m[37m.[0m[33m1000d8bf[0m[0m[0m
+[36m│[0m           [32m0x1000d7f5[0m      [37mmov[0m[37m   [0m[36mecx[0m[37m, [0m[37mdword[0m[37m [[0m[37marg[0m[37m_[0m[37m4h[0m[37m][0m[0m[0m
+[36m│[0m           [32m0x1000d7f8[0m      [37mlea[0m[37m   [0m[36mesi[0m[37m, [0m[37mdword[0m[37m [[0m[36mebx[0m[37m+[0m[33m0x78[0m[37m][0m[0m[0m
+[36m│[0m           [32m0x1000d7fb[0m      [36mcmp[0m[37m   [0m[36mecx[0m[37m, [0m[36medi[0m[0m[0m
+[36m│[0m           [32m0x1000d7fd[0m      [37mmov[0m[37m   [0m[37mdword[0m[37m [[0m[36mesi[0m[37m], [0m[33mdata.1002c94c[0m[0m[31m           ; [[31m0x1002c94c[31m:4]=0x10017288[0m
+[36m│[0m           [32m0x1000d803[0m      [37mmov[0m[37m   [0m[37mdword[0m[37m [[0m[36mesi[0m[37m+[0m[33m0x04[0m[37m], [0m[36mecx[0m[0m[0m
+[36m│[0m       [36m┌[0m[36m─[0m[36m<[0m [32m0x1000d806[0m      [32mjz[0m[37m    [0m[33m0x1000d819[0m[0m[0m
+[36m│[0m       [36m│[0m   [32m0x1000d808[0m      [37mmov[0m[37m   [0m[36meax[0m[37m, [0m[36mesi[0m[0m[0m
+[36m│[0m       [36m│[0m   [32m0x1000d80a[0m      [37mlea[0m[37m   [0m[36medx[0m[37m, [0m[37mdword[0m[37m [[0m[36mesi[0m[37m-[0m[33m0x78[0m[37m][0m[0m[0m
+[36m│[0m       [36m│[0m   [32m0x1000d80d[0m      [33mneg[0m[37m   [0m[36meax[0m[0m[0m
+[36m│[0m       [36m│[0m   [32m0x1000d80f[0m      [33msbb[0m[37m   [0m[36meax[0m[37m, [0m[36meax[0m[0m[0m
+[36m│[0m       [36m│[0m   [32m0x1000d811[0m      [36mand[0m[37m   [0m[36meax[0m[37m, [0m[36medx[0m[0m[0m
+[36m│[0m       [36m│[0m   [32m0x1000d813[0m      [35mpush[0m[37m  [0m[36meax[0m[0m[0m                                  [34m; int32_t arg_4h[0m
+[36m│[0m       [36m│[0m   [32m0x1000d814[0m      [1;92mcall[0m[37m  [0m[37mfcn[0m[37m.[0m[33m1000218a[0m[0m[0m
+[36m│[0m       [36m└[0m[36m─[0m[36m>[0m [32m0x1000d819[0m      [37mmov[0m[37m   [0m[36meax[0m[37m, [0m[37mdword[0m[37m [[0m[37marg[0m[37m_[0m[37m30h[0m[37m][0m[0m[0m
+[36m│[0m           [32m0x1000d81c[0m      [37mmov[0m[37m   [0m[36mcx[0m[37m, [0m[37mword[0m[37m [[0m[37marg[0m[37m_[0m[37m2ch[0m[37m][0m[0m[0m
+[36m│[0m           [32m0x1000d820[0m      [37mmov[0m[37m   [0m[37mdword[0m[37m [[0m[36mebx[0m[37m+[0m[33m0x94[0m[37m], [0m[36medi[0m[0m[0m
+[36m│[0m           [32m0x1000d826[0m      [37mmov[0m[37m   [0m[37mdword[0m[37m [[0m[36mebx[0m[37m+[0m[33m0x84[0m[37m], [0m[36medi[0m[0m[0m
+[36m│[0m           [32m0x1000d82c[0m      [37mmov[0m[37m   [0m[37mdword[0m[37m [[0m[36mebx[0m[37m+[0m[33m0x88[0m[37m], [0m[36medi[0m[0m[0m
+[36m│[0m           [32m0x1000d832[0m      [37mmov[0m[37m   [0m[37mdword[0m[37m [[0m[36mebx[0m[37m+[0m[33m0x90[0m[37m], [0m[36medi[0m[0m[0m
+[36m│[0m           [32m0x1000d838[0m      [37mmov[0m[37m   [0m[37mdword[0m[37m [[0m[36mebx[0m[37m+[0m[33m0x80[0m[37m], [0m[33m0x1002c34c[0m[0m[31m         ; data.1002c34c
+[36m│[0m           [31m                                                           ; [[31m0x1002c34c[31m:4]=0x100021ee[0m
+[36m│[0m           [32m0x1000d842[0m      [37mmov[0m[37m   [0m[37mdword[0m[37m [[0m[36mebx[0m[37m+[0m[33m0x98[0m[37m], [0m[36meax[0m[0m[0m
+[36m│[0m           [32m0x1000d848[0m      [37mmov[0m[37m   [0m[36meax[0m[37m, [0m[37mdword[0m[37m [[0m[37marg[0m[37m_[0m[37m34h[0m[37m][0m[0m[0m
+[36m│[0m           [32m0x1000d84b[0m      [37mmov[0m[37m   [0m[37mword[0m[37m [[0m[36mebx[0m[37m+[0m[33m0xa0[0m[37m], [0m[36mcx[0m[0m[0m
+[36m│[0m           [32m0x1000d852[0m      [37mmov[0m[37m   [0m[37mdword[0m[37m [[0m[36mebx[0m[37m+[0m[33m0x9c[0m[37m], [0m[36meax[0m[0m[0m
+[36m│[0m           [32m0x1000d858[0m      [37mmov[0m[37m   [0m[36meax[0m[37m, [0m[37mdword[0m[37m [[0m[36mebx[0m[37m+[0m[33m0x20[0m[37m][0m[0m[0m
+[36m│[0m           [32m0x1000d85b[0m      [36mcmp[0m[37m   [0m[36meax[0m[37m, [0m[36medi[0m[0m[0m
+[36m│[0m           [32m0x1000d85d[0m      [37mmov[0m[37m   [0m[37mdword[0m[37m [[0m[36mebx[0m[37m], [0m[33mdata.1002c93c[0m[0m[31m           ; [[31m0x1002c93c[31m:4]=0x1000f11d[0m
+[36m│[0m           [32m0x1000d863[0m      [37mmov[0m[37m   [0m[37mdword[0m[37m [[0m[36mesi[0m[37m], [0m[33mdata.1002c938[0m[0m[31m           ; [[31m0x1002c938[31m:4]=0x1001774e[31m ; "Nw\U00000001\U00000010\U0000001d\xf1"[0m
+[36m│[0m           [32m0x1000d869[0m      [37mmov[0m[37m   [0m[37mdword[0m[37m [[0m[36mebx[0m[37m+[0m[33m0x80[0m[37m], [0m[33m0x1002c930[0m[0m[31m         ; data.1002c930
+[36m│[0m           [31m                                                           ; [[31m0x1002c930[31m:4]=0x100021ee[0m
+[36m│[0m       [36m┌[0m[36m─[0m[36m<[0m [32m0x1000d873[0m      [32mjnz[0m[37m   [0m[33m0x1000d87a[0m[0m[0m
+[36m│[0m       [36m│[0m   [32m0x1000d875[0m      [37mmov[0m[37m   [0m[36meax[0m[37m, [0m[33mdata.10037434[0m[0m[31m                   ; 0x10037434[0m
+[36m│[0m       [36m└[0m[36m─[0m[36m>[0m [32m0x1000d87a[0m      [37mmovsx[0m[37m [0m[36mecx[0m[37m, [0m[36mcx[0m[0m[0m
+[36m│[0m           [32m0x1000d87d[0m      [35mpush[0m[37m  [0m[36mecx[0m[0m[0m
+[36m│[0m           [32m0x1000d87e[0m      [35mpush[0m[37m  [0m[36meax[0m[0m[0m
+[36m│[0m           [32m0x1000d87f[0m      [35mpush[0m[37m  [0m[37mdword[0m[37m [[0m[37marg[0m[37m_[0m[37m8h[0m[37m][0m[0m[0m
+[36m│[0m           [32m0x1000d882[0m      [37mlea[0m[37m   [0m[36meax[0m[37m, [0m[37mdword[0m[37m [[0m[37marg[0m[37m_[0m[37m2fh[0m[37m][0m[0m[0m
+[36m│[0m           [32m0x1000d885[0m      [35mpush[0m[37m  [0m[36mebx[0m[0m[0m
+[36m│[0m           [32m0x1000d886[0m      [35mpush[0m[37m  [0m[33mstr.new_CTransaction_0x_x_RID:0x_x_nam:_ls_cache:_d[0m[0m[31m ; 0x100324ec[31m ; "new CTransaction 0x%x RID:0x%x nam:%ls cache:%d"[0m
+[36m│[0m           [32m0x1000d88b[0m      [35mpush[0m[37m  [0m[36meax[0m[0m[0m                                  [34m; int32_t arg_4h[0m
+[36m│[0m           [32m0x1000d88c[0m      [1;92mcall[0m[37m  [0m[37mfcn[0m[37m.[0m[33m10007a3d[0m[0m[0m
+[36m│[0m           [32m0x1000d891[0m      [33madd[0m[37m   [0m[36mesp[0m[37m, [0m[33m0x18[0m[0m[0m
+[36m│[0m           [32m0x1000d894[0m      [37mmov[0m[37m   [0m[36meax[0m[37m, [0m[36mebx[0m[0m[0m
+[36m│[0m           [32m0x1000d896[0m      [1;95mpop[0m[37m   [0m[36medi[0m[0m[0m
+[36m│[0m           [32m0x1000d897[0m      [1;95mpop[0m[37m   [0m[36mesi[0m[0m[0m
+[36m│[0m           [32m0x1000d898[0m      [1;95mpop[0m[37m   [0m[36mebx[0m[0m[0m
+[36m│[0m           [32m0x1000d899[0m      [1;95mpop[0m[37m   [0m[36mebp[0m[0m[0m
+[36m└[0m           [32m0x1000d89a[0m      [31mret[0m[37m   [0m[33m0x38[0m[0m[0m
+[36m┌[0m [31m[31msym.public:_void___thiscall_CTransactionID::constructor_class_CList_class_CTransactionID_______class_CVar2____struct_IUnknown____struct_IDispatch____int__unsigned_long_int__struct_tagVARIANT____struct_tagVARIANT____struct_tagVARIANT____struct_tagVARIANT____struct_tagVARIANT____struct_tagVARIANT____struct_tagVARIANT[0m(SAFEARRAY *arg_8h, int32_t arg_ch, int32_t arg_10h, int32_t arg_17h, SAFEARRAY *psa, int32_t arg_2ch, int32_t arg_34h, int32_t arg_38h, uint_least32_t arg_3ch);
+[36m│[0m      [34m╎[0m[34m╎[0m   [37m; [37mvar [34mint32_t var_38h [36m@ stack - 0x38[0m
+[36m│[0m      [34m╎[0m[34m╎[0m   [37m; [37mvar [34mint32_t var_30h [36m@ stack - 0x30[0m
+[36m│[0m      [34m╎[0m[34m╎[0m   [37m; [37marg [34mSAFEARRAY *arg_8h [36m@ stack + 0x8[0m
+[36m│[0m      [34m╎[0m[34m╎[0m   [37m; [37marg [34mint32_t arg_ch [36m@ stack + 0xc[0m
+[36m│[0m      [34m╎[0m[34m╎[0m   [37m; [37marg [34mint32_t arg_10h [36m@ stack + 0x10[0m
+[36m│[0m      [34m╎[0m[34m╎[0m   [37m; [37marg [34mint32_t arg_17h [36m@ stack + 0x17[0m
+[36m│[0m      [34m╎[0m[34m╎[0m   [37m; [37marg [34mSAFEARRAY *psa [36m@ stack + 0x20[0m
+[36m│[0m      [34m╎[0m[34m╎[0m   [37m; [37marg [34mint32_t arg_2ch [36m@ stack + 0x2c[0m
+[36m│[0m      [34m╎[0m[34m╎[0m   [37m; [37marg [34mint32_t arg_34h [36m@ stack + 0x34[0m
+[36m│[0m      [34m╎[0m[34m╎[0m   [37m; [37marg [34mint32_t arg_38h [36m@ stack + 0x38[0m
+[36m│[0m      [34m╎[0m[34m╎[0m   [37m; [37marg [34muint_least32_t arg_3ch [36m@ stack + 0x3c[0m
+[36m│[0m      [34m╎[0m[34m╎[0m   [32m0x1000df94[0m      [33midiv[0m[37m  [0m[36medi[0m[0m[0m                                  [37m; public: void __thiscall CTransactionID::constructor(class CList<class CTransactionID *> *, class CVar2 *, struct IUnknown *, struct IDispatch *, int, unsigned long int, struct tagVARIANT *, struct tagVARIANT *, struct tagVARIANT *, struct tagVARIANT *, struct tagVARIANT *, struct tagVARIANT *, struct tagVARIANT *)[0m
+[36m│[0m      [34m╎[0m[34m╎[0m   [32m0x1000df96[0m      [37mlea[0m[37m   [0m[36meax[0m[37m, [0m[37mdword[0m[37m [[0m[37marg[0m[37m_[0m[37m17h[0m[37m][0m[0m[0m
+[36m│[0m      [34m╎[0m[34m╎[0m   [32m0x1000df99[0m      [35mpush[0m[37m  [0m[36meax[0m[0m[0m
+[36m│[0m      [34m╎[0m[34m╎[0m   [32m0x1000df9a[0m      [37mlea[0m[37m   [0m[36meax[0m[37m, [0m[37mdword[0m[37m [[0m[37marg[0m[37m_[0m[37m2ch[0m[37m][0m[0m[0m
+[36m│[0m      [34m╎[0m[34m╎[0m   [32m0x1000df9d[0m      [36mshl[0m[37m   [0m[36mcl[0m[37m, [0m[33m0x04[0m[0m[0m
+[36m│[0m      [34m╎[0m[34m╎[0m   [32m0x1000dfa0[0m      [35mpush[0m[37m  [0m[36meax[0m[0m[0m
+[36m│[0m      [34m╎[0m[34m╎[0m   [32m0x1000dfa1[0m      [35mpush[0m[37m  [0m[37mdword[0m[37m [[0m[37marg[0m[37m_[0m[37m8h[0m[37m][0m[0m[0m
+[36m│[0m      [34m╎[0m[34m╎[0m   [32m0x1000dfa4[0m      [33madd[0m[37m   [0m[36mcl[0m[37m, [0m[36mdl[0m[0m[0m
+[36m│[0m      [34m╎[0m[34m╎[0m   [32m0x1000dfa6[0m      [37mmov[0m[37m   [0m[37mbyte[0m[37m [[0m[37marg[0m[37m_[0m[37m17h[0m[37m], [0m[36mcl[0m[0m[0m
+[36m│[0m      [34m╎[0m[34m╎[0m   [32m0x1000dfa9[0m      [32mcall[0m[37m  [0m[36mesi[0m[0m[0m
+[36m│[0m      [34m╎[0m[34m╎[0m   [32m0x1000dfab[0m      [37mmov[0m[37m   [0m[36meax[0m[37m, [0m[37mdword[0m[37m [[0m[37marg[0m[37m_[0m[37m10h[0m[37m][0m[0m[0m
+[36m│[0m      [34m╎[0m[34m╎[0m   [32m0x1000dfae[0m      [35mpush[0m[37m  [0m[36medi[0m[0m[0m
+[36m│[0m      [34m╎[0m[34m╎[0m   [32m0x1000dfaf[0m      [33madd[0m[37m   [0m[36meax[0m[37m, [0m[33m0x05[0m[0m[0m
+[36m│[0m      [34m╎[0m[34m╎[0m   [32m0x1000dfb2[0m      [1;95mpop[0m[37m   [0m[36mecx[0m[0m[0m
+[36m│[0m      [34m╎[0m[34m╎[0m   [32m0x1000dfb3[0m      [37mmov[0m[37m   [0m[37mdword[0m[37m [[0m[37marg[0m[37m_[0m[37m2ch[0m[37m], [0m[36meax[0m[0m[0m
+[36m│[0m      [34m╎[0m[34m╎[0m   [32m0x1000dfb6[0m      [37mmov[0m[37m   [0m[36meax[0m[37m, [0m[37mdword[0m[37m [[0m[37marg[0m[37m_[0m[37m38h[0m[37m][0m[0m[0m
+[36m│[0m      [34m╎[0m[34m╎[0m   [32m0x1000dfb9[0m      [37mcdq[0m[0m
+[36m│[0m      [34m╎[0m[34m╎[0m   [32m0x1000dfba[0m      [33midiv[0m[37m  [0m[36mecx[0m[0m[0m
+[36m│[0m      [34m╎[0m[34m╎[0m   [32m0x1000dfbc[0m      [35mpush[0m[37m  [0m[33m0x64[0m[0m[31m                                 ; 'd'[31m ; 100[0m
+[36m│[0m      [34m╎[0m[34m╎[0m   [32m0x1000dfbe[0m      [1;95mpop[0m[37m   [0m[36mecx[0m[0m[0m
+[36m│[0m      [34m╎[0m[34m╎[0m   [32m0x1000dfbf[0m      [35mpush[0m[37m  [0m[33m0x0a[0m[0m[31m                                 ; 0xa[31m ; 10[0m
+[36m│[0m      [34m╎[0m[34m╎[0m   [32m0x1000dfc1[0m      [37mlea[0m[37m   [0m[36medi[0m[37m, [0m[37mdword[0m[37m [[0m[36medx[0m[37m+[0m[36medx[0m[37m*[0m[33m4[0m[37m][0m[0m[0m
+[36m│[0m      [34m╎[0m[34m╎[0m   [32m0x1000dfc4[0m      [36mshl[0m[37m   [0m[36medi[0m[37m, [0m[33m0x01[0m[0m[0m
+[36m│[0m      [34m╎[0m[34m╎[0m   [32m0x1000dfc6[0m      [37mmov[0m[37m   [0m[36meax[0m[37m, [0m[36medi[0m[0m[0m
+[36m│[0m      [34m╎[0m[34m╎[0m   [32m0x1000dfc8[0m      [37mcdq[0m[0m
+[36m│[0m      [34m╎[0m[34m╎[0m   [32m0x1000dfc9[0m      [33midiv[0m[37m  [0m[36mecx[0m[0m[0m
+[36m│[0m      [34m╎[0m[34m╎[0m   [32m0x1000dfcb[0m      [1;95mpop[0m[37m   [0m[36mecx[0m[0m[0m
+[36m│[0m      [34m╎[0m[34m╎[0m   [32m0x1000dfcc[0m      [35mpush[0m[37m  [0m[33m0x0a[0m[0m[31m                                 ; 0xa[31m ; 10[0m
+[36m│[0m      [34m╎[0m[34m╎[0m   [32m0x1000dfce[0m      [37mmov[0m[37m   [0m[36meax[0m[37m, [0m[36medx[0m[0m[0m
+[36m│[0m      [34m╎[0m[34m╎[0m   [32m0x1000dfd0[0m      [37mcdq[0m[0m
+[36m│[0m      [34m╎[0m[34m╎[0m   [32m0x1000dfd1[0m      [33midiv[0m[37m  [0m[36mecx[0m[0m[0m
+[36m│[0m      [34m╎[0m[34m╎[0m   [32m0x1000dfd3[0m      [37mmov[0m[37m   [0m[36mecx[0m[37m, [0m[36meax[0m[0m[0m
+[36m│[0m      [34m╎[0m[34m╎[0m   [32m0x1000dfd5[0m      [37mmov[0m[37m   [0m[36meax[0m[37m, [0m[36medi[0m[0m[0m
+[36m│[0m      [34m╎[0m[34m╎[0m   [32m0x1000dfd7[0m      [37mcdq[0m[0m
+[36m│[0m      [34m╎[0m[34m╎[0m   [32m0x1000dfd8[0m      [1;95mpop[0m[37m   [0m[36medi[0m[0m[0m
+[36m│[0m      [34m╎[0m[34m╎[0m   [32m0x1000dfd9[0m      [33midiv[0m[37m  [0m[36medi[0m[0m[0m
+[36m│[0m      [34m╎[0m[34m╎[0m   [32m0x1000dfdb[0m      [37mlea[0m[37m   [0m[36meax[0m[37m, [0m[37mdword[0m[37m [[0m[37marg[0m[37m_[0m[37m17h[0m[37m][0m[0m[0m
+[36m│[0m      [34m╎[0m[34m╎[0m   [32m0x1000dfde[0m      [35mpush[0m[37m  [0m[36meax[0m[0m[0m
+[36m│[0m      [34m╎[0m[34m╎[0m   [32m0x1000dfdf[0m      [37mlea[0m[37m   [0m[36meax[0m[37m, [0m[37mdword[0m[37m [[0m[37marg[0m[37m_[0m[37m2ch[0m[37m][0m[0m[0m
+[36m│[0m      [34m╎[0m[34m╎[0m   [32m0x1000dfe2[0m      [36mshl[0m[37m   [0m[36mcl[0m[37m, [0m[33m0x04[0m[0m[0m
+[36m│[0m      [34m╎[0m[34m╎[0m   [32m0x1000dfe5[0m      [35mpush[0m[37m  [0m[36meax[0m[0m[0m
+[36m│[0m      [34m╎[0m[34m╎[0m   [32m0x1000dfe6[0m      [35mpush[0m[37m  [0m[37mdword[0m[37m [[0m[37marg[0m[37m_[0m[37m8h[0m[37m][0m[0m[0m
+[36m│[0m      [34m╎[0m[34m╎[0m   [32m0x1000dfe9[0m      [33madd[0m[37m   [0m[36mcl[0m[37m, [0m[36mdl[0m[0m[0m
+[36m│[0m      [34m╎[0m[34m╎[0m   [32m0x1000dfeb[0m      [37mmov[0m[37m   [0m[37mbyte[0m[37m [[0m[37marg[0m[37m_[0m[37m17h[0m[37m], [0m[36mcl[0m[0m[0m
+[36m│[0m      [34m╎[0m[34m╎[0m   [32m0x1000dfee[0m      [32mcall[0m[37m  [0m[36mesi[0m[0m[0m
+[36m│[0m      [34m╎[0m[34m╎[0m   [32m0x1000dff0[0m      [33minc[0m[37m   [0m[37mdword[0m[37m [[0m[37marg[0m[37m_[0m[37m34h[0m[37m][0m[0m[0m
+[36m│[0m      [34m╎[0m[34m╎[0m   [32m0x1000dff3[0m      [37mmov[0m[37m   [0m[36meax[0m[37m, [0m[37mdword[0m[37m [[0m[37marg[0m[37m_[0m[37m34h[0m[37m][0m[0m[0m
+[36m│[0m      [34m╎[0m[34m╎[0m   [32m0x1000dff6[0m      [33madd[0m[37m   [0m[37mdword[0m[37m [[0m[37marg[0m[37m_[0m[37m10h[0m[37m], [0m[33m0x08[0m[0m[0m
+[36m│[0m      [34m╎[0m[34m╎[0m   [32m0x1000dffa[0m      [36mcmp[0m[37m   [0m[36meax[0m[37m, [0m[37mdword[0m[37m [[0m[37marg[0m[37m_[0m[37m3ch[0m[37m][0m[0m[0m
+[36m│[0m      [34m└[0m[34m─[0m[34m─[0m[34m<[0m [32m0x1000dffd[0m      [32mjl[0m[37m    [0m[33m0x1000ddf0[0m[0m[0m
+[36m│[0m       [34m╎[0m   [32m0x1000e003[0m      [37mmov[0m[37m   [0m[36meax[0m[37m, [0m[37mdword[0m[37m [[0m[37marg[0m[37m_[0m[37m34h[0m[37m][0m[0m[0m
+[36m│[0m       [34m╎[0m   [32m0x1000e006[0m      [36mcmp[0m[37m   [0m[36meax[0m[37m, [0m[37mdword[0m[37m [[0m[37marg[0m[37m_[0m[37m3ch[0m[37m][0m[0m[0m
+[36m│[0m      [36m┌[0m[36m─[0m[36m─[0m[36m<[0m [32m0x1000e009[0m      [32mjnz[0m[37m   [0m[33m0x1000e02a[0m[0m[0m
+[36m│[0m      [36m│[0m[34m╎[0m   [32m0x1000e00b[0m      [37mmov[0m[37m   [0m[36mecx[0m[37m, [0m[37mdword[0m[37m [[0m[37mvar[0m[37m_[0m[37m38h[0m[37m][0m[0m[0m
+[36m│[0m      [36m│[0m[34m╎[0m   [32m0x1000e00e[0m      [36mcmp[0m[37m   [0m[36meax[0m[37m, [0m[37mdword[0m[37m [[0m[36mecx[0m[37m+[0m[33m0x10[0m[37m][0m[0m[0m
+[36m│[0m     [36m┌[0m[36m─[0m[36m─[0m[36m─[0m[36m<[0m [32m0x1000e011[0m      [32mjnz[0m[37m   [0m[33m0x1000e021[0m[0m[0m
+[36m│[0m     [36m│[0m[36m│[0m[34m╎[0m   [32m0x1000e013[0m      [37mmov[0m[37m   [0m[36meax[0m[37m, [0m[37mdword[0m[37m [[0m[37marg[0m[37m_[0m[37m8h[0m[37m][0m[0m[0m
+[36m│[0m     [36m│[0m[36m│[0m[34m╎[0m   [32m0x1000e016[0m      [37mmov[0m[37m   [0m[37mword[0m[37m [[0m[36mebx[0m[37m+[0m[33m0x40[0m[37m], [0m[33m0x2011[0m[0m[31m              ; [[31m0x2011[31m:2]=0xffff[0m
+[36m│[0m     [36m│[0m[36m│[0m[34m╎[0m   [32m0x1000e01c[0m      [37mmov[0m[37m   [0m[37mdword[0m[37m [[0m[36mebx[0m[37m+[0m[33m0x48[0m[37m], [0m[36meax[0m[0m[0m
+[36m│[0m    [36m┌[0m[36m─[0m[36m─[0m[36m─[0m[36m─[0m[36m<[0m [32m0x1000e01f[0m      [32mjmp[0m[37m   [0m[33m0x1000e02a[0m[0m[0m
+[36m│[0m    [36m│[0m[36m└[0m[36m─[0m[36m─[0m[36m─[0m[36m>[0m [32m0x1000e021[0m      [35mpush[0m[37m  [0m[37mdword[0m[37m [[0m[37marg[0m[37m_[0m[37m8h[0m[37m][0m[0m[0m                       [34m; SAFEARRAY *psa[0m
+[36m│[0m    [36m│[0m [36m│[0m[34m╎[0m   [32m0x1000e024[0m      [32mcall[0m[37m  [0m[37mdword[0m[37m [[0m[33msym.imp.OLEAUT32.dll_SafeArrayGetDim[0m[37m][0m[0m[31m ; 0x1002c1d8[0m[31m ; UINT SafeArrayGetDim(SAFEARRAY *psa)[0m
+[36m│[0m    [36m│[0m [36m│[0m[34m╎[0m   [31m[31m; CODE XREF from sym.public:_void___thiscall_CTransactionID::constructor_class_CList_class_CTransactionID_______class_CVar2____struct_IUnknown____struct_IDispatch____int__unsigned_long_int__struct_tagVARIANT____struct_tagVARIANT____struct_tagVARIANT____struct_tagVARIANT____struct_tagVARIANT____struct_tagVARIANT____struct_tagVARIANT @ 0x1000e01f[0m
+[36m│[0m    [36m└[0m[36m─[0m[36m└[0m[36m─[0m[36m─[0m[36m>[0m [32m0x1000e02a[0m      [36mcmp[0m[37m   [0m[37mdword[0m[37m [[0m[37mpsa[0m[37m], [0m[33m0x00[0m[0m[0m
+[36m│[0m       [34m└[0m[34m─[0m[34m<[0m [32m0x1000e02e[0m      [32mjmp[0m[37m   [0m[33m0x1000dda8[0m[0m[0m
+..
+    [36m│[0m[36m│[0m[36m│[0m[36m│[0m[36m│[0m   [36m;-- public virtual: void * __thiscall CTransactionID::scalar_dtor(unsigned int):[0m
+[36m│[0m   [36m│[0m[36m│[0m[36m│[0m[36m│[0m[36m│[0m   [36m;-- [32m(0x1000e162)[36m public: void __thiscall CRequestID::~destructor(void):[0m
+[36m│[0m   [36m│[0m[36m│[0m[36m│[0m[36m│[0m[36m│[0m   [36m;-- [32m(0x1000e189)[36m public: void __thiscall CTransactionID::Delete(class CTransaction *):[0m
+[36m│[0m   [36m│[0m[36m│[0m[36m│[0m[36m│[0m[36m│[0m   [36m;-- [32m(0x1000e1bd)[36m ?StartTransaction@CVar2@@IAEPAVCResult@@PAVCTransactionID@@AAVString@@PAGFJJPAUtagVARIANT@@KAAV?$CList@PAVCTransactionDestructo:[0m
+[36m│[0m [36m│[0m[36m│[0m[36m│[0m[36m│[0m[36m│[0m[36m│[0m[36m│[0m   [31m[31m; CODE XREF from fcn.1000d8bf @ 0x1000e2a9[0m
+[36m│[0m [36m│[0m[36m│[0m[36m│[0m[36m│[0m[36m│[0m[36m│[0m[36m│[0m   [31m[31m; CODE XREF from fcn.1000d8bf @ 0x1000e2fa[0m
+[36m│[0m [36m│[0m[36m│[0m[36m│[0m[36m│[0m[36m│[0m[36m│[0m[36m│[0m   [31m[31m; CODE XREF from fcn.1000d8bf @ 0x1000e34a[0m
+[36m│[0m [36m│[0m[36m│[0m[36m│[0m[36m│[0m[36m│[0m[36m│[0m[36m│[0m   [31m[31m; CODE XREF from fcn.1000d8bf @ 0x1000e314[0m
+[36m│[0m [36m│[0m[36m│[0m[36m│[0m[36m│[0m[36m│[0m[36m│[0m[36m│[0m   [31m[31m; CODE XREF from fcn.1000d8bf @ 0x1000e3ae[0m
+[36m│[0m [36m│[0m[36m│[0m[36m│[0m[36m│[0m[36m│[0m[36m│[0m[36m│[0m   [31m[31m; CODE XREF from fcn.1000d8bf @ 0x1000e3ff[0m
+[36m│[0m [36m│[0m[36m│[0m[36m│[0m[36m│[0m[36m│[0m[36m│[0m[36m│[0m   [31m[31m; CODE XREF from fcn.1000d8bf @ 0x1000e4ee[0m
+[36m│[0m [36m│[0m[36m│[0m[36m│[0m[36m│[0m[36m│[0m[36m│[0m[36m│[0m   [31m[31m; CODE XREF from fcn.1000d8bf @ 0x1000e4b5[0m
+[36m│[0m [36m│[0m[36m│[0m[36m│[0m[36m│[0m[36m│[0m[36m│[0m[36m│[0m   [31m[31m; CODE XREF from fcn.1000d8bf @ 0x1000e526[0m
+[36m│[0m [36m│[0m[36m│[0m[36m│[0m[36m│[0m[36m│[0m[36m│[0m[36m│[0m   [31m[31m; CODE XREF from fcn.1000d8bf @ 0x1000e56e[0m
+[36m│[0m [36m│[0m[36m│[0m[36m│[0m[36m│[0m[36m│[0m[36m│[0m[36m│[0m   [31m[31m; CODE XREF from fcn.1000d8bf @ 0x1000e484[0m
+[36m│[0m [36m│[0m[36m│[0m[36m│[0m[36m│[0m[36m│[0m[36m│[0m[36m│[0m   [31m[31m; CODE XREF from fcn.1000d8bf @ 0x1000ea9b[0m
+[36m│[0m [36m│[0m[36m│[0m[36m│[0m[36m│[0m[36m│[0m[36m│[0m[36m│[0m   [31m[31m; CODE XREF from sym.__0CTransaction__QAE_PAV__CList_PAVCTransaction____PAVCTransactionID__AAVString__PAGAAVCComBSTR_ATL__UTagConvSpec__HJFJJPAUtagV @ 0x1000e69e[0m
+[36m│[0m [36m│[0m[36m│[0m[36m│[0m[36m│[0m[36m│[0m[36m│[0m[36m│[0m   [31m[31m; CODE XREF from sym.__0CTransaction__QAE_PAV__CList_PAVCTransaction____PAVCTransactionID__AAVString__PAGAAVCComBSTR_ATL__UTagConvSpec__HJFJJPAUtagV @ 0x1000e832[0m
+[36m│[0m [36m│[0m[36m│[0m[36m│[0m[36m│[0m[36m│[0m[36m│[0m[36m│[0m   [36m;-- [32m(0x1000e8bf)[36m public: void __thiscall CDdeAction::constructor(class CCyclicID *, class CTransactionID *, class String &, unsigned short int *, class ATL::CComBSTR, struct TagConvSpec, int, struct tagVARIANT *, long int, int, long int, long int):[0m
+[36m│[0m [36m│[0m[36m│[0m[36m│[0m[36m│[0m[36m│[0m[36m│[0m[36m│[0m   [31m[31m; CODE XREF from sym.__0CTransaction__QAE_PAV__CList_PAVCTransaction____PAVCTransactionID__AAVString__PAGAAVCComBSTR_ATL__UTagConvSpec__HJFJJPAUtagV @ 0x1000e84e[0m
+[36m│[0m [36m│[0m[36m│[0m[36m│[0m[36m│[0m[36m│[0m[36m│[0m[36m│[0m   [31m[31m; CODE XREF from fcn.1000d8bf @ 0x1000eaf1[0m
+[36m│[0m [36m│[0m[36m│[0m[36m│[0m[36m│[0m[36m│[0m[36m│[0m[36m│[0m   [31m[31m; XREFS: CODE 0x1000db67  CODE 0x1000dc45  CODE 0x1000dd73[0m
+[36m│[0m [36m│[0m[36m│[0m[36m│[0m[36m│[0m[36m│[0m[36m│[0m[36m│[0m   [31m[31m; XREFS: CODE 0x1000e2ba  CODE 0x1000e65e  CODE 0x1000ec69[0m
+[36m│[0m [36m│[0m[36m│[0m[36m│[0m[36m│[0m[36m│[0m[36m│[0m[36m│[0m   [32m0x1000eb4c[0m      [1;92mcall[0m[37m  [0m[37mfcn[0m[37m.[0m[33m10007caf[0m[0m[0m                         [34m; SAFEARRAY *psa[0m
+[36m│[0m [36m│[0m[36m│[0m[36m│[0m[36m│[0m[36m│[0m[36m│[0m[36m│[0m   [32m0x1000eb51[0m      [32mjmp[0m[37m   [0m[33m0x1000ec9d[0m[0m[31m                           ; sym.public_virtual:_void___thiscall_CTransactionID::_destructor_void+0xbf2[0m
+[36m┌[0m [31m[31msym.public:_class_CResult_____thiscall_CTransactionID::WaitComplete_void[0m(int32_t arg_8h, int32_t arg_1ch, int32_t arg_20h, int32_t arg_24h, int32_t arg_28h);
+[36m│[0m           [37m; [37mvar [34mint32_t var_60h [36m@ stack - 0x60[0m
+[36m│[0m           [37m; [37mvar [34mint32_t var_50h [36m@ stack - 0x50[0m
+[36m│[0m           [37m; [37mvar [34mint32_t var_40h [36m@ stack - 0x40[0m
+[36m│[0m           [37m; [37mvar [34mint32_t var_38h [36m@ stack - 0x38[0m
+[36m│[0m           [37m; [37mvar [34mint32_t var_28h [36m@ stack - 0x28[0m
+[36m│[0m           [37m; [37mvar [34mint32_t var_20h [36m@ stack - 0x20[0m
+[36m│[0m           [37m; [37mvar [34mint32_t var_ch [36m@ stack - 0xc[0m
+[36m│[0m           [37m; [37marg [34mint32_t arg_8h [36m@ stack + 0x8[0m
+[36m│[0m           [37m; [37marg [34mint32_t arg_1ch [36m@ stack + 0x1c[0m
+[36m│[0m           [37m; [37marg [34mint32_t arg_20h [36m@ stack + 0x20[0m
+[36m│[0m           [37m; [37marg [34mint32_t arg_24h [36m@ stack + 0x24[0m
+[36m│[0m           [37m; [37marg [34mint32_t arg_28h [36m@ stack + 0x28[0m
+[36m│[0m           [32m0x1000be8d[0m      [33madd[0m[37m   [0m[37mbyte[0m[37m [[0m[36meax[0m[37m], [0m[36mal[0m[0m[0m                       [37m; public: class CResult * __thiscall CTransactionID::WaitComplete(void)[0m
+[36m│[0m           [32m0x1000be8f[0m      [37mmov[0m[37m   [0m[36meax[0m[37m, [0m[37mdword[0m[37m [[0m[37marg[0m[37m_[0m[37m1ch[0m[37m][0m[0m[0m
+[36m│[0m           [32m0x1000be92[0m      [37mmov[0m[37m   [0m[37mword[0m[37m [[0m[37mvar[0m[37m_[0m[37m50h[0m[37m], [0m[36mdi[0m[0m[0m
+[36m│[0m           [32m0x1000be96[0m      [37mmov[0m[37m   [0m[37mword[0m[37m [[0m[37mvar[0m[37m_[0m[37m20h[0m[37m], [0m[36mdi[0m[0m[0m
+[36m│[0m           [32m0x1000be9a[0m      [37mmov[0m[37m   [0m[37mword[0m[37m [[0m[37mvar[0m[37m_[0m[37m40h[0m[37m], [0m[33m0x03[0m[0m[0m
+[36m│[0m           [32m0x1000bea0[0m      [37mmov[0m[37m   [0m[37mdword[0m[37m [[0m[37mvar[0m[37m_[0m[37m38h[0m[37m], [0m[36meax[0m[0m[0m
+[36m│[0m           [32m0x1000bea3[0m      [1;92mcall[0m[37m  [0m[37mfcn[0m[37m.[0m[33m100017f3[0m[0m[0m
+[36m│[0m           [32m0x1000bea8[0m      [36mcmp[0m[37m   [0m[37mdword[0m[37m [[0m[36meax[0m[37m], [0m[33m0x02[0m[0m[0m
+[36m│[0m       [36m┌[0m[36m─[0m[36m<[0m [32m0x1000beab[0m      [32mjz[0m[37m    [0m[33m0x1000beb1[0m[0m[0m
+[36m│[0m       [36m│[0m   [32m0x1000bead[0m      [36mxor[0m[37m   [0m[36meax[0m[37m, [0m[36meax[0m[0m[0m
+[36m│[0m      [36m┌[0m[36m─[0m[36m─[0m[36m<[0m [32m0x1000beaf[0m      [32mjmp[0m[37m   [0m[33m0x1000beb6[0m[0m[0m
+[36m│[0m      [36m│[0m[36m└[0m[36m─[0m[36m>[0m [32m0x1000beb1[0m      [37mmov[0m[37m   [0m[36meax[0m[37m, [0m[37mdword[0m[37m [[0m[36meax[0m[37m+[0m[33m0x0c[0m[37m][0m[0m[0m
+[36m│[0m      [36m│[0m    [32m0x1000beb4[0m      [37mmov[0m[37m   [0m[36meax[0m[37m, [0m[37mdword[0m[37m [[0m[36meax[0m[37m][0m[0m[0m
+[36m│[0m      [36m│[0m    [31m[31m; CODE XREF from sym.public:_class_CResult_____thiscall_CTransactionID::WaitComplete_void @ 0x1000beaf[0m
+[36m│[0m      [36m└[0m[36m─[0m[36m─[0m[36m>[0m [32m0x1000beb6[0m      [36mtest[0m[37m  [0m[36mal[0m[37m, [0m[33m0x01[0m[0m[31m                             ; 1[0m
+[36m│[0m       [36m┌[0m[36m─[0m[36m<[0m [32m0x1000beb8[0m      [32mjz[0m[37m    [0m[33m0x1000beed[0m[0m[0m
+[36m│[0m       [36m│[0m   [32m0x1000beba[0m      [37mmov[0m[37m   [0m[36meax[0m[37m, [0m[37mdword[0m[37m [[0m[37mvar[0m[37m_[0m[37mch[0m[37m][0m[0m[0m
+[36m│[0m       [36m│[0m   [32m0x1000bebd[0m      [36mcmp[0m[37m   [0m[36meax[0m[37m, [0m[36medi[0m[0m[0m
+[36m│[0m      [36m┌[0m[36m─[0m[36m─[0m[36m<[0m [32m0x1000bebf[0m      [32mjz[0m[37m    [0m[33m0x1000becc[0m[0m[0m
+[36m│[0m      [36m│[0m[36m│[0m   [32m0x1000bec1[0m      [37mmov[0m[37m   [0m[36meax[0m[37m, [0m[37mdword[0m[37m [[0m[36meax[0m[37m+[0m[33m0x28[0m[37m][0m[0m[0m
+[36m│[0m      [36m│[0m[36m│[0m   [32m0x1000bec4[0m      [37mmov[0m[37m   [0m[36meax[0m[37m, [0m[37mdword[0m[37m [[0m[36meax[0m[37m+[0m[33m0x4c[0m[37m][0m[0m[0m
+[36m│[0m      [36m│[0m[36m│[0m   [32m0x1000bec7[0m      [37mmov[0m[37m   [0m[37mdword[0m[37m [[0m[37marg[0m[37m_[0m[37m8h[0m[37m], [0m[36meax[0m[0m[0m
+[36m│[0m     [36m┌[0m[36m─[0m[36m─[0m[36m─[0m[36m<[0m [32m0x1000beca[0m      [32mjmp[0m[37m   [0m[33m0x1000bed3[0m[0m[0m
+[36m│[0m     [36m│[0m[36m└[0m[36m─[0m[36m─[0m[36m>[0m [32m0x1000becc[0m      [37mmov[0m[37m   [0m[37mdword[0m[37m [[0m[37marg[0m[37m_[0m[37m8h[0m[37m], [0m[33m0x63[0m[0m[31m                 ; 'c'[31m ; 99[0m
+[36m│[0m     [36m│[0m [36m│[0m   [31m[31m; CODE XREF from sym.public:_class_CResult_____thiscall_CTransactionID::WaitComplete_void @ 0x1000beca[0m
+[36m│[0m     [36m└[0m[36m─[0m[36m─[0m[36m─[0m[36m>[0m [32m0x1000bed3[0m      [1;92mcall[0m[37m  [0m[37mfcn[0m[37m.[0m[33m10009f39[0m[0m[0m
+[36m│[0m       [36m│[0m   [32m0x1000bed8[0m      [35mpush[0m[37m  [0m[36meax[0m[0m[0m
+[36m│[0m       [36m│[0m   [32m0x1000bed9[0m      [35mpush[0m[37m  [0m[37mdword[0m[37m [[0m[37mvar[0m[37m_[0m[37m28h[0m[37m][0m[0m[0m
+[36m│[0m       [36m│[0m   [32m0x1000bedc[0m      [35mpush[0m[37m  [0m[36mebx[0m[0m[0m
+[36m│[0m       [36m│[0m   [32m0x1000bedd[0m      [35mpush[0m[37m  [0m[37mdword[0m[37m [[0m[37marg[0m[37m_[0m[37m8h[0m[37m][0m[0m[0m
+[36m│[0m       [36m│[0m   [32m0x1000bee0[0m      [35mpush[0m[37m  [0m[33mstr.d_IMCCommand_0x_x_ExecuteAsync___ls___s[0m[0m[31m ; 0x10031f38[31m ; "%d IMCCommand 0x%x ExecuteAsync \"%ls\" %s\n"[0m [34m; uint_least32_t arg_4h[0m
+[36m│[0m       [36m│[0m   [32m0x1000bee5[0m      [1;92mcall[0m[37m  [0m[37mfcn[0m[37m.[0m[33m10009daf[0m[0m[0m
+[36m│[0m       [36m│[0m   [36m;-- [32m(0x1000beeb)[36m public: static class CResult * __cdecl CResult::Shutdown(void):[0m
+[36m│[0m       [36m│[0m   [32m0x1000beea[0m  ~   [33madd[0m[37m   [0m[36mesp[0m[37m, [0m[33m0x14[0m[0m[0m
+[36m│[0m       [36m└[0m[36m─[0m[36m>[0m [32m0x1000beed[0m      [35mpush[0m[37m  [0m[36medi[0m[0m[0m
+[36m│[0m           [32m0x1000beee[0m      [35mpush[0m[37m  [0m[36medi[0m[0m[0m
+[36m│[0m           [32m0x1000beef[0m      [35mpush[0m[37m  [0m[36medi[0m[0m[0m
+[36m│[0m           [32m0x1000bef0[0m      [35mpush[0m[37m  [0m[36medi[0m[0m[0m
+[36m│[0m           [32m0x1000bef1[0m      [35mpush[0m[37m  [0m[36medi[0m[0m[0m
+[36m│[0m           [32m0x1000bef2[0m      [35mpush[0m[37m  [0m[36medi[0m[0m[0m
+[36m│[0m           [32m0x1000bef3[0m      [35mpush[0m[37m  [0m[36medi[0m[0m[0m
+[36m│[0m           [32m0x1000bef4[0m      [37mlea[0m[37m   [0m[36meax[0m[37m, [0m[37mdword[0m[37m [[0m[37mvar[0m[37m_[0m[37m20h[0m[37m][0m[0m[0m
+[36m│[0m           [32m0x1000bef7[0m      [35mpush[0m[37m  [0m[33m0x8090525[0m[0m[0m
+[36m│[0m           [32m0x1000befc[0m      [35mpush[0m[37m  [0m[36meax[0m[0m[0m
+[36m│[0m           [32m0x1000befd[0m      [35mpush[0m[37m  [0m[37mdword[0m[37m [[0m[37marg[0m[37m_[0m[37m28h[0m[37m][0m[0m[0m
+[36m│[0m           [32m0x1000bf00[0m      [37mlea[0m[37m   [0m[36meax[0m[37m, [0m[37mdword[0m[37m [[0m[37mvar[0m[37m_[0m[37m60h[0m[37m][0m[0m[0m
+[36m│[0m           [32m0x1000bf03[0m      [37mmov[0m[37m   [0m[36mecx[0m[37m, [0m[36mebx[0m[0m[0m
+[36m│[0m           [32m0x1000bf05[0m      [35mpush[0m[37m  [0m[37mdword[0m[37m [[0m[37marg[0m[37m_[0m[37m24h[0m[37m][0m[0m[0m
+[36m│[0m           [32m0x1000bf08[0m      [35mpush[0m[37m  [0m[37mdword[0m[37m [[0m[37marg[0m[37m_[0m[37m20h[0m[37m][0m[0m[0m
+[36m│[0m           [32m0x1000bf0b[0m      [35mpush[0m[37m  [0m[36medi[0m[0m[0m
+[36m│[0m           [32m0x1000bf0c[0m      [35mpush[0m[37m  [0m[36meax[0m[0m[0m
+[36m│[0m           [32m0x1000bf0d[0m      [37mlea[0m[37m   [0m[36meax[0m[37m, [0m[37mdword[0m[37m [[0m[37mvar[0m[37m_[0m[37m40h[0m[37m][0m[0m[0m
+[36m│[0m           [32m0x1000bf10[0m      [35mpush[0m[37m  [0m[36meax[0m[0m[0m
+[36m│[0m           [32m0x1000bf11[0m      [37mlea[0m[37m   [0m[36meax[0m[37m, [0m[37mdword[0m[37m [[0m[37mvar[0m[37m_[0m[37m50h[0m[37m][0m[0m[0m
+[36m│[0m           [32m0x1000bf14[0m      [35mpush[0m[37m  [0m[36meax[0m[0m[0m
+[36m│[0m           [32m0x1000bf15[0m      [37mlea[0m[37m   [0m[36meax[0m[37m, [0m[37mdword[0m[37m [[0m[37mvar[0m[37m_[0m[37m50h[0m[37m][0m[0m[0m
+[36m└[0m           [32m0x1000bf18[0m      [35mpush[0m[37m  [0m[36meax[0m[0m[0m
+[36m┌[0m [31m[31msym.public:_static_void___cdecl_CTransactionID::Free_long_int[0m();
+[36m│[0m           [32m0x1000bf73[0m      [33minc[0m[37m   [0m[36mebp[0m[0m[0m                                  [37m; public: static void __cdecl CTransactionID::Free(long int)[0m
+[36m│[0m           [32m0x1000bf74[0m      [37mmov[0m[37m   [0m[36mal[0m[37m, [0m[37mbyte[0m[37m [[0m[33m0x8dd6ff50[0m[37m][0m[0m[0m
+[36m└[0m           [32m0x1000bf79[0m      [33mdec[0m[37m   [0m[36mebp[0m[0m[0m
+[36m┌[0m [31m[31msym.public:_void___thiscall_CTransactionID::CloseUp_void[0m();
+[36m│[0m           [32m0x10013b78[0m  ~   [33madd[0m[37m   [0m[36meax[0m[37m, [0m[33m0x8b0c408b[0m[0m[0m                      [37m; public: void __thiscall CTransactionID::CloseUp(void)[0m
+..
+[36m│[0m           [32m0x10013b7d[0m      [33madd[0m[37m   [0m[37mbyte[0m[37m [[0m[36meax[0m[37m-[0m[33m0x74c08bff[0m[37m], [0m[36mch[0m[0m[0m
+[36m│[0m           [32m0x10013b83[0m      [33minc[0m[37m   [0m[36mebp[0m[0m[0m
+[36m│[0m           [32m0x10013b84[0m      [33madc[0m[37m   [0m[37mbyte[0m[37m [[0m[36mebx[0m[37m+[0m[33m0x34bf0c4d[0m[37m], [0m[36mcl[0m[0m[0m
+[36m│[0m       [36m┌[0m[36m─[0m[36m<[0m [32m0x10013b8a[0m      [32mjz[0m[37m    [0m[33m0x10013b8f[0m[0m[0m
+[36m│[0m       [36m│[0m   [32m0x10013b8c[0m      [33madc[0m[37m   [0m[37mbyte[0m[37m [[0m[36mebx[0m[37m+[0m[33m0x408b8104[0m[37m], [0m[36mcl[0m[0m[0m
+[36m│[0m           [32m0x10013b92[0m      [36mand[0m[37m   [0m[37mbyte[0m[37m [[0m[36mebp[0m[37m-[0m[33m0x74fd8b40[0m[37m], [0m[36mal[0m[0m[0m
+[36m│[0m           [32m0x10013b98[0m      [37mclc[0m[0m
+[36m┌[0m [31m[31msym.public_virtual:_void___thiscall_CTransactionID::_destructor_void[0m(int32_t arg_10h, int32_t arg_17h, BSTR pbstr, int32_t arg_2ch);
+[36m│[0m           [37m; [37mvar [34munknown_t *pvargDest [36m@ stack - 0x48[0m
+[36m│[0m           [37m; [37mvar [34mint32_t var_40h [36m@ stack - 0x40[0m
+[36m│[0m           [37m; [37mvar [34mint32_t var_30h [36m@ stack - 0x30[0m
+[36m│[0m           [37m; [37mvar [34mint32_t var_2ch [36m@ stack - 0x2c[0m
+[36m│[0m           [37m; [37mvar [34mint32_t var_28h [36m@ stack - 0x28[0m
+[36m│[0m           [37m; [37mvar [34mint32_t var_24h [36m@ stack - 0x24[0m
+[36m│[0m           [37m; [37mvar [34mint32_t var_20h [36m@ stack - 0x20[0m
+[36m│[0m           [37m; [37marg [34mint32_t arg_10h [36m@ stack + 0x10[0m
+[36m│[0m           [37m; [37marg [34mint32_t arg_17h [36m@ stack + 0x17[0m
+[36m│[0m           [37m; [37marg [34mBSTR pbstr [36m@ stack + 0x18[0m
+[36m│[0m           [37m; [37marg [34mint32_t arg_2ch [36m@ stack + 0x2c[0m
+[36m│[0m           [32m0x1000e0ab[0m      [33midiv[0m[37m  [0m[36mecx[0m[0m[0m                                  [37m; public virtual: void __thiscall CTransactionID::~destructor(void)[0m
+[36m│[0m           [32m0x1000e0ad[0m      [37mmov[0m[37m   [0m[36mecx[0m[37m, [0m[36meax[0m[0m[0m
+[36m│[0m           [32m0x1000e0af[0m      [37mmov[0m[37m   [0m[36meax[0m[37m, [0m[36mesi[0m[0m[0m
+[36m│[0m           [32m0x1000e0b1[0m      [37mcdq[0m[0m
+[36m│[0m           [32m0x1000e0b2[0m      [1;95mpop[0m[37m   [0m[36mesi[0m[0m[0m
+[36m│[0m           [32m0x1000e0b3[0m      [33midiv[0m[37m  [0m[36mesi[0m[0m[0m
+[36m│[0m           [32m0x1000e0b5[0m      [37mmov[0m[37m   [0m[36mesi[0m[37m, [0m[37mdword[0m[37m [[0m[33msym.imp.OLEAUT32.dll_SafeArrayCopy[0m[37m][0m[0m[31m ; [[31m0x1002c1bc[31m:4]=0x8000001a[0m
+[36m│[0m           [32m0x1000e0bb[0m      [37mlea[0m[37m   [0m[36meax[0m[37m, [0m[37mdword[0m[37m [[0m[37marg[0m[37m_[0m[37m17h[0m[37m][0m[0m[0m
+[36m│[0m           [32m0x1000e0be[0m      [35mpush[0m[37m  [0m[36meax[0m[0m[0m
+[36m│[0m           [32m0x1000e0bf[0m      [37mlea[0m[37m   [0m[36meax[0m[37m, [0m[37mdword[0m[37m [[0m[37marg[0m[37m_[0m[37m2ch[0m[37m][0m[0m[0m
+[36m│[0m           [32m0x1000e0c2[0m      [36mshl[0m[37m   [0m[36mcl[0m[37m, [0m[33m0x04[0m[0m[0m
+[36m│[0m           [32m0x1000e0c5[0m      [35mpush[0m[37m  [0m[36meax[0m[0m[0m
+[36m│[0m           [32m0x1000e0c6[0m      [35mpush[0m[37m  [0m[36medi[0m[0m[0m
+[36m│[0m           [32m0x1000e0c7[0m      [33madd[0m[37m   [0m[36mcl[0m[37m, [0m[36mdl[0m[0m[0m
+[36m│[0m           [32m0x1000e0c9[0m      [37mmov[0m[37m   [0m[37mbyte[0m[37m [[0m[37marg[0m[37m_[0m[37m17h[0m[37m], [0m[36mcl[0m[0m[0m
+[36m│[0m           [32m0x1000e0cc[0m      [32mcall[0m[37m  [0m[36mesi[0m[0m[0m
+[36m│[0m           [32m0x1000e0ce[0m      [37mmov[0m[37m   [0m[36meax[0m[37m, [0m[37mdword[0m[37m [[0m[37mvar[0m[37m_[0m[37m20h[0m[37m][0m[0m[0m
+[36m│[0m           [32m0x1000e0d1[0m      [35mpush[0m[37m  [0m[33m0x64[0m[0m[31m                                 ; 'd'[31m ; 100[0m
+[36m│[0m           [32m0x1000e0d3[0m      [37mcdq[0m[0m
+[36m│[0m           [32m0x1000e0d4[0m      [1;95mpop[0m[37m   [0m[36mecx[0m[0m[0m
+[36m│[0m           [32m0x1000e0d5[0m      [37mmov[0m[37m   [0m[37mdword[0m[37m [[0m[37marg[0m[37m_[0m[37m2ch[0m[37m], [0m[33m0x01[0m[0m[0m
+[36m│[0m           [32m0x1000e0dc[0m      [33midiv[0m[37m  [0m[36mecx[0m[0m[0m
+[36m│[0m           [32m0x1000e0de[0m      [35mpush[0m[37m  [0m[33m0x0a[0m[0m[31m                                 ; 0xa[31m ; 10[0m
+[36m│[0m           [32m0x1000e0e0[0m      [1;95mpop[0m[37m   [0m[36mecx[0m[0m[0m
+[36m│[0m           [32m0x1000e0e1[0m      [35mpush[0m[37m  [0m[33m0x0a[0m[0m[31m                                 ; 0xa[31m ; 10[0m
+[36m│[0m           [32m0x1000e0e3[0m      [1;95mpop[0m[37m   [0m[36medi[0m[0m[0m
+[36m│[0m           [32m0x1000e0e4[0m      [37mmov[0m[37m   [0m[36meax[0m[37m, [0m[36medx[0m[0m[0m
+[36m│[0m           [32m0x1000e0e6[0m      [37mcdq[0m[0m
+[36m│[0m           [32m0x1000e0e7[0m      [33midiv[0m[37m  [0m[36mecx[0m[0m[0m
+[36m│[0m           [32m0x1000e0e9[0m      [37mmov[0m[37m   [0m[36mecx[0m[37m, [0m[36meax[0m[0m[0m
+[36m│[0m           [32m0x1000e0eb[0m      [37mmov[0m[37m   [0m[36meax[0m[37m, [0m[37mdword[0m[37m [[0m[37mvar[0m[37m_[0m[37m20h[0m[37m][0m[0m[0m
+[36m│[0m           [32m0x1000e0ee[0m      [37mcdq[0m[0m
+[36m│[0m           [32m0x1000e0ef[0m      [33midiv[0m[37m  [0m[36medi[0m[0m[0m
+[36m│[0m           [32m0x1000e0f1[0m      [37mlea[0m[37m   [0m[36meax[0m[37m, [0m[37mdword[0m[37m [[0m[37marg[0m[37m_[0m[37m17h[0m[37m][0m[0m[0m
+[36m│[0m           [32m0x1000e0f4[0m      [35mpush[0m[37m  [0m[36meax[0m[0m[0m
+[36m│[0m           [32m0x1000e0f5[0m      [37mlea[0m[37m   [0m[36meax[0m[37m, [0m[37mdword[0m[37m [[0m[37marg[0m[37m_[0m[37m2ch[0m[37m][0m[0m[0m
+[36m│[0m           [32m0x1000e0f8[0m      [36mshl[0m[37m   [0m[36mcl[0m[37m, [0m[33m0x04[0m[0m[0m
+[36m│[0m           [32m0x1000e0fb[0m      [35mpush[0m[37m  [0m[36meax[0m[0m[0m
+[36m│[0m           [32m0x1000e0fc[0m      [35mpush[0m[37m  [0m[37mdword[0m[37m [[0m[36mebx[0m[37m+[0m[33m0x48[0m[37m][0m[0m[0m
+[36m│[0m           [32m0x1000e0ff[0m      [33madd[0m[37m   [0m[36mcl[0m[37m, [0m[36mdl[0m[0m[0m
+[36m│[0m           [32m0x1000e101[0m      [37mmov[0m[37m   [0m[37mbyte[0m[37m [[0m[37marg[0m[37m_[0m[37m17h[0m[37m], [0m[36mcl[0m[0m[0m
+[36m│[0m           [32m0x1000e104[0m      [32mcall[0m[37m  [0m[36mesi[0m[0m[0m
+[36m│[0m           [32m0x1000e106[0m      [37mmov[0m[37m   [0m[36meax[0m[37m, [0m[37mdword[0m[37m [[0m[37mvar[0m[37m_[0m[37m24h[0m[37m][0m[0m[0m
+[36m│[0m           [32m0x1000e109[0m      [35mpush[0m[37m  [0m[33m0x64[0m[0m[31m                                 ; 'd'[31m ; 100[0m
+[36m│[0m           [32m0x1000e10b[0m      [37mcdq[0m[0m
+[36m│[0m           [32m0x1000e10c[0m      [1;95mpop[0m[37m   [0m[36mecx[0m[0m[0m
+[36m│[0m           [32m0x1000e10d[0m      [37mmov[0m[37m   [0m[37mdword[0m[37m [[0m[37marg[0m[37m_[0m[37m2ch[0m[37m], [0m[33m0x02[0m[0m[0m
+[36m│[0m           [32m0x1000e114[0m      [33midiv[0m[37m  [0m[36mecx[0m[0m[0m
+[36m│[0m           [32m0x1000e116[0m      [35mpush[0m[37m  [0m[36medi[0m[0m[0m
+[36m│[0m           [32m0x1000e117[0m      [1;95mpop[0m[37m   [0m[36mecx[0m[0m[0m
+[36m│[0m           [32m0x1000e118[0m      [37mmov[0m[37m   [0m[36meax[0m[37m, [0m[36medx[0m[0m[0m
+[36m│[0m           [32m0x1000e11a[0m      [37mcdq[0m[0m
+[36m│[0m           [32m0x1000e11b[0m      [33midiv[0m[37m  [0m[36mecx[0m[0m[0m
+[36m│[0m           [32m0x1000e11d[0m      [37mmov[0m[37m   [0m[36mecx[0m[37m, [0m[36meax[0m[0m[0m
+[36m│[0m           [32m0x1000e11f[0m      [37mmov[0m[37m   [0m[36meax[0m[37m, [0m[37mdword[0m[37m [[0m[37mvar[0m[37m_[0m[37m24h[0m[37m][0m[0m[0m
+[36m│[0m           [32m0x1000e122[0m      [37mcdq[0m[0m
+[36m│[0m           [32m0x1000e123[0m      [33midiv[0m[37m  [0m[36medi[0m[0m[0m
+[36m│[0m           [32m0x1000e125[0m      [37mlea[0m[37m   [0m[36meax[0m[37m, [0m[37mdword[0m[37m [[0m[37marg[0m[37m_[0m[37m17h[0m[37m][0m[0m[0m
+[36m│[0m           [32m0x1000e128[0m      [35mpush[0m[37m  [0m[36meax[0m[0m[0m
+[36m│[0m           [32m0x1000e129[0m      [37mlea[0m[37m   [0m[36meax[0m[37m, [0m[37mdword[0m[37m [[0m[37marg[0m[37m_[0m[37m2ch[0m[37m][0m[0m[0m
+[36m│[0m           [32m0x1000e12c[0m      [36mshl[0m[37m   [0m[36mcl[0m[37m, [0m[33m0x04[0m[0m[0m
+[36m│[0m           [32m0x1000e12f[0m      [35mpush[0m[37m  [0m[36meax[0m[0m[0m
+[36m│[0m           [32m0x1000e130[0m      [35mpush[0m[37m  [0m[37mdword[0m[37m [[0m[36mebx[0m[37m+[0m[33m0x48[0m[37m][0m[0m[0m
+[36m│[0m           [32m0x1000e133[0m      [33madd[0m[37m   [0m[36mcl[0m[37m, [0m[36mdl[0m[0m[0m
+[36m│[0m           [32m0x1000e135[0m      [37mmov[0m[37m   [0m[37mbyte[0m[37m [[0m[37marg[0m[37m_[0m[37m17h[0m[37m], [0m[36mcl[0m[0m[0m
+[36m│[0m           [32m0x1000e138[0m      [32mcall[0m[37m  [0m[36mesi[0m[0m[0m
+[36m│[0m           [32m0x1000e13a[0m      [37mmov[0m[37m   [0m[36meax[0m[37m, [0m[37mdword[0m[37m [[0m[37mvar[0m[37m_[0m[37m28h[0m[37m][0m[0m[0m
+[36m│[0m           [32m0x1000e13d[0m      [35mpush[0m[37m  [0m[33m0x64[0m[0m[31m                                 ; 'd'[31m ; 100[0m
+[36m│[0m           [32m0x1000e13f[0m      [37mcdq[0m[0m
+[36m│[0m           [32m0x1000e140[0m      [1;95mpop[0m[37m   [0m[36mecx[0m[0m[0m
+[36m│[0m           [32m0x1000e141[0m      [37mmov[0m[37m   [0m[37mdword[0m[37m [[0m[37marg[0m[37m_[0m[37m2ch[0m[37m], [0m[33m0x03[0m[0m[0m
+[36m│[0m           [32m0x1000e148[0m      [33midiv[0m[37m  [0m[36mecx[0m[0m[0m
+[36m│[0m           [32m0x1000e14a[0m      [35mpush[0m[37m  [0m[36medi[0m[0m[0m
+[36m│[0m           [32m0x1000e14b[0m      [1;95mpop[0m[37m   [0m[36mecx[0m[0m[0m
+[36m│[0m           [32m0x1000e14c[0m      [37mmov[0m[37m   [0m[36meax[0m[37m, [0m[36medx[0m[0m[0m
+[36m│[0m           [32m0x1000e14e[0m      [37mcdq[0m[0m
+[36m│[0m           [32m0x1000e14f[0m      [33midiv[0m[37m  [0m[36mecx[0m[0m[0m
+[36m│[0m           [32m0x1000e151[0m      [37mmov[0m[37m   [0m[36mecx[0m[37m, [0m[36meax[0m[0m[0m
+[36m│[0m           [32m0x1000e153[0m      [37mmov[0m[37m   [0m[36meax[0m[37m, [0m[37mdword[0m[37m [[0m[37mvar[0m[37m_[0m[37m28h[0m[37m][0m[0m[0m
+[36m│[0m           [32m0x1000e156[0m      [37mcdq[0m[0m
+[36m│[0m           [32m0x1000e157[0m      [33midiv[0m[37m  [0m[36medi[0m[0m[0m
+[36m│[0m           [32m0x1000e159[0m      [37mlea[0m[37m   [0m[36meax[0m[37m, [0m[37mdword[0m[37m [[0m[37marg[0m[37m_[0m[37m17h[0m[37m][0m[0m[0m
+[36m│[0m           [32m0x1000e15c[0m      [35mpush[0m[37m  [0m[36meax[0m[0m[0m
+[36m│[0m           [32m0x1000e15d[0m      [37mlea[0m[37m   [0m[36meax[0m[37m, [0m[37mdword[0m[37m [[0m[37marg[0m[37m_[0m[37m2ch[0m[37m][0m[0m[0m
+[36m│[0m           [36m;-- [32m(0x1000e162)[36m public: void __thiscall CRequestID::~destructor(void):[0m
+[36m│[0m           [32m0x1000e160[0m  ~   [36mshl[0m[37m   [0m[36mcl[0m[37m, [0m[33m0x04[0m[0m[0m
+[36m│[0m           [32m0x1000e163[0m      [35mpush[0m[37m  [0m[36meax[0m[0m[0m
+[36m│[0m           [32m0x1000e164[0m      [35mpush[0m[37m  [0m[37mdword[0m[37m [[0m[36mebx[0m[37m+[0m[33m0x48[0m[37m][0m[0m[0m
+[36m│[0m           [32m0x1000e167[0m      [33madd[0m[37m   [0m[36mcl[0m[37m, [0m[36mdl[0m[0m[0m
+[36m│[0m           [32m0x1000e169[0m      [37mmov[0m[37m   [0m[37mbyte[0m[37m [[0m[37marg[0m[37m_[0m[37m17h[0m[37m], [0m[36mcl[0m[0m[0m
+[36m│[0m           [32m0x1000e16c[0m      [32mcall[0m[37m  [0m[36mesi[0m[0m[0m
+[36m│[0m           [32m0x1000e16e[0m      [37mmov[0m[37m   [0m[36meax[0m[37m, [0m[37mdword[0m[37m [[0m[37mvar[0m[37m_[0m[37m2ch[0m[37m][0m[0m[0m
+[36m│[0m           [32m0x1000e171[0m      [35mpush[0m[37m  [0m[33m0x64[0m[0m[31m                                 ; 'd'[31m ; 100[0m
+[36m│[0m           [32m0x1000e173[0m      [37mcdq[0m[0m
+[36m│[0m           [32m0x1000e174[0m      [1;95mpop[0m[37m   [0m[36mecx[0m[0m[0m
+[36m│[0m           [32m0x1000e175[0m      [37mmov[0m[37m   [0m[37mdword[0m[37m [[0m[37marg[0m[37m_[0m[37m2ch[0m[37m], [0m[33m0x04[0m[0m[0m
+[36m│[0m           [32m0x1000e17c[0m      [33midiv[0m[37m  [0m[36mecx[0m[0m[0m
+[36m│[0m           [32m0x1000e17e[0m      [35mpush[0m[37m  [0m[36medi[0m[0m[0m
+[36m│[0m           [32m0x1000e17f[0m      [1;95mpop[0m[37m   [0m[36mecx[0m[0m[0m
+[36m│[0m           [32m0x1000e180[0m      [37mmov[0m[37m   [0m[36meax[0m[37m, [0m[36medx[0m[0m[0m
+[36m│[0m           [32m0x1000e182[0m      [37mcdq[0m[0m
+[36m│[0m           [32m0x1000e183[0m      [33midiv[0m[37m  [0m[36mecx[0m[0m[0m
+[36m│[0m           [32m0x1000e185[0m      [37mmov[0m[37m   [0m[36mecx[0m[37m, [0m[36meax[0m[0m[0m
+[36m│[0m           [36m;-- [32m(0x1000e189)[36m public: void __thiscall CTransactionID::Delete(class CTransaction *):[0m
+[36m│[0m           [32m0x1000e187[0m  ~   [37mmov[0m[37m   [0m[36meax[0m[37m, [0m[37mdword[0m[37m [[0m[37mvar[0m[37m_[0m[37m2ch[0m[37m][0m[0m[0m
+[36m│[0m           [32m0x1000e18a[0m      [37mcdq[0m[0m
+[36m│[0m           [32m0x1000e18b[0m      [33midiv[0m[37m  [0m[36medi[0m[0m[0m
+[36m│[0m           [32m0x1000e18d[0m      [37mlea[0m[37m   [0m[36meax[0m[37m, [0m[37mdword[0m[37m [[0m[37marg[0m[37m_[0m[37m17h[0m[37m][0m[0m[0m
+[36m│[0m           [32m0x1000e190[0m      [35mpush[0m[37m  [0m[36meax[0m[0m[0m
+[36m│[0m           [32m0x1000e191[0m      [37mlea[0m[37m   [0m[36meax[0m[37m, [0m[37mdword[0m[37m [[0m[37marg[0m[37m_[0m[37m2ch[0m[37m][0m[0m[0m
+[36m│[0m           [32m0x1000e194[0m      [36mshl[0m[37m   [0m[36mcl[0m[37m, [0m[33m0x04[0m[0m[0m
+[36m│[0m           [32m0x1000e197[0m      [35mpush[0m[37m  [0m[36meax[0m[0m[0m
+[36m│[0m           [32m0x1000e198[0m      [35mpush[0m[37m  [0m[37mdword[0m[37m [[0m[36mebx[0m[37m+[0m[33m0x48[0m[37m][0m[0m[0m
+[36m│[0m           [32m0x1000e19b[0m      [33madd[0m[37m   [0m[36mcl[0m[37m, [0m[36mdl[0m[0m[0m
+[36m│[0m           [32m0x1000e19d[0m      [37mmov[0m[37m   [0m[37mbyte[0m[37m [[0m[37marg[0m[37m_[0m[37m17h[0m[37m], [0m[36mcl[0m[0m[0m
+[36m│[0m           [32m0x1000e1a0[0m      [32mcall[0m[37m  [0m[36mesi[0m[0m[0m
+[36m│[0m           [32m0x1000e1a2[0m      [37mmov[0m[37m   [0m[36meax[0m[37m, [0m[37mdword[0m[37m [[0m[37mvar[0m[37m_[0m[37m30h[0m[37m][0m[0m[0m
+[36m│[0m           [32m0x1000e1a5[0m      [35mpush[0m[37m  [0m[33m0x64[0m[0m[31m                                 ; 'd'[31m ; 100[0m
+[36m│[0m           [32m0x1000e1a7[0m      [37mcdq[0m[0m
+[36m│[0m           [32m0x1000e1a8[0m      [1;95mpop[0m[37m   [0m[36mecx[0m[0m[0m
+[36m│[0m           [32m0x1000e1a9[0m      [37mmov[0m[37m   [0m[37mdword[0m[37m [[0m[37marg[0m[37m_[0m[37m2ch[0m[37m], [0m[33m0x05[0m[0m[0m
+[36m│[0m           [32m0x1000e1b0[0m      [33midiv[0m[37m  [0m[36mecx[0m[0m[0m
+[36m│[0m           [32m0x1000e1b2[0m      [35mpush[0m[37m  [0m[36medi[0m[0m[0m
+[36m│[0m           [32m0x1000e1b3[0m      [1;95mpop[0m[37m   [0m[36mecx[0m[0m[0m
+[36m│[0m           [32m0x1000e1b4[0m      [37mmov[0m[37m   [0m[36meax[0m[37m, [0m[36medx[0m[0m[0m
+[36m│[0m           [32m0x1000e1b6[0m      [37mcdq[0m[0m
+[36m│[0m           [32m0x1000e1b7[0m      [33midiv[0m[37m  [0m[36mecx[0m[0m[0m
+[36m│[0m           [32m0x1000e1b9[0m      [37mmov[0m[37m   [0m[36mecx[0m[37m, [0m[36meax[0m[0m[0m
+[36m│[0m           [36m;-- [32m(0x1000e1bd)[36m ?StartTransaction@CVar2@@IAEPAVCResult@@PAVCTransactionID@@AAVString@@PAGFJJPAUtagVARIANT@@KAAV?$CList@PAVCTransactionDestructo:[0m
+[36m│[0m           [32m0x1000e1bb[0m  ~   [37mmov[0m[37m   [0m[36meax[0m[37m, [0m[37mdword[0m[37m [[0m[37mvar[0m[37m_[0m[37m30h[0m[37m][0m[0m[0m
+[36m│[0m           [32m0x1000e1be[0m      [37mcdq[0m[0m
+[36m│[0m           [32m0x1000e1bf[0m      [33midiv[0m[37m  [0m[36medi[0m[0m[0m
+[36m│[0m           [32m0x1000e1c1[0m      [37mlea[0m[37m   [0m[36meax[0m[37m, [0m[37mdword[0m[37m [[0m[37marg[0m[37m_[0m[37m17h[0m[37m][0m[0m[0m
+[36m│[0m           [32m0x1000e1c4[0m      [35mpush[0m[37m  [0m[36meax[0m[0m[0m
+[36m│[0m           [32m0x1000e1c5[0m      [37mlea[0m[37m   [0m[36meax[0m[37m, [0m[37mdword[0m[37m [[0m[37marg[0m[37m_[0m[37m2ch[0m[37m][0m[0m[0m
+[36m│[0m           [32m0x1000e1c8[0m      [36mshl[0m[37m   [0m[36mcl[0m[37m, [0m[33m0x04[0m[0m[0m
+[36m│[0m           [32m0x1000e1cb[0m      [35mpush[0m[37m  [0m[36meax[0m[0m[0m
+[36m│[0m           [32m0x1000e1cc[0m      [35mpush[0m[37m  [0m[37mdword[0m[37m [[0m[36mebx[0m[37m+[0m[33m0x48[0m[37m][0m[0m[0m
+[36m│[0m           [32m0x1000e1cf[0m      [33madd[0m[37m   [0m[36mcl[0m[37m, [0m[36mdl[0m[0m[0m
+[36m│[0m           [32m0x1000e1d1[0m      [37mmov[0m[37m   [0m[37mbyte[0m[37m [[0m[37marg[0m[37m_[0m[37m17h[0m[37m], [0m[36mcl[0m[0m[0m
+[36m│[0m           [32m0x1000e1d4[0m      [32mcall[0m[37m  [0m[36mesi[0m[0m[0m
+[36m│[0m           [32m0x1000e1d6[0m      [37mmov[0m[37m   [0m[36meax[0m[37m, [0m[37mdword[0m[37m [[0m[37marg[0m[37m_[0m[37m10h[0m[37m][0m[0m[0m
+[36m│[0m           [32m0x1000e1d9[0m      [35mpush[0m[37m  [0m[36medi[0m[0m[0m
+[36m│[0m           [32m0x1000e1da[0m      [37mcdq[0m[0m
+[36m│[0m           [32m0x1000e1db[0m      [1;95mpop[0m[37m   [0m[36mecx[0m[0m[0m
+[36m│[0m           [32m0x1000e1dc[0m      [37mmov[0m[37m   [0m[37mdword[0m[37m [[0m[37marg[0m[37m_[0m[37m2ch[0m[37m], [0m[33m0x06[0m[0m[0m
+[36m│[0m           [32m0x1000e1e3[0m      [33midiv[0m[37m  [0m[36mecx[0m[0m[0m
+[36m│[0m           [32m0x1000e1e5[0m      [35mpush[0m[37m  [0m[33m0x64[0m[0m[31m                                 ; 'd'[31m ; 100[0m
+[36m│[0m           [32m0x1000e1e7[0m      [37mmov[0m[37m   [0m[36medi[0m[37m, [0m[36meax[0m[0m[0m
+[36m│[0m           [32m0x1000e1e9[0m      [37mcdq[0m[0m
+[36m│[0m           [32m0x1000e1ea[0m      [1;95mpop[0m[37m   [0m[36mecx[0m[0m[0m
+[36m│[0m           [32m0x1000e1eb[0m      [33midiv[0m[37m  [0m[36mecx[0m[0m[0m
+[36m│[0m           [32m0x1000e1ed[0m      [35mpush[0m[37m  [0m[33m0x0a[0m[0m[31m                                 ; 0xa[31m ; 10[0m
+[36m│[0m           [32m0x1000e1ef[0m      [1;95mpop[0m[37m   [0m[36mecx[0m[0m[0m
+[36m│[0m           [32m0x1000e1f0[0m      [35mpush[0m[37m  [0m[33m0x0a[0m[0m[31m                                 ; 0xa[31m ; 10[0m
+[36m│[0m           [32m0x1000e1f2[0m      [37mmov[0m[37m   [0m[36meax[0m[37m, [0m[36medx[0m[0m[0m
+[36m│[0m           [32m0x1000e1f4[0m      [37mcdq[0m[0m
+[36m│[0m           [32m0x1000e1f5[0m      [33midiv[0m[37m  [0m[36mecx[0m[0m[0m
+[36m│[0m           [32m0x1000e1f7[0m      [37mmov[0m[37m   [0m[36mecx[0m[37m, [0m[36meax[0m[0m[0m
+[36m│[0m           [32m0x1000e1f9[0m      [37mmov[0m[37m   [0m[36meax[0m[37m, [0m[36medi[0m[0m[0m
+[36m│[0m           [32m0x1000e1fb[0m      [37mcdq[0m[0m
+[36m│[0m           [32m0x1000e1fc[0m      [1;95mpop[0m[37m   [0m[36medi[0m[0m[0m
+[36m│[0m           [32m0x1000e1fd[0m      [33midiv[0m[37m  [0m[36medi[0m[0m[0m
+[36m│[0m           [32m0x1000e1ff[0m      [37mlea[0m[37m   [0m[36meax[0m[37m, [0m[37mdword[0m[37m [[0m[37marg[0m[37m_[0m[37m17h[0m[37m][0m[0m[0m
+[36m│[0m           [32m0x1000e202[0m      [35mpush[0m[37m  [0m[36meax[0m[0m[0m
+[36m│[0m           [32m0x1000e203[0m      [37mlea[0m[37m   [0m[36meax[0m[37m, [0m[37mdword[0m[37m [[0m[37marg[0m[37m_[0m[37m2ch[0m[37m][0m[0m[0m
+[36m│[0m           [32m0x1000e206[0m      [36mshl[0m[37m   [0m[36mcl[0m[37m, [0m[33m0x04[0m[0m[0m
+[36m│[0m           [32m0x1000e209[0m      [35mpush[0m[37m  [0m[36meax[0m[0m[0m
+[36m│[0m           [32m0x1000e20a[0m      [35mpush[0m[37m  [0m[37mdword[0m[37m [[0m[36mebx[0m[37m+[0m[33m0x48[0m[37m][0m[0m[0m
+[36m│[0m           [32m0x1000e20d[0m      [33madd[0m[37m   [0m[36mcl[0m[37m, [0m[36mdl[0m[0m[0m
+[36m│[0m           [32m0x1000e20f[0m      [37mmov[0m[37m   [0m[37mbyte[0m[37m [[0m[37marg[0m[37m_[0m[37m17h[0m[37m], [0m[36mcl[0m[0m[0m
+[36m│[0m           [32m0x1000e212[0m      [32mcall[0m[37m  [0m[36mesi[0m[0m[0m
+[36m│[0m           [32m0x1000e214[0m      [37mmov[0m[37m   [0m[36meax[0m[37m, [0m[37mdword[0m[37m [[0m[37marg[0m[37m_[0m[37m10h[0m[37m][0m[0m[0m
+[36m│[0m           [32m0x1000e217[0m      [35mpush[0m[37m  [0m[36medi[0m[0m[0m
+[36m│[0m           [32m0x1000e218[0m      [37mcdq[0m[0m
+[36m│[0m           [32m0x1000e219[0m      [1;95mpop[0m[37m   [0m[36mecx[0m[0m[0m
+[36m│[0m           [32m0x1000e21a[0m      [37mmov[0m[37m   [0m[37mdword[0m[37m [[0m[37marg[0m[37m_[0m[37m2ch[0m[37m], [0m[33m0x07[0m[0m[0m
+[36m│[0m           [32m0x1000e221[0m      [33midiv[0m[37m  [0m[36mecx[0m[0m[0m
+[36m│[0m           [32m0x1000e223[0m      [35mpush[0m[37m  [0m[33m0x64[0m[0m[31m                                 ; 'd'[31m ; 100[0m
+[36m│[0m           [32m0x1000e225[0m      [1;95mpop[0m[37m   [0m[36mecx[0m[0m[0m
+[36m│[0m           [32m0x1000e226[0m      [35mpush[0m[37m  [0m[33m0x0a[0m[0m[31m                                 ; 0xa[31m ; 10[0m
+[36m│[0m           [32m0x1000e228[0m      [37mlea[0m[37m   [0m[36medi[0m[37m, [0m[37mdword[0m[37m [[0m[36medx[0m[37m+[0m[36medx[0m[37m*[0m[33m4[0m[37m][0m[0m[0m
+[36m│[0m           [32m0x1000e22b[0m      [36mshl[0m[37m   [0m[36medi[0m[37m, [0m[33m0x01[0m[0m[0m
+[36m│[0m           [32m0x1000e22d[0m      [37mmov[0m[37m   [0m[36meax[0m[37m, [0m[36medi[0m[0m[0m
+[36m│[0m           [32m0x1000e22f[0m      [37mcdq[0m[0m
+[36m│[0m           [32m0x1000e230[0m      [33midiv[0m[37m  [0m[36mecx[0m[0m[0m
+[36m│[0m           [32m0x1000e232[0m      [1;95mpop[0m[37m   [0m[36mecx[0m[0m[0m
+[36m│[0m           [32m0x1000e233[0m      [35mpush[0m[37m  [0m[33m0x0a[0m[0m[31m                                 ; 0xa[31m ; 10[0m
+[36m│[0m           [32m0x1000e235[0m      [37mmov[0m[37m   [0m[36meax[0m[37m, [0m[36medx[0m[0m[0m
+[36m│[0m           [32m0x1000e237[0m      [37mcdq[0m[0m
+[36m│[0m           [32m0x1000e238[0m      [33midiv[0m[37m  [0m[36mecx[0m[0m[0m
+[36m│[0m           [32m0x1000e23a[0m      [37mmov[0m[37m   [0m[36mecx[0m[37m, [0m[36meax[0m[0m[0m
+[36m│[0m           [32m0x1000e23c[0m      [37mmov[0m[37m   [0m[36meax[0m[37m, [0m[36medi[0m[0m[0m
+[36m│[0m           [32m0x1000e23e[0m      [37mcdq[0m[0m
+[36m│[0m           [32m0x1000e23f[0m      [1;95mpop[0m[37m   [0m[36medi[0m[0m[0m
+[36m│[0m           [32m0x1000e240[0m      [33midiv[0m[37m  [0m[36medi[0m[0m[0m
+[36m│[0m           [32m0x1000e242[0m      [37mlea[0m[37m   [0m[36meax[0m[37m, [0m[37mdword[0m[37m [[0m[37marg[0m[37m_[0m[37m17h[0m[37m][0m[0m[0m
+[36m│[0m           [32m0x1000e245[0m      [35mpush[0m[37m  [0m[36meax[0m[0m[0m
+[36m│[0m           [32m0x1000e246[0m      [37mlea[0m[37m   [0m[36meax[0m[37m, [0m[37mdword[0m[37m [[0m[37marg[0m[37m_[0m[37m2ch[0m[37m][0m[0m[0m
+[36m│[0m           [32m0x1000e249[0m      [36mshl[0m[37m   [0m[36mcl[0m[37m, [0m[33m0x04[0m[0m[0m
+[36m│[0m           [32m0x1000e24c[0m      [35mpush[0m[37m  [0m[36meax[0m[0m[0m
+[36m│[0m           [32m0x1000e24d[0m      [35mpush[0m[37m  [0m[37mdword[0m[37m [[0m[36mebx[0m[37m+[0m[33m0x48[0m[37m][0m[0m[0m
+[36m│[0m           [32m0x1000e250[0m      [33madd[0m[37m   [0m[36mcl[0m[37m, [0m[36mdl[0m[0m[0m
+[36m│[0m           [32m0x1000e252[0m      [37mmov[0m[37m   [0m[37mbyte[0m[37m [[0m[37marg[0m[37m_[0m[37m17h[0m[37m], [0m[36mcl[0m[0m[0m
+[36m│[0m           [32m0x1000e255[0m      [32mcall[0m[37m  [0m[36mesi[0m[0m[0m
+[36m│[0m           [32m0x1000e257[0m      [37mmov[0m[37m   [0m[37mword[0m[37m [[0m[36mebx[0m[37m+[0m[33m0x40[0m[37m], [0m[33m0x2011[0m[0m[31m              ; [[31m0x2011[31m:2]=0xffff[0m
+[36m│[0m       [36m┌[0m[36m─[0m[36m<[0m [32m0x1000e25d[0m      [32mjmp[0m[37m   [0m[33m0x1000ec9d[0m[0m[0m
+..
+[36m│[0m    [36m│[0m [36m│[0m[36m│[0m   [31m[31m; CODE XREF from fcn.1000d8bf @ 0x1000e2a9[0m
+[36m│[0m     [36m│[0m[36m│[0m[36m│[0m   [31m[31m; CODE XREF from fcn.1000d8bf @ 0x1000e2fa[0m
+[36m│[0m  [36m│[0m[34m╎[0m[34m╎[0m[36m│[0m[36m│[0m[36m│[0m   [31m[31m; CODE XREF from fcn.1000d8bf @ 0x1000e34a[0m
+[36m│[0m [34m╎[0m[36m│[0m [36m│[0m [36m│[0m[36m│[0m   [31m[31m; CODE XREF from fcn.1000d8bf @ 0x1000e314[0m
+[36m│[0m [36m│[0m[36m│[0m [36m│[0m[36m│[0m[36m│[0m[36m│[0m   [31m[31m; CODE XREF from fcn.1000d8bf @ 0x1000e3ae[0m
+[36m│[0m [36m│[0m[36m│[0m[36m│[0m[36m│[0m[36m│[0m[36m│[0m[36m│[0m   [31m[31m; CODE XREF from fcn.1000d8bf @ 0x1000e3ff[0m
+[36m│[0m [36m│[0m[36m│[0m[36m│[0m[36m│[0m[36m│[0m[36m│[0m[36m│[0m   [31m[31m; CODE XREF from fcn.1000d8bf @ 0x1000e4ee[0m
+[36m│[0m [36m│[0m[36m│[0m [36m│[0m[36m│[0m[36m│[0m[36m│[0m   [31m[31m; CODE XREF from fcn.1000d8bf @ 0x1000e4b5[0m
+[36m│[0m [34m╎[0m[36m│[0m[36m│[0m[36m│[0m[36m│[0m[36m│[0m[36m│[0m   [31m[31m; CODE XREF from fcn.1000d8bf @ 0x1000e526[0m
+[36m│[0m [34m╎[0m[36m│[0m[36m│[0m[36m│[0m[36m│[0m[36m│[0m[36m│[0m   [31m[31m; CODE XREF from fcn.1000d8bf @ 0x1000e56e[0m
+[36m│[0m  [36m│[0m [36m│[0m[36m│[0m[36m│[0m[36m│[0m   [31m[31m; CODE XREF from fcn.1000d8bf @ 0x1000e484[0m
+[36m│[0m [36m│[0m[36m│[0m[36m│[0m[36m│[0m[36m│[0m[36m│[0m[36m│[0m   [31m[31m; CODE XREF from fcn.1000d8bf @ 0x1000ea9b[0m
+[36m│[0m [36m│[0m[36m│[0m[36m│[0m[36m│[0m[36m│[0m[36m│[0m[36m│[0m   [31m[31m; CODE XREF from sym.__0CTransaction__QAE_PAV__CList_PAVCTransaction____PAVCTransactionID__AAVString__PAGAAVCComBSTR_ATL__UTagConvSpec__HJFJJPAUtagV @ 0x1000e69e[0m
+[36m│[0m [36m│[0m[36m│[0m[36m│[0m[36m│[0m[36m│[0m[36m│[0m[36m│[0m   [31m[31m; CODE XREF from sym.__0CTransaction__QAE_PAV__CList_PAVCTransaction____PAVCTransactionID__AAVString__PAGAAVCComBSTR_ATL__UTagConvSpec__HJFJJPAUtagV @ 0x1000e832[0m
+[36m│[0m [36m│[0m[36m│[0m[36m│[0m[36m│[0m[36m│[0m[36m│[0m[36m│[0m   [36m;-- [32m(0x1000e8bf)[36m public: void __thiscall CDdeAction::constructor(class CCyclicID *, class CTransactionID *, class String &, unsigned short int *, class ATL::CComBSTR, struct TagConvSpec, int, struct tagVARIANT *, long int, int, long int, long int):[0m
+[36m│[0m [36m│[0m[36m│[0m[36m│[0m[36m│[0m[36m│[0m[36m│[0m[36m│[0m   [31m[31m; CODE XREF from sym.__0CTransaction__QAE_PAV__CList_PAVCTransaction____PAVCTransactionID__AAVString__PAGAAVCComBSTR_ATL__UTagConvSpec__HJFJJPAUtagV @ 0x1000e84e[0m
+[36m│[0m [36m│[0m[36m│[0m[36m│[0m[36m│[0m[36m│[0m[36m│[0m[36m│[0m   [31m[31m; CODE XREF from fcn.1000d8bf @ 0x1000eaf1[0m
+[36m│[0m [36m│[0m[36m│[0m[36m│[0m[36m│[0m[36m│[0m[36m│[0m[36m│[0m   [31m[31m; XREFS: CODE 0x1000db67  CODE 0x1000dc45  CODE 0x1000dd73[0m
+[36m│[0m [36m│[0m[36m│[0m[36m│[0m[36m│[0m[36m│[0m[36m│[0m[36m│[0m   [31m[31m; XREFS: CODE 0x1000e2ba  CODE 0x1000e65e  CODE 0x1000ec69[0m
+[36m│[0m [36m│[0m[36m│[0m[36m│[0m[36m│[0m[36m│[0m[36m│[0m[36m│[0m   [31m[31m; CODE XREF from fcn.1000d8bf @ 0x1000dbfa[0m
+[36m│[0m [36m│[0m[36m│[0m[36m│[0m[36m│[0m[36m│[0m[36m│[0m[36m│[0m   [31m[31m; CODE XREF from fcn.1000d8bf @ 0x1000ec30[0m
+[36m│[0m [36m│[0m[36m│[0m[36m│[0m[36m│[0m[36m│[0m[36m│[0m[36m│[0m   [31m[31m; CODE XREF from fcn.1000d8bf @ 0x1000ec4c[0m
+[36m│[0m [36m│[0m[36m│[0m[36m│[0m[36m│[0m[36m│[0m[36m│[0m[36m│[0m   [31m[31m; CODE XREF from fcn.1000d8bf @ 0x1000ebe4[0m
+[36m│[0m [36m│[0m[36m│[0m[36m│[0m[36m│[0m[36m│[0m[36m│[0m[36m│[0m   [31m[31m; XREFS: CODE 0x1000dd4e  CODE 0x1000e25d  CODE 0x1000e44b[0m
+[36m│[0m [36m│[0m[36m│[0m[36m│[0m[36m│[0m[36m│[0m[36m│[0m[36m│[0m   [31m[31m; XREFS: CODE 0x1000e5e2  CODE 0x1000e639  CODE 0x1000e9e9[0m
+[36m│[0m [36m│[0m[36m│[0m[36m│[0m[36m│[0m[36m│[0m[36m│[0m[36m│[0m   [31m[31m; XREFS: CODE 0x1000eb51  CODE 0x1000eb88  CODE 0x1000ec99[0m
+[36m│[0m [36m└[0m[36m└[0m[36m└[0m[36m└[0m[36m└[0m[36m└[0m[36m└[0m[36m─[0m[36m>[0m [32m0x1000ec9d[0m      [37mmov[0m[37m   [0m[37mdword[0m[37m [[0m[37mpvargDest[0m[37m], [0m[33mdata.1002c3b8[0m[0m[31m     ; 0x1002c3b8[0m [34m; SAFEARRAY *psa[0m
+[36m│[0m           [31m[31m; CODE XREF from fcn.1000d8bf @ 0x1000db0b[0m
+[36m│[0m           [32m0x1000eca4[0m      [37mlea[0m[37m   [0m[36mecx[0m[37m, [0m[37mdword[0m[37m [[0m[37mpvargDest[0m[37m][0m[0m[0m
+[36m│[0m           [32m0x1000eca7[0m      [1;92mcall[0m[37m  [0m[37mfcn[0m[37m.[0m[33m10004860[0m[0m[0m
+[36m│[0m           [32m0x1000ecac[0m      [37mlea[0m[37m   [0m[36meax[0m[37m, [0m[37mdword[0m[37m [[0m[37mpvargDest[0m[37m][0m[0m[0m
+[36m│[0m           [32m0x1000ecaf[0m      [37mlea[0m[37m   [0m[36mecx[0m[37m, [0m[37mdword[0m[37m [[0m[37mvar[0m[37m_[0m[37m40h[0m[37m][0m[0m[0m
+[36m│[0m           [32m0x1000ecb2[0m      [33mneg[0m[37m   [0m[36meax[0m[0m[0m
+[36m│[0m           [32m0x1000ecb4[0m      [33msbb[0m[37m   [0m[36meax[0m[37m, [0m[36meax[0m[0m[0m
+[36m│[0m           [32m0x1000ecb6[0m      [36mand[0m[37m   [0m[36meax[0m[37m, [0m[36mecx[0m[0m[0m
+[36m│[0m           [32m0x1000ecb8[0m      [35mpush[0m[37m  [0m[36meax[0m[0m[0m                                  [34m; unknown_t *pvargDest[0m
+[36m│[0m           [32m0x1000ecb9[0m      [32mcall[0m[37m  [0m[37mdword[0m[37m [[0m[33msym.imp.OLEAUT32.dll_VariantCopy[0m[37m][0m[0m[31m ; 0x1002c1f0[31m ; "\t"[0m[31m ; HRESULT VariantCopy(unknown_t *pvargDest, unknown_t *pvargSrc)[0m
+[36m│[0m           [32m0x1000ecbf[0m      [35mpush[0m[37m  [0m[37mdword[0m[37m [[0m[37mpbstr[0m[37m][0m[0m[0m                        [34m; BSTR pbstr[0m
+[36m│[0m           [32m0x1000ecc2[0m      [32mcall[0m[37m  [0m[37mdword[0m[37m [[0m[33msym.imp.OLEAUT32.dll_SysStringLen[0m[37m][0m[0m[31m ; 0x1002c1fc[0m[31m ; UINT SysStringLen(BSTR pbstr)[0m
+[36m│[0m           [32m0x1000ecc8[0m      [1;95mpop[0m[37m   [0m[36medi[0m[0m[0m
+[36m│[0m           [32m0x1000ecc9[0m      [37mmov[0m[37m   [0m[36meax[0m[37m, [0m[36mebx[0m[0m[0m
+[36m│[0m           [32m0x1000eccb[0m      [1;95mpop[0m[37m   [0m[36mesi[0m[0m[0m
+[36m│[0m           [32m0x1000eccc[0m      [1;95mpop[0m[37m   [0m[36mebx[0m[0m[0m
+[36m│[0m           [32m0x1000eccd[0m      [1;95mleave[0m[0m
+[36m└[0m           [32m0x1000ecce[0m      [31mret[0m[37m   [0m[33m0x38[0m[0m[0m
+[36m┌[0m [31m[31msym.public:_void___thiscall_CTransactionID::Delete_class_CTransaction[0m();
+[36m│[0m           [32m0x1000e189[0m      [33maam[0m[37m   [0m[33m0x99[0m[0m[0m                                 [37m; public: void __thiscall CTransactionID::Delete(class CTransaction *)[0m
+            [31m[31m; CALL XREF from sym.protected:_unsigned_short_int_____thiscall_CVar2::MakeCommandString_struct_tagSAFEARRAY @ 0x1000ca57[0m
+            [31m[31m; CALL XREF from fcn.1000fc68 @ 0x1000ff1b[0m
+            [31m[31m; CALL XREF from sym.public:_unsigned_short_int___thiscall_CDdeAction::GetVarType_void @ 0x10014add[0m
+[36m┌[0m [31m[31mfcn.1000cdfd[0m();
+[36m│[0m           [32m0x1000cdfd[0m      [35mpush[0m[37m  [0m[36mesi[0m[0m[0m
+[36m│[0m           [32m0x1000cdfe[0m      [35mpush[0m[37m  [0m[33m0x0c[0m[0m[31m                                 ; 0xc[31m ; 12[0m [34m; int32_t arg_4h[0m
+[36m│[0m           [32m0x1000ce00[0m      [1;92mcall[0m[37m  [0m[37mfcn[0m[37m.[0m[33m10017dd5[0m[0m[0m
+[36m│[0m           [32m0x1000ce05[0m      [37mmov[0m[37m   [0m[36mesi[0m[37m, [0m[36meax[0m[0m[0m
+[36m│[0m           [32m0x1000ce07[0m      [1;95mpop[0m[37m   [0m[36mecx[0m[0m[0m
+[36m│[0m           [32m0x1000ce08[0m      [36mtest[0m[37m  [0m[36mesi[0m[37m, [0m[36mesi[0m[0m[0m
+[36m│[0m       [36m┌[0m[36m─[0m[36m<[0m [32m0x1000ce0a[0m      [32mjz[0m[37m    [0m[33m0x1000ce27[0m[0m[0m
+[36m│[0m       [36m│[0m   [32m0x1000ce0c[0m      [35mpush[0m[37m  [0m[33mstr.Com_Object_released_or_Async_Transaction_cancelled[0m[0m[31m ; 0x10032288[31m ; "Com-Object released or Async-Transaction cancelled"[0m [34m; int32_t arg_4h[0m
+[36m│[0m       [36m│[0m   [32m0x1000ce11[0m      [37mlea[0m[37m   [0m[36mecx[0m[37m, [0m[37mdword[0m[37m [[0m[36mesi[0m[37m+[0m[33m0x04[0m[37m][0m[0m[0m
+[36m│[0m       [36m│[0m   [32m0x1000ce14[0m      [37mmov[0m[37m   [0m[37mdword[0m[37m [[0m[36mesi[0m[37m], [0m[33m0x80004004[0m[0m[31m              ; [0x80004004:4]=-1[0m
+[36m│[0m       [36m│[0m   [32m0x1000ce1a[0m      [1;92mcall[0m[37m  [0m[37mfcn[0m[37m.[0m[33m10001d75[0m[0m[0m
+[36m│[0m       [36m│[0m   [32m0x1000ce1f[0m      [36mand[0m[37m   [0m[37mdword[0m[37m [[0m[36mesi[0m[37m+[0m[33m0x08[0m[37m], [0m[33m0x00[0m[0m[0m
+[36m│[0m       [36m│[0m   [32m0x1000ce23[0m      [37mmov[0m[37m   [0m[36meax[0m[37m, [0m[36mesi[0m[0m[0m
+[36m│[0m       [36m│[0m   [32m0x1000ce25[0m      [1;95mpop[0m[37m   [0m[36mesi[0m[0m[0m
+[36m│[0m       [36m│[0m   [32m0x1000ce26[0m      [31mret[0m[0m
+[36m│[0m       [36m└[0m[36m─[0m[36m>[0m [32m0x1000ce27[0m      [36mxor[0m[37m   [0m[36meax[0m[37m, [0m[36meax[0m[0m[0m
+[36m│[0m           [32m0x1000ce29[0m      [1;95mpop[0m[37m   [0m[36mesi[0m[0m[0m
+[36m└[0m           [32m0x1000ce2a[0m      [31mret[0m[0m

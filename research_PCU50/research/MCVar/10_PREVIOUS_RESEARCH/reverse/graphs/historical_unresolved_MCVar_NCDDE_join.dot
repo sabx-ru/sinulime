@@ -1,0 +1,82 @@
+digraph MCVAR_TO_NCDDE_CAUSAL_GRAPH {
+  graph [rankdir=LR, fontname="Helvetica", labelloc="t", label="MCVar ReadVar to ncdde causal graph\nsolid = recovered direct/static edge; dashed = unresolved indirect or cross-module join"];
+  node [shape=box, style="rounded,filled", fillcolor="#f7f7f7", color="#444444", fontname="Courier"];
+  edge [fontname="Helvetica", color="#222222"];
+
+  subgraph cluster_mcvar {
+    label="MCVar.dll: old / new";
+    color="#8aa6c1";
+    oldrv [label="CVar2::ReadVar\nold 0x1000BC74"];
+    newrv [label="CVar2::ReadVar\nnew 0x1000BD86"];
+    oldarray [label="ReadVar overload\nold 0x1000C602\nSAFEARRAY/VARIANT loop"];
+    oleaut [label="OLEAUT32\nSafeArrayCopyData\nSafeArrayCopy/GetElement\nVariantCopy"];
+    oldhelpers [label="direct MCVar helpers\n0x1000AF93, B7AB, 017F3,\n09F39, 09DAF, 0x1000C532,\n0x1000AE8D, 0x10013615,\n0x1000AF73, 0x100174A0,\n0x1000B00B"];
+    newhelpers [label="new relocated helpers\n0x10007DBD, 0x1000C644,\n0x10014DC8 (reported equivalents)"];
+    makecb [label="CRequestID::MakeCB\nold 0x100148B8\nCDdeAction** + VARIANTs\nNCDDE_BINARY_HEADER Set\nvtable slots +14/+18/+1C"];
+    reqctor [label="CRequestID constructor\nold 0x1000E044\nCVar2*, IUnknown*, IDispatch*, ID"];
+    makecb_helper [label="CRequestID lifecycle helper\nold 0x10014CBE\nlinked object [this+4]\npropagate [this] -> linked +0x24\nvcall linked vtable +8"];
+    start [label="CDdeAction::StartRequest\nold candidate ~0x10004AF6\nentry overlaps/untrusted"];
+    atom [label="request context\nCAtom/CDdeAction-like object\nidentity unresolved"];
+    getbin [label="GetNcddeBinaryData\nold region ~0x10004DF3\noverlapping symbol boundary"];
+    vcall [label="indirect object dispatch\nlinked vtable +8 at 0x10014CE2\nrequest-region vtable +4 ~0x10004E1D"];
+  }
+
+  subgraph cluster_ncdde {
+    label="ncdde.exe: registration, request dispatch, serializer";
+    color="#9bbf8f";
+    init [label="DdeInitializeA\n0x421041\ncallback=0x401983"];
+    cbthunk [label="callback thunk chain\n0x401983 -> 0x420AA0\n-> 0x402388"];
+    dispatcher [label="callback dispatcher\n0x420B20\nverified cases incl. 0x2022"];
+    cbdata [label="callback-side handle path\n0x420C4A -> DdeCreateDataHandle\ntransaction 0x2022; not proven XTYP_REQUEST"];
+    xtyp [label="application request dispatcher\n0x448AC0 / 0x449265\nwFmt: CF_TEXT, binary, OEMTEXT"];
+    objects [label="normal object/producer path\n0x449301 -> 0x401BD1/0x440940\n0x402487/0x442960\n0x402842/0x442C80\n0x4021AD/0x44A440"];
+    peritem [label="per-item serialization\n0x40203B -> 0x44A730"];
+    typewrites [label="type writes\n0x44AA37 / 0x44AA42 / 0x44AA4D"];
+    seq [label="sequence/global uses\n0x486884\n0x44AA8A, 0x44AAB4..0x44AAB7"];
+    size [label="count/size writes\n0x44AABC / 0x44AACA"];
+    finalser [label="final handle path\n0x44AD50 -> 0x44AE23\n-> DdeCreateDataHandle"];
+    adddata [label="DdeAddData import thunk\n0x466FF8\nparticipation unresolved"];
+    special [label="special item path\n0x4492BD -> DdeCreateDataHandle\npSrc=0x479C64, cb=6, fmt=7"];
+    api [label="USER32 DDEML\nDdeCreateDataHandle / DdeAddData"];
+  }
+
+  captures [label="166 binary captures\n+0x07 sequence-like\npacket ownership unresolved", fillcolor="#fff4d6"];
+
+  oldrv -> oldhelpers [label="direct calls", style=solid];
+  newrv -> newhelpers [label="relocated shape/targets", style=solid];
+  oldrv -> oldarray [label="overload family", style=dashed, color="#666666"];
+  oldarray -> oleaut [label="direct imported calls", style=solid];
+  oldhelpers -> makecb_helper [label="helper-side link only; no direct MakeCB call", style=dashed, color="#666666"];
+  newhelpers -> makecb_helper [label="reported relocation; exact helper equivalence partial", style=dashed, color="#666666"];
+  oldrv -> makecb_helper [label="direct call 0x1000BDDC -> 0x10014CBE", style=solid];
+  makecb_helper -> vcall [label="field copy + indirect slot +8", style=solid];
+  reqctor -> makecb [label="same named CRequestID interface", style=dashed, color="#666666"];
+  makecb -> atom [label="typed CDdeAction** argument; runtime instance unresolved", style=dashed, color="#666666"];
+  makecb_helper -> start [label="possible request-object relation; no direct call", style=dashed, color="#666666"];
+  atom -> start [label="indirect/object boundary", style=dashed, color="#666666"];
+  start -> getbin [label="candidate routine relationship", style=dashed, color="#666666"];
+  getbin -> vcall [label="virtual call through [esi]+4", style=solid];
+  vcall -> init [label="cross-module target/object identity", style=dashed, color="#666666"];
+  vcall -> xtyp [label="possible request handoff; not proven", style=dashed, color="#666666"];
+
+  init -> cbthunk [label="callback registration", style=solid];
+  cbthunk -> dispatcher [label="direct thunk chain", style=solid];
+  dispatcher -> cbdata [label="case 0x2022", style=solid];
+  cbdata -> api [label="import thunk/API", style=solid];
+  xtyp -> objects [label="normal request path", style=solid];
+  xtyp -> special [label="item/format branch", style=solid];
+  objects -> peritem [label="recovered serializer call", style=solid];
+  peritem -> typewrites [label="direct stores", style=solid];
+  peritem -> seq [label="global sequence accesses", style=solid];
+  peritem -> size [label="count/size fields", style=solid];
+  peritem -> finalser [label="recovered final path", style=solid];
+  finalser -> api [label="DdeCreateDataHandle", style=solid];
+  special -> api [label="DdeCreateDataHandle", style=solid];
+  api -> adddata [label="same DDE import family; no direct call proven", style=dashed, color="#666666"];
+  finalser -> captures [label="packet data-flow unresolved", style=dashed, color="#666666"];
+  cbdata -> captures [label="callback payload identity unresolved", style=dashed, color="#666666"];
+  seq -> captures [label="sequence-like correlation only", style=dashed, color="#666666"];
+  oldrv -> captures [label="MCVar ownership not proven", style=dashed, color="#666666"];
+
+  legend [shape=note, fillcolor="#eeeeee", label="Legend\nsolid: direct call/thunk/store or recovered serializer edge\ndashed: indirect vtable, cross-module identity, or unresolved packet/data-flow edge"];
+}

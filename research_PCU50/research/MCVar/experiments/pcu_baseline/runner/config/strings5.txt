@@ -1,0 +1,5 @@
+/Channel/ProgramInfo/selectedWorkPProg[u1,1]
+/Channel/ProgramPointer/progName[u1,1]
+/Channel/State/actToolIdent[u1]
+/Channel/State/actToolIdent[u1]
+/Channel/ProgramPointer/progName[u1,1]

@@ -1,0 +1,2002 @@
+{
+  "binaries": {
+    "old": {
+      "label": "old",
+      "path": "PCU_old/H/mmc2/MCVar.dll",
+      "sha256": "43a5c1991d98b6b6e155233a0114d7ff72bf4dec7edf58d0607da501e7d98712",
+      "size": 434769,
+      "image_base": "0x10000000",
+      "timestamp": 1087994970,
+      "entrypoint_rva": "0x1993c",
+      "resources": [
+        {
+          "path": "REGISTRY/101/1033",
+          "offset": "0x3a888",
+          "size": 1771,
+          "sha256": "0c65446f8cadf34c781467f3bf553e437e1233a5752807c22a86462428c1d451"
+        },
+        {
+          "path": "REGISTRY/102/1033",
+          "offset": "0x3af78",
+          "size": 588,
+          "sha256": "55b5767414b49ef2a1ef694fbac9f2964a6c740b0a78d28a52099a59e7697dcf"
+        },
+        {
+          "path": "TYPELIB/1/1033",
+          "offset": "0x3b1c8",
+          "size": 19732,
+          "sha256": "0653a34a342fc6b80e9f675ff9754173b878a353744098e6eb0c9fa429c77bb3"
+        },
+        {
+          "path": "6/7/1033",
+          "offset": "0x3fee0",
+          "size": 42,
+          "sha256": "d120f00689e4bc43c7102fbfbe71441f19576f257d9a249be2acc702c75e5bb0"
+        },
+        {
+          "path": "16/1/1033",
+          "offset": "0x3a190",
+          "size": 1784,
+          "sha256": "6e2ca3514cfcee421147031d770de83682b9f460d6490addd216d6eb459d3c08"
+        }
+      ],
+      "exports": [
+        {
+          "ordinal": 1,
+          "name": "DllCanUnloadNow",
+          "rva": "0x867f",
+          "va": "0x1000867f"
+        },
+        {
+          "ordinal": 2,
+          "name": "DllGetClassObject",
+          "rva": "0x86c3",
+          "va": "0x100086c3"
+        },
+        {
+          "ordinal": 3,
+          "name": "DllRegisterServer",
+          "rva": "0x86dd",
+          "va": "0x100086dd"
+        },
+        {
+          "ordinal": 4,
+          "name": "DllUnregisterServer",
+          "rva": "0x86ed",
+          "va": "0x100086ed"
+        }
+      ],
+      "imports": [
+        {
+          "dll": "KERNEL32.dll",
+          "name": "GetPrivateProfileStringA",
+          "ordinal": null,
+          "iat_rva": "0x2c02c"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "UnmapViewOfFile",
+          "ordinal": null,
+          "iat_rva": "0x2c030"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "CloseHandle",
+          "ordinal": null,
+          "iat_rva": "0x2c034"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "GetLastError",
+          "ordinal": null,
+          "iat_rva": "0x2c038"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "Sleep",
+          "ordinal": null,
+          "iat_rva": "0x2c03c"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "WaitForSingleObject",
+          "ordinal": null,
+          "iat_rva": "0x2c040"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "CreateMutexA",
+          "ordinal": null,
+          "iat_rva": "0x2c044"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "TlsGetValue",
+          "ordinal": null,
+          "iat_rva": "0x2c048"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "TlsSetValue",
+          "ordinal": null,
+          "iat_rva": "0x2c04c"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "InterlockedDecrement",
+          "ordinal": null,
+          "iat_rva": "0x2c050"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "GlobalFree",
+          "ordinal": null,
+          "iat_rva": "0x2c054"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "GlobalUnlock",
+          "ordinal": null,
+          "iat_rva": "0x2c058"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "GlobalLock",
+          "ordinal": null,
+          "iat_rva": "0x2c05c"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "GlobalAlloc",
+          "ordinal": null,
+          "iat_rva": "0x2c060"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "WideCharToMultiByte",
+          "ordinal": null,
+          "iat_rva": "0x2c064"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "GetTickCount",
+          "ordinal": null,
+          "iat_rva": "0x2c068"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "MultiByteToWideChar",
+          "ordinal": null,
+          "iat_rva": "0x2c06c"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "FormatMessageA",
+          "ordinal": null,
+          "iat_rva": "0x2c070"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "TlsAlloc",
+          "ordinal": null,
+          "iat_rva": "0x2c074"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "TlsFree",
+          "ordinal": null,
+          "iat_rva": "0x2c078"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "InitializeCriticalSection",
+          "ordinal": null,
+          "iat_rva": "0x2c07c"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "DeleteCriticalSection",
+          "ordinal": null,
+          "iat_rva": "0x2c080"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "LeaveCriticalSection",
+          "ordinal": null,
+          "iat_rva": "0x2c084"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "EnterCriticalSection",
+          "ordinal": null,
+          "iat_rva": "0x2c088"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "GetCurrentThreadId",
+          "ordinal": null,
+          "iat_rva": "0x2c08c"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "lstrlenA",
+          "ordinal": null,
+          "iat_rva": "0x2c090"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "lstrlenW",
+          "ordinal": null,
+          "iat_rva": "0x2c094"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "GetModuleFileNameA",
+          "ordinal": null,
+          "iat_rva": "0x2c098"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "LoadLibraryA",
+          "ordinal": null,
+          "iat_rva": "0x2c09c"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "GetCurrentProcessId",
+          "ordinal": null,
+          "iat_rva": "0x2c0a0"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "GetModuleHandleA",
+          "ordinal": null,
+          "iat_rva": "0x2c0a4"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "CreateProcessA",
+          "ordinal": null,
+          "iat_rva": "0x2c0a8"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "SetEnvironmentVariableA",
+          "ordinal": null,
+          "iat_rva": "0x2c0ac"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "CompareStringW",
+          "ordinal": null,
+          "iat_rva": "0x2c0b0"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "CompareStringA",
+          "ordinal": null,
+          "iat_rva": "0x2c0b4"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "FlushFileBuffers",
+          "ordinal": null,
+          "iat_rva": "0x2c0b8"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "GetLocaleInfoW",
+          "ordinal": null,
+          "iat_rva": "0x2c0bc"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "SetStdHandle",
+          "ordinal": null,
+          "iat_rva": "0x2c0c0"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "ReadFile",
+          "ordinal": null,
+          "iat_rva": "0x2c0c4"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "SetConsoleCtrlHandler",
+          "ordinal": null,
+          "iat_rva": "0x2c0c8"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "WritePrivateProfileStringA",
+          "ordinal": null,
+          "iat_rva": "0x2c0cc"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "GetUserDefaultLCID",
+          "ordinal": null,
+          "iat_rva": "0x2c0d0"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "EnumSystemLocalesA",
+          "ordinal": null,
+          "iat_rva": "0x2c0d4"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "GetLocaleInfoA",
+          "ordinal": null,
+          "iat_rva": "0x2c0d8"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "IsValidCodePage",
+          "ordinal": null,
+          "iat_rva": "0x2c0dc"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "IsValidLocale",
+          "ordinal": null,
+          "iat_rva": "0x2c0e0"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "UnhandledExceptionFilter",
+          "ordinal": null,
+          "iat_rva": "0x2c0e4"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "IsBadWritePtr",
+          "ordinal": null,
+          "iat_rva": "0x2c0e8"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "VirtualAlloc",
+          "ordinal": null,
+          "iat_rva": "0x2c0ec"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "WriteFile",
+          "ordinal": null,
+          "iat_rva": "0x2c0f0"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "VirtualFree",
+          "ordinal": null,
+          "iat_rva": "0x2c0f4"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "HeapCreate",
+          "ordinal": null,
+          "iat_rva": "0x2c0f8"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "HeapDestroy",
+          "ordinal": null,
+          "iat_rva": "0x2c0fc"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "GetEnvironmentVariableA",
+          "ordinal": null,
+          "iat_rva": "0x2c100"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "GetEnvironmentStringsW",
+          "ordinal": null,
+          "iat_rva": "0x2c104"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "GetEnvironmentStrings",
+          "ordinal": null,
+          "iat_rva": "0x2c108"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "FreeEnvironmentStringsW",
+          "ordinal": null,
+          "iat_rva": "0x2c10c"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "FreeEnvironmentStringsA",
+          "ordinal": null,
+          "iat_rva": "0x2c110"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "GetStartupInfoA",
+          "ordinal": null,
+          "iat_rva": "0x2c114"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "GetFileType",
+          "ordinal": null,
+          "iat_rva": "0x2c118"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "GetStdHandle",
+          "ordinal": null,
+          "iat_rva": "0x2c11c"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "SetHandleCount",
+          "ordinal": null,
+          "iat_rva": "0x2c120"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "RaiseException",
+          "ordinal": null,
+          "iat_rva": "0x2c124"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "GetProcAddress",
+          "ordinal": null,
+          "iat_rva": "0x2c128"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "GetStringTypeW",
+          "ordinal": null,
+          "iat_rva": "0x2c12c"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "GetStringTypeA",
+          "ordinal": null,
+          "iat_rva": "0x2c130"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "LCMapStringW",
+          "ordinal": null,
+          "iat_rva": "0x2c134"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "LCMapStringA",
+          "ordinal": null,
+          "iat_rva": "0x2c138"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "CreateDirectoryA",
+          "ordinal": null,
+          "iat_rva": "0x2c13c"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "GetCurrentThread",
+          "ordinal": null,
+          "iat_rva": "0x2c140"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "SetLastError",
+          "ordinal": null,
+          "iat_rva": "0x2c144"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "GetOEMCP",
+          "ordinal": null,
+          "iat_rva": "0x2c148"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "GetACP",
+          "ordinal": null,
+          "iat_rva": "0x2c14c"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "GetCPInfo",
+          "ordinal": null,
+          "iat_rva": "0x2c150"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "FatalAppExitA",
+          "ordinal": null,
+          "iat_rva": "0x2c154"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "HeapSize",
+          "ordinal": null,
+          "iat_rva": "0x2c158"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "HeapAlloc",
+          "ordinal": null,
+          "iat_rva": "0x2c15c"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "HeapReAlloc",
+          "ordinal": null,
+          "iat_rva": "0x2c160"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "GetCurrentProcess",
+          "ordinal": null,
+          "iat_rva": "0x2c164"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "TerminateProcess",
+          "ordinal": null,
+          "iat_rva": "0x2c168"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "ExitProcess",
+          "ordinal": null,
+          "iat_rva": "0x2c16c"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "HeapFree",
+          "ordinal": null,
+          "iat_rva": "0x2c170"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "CreateFileA",
+          "ordinal": null,
+          "iat_rva": "0x2c174"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "CreateFileMappingA",
+          "ordinal": null,
+          "iat_rva": "0x2c178"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "MapViewOfFile",
+          "ordinal": null,
+          "iat_rva": "0x2c17c"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "GetPrivateProfileIntA",
+          "ordinal": null,
+          "iat_rva": "0x2c180"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "IsBadReadPtr",
+          "ordinal": null,
+          "iat_rva": "0x2c184"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "GlobalDeleteAtom",
+          "ordinal": null,
+          "iat_rva": "0x2c188"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "GlobalGetAtomNameA",
+          "ordinal": null,
+          "iat_rva": "0x2c18c"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "GlobalAddAtomA",
+          "ordinal": null,
+          "iat_rva": "0x2c190"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "GetVersionExA",
+          "ordinal": null,
+          "iat_rva": "0x2c194"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "SetFilePointer",
+          "ordinal": null,
+          "iat_rva": "0x2c198"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "InterlockedIncrement",
+          "ordinal": null,
+          "iat_rva": "0x2c19c"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "GetTimeZoneInformation",
+          "ordinal": null,
+          "iat_rva": "0x2c1a0"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "GetSystemTimeAsFileTime",
+          "ordinal": null,
+          "iat_rva": "0x2c1a4"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "RtlUnwind",
+          "ordinal": null,
+          "iat_rva": "0x2c1a8"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "GetCommandLineA",
+          "ordinal": null,
+          "iat_rva": "0x2c1ac"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "GetVersion",
+          "ordinal": null,
+          "iat_rva": "0x2c1b0"
+        },
+        {
+          "dll": "USER32.dll",
+          "name": "TranslateMessage",
+          "ordinal": null,
+          "iat_rva": "0x2c208"
+        },
+        {
+          "dll": "USER32.dll",
+          "name": "RegisterClipboardFormatA",
+          "ordinal": null,
+          "iat_rva": "0x2c20c"
+        },
+        {
+          "dll": "USER32.dll",
+          "name": "WaitForInputIdle",
+          "ordinal": null,
+          "iat_rva": "0x2c210"
+        },
+        {
+          "dll": "USER32.dll",
+          "name": "GetThreadDesktop",
+          "ordinal": null,
+          "iat_rva": "0x2c214"
+        },
+        {
+          "dll": "USER32.dll",
+          "name": "DefWindowProcA",
+          "ordinal": null,
+          "iat_rva": "0x2c218"
+        },
+        {
+          "dll": "USER32.dll",
+          "name": "GetWindowThreadProcessId",
+          "ordinal": null,
+          "iat_rva": "0x2c21c"
+        },
+        {
+          "dll": "USER32.dll",
+          "name": "ReuseDDElParam",
+          "ordinal": null,
+          "iat_rva": "0x2c220"
+        },
+        {
+          "dll": "USER32.dll",
+          "name": "PackDDElParam",
+          "ordinal": null,
+          "iat_rva": "0x2c224"
+        },
+        {
+          "dll": "USER32.dll",
+          "name": "UnpackDDElParam",
+          "ordinal": null,
+          "iat_rva": "0x2c228"
+        },
+        {
+          "dll": "USER32.dll",
+          "name": "SendMessageA",
+          "ordinal": null,
+          "iat_rva": "0x2c22c"
+        },
+        {
+          "dll": "USER32.dll",
+          "name": "GetParent",
+          "ordinal": null,
+          "iat_rva": "0x2c230"
+        },
+        {
+          "dll": "USER32.dll",
+          "name": "FreeDDElParam",
+          "ordinal": null,
+          "iat_rva": "0x2c234"
+        },
+        {
+          "dll": "USER32.dll",
+          "name": "SetTimer",
+          "ordinal": null,
+          "iat_rva": "0x2c238"
+        },
+        {
+          "dll": "USER32.dll",
+          "name": "GetMessageA",
+          "ordinal": null,
+          "iat_rva": "0x2c23c"
+        },
+        {
+          "dll": "USER32.dll",
+          "name": "PostMessageA",
+          "ordinal": null,
+          "iat_rva": "0x2c240"
+        },
+        {
+          "dll": "USER32.dll",
+          "name": "DispatchMessageA",
+          "ordinal": null,
+          "iat_rva": "0x2c244"
+        },
+        {
+          "dll": "USER32.dll",
+          "name": "KillTimer",
+          "ordinal": null,
+          "iat_rva": "0x2c248"
+        },
+        {
+          "dll": "USER32.dll",
+          "name": "EnumWindows",
+          "ordinal": null,
+          "iat_rva": "0x2c24c"
+        },
+        {
+          "dll": "USER32.dll",
+          "name": "GetWindowTextA",
+          "ordinal": null,
+          "iat_rva": "0x2c250"
+        },
+        {
+          "dll": "USER32.dll",
+          "name": "DestroyWindow",
+          "ordinal": null,
+          "iat_rva": "0x2c254"
+        },
+        {
+          "dll": "USER32.dll",
+          "name": "wsprintfA",
+          "ordinal": null,
+          "iat_rva": "0x2c258"
+        },
+        {
+          "dll": "USER32.dll",
+          "name": "RegisterClassA",
+          "ordinal": null,
+          "iat_rva": "0x2c25c"
+        },
+        {
+          "dll": "USER32.dll",
+          "name": "CreateWindowExA",
+          "ordinal": null,
+          "iat_rva": "0x2c260"
+        },
+        {
+          "dll": "USER32.dll",
+          "name": "SetWindowLongA",
+          "ordinal": null,
+          "iat_rva": "0x2c264"
+        },
+        {
+          "dll": "USER32.dll",
+          "name": "SetWindowPos",
+          "ordinal": null,
+          "iat_rva": "0x2c268"
+        },
+        {
+          "dll": "USER32.dll",
+          "name": "GetWindowLongA",
+          "ordinal": null,
+          "iat_rva": "0x2c26c"
+        },
+        {
+          "dll": "ole32.dll",
+          "name": "CoCreateInstance",
+          "ordinal": null,
+          "iat_rva": "0x2c274"
+        },
+        {
+          "dll": "ole32.dll",
+          "name": "CreatePointerMoniker",
+          "ordinal": null,
+          "iat_rva": "0x2c278"
+        },
+        {
+          "dll": "OLEAUT32.dll",
+          "name": "SafeArrayCreateVector",
+          "ordinal": 411,
+          "iat_rva": "0x2c1b8"
+        },
+        {
+          "dll": "OLEAUT32.dll",
+          "name": "SafeArrayPutElement",
+          "ordinal": 26,
+          "iat_rva": "0x2c1bc"
+        },
+        {
+          "dll": "OLEAUT32.dll",
+          "name": "SysAllocStringByteLen",
+          "ordinal": 150,
+          "iat_rva": "0x2c1c0"
+        },
+        {
+          "dll": "OLEAUT32.dll",
+          "name": "SafeArrayLock",
+          "ordinal": 21,
+          "iat_rva": "0x2c1c4"
+        },
+        {
+          "dll": "OLEAUT32.dll",
+          "name": "SafeArrayUnlock",
+          "ordinal": 22,
+          "iat_rva": "0x2c1c8"
+        },
+        {
+          "dll": "OLEAUT32.dll",
+          "name": "LoadRegTypeLib",
+          "ordinal": 162,
+          "iat_rva": "0x2c1cc"
+        },
+        {
+          "dll": "OLEAUT32.dll",
+          "name": "SysStringByteLen",
+          "ordinal": 149,
+          "iat_rva": "0x2c1d0"
+        },
+        {
+          "dll": "OLEAUT32.dll",
+          "name": "SafeArrayCreate",
+          "ordinal": 15,
+          "iat_rva": "0x2c1d4"
+        },
+        {
+          "dll": "OLEAUT32.dll",
+          "name": "SafeArrayDestroy",
+          "ordinal": 16,
+          "iat_rva": "0x2c1d8"
+        },
+        {
+          "dll": "OLEAUT32.dll",
+          "name": "SysStringLen",
+          "ordinal": 7,
+          "iat_rva": "0x2c1dc"
+        },
+        {
+          "dll": "OLEAUT32.dll",
+          "name": "SafeArrayGetElement",
+          "ordinal": 25,
+          "iat_rva": "0x2c1e0"
+        },
+        {
+          "dll": "OLEAUT32.dll",
+          "name": "VariantChangeType",
+          "ordinal": 12,
+          "iat_rva": "0x2c1e4"
+        },
+        {
+          "dll": "OLEAUT32.dll",
+          "name": "VariantCopy",
+          "ordinal": 10,
+          "iat_rva": "0x2c1e8"
+        },
+        {
+          "dll": "OLEAUT32.dll",
+          "name": "SafeArrayAccessData",
+          "ordinal": 23,
+          "iat_rva": "0x2c1ec"
+        },
+        {
+          "dll": "OLEAUT32.dll",
+          "name": "VariantClear",
+          "ordinal": 9,
+          "iat_rva": "0x2c1f0"
+        },
+        {
+          "dll": "OLEAUT32.dll",
+          "name": "SafeArrayUnaccessData",
+          "ordinal": 24,
+          "iat_rva": "0x2c1f4"
+        },
+        {
+          "dll": "OLEAUT32.dll",
+          "name": "SysAllocString",
+          "ordinal": 2,
+          "iat_rva": "0x2c1f8"
+        },
+        {
+          "dll": "OLEAUT32.dll",
+          "name": "SysFreeString",
+          "ordinal": 6,
+          "iat_rva": "0x2c1fc"
+        },
+        {
+          "dll": "OLEAUT32.dll",
+          "name": "SysAllocStringLen",
+          "ordinal": 4,
+          "iat_rva": "0x2c200"
+        },
+        {
+          "dll": "ATL.DLL",
+          "name": null,
+          "ordinal": 58,
+          "iat_rva": "0x2c000"
+        },
+        {
+          "dll": "ATL.DLL",
+          "name": null,
+          "ordinal": 25,
+          "iat_rva": "0x2c004"
+        },
+        {
+          "dll": "ATL.DLL",
+          "name": null,
+          "ordinal": 32,
+          "iat_rva": "0x2c008"
+        },
+        {
+          "dll": "ATL.DLL",
+          "name": null,
+          "ordinal": 57,
+          "iat_rva": "0x2c00c"
+        },
+        {
+          "dll": "ATL.DLL",
+          "name": null,
+          "ordinal": 18,
+          "iat_rva": "0x2c010"
+        },
+        {
+          "dll": "ATL.DLL",
+          "name": null,
+          "ordinal": 15,
+          "iat_rva": "0x2c014"
+        },
+        {
+          "dll": "ATL.DLL",
+          "name": null,
+          "ordinal": 16,
+          "iat_rva": "0x2c018"
+        },
+        {
+          "dll": "ATL.DLL",
+          "name": null,
+          "ordinal": 21,
+          "iat_rva": "0x2c01c"
+        },
+        {
+          "dll": "ATL.DLL",
+          "name": null,
+          "ordinal": 23,
+          "iat_rva": "0x2c020"
+        },
+        {
+          "dll": "ATL.DLL",
+          "name": null,
+          "ordinal": 30,
+          "iat_rva": "0x2c024"
+        }
+      ]
+    },
+    "new": {
+      "label": "new",
+      "path": "PCU_new/C/RECYCLER/S-1-5-21-4025392478-4199590385-3038547483-1005/Dc28/files/F/mmc2/MCVar.dll",
+      "sha256": "5e7d955ebe7cfd52424b04e91471b7408f42bf6cc427e3d94c50bc7f4428c24a",
+      "size": 439177,
+      "image_base": "0x10000000",
+      "timestamp": 1311598035,
+      "entrypoint_rva": "0x19a4c",
+      "resources": [
+        {
+          "path": "REGISTRY/101/1033",
+          "offset": "0x3b888",
+          "size": 1771,
+          "sha256": "0c65446f8cadf34c781467f3bf553e437e1233a5752807c22a86462428c1d451"
+        },
+        {
+          "path": "REGISTRY/102/1033",
+          "offset": "0x3bf78",
+          "size": 588,
+          "sha256": "55b5767414b49ef2a1ef694fbac9f2964a6c740b0a78d28a52099a59e7697dcf"
+        },
+        {
+          "path": "TYPELIB/1/1033",
+          "offset": "0x3c1c8",
+          "size": 19732,
+          "sha256": "a7d9968596b9e9a17dff6fc2fcf4a2e2ddc65cedd28dba76eb77791b49dadfd1"
+        },
+        {
+          "path": "6/7/1033",
+          "offset": "0x40ee0",
+          "size": 42,
+          "sha256": "d120f00689e4bc43c7102fbfbe71441f19576f257d9a249be2acc702c75e5bb0"
+        },
+        {
+          "path": "16/1/1033",
+          "offset": "0x3b190",
+          "size": 1784,
+          "sha256": "d43ac461e29a3afd10a0f6a82648e417aa9a46925ed12e1a165d6ed3b46bd6dc"
+        }
+      ],
+      "exports": [
+        {
+          "ordinal": 1,
+          "name": "DllCanUnloadNow",
+          "rva": "0x878d",
+          "va": "0x1000878d"
+        },
+        {
+          "ordinal": 2,
+          "name": "DllGetClassObject",
+          "rva": "0x87d1",
+          "va": "0x100087d1"
+        },
+        {
+          "ordinal": 3,
+          "name": "DllRegisterServer",
+          "rva": "0x87eb",
+          "va": "0x100087eb"
+        },
+        {
+          "ordinal": 4,
+          "name": "DllUnregisterServer",
+          "rva": "0x87fb",
+          "va": "0x100087fb"
+        }
+      ],
+      "imports": [
+        {
+          "dll": "KERNEL32.dll",
+          "name": "GetPrivateProfileStringA",
+          "ordinal": null,
+          "iat_rva": "0x2d02c"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "UnmapViewOfFile",
+          "ordinal": null,
+          "iat_rva": "0x2d030"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "CloseHandle",
+          "ordinal": null,
+          "iat_rva": "0x2d034"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "GetLastError",
+          "ordinal": null,
+          "iat_rva": "0x2d038"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "Sleep",
+          "ordinal": null,
+          "iat_rva": "0x2d03c"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "WaitForSingleObject",
+          "ordinal": null,
+          "iat_rva": "0x2d040"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "CreateMutexA",
+          "ordinal": null,
+          "iat_rva": "0x2d044"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "TlsGetValue",
+          "ordinal": null,
+          "iat_rva": "0x2d048"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "TlsSetValue",
+          "ordinal": null,
+          "iat_rva": "0x2d04c"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "InterlockedDecrement",
+          "ordinal": null,
+          "iat_rva": "0x2d050"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "GlobalFree",
+          "ordinal": null,
+          "iat_rva": "0x2d054"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "GlobalUnlock",
+          "ordinal": null,
+          "iat_rva": "0x2d058"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "GlobalLock",
+          "ordinal": null,
+          "iat_rva": "0x2d05c"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "GlobalAlloc",
+          "ordinal": null,
+          "iat_rva": "0x2d060"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "WideCharToMultiByte",
+          "ordinal": null,
+          "iat_rva": "0x2d064"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "GetTickCount",
+          "ordinal": null,
+          "iat_rva": "0x2d068"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "MultiByteToWideChar",
+          "ordinal": null,
+          "iat_rva": "0x2d06c"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "FormatMessageA",
+          "ordinal": null,
+          "iat_rva": "0x2d070"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "TlsAlloc",
+          "ordinal": null,
+          "iat_rva": "0x2d074"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "TlsFree",
+          "ordinal": null,
+          "iat_rva": "0x2d078"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "InitializeCriticalSection",
+          "ordinal": null,
+          "iat_rva": "0x2d07c"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "DeleteCriticalSection",
+          "ordinal": null,
+          "iat_rva": "0x2d080"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "LeaveCriticalSection",
+          "ordinal": null,
+          "iat_rva": "0x2d084"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "EnterCriticalSection",
+          "ordinal": null,
+          "iat_rva": "0x2d088"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "GetCurrentThreadId",
+          "ordinal": null,
+          "iat_rva": "0x2d08c"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "lstrlenA",
+          "ordinal": null,
+          "iat_rva": "0x2d090"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "lstrlenW",
+          "ordinal": null,
+          "iat_rva": "0x2d094"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "GetModuleFileNameA",
+          "ordinal": null,
+          "iat_rva": "0x2d098"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "LoadLibraryA",
+          "ordinal": null,
+          "iat_rva": "0x2d09c"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "GetCurrentProcessId",
+          "ordinal": null,
+          "iat_rva": "0x2d0a0"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "GetModuleHandleA",
+          "ordinal": null,
+          "iat_rva": "0x2d0a4"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "CreateProcessA",
+          "ordinal": null,
+          "iat_rva": "0x2d0a8"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "SetEnvironmentVariableA",
+          "ordinal": null,
+          "iat_rva": "0x2d0ac"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "CompareStringW",
+          "ordinal": null,
+          "iat_rva": "0x2d0b0"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "CompareStringA",
+          "ordinal": null,
+          "iat_rva": "0x2d0b4"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "FlushFileBuffers",
+          "ordinal": null,
+          "iat_rva": "0x2d0b8"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "GetLocaleInfoW",
+          "ordinal": null,
+          "iat_rva": "0x2d0bc"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "SetStdHandle",
+          "ordinal": null,
+          "iat_rva": "0x2d0c0"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "ReadFile",
+          "ordinal": null,
+          "iat_rva": "0x2d0c4"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "SetConsoleCtrlHandler",
+          "ordinal": null,
+          "iat_rva": "0x2d0c8"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "WritePrivateProfileStringA",
+          "ordinal": null,
+          "iat_rva": "0x2d0cc"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "GetUserDefaultLCID",
+          "ordinal": null,
+          "iat_rva": "0x2d0d0"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "EnumSystemLocalesA",
+          "ordinal": null,
+          "iat_rva": "0x2d0d4"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "GetLocaleInfoA",
+          "ordinal": null,
+          "iat_rva": "0x2d0d8"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "IsValidCodePage",
+          "ordinal": null,
+          "iat_rva": "0x2d0dc"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "IsValidLocale",
+          "ordinal": null,
+          "iat_rva": "0x2d0e0"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "UnhandledExceptionFilter",
+          "ordinal": null,
+          "iat_rva": "0x2d0e4"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "IsBadWritePtr",
+          "ordinal": null,
+          "iat_rva": "0x2d0e8"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "VirtualAlloc",
+          "ordinal": null,
+          "iat_rva": "0x2d0ec"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "WriteFile",
+          "ordinal": null,
+          "iat_rva": "0x2d0f0"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "VirtualFree",
+          "ordinal": null,
+          "iat_rva": "0x2d0f4"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "HeapCreate",
+          "ordinal": null,
+          "iat_rva": "0x2d0f8"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "HeapDestroy",
+          "ordinal": null,
+          "iat_rva": "0x2d0fc"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "GetEnvironmentVariableA",
+          "ordinal": null,
+          "iat_rva": "0x2d100"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "GetEnvironmentStringsW",
+          "ordinal": null,
+          "iat_rva": "0x2d104"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "GetEnvironmentStrings",
+          "ordinal": null,
+          "iat_rva": "0x2d108"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "FreeEnvironmentStringsW",
+          "ordinal": null,
+          "iat_rva": "0x2d10c"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "FreeEnvironmentStringsA",
+          "ordinal": null,
+          "iat_rva": "0x2d110"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "GetStartupInfoA",
+          "ordinal": null,
+          "iat_rva": "0x2d114"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "GetFileType",
+          "ordinal": null,
+          "iat_rva": "0x2d118"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "GetStdHandle",
+          "ordinal": null,
+          "iat_rva": "0x2d11c"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "SetHandleCount",
+          "ordinal": null,
+          "iat_rva": "0x2d120"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "RaiseException",
+          "ordinal": null,
+          "iat_rva": "0x2d124"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "GetProcAddress",
+          "ordinal": null,
+          "iat_rva": "0x2d128"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "GetStringTypeW",
+          "ordinal": null,
+          "iat_rva": "0x2d12c"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "GetStringTypeA",
+          "ordinal": null,
+          "iat_rva": "0x2d130"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "LCMapStringW",
+          "ordinal": null,
+          "iat_rva": "0x2d134"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "LCMapStringA",
+          "ordinal": null,
+          "iat_rva": "0x2d138"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "CreateDirectoryA",
+          "ordinal": null,
+          "iat_rva": "0x2d13c"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "GetCurrentThread",
+          "ordinal": null,
+          "iat_rva": "0x2d140"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "SetLastError",
+          "ordinal": null,
+          "iat_rva": "0x2d144"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "GetOEMCP",
+          "ordinal": null,
+          "iat_rva": "0x2d148"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "GetACP",
+          "ordinal": null,
+          "iat_rva": "0x2d14c"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "GetCPInfo",
+          "ordinal": null,
+          "iat_rva": "0x2d150"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "FatalAppExitA",
+          "ordinal": null,
+          "iat_rva": "0x2d154"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "HeapSize",
+          "ordinal": null,
+          "iat_rva": "0x2d158"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "HeapAlloc",
+          "ordinal": null,
+          "iat_rva": "0x2d15c"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "HeapReAlloc",
+          "ordinal": null,
+          "iat_rva": "0x2d160"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "GetCurrentProcess",
+          "ordinal": null,
+          "iat_rva": "0x2d164"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "TerminateProcess",
+          "ordinal": null,
+          "iat_rva": "0x2d168"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "ExitProcess",
+          "ordinal": null,
+          "iat_rva": "0x2d16c"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "HeapFree",
+          "ordinal": null,
+          "iat_rva": "0x2d170"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "CreateFileA",
+          "ordinal": null,
+          "iat_rva": "0x2d174"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "CreateFileMappingA",
+          "ordinal": null,
+          "iat_rva": "0x2d178"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "MapViewOfFile",
+          "ordinal": null,
+          "iat_rva": "0x2d17c"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "GetPrivateProfileIntA",
+          "ordinal": null,
+          "iat_rva": "0x2d180"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "IsBadReadPtr",
+          "ordinal": null,
+          "iat_rva": "0x2d184"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "GlobalDeleteAtom",
+          "ordinal": null,
+          "iat_rva": "0x2d188"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "GlobalGetAtomNameA",
+          "ordinal": null,
+          "iat_rva": "0x2d18c"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "GlobalAddAtomA",
+          "ordinal": null,
+          "iat_rva": "0x2d190"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "GetVersionExA",
+          "ordinal": null,
+          "iat_rva": "0x2d194"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "SetFilePointer",
+          "ordinal": null,
+          "iat_rva": "0x2d198"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "InterlockedIncrement",
+          "ordinal": null,
+          "iat_rva": "0x2d19c"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "GetTimeZoneInformation",
+          "ordinal": null,
+          "iat_rva": "0x2d1a0"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "GetSystemTimeAsFileTime",
+          "ordinal": null,
+          "iat_rva": "0x2d1a4"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "RtlUnwind",
+          "ordinal": null,
+          "iat_rva": "0x2d1a8"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "GetCommandLineA",
+          "ordinal": null,
+          "iat_rva": "0x2d1ac"
+        },
+        {
+          "dll": "KERNEL32.dll",
+          "name": "GetVersion",
+          "ordinal": null,
+          "iat_rva": "0x2d1b0"
+        },
+        {
+          "dll": "USER32.dll",
+          "name": "TranslateMessage",
+          "ordinal": null,
+          "iat_rva": "0x2d208"
+        },
+        {
+          "dll": "USER32.dll",
+          "name": "RegisterClipboardFormatA",
+          "ordinal": null,
+          "iat_rva": "0x2d20c"
+        },
+        {
+          "dll": "USER32.dll",
+          "name": "WaitForInputIdle",
+          "ordinal": null,
+          "iat_rva": "0x2d210"
+        },
+        {
+          "dll": "USER32.dll",
+          "name": "GetThreadDesktop",
+          "ordinal": null,
+          "iat_rva": "0x2d214"
+        },
+        {
+          "dll": "USER32.dll",
+          "name": "DefWindowProcA",
+          "ordinal": null,
+          "iat_rva": "0x2d218"
+        },
+        {
+          "dll": "USER32.dll",
+          "name": "GetWindowThreadProcessId",
+          "ordinal": null,
+          "iat_rva": "0x2d21c"
+        },
+        {
+          "dll": "USER32.dll",
+          "name": "ReuseDDElParam",
+          "ordinal": null,
+          "iat_rva": "0x2d220"
+        },
+        {
+          "dll": "USER32.dll",
+          "name": "PackDDElParam",
+          "ordinal": null,
+          "iat_rva": "0x2d224"
+        },
+        {
+          "dll": "USER32.dll",
+          "name": "UnpackDDElParam",
+          "ordinal": null,
+          "iat_rva": "0x2d228"
+        },
+        {
+          "dll": "USER32.dll",
+          "name": "SendMessageA",
+          "ordinal": null,
+          "iat_rva": "0x2d22c"
+        },
+        {
+          "dll": "USER32.dll",
+          "name": "GetParent",
+          "ordinal": null,
+          "iat_rva": "0x2d230"
+        },
+        {
+          "dll": "USER32.dll",
+          "name": "FreeDDElParam",
+          "ordinal": null,
+          "iat_rva": "0x2d234"
+        },
+        {
+          "dll": "USER32.dll",
+          "name": "SetTimer",
+          "ordinal": null,
+          "iat_rva": "0x2d238"
+        },
+        {
+          "dll": "USER32.dll",
+          "name": "GetMessageA",
+          "ordinal": null,
+          "iat_rva": "0x2d23c"
+        },
+        {
+          "dll": "USER32.dll",
+          "name": "PostMessageA",
+          "ordinal": null,
+          "iat_rva": "0x2d240"
+        },
+        {
+          "dll": "USER32.dll",
+          "name": "DispatchMessageA",
+          "ordinal": null,
+          "iat_rva": "0x2d244"
+        },
+        {
+          "dll": "USER32.dll",
+          "name": "KillTimer",
+          "ordinal": null,
+          "iat_rva": "0x2d248"
+        },
+        {
+          "dll": "USER32.dll",
+          "name": "EnumWindows",
+          "ordinal": null,
+          "iat_rva": "0x2d24c"
+        },
+        {
+          "dll": "USER32.dll",
+          "name": "GetWindowTextA",
+          "ordinal": null,
+          "iat_rva": "0x2d250"
+        },
+        {
+          "dll": "USER32.dll",
+          "name": "DestroyWindow",
+          "ordinal": null,
+          "iat_rva": "0x2d254"
+        },
+        {
+          "dll": "USER32.dll",
+          "name": "wsprintfA",
+          "ordinal": null,
+          "iat_rva": "0x2d258"
+        },
+        {
+          "dll": "USER32.dll",
+          "name": "RegisterClassA",
+          "ordinal": null,
+          "iat_rva": "0x2d25c"
+        },
+        {
+          "dll": "USER32.dll",
+          "name": "CreateWindowExA",
+          "ordinal": null,
+          "iat_rva": "0x2d260"
+        },
+        {
+          "dll": "USER32.dll",
+          "name": "SetWindowLongA",
+          "ordinal": null,
+          "iat_rva": "0x2d264"
+        },
+        {
+          "dll": "USER32.dll",
+          "name": "SetWindowPos",
+          "ordinal": null,
+          "iat_rva": "0x2d268"
+        },
+        {
+          "dll": "USER32.dll",
+          "name": "GetWindowLongA",
+          "ordinal": null,
+          "iat_rva": "0x2d26c"
+        },
+        {
+          "dll": "ole32.dll",
+          "name": "CoCreateInstance",
+          "ordinal": null,
+          "iat_rva": "0x2d274"
+        },
+        {
+          "dll": "ole32.dll",
+          "name": "CreatePointerMoniker",
+          "ordinal": null,
+          "iat_rva": "0x2d278"
+        },
+        {
+          "dll": "OLEAUT32.dll",
+          "name": "SafeArrayCreateVector",
+          "ordinal": 411,
+          "iat_rva": "0x2d1b8"
+        },
+        {
+          "dll": "OLEAUT32.dll",
+          "name": "SafeArrayPutElement",
+          "ordinal": 26,
+          "iat_rva": "0x2d1bc"
+        },
+        {
+          "dll": "OLEAUT32.dll",
+          "name": "SysAllocStringByteLen",
+          "ordinal": 150,
+          "iat_rva": "0x2d1c0"
+        },
+        {
+          "dll": "OLEAUT32.dll",
+          "name": "SafeArrayLock",
+          "ordinal": 21,
+          "iat_rva": "0x2d1c4"
+        },
+        {
+          "dll": "OLEAUT32.dll",
+          "name": "SafeArrayUnlock",
+          "ordinal": 22,
+          "iat_rva": "0x2d1c8"
+        },
+        {
+          "dll": "OLEAUT32.dll",
+          "name": "LoadRegTypeLib",
+          "ordinal": 162,
+          "iat_rva": "0x2d1cc"
+        },
+        {
+          "dll": "OLEAUT32.dll",
+          "name": "SysStringByteLen",
+          "ordinal": 149,
+          "iat_rva": "0x2d1d0"
+        },
+        {
+          "dll": "OLEAUT32.dll",
+          "name": "SafeArrayCreate",
+          "ordinal": 15,
+          "iat_rva": "0x2d1d4"
+        },
+        {
+          "dll": "OLEAUT32.dll",
+          "name": "SafeArrayDestroy",
+          "ordinal": 16,
+          "iat_rva": "0x2d1d8"
+        },
+        {
+          "dll": "OLEAUT32.dll",
+          "name": "SysStringLen",
+          "ordinal": 7,
+          "iat_rva": "0x2d1dc"
+        },
+        {
+          "dll": "OLEAUT32.dll",
+          "name": "SafeArrayGetElement",
+          "ordinal": 25,
+          "iat_rva": "0x2d1e0"
+        },
+        {
+          "dll": "OLEAUT32.dll",
+          "name": "VariantChangeType",
+          "ordinal": 12,
+          "iat_rva": "0x2d1e4"
+        },
+        {
+          "dll": "OLEAUT32.dll",
+          "name": "VariantCopy",
+          "ordinal": 10,
+          "iat_rva": "0x2d1e8"
+        },
+        {
+          "dll": "OLEAUT32.dll",
+          "name": "SafeArrayAccessData",
+          "ordinal": 23,
+          "iat_rva": "0x2d1ec"
+        },
+        {
+          "dll": "OLEAUT32.dll",
+          "name": "VariantClear",
+          "ordinal": 9,
+          "iat_rva": "0x2d1f0"
+        },
+        {
+          "dll": "OLEAUT32.dll",
+          "name": "SafeArrayUnaccessData",
+          "ordinal": 24,
+          "iat_rva": "0x2d1f4"
+        },
+        {
+          "dll": "OLEAUT32.dll",
+          "name": "SysAllocString",
+          "ordinal": 2,
+          "iat_rva": "0x2d1f8"
+        },
+        {
+          "dll": "OLEAUT32.dll",
+          "name": "SysFreeString",
+          "ordinal": 6,
+          "iat_rva": "0x2d1fc"
+        },
+        {
+          "dll": "OLEAUT32.dll",
+          "name": "SysAllocStringLen",
+          "ordinal": 4,
+          "iat_rva": "0x2d200"
+        },
+        {
+          "dll": "ATL.DLL",
+          "name": null,
+          "ordinal": 58,
+          "iat_rva": "0x2d000"
+        },
+        {
+          "dll": "ATL.DLL",
+          "name": null,
+          "ordinal": 25,
+          "iat_rva": "0x2d004"
+        },
+        {
+          "dll": "ATL.DLL",
+          "name": null,
+          "ordinal": 32,
+          "iat_rva": "0x2d008"
+        },
+        {
+          "dll": "ATL.DLL",
+          "name": null,
+          "ordinal": 57,
+          "iat_rva": "0x2d00c"
+        },
+        {
+          "dll": "ATL.DLL",
+          "name": null,
+          "ordinal": 18,
+          "iat_rva": "0x2d010"
+        },
+        {
+          "dll": "ATL.DLL",
+          "name": null,
+          "ordinal": 15,
+          "iat_rva": "0x2d014"
+        },
+        {
+          "dll": "ATL.DLL",
+          "name": null,
+          "ordinal": 16,
+          "iat_rva": "0x2d018"
+        },
+        {
+          "dll": "ATL.DLL",
+          "name": null,
+          "ordinal": 21,
+          "iat_rva": "0x2d01c"
+        },
+        {
+          "dll": "ATL.DLL",
+          "name": null,
+          "ordinal": 23,
+          "iat_rva": "0x2d020"
+        },
+        {
+          "dll": "ATL.DLL",
+          "name": null,
+          "ordinal": 30,
+          "iat_rva": "0x2d024"
+        }
+      ]
+    }
+  }
+}

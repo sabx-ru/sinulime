@@ -1,0 +1,5 @@
+WARNING: config-hold: failed to get 'esil.nonull'
+sym.protected:_unsigned_short_int_____thiscall_CVar2::MakeCommandString_struct_tagSAFEARRAY 0x1000cb24 [DATA] mov dword [arg_8h], str.OnCommandCompleted
+sym.public:_class_CResult_____thiscall_CXVariant::Append_struct_tagVARIANT 0x100149bd [DATA] mov dword [arg_8h], str.OnCommandCompleted
+fcn.1000cf0f 0x1000cf1e [DATA] push str.Com_Object_released_or_Async_Transaction_cancelled
+fcn.1000d2cf 0x1000d888 [DATA] push str.StartRead_0x_x_RID:0x_x_nam:_ls__ls__cache:_d_shdl:0x_x_chdl:0x_x

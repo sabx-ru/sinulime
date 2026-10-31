@@ -1,0 +1,38 @@
+
+/root/PL/PCU_old/H/mmc2/MCVar.dll:     file format pei-i386
+
+
+Disassembly of section .text:
+
+10011c01 <?RemoveCyclicVariables@CVar2@@UAGJJUtagVARIANT@@0PAU2@@Z+0x46>:
+10011c01:	55                   	push   ebp
+10011c02:	8b ec                	mov    ebp,esp
+10011c04:	51                   	push   ecx
+10011c05:	56                   	push   esi
+10011c06:	8b f1                	mov    esi,ecx
+10011c08:	e8 e6 fb fe ff       	call   100017f3 <??_Estringdispid@CComTypeInfoHolder@ATL@@QAEPAXI@Z-0x80d>
+10011c0d:	83 38 02             	cmp    DWORD PTR [eax],0x2
+10011c10:	74 04                	je     10011c16 <?RemoveCyclicVariables@CVar2@@UAGJJUtagVARIANT@@0PAU2@@Z+0x5b>
+10011c12:	33 c0                	xor    eax,eax
+10011c14:	eb 05                	jmp    10011c1b <?RemoveCyclicVariables@CVar2@@UAGJJUtagVARIANT@@0PAU2@@Z+0x60>
+10011c16:	8b 40 0c             	mov    eax,DWORD PTR [eax+0xc]
+10011c19:	8b 00                	mov    eax,DWORD PTR [eax]
+10011c1b:	a8 20                	test   al,0x20
+10011c1d:	74 10                	je     10011c2f <?RemoveCyclicVariables@CVar2@@UAGJJUtagVARIANT@@0PAU2@@Z+0x74>
+10011c1f:	8d 46 dc             	lea    eax,[esi-0x24]
+10011c22:	50                   	push   eax
+10011c23:	68 48 2f 03 10       	push   0x10032f48
+10011c28:	e8 82 81 ff ff       	call   10009daf <??_E?$CList@PAVCTransactionID@@@@UAEPAXI@Z+0x1b>
+10011c2d:	59                   	pop    ecx
+10011c2e:	59                   	pop    ecx
+10011c2f:	83 7e 28 00          	cmp    DWORD PTR [esi+0x28],0x0
+10011c33:	75 15                	jne    10011c4a <?RemoveCyclicVariables@CVar2@@UAGJJUtagVARIANT@@0PAU2@@Z+0x8f>
+10011c35:	6a 02                	push   0x2
+10011c37:	8d 4e dc             	lea    ecx,[esi-0x24]
+10011c3a:	e8 40 01 00 00       	call   10011d7f <?InternalRemoveCyclicVariables@CVar2@@IAEJKJAAUtagVARIANT@@00PAU2@@Z+0xc0>
+10011c3f:	8d 4d fc             	lea    ecx,[ebp-0x4]
+10011c42:	89 45 fc             	mov    DWORD PTR [ebp-0x4],eax
+10011c45:	e8 65 60 ff ff       	call   10007caf <?DecodeError@CDdeAction@@IAEHAAUNCDDE_BINARY_HEADER@@PAJPAF@Z+0x31>
+10011c4a:	5e                   	pop    esi
+10011c4b:	c9                   	leave
+10011c4c:	c3                   	ret

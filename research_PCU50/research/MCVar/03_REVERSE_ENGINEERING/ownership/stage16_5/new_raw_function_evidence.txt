@@ -1,0 +1,390 @@
+WARNING: config-hold: failed to get 'esil.nonull'
+nth      vaddr bind type lib          name                                 
+―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
+  1 0x1002d02c NONE FUNC KERNEL32.dll GetPrivateProfileStringA
+  2 0x1002d030 NONE FUNC KERNEL32.dll UnmapViewOfFile
+  3 0x1002d034 NONE FUNC KERNEL32.dll CloseHandle
+  4 0x1002d038 NONE FUNC KERNEL32.dll GetLastError
+  5 0x1002d03c NONE FUNC KERNEL32.dll Sleep
+  6 0x1002d040 NONE FUNC KERNEL32.dll WaitForSingleObject
+  7 0x1002d044 NONE FUNC KERNEL32.dll CreateMutexA
+  8 0x1002d048 NONE FUNC KERNEL32.dll TlsGetValue
+  9 0x1002d04c NONE FUNC KERNEL32.dll TlsSetValue
+ 10 0x1002d050 NONE FUNC KERNEL32.dll InterlockedDecrement
+ 11 0x1002d054 NONE FUNC KERNEL32.dll GlobalFree
+ 12 0x1002d058 NONE FUNC KERNEL32.dll GlobalUnlock
+ 13 0x1002d05c NONE FUNC KERNEL32.dll GlobalLock
+ 14 0x1002d060 NONE FUNC KERNEL32.dll GlobalAlloc
+ 15 0x1002d064 NONE FUNC KERNEL32.dll WideCharToMultiByte
+ 16 0x1002d068 NONE FUNC KERNEL32.dll GetTickCount
+ 17 0x1002d06c NONE FUNC KERNEL32.dll MultiByteToWideChar
+ 18 0x1002d070 NONE FUNC KERNEL32.dll FormatMessageA
+ 19 0x1002d074 NONE FUNC KERNEL32.dll TlsAlloc
+ 20 0x1002d078 NONE FUNC KERNEL32.dll TlsFree
+ 21 0x1002d07c NONE FUNC KERNEL32.dll InitializeCriticalSection
+ 22 0x1002d080 NONE FUNC KERNEL32.dll DeleteCriticalSection
+ 23 0x1002d084 NONE FUNC KERNEL32.dll LeaveCriticalSection
+ 24 0x1002d088 NONE FUNC KERNEL32.dll EnterCriticalSection
+ 25 0x1002d08c NONE FUNC KERNEL32.dll GetCurrentThreadId
+ 26 0x1002d090 NONE FUNC KERNEL32.dll lstrlenA
+ 27 0x1002d094 NONE FUNC KERNEL32.dll lstrlenW
+ 28 0x1002d098 NONE FUNC KERNEL32.dll GetModuleFileNameA
+ 29 0x1002d09c NONE FUNC KERNEL32.dll LoadLibraryA
+ 30 0x1002d0a0 NONE FUNC KERNEL32.dll GetCurrentProcessId
+ 31 0x1002d0a4 NONE FUNC KERNEL32.dll GetModuleHandleA
+ 32 0x1002d0a8 NONE FUNC KERNEL32.dll CreateProcessA
+ 33 0x1002d0ac NONE FUNC KERNEL32.dll SetEnvironmentVariableA
+ 34 0x1002d0b0 NONE FUNC KERNEL32.dll CompareStringW
+ 35 0x1002d0b4 NONE FUNC KERNEL32.dll CompareStringA
+ 36 0x1002d0b8 NONE FUNC KERNEL32.dll FlushFileBuffers
+ 37 0x1002d0bc NONE FUNC KERNEL32.dll GetLocaleInfoW
+ 38 0x1002d0c0 NONE FUNC KERNEL32.dll SetStdHandle
+ 39 0x1002d0c4 NONE FUNC KERNEL32.dll ReadFile
+ 40 0x1002d0c8 NONE FUNC KERNEL32.dll SetConsoleCtrlHandler
+ 41 0x1002d0cc NONE FUNC KERNEL32.dll WritePrivateProfileStringA
+ 42 0x1002d0d0 NONE FUNC KERNEL32.dll GetUserDefaultLCID
+ 43 0x1002d0d4 NONE FUNC KERNEL32.dll EnumSystemLocalesA
+ 44 0x1002d0d8 NONE FUNC KERNEL32.dll GetLocaleInfoA
+ 45 0x1002d0dc NONE FUNC KERNEL32.dll IsValidCodePage
+ 46 0x1002d0e0 NONE FUNC KERNEL32.dll IsValidLocale
+ 47 0x1002d0e4 NONE FUNC KERNEL32.dll UnhandledExceptionFilter
+ 48 0x1002d0e8 NONE FUNC KERNEL32.dll IsBadWritePtr
+ 49 0x1002d0ec NONE FUNC KERNEL32.dll VirtualAlloc
+ 50 0x1002d0f0 NONE FUNC KERNEL32.dll WriteFile
+ 51 0x1002d0f4 NONE FUNC KERNEL32.dll VirtualFree
+ 52 0x1002d0f8 NONE FUNC KERNEL32.dll HeapCreate
+ 53 0x1002d0fc NONE FUNC KERNEL32.dll HeapDestroy
+ 54 0x1002d100 NONE FUNC KERNEL32.dll GetEnvironmentVariableA
+ 55 0x1002d104 NONE FUNC KERNEL32.dll GetEnvironmentStringsW
+ 56 0x1002d108 NONE FUNC KERNEL32.dll GetEnvironmentStrings
+ 57 0x1002d10c NONE FUNC KERNEL32.dll FreeEnvironmentStringsW
+ 58 0x1002d110 NONE FUNC KERNEL32.dll FreeEnvironmentStringsA
+ 59 0x1002d114 NONE FUNC KERNEL32.dll GetStartupInfoA
+ 60 0x1002d118 NONE FUNC KERNEL32.dll GetFileType
+ 61 0x1002d11c NONE FUNC KERNEL32.dll GetStdHandle
+ 62 0x1002d120 NONE FUNC KERNEL32.dll SetHandleCount
+ 63 0x1002d124 NONE FUNC KERNEL32.dll RaiseException
+ 64 0x1002d128 NONE FUNC KERNEL32.dll GetProcAddress
+ 65 0x1002d12c NONE FUNC KERNEL32.dll GetStringTypeW
+ 66 0x1002d130 NONE FUNC KERNEL32.dll GetStringTypeA
+ 67 0x1002d134 NONE FUNC KERNEL32.dll LCMapStringW
+ 68 0x1002d138 NONE FUNC KERNEL32.dll LCMapStringA
+ 69 0x1002d13c NONE FUNC KERNEL32.dll CreateDirectoryA
+ 70 0x1002d140 NONE FUNC KERNEL32.dll GetCurrentThread
+ 71 0x1002d144 NONE FUNC KERNEL32.dll SetLastError
+ 72 0x1002d148 NONE FUNC KERNEL32.dll GetOEMCP
+ 73 0x1002d14c NONE FUNC KERNEL32.dll GetACP
+ 74 0x1002d150 NONE FUNC KERNEL32.dll GetCPInfo
+ 75 0x1002d154 NONE FUNC KERNEL32.dll FatalAppExitA
+ 76 0x1002d158 NONE FUNC KERNEL32.dll HeapSize
+ 77 0x1002d15c NONE FUNC KERNEL32.dll HeapAlloc
+ 78 0x1002d160 NONE FUNC KERNEL32.dll HeapReAlloc
+ 79 0x1002d164 NONE FUNC KERNEL32.dll GetCurrentProcess
+ 80 0x1002d168 NONE FUNC KERNEL32.dll TerminateProcess
+ 81 0x1002d16c NONE FUNC KERNEL32.dll ExitProcess
+ 82 0x1002d170 NONE FUNC KERNEL32.dll HeapFree
+ 83 0x1002d174 NONE FUNC KERNEL32.dll CreateFileA
+ 84 0x1002d178 NONE FUNC KERNEL32.dll CreateFileMappingA
+ 85 0x1002d17c NONE FUNC KERNEL32.dll MapViewOfFile
+ 86 0x1002d180 NONE FUNC KERNEL32.dll GetPrivateProfileIntA
+ 87 0x1002d184 NONE FUNC KERNEL32.dll IsBadReadPtr
+ 88 0x1002d188 NONE FUNC KERNEL32.dll GlobalDeleteAtom
+ 89 0x1002d18c NONE FUNC KERNEL32.dll GlobalGetAtomNameA
+ 90 0x1002d190 NONE FUNC KERNEL32.dll GlobalAddAtomA
+ 91 0x1002d194 NONE FUNC KERNEL32.dll GetVersionExA
+ 92 0x1002d198 NONE FUNC KERNEL32.dll SetFilePointer
+ 93 0x1002d19c NONE FUNC KERNEL32.dll InterlockedIncrement
+ 94 0x1002d1a0 NONE FUNC KERNEL32.dll GetTimeZoneInformation
+ 95 0x1002d1a4 NONE FUNC KERNEL32.dll GetSystemTimeAsFileTime
+ 96 0x1002d1a8 NONE FUNC KERNEL32.dll RtlUnwind
+ 97 0x1002d1ac NONE FUNC KERNEL32.dll GetCommandLineA
+ 98 0x1002d1b0 NONE FUNC KERNEL32.dll GetVersion
+  1 0x1002d208 NONE FUNC USER32.dll   TranslateMessage
+  2 0x1002d20c NONE FUNC USER32.dll   RegisterClipboardFormatA
+  3 0x1002d210 NONE FUNC USER32.dll   WaitForInputIdle
+  4 0x1002d214 NONE FUNC USER32.dll   GetThreadDesktop
+  5 0x1002d218 NONE FUNC USER32.dll   DefWindowProcA
+  6 0x1002d21c NONE FUNC USER32.dll   GetWindowThreadProcessId
+  7 0x1002d220 NONE FUNC USER32.dll   ReuseDDElParam
+  8 0x1002d224 NONE FUNC USER32.dll   PackDDElParam
+  9 0x1002d228 NONE FUNC USER32.dll   UnpackDDElParam
+ 10 0x1002d22c NONE FUNC USER32.dll   SendMessageA
+ 11 0x1002d230 NONE FUNC USER32.dll   GetParent
+ 12 0x1002d234 NONE FUNC USER32.dll   FreeDDElParam
+ 13 0x1002d238 NONE FUNC USER32.dll   SetTimer
+ 14 0x1002d23c NONE FUNC USER32.dll   GetMessageA
+ 15 0x1002d240 NONE FUNC USER32.dll   PostMessageA
+ 16 0x1002d244 NONE FUNC USER32.dll   DispatchMessageA
+ 17 0x1002d248 NONE FUNC USER32.dll   KillTimer
+ 18 0x1002d24c NONE FUNC USER32.dll   EnumWindows
+ 19 0x1002d250 NONE FUNC USER32.dll   GetWindowTextA
+ 20 0x1002d254 NONE FUNC USER32.dll   DestroyWindow
+ 21 0x1002d258 NONE FUNC USER32.dll   wsprintfA
+ 22 0x1002d25c NONE FUNC USER32.dll   RegisterClassA
+ 23 0x1002d260 NONE FUNC USER32.dll   CreateWindowExA
+ 24 0x1002d264 NONE FUNC USER32.dll   SetWindowLongA
+ 25 0x1002d268 NONE FUNC USER32.dll   SetWindowPos
+ 26 0x1002d26c NONE FUNC USER32.dll   GetWindowLongA
+  1 0x1002d274 NONE FUNC ole32.dll    CoCreateInstance
+  2 0x1002d278 NONE FUNC ole32.dll    CreatePointerMoniker
+411 0x1002d1b8 NONE FUNC OLEAUT32.dll SafeArrayCopyData
+ 26 0x1002d1bc NONE FUNC OLEAUT32.dll SafeArrayCopy
+150 0x1002d1c0 NONE FUNC OLEAUT32.dll DllRegisterServer
+ 21 0x1002d1c4 NONE FUNC OLEAUT32.dll SafeArrayUnlock
+ 22 0x1002d1c8 NONE FUNC OLEAUT32.dll SafeArrayAccessData
+162 0x1002d1cc NONE FUNC OLEAUT32.dll RegisterTypeLib
+149 0x1002d1d0 NONE FUNC OLEAUT32.dll SysAllocStringByteLen
+ 15 0x1002d1d4 NONE FUNC OLEAUT32.dll SafeArrayDestroy
+ 16 0x1002d1d8 NONE FUNC OLEAUT32.dll SafeArrayGetDim
+  7 0x1002d1dc NONE FUNC OLEAUT32.dll VariantInit
+ 25 0x1002d1e0 NONE FUNC OLEAUT32.dll SafeArrayPutElement
+ 12 0x1002d1e4 NONE FUNC OLEAUT32.dll VariantTimeToDosDateTime
+ 10 0x1002d1e8 NONE FUNC OLEAUT32.dll VariantCopyInd
+ 23 0x1002d1ec NONE FUNC OLEAUT32.dll SafeArrayUnaccessData
+  9 0x1002d1f0 NONE FUNC OLEAUT32.dll VariantCopy
+ 24 0x1002d1f4 NONE FUNC OLEAUT32.dll SafeArrayGetElement
+  2 0x1002d1f8 NONE FUNC OLEAUT32.dll SysReAllocString
+  6 0x1002d1fc NONE FUNC OLEAUT32.dll SysStringLen
+  4 0x1002d200 NONE FUNC OLEAUT32.dll SysReAllocStringLen
+ 58 0x1002d000 NONE FUNC ATL.DLL      AtlModuleAddTermFunc
+ 25 0x1002d004 NONE FUNC ATL.DLL      AtlSetErrorInfo
+ 32 0x1002d008 NONE FUNC ATL.DLL      AtlInternalQueryInterface
+ 57 0x1002d00c NONE FUNC ATL.DLL      AtlModuleUnregisterServerEx
+ 18 0x1002d010 NONE FUNC ATL.DLL      AtlModuleRegisterServer
+ 15 0x1002d014 NONE FUNC ATL.DLL      AtlModuleGetClassObject
+ 16 0x1002d018 NONE FUNC ATL.DLL      AtlModuleInit
+ 21 0x1002d01c NONE FUNC ATL.DLL      AtlModuleTerm
+ 23 0x1002d020 NONE FUNC ATL.DLL      AtlModuleUpdateRegistryFromResourceD
+ 30 0x1002d024 NONE FUNC ATL.DLL      AtlComPtrAssign
+            ; CALL XREFS from fcn.1000fa11 @ +0x1b7, +0x32f
+┌ fcn.1000fd7a(int32_t arg_5h, int32_t arg_7h, int32_t arg_8h, int32_t arg_ch, int32_t arg_10h, int32_t arg_1ch, int32_t arg_20h, int32_t arg_30h);
+│           ; var int32_t var_d8h @ stack - 0xd8
+│           ; var int32_t var_b8h @ stack - 0xb8
+│           ; var int32_t var_98h @ stack - 0x98
+│           ; var int32_t var_78h @ stack - 0x78
+│           ; var int32_t var_5ch @ stack - 0x5c
+│           ; var int32_t var_3ch @ stack - 0x3c
+│           ; var int32_t var_20h @ stack - 0x20
+│           ; var uint_least32_t var_1ch  { > 0x1} @ stack - 0x1c
+│           ; var int32_t var_8h @ stack - 0x8
+│           ; arg int32_t arg_5h @ stack + 0x5
+│           ; arg int32_t arg_7h @ stack + 0x7
+│           ; arg int32_t arg_8h @ stack + 0x8
+│           ; arg int32_t arg_ch @ stack + 0xc
+│           ; arg int32_t arg_10h @ stack + 0x10
+│           ; arg int32_t arg_1ch @ stack + 0x1c
+│           ; arg int32_t arg_20h @ stack + 0x20
+│           ; arg int32_t arg_30h @ stack + 0x30
+│           0x1000fd7a      push  ebp
+│           0x1000fd7b      mov   ebp, esp
+│           0x1000fd7d      sub   esp, 0xfc
+│           0x1000fd83      push  ebx
+│           0x1000fd84      push  esi
+│           0x1000fd85      push  edi
+│           0x1000fd86      mov   edi, ecx
+│           0x1000fd88      xor   ebx, ebx
+│           0x1000fd8a      mov   dword [var_8h], edi
+│           0x1000fd8d      test  byte [arg_7h], 0x10
+│           0x1000fd91      mov   dword [var_1ch], ebx
+│       ┌─< 
+
+... [OUTPUT TRUNCATED - 10,884 chars omitted out of 60,811 total] ...
+
+1000fe4a      cmp   edi, ebx
+│  │╎││     0x1000fe4c      mov   dword [arg_8h], edi
+│  │╎││ ┌─< 0x1000fe4f      jnz   0x1000fe66
+│  │╎││ │   0x1000fe51      mov   ecx, dword [var_8h]
+│  │╎││ │   0x1000fe54      push  ebx                                  ; int32_t arg_4h
+│  │╎││ │   0x1000fe55      push  0x80070057                           ; 'W' ; int32_t arg_8h
+│  │╎││ │   0x1000fe5a      push  str.Either_a_Name_or_a_ServerHandle_must_to_be_specified ; 0x10033288 ; "Either a Name or a ServerHandle must to be specified" ; int32_t arg_ch
+│  │╎││ │   ;-- (0x1000fe62) public: int __thiscall String::Equal(char const *):
+│  │╎││ │   0x1000fe5f  ~   call  fcn.1000b0a5
+│  │└─────< 0x1000fe64      jmp   0x1000fe38
+│  │ ││ └─> 0x1000fe66      push  esi                                  ; int32_t arg_4h
+│  │ ││     0x1000fe67      lea   ecx, dword [var_b8h]
+│  │ ││     0x1000fe6d      call  fcn.1000cf3d
+│  │ ││     0x1000fe72      test  byte [arg_5h], 0x04
+│  │ ││ ┌─< 0x1000fe76      jz    0x1000fea1
+│  │ ││ │   0x1000fe78      push  esi
+│  │ ││ │   0x1000fe79      push  str.ClientHandles                    ; 0x1003325c ; "ClientHandles" ; int32_t arg_8h
+│  │ ││ │   0x1000fe7e      push  ebx                                  ; int32_t arg_ch
+│  │ ││ │   0x1000fe7f      lea   ecx, dword [var_b8h]
+│  │ ││ │   0x1000fe85  ~   push  dword [arg_10h]                      ; int32_t arg_10h
+..
+│  │ ││ │   0x1000fe88      call  fcn.10007f3d                         ; public: void __thiscall CAtom::operator=(unsigned short int const *)
+│  │ ││ │   0x1000fe8d      cmp   eax, ebx
+│  │ ││┌──< 0x1000fe8f      jz    0x1000fea1
+│  │ ││││   0x1000fe91      mov   ecx, dword [var_8h]
+│  │ ││││   0x1000fe94      push  eax                                  ; int32_t arg_4h
+│  │ ││││   0x1000fe95      call  fcn.10008b9c
+│  │ ││││   0x1000fe9a      mov   esi, eax
+│  │┌─────< 0x1000fe9c      jmp   0x1001042e                           ; sym.public_virtual:_void_____thiscall_CTransactionDestructor::scalar_dtor_unsigned_int+0x183
+│  ││││└└─> 0x1000fea1      push  0x04                                 ; 4 ; int32_t arg_4h
+│  ││││     0x1000fea3      lea   ecx, dword [var_d8h]
+│  ││││     0x1000fea9      call  fcn.1000cf3d
+│  ││││     0x1000feae      test  byte [arg_7h], 0x02
+│  ││││ ┌─< 0x1000feb2      jz    0x1000fede
+│  ││││ │   0x1000feb4      push  0x04                                 ; 4
+│  ││││ │   0x1000feb6      push  str.Deadbands                        ; 0x10033924 ; "Deadbands" ; int32_t arg_8h
+│  ││││ │   0x1000febb      push  ebx                                  ; int32_t arg_ch
+│  ││││ │   0x1000febc      lea   ecx, dword [var_d8h]
+│  ││││ │   0x1000fec2      push  dword [arg_1ch]                      ; int32_t arg_10h
+│  ││││ │   0x1000fec5      call  fcn.10007f3d
+│  ││││ │   0x1000feca      cmp   eax, ebx
+│  ││││┌──< 0x1000fecc      jz    0x1000fede
+│  ││││││   0x1000fece      mov   ecx, dword [var_8h]
+│  ││││││   0x1000fed1      push  eax                                  ; int32_t arg_4h
+│  ││││││   0x1000fed2      call  fcn.10008b9c
+│  ││││││   0x1000fed7      mov   esi, eax
+│ ┌───────< 0x1000fed9      jmp   0x10010423                           ; sym.public_virtual:_void_____thiscall_CTransactionDestructor::scalar_dtor_unsigned_int+0x178
+│ │││││└└─> 0x1000fede      push  esi                                  ; int32_t arg_4h
+│ │││││     0x1000fedf      lea   ecx, dword [var_98h]
+│ │││││     0x1000fee5      call  fcn.1000cf3d
+│ │││││     0x1000feea      test  byte [arg_7h], 0x04
+│ │││││ ┌─< 0x1000feee      jz    0x1000ff17                           ; sym.public:_class_ATL::CComVariant_____thiscall_ATL::CComVariant::operator__unsigned_short_int_const+0x16
+│ │││││ │   0x1000fef0      push  esi
+│ │││││ │   0x1000fef1      push  str.RequestedUpdateRates             ; 0x1003390c ; "RequestedUpdateRates" ; int32_t arg_8h
+│ │││││ │   0x1000fef6      push  ebx                                  ; int32_t arg_ch
+│ │││││ │   0x1000fef7      lea   ecx, dword [var_98h]
+│ │││││ │   0x1000fefd      push  dword [arg_20h]                      ; int32_t arg_10h
+│ │││││ │   0x1000ff00  ~   call  fcn.10007f3d
+..
+└ │││││ │   0x1000ff05      cmp   eax, ebx                             ; public: class ATL::CComVariant & __thiscall ATL::CComVariant::operator=(unsigned short int const *)
+            ; CALL XREF from sym.public_virtual:_void_____thiscall_CDdeAction::scalar_dtor_unsigned_int @ 0x10010306
+┌ fcn.1001049a();
+│           ; var int32_t var_4h @ stack - 0x4
+│           0x1001049a      push  ecx
+│           0x1001049b      push  esi
+│           0x1001049c      mov   esi, ecx
+│           0x1001049e      push  esi
+│           0x1001049f      lea   eax, dword [var_4h]
+│           0x100104a3      push  str.CCyclic::Init_0x_x               ; 0x10033968 ; "CCyclic::Init 0x%x"
+│           0x100104a8      push  eax                                  ; int32_t arg_4h
+│           0x100104a9      call  fcn.10007b50
+│           0x100104ae      lea   eax, dword [esi+0x14]
+│           0x100104b1      push  0x01                                 ; 1 ; int32_t arg_4h
+│           0x100104b3      push  eax                                  ; int32_t arg_8h
+│           0x100104b4      call  fcn.10002a58
+│           0x100104b9      add   esp, 0x14
+│           0x100104bc      test  eax, eax
+│       ┌─< 0x100104be      jnz   0x100104c9
+│       │   0x100104c0      push  0x01                                 ; 1 ; int32_t arg_4h
+│       │   0x100104c2      mov   ecx, esi
+│       │   0x100104c4      call  fcn.10004ce6
+│       └─> 0x100104c9      pop   esi
+│           0x100104ca      pop   ecx
+└           0x100104cb      ret
+            ; CALL XREF from sym.public_virtual:_void_____thiscall_CDdeAction::scalar_dtor_unsigned_int @ 0x100103ea
+            ; CALL XREF from fcn.10010dd1 @ 0x1001114e
+            ; CALL XREF from fcn.10014cf2 @ 0x10014d6a
+┌ fcn.10011d5f();
+│           ; var int32_t var_14h @ stack - 0x14
+│           ; var int32_t var_8h @ stack - 0x8
+│           0x10011d5f      push  ebp
+│           0x10011d60      mov   ebp, esp
+│           0x10011d62      sub   esp, 0x10
+│           0x10011d65      push  edi
+│           0x10011d66      mov   edi, ecx
+│           0x10011d68      mov   dword [var_14h], edi
+│           0x10011d6b      push  dword [edi+0x34]
+│           0x10011d6e      push  dword [edi+0x4c]
+│           0x10011d71      push  edi
+│           0x10011d72      push  str.ReqId:0x_x_STATE___________susp:_d_ivar:0x_x ; 0x10034030 ; "ReqId:0x%x STATE ========> susp:%d ivar:0x%x\n" ; int32_t arg_4h
+│           0x10011d77      call  fcn.10009ec1
+│           0x10011d7c      mov   eax, dword [edi+0x0c]
+│           0x10011d7f      and   dword [var_8h], 0x00
+│           0x10011d83      add   esp, 0x10
+│           0x10011d86      test  eax, eax
+│       ┌─< 0x10011d88      jz    0x10011e5e                           ; sym.protected:_long_int___thiscall_CVar2::InternalRemoveCyclicVariables_unsigned_long_int__long_int__struct_tagVARIANT____struct_tagVARIANT____struct_tagVARIANT____struct_tagVARIANT+0x8d
+│       │   0x10011d8e      push  ebx
+│       │   0x10011d8f      push  esi
+│       │   0x10011d90      mov   ebx, data.10038484                   ; 0x10038484
+└      ┌──< 0x10011d95      jmp   0x10011d9a                           ; sym.protected:_long_int___thiscall_CVar2::InternalRemoveCyclicVariables_unsigned_long_int__long_int__struct_tagVARIANT____struct_tagVARIANT____struct_tagVARIANT____struct_tagVARIANT-0x37
+┌ sym.protected:_long_int___thiscall_CVar2::InternalRemoveCyclicVariables_unsigned_long_int__long_int__struct_tagVARIANT____struct_tagVARIANT____struct_tagVARIANT____struct_tagVARIANT();
+│       ╎   ; var int32_t var_10h @ stack - 0x10
+│       ╎   ; var uint_least32_t var_ch @ stack - 0xc
+│       ╎   ; var int32_t var_8h @ stack - 0x8
+│       ╎   ; var int32_t var_4h @ stack - 0x4
+│       ╎   0x10011dd1      cld                                        ; protected: long int __thiscall CVar2::InternalRemoveCyclicVariables(unsigned long int, long int, struct tagVARIANT &, struct tagVARIANT &, struct tagVARIANT &, struct tagVARIANT *)
+│       ╎   0x10011dd2      push  ecx
+│       ╎   0x10011dd3      push  edx
+│       ╎   0x10011dd4      push  dword [esi+0x84]
+│       ╎   0x10011dda      inc   dword [var_4h]
+│       ╎   0x10011ddd      push  dword [esi+0x88]
+│       ╎   0x10011de3      push  esi
+│       ╎   0x10011de4      push  eax
+│       ╎   0x10011de5      push  str.Cyclic_02u_0x_x_ch:0x_x_sh:0x_x__ls__s__tag:0x_x ; 0x10033ff8 ; "    Cyclic%02u 0x%x ch:0x%x sh:0x%x %ls(%s) tag:0x%x\n" ; uint_least32_t arg_4h
+│       ╎   0x10011dea      call  fcn.10009ec1
+│       ╎   0x10011def      lea   ecx, dword [esi+0x38]
+│       ╎   0x10011df2      add   esp, 0x20
+│       ╎   0x10011df5      neg   ecx
+│       ╎   0x10011df7      lea   eax, dword [esi+0x40]
+│       ╎   0x10011dfa      mov   di, word [esi+0x5e]
+│       ╎   0x10011dfe      sbb   ecx, ecx
+│       ╎   0x10011e00      push  ebx                                  ; BSTR *arg_4h
+│       ╎   0x10011e01      and   ecx, eax
+│       ╎   0x10011e03      lea   eax, dword [var_8h]
+│       ╎   0x10011e06      push  eax                                  ; unknown_t arg_8h
+│       ╎   0x10011e07      lea   eax, dword [ecx-0x08]
+│       ╎   0x10011e0a      neg   ecx
+│       ╎   0x10011e0c      sbb   ecx, ecx
+│       ╎   0x10011e0e      and   ecx, eax
+│       ╎   0x10011e10      call  fcn.10006e25
+│       ╎   0x10011e15      push  dword [eax]
+│       ╎   0x10011e17      mov   ecx, esi
+│       ╎   0x10011e19      movsx eax, di
+│       ╎   0x10011e1c      push  eax
+│       ╎   0x10011e1d      call  fcn.10011e6e
+│       ╎   0x10011e22      push  eax
+│       ╎   0x10011e23      xor   eax, eax
+│       ╎   0x10011e25      push  eax
+│       ╎   0x10011e26      mov   eax, data.10011e8a                   ; 0x10011e8a
+│       ╎   0x10011e2b      push  eax                                  ; 0x10011e8a
+│       ╎                                                              ; data.10011e8a
+│       ╎   0x10011e2c      push  str.dead:_g_err:0x_x_qual:0x_x_dat:_.300s ; 0x10033fc8 ; "      dead:%g err:0x%x qual:0x%x dat:%.300s\n" ; uint_least32_t arg_4h
+│       ╎   0x10011e31      call  fcn.10009ec1
+│       ╎   0x10011e36      mov   eax, dword [var_8h]
+│       ╎   0x10011e39      add   esp, 0x18
+│       ╎   0x10011e3c      test  eax, eax
+│      ┌──< 0x10011e3e      jz    0x10011e4c
+│      │╎   0x10011e40      cmp   byte [eax], 0x00
+│     ┌───< 0x10011e43      jz    0x10011e4c
+│     ││╎   0x10011e45      push  eax                                  ; int32_t arg_4h
+│     ││╎   0x10011e46      call  fcn.10017adc
+│     ││╎   0x10011e4b      pop   ecx
+│     └└──> 0x10011e4c      mov   edi, dword [var_10h]
+│       ╎   0x10011e4f      mov   dword [var_8h], ebx
+│       ╎   0x10011e52      cmp   dword [var_ch], 0x00
+│       └─< 0x10011e56      jnz   0x10011d97
+│           0x10011e5c      pop   esi
+│           0x10011e5d      pop   ebx
+│           0x10011e5e      push  edi
+│           0x10011e5f      push  str.ReqId:0x_x_STATE                 ; 0x10033fac ; "ReqId:0x%x STATE <========\n" ; uint_least32_t arg_4h
+│           0x10011e64      call  fcn.10009ec1
+│           0x10011e69      pop   ecx
+│           0x10011e6a      pop   ecx
+│           0x10011e6b      pop   edi
+│           0x10011e6c      leave
+│           0x10011e6d      ret
+            ; CALL XREF from sym.protected:_unsigned_short_int_____thiscall_CVar2::MakeCommandString_struct_tagSAFEARRAY @ 0x1000cb69
+            ; CALL XREF from sym.public:_class_CResult_____thiscall_CXVariant::ChangeArrayType_unsigned_short_int__struct_tagVARIANT @ +0xe8
+            ; CALL XREF from sym.public:_unsigned_short_int___thiscall_CDdeAction::GetVarType_void @ 0x10014be7
+┌ fcn.1000cf0f();
+│           0x1000cf0f      push  esi
+│           0x1000cf10      push  0x0c                                 ; 0xc ; 12 ; int32_t arg_4h
+│           0x1000cf12      call  fcn.10017ee5
+│           0x1000cf17      mov   esi, eax
+│           0x1000cf19      pop   ecx
+│           0x1000cf1a      test  esi, esi
+│       ┌─< 0x1000cf1c      jz    0x1000cf39
+│       │   0x1000cf1e      push  str.Com_Object_released_or_Async_Transaction_cancelled ; 0x100332d8 ; "Com-Object released or Async-Transaction cancelled" ; int32_t arg_4h
+│       │   0x1000cf23      lea   ecx, dword [esi+0x04]
+│       │   0x1000cf26      mov   dword [esi], 0x80004004              ; [0x80004004:4]=-1
+│       │   0x1000cf2c      call  fcn.10001d75
+│       │   0x1000cf31      and   dword [esi+0x08], 0x00
+│       │   0x1000cf35      mov   eax, esi
+│       │   0x1000cf37      pop   esi
+│       │   0x1000cf38      ret
+│       └─> 0x1000cf39      xor   eax, eax
+│           0x1000cf3b      pop   esi
+└           0x1000cf3c      ret

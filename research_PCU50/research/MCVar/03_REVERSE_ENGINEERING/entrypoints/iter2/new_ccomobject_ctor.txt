@@ -1,0 +1,171 @@
+            [36m;-- public: void __thiscall ATL::CComObject<class CVar2>::constructor(void *):[0m
+            [32m0x10009fd0[0m      [37mmov[0m[37m   [0m[36mcl[0m[37m, [0m[37mbyte[0m[37m [[0m[36mesi[0m[37m+[0m[33m0x10038740[0m[37m][0m[0m[0m            [37m; public: void __thiscall ATL::CComObject<class CVar2>::constructor(void *)[0m
+            [32m0x10009fd6[0m      [37mlea[0m[37m   [0m[36meax[0m[37m, [0m[37mdword[0m[37m [[0m[36mesi[0m[37m+[0m[33m0x10038740[0m[37m][0m[0m[0m
+            [32m0x10009fdc[0m      [37mmov[0m[37m   [0m[37mbyte[0m[37m [[0m[36mebp[0m[37m+[0m[36medx[0m[37m*[0m[33m1[0m[37m-[0m[33m0x400[0m[37m], [0m[36mcl[0m[0m[0m
+            [32m0x10009fe3[0m      [35mpush[0m[37m  [0m[36medi[0m[0m[0m
+            [32m0x10009fe4[0m      [35mpush[0m[37m  [0m[33mstr.03x[0m[0m[31m                              ; 0x100323d8[31m ; "%03x "[0m
+            [32m0x10009fe9[0m      [37mmov[0m[37m   [0m[37mbyte[0m[37m [[0m[36meax[0m[37m], [0m[33m0x23[0m[0m[31m                     ; '#'
+            [31m                                                           ; [0x23:1]=255[31m ; 35[0m
+            [32m0x10009fec[0m      [37mlea[0m[37m   [0m[36mebx[0m[37m, [0m[37mdword[0m[37m [[0m[36mebp[0m[37m+[0m[36medx[0m[37m*[0m[33m1[0m[37m-[0m[33m0x400[0m[37m][0m[0m[0m
+            [32m0x10009ff3[0m      [33minc[0m[37m   [0m[36mebx[0m[0m[0m
+            [32m0x10009ff4[0m      [35mpush[0m[37m  [0m[36mebx[0m[0m[0m
+            [32m0x10009ff5[0m      [1;92mcall[0m[37m  [0m[33m0x1001910f[0m[0m[0m
+            [32m0x10009ffa[0m      [33msub[0m[37m   [0m[36mesp[0m[37m, [0m[33m0x94[0m[0m[0m
+            [32m0x1000a000[0m      [33madd[0m[37m   [0m[36mebx[0m[37m, [0m[36meax[0m[0m[0m
+            [32m0x1000a002[0m      [37mlea[0m[37m   [0m[36mesi[0m[37m, [0m[37mdword[0m[37m [[0m[36mebp[0m[37m+[0m[33m0x0c[0m[37m][0m[0m[0m
+            [32m0x1000a005[0m      [35mpush[0m[37m  [0m[33m0x28[0m[0m[31m                                 ; '('[31m ; 40[0m
+            [32m0x1000a007[0m      [1;95mpop[0m[37m   [0m[36mecx[0m[0m[0m
+            [32m0x1000a008[0m      [37mmov[0m[37m   [0m[36medi[0m[37m, [0m[36mesp[0m[0m[0m
+            [32m0x1000a00a[0m      [35mpush[0m[37m  [0m[37mdword[0m[37m [[0m[36mebp[0m[37m+[0m[33m0x08[0m[37m][0m[0m[0m
+            [32m0x1000a00d[0m      [37mrep[0m[37m   [0m[37mmovsd[0m[0m[0m
+            [32m0x1000a00f[0m      [35mpush[0m[37m  [0m[36mebx[0m[0m[0m
+            [32m0x1000a010[0m  ~   [1;92mcall[0m[37m  [0m[33m0x1001910f[0m[0m[0m
+            [36m;-- public: void __thiscall CVar2::constructor(void):[0m
+            [32m0x1000a012[0m      [33mlock[0m[37m  [0m[33madd[0m[37m [0m[37mbyte[0m[37m [[0m[36meax[0m[37m], [0m[36mal[0m[0m[0m                   [37m; public: void __thiscall CVar2::constructor(void)[0m
+            [32m0x1000a015[0m      [33madd[0m[37m   [0m[36mebx[0m[37m, [0m[36meax[0m[0m[0m
+            [32m0x1000a017[0m      [33madd[0m[37m   [0m[36mesp[0m[37m, [0m[33m0xa8[0m[0m[0m
+            [32m0x1000a01d[0m      [36mcmp[0m[37m   [0m[37mbyte[0m[37m [[0m[36mebx[0m[37m-[0m[33m0x01[0m[37m], [0m[33m0x0a[0m[0m[0m
+        [36m┌[0m[36m─[0m[36m<[0m [32m0x1000a021[0m      [32mjz[0m[37m    [0m[33m0x1000a02a[0m[0m[0m
+        [36m│[0m   [32m0x1000a023[0m      [37mmov[0m[37m   [0m[37mbyte[0m[37m [[0m[36mebx[0m[37m], [0m[33m0x0a[0m[0m[0m
+        [36m│[0m   [32m0x1000a026[0m      [33minc[0m[37m   [0m[36mebx[0m[0m[0m
+        [36m│[0m   [32m0x1000a027[0m      [36mand[0m[37m   [0m[37mbyte[0m[37m [[0m[36mebx[0m[37m], [0m[33m0x00[0m[0m[0m
+        [36m└[0m[36m─[0m[36m>[0m [32m0x1000a02a[0m      [37mlea[0m[37m   [0m[36meax[0m[37m, [0m[37mdword[0m[37m [[0m[36mebp[0m[37m-[0m[33m0x400[0m[37m][0m[0m[0m
+            [32m0x1000a030[0m      [33msub[0m[37m   [0m[36mebx[0m[37m, [0m[36meax[0m[0m[0m
+            [32m0x1000a032[0m      [37mlea[0m[37m   [0m[36meax[0m[37m, [0m[37mdword[0m[37m [[0m[36mebp[0m[37m-[0m[33m0x400[0m[37m][0m[0m[0m
+            [32m0x1000a038[0m      [35mpush[0m[37m  [0m[36mebx[0m[0m[0m
+            [32m0x1000a039[0m      [35mpush[0m[37m  [0m[36meax[0m[0m[0m
+            [32m0x1000a03a[0m      [1;92mcall[0m[37m  [0m[33m0x100017f3[0m[0m[0m
+            [32m0x1000a03f[0m      [37mmov[0m[37m   [0m[36mecx[0m[37m, [0m[36meax[0m[0m[0m
+            [32m0x1000a041[0m      [1;92mcall[0m[37m  [0m[33m0x1000aa73[0m[0m[0m
+            [32m0x1000a046[0m      [1;95mpop[0m[37m   [0m[36medi[0m[0m[0m
+            [32m0x1000a047[0m      [1;95mpop[0m[37m   [0m[36mesi[0m[0m[0m
+            [32m0x1000a048[0m      [1;95mpop[0m[37m   [0m[36mebx[0m[0m[0m
+            [32m0x1000a049[0m      [1;95mleave[0m[0m
+            [32m0x1000a04a[0m      [31mret[0m[0m
+            [32m0x1000a04b[0m      [35mpush[0m[37m  [0m[36mesi[0m[0m[0m
+            [32m0x1000a04c[0m      [35mpush[0m[37m  [0m[36medi[0m[0m[0m
+            [32m0x1000a04d[0m      [32mcall[0m[37m  [0m[37mdword[0m[37m [[0m[33msym.imp.KERNEL32.dll_GetTickCount[0m[37m][0m[0m[31m ; 0x1002d068[0m[31m ; DWORD GetTickCount(void)[0m
+            [32m0x1000a053[0m      [37mmov[0m[37m   [0m[36mesi[0m[37m, [0m[33m0x3e8[0m[0m[31m                           ; 1000[0m
+            [32m0x1000a058[0m      [36mxor[0m[37m   [0m[36medx[0m[37m, [0m[36medx[0m[0m[0m
+            [32m0x1000a05a[0m      [37mmov[0m[37m   [0m[36medi[0m[37m, [0m[36mesi[0m[0m[0m
+            [32m0x1000a05c[0m      [37mmov[0m[37m   [0m[36mecx[0m[37m, [0m[36meax[0m[0m[0m
+            [32m0x1000a05e[0m      [33mdiv[0m[37m   [0m[36medi[0m[0m[0m
+            [32m0x1000a060[0m      [37mmov[0m[37m   [0m[36meax[0m[37m, [0m[36mecx[0m[0m[0m
+            [32m0x1000a062[0m      [35mpush[0m[37m  [0m[36medx[0m[0m[0m
+            [32m0x1000a063[0m      [36mxor[0m[37m   [0m[36medx[0m[37m, [0m[36medx[0m[0m[0m
+            [32m0x1000a065[0m      [33mdiv[0m[37m   [0m[36mesi[0m[0m[0m
+            [32m0x1000a067[0m      [37mmov[0m[37m   [0m[36mesi[0m[37m, [0m[33m0x10038720[0m[0m[0m
+            [32m0x1000a06c[0m      [35mpush[0m[37m  [0m[36meax[0m[0m[0m
+            [32m0x1000a06d[0m      [35mpush[0m[37m  [0m[33mstr.at:_u._03u[0m[0m[31m                       ; 0x10032430[31m ; "at:%u.%03u"[0m
+            [32m0x1000a072[0m      [35mpush[0m[37m  [0m[36mesi[0m[0m[0m
+            [32m0x1000a073[0m      [32mcall[0m[37m  [0m[37mdword[0m[37m [[0m[33msym.imp.USER32.dll_wsprintfA[0m[37m][0m[0m[31m ; 0x1002d258[31m ; "V\U00000004\U00000003"[0m[31m ; int wsprintfA(LPSTR ARG_0, LPCSTR ARG_1, unknown_t ...)[0m
+            [32m0x1000a079[0m      [33madd[0m[37m   [0m[36mesp[0m[37m, [0m[33m0x10[0m[0m[0m
+            [32m0x1000a07c[0m      [37mmov[0m[37m   [0m[36meax[0m[37m, [0m[36mesi[0m[0m[0m
+            [32m0x1000a07e[0m      [1;95mpop[0m[37m   [0m[36medi[0m[0m[0m
+            [32m0x1000a07f[0m      [1;95mpop[0m[37m   [0m[36mesi[0m[0m[0m
+            [32m0x1000a080[0m      [31mret[0m[0m
+            [32m0x1000a081[0m      [35mpush[0m[37m  [0m[36mebp[0m[0m[0m
+            [32m0x1000a082[0m      [37mmov[0m[37m   [0m[36mebp[0m[37m, [0m[36mesp[0m[0m[0m
+            [32m0x1000a084[0m      [33msub[0m[37m   [0m[36mesp[0m[37m, [0m[33m0x0c[0m[0m[0m
+            [32m0x1000a087[0m      [37mlea[0m[37m   [0m[36meax[0m[37m, [0m[37mdword[0m[37m [[0m[36mebp[0m[37m-[0m[33m0x0c[0m[37m][0m[0m[0m
+            [32m0x1000a08a[0m      [35mpush[0m[37m  [0m[36mesi[0m[0m[0m
+            [32m0x1000a08b[0m      [35mpush[0m[37m  [0m[36meax[0m[0m[0m
+            [32m0x1000a08c[0m      [1;92mcall[0m[37m  [0m[33m0x100192c1[0m[0m[0m
+            [32m0x1000a091[0m      [37mlea[0m[37m   [0m[36meax[0m[37m, [0m[37mdword[0m[37m [[0m[36mebp[0m[37m-[0m[33m0x0c[0m[37m][0m[0m[0m
+            [32m0x1000a094[0m      [35mpush[0m[37m  [0m[36meax[0m[0m[0m
+            [32m0x1000a095[0m      [1;92mcall[0m[37m  [0m[33m0x10019161[0m[0m[0m
+            [32m0x1000a09a[0m      [1;95mpop[0m[37m   [0m[36mecx[0m[0m[0m
+            [32m0x1000a09b[0m      [37mmov[0m[37m   [0m[36mesi[0m[37m, [0m[33m0x100386f8[0m[0m[0m
+            [32m0x1000a0a0[0m      [1;95mpop[0m[37m   [0m[36mecx[0m[0m[0m
+            [32m0x1000a0a1[0m      [37mmovzx[0m[37m [0m[36mecx[0m[37m, [0m[37mword[0m[37m [[0m[36mebp[0m[37m-[0m[33m0x08[0m[37m][0m[0m[0m
+            [32m0x1000a0a5[0m      [35mpush[0m[37m  [0m[36mecx[0m[0m[0m
+            [32m0x1000a0a6[0m      [37mmov[0m[37m   [0m[36mecx[0m[37m, [0m[37mdword[0m[37m [[0m[36meax[0m[37m+[0m[33m0x14[0m[37m][0m[0m[0m
+            [32m0x1000a0a9[0m      [35mpush[0m[37m  [0m[37mdword[0m[37m [[0m[36meax[0m[37m][0m[0m[0m
+            [32m0x1000a0ab[0m  ~   [33madd[0m[37m   [0m[36mecx[0m[37m, [0m[33m0x76c[0m[0m[31m                           ; 1900[0m
+            [36m;-- public virtual: void * __thiscall CServerHandleList::vector_dtor(unsigned int):[0m
+            [36m;-- public virtual: void * __thiscall CServerHandleList::scalar_dtor(unsigned int):[0m
+            [32m0x1000a0ae[0m      [1;95mpop[0m[37m   [0m[36mes[0m[0m[0m                                   [37m; public virtual: void * __thiscall CServerHandleList::scalar_dtor(unsigned int)[0m
+            [32m0x1000a0af[0m      [33madd[0m[37m   [0m[37mbyte[0m[37m [[0m[36meax[0m[37m], [0m[36mal[0m[0m[0m
+            [32m0x1000a0b1[0m      [35mpush[0m[37m  [0m[37mdword[0m[37m [[0m[36meax[0m[37m+[0m[33m0x04[0m[37m][0m[0m[0m
+            [32m0x1000a0b4[0m      [35mpush[0m[37m  [0m[37mdword[0m[37m [[0m[36meax[0m[37m+[0m[33m0x08[0m[37m][0m[0m[0m
+            [32m0x1000a0b7[0m      [35mpush[0m[37m  [0m[36mecx[0m[0m[0m
+            [32m0x1000a0b8[0m      [37mmov[0m[37m   [0m[36mecx[0m[37m, [0m[37mdword[0m[37m [[0m[36meax[0m[37m+[0m[33m0x10[0m[37m][0m[0m[0m
+            [32m0x1000a0bb[0m      [33minc[0m[37m   [0m[36mecx[0m[0m[0m
+            [32m0x1000a0bc[0m      [35mpush[0m[37m  [0m[36mecx[0m[0m[0m
+            [32m0x1000a0bd[0m      [35mpush[0m[37m  [0m[37mdword[0m[37m [[0m[36meax[0m[37m+[0m[33m0x0c[0m[37m][0m[0m[0m
+            [32m0x1000a0c0[0m      [35mpush[0m[37m  [0m[33mstr.AT:_u._u._u__02u:_02u:_02u._03u[0m[0m[31m  ; 0x1003243c[31m ; "AT:%u.%u.%u %02u:%02u:%02u.%03u"[0m
+            [32m0x1000a0c5[0m      [35mpush[0m[37m  [0m[36mesi[0m[0m[0m
+            [32m0x1000a0c6[0m      [32mcall[0m[37m  [0m[37mdword[0m[37m [[0m[33msym.imp.USER32.dll_wsprintfA[0m[37m][0m[0m[31m ; 0x1002d258[31m ; "V\U00000004\U00000003"[0m[31m ; int wsprintfA(LPSTR ARG_0, LPCSTR ARG_1, unknown_t ...)[0m
+            [32m0x1000a0cc[0m      [33madd[0m[37m   [0m[36mesp[0m[37m, [0m[33m0x24[0m[0m[0m
+            [32m0x1000a0cf[0m      [1;91minvalid[0m[0m
+            [32m0x1000a0d0[0m      [1;91minvalid[0m[0m
+            [32m0x1000a0d1[0m      [1;95mpop[0m[37m   [0m[36mesi[0m[0m[0m
+            [32m0x1000a0d2[0m      [1;95mleave[0m[0m
+            [32m0x1000a0d3[0m      [31mret[0m[0m
+            [32m0x1000a0d4[0m      [37mmovsx[0m[37m [0m[36meax[0m[37m, [0m[37mword[0m[37m [[0m[36mesp[0m[37m+[0m[33m0x04[0m[37m][0m[0m[0m
+            [32m0x1000a0d9[0m      [36mcmp[0m[37m   [0m[36meax[0m[37m, [0m[33m0x14[0m[0m[31m                            ; 20[0m
+            [32m0x1000a0dc[0m  ~   [32mjnle[0m[37m  [0m[33m0x1000a111[0m[0m[0m
+            [36m;-- public virtual: long int __stdcall CVar2::SetDebugFlags(unsigned long int):[0m
+            [32m0x1000a0dd[0m      [36mxor[0m[37m   [0m[36mesi[0m[37m, [0m[37mdword[0m[37m [[0m[36mebx[0m[37m+[0m[36mebp[0m[37m*[0m[33m1[0m[37m-[0m[33m0x7b[0m[37m][0m[0m[0m          [37m; public virtual: long int __stdcall CVar2::SetDebugFlags(unsigned long int)[0m
+            [32m0x1000a0e1[0m      [36mshl[0m[37m   [0m[37mbyte[0m[37m [[0m[36mecx[0m[37m-[0m[33m0x7d[0m[37m], [0m[33m0xf8[0m[0m[0m
+            [32m0x1000a0e6[0m      [33madd[0m[37m   [0m[36mal[0m[37m, [0m[33m0x74[0m[0m[31m                             ; 116[0m
+            [32m0x1000a0e8[0m      [35mpush[0m[37m  [0m[36mss[0m[0m[0m
+            [32m0x1000a0e9[0m      [36mcmp[0m[37m   [0m[36meax[0m[37m, [0m[33m0x08[0m[0m[31m                            ; 8[0m
+            [32m0x1000a0ec[0m      [32mjz[0m[37m    [0m[33m0x1000a0f9[0m[0m[0m
+            [32m0x1000a0ee[0m      [36mcmp[0m[37m   [0m[36meax[0m[37m, [0m[33m0x0c[0m[0m[31m                            ; 0xc[31m ; 12[0m
+            [32m0x1000a0f1[0m      [32mjnz[0m[37m   [0m[33m0x1000a125[0m[0m[0m
+            [32m0x1000a0f3[0m  ~   [37mmov[0m[37m   [0m[36meax[0m[37m, [0m[33mstr.DeviceFail[0m[0m[31m                  ; 0x100324c4[31m ; "DeviceFail"[0m
+            [36m;-- public virtual: long int __stdcall CVar2::GetDebugFlags(unsigned long int *):[0m
+            [32m0x1000a0f5[0m      [36mand[0m[37m   [0m[36mal[0m[37m, [0m[33m0x03[0m[0m[0m                             [37m; public virtual: long int __stdcall CVar2::GetDebugFlags(unsigned long int *)[0m
+            [32m0x1000a0f7[0m      [33madc[0m[37m   [0m[36mbl[0m[37m, [0m[36mal[0m[0m[0m
+            [32m0x1000a0f9[0m      [37mmov[0m[37m   [0m[36meax[0m[37m, [0m[33mstr.DisConnect[0m[0m[31m                  ; 0x100324b8[31m ; "DisConnect"[0m
+            [32m0x1000a0fe[0m      [31mret[0m[0m
+            [32m0x1000a0ff[0m      [37mmov[0m[37m   [0m[36meax[0m[37m, [0m[33mstr.BadConfig[0m[0m[31m                   ; 0x100324ac[31m ; "BadConfig "[0m
+            [32m0x1000a104[0m      [31mret[0m[0m
+            [32m0x1000a105[0m      [37mmov[0m[37m   [0m[36meax[0m[37m, [0m[33mstr.Bad[0m[0m[31m                         ; 0x100324a0[31m ; "Bad       "[0m
+            [32m0x1000a10a[0m      [31mret[0m[0m
+            [32m0x1000a10b[0m      [37mmov[0m[37m   [0m[36meax[0m[37m, [0m[33mstr.LastKnown[0m[0m[31m                   ; 0x10032494[31m ; "LastKnown "[0m
+            [32m0x1000a110[0m      [31mret[0m[0m
+            [32m0x1000a111[0m  ~   [33msub[0m[37m   [0m[36meax[0m[37m, [0m[33m0x20[0m[0m[31m                            ; 32[0m
+            [36m;-- IDispatchImpl<struct IVar2, &struct _GUID const IID_IVar2, &struct _GUID const LIBID_MELBOURNE_Lib, 1, 0, class ATL::CComTypeInfoHolder>::GetTypeInfoCount:[0m
+            [32m0x1000a113[0m      [36mand[0m[37m   [0m[37mbyte[0m[37m [[0m[36meax[0m[37m+[0m[36meax[0m[37m*[0m[33m2[0m[37m-[0m[33m0x7d[0m[37m], [0m[36mdh[0m[0m[0m            [37m; IDispatchImpl<struct IVar2, &struct _GUID const IID_IVar2, &struct _GUID const LIBID_MELBOURNE_Lib, 1, 0, class ATL::CComTypeInfoHolder>::GetTypeInfoCount[0m
+            [32m0x1000a117[0m      [1;92mcall[0m[37m  [0m[33m0xffffffff9336153c[0m[0m[0m
+            [32m0x1000a11c[0m      [1;92mcall[0m[37m  [0m[33m0xffffffff932b1539[0m[0m[0m
+            [32m0x1000a121[0m  ~   [1;92mcall[0m[37m  [0m[33m0x1f20158e[0m[0m[0m
+            [36m;-- ?GetTypeInfo@?$IDispatchImpl@UIVar2@@$1?IID_IVar2@@3U_GUID@@B$1?LIBID_MELBOURNE_Lib@@3U3@B$00$0A@VCComTypeInfoHolder@ATL@@@ATL@:[0m
+            [32m0x1000a122[0m      [35mpush[0m[37m  [0m[33m0xb70f1f74[0m[0m[0m
+            [32m0x1000a127[0m      [33minc[0m[37m   [0m[36mesp[0m[0m[0m
+            [32m0x1000a128[0m      [36mand[0m[37m   [0m[36mal[0m[37m, [0m[33m0x04[0m[0m[0m
+            [32m0x1000a12a[0m      [35mpush[0m[37m  [0m[36mesi[0m[0m[0m
+            [32m0x1000a12b[0m      [35mpush[0m[37m  [0m[36meax[0m[0m[0m
+            [32m0x1000a12c[0m      [37mmov[0m[37m   [0m[36mesi[0m[37m, [0m[33m0x100386f0[0m[0m[0m
+            [32m0x1000a131[0m      [35mpush[0m[37m  [0m[33mstr.0x_x[0m[0m[31m                             ; 0x1003248c[31m ; "0x%x"[0m
+            [32m0x1000a136[0m      [35mpush[0m[37m  [0m[36mesi[0m[0m[0m
+            [32m0x1000a137[0m      [32mcall[0m[37m  [0m[37mdword[0m[37m [[0m[33msym.imp.USER32.dll_wsprintfA[0m[37m][0m[0m[31m ; 0x1002d258[31m ; "V\U00000004\U00000003"[0m[31m ; int wsprintfA(LPSTR ARG_0, LPCSTR ARG_1, unknown_t ...)[0m
+            [32m0x1000a13d[0m      [33madd[0m[37m   [0m[36mesp[0m[37m, [0m[33m0x0c[0m[0m[0m
+            [32m0x1000a140[0m      [37mmov[0m[37m   [0m[36meax[0m[37m, [0m[36mesi[0m[0m[0m
+            [32m0x1000a142[0m      [1;95mpop[0m[37m   [0m[36mesi[0m[0m[0m
+            [36m;-- public: long int __thiscall ATL::CComTypeInfoHolder::GetTI(unsigned long int, struct ITypeInfo * *):[0m
+            [32m0x1000a143[0m      [31mret[0m[0m                                        [37m; public: long int __thiscall ATL::CComTypeInfoHolder::GetTI(unsigned long int, struct ITypeInfo * *)[0m
+            [32m0x1000a144[0m      [37mmov[0m[37m   [0m[36meax[0m[37m, [0m[33mstr.Good[0m[0m[31m                        ; 0x10032480[31m ; "Good      "[0m
+            [32m0x1000a149[0m      [31mret[0m[0m
+            [32m0x1000a14a[0m      [37mmov[0m[37m   [0m[36meax[0m[37m, [0m[33mstr.SubNormal[0m[0m[31m                   ; 0x10032474[31m ; "SubNormal "[0m
+            [32m0x1000a14f[0m      [31mret[0m[0m
+            [32m0x1000a150[0m      [37mmov[0m[37m   [0m[36meax[0m[37m, [0m[33mstr.Uncertain[0m[0m[31m                   ; 0x10032468[31m ; "Uncertain "[0m
+            [32m0x1000a155[0m      [31mret[0m[0m
+            [32m0x1000a156[0m      [37mmov[0m[37m   [0m[36meax[0m[37m, [0m[33mstr.Wait4Data[0m[0m[31m                   ; 0x1003245c[31m ; "Wait4Data "[0m
+            [32m0x1000a15b[0m      [31mret[0m[0m
+            [32m0x1000a15c[0m      [37mmov[0m[37m   [0m[36mecx[0m[37m, [0m[37mdword[0m[37m [[0m[36mesp[0m[37m+[0m[33m0x04[0m[37m][0m[0m[0m
+            [32m0x1000a160[0m      [37mmov[0m[37m   [0m[36meax[0m[37m, [0m[33m0x3e4[0m[0m[31m                           ; 996[0m
+            [32m0x1000a165[0m      [36mcmp[0m[37m   [0m[36mecx[0m[37m, [0m[36meax[0m[0m[0m
+            [32m0x1000a167[0m      [32mjnbe[0m[37m  [0m[33m0x1000a1b2[0m[0m[0m
+            [32m0x1000a169[0m      [32mjz[0m[37m    [0m[33m0x1000a1ac[0m[0m[0m
+            [32m0x1000a16b[0m      [37mmov[0m[37m   [0m[36meax[0m[37m, [0m[36mecx[0m[0m[0m
+            [32m0x1000a16d[0m      [33mdec[0m[37m   [0m[36meax[0m[0m[0m
+            [32m0x1000a16e[0m      [33mdec[0m[37m   [0m[36meax[0m[0m[0m
+            [32m0x1000a16f[0m      [32mjz[0m[37m    [0m[33m0x1000a1a6[0m[0m[0m
+            [32m0x1000a171[0m  ~   [33msub[0m[37m   [0m[36meax[0m[37m, [0m[33m0x111[0m[0m[31m                           ; 273[0m
+            [36m;-- public: long int __thiscall ATL::CComTypeInfoHolder::GetTI(unsigned long int):[0m
+            [32m0x1000a172[0m      [33madc[0m[37m   [0m[37mdword[0m[37m [[0m[36mecx[0m[37m], [0m[36meax[0m[0m[0m                     [37m; public: long int __thiscall ATL::CComTypeInfoHolder::GetTI(unsigned long int)[0m
+            [32m0x1000a174[0m      [33madd[0m[37m   [0m[37mbyte[0m[37m [[0m[36meax[0m[37m], [0m[36mal[0m[0m[0m
+            [32m0x1000a176[0m      [32mjz[0m[37m    [0m[33m0x1000a1a0[0m[0m[0m

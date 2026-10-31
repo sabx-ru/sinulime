@@ -1,0 +1,284 @@
+WARNING: config-hold: failed to get 'esil.nonull'
+┌ sym.public:_class_CResult_____thiscall_CXVariant::Append_struct_tagVARIANT(const char *arg_8h, int32_t arg_ah, int32_t arg_ch, int32_t arg_10h, int32_t arg_14h, int32_t arg_18h, int32_t arg_1ch, int32_t arg_20h, int32_t arg_24h);
+│           ; var int32_t var_d0h @ stack - 0xd0
+│           ; var int32_t var_c0h @ stack - 0xc0
+│           ; var int32_t var_b8h @ stack - 0xb8
+│           ; var int32_t var_b0h @ stack - 0xb0
+│           ; var int32_t var_a8h @ stack - 0xa8
+│           ; var int32_t var_6ch @ stack - 0x6c
+│           ; var int32_t var_64h @ stack - 0x64
+│           ; var int32_t var_54h @ stack - 0x54
+│           ; var int32_t var_50h @ stack - 0x50
+│           ; var int32_t var_4ch @ stack - 0x4c
+│           ; var int32_t var_48h @ stack - 0x48
+│           ; var int32_t var_44h @ stack - 0x44
+│           ; var int32_t var_40h @ stack - 0x40
+│           ; var int32_t var_3ch @ stack - 0x3c
+│           ; var SAFEARRAY *psa @ stack - 0x38
+│           ; var unknown_t *var_34h @ stack - 0x34
+│           ; var int32_t var_30h @ stack - 0x30
+│           ; var int32_t var_28h @ stack - 0x28
+│           ; var int32_t var_24h @ stack - 0x24
+│           ; var int32_t var_20h @ stack - 0x20
+│           ; var int32_t var_1ch @ stack - 0x1c
+│           ; var int32_t var_18h @ stack - 0x18
+│           ; var int32_t var_14h @ stack - 0x14
+│           ; var unknown_t *pvargDest @ stack - 0x10
+│           ; var unknown_t *var_ch @ stack - 0xc
+│           ; var int32_t var_4h @ stack - 0x4
+│           ; arg const char *arg_8h @ stack + 0x8
+│           ; arg int32_t arg_ah @ stack + 0xa
+│           ; arg int32_t arg_ch @ stack + 0xc
+│           ; arg int32_t arg_10h @ stack + 0x10
+│           ; arg int32_t arg_14h @ stack + 0x14
+│           ; arg int32_t arg_18h @ stack + 0x18
+│           ; arg int32_t arg_1ch @ stack + 0x1c
+│           ; arg int32_t arg_20h @ stack + 0x20
+│           ; arg int32_t arg_24h @ stack + 0x24
+│           0x10013a1e      add   eax, dword [ebx-0x7f74ef3c]          ; public: class CResult * __thiscall CXVariant::Append(struct tagVARIANT &)
+│           0x10013a24      mov   byte [eax], al
+│           0x10013a26      add   byte [eax], al
+│           0x10013a28      cmp   eax, data.1002d470                   ; 0x1002d470
+│       ┌─< 0x10013a2d      jnz   0x100141e9
+│       │   0x10013a33      cmp   dword [ebx+0x10], edi
+│      ┌──< 0x10013a36      jz    0x10013d86
+│      ││   0x10013a3c      test  byte [arg_ah], 0x04
+│     ┌───< 0x10013a40      jnz   0x10013c23
+│     │││   0x10013a46      call  fcn.100017f3
+│     │││   0x10013a4b      cmp   dword [eax], 0x02
+│    ┌────< 0x10013a4e      jz    0x10013a54
+│    ││││   0x10013a50      xor   eax, eax
+│   ┌─────< 0x10013a52      jmp   0x10013a59
+│   │└────> 0x10013a54      mov   eax, dword [eax+0x0c]
+│   │ │││   0x10013a57      mov   eax, dword [eax]
+│   │ │││   ; CODE XREF from sym.public:_class_CResult_____thiscall_CXVariant::Append_struct_tagVARIANT @ 0x10013a52
+│   └─────> 0x10013a59      test  al, 0x01                             ; 1
+│    ┌────< 0x10013a5b      jz    0x10013b6e
+│    ││││   0x10013a61      mov   eax, dword [arg_10h]
+│    ││││   0x10013a64      and   dword [arg_24h], 0x00
+│    ││││   0x10013a68      mov   eax, dword [eax+0x08]
+│    ││││   0x10013a6b      cmp   dword [eax+0x10], 0x00
+│   ┌─────< 0x10013a6f      jle   0x10013b6e
+│   │││││   0x10013a75      lea   ecx, dword [var_30h]
+│   │││││   0x10013a78      lea   edx, dword [var_28h]
+│   │││││   0x10013a7b      neg   ecx
+│   │││││   0x10013a7d      sbb   ecx, ecx
+│   │││││   0x10013a7f      mov   esi, dword [sym.imp.OLEAUT32.dll_SafeArrayPutElement] ; [0x1002d1e0:4]=0x80000019
+│   │││││   0x10013a85      and   ecx, edx
+│   │││││   0x10013a87      lea   edx, dword [var_28h]
+│   │││││   0x10013a8a      mov   dword [arg_14h], ecx
+│   │││││   0x10013a8d      lea   ecx, dword [var_30h]
+│   │││││   0x10013a90      neg   ecx
+│   │││││   0x10013a92      sbb   ecx, ecx
+│   │││││   0x10013a94      mov   edi, data.1002d3c8                   ; 0x1002d3c8
+│   │││││   0x10013a99      and   ecx, edx
+│   │││││   0x10013a9b      mov   dword [pvargDest], ecx
+│  ┌──────> 0x10013a9e      push  dword [arg_14h]
+│  ╎│││││   0x10013aa1      and   word [var_28h], 0x00
+│  ╎│││││   0x10013aa6      and   dword [var_20h], 0x00
+│  ╎│││││   0x10013aaa      lea   ecx, dword [arg_24h]
+│  ╎│││││   0x10013aad      push  ecx
+│  ╎│││││   0x10013aae      push  eax
+│  ╎│││││   0x10013aaf      mov   dword [var_30h], edi
+│  ╎│││││   0x10013ab2      call  esi
+│  ╎│││││   0x10013ab4      lea   eax, dword [var_ch]
+│  ╎│││││   0x10013ab7      push  eax
+│  ╎│││││   0x10013ab8      lea   eax, dword [arg_24h]
+│  ╎│││││   0x10013abb      push  eax
+│  ╎│││││   0x10013abc      mov   eax, dword [arg_18h]
+│  ╎│││││   0x10013abf      push  dword [eax+0x08]
+│  ╎│││││   0x10013ac2      call  esi
+│  ╎│││││   0x10013ac4      lea   eax, dword [arg_20h]
+│  ╎│││││   0x10013ac7      push  eax
+│  ╎│││││   0x10013ac8      lea   eax, dword [arg_24h]
+│  ╎│││││   0x10013acb      push  eax
+│  ╎│││││   0x10013acc      mov   eax, dword [arg_1ch]
+│  ╎│││││   0x10013acf      push  dword [eax+0x08]
+│  ╎│││││   0x10013ad2      call  esi
+│  ╎│││││   0x10013ad4      call  fcn.100017f3
+│  ╎│││││   0x10013ad9      cmp   dword [eax], 0x02
+│ ┌───────< 0x10013adc      jz    0x10013ae2
+│ │╎│││││   0x10013ade      xor   eax, eax
+│ │╎│││││   0x10013ae0      jmp   0x10013ae7
+│ └───────> 0x10013ae2      mov   eax, dword [eax+0x0c]
+│  ╎│││││   0x10013ae5      mov   eax, dword [eax]
+│  ╎│││││   ; CODE XREF from sym.public:_class_CResult_____thiscall_CXVariant::Append_struct_tagVARIANT @ 0x10013ae0
+│  ╎│││││   0x10013ae7      test  al, 0x01                             ; 1
+│ ┌───────< 0x10013ae9      jz    0x10013b45
+│ │╎│││││   0x10013aeb      lea   eax, dword [var_18h]
+│ │╎│││││   0x10013aee      push  0x00                                 ; BSTR *arg_4h
+│ │╎│││││   0x10013af0      push  eax                                  ; unknown_t arg_8h
+│ │╎│││││   0x10013af1      lea   ecx, dword [var_30h]
+│ │╎│││││   0x10013af4      call  fcn.10006e25
+│ │╎│││││   0x10013af9      mov   ecx, dword [arg_24h]
+│ │╎│││││   0x10013afc      mov   edx, dword [arg_ch]
+│ │╎│││││   0x10013aff      mov   eax, dword [eax]
+│ │╎│││││   0x10013b01      mov   dword [arg_8h], data.10038488        ; 0x10038488
+│ │╎│││││   0x10013b08      mov   ecx, dword [edx+ecx*4]
+│ │╎│││││   0x10013b0b      mov   ecx, dword [ecx+0x20]
+│ │╎│││││   0x10013b0e      test  ecx, ecx
+│ │╎│││││   0x10013b10      jz    0x10013b15
+│ │╎│││││   0x10013b12      mov   dword [arg_8h], ecx
+│ │╎│││││   0x10013b15      push  eax                                  ; unknown_t arg_8h
+│ │╎│││││   0x10013b16      push  dword [arg_20h]                      ; int32_t arg_4h
+│ │╎│││││   0x10013b19      call  fcn.1000a0d4
+│ │╎│││││   0x10013b1e      pop   ecx
+│0
+
+... [OUTPUT TRUNCATED - 261,886 chars omitted out of 311,811 total] ...
+
+x10014b22
+│ │││││││   0x10014b1d      mov   eax, dword [eax+0x0c]
+│ │││││││   0x10014b20      mov   eax, dword [eax]
+│ │││││││   ; CODE XREF from sym.public:_class_CResult_____thiscall_CXVariant::Append_struct_tagVARIANT @ 0x10014b1b
+│ │││││││   0x10014b22      test  al, 0x01                             ; 1
+│ │││││││   0x10014b24      jz    0x10014b50                           ; sym.public:_unsigned_short_int___thiscall_CDdeAction::GetVarType_void+0x503
+│ │││││││   0x10014b26      mov   eax, dword [var_4h]
+│ │││││││   0x10014b29      test  eax, eax
+│ │││││││   0x10014b2b      jz    0x10014b35
+│ │││││││   0x10014b2d      mov   eax, dword [eax+0x28]
+│ │││││││   0x10014b30      mov   esi, dword [eax+0x4c]
+│ │││││││   0x10014b33      jmp   0x10014b38
+│ │││││││   0x10014b35      push  0x63                                 ; 'c' ; 99
+│ │││││││   0x10014b37      pop   esi
+│ │││││││   ; CODE XREF from sym.public:_class_CResult_____thiscall_CXVariant::Append_struct_tagVARIANT @ 0x10014b33
+│ │││││││   0x10014b38      call  fcn.1000a04b
+│ │││││││   0x10014b3d      push  eax
+│ │││││││   0x10014b3e      push  edi
+│ │││││││   0x10014b3f      push  ebx
+│ │││││││   0x10014b40      push  dword [ebx]
+│ │││││││   0x10014b42      push  esi
+│ │││││││   0x10014b43      push  str.d_IMCCommand:0x_x_ReqId:0x_x_Dual__OnCommandCompleted__returned_HRESULT:0x_x__s ; 0x10034210 ; "%d IMCCommand:0x%x ReqId:0x%x Dual \"OnCommandCompleted\" returned HRESULT:0x%x %s"
+│ │││││││   ; XREFS: CODE 0x10013c1e  CODE 0x10013d81  CODE 0x10013ff4
+│ │││││││   ; XREFS: CODE 0x100141d5  CODE 0x10014416  CODE 0x10014557
+│ │││││││   ; XREFS: CODE 0x100147ec  CODE 0x1001499b  CODE 0x10014c9b
+..
+│ │ ╎ │││   ; CODE XREF from sym.public:_unsigned_short_int___thiscall_CDdeAction::GetVarType_void @ 0x10013f27
+│ │ ╎││││   0x10014b6b      mov   eax, dword [ebx+0x14]
+│ │ ╎││││   0x10014b6e      test  eax, eax
+│ │┌──────< 0x10014b70      jz    0x10014ca4
+│ ││╎││││   0x10014b76      mov   edx, dword [arg_18h]
+│ ││╎││││   0x10014b79      push  0x03                                 ; 3
+│ ││╎││││   0x10014b7b      mov   dword [var_a8h], edx
+│ ││╎││││   0x10014b81      mov   edx, dword [arg_1ch]
+│ ││╎││││   0x10014b84      pop   ecx
+│ ││╎││││   0x10014b85      lea   edi, dword [var_d0h]
+│ ││╎││││   0x10014b8b      mov   word [var_b0h], cx
+│ ││╎││││   0x10014b92      mov   word [var_c0h], cx
+│ ││╎││││   0x10014b99      mov   dword [var_b8h], edx
+│ ││╎││││   0x10014b9f      lea   edx, dword [var_d0h]
+│ ││╎││││   0x10014ba5      movsd
+│ ││╎││││   0x10014ba6      movsd
+│ ││╎││││   0x10014ba7      movsd
+│ ││╎││││   0x10014ba8      and   dword [var_24h], 0x00
+│ ││╎││││   0x10014bac      and   dword [var_1ch], 0x00
+│ ││╎││││   0x10014bb0      movsd
+│ ││╎││││   0x10014bb1      mov   dword [var_28h], edx
+│ ││╎││││   0x10014bb4      lea   edx, dword [arg_24h]
+│ ││╎││││   0x10014bb7      mov   edi, 0x800                           ; 2048
+│ ││╎││││   0x10014bbc      push  edx
+│ ││╎││││   0x10014bbd      push  edi
+│ ││╎││││   0x10014bbe      lea   edx, dword [arg_8h]
+│ ││╎││││   0x10014bc1      push  0x01                                 ; 1
+│ ││╎││││   0x10014bc3      mov   esi, data.1002e6d8                   ; 0x1002e6d8
+│ ││╎││││   0x10014bc8      mov   dword [var_20h], ecx
+│ ││╎││││   0x10014bcb      mov   ecx, dword [eax]
+│ ││╎││││   0x10014bcd      push  edx
+│ ││╎││││   0x10014bce      push  esi
+│ ││╎││││   0x10014bcf      push  eax
+│ ││╎││││   0x10014bd0      call  dword [ecx+0x14]                     ; 20
+│ ││╎││││   0x10014bd3      test  eax, eax
+│ ││╎││││   0x10014bd5      jl    0x10013f21                           ; sym.public:_unsigned_short_int___thiscall_CDdeAction::GetVarType_void-0x72c
+│ ││╎││││   0x10014bdb      lea   ecx, dword [ebx+0x08]
+│ ││╎││││   0x10014bde      call  fcn.10007c65
+│ ││╎││││   0x10014be3      test  eax, eax
+│ ││╎││││   0x10014be5      jnz   0x10014bf1
+..
+│ ││╎││││   0x10014bf1      call  fcn.100017f3
+│ ││╎││││   0x10014bf6      cmp   dword [eax], 0x02
+│ ││╎││││   0x10014bf9      jz    0x10014bff
+│ ││╎││││   0x10014bfb      xor   eax, eax
+│ ││╎││││   0x10014bfd      jmp   0x10014c04
+│ ││╎││││   0x10014bff      mov   eax, dword [eax+0x0c]
+│ ││╎││││   0x10014c02      mov   eax, dword [eax]
+│ ││╎││││   ; CODE XREF from sym.public:_class_CResult_____thiscall_CXVariant::Append_struct_tagVARIANT @ 0x10014bfd
+│ ││╎││││   0x10014c04      test  al, 0x01                             ; 1
+│ ││╎││││   0x10014c06      jz    0x10014c43
+│ ││╎││││   0x10014c08      mov   eax, dword [ebx+0x14]
+│ ││╎││││   0x10014c0b      mov   dword [arg_ch], eax
+│ ││╎││││   0x10014c0e      mov   eax, dword [var_4h]
+│ ││╎││││   0x10014c11      test  eax, eax
+│ ││╎││││   0x10014c13      jz    0x10014c20
+│ ││╎││││   0x10014c15      mov   eax, dword [eax+0x28]
+│ ││╎││││   0x10014c18      mov   eax, dword [eax+0x4c]
+│ ││╎││││   0x10014c1b      mov   dword [arg_18h], eax
+│ ││╎││││   0x10014c1e      jmp   0x10014c27
+│ ││╎││││   0x10014c20      mov   dword [arg_18h], 0x63                ; 'c' ; 99
+│ ││╎││││   ; CODE XREF from sym.public:_class_CResult_____thiscall_CXVariant::Append_struct_tagVARIANT @ 0x10014c1e
+│ ││╎││││   0x10014c27      call  fcn.1000a04b
+│ ││╎││││   0x10014c2c      push  eax
+│ ││╎││││   0x10014c2d      push  dword [arg_ch]
+│ ││╎││││   0x10014c30      push  ebx
+│ ││╎││││   0x10014c31      push  dword [ebx]
+│ ││╎││││   0x10014c33      push  dword [arg_18h]
+│ ││╎││││   0x10014c36      push  str.d_IMCCommand:0x_x_ReqId:0x_x_Dispatch:0x_x__OnCommandCompleted__called__s ; 0x100341c4 ; "%d IMCCommand:0x%x ReqId:0x%x Dispatch:0x%x \"OnCommandCompleted\" called %s" ; uint_least32_t arg_4h
+│ ││╎││││   0x10014c3b      call  fcn.10009ec1
+│ ││╎││││   0x10014c40      add   esp, 0x18
+│ ││╎││││   0x10014c43      xor   ecx, ecx
+│ ││╎││││   0x10014c45      mov   eax, dword [ebx+0x14]
+│ ││╎││││   0x10014c48      push  ecx
+│ ││╎││││   0x10014c49      push  ecx
+│ ││╎││││   0x10014c4a      push  ecx
+│ ││╎││││   0x10014c4b      lea   ecx, dword [var_28h]
+│ ││╎││││   0x10014c4e      mov   edx, dword [eax]
+│ ││╎││││   0x10014c50      push  ecx
+│ ││╎││││   0x10014c51      push  0x01                                 ; 1
+│ ││╎││││   0x10014c53      push  edi
+│ ││╎││││   0x10014c54      push  esi
+│ ││╎││││   0x10014c55      push  dword [arg_24h]
+│ ││╎││││   0x10014c58      push  eax
+│ ││╎││││   0x10014c59      call  dword [edx+0x18]                     ; 24
+│ ││╎││││   0x10014c5c      mov   edi, eax
+│ ││╎││││   0x10014c5e      call  fcn.100017f3
+│ ││╎││││   0x10014c63      cmp   dword [eax], 0x02
+│ ││╎││││   0x10014c66      jz    0x10014c6c
+│ ││╎││││   0x10014c68      xor   eax, eax
+│ ││╎││││   0x10014c6a      jmp   0x10014c71
+│ ││╎││││   0x10014c6c      mov   eax, dword [eax+0x0c]
+│ ││╎││││   0x10014c6f      mov   eax, dword [eax]
+│ ││╎││││   ; CODE XREF from sym.public:_class_CResult_____thiscall_CXVariant::Append_struct_tagVARIANT @ 0x10014c6a
+│ ││╎││││   0x10014c71      test  al, 0x01                             ; 1
+│ ││└─────< 0x10014c73      jz    0x10014b50                           ; sym.public:_unsigned_short_int___thiscall_CDdeAction::GetVarType_void+0x503
+│ ││ ││││   0x10014c79      mov   eax, dword [var_4h]
+│ ││ ││││   0x10014c7c      test  eax, eax
+│ ││┌─────< 0x10014c7e      jz    0x10014c88
+│ │││││││   0x10014c80      mov   eax, dword [eax+0x28]
+│ │││││││   0x10014c83      mov   esi, dword [eax+0x4c]
+│ │││││││   0x10014c86      jmp   0x10014c8b
+│ ││└─────> 0x10014c88      push  0x63                                 ; 'c' ; 99
+│ ││ ││││   0x10014c8a      pop   esi
+│ ││ ││││   ; CODE XREF from sym.public:_class_CResult_____thiscall_CXVariant::Append_struct_tagVARIANT @ 0x10014c86
+│ ││ ││││   0x10014c8b      call  fcn.1000a04b
+│ ││ ││││   0x10014c90      push  eax
+│ ││ ││││   0x10014c91      push  edi
+│ ││ ││││   0x10014c92      push  ebx
+│ ││ ││││   0x10014c93      push  dword [ebx]
+│ ││ ││││   0x10014c95      push  esi
+│ ││ ││││   0x10014c96      push  str.d_IMCCommand:0x_x_ReqId:0x_x_Dispatch__OnCommandCompleted__returned_HRESULT:0x_x__s ; 0x1003416c ; "%d IMCCommand:0x%x ReqId:0x%x Dispatch \"OnCommandCompleted\" returned HRESULT:0x%x %s"
+│ ││ ││││   0x10014c9b      jmp   0x10014b48                           ; sym.public:_unsigned_short_int___thiscall_CDdeAction::GetVarType_void+0x4fb
+..
+│ │└──────> 0x10014ca4      push  str.Callback_pointers_not_checked    ; 0x10034588 ; "Callback pointers not checked"
+│ │  ││││   0x10014ca9      push  0x8ef                                ; 2287
+│ │ ┌─────< 0x10014cae      jmp   0x10014cd2
+│ │ │││││   0x10014cb0      push  str.unexpected_DataType              ; 0x10034158 ; "unexpected DataType"
+│ │ │││││   0x10014cb5      push  0x8c8                                ; 2248
+│ │┌──────< 0x10014cba      jmp   0x10014cd2
+│ │││││││   0x10014cbc      push  str.unexpected_DataType              ; 0x10034158 ; "unexpected DataType"
+│ │││││││   0x10014cc1      push  0x8c2                                ; 2242
+│ │││││││   0x10014cc6      jmp   0x10014cd2
+│ ││││││└─> 0x10014cc8      push  str.unknown_COM_class                ; 0x10034144 ; "unknown COM class"
+│ ││││││    0x10014ccd      push  0x8f1                                ; 2289
+│ ││││││    ; CODE XREFS from sym.public:_class_CResult_____thiscall_CXVariant::Append_struct_tagVARIANT @ 0x100141e4, 0x100149aa, 0x10014cae, 0x10014cba, 0x10014cc6
+│ │└└──└──> 0x10014cd2      push  str.L:_components_server_mcvar_impl_Var2.cpp ; 0x10034118 ; "L:\components\server\mcvar\impl\Var2.cpp" ; int32_t arg_ch
+│ │  ││     0x10014cd7      call  fcn.10002cda
+└ │  ││     0x10014cdc      add   esp, 0x0c

@@ -1,0 +1,705 @@
+Operating System 
+
+Microsoft Windows XP [Version 5.1.2600]
+Date and time 
+31/10/2026 17:56:26.26 
+Host / architecture 
+PCU-1583 x86 
+COM registry 
+
+! REG.EXE VERSION 3.0
+
+HKEY_CLASSES_ROOT\MCVar.Var2
+    <NO NAME>	REG_SZ	Var2 Class
+
+HKEY_CLASSES_ROOT\MCVar.Var2\CLSID
+    <NO NAME>	REG_SZ	{8F64C6F2-C2A4-11D2-BFCA-00609792C500}
+
+HKEY_CLASSES_ROOT\MCVar.Var2\CurVer
+    <NO NAME>	REG_SZ	MCVar.Var2.1
+
+! REG.EXE VERSION 3.0
+
+HKEY_CLASSES_ROOT\MCVar.Var
+    <NO NAME>	REG_SZ	Var Class
+
+HKEY_CLASSES_ROOT\MCVar.Var\CLSID
+    <NO NAME>	REG_SZ	{8F64C6F2-C2A4-11D2-BFCA-00609792C500}
+
+HKEY_CLASSES_ROOT\MCVar.Var\CurVer
+    <NO NAME>	REG_SZ	MCVar.Var.1
+
+Error:  The system was unable to find the specified registry key or value
+Running processes 
+
+Image Name                   PID Session Name     Session#    Mem Usage Status          User Name                                              CPU Time Window Title                                                            
+========================= ====== ================ ======== ============ =============== ================================================== ============ ========================================================================
+System Idle Process            0                         0         16 K Running         N/A                                                     5:04:41 N/A                                                                     
+System                         4                         0        212 K Running         N/A                                                     0:00:41 N/A                                                                     
+smss.exe                     604                         0        372 K Running         NT AUTHORITY\SYSTEM                                     0:00:00 N/A                                                                     
+csrss.exe                    656                         0      1,288 K Running         NT AUTHORITY\SYSTEM                                     0:00:03 N/A                                                                     
+winlogon.exe                 680                         0      3,984 K Running         NT AUTHORITY\SYSTEM                                     0:00:00 N/A                                                                     
+services.exe                 724                         0      4,044 K Running         NT AUTHORITY\SYSTEM                                     0:00:02 N/A                                                                     
+lsass.exe                    736                         0      6,256 K Running         NT AUTHORITY\SYSTEM                                     0:00:00 N/A                                                                     
+svchost.exe                  896                         0      3,376 K Running         NT AUTHORITY\SYSTEM                                     0:00:00 N/A                                                                     
+svchost.exe                  952                         0      4,204 K Running         N/A                                                     0:00:00 N/A                                                                     
+svchost.exe                 1072                         0     13,324 K Running         NT AUTHORITY\SYSTEM                                     0:00:00 N/A                                                                     
+Srvany.exe                  1116                         0      1,312 K Running         NT AUTHORITY\SYSTEM                                     0:00:00 N/A                                                                     
+svchost.exe                 1180                         0      2,860 K Running         N/A                                                     0:00:00 N/A                                                                     
+svchost.exe                 1264                         0      3,108 K Running         N/A                                                     0:00:00 N/A                                                                     
+spoolsv.exe                 1312                         0      4,544 K Running         NT AUTHORITY\SYSTEM                                     0:00:00 N/A                                                                     
+HMIMan.exe                  1520                         0      4,284 K Running         PCU-1583\auduser                                        0:00:00 HMI Manager                                                             
+nfsclnt.exe                 1604                         0      2,360 K Running         NT AUTHORITY\SYSTEM                                     0:00:00 N/A                                                                     
+win_betaftpd.exe            1756                         0      1,728 K Running         NT AUTHORITY\SYSTEM                                     0:00:00 N/A                                                                     
+win_netkit_tftpd.exe        1772                         0      1,700 K Running         NT AUTHORITY\SYSTEM                                     0:00:00 N/A                                                                     
+tcu_hws.exe                 1828                         0      2,376 K Running         NT AUTHORITY\SYSTEM                                     0:00:00 N/A                                                                     
+cygrunsrv.exe               1956                         0      4,800 K Running         N/A                                                     0:00:00 N/A                                                                     
+pcuhwsvc.exe                 232                         0      4,700 K Running         NT AUTHORITY\SYSTEM                                     0:00:01 IVar Main Window                                                        
+s7asysvx.exe                 284                         0      2,092 K Running         NT AUTHORITY\SYSTEM                                     0:00:00 N/A                                                                     
+sshd.exe                     384                         0      6,392 K Running         PCU-1583\sshd_server                                    0:00:00 N/A                                                                     
+s7oiehsx.exe                 516                         0      5,148 K Running         NT AUTHORITY\SYSTEM                                     0:00:00 N/A                                                                     
+S7TraceServiceX.exe          560                         0     16,704 K Running         NT AUTHORITY\SYSTEM                                     0:00:00 N/A                                                                     
+svchost.exe                  640                         0      4,108 K Running         NT AUTHORITY\SYSTEM                                     0:00:00 N/A                                                                     
+TeamViewer_Service.exe       304                         0      9,856 K Running         NT AUTHORITY\SYSTEM                                     0:00:00 N/A                                                                     
+winvnc.exe                  1016                         0     10,820 K Running         NT AUTHORITY\SYSTEM                                     0:00:12 WinVNC                                                                  
+almsrvx.exe                 1060                         0      9,988 K Running         NT AUTHORITY\SYSTEM                                     0:00:00 N/A                                                                     
+alg.exe                     1792                         0      3,420 K Running         N/A                                                     0:00:00 N/A                                                                     
+TeamViewer.exe               412                         0     21,140 K Running         PCU-1583\auduser                                        0:00:00 N/A                                                                     
+explorer.exe                 404                         0     10,772 K Running         PCU-1583\auduser                                        0:00:10 N/A                                                                     
+mounttcus.exe               1008                         0      2,056 K Running         PCU-1583\auduser                                        0:00:00 TCU - USB mount tool                                                    
+S7ubTstx.exe                2036                         0      3,084 K Running         PCU-1583\auduser                                        0:00:00 S7ubTskb                                                                
+ctfmon.exe                  2064                         0      2,876 K Running         PCU-1583\auduser                                        0:00:00 N/A                                                                     
+MtsTsMon.exe                2104                         0      3,108 K Running         PCU-1583\auduser                                        0:00:00 MTSTouchMon                                                             
+dbsrv7.exe                  2664                         0      5,356 K Running         PCU-1583\auduser                                        0:00:00 pcu_1583_n                                                              
+igfxsrvc.exe                3132                         0      2,640 K Running         PCU-1583\auduser                                        0:00:00 OleMainThreadWndName                                                    
+cmd.exe                     2196                         0      1,108 K Running         PCU-1583\auduser                                        0:00:00 E:\WINDOWS\system32\cmd.exe - RUN_ALL.cmd                               
+rundll32.exe                3636                         0      2,676 K Running         PCU-1583\auduser                                        0:00:00 N/A                                                                     
+rngkrnl.exe                 3712                         0      8,832 K Running         PCU-1583\auduser                                        0:00:00  MMC 101/102 Regie                                                      
+TRIPRE~1.EXE                2444                         0      4,740 K Running         PCU-1583\auduser                                        0:00:00 TripRecCom                                                              
+ncdde.exe                   3308                         0     16,700 K Running         PCU-1583\auduser                                        0:00:06 NCDDE_HibernateWindow                                                   
+Lngtol32.exe                1528                         0      3,972 K Running         PCU-1583\auduser                                        0:00:00 Language Tool                                                           
+DcKrnl.exe                   292                         0      5,908 K Running         PCU-1583\auduser                                        0:00:00 N/A                                                                     
+accvar.exe                   912                         0     10,216 K Running         PCU-1583\auduser                                        0:00:00 AccVar                                                                  
+MMCEnv.exe                  1940                         0      8,812 K Running         PCU-1583\auduser                                        0:00:00 MMCEnv                                                                  
+dhserver.exe                3776                         0      7,932 K Running         PCU-1583\auduser                                        0:00:00 N/A                                                                     
+TCUUSB~1.EXE                2976                         0      4,836 K Running         PCU-1583\auduser                                        0:00:00 TCUUSBautomounter                                                       
+mbdde.exe                   4032                         0      9,440 K Running         PCU-1583\auduser                                        0:00:00 N/A                                                                     
+header.exe                  2740                         0     12,188 K Running         PCU-1583\auduser                                        0:00:00 Header                                                                  
+ARServer.exe                3292                         0      4,580 K Running         PCU-1583\auduser                                        0:00:00 N/A                                                                     
+EventSvr.exe                3652                         0      5,556 K Running         PCU-1583\auduser                                        0:00:00 N/A                                                                     
+chanmenu.exe                2912                         0      8,472 K Running         PCU-1583\auduser                                        0:00:00 ChanMenu                                                                
+reg_dsp.exe                 1880                         0      8,384 K Running         PCU-1583\auduser                                        0:00:00 REG_DSP                                                                 
+Loader32.exe                3172                         0      1,940 K Running         PCU-1583\auduser                                        0:00:00 Loader32                                                                
+ITS.exe                     3492                         0      6,520 K Running         PCU-1583\auduser                                        0:00:00 ITS                                                                     
+HMIVers.exe                 2296                         0      9,208 K Running         PCU-1583\auduser                                        0:00:00 HMIVersion                                                              
+TripCB.exe                   976                         0      6,036 K Running         PCU-1583\auduser                                        0:00:00 N/A                                                                     
+TripRec.exe                  400                         0      5,928 K Running         PCU-1583\auduser                                        0:00:00 N/A                                                                     
+param.exe                   3624                         0     11,128 K Running         PCU-1583\auduser                                        0:00:00 PARAM                                                                   
+dpdh.exe                    2236                         0     12,316 K Running         PCU-1583\auduser                                        0:00:00 DPDH                                                                    
+dino.exe                    2256                         0     12,612 K Running         PCU-1583\auduser                                        0:00:00 DINO                                                                    
+Dg.exe                      2316                         0     15,304 K Running         PCU-1583\auduser                                        0:00:00 DG                                                                      
+maschine.exe                2432                         0     16,552 K Running         PCU-1583\auduser                                        0:00:00 MACHINE                                                                 
+tasklist.exe                2364                         0      4,696 K Running         PCU-1583\auduser                                        0:00:00 OleMainThreadWndName                                                    
+wmiprvse.exe                2180                         0      5,568 K Running         N/A                                                     0:00:00 N/A                                                                     
+Process module membership 
+
+Image Name                   PID Modules                                      
+========================= ====== =============================================
+pcuhwsvc.exe                 232 MCVar.dll                                    
+MMCEnv.exe                  1940 MCVar.dll                                    
+ITS.exe                     3492 MCVar.dll                                    
+HMIVers.exe                 2296 MCVar.dll                                    
+dpdh.exe                    2236 MCVar.dll                                    
+dino.exe                    2256 MCVar.dll                                    
+Dg.exe                      2316 MCVar.dll                                    
+maschine.exe                2432 MCVar.dll                                    
+Services 
+
+SERVICE_NAME: ALG
+DISPLAY_NAME: Application Layer Gateway Service
+        TYPE               : 10  WIN32_OWN_PROCESS 
+        STATE              : 4  RUNNING 
+                                (STOPPABLE,NOT_PAUSABLE,IGNORES_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0	(0x0)
+        SERVICE_EXIT_CODE  : 0	(0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: almservice
+DISPLAY_NAME: Automation License Manager Service
+        TYPE               : 10  WIN32_OWN_PROCESS 
+        STATE              : 4  RUNNING 
+                                (STOPPABLE,NOT_PAUSABLE,IGNORES_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0	(0x0)
+        SERVICE_EXIT_CODE  : 0	(0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: AudioSrv
+DISPLAY_NAME: Windows Audio
+        TYPE               : 20  WIN32_SHARE_PROCESS 
+        STATE              : 4  RUNNING 
+                                (STOPPABLE,NOT_PAUSABLE,IGNORES_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0	(0x0)
+        SERVICE_EXIT_CODE  : 0	(0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: Client for NFS
+DISPLAY_NAME: Client for NFS
+        TYPE               : 110  WIN32_OWN_PROCESS (interactive)
+        STATE              : 4  RUNNING 
+                                (STOPPABLE,NOT_PAUSABLE,IGNORES_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0	(0x0)
+        SERVICE_EXIT_CODE  : 0	(0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: CryptSvc
+DISPLAY_NAME: Cryptographic Services
+        TYPE               : 20  WIN32_SHARE_PROCESS 
+        STATE              : 4  RUNNING 
+                                (STOPPABLE,NOT_PAUSABLE,ACCEPTS_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0	(0x0)
+        SERVICE_EXIT_CODE  : 0	(0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: DcomLaunch
+DISPLAY_NAME: DCOM Server Process Launcher
+        TYPE               : 20  WIN32_SHARE_PROCESS 
+        STATE              : 4  RUNNING 
+                                (NOT_STOPPABLE,NOT_PAUSABLE,IGNORES_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0	(0x0)
+        SERVICE_EXIT_CODE  : 0	(0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: Dhcp
+DISPLAY_NAME: DHCP Client
+        TYPE               : 20  WIN32_SHARE_PROCESS 
+        STATE              : 4  RUNNING 
+                                (STOPPABLE,NOT_PAUSABLE,ACCEPTS_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0	(0x0)
+        SERVICE_EXIT_CODE  : 0	(0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: dmserver
+DISPLAY_NAME: Logical Disk Manager
+        TYPE               : 20  WIN32_SHARE_PROCESS 
+        STATE              : 4  RUNNING 
+                                (STOPPABLE,NOT_PAUSABLE,IGNORES_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0	(0x0)
+        SERVICE_EXIT_CODE  : 0	(0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: Dnscache
+DISPLAY_NAME: DNS Client
+        TYPE               : 20  WIN32_SHARE_PROCESS 
+        STATE              : 4  RUNNING 
+                                (STOPPABLE,NOT_PAUSABLE,IGNORES_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0	(0x0)
+        SERVICE_EXIT_CODE  : 0	(0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: Eventlog
+DISPLAY_NAME: Event Log
+        TYPE               : 20  WIN32_SHARE_PROCESS 
+        STATE              : 4  RUNNING 
+                                (NOT_STOPPABLE,NOT_PAUSABLE,ACCEPTS_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0	(0x0)
+        SERVICE_EXIT_CODE  : 0	(0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: EventSystem
+DISPLAY_NAME: COM+ Event System
+        TYPE               : 20  WIN32_SHARE_PROCESS 
+        STATE              : 4  RUNNING 
+                                (STOPPABLE,NOT_PAUSABLE,IGNORES_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0	(0x0)
+        SERVICE_EXIT_CODE  : 0	(0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: helpsvc
+DISPLAY_NAME: Help and Support
+        TYPE               : 20  WIN32_SHARE_PROCESS 
+        STATE              : 4  RUNNING 
+                                (STOPPABLE,NOT_PAUSABLE,IGNORES_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0	(0x0)
+        SERVICE_EXIT_CODE  : 0	(0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: HidServ
+DISPLAY_NAME: HID Input Service
+        TYPE               : 20  WIN32_SHARE_PROCESS 
+        STATE              : 4  RUNNING 
+                                (STOPPABLE,NOT_PAUSABLE,ACCEPTS_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0	(0x0)
+        SERVICE_EXIT_CODE  : 0	(0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: hmisvr_PCU_betaftpd
+DISPLAY_NAME: hmisvr_PCU_betaftpd
+        TYPE               : 10  WIN32_OWN_PROCESS 
+        STATE              : 4  RUNNING 
+                                (STOPPABLE,PAUSABLE,IGNORES_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0	(0x0)
+        SERVICE_EXIT_CODE  : 0	(0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: hmisvr_PCU_netkit-tftpd
+DISPLAY_NAME: hmisvr_PCU_netkit-tftpd
+        TYPE               : 10  WIN32_OWN_PROCESS 
+        STATE              : 4  RUNNING 
+                                (STOPPABLE,PAUSABLE,IGNORES_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0	(0x0)
+        SERVICE_EXIT_CODE  : 0	(0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: hmisvr_TCU_hardware_services
+DISPLAY_NAME: hmisvr_TCU_hardware_services
+        TYPE               : 10  WIN32_OWN_PROCESS 
+        STATE              : 4  RUNNING 
+                                (STOPPABLE,PAUSABLE,IGNORES_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0	(0x0)
+        SERVICE_EXIT_CODE  : 0	(0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: lanmanserver
+DISPLAY_NAME: Server
+        TYPE               : 20  WIN32_SHARE_PROCESS 
+        STATE              : 4  RUNNING 
+                                (STOPPABLE,PAUSABLE,ACCEPTS_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0	(0x0)
+        SERVICE_EXIT_CODE  : 0	(0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: lanmanworkstation
+DISPLAY_NAME: Workstation
+        TYPE               : 20  WIN32_SHARE_PROCESS 
+        STATE              : 4  RUNNING 
+                                (STOPPABLE,PAUSABLE,ACCEPTS_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0	(0x0)
+        SERVICE_EXIT_CODE  : 0	(0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: LmHosts
+DISPLAY_NAME: TCP/IP NetBIOS Helper
+        TYPE               : 20  WIN32_SHARE_PROCESS 
+        STATE              : 4  RUNNING 
+                                (STOPPABLE,NOT_PAUSABLE,IGNORES_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0	(0x0)
+        SERVICE_EXIT_CODE  : 0	(0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: Netman
+DISPLAY_NAME: Network Connections
+        TYPE               : 120  WIN32_SHARE_PROCESS (interactive)
+        STATE              : 4  RUNNING 
+                                (STOPPABLE,NOT_PAUSABLE,IGNORES_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0	(0x0)
+        SERVICE_EXIT_CODE  : 0	(0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: OpenSSHd
+DISPLAY_NAME: OpenSSH Server
+        TYPE               : 10  WIN32_OWN_PROCESS 
+        STATE              : 4  RUNNING 
+                                (STOPPABLE,NOT_PAUSABLE,IGNORES_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0	(0x0)
+        SERVICE_EXIT_CODE  : 0	(0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: PCUHardwareService
+DISPLAY_NAME: PCU Hardware Service
+        TYPE               : 110  WIN32_OWN_PROCESS (interactive)
+        STATE              : 4  RUNNING 
+                                (STOPPABLE,NOT_PAUSABLE,IGNORES_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0	(0x0)
+        SERVICE_EXIT_CODE  : 0	(0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: PlugPlay
+DISPLAY_NAME: Plug and Play
+        TYPE               : 20  WIN32_SHARE_PROCESS 
+        STATE              : 4  RUNNING 
+                                (NOT_STOPPABLE,NOT_PAUSABLE,ACCEPTS_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0	(0x0)
+        SERVICE_EXIT_CODE  : 0	(0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: PolicyAgent
+DISPLAY_NAME: IPSEC Services
+        TYPE               : 20  WIN32_SHARE_PROCESS 
+        STATE              : 4  RUNNING 
+                                (STOPPABLE,NOT_PAUSABLE,ACCEPTS_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0	(0x0)
+        SERVICE_EXIT_CODE  : 0	(0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: ProtectedStorage
+DISPLAY_NAME: Protected Storage
+        TYPE               : 120  WIN32_SHARE_PROCESS (interactive)
+        STATE              : 4  RUNNING 
+                                (STOPPABLE,NOT_PAUSABLE,IGNORES_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0	(0x0)
+        SERVICE_EXIT_CODE  : 0	(0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: ReScanDev
+DISPLAY_NAME: ReScanDev
+        TYPE               : 110  WIN32_OWN_PROCESS (interactive)
+        STATE              : 4  RUNNING 
+                                (STOPPABLE,PAUSABLE,ACCEPTS_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0	(0x0)
+        SERVICE_EXIT_CODE  : 0	(0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: RpcSs
+DISPLAY_NAME: Remote Procedure Call (RPC)
+        TYPE               : 20  WIN32_SHARE_PROCESS 
+        STATE              : 4  RUNNING 
+                                (NOT_STOPPABLE,NOT_PAUSABLE,IGNORES_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0	(0x0)
+        SERVICE_EXIT_CODE  : 0	(0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: s7asysvx
+DISPLAY_NAME: S7 Global Services
+        TYPE               : 10  WIN32_OWN_PROCESS 
+        STATE              : 4  RUNNING 
+                                (STOPPABLE,NOT_PAUSABLE,IGNORES_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0	(0x0)
+        SERVICE_EXIT_CODE  : 0	(0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: s7oiehsx
+DISPLAY_NAME: SIMATIC IEPG Help Service
+        TYPE               : 110  WIN32_OWN_PROCESS (interactive)
+        STATE              : 4  RUNNING 
+                                (STOPPABLE,NOT_PAUSABLE,IGNORES_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0	(0x0)
+        SERVICE_EXIT_CODE  : 0	(0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: S7TraceServiceX
+DISPLAY_NAME: S7TraceServiceX
+        TYPE               : 10  WIN32_OWN_PROCESS 
+        STATE              : 4  RUNNING 
+                                (STOPPABLE,NOT_PAUSABLE,IGNORES_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0	(0x0)
+        SERVICE_EXIT_CODE  : 0	(0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: SamSs
+DISPLAY_NAME: Security Accounts Manager
+        TYPE               : 20  WIN32_SHARE_PROCESS 
+        STATE              : 4  RUNNING 
+                                (NOT_STOPPABLE,NOT_PAUSABLE,IGNORES_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0	(0x0)
+        SERVICE_EXIT_CODE  : 0	(0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: seclogon
+DISPLAY_NAME: Secondary Logon
+        TYPE               : 120  WIN32_SHARE_PROCESS (interactive)
+        STATE              : 4  RUNNING 
+                                (STOPPABLE,PAUSABLE,IGNORES_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0	(0x0)
+        SERVICE_EXIT_CODE  : 0	(0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: SENS
+DISPLAY_NAME: System Event Notification
+        TYPE               : 20  WIN32_SHARE_PROCESS 
+        STATE              : 4  RUNNING 
+                                (STOPPABLE,NOT_PAUSABLE,IGNORES_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0	(0x0)
+        SERVICE_EXIT_CODE  : 0	(0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: SharedAccess
+DISPLAY_NAME: Windows Firewall/Internet Connection Sharing (ICS)
+        TYPE               : 20  WIN32_SHARE_PROCESS 
+        STATE              : 4  RUNNING 
+                                (STOPPABLE,NOT_PAUSABLE,IGNORES_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0	(0x0)
+        SERVICE_EXIT_CODE  : 0	(0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: ShellHWDetection
+DISPLAY_NAME: Shell Hardware Detection
+        TYPE               : 20  WIN32_SHARE_PROCESS 
+        STATE              : 4  RUNNING 
+                                (STOPPABLE,PAUSABLE,ACCEPTS_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0	(0x0)
+        SERVICE_EXIT_CODE  : 0	(0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: Spooler
+DISPLAY_NAME: Print Spooler
+        TYPE               : 110  WIN32_OWN_PROCESS (interactive)
+        STATE              : 4  RUNNING 
+                                (STOPPABLE,NOT_PAUSABLE,ACCEPTS_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0	(0x0)
+        SERVICE_EXIT_CODE  : 0	(0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: stisvc
+DISPLAY_NAME: Windows Image Acquisition (WIA)
+        TYPE               : 20  WIN32_SHARE_PROCESS 
+        STATE              : 4  RUNNING 
+                                (STOPPABLE,NOT_PAUSABLE,ACCEPTS_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0	(0x0)
+        SERVICE_EXIT_CODE  : 0	(0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: TeamViewer6
+DISPLAY_NAME: TeamViewer 6
+        TYPE               : 10  WIN32_OWN_PROCESS 
+        STATE              : 4  RUNNING 
+                                (STOPPABLE,NOT_PAUSABLE,ACCEPTS_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0	(0x0)
+        SERVICE_EXIT_CODE  : 0	(0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: Themes
+DISPLAY_NAME: Themes
+        TYPE               : 20  WIN32_SHARE_PROCESS 
+        STATE              : 4  RUNNING 
+                                (STOPPABLE,NOT_PAUSABLE,ACCEPTS_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0	(0x0)
+        SERVICE_EXIT_CODE  : 0	(0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: TrkWks
+DISPLAY_NAME: Distributed Link Tracking Client
+        TYPE               : 20  WIN32_SHARE_PROCESS 
+        STATE              : 4  RUNNING 
+                                (STOPPABLE,NOT_PAUSABLE,ACCEPTS_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0	(0x0)
+        SERVICE_EXIT_CODE  : 0	(0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: W32Time
+DISPLAY_NAME: Windows Time
+        TYPE               : 20  WIN32_SHARE_PROCESS 
+        STATE              : 4  RUNNING 
+                                (STOPPABLE,NOT_PAUSABLE,ACCEPTS_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0	(0x0)
+        SERVICE_EXIT_CODE  : 0	(0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: winmgmt
+DISPLAY_NAME: Windows Management Instrumentation
+        TYPE               : 20  WIN32_SHARE_PROCESS 
+        STATE              : 4  RUNNING 
+                                (STOPPABLE,PAUSABLE,ACCEPTS_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0	(0x0)
+        SERVICE_EXIT_CODE  : 0	(0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: winvnc
+DISPLAY_NAME: VNC Server
+        TYPE               : 110  WIN32_OWN_PROCESS (interactive)
+        STATE              : 4  RUNNING 
+                                (STOPPABLE,NOT_PAUSABLE,ACCEPTS_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0	(0x0)
+        SERVICE_EXIT_CODE  : 0	(0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+
+SERVICE_NAME: wscsvc
+DISPLAY_NAME: Security Center
+        TYPE               : 20  WIN32_SHARE_PROCESS 
+        STATE              : 4  RUNNING 
+                                (STOPPABLE,NOT_PAUSABLE,ACCEPTS_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0	(0x0)
+        SERVICE_EXIT_CODE  : 0	(0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+Windows system information 
+
+Host Name:                 PCU-1583
+OS Name:                   Microsoft Windows XP Professional
+OS Version:                5.1.2600 Service Pack 2 Build 2600
+OS Manufacturer:           Microsoft Corporation
+OS Configuration:          Standalone Workstation
+OS Build Type:             Uniprocessor Free
+Registered Owner:          A&D MC
+Registered Organization:   Siemens AG
+Product ID:                55274-OEM-0011903-00284
+Original Install Date:     08/04/2009, 4:13:08
+System Up Time:            0 Days, 5 Hours, 14 Minutes, 22 Seconds
+System Manufacturer:       SIEMENS AG
+System Model:              SINUMERIK PCU50.3
+System type:               X86-based PC
+Processor(s):              1 Processor(s) Installed.
+                           [01]: x86 Family 6 Model 13 Stepping 8 GenuineIntel ~1995 Mhz
+BIOS Version:              PTLTD  - 6040000
+Windows Directory:         E:\WINDOWS
+System Directory:          E:\WINDOWS\system32
+Boot Device:               \Device\HarddiskVolume1
+System Locale:             en-us;English (United States)
+Input Locale:              en-us;English (United States)
+Time Zone:                 (GMT+01:00) Amsterdam, Berlin, Bern, Rome, Stockholm, Vienna
+Total Physical Memory:     1,014 MB
+Available Physical Memory: 581 MB
+Virtual Memory: Max Size:  2,048 MB
+Virtual Memory: Available: 2,007 MB
+Virtual Memory: In Use:    41 MB
+Page File Location(s):     E:\pagefile.sys
+Domain:                    WORKGROUP
+Logon Server:              \\PCU-1583
+Hotfix(s):                 107 Hotfix(s) Installed.
+                           [01]: File 1
+                           [02]: File 1
+                           [03]: File 1
+                           [04]: File 1
+                           [05]: File 1
+                           [06]: File 1
+                           [07]: File 1
+                           [08]: File 1
+                           [09]: File 1
+                           [10]: File 1
+                           [11]: File 1
+                           [12]: File 1
+                           [13]: File 1
+                           [14]: File 1
+                           [15]: File 1
+                           [16]: File 1
+                           [17]: File 1
+                           [18]: File 1
+                           [19]: File 1
+                           [20]: File 1
+                           [21]: File 1
+                           [22]: File 1
+                           [23]: File 1
+                           [24]: File 1
+                           [25]: File 1
+                           [26]: File 1
+                           [27]: File 1
+                           [28]: File 1
+                           [29]: File 1
+                           [30]: File 1
+                           [31]: File 1
+                           [32]: File 1
+                           [33]: File 1
+                           [34]: File 1
+                           [35]: File 1
+                           [36]: File 1
+                           [37]: File 1
+                           [38]: File 1
+                           [39]: File 1
+                           [40]: File 1
+                           [41]: File 1
+                           [42]: File 1
+                           [43]: File 1
+                           [44]: File 1
+                           [45]: File 1
+                           [46]: File 1
+                           [47]: File 1
+                           [48]: File 1
+                           [49]: File 1
+                           [50]: File 1
+                           [51]: File 1
+                           [52]: File 1
+                           [53]: File 1
+                           [54]: Q147222
+                           [55]: KB873333 - Update
+                           [56]: KB873339 - Update
+                           [57]: KB883939 - Update
+                           [58]: KB885250 - Update
+                           [59]: KB885835 - Update
+                           [60]: KB885836 - Update
+                           [61]: KB888113 - Update
+                           [62]: KB888302 - Update
+                           [63]: KB890046 - Update
+                           [64]: KB890859 - Update
+                           [65]: KB891781 - Update
+                           [66]: KB893066 - Update
+                           [67]: KB893086 - Update
+                           [68]: KB893756 - Update
+                           [69]: KB893803v2 - Update
+                           [70]: KB896358 - Update
+                           [71]: KB896422 - Update
+                           [72]: KB896423 - Update
+                           [73]: KB896424 - Update
+                           [74]: KB896428 - Update
+                           [75]: KB897663 - Update
+                           [76]: KB899587 - Update
+                           [77]: KB899589 - Update
+                           [78]: KB899591 - Update
+                           [79]: KB900725 - Update
+                           [80]: KB901017 - Update
+                           [81]: KB901214 - Update
+                           [82]: KB902400 - Update
+                           [83]: KB904706 - Update
+                           [84]: KB905414 - Update
+                           [85]: KB905749 - Update
+                           [86]: KB908519 - Update
+                           [87]: KB908531 - Update
+                           [88]: KB911280 - Update
+                           [89]: KB911562 - Update
+                           [90]: KB911927 - Update
+                           [91]: KB912812 - Update
+                           [92]: KB912919 - Update
+                           [93]: KB913446 - Update
+                           [94]: KB913580 - Update
+                           [95]: KB914388 - Update
+                           [96]: KB914389 - Update
+                           [97]: KB917159 - Update
+                           [98]: KB917344 - Update
+                           [99]: KB917422 - Update
+                           [100]: KB917953 - Update
+                           [101]: KB918439 - Update
+                           [102]: KB918899 - Update
+                           [103]: KB920670 - Update
+                           [104]: KB920683 - Update
+                           [105]: KB921398 - Update
+                           [106]: KB921883 - Update
+                           [107]: KB922616 - Update
+NetWork Card(s):           2 NIC(s) Installed.
+                           [01]: VIA Rhine III Fast Ethernet Adapter
+                                 Connection Name: Ethernet 1 (Company Network)
+                                 DHCP Enabled:    No
+                                 IP address(es)
+                                 [01]: 192.168.55.152
+                           [02]: VIA Rhine III Fast Ethernet Adapter
+                                 Connection Name: Ethernet 2 (System Network)

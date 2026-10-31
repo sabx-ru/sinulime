@@ -1,0 +1,54 @@
+0x00030f84 0x10030f84   15   16 .data   ascii   free IVar2 0x%x
+0x00030f94 0x10030f94   14   15 .data   ascii   new IVar2 0x%x
+0x0003158c 0x1003158c    9   10 .data   ascii   IVar2.hlp
+0x000315dc 0x100315dc   25   26 .data   ascii   %d IVar2::ReadVar 0x%x %s
+0x000315f8 0x100315f8   19   20 .data   ascii   IVar2 0x%x ReadVar\n
+0x00031f88 0x10031f88   26   27 .data   ascii   %d IVar2::WriteVar 0x%x %s
+0x00031fa4 0x10031fa4   20   21 .data   ascii   IVar2 0x%x WriteVar\n
+0x00031fec 0x10031fec   30   31 .data   ascii   %d IVar2::ReadVarAsync 0x%x %s
+0x0003200c 0x1003200c   24   25 .data   ascii   IVar2 0x%x ReadVarAsync\n
+0x00032604 0x10032604   31   32 .data   ascii   %d IVar2::WriteVarAsync 0x%x %s
+0x00032624 0x10032624   25   26 .data   ascii   IVar2 0x%x WriteVarAsync\n
+0x00032710 0x10032710    5   12 .data   utf16le IVar2
+0x000327ac 0x100327ac   42   43 .data   ascii   %d IVar2::ReadVarCyclic 0x%x ReqID:0x%x %s
+0x000327d8 0x100327d8   25   26 .data   ascii   IVar2 0x%x ReadVarCyclic\n
+0x00032a74 0x10032a74   51   52 .data   ascii   %d IVar2::RemoveCyclicVariables 0x%x ReqID:0x%lx %s
+0x00032aa8 0x10032aa8   33   34 .data   ascii   IVar2 0x%x RemoveCyclicVariables\n
+0x00032d70 0x10032d70   24   25 .data   ascii   %d IVar2::Remove 0x%x %s
+0x00032d8c 0x10032d8c   18   19 .data   ascii   IVar2 0x%x Remove\n
+0x000332a4 0x100332a4   76   77 .data   ascii   %d IVar2:0x%x ReqId:0x%x Dispatch "OnWriteComplete" returned HRESULT:0x%x %s
+0x000332f4 0x100332f4   66   67 .data   ascii   %d IVar2:0x%x ReqId:0x%x Dispatch:0x%x "OnWriteComplete" called %s
+0x00033338 0x10033338   74   75 .data   ascii   %d:IVar2 0x%x ReqId:0x%x Dispatch "OnDataChanged" returned HRESULT:0x%x %s
+0x00033384 0x10033384   64   65 .data   ascii   %d:IVar2 0x%x ReqId:0x%x Dispatch:0x%x "OnDataChanged" called %s
+0x000333c8 0x100333c8   72   73 .data   ascii   %d:IVar2:0x%x ReqId:0x%x Dual "OnWriteComplete" returned HRESULT:0x%x %s
+0x00033414 0x10033414   62   63 .data   ascii   %d:IVar2:0x%x ReqId:0x%x Dual:0x%x "OnWriteComplete" called %s
+0x0003347c 0x1003347c   70   71 .data   ascii   %d IVar2:0x%x ReqId:0x%x Dual "OnDataChanged" returned HRESULT:0x%x %s
+0x000334c4 0x100334c4   60   61 .data   ascii   %d IVar2:0x%x ReqId:0x%x Dual:0x%x "OnDataChanged" called %s
+0x0003a440 0x1003c440    9   10 .rsrc   ascii   IVar2WWWd
+0x0003bafa 0x1003dafa   18   18 .rsrc   ascii   IVar2 InterfaceWWW
+0x0003bb32 0x1003db32   30   30 .rsrc   ascii   IVar2 Read-Callback InterfaceW
+0x0003bb82 0x1003db82   30   30 .rsrc   ascii   IVar2 Write-Callback Interface
+0x00031fec 0x10031fec   30   31 .data   ascii   %d IVar2::ReadVarAsync 0x%x %s
+0x0003200c 0x1003200c   24   25 .data   ascii   IVar2 0x%x ReadVarAsync\n
+0x00032028 0x10032028   29   30 .data   ascii   %d IVar::ReadVarAsync 0x%x %s
+0x00032048 0x10032048   23   24 .data   ascii   IVar 0x%x ReadVarAsync\n
+0x0003a545 0x1003c545   27   27 .rsrc   ascii   8\e`IReadVarAsyncCallback2WW
+0x0003a600 0x1003c600   12   12 .rsrc   ascii   ReadVarAsync
+0x0003a878 0x1003c878   25   25 .rsrc   ascii   IReadVarAsyncCallbackWWWX
+0x0003bb6a 0x1003db6a   22   22 .rsrc   ascii   method ReadVarAsyncWWW
+0x000327ac 0x100327ac   42   43 .data   ascii   %d IVar2::ReadVarCyclic 0x%x ReqID:0x%x %s
+0x000327d8 0x100327d8   25   26 .data   ascii   IVar2 0x%x ReadVarCyclic\n
+0x000327f4 0x100327f4   41   42 .data   ascii   %d IVar::ReadVarCyclic 0x%x ReqID:0x%x %s
+0x00032820 0x10032820   24   25 .data   ascii   IVar 0x%x ReadVarCyclic\n
+0x0003a6ac 0x1003c6ac   16   16 .rsrc   ascii   ReadVarCyclicWWW
+0x0003bbd2 0x1003dbd2   22   22 .rsrc   ascii   method ReadVarCyclicWW
+0x00032a74 0x10032a74   51   52 .data   ascii   %d IVar2::RemoveCyclicVariables 0x%x ReqID:0x%lx %s
+0x00032aa8 0x10032aa8   33   34 .data   ascii   IVar2 0x%x RemoveCyclicVariables\n
+0x00032acc 0x10032acc   50   51 .data   ascii   %d IVar::RemoveCyclicVariables 0x%x ReqID:0x%lx %s
+0x00032b00 0x10032b00   32   33 .data   ascii   IVar 0x%x RemoveCyclicVariables\n
+0x0003a73c 0x1003c73c   24   24 .rsrc   ascii   RemoveCyclicVariablesWWW
+0x0003bbea 0x1003dbea   30   30 .rsrc   ascii   method RemoveCyclicVariablesWW
+0x00032de4 0x10032de4   39   40 .data   ascii   %d IVarX::CalculateRequestRates 0x%x %s
+0x00032e0c 0x10032e0c   33   34 .data   ascii   IVar? 0x%x CalculateRequestRates\n
+0x0003a828 0x1003c828   24   24 .rsrc   ascii   CalculateRequestRatesWWW
+0x0003bc62 0x1003dc62   30   30 .rsrc   ascii   method CalculateRequestRatesWW

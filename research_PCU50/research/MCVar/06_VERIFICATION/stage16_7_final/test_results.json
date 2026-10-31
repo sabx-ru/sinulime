@@ -1,0 +1,24 @@
+{
+  "status": "PASS_OFFLINE_CONTRACT_PACKAGE_RUNTIME_OPEN",
+  "deliverables": [
+    "stages/stage16_7_final/MCVAR_CLIENT_CONTRACT.md",
+    "stages/stage16_7_final/MCVAR_COM_ABI.json",
+    "stages/stage16_7_final/CALLBACK_AND_LIFECYCLE.md",
+    "stages/stage16_7_final/CALLBACK_AND_LIFECYCLE.evidence.json",
+    "stages/stage16_7_final/COLLECTOR_INTEGRATION.md",
+    "stages/stage16_7_final/RUNTIME_UNKNOWNS.md",
+    "stages/stage16_7_final/EVIDENCE_LEDGER.json"
+  ],
+  "valid_json": [
+    "stages/stage16_7_final/MCVAR_COM_ABI.json",
+    "stages/stage16_7_final/EVIDENCE_LEDGER.json",
+    "stages/stage16_7_final/CALLBACK_AND_LIFECYCLE.evidence.json"
+  ],
+  "input_hashes": {
+    "old": "43a5c1991d98b6b6e155233a0114d7ff72bf4dec7edf58d0607da501e7d98712",
+    "new": "5e7d955ebe7cfd52424b04e91471b7408f42bf6cc427e3d94c50bc7f4428c24a"
+  },
+  "vtable_checks": 12,
+  "ledger_claims": 10,
+  "callback_evidence_keys": 7
+}

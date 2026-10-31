@@ -1,0 +1,23 @@
+{
+  "schema": "stage16_7_final.evidence-ledger.v1",
+  "status": "CONDITIONAL_OFFLINE_CLIENT_CONTRACT",
+  "scope": "Targeted offline contract for using original MCVar.dll through COM; no Windows/PCU execution.",
+  "binaries": {
+    "old": {"path":"/root/PL/PCU_old/H/mmc2/MCVar.dll","sha256":"43a5c1991d98b6b6e155233a0114d7ff72bf4dec7edf58d0607da501e7d98712","image_base":"0x10000000"},
+    "new": {"path":"/root/PL/PCU_new/C/RECYCLER/S-1-5-21-4025392478-4199590385-3038547483-1005/Dc28/files/F/mmc2/MCVar.dll","sha256":"5e7d955ebe7cfd52424b04e91471b7408f42bf6cc427e3d94c50bc7f4428c24a","image_base":"0x10000000"}
+  },
+  "claims": [
+    {"id":"ABI-01","status":"STATIC_PROVEN","claim":"IVar and IVar2 requested method declarations, IIDs, parameter order/types/flags, callback interface declarations and old/new normalized equality are decoded in MCVAR_COM_ABI.json.","evidence":["/root/PL/stages/stage16_7_final/MCVAR_COM_ABI.json","/root/PL/stages/stage16_5/abi/typelib_abi_records.json"]},
+    {"id":"ABI-02","status":"STATIC_PROVEN","claim":"Slots 9, 11 and 12 in old/new IVar/IVar2 vtables point to ReadVarAsync, ReadVarCyclic and RemoveCyclicVariables targets listed in the canonical map.","evidence":["/root/PL/stages/stage16_7/entrypoints/iter2/VTABLE_MAP.json","/root/PL/stages/stage16_7/entrypoints/iter2/verify_vtables.py","/root/PL/stages/stage16_7_final/verification/vtable_verifier_stdout.json"],"verification":"12/12 PASS"},
+    {"id":"CB-01","status":"STATIC_PROVEN","claim":"Both pCB and pDisp are declared client inputs; callback1/callback2 OnDataChanged parameter order and optionality are TypeLib facts.","evidence":["/root/PL/stages/stage16_7_final/MCVAR_COM_ABI.json"]},
+    {"id":"CB-02","status":"STATIC_INFERRED","claim":"Real async/cyclic public bodies call CRequestID::MakeCB, and MakeCB contains callback-result construction plus an indirect call through [ecx+0x1c].","evidence":["/root/PL/stages/stage16_7/entrypoints/iter2/*readvarasync.txt","/root/PL/stages/stage16_7/callbacks/old_makecb_callback_window.txt","/root/PL/stages/stage16_7/callbacks/new_makecb_callback_window.txt"],"limitation":"Interface/object identity and request-specific delivery are unresolved."},
+    {"id":"CB-03","status":"UNKNOWN","claim":"Which of pCB/pDisp is used for a particular request, exact callback route, DISPPARAMS/SAFEARRAY payload, thread/apartment, AddRef/Release order and delivery success.","evidence":["/root/PL/stages/stage16_7_final/RUNTIME_UNKNOWNS.md"]},
+    {"id":"LIFE-01","status":"STATIC_PROVEN","claim":"pReqID pointer is stored at transaction +0x98; wrapper +0x04 separately stores transaction pointer; +0x20 is a distinct scalar use family.","evidence":["/root/PL/stages/stage16_7/reqid/REQID_LIFECYCLE.md","/root/PL/stages/stage16_7/reqid/iter2_field_use_scan.json"]},
+    {"id":"LIFE-02","status":"UNKNOWN","claim":"Numeric ReqID production, registration, lookup, completion/cancel and cleanup linkage; whether removal drains callbacks.","evidence":["/root/PL/stages/stage16_7_final/CALLBACK_AND_LIFECYCLE.md","/root/PL/stages/stage16_7_final/RUNTIME_UNKNOWNS.md"]},
+    {"id":"CYCLIC-01","status":"STATIC_INFERRED","claim":"ReadVarCyclic reaches internal reader paths that traverse cyclic records and directly call CCyclic construction with an owner-relative list argument; removal reaches internal removal paths.","evidence":["/root/PL/stages/stage16_7/cyclic/CYCLIC_REGISTRATION_TRACE.md"]},
+    {"id":"CYCLIC-02","status":"UNKNOWN","claim":"SAFEARRAY element types/rank/bounds, rate units/defaults/revision semantics, deadband/critical filtering, cadence, independent quality delivery and complete scheduler/removal causality.","evidence":["/root/PL/stages/stage16_7_final/MCVAR_CLIENT_CONTRACT.md","/root/PL/stages/stage16_7_final/RUNTIME_UNKNOWNS.md"]},
+    {"id":"POLICY-01","status":"STATIC_INFERRED","claim":"Conservative future client must retain callback objects and output storage through an application-defined quiescence condition, treat IDs as opaque, validate every VARIANT, use explicit operation ownership, and keep synchronous batched ReadVar fallback.","evidence":["/root/PL/stages/stage16_7_final/CALLBACK_AND_LIFECYCLE.md","/root/PL/stages/stage15/collector/core.py"],"limitation":"These are defensive client policies, not vendor guarantees."}
+  ],
+  "runtime_only": ["QueryInterface/object construction on target deployment","callback delivery and identity","DISPPARAMS and SAFEARRAY semantics","ReqID lifecycle","cyclic cadence/filter/removal drain","COM apartment/threading and release behavior"],
+  "excluded": ["DDE/NCDDE","SolutionLine","Windows executable development","PCU tests","collector implementation"]
+}

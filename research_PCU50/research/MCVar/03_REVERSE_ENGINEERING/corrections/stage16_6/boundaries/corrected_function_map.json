@@ -1,0 +1,110 @@
+{
+  "schema": "stage16_6.corrected-function-map.v1",
+  "scope": "Offline static boundary validation only; exact MCVar.dll old/new binaries; no execution, collector, DDE, or source/archive modification.",
+  "supersedes": "/root/PL/stages/stage16_5/reports/FUNCTION_MAP.json",
+  "superseded_map_policy": "The stage16_5 map is preserved unchanged as superseded evidence. Entries below are corrections and boundary warnings, not an overwrite of that evidence.",
+  "binary_identity": {
+    "old": {
+      "path": "/root/PL/PCU_old/H/mmc2/MCVar.dll",
+      "sha256": "43a5c1991d98b6b6e155233a0114d7ff72bf4dec7edf58d0607da501e7d98712",
+      "image_base": "0x10000000",
+      "text_va": "0x10001000",
+      "text_size": "0x2af36"
+    },
+    "new": {
+      "path": "/root/PL/PCU_new/C/RECYCLER/S-1-5-21-4025392478-4199590385-3038547483-1005/Dc28/files/F/mmc2/MCVar.dll",
+      "sha256": "5e7d955ebe7cfd52424b04e91471b7408f42bf6cc427e3d94c50bc7f4428c24a",
+      "image_base": "0x10000000",
+      "text_va": "0x10001000",
+      "text_size": "0x2b046"
+    }
+  },
+  "functions": [
+    {
+      "name": "CVar2::ReadVarAsync(IVar2)",
+      "old_va": "0x1000d28a",
+      "new_va": "0x1000d39c",
+      "old_entry_bytes": "85c059744f8b4df08bd3c1e204f7d98d941588b1ffff8d75b41bc923ca51",
+      "new_entry_bytes": "85c059744f8b4df08bd3c1e204f7d98d941588b1ffff8d75b41bc923ca51",
+      "boundary_status": "ENTRY_VALIDATED_BODY_END_NOT_SINGLE_CONTIGUOUS_BOUNDARY",
+      "confidence": "HIGH_ENTRY_MEDIUM_BOUNDARY",
+      "evidence": [
+        "raw entry bytes identical across builds",
+        "Capstone decodes the entry bytes as valid x86 instructions",
+        "direct call old 0x1000d2d5 -> 0x1000d7a4",
+        "direct call new 0x1000d3e7 -> 0x1000d8b6",
+        "Rizin/objdump agree on entry identity but Rizin emits an overlapping legacy label"
+      ],
+      "warnings": [
+        "Do not use Rizin's reported size 690 as a proof of a complete contiguous body.",
+        "The implementation has shared/tail control flow around 0x1000d4f8/0x1000d53c (old) and 0x1000d60a/0x1000d64e (new); exact ownership of the shared tail cannot be uniquely assigned from static bytes alone."
+      ]
+    },
+    {
+      "name": "CVar2::ReadVarAsync(legacy callback label)",
+      "old_label_va": "0x1000d3f6",
+      "new_label_va": "0x1000d508",
+      "corrected_status": "REJECT_AS_FUNCTION_ENTRY",
+      "confidence": "HIGH",
+      "actual_context": {
+        "old": "interior instruction boundary: 0x1000d3f2 = mov eax,[eax+0x0c], 0x1000d3f5 = mov eax,[eax], label is at the following byte stream",
+        "new": "interior instruction boundary: 0x1000d504 = mov eax,[eax+0x0c], 0x1000d507 = mov eax,[eax], label is at the following byte stream"
+      },
+      "reason": "No prologue, no independent predecessor, and no standalone return/control-flow entry. The preceding block falls through directly; Rizin's 1-byte/18-byte function is an overlapping/misaligned label inside ReadVarAsync.",
+      "replacement": "Alias/overlap annotation only; not a function record and not a separately callable legacy thunk."
+    },
+    {
+      "name": "CCyclicID::DataChange(int, CCyclic*)",
+      "old_label_va": "0x10012b4c",
+      "new_label_va": "0x10012c5e",
+      "corrected_status": "ENTRY_UNVALIDATED_OVERLAPPING_LABEL",
+      "confidence": "HIGH_WARNING_MEDIUM_CONTEXT",
+      "actual_context": {
+        "old": "label bytes decode as invalid/implausible control flow; valid structured prologue begins at 0x10012b78, while 0x10012b4c..0x10012b75 ends with ret 0x04",
+        "new": "label bytes decode as invalid/implausible control flow; valid structured prologue begins at 0x10012c82, while 0x10012c5e..0x10012c7f ends with ret 0x04"
+      },
+      "boundary_warning": "The decorated name and diagnostic strings prove a named DataChange surface, but the labeled address is not a trustworthy actual entry. Do not assign the prologue at 0x10012b78/0x10012c82 to DataChange without additional independent ownership evidence; it is preceded by CTransactionID::CloseUp evidence in the disassembly."
+    },
+    {
+      "name": "CCyclicID::IdleCB()",
+      "old_label_va": "0x10012c01",
+      "new_label_va": "0x10012d13",
+      "corrected_status": "ENTRY_UNVALIDATED_OVERLAPPING_LABEL",
+      "confidence": "HIGH_WARNING",
+      "actual_context": {
+        "old": "label is inside the large structured region entered at 0x10012b78; bytes at label are invalid/implausible and no standalone prologue or direct call target validates it",
+        "new": "label is inside the large structured region entered at 0x10012c82; bytes at label are invalid/implausible and no standalone prologue or direct call target validates it"
+      },
+      "boundary_warning": "Retain the symbol as a name-only lead. No corrected VA is asserted for an independently callable IdleCB body, and no DataChange -> IdleCB edge is proven."
+    },
+    {
+      "name": "CCyclicID::FlushCyclics(int)",
+      "old_label_va": "0x10012d7f",
+      "new_label_va": "0x10012e91",
+      "corrected_status": "LABEL_NOT_VALIDATED_AS_ENTRY",
+      "confidence": "HIGH_WARNING_MEDIUM_BODY_CONTEXT",
+      "actual_context": {
+        "old": "0x10012d7f begins invalid bytes and is reached within the large region whose valid prologue is 0x10012b78",
+        "new": "0x10012e91 begins invalid/misaligned bytes and is reached within the large region whose valid prologue is 0x10012c82; the FlushCyclics body context is observable later in that region, including the conditional helper call at 0x100134ab -> 0x100139c2"
+      },
+      "boundary_warning": "The body/layout observations from the prior cyclic follow-up remain usable as block-level evidence, but 0x10012d7f/0x10012e91 must not be treated as independently validated function starts. Exact function start/end and ownership of the containing region remain unresolved."
+    }
+  ],
+  "validated_edges": [
+    {"old": "0x1000d2d5 -> 0x1000d7a4", "new": "0x1000d3e7 -> 0x1000d8b6", "kind": "direct_call", "confidence": "HIGH"},
+    {"old": null, "new": "0x100134ab -> 0x100139c2", "kind": "conditional_direct_call_from_flush_context", "confidence": "MEDIUM", "warning": "Containing FlushCyclics entry label is not boundary-validated; helper's final indirect callback target remains unresolved."}
+  ],
+  "unresolved_edges": [
+    "ReadVarAsync shared-tail ownership and exact contiguous end",
+    "DataChange -> pending state -> IdleCB",
+    "IdleCB -> FlushCyclics",
+    "exact containing-function ownership for the 0x10012b78/0x10012c82 structured region",
+    "FlushCyclics helper indirect callback target and callback timing"
+  ],
+  "evidence_artifacts": [
+    "boundary_validation.md",
+    "old_readvar_objdump.txt",
+    "new_readvar_objdump.txt",
+    "capstone_boundary_scan.txt"
+  ]
+}

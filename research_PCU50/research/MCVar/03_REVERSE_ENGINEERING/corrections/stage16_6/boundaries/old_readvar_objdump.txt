@@ -1,0 +1,480 @@
+
+/root/PL/PCU_old/H/mmc2/MCVar.dll:     file format pei-i386
+
+
+Disassembly of section .text:
+
+1000d260 <?WriteVar@CVar2@@UAGJUtagVARIANT@@PAU2@011@Z+0x15a>:
+1000d260:	00 00                	add    BYTE PTR [eax],al
+1000d262:	83 f8 01             	cmp    eax,0x1
+1000d265:	89 45 f4             	mov    DWORD PTR [ebp-0xc],eax
+1000d268:	0f 84 e7 02 00 00    	je     1000d555 <?InternalTransact@CVar2@@IAEJAAUtagVARIANT@@000FPAUIUnknown@@PAUIDispatch@@PAJPAU2@K4444444@Z+0x23>
+1000d26e:	85 c0                	test   eax,eax
+1000d270:	c7 45 f8 01 00 00 00 	mov    DWORD PTR [ebp-0x8],0x1
+1000d277:	89 5d e0             	mov    DWORD PTR [ebp-0x20],ebx
+1000d27a:	0f 8e 78 02 00 00    	jle    1000d4f8 <?ReadVarAsync@CVar2@@UAGJUtagVARIANT@@PAU2@0FPAUIReadVarAsyncCallback@@PAUIDispatch@@PAJ1@Z+0x102>
+1000d280:	68 a8 00 00 00       	push   0xa8
+1000d285:	e8 4b ab 00 00       	call   10017dd5 <?ASLookupVarType_SiteMap@CVar2@@CAPAGPAGAAG@Z+0xa7>
+
+1000d28a <?ReadVarAsync@CVar2@@UAGJUtagVARIANT@@00FPAUIReadVarAsyncCallback2@@PAUIDispatch@@PAJPAU2@@Z>:
+1000d28a:	85 c0                	test   eax,eax
+1000d28c:	59                   	pop    ecx
+1000d28d:	74 4f                	je     1000d2de <?ReadVarAsync@CVar2@@UAGJUtagVARIANT@@00FPAUIReadVarAsyncCallback2@@PAUIDispatch@@PAJPAU2@@Z+0x54>
+1000d28f:	8b 4d f0             	mov    ecx,DWORD PTR [ebp-0x10]
+1000d292:	8b d3                	mov    edx,ebx
+1000d294:	c1 e2 04             	shl    edx,0x4
+1000d297:	f7 d9                	neg    ecx
+1000d299:	8d 94 15 88 b1 ff ff 	lea    edx,[ebp+edx*1-0x4e78]
+1000d2a0:	8d 75 b4             	lea    esi,[ebp-0x4c]
+1000d2a3:	1b c9                	sbb    ecx,ecx
+1000d2a5:	23 ca                	and    ecx,edx
+1000d2a7:	51                   	push   ecx
+1000d2a8:	8d 8c 9d 08 f0 ff ff 	lea    ecx,[ebp+ebx*4-0xff8]
+1000d2af:	ff 75 1c             	push   DWORD PTR [ebp+0x1c]
+1000d2b2:	ff 75 18             	push   DWORD PTR [ebp+0x18]
+1000d2b5:	ff 75 14             	push   DWORD PTR [ebp+0x14]
+1000d2b8:	ff 75 f8             	push   DWORD PTR [ebp-0x8]
+1000d2bb:	ff 75 d4             	push   DWORD PTR [ebp-0x2c]
+1000d2be:	83 ec 0c             	sub    esp,0xc
+1000d2c1:	8b fc                	mov    edi,esp
+1000d2c3:	51                   	push   ecx
+1000d2c4:	8b c8                	mov    ecx,eax
+1000d2c6:	ff 75 10             	push   DWORD PTR [ebp+0x10]
+1000d2c9:	a5                   	movs   DWORD PTR es:[edi],DWORD PTR ds:[esi]
+1000d2ca:	ff 75 0c             	push   DWORD PTR [ebp+0xc]
+1000d2cd:	a5                   	movs   DWORD PTR es:[edi],DWORD PTR ds:[esi]
+1000d2ce:	ff 75 08             	push   DWORD PTR [ebp+0x8]
+1000d2d1:	a5                   	movs   DWORD PTR es:[edi],DWORD PTR ds:[esi]
+1000d2d2:	ff 75 08             	push   DWORD PTR [ebp+0x8]
+1000d2d5:	e8 ca 04 00 00       	call   1000d7a4 <?InternalTransact@CVar2@@IAEJAAUtagVARIANT@@000FPAUIUnknown@@PAUIDispatch@@PAJPAU2@K4444444@Z+0x272>
+1000d2da:	8b f0                	mov    esi,eax
+1000d2dc:	eb 02                	jmp    1000d2e0 <?ReadVarAsync@CVar2@@UAGJUtagVARIANT@@00FPAUIReadVarAsyncCallback2@@PAUIDispatch@@PAJPAU2@@Z+0x56>
+1000d2de:	33 f6                	xor    esi,esi
+1000d2e0:	6a 0c                	push   0xc
+1000d2e2:	89 75 fc             	mov    DWORD PTR [ebp-0x4],esi
+1000d2e5:	e8 eb aa 00 00       	call   10017dd5 <?ASLookupVarType_SiteMap@CVar2@@CAPAGPAGAAG@Z+0xa7>
+1000d2ea:	59                   	pop    ecx
+1000d2eb:	33 c9                	xor    ecx,ecx
+1000d2ed:	3b c1                	cmp    eax,ecx
+1000d2ef:	74 11                	je     1000d302 <?ReadVarAsync@CVar2@@UAGJUtagVARIANT@@00FPAUIReadVarAsyncCallback2@@PAUIDispatch@@PAJPAU2@@Z+0x78>
+1000d2f1:	89 48 04             	mov    DWORD PTR [eax+0x4],ecx
+1000d2f4:	89 48 08             	mov    DWORD PTR [eax+0x8],ecx
+1000d2f7:	c7 00 2c c9 02 10    	mov    DWORD PTR [eax],0x1002c92c
+1000d2fd:	89 45 e4             	mov    DWORD PTR [ebp-0x1c],eax
+1000d300:	eb 03                	jmp    1000d305 <?ReadVarAsync@CVar2@@UAGJUtagVARIANT@@00FPAUIReadVarAsyncCallback2@@PAUIDispatch@@PAJPAU2@@Z+0x7b>
+1000d302:	89 4d e4             	mov    DWORD PTR [ebp-0x1c],ecx
+1000d305:	39 4d e4             	cmp    DWORD PTR [ebp-0x1c],ecx
+1000d308:	0f 84 ea 01 00 00    	je     1000d4f8 <?ReadVarAsync@CVar2@@UAGJUtagVARIANT@@PAU2@0FPAUIReadVarAsyncCallback@@PAUIDispatch@@PAJ1@Z+0x102>
+1000d30e:	3b f1                	cmp    esi,ecx
+1000d310:	0f 84 e2 01 00 00    	je     1000d4f8 <?ReadVarAsync@CVar2@@UAGJUtagVARIANT@@PAU2@0FPAUIReadVarAsyncCallback@@PAUIDispatch@@PAJ1@Z+0x102>
+1000d316:	e8 d8 44 ff ff       	call   100017f3 <??_Estringdispid@CComTypeInfoHolder@ATL@@QAEPAXI@Z-0x80d>
+1000d31b:	6a 02                	push   0x2
+1000d31d:	5f                   	pop    edi
+1000d31e:	39 38                	cmp    DWORD PTR [eax],edi
+1000d320:	74 04                	je     1000d326 <?ReadVarAsync@CVar2@@UAGJUtagVARIANT@@00FPAUIReadVarAsyncCallback2@@PAUIDispatch@@PAJPAU2@@Z+0x9c>
+1000d322:	33 c0                	xor    eax,eax
+1000d324:	eb 05                	jmp    1000d32b <?ReadVarAsync@CVar2@@UAGJUtagVARIANT@@00FPAUIReadVarAsyncCallback2@@PAUIDispatch@@PAJPAU2@@Z+0xa1>
+1000d326:	8b 40 0c             	mov    eax,DWORD PTR [eax+0xc]
+1000d329:	8b 00                	mov    eax,DWORD PTR [eax]
+1000d32b:	a8 01                	test   al,0x1
+1000d32d:	0f 84 57 01 00 00    	je     1000d48a <?ReadVarAsync@CVar2@@UAGJUtagVARIANT@@PAU2@0FPAUIReadVarAsyncCallback@@PAUIDispatch@@PAJ1@Z+0x94>
+1000d333:	83 7d ec 00          	cmp    DWORD PTR [ebp-0x14],0x0
+1000d337:	0f 84 a2 00 00 00    	je     1000d3df <?ReadVarAsync@CVar2@@UAGJUtagVARIANT@@00FPAUIReadVarAsyncCallback2@@PAUIDispatch@@PAJPAU2@@Z+0x155>
+1000d33d:	e8 b1 44 ff ff       	call   100017f3 <??_Estringdispid@CComTypeInfoHolder@ATL@@QAEPAXI@Z-0x80d>
+1000d342:	39 38                	cmp    DWORD PTR [eax],edi
+1000d344:	74 04                	je     1000d34a <?ReadVarAsync@CVar2@@UAGJUtagVARIANT@@00FPAUIReadVarAsyncCallback2@@PAUIDispatch@@PAJPAU2@@Z+0xc0>
+1000d346:	33 c0                	xor    eax,eax
+1000d348:	eb 05                	jmp    1000d34f <?ReadVarAsync@CVar2@@UAGJUtagVARIANT@@00FPAUIReadVarAsyncCallback2@@PAUIDispatch@@PAJPAU2@@Z+0xc5>
+1000d34a:	8b 40 0c             	mov    eax,DWORD PTR [eax+0xc]
+1000d34d:	8b 00                	mov    eax,DWORD PTR [eax]
+1000d34f:	a8 01                	test   al,0x1
+1000d351:	0f 84 33 01 00 00    	je     1000d48a <?ReadVarAsync@CVar2@@UAGJUtagVARIANT@@PAU2@0FPAUIReadVarAsyncCallback@@PAUIDispatch@@PAJ1@Z+0x94>
+1000d357:	8b 84 9d 08 f0 ff ff 	mov    eax,DWORD PTR [ebp+ebx*4-0xff8]
+1000d35e:	bb 34 74 03 10       	mov    ebx,0x10037434
+1000d363:	85 c0                	test   eax,eax
+1000d365:	74 02                	je     1000d369 <?ReadVarAsync@CVar2@@UAGJUtagVARIANT@@00FPAUIReadVarAsyncCallback2@@PAUIDispatch@@PAJPAU2@@Z+0xdf>
+1000d367:	8b d8                	mov    ebx,eax
+1000d369:	8b 7d 10             	mov    edi,DWORD PTR [ebp+0x10]
+1000d36c:	85 ff                	test   edi,edi
+1000d36e:	75 05                	jne    1000d375 <?ReadVarAsync@CVar2@@UAGJUtagVARIANT@@00FPAUIReadVarAsyncCallback2@@PAUIDispatch@@PAJPAU2@@Z+0xeb>
+1000d370:	bf 34 74 03 10       	mov    edi,0x10037434
+1000d375:	83 7d f8 01          	cmp    DWORD PTR [ebp-0x8],0x1
+1000d379:	be e4 24 03 10       	mov    esi,0x100324e4
+1000d37e:	7f 05                	jg     1000d385 <?ReadVarAsync@CVar2@@UAGJUtagVARIANT@@00FPAUIReadVarAsyncCallback2@@PAUIDispatch@@PAJPAU2@@Z+0xfb>
+1000d380:	be dc 24 03 10       	mov    esi,0x100324dc
+1000d385:	8b 4d 20             	mov    ecx,DWORD PTR [ebp+0x20]
+1000d388:	8d 45 dc             	lea    eax,[ebp-0x24]
+1000d38b:	6a 00                	push   0x0
+1000d38d:	50                   	push   eax
+1000d38e:	8d 41 f8             	lea    eax,[ecx-0x8]
+1000d391:	f7 d9                	neg    ecx
+1000d393:	1b c9                	sbb    ecx,ecx
+1000d395:	23 c8                	and    ecx,eax
+1000d397:	e8 07 9a ff ff       	call   10006da3 <?Set@CXVariant@@QAEPAVCResult@@AAUNCDDE_BINARY_HEADER@@UTagConvSpec@@PAE@Z+0x2da>
+1000d39c:	ff 30                	push   DWORD PTR [eax]
+1000d39e:	ff 75 1c             	push   DWORD PTR [ebp+0x1c]
+1000d3a1:	ff 75 18             	push   DWORD PTR [ebp+0x18]
+1000d3a4:	53                   	push   ebx
+1000d3a5:	57                   	push   edi
+1000d3a6:	ff 75 08             	push   DWORD PTR [ebp+0x8]
+1000d3a9:	ff 75 fc             	push   DWORD PTR [ebp-0x4]
+1000d3ac:	56                   	push   esi
+1000d3ad:	68 98 24 03 10       	push   0x10032498
+1000d3b2:	e8 f8 c9 ff ff       	call   10009daf <??_E?$CList@PAVCTransactionID@@@@UAEPAXI@Z+0x1b>
+1000d3b7:	8b 45 dc             	mov    eax,DWORD PTR [ebp-0x24]
+1000d3ba:	83 c4 24             	add    esp,0x24
+1000d3bd:	85 c0                	test   eax,eax
+1000d3bf:	74 0c                	je     1000d3cd <?ReadVarAsync@CVar2@@UAGJUtagVARIANT@@00FPAUIReadVarAsyncCallback2@@PAUIDispatch@@PAJPAU2@@Z+0x143>
+1000d3c1:	80 38 00             	cmp    BYTE PTR [eax],0x0
+1000d3c4:	74 07                	je     1000d3cd <?ReadVarAsync@CVar2@@UAGJUtagVARIANT@@00FPAUIReadVarAsyncCallback2@@PAUIDispatch@@PAJPAU2@@Z+0x143>
+1000d3c6:	50                   	push   eax
+1000d3c7:	e8 06 a6 00 00       	call   100179d2 <?ASLookupVarType@CVar2@@SAGAAVCComBSTR@ATL@@@Z+0x3d7>
+1000d3cc:	59                   	pop    ecx
+1000d3cd:	8b 5d e0             	mov    ebx,DWORD PTR [ebp-0x20]
+1000d3d0:	8b 75 fc             	mov    esi,DWORD PTR [ebp-0x4]
+1000d3d3:	c7 45 dc 30 74 03 10 	mov    DWORD PTR [ebp-0x24],0x10037430
+1000d3da:	e9 ab 00 00 00       	jmp    1000d48a <?ReadVarAsync@CVar2@@UAGJUtagVARIANT@@PAU2@0FPAUIReadVarAsyncCallback@@PAUIDispatch@@PAJ1@Z+0x94>
+1000d3df:	f6 45 26 01          	test   BYTE PTR [ebp+0x26],0x1
+1000d3e3:	74 44                	je     1000d429 <?ReadVarAsync@CVar2@@UAGJUtagVARIANT@@PAU2@0FPAUIReadVarAsyncCallback@@PAUIDispatch@@PAJ1@Z+0x33>
+1000d3e5:	e8 09 44 ff ff       	call   100017f3 <??_Estringdispid@CComTypeInfoHolder@ATL@@QAEPAXI@Z-0x80d>
+1000d3ea:	39 38                	cmp    DWORD PTR [eax],edi
+1000d3ec:	74 04                	je     1000d3f2 <?ReadVarAsync@CVar2@@UAGJUtagVARIANT@@00FPAUIReadVarAsyncCallback2@@PAUIDispatch@@PAJPAU2@@Z+0x168>
+1000d3ee:	33 c0                	xor    eax,eax
+1000d3f0:	eb 05                	jmp    1000d3f7 <?ReadVarAsync@CVar2@@UAGJUtagVARIANT@@PAU2@0FPAUIReadVarAsyncCallback@@PAUIDispatch@@PAJ1@Z+0x1>
+1000d3f2:	8b 40 0c             	mov    eax,DWORD PTR [eax+0xc]
+1000d3f5:	8b                   	.byte 0x8b
+
+1000d3f6 <?ReadVarAsync@CVar2@@UAGJUtagVARIANT@@PAU2@0FPAUIReadVarAsyncCallback@@PAUIDispatch@@PAJ1@Z>:
+1000d3f6:	00 a8 01 0f 84 8b    	add    BYTE PTR [eax-0x747bf0ff],ch
+1000d3fc:	00 00                	add    BYTE PTR [eax],al
+1000d3fe:	00 83 7d f8 01 b8    	add    BYTE PTR [ebx-0x47fe0783],al
+1000d404:	e4 24                	in     al,0x24
+1000d406:	03 10                	add    edx,DWORD PTR [eax]
+1000d408:	7f 05                	jg     1000d40f <?ReadVarAsync@CVar2@@UAGJUtagVARIANT@@PAU2@0FPAUIReadVarAsyncCallback@@PAUIDispatch@@PAJ1@Z+0x19>
+1000d40a:	b8 dc 24 03 10       	mov    eax,0x100324dc
+1000d40f:	ff 75 1c             	push   DWORD PTR [ebp+0x1c]
+1000d412:	ff 75 18             	push   DWORD PTR [ebp+0x18]
+1000d415:	ff 75 08             	push   DWORD PTR [ebp+0x8]
+1000d418:	56                   	push   esi
+1000d419:	50                   	push   eax
+1000d41a:	68 68 24 03 10       	push   0x10032468
+1000d41f:	e8 8b c9 ff ff       	call   10009daf <??_E?$CList@PAVCTransactionID@@@@UAEPAXI@Z+0x1b>
+1000d424:	83 c4 18             	add    esp,0x18
+1000d427:	eb 61                	jmp    1000d48a <?ReadVarAsync@CVar2@@UAGJUtagVARIANT@@PAU2@0FPAUIReadVarAsyncCallback@@PAUIDispatch@@PAJ1@Z+0x94>
+1000d429:	e8 c5 43 ff ff       	call   100017f3 <??_Estringdispid@CComTypeInfoHolder@ATL@@QAEPAXI@Z-0x80d>
+1000d42e:	39 38                	cmp    DWORD PTR [eax],edi
+1000d430:	74 04                	je     1000d436 <?ReadVarAsync@CVar2@@UAGJUtagVARIANT@@PAU2@0FPAUIReadVarAsyncCallback@@PAUIDispatch@@PAJ1@Z+0x40>
+1000d432:	33 c0                	xor    eax,eax
+1000d434:	eb 05                	jmp    1000d43b <?ReadVarAsync@CVar2@@UAGJUtagVARIANT@@PAU2@0FPAUIReadVarAsyncCallback@@PAUIDispatch@@PAJ1@Z+0x45>
+1000d436:	8b 40 0c             	mov    eax,DWORD PTR [eax+0xc]
+1000d439:	8b 00                	mov    eax,DWORD PTR [eax]
+1000d43b:	a8 01                	test   al,0x1
+1000d43d:	74 4b                	je     1000d48a <?ReadVarAsync@CVar2@@UAGJUtagVARIANT@@PAU2@0FPAUIReadVarAsyncCallback@@PAUIDispatch@@PAJ1@Z+0x94>
+1000d43f:	8b 84 9d 08 f0 ff ff 	mov    eax,DWORD PTR [ebp+ebx*4-0xff8]
+1000d446:	85 c0                	test   eax,eax
+1000d448:	75 05                	jne    1000d44f <?ReadVarAsync@CVar2@@UAGJUtagVARIANT@@PAU2@0FPAUIReadVarAsyncCallback@@PAUIDispatch@@PAJ1@Z+0x59>
+1000d44a:	b8 34 74 03 10       	mov    eax,0x10037434
+1000d44f:	8b 55 10             	mov    edx,DWORD PTR [ebp+0x10]
+1000d452:	85 d2                	test   edx,edx
+1000d454:	75 05                	jne    1000d45b <?ReadVarAsync@CVar2@@UAGJUtagVARIANT@@PAU2@0FPAUIReadVarAsyncCallback@@PAUIDispatch@@PAJ1@Z+0x65>
+1000d456:	ba 34 74 03 10       	mov    edx,0x10037434
+1000d45b:	83 7d f8 01          	cmp    DWORD PTR [ebp-0x8],0x1
+1000d45f:	b9 e4 24 03 10       	mov    ecx,0x100324e4
+1000d464:	7f 05                	jg     1000d46b <?ReadVarAsync@CVar2@@UAGJUtagVARIANT@@PAU2@0FPAUIReadVarAsyncCallback@@PAUIDispatch@@PAJ1@Z+0x75>
+1000d466:	b9 dc 24 03 10       	mov    ecx,0x100324dc
+1000d46b:	ff 75 1c             	push   DWORD PTR [ebp+0x1c]
+1000d46e:	0f bf 7d 14          	movsx  edi,WORD PTR [ebp+0x14]
+1000d472:	ff 75 18             	push   DWORD PTR [ebp+0x18]
+1000d475:	57                   	push   edi
+1000d476:	50                   	push   eax
+1000d477:	52                   	push   edx
+1000d478:	ff 75 08             	push   DWORD PTR [ebp+0x8]
+1000d47b:	56                   	push   esi
+1000d47c:	51                   	push   ecx
+1000d47d:	68 20 24 03 10       	push   0x10032420
+1000d482:	e8 28 c9 ff ff       	call   10009daf <??_E?$CList@PAVCTransactionID@@@@UAEPAXI@Z+0x1b>
+1000d487:	83 c4 24             	add    esp,0x24
+1000d48a:	8b 45 e4             	mov    eax,DWORD PTR [ebp-0x1c]
+1000d48d:	8b 4d 28             	mov    ecx,DWORD PTR [ebp+0x28]
+1000d490:	50                   	push   eax
+1000d491:	89 70 04             	mov    DWORD PTR [eax+0x4],esi
+1000d494:	e8 08 4a ff ff       	call   10001ea1 <??_Estringdispid@CComTypeInfoHolder@ATL@@QAEPAXI@Z-0x15f>
+1000d499:	85 c0                	test   eax,eax
+1000d49b:	74 5b                	je     1000d4f8 <?ReadVarAsync@CVar2@@UAGJUtagVARIANT@@PAU2@0FPAUIReadVarAsyncCallback@@PAUIDispatch@@PAJ1@Z+0x102>
+1000d49d:	ff b4 9d 08 f0 ff ff 	push   DWORD PTR [ebp+ebx*4-0xff8]
+1000d4a4:	ff 15 fc c1 02 10    	call   DWORD PTR ds:0x1002c1fc
+1000d4aa:	83 7d f0 00          	cmp    DWORD PTR [ebp-0x10],0x0
+1000d4ae:	74 13                	je     1000d4c3 <?ReadVarAsync@CVar2@@UAGJUtagVARIANT@@PAU2@0FPAUIReadVarAsyncCallback@@PAUIDispatch@@PAJ1@Z+0xcd>
+1000d4b0:	8b c3                	mov    eax,ebx
+1000d4b2:	c1 e0 04             	shl    eax,0x4
+1000d4b5:	8d 84 05 88 b1 ff ff 	lea    eax,[ebp+eax*1-0x4e78]
+1000d4bc:	50                   	push   eax
+1000d4bd:	ff 15 f0 c1 02 10    	call   DWORD PTR ds:0x1002c1f0
+1000d4c3:	85 db                	test   ebx,ebx
+1000d4c5:	75 24                	jne    1000d4eb <?ReadVarAsync@CVar2@@UAGJUtagVARIANT@@PAU2@0FPAUIReadVarAsyncCallback@@PAUIDispatch@@PAJ1@Z+0xf5>
+1000d4c7:	83 c6 08             	add    esi,0x8
+1000d4ca:	6a 04                	push   0x4
+1000d4cc:	56                   	push   esi
+1000d4cd:	ff 15 84 c1 02 10    	call   DWORD PTR ds:0x1002c184
+1000d4d3:	85 c0                	test   eax,eax
+1000d4d5:	75 10                	jne    1000d4e7 <?ReadVarAsync@CVar2@@UAGJUtagVARIANT@@PAU2@0FPAUIReadVarAsyncCallback@@PAUIDispatch@@PAJ1@Z+0xf1>
+1000d4d7:	81 7e 04 de bc 0a 89 	cmp    DWORD PTR [esi+0x4],0x890abcde
+1000d4de:	75 07                	jne    1000d4e7 <?ReadVarAsync@CVar2@@UAGJUtagVARIANT@@PAU2@0FPAUIReadVarAsyncCallback@@PAUIDispatch@@PAJ1@Z+0xf1>
+1000d4e0:	8b 06                	mov    eax,DWORD PTR [esi]
+1000d4e2:	89 45 f8             	mov    DWORD PTR [ebp-0x8],eax
+1000d4e5:	eb 04                	jmp    1000d4eb <?ReadVarAsync@CVar2@@UAGJUtagVARIANT@@PAU2@0FPAUIReadVarAsyncCallback@@PAUIDispatch@@PAJ1@Z+0xf5>
+1000d4e7:	83 65 f8 00          	and    DWORD PTR [ebp-0x8],0x0
+1000d4eb:	43                   	inc    ebx
+1000d4ec:	3b 5d f4             	cmp    ebx,DWORD PTR [ebp-0xc]
+1000d4ef:	89 5d e0             	mov    DWORD PTR [ebp-0x20],ebx
+1000d4f2:	0f 8c 88 fd ff ff    	jl     1000d280 <?WriteVar@CVar2@@UAGJUtagVARIANT@@PAU2@011@Z+0x17a>
+1000d4f8:	3b 5d f4             	cmp    ebx,DWORD PTR [ebp-0xc]
+1000d4fb:	0f 84 9c 02 00 00    	je     1000d79d <?InternalTransact@CVar2@@IAEJAAUtagVARIANT@@000FPAUIUnknown@@PAUIDispatch@@PAJPAU2@K4444444@Z+0x26b>
+1000d501:	7d 39                	jge    1000d53c <?InternalTransact@CVar2@@IAEJAAUtagVARIANT@@000FPAUIUnknown@@PAUIDispatch@@PAJPAU2@K4444444@Z+0xa>
+1000d503:	8b 45 e0             	mov    eax,DWORD PTR [ebp-0x20]
+1000d506:	8b 5d f4             	mov    ebx,DWORD PTR [ebp-0xc]
+1000d509:	8b c8                	mov    ecx,eax
+1000d50b:	c1 e1 04             	shl    ecx,0x4
+1000d50e:	8d b4 85 08 f0 ff ff 	lea    esi,[ebp+eax*4-0xff8]
+1000d515:	2b d8                	sub    ebx,eax
+1000d517:	8d bc 0d 88 b1 ff ff 	lea    edi,[ebp+ecx*1-0x4e78]
+1000d51e:	ff 36                	push   DWORD PTR [esi]
+1000d520:	ff 15 fc c1 02 10    	call   DWORD PTR ds:0x1002c1fc
+1000d526:	83 7d f0 00          	cmp    DWORD PTR [ebp-0x10],0x0
+1000d52a:	74 07                	je     1000d533 <?InternalTransact@CVar2@@IAEJAAUtagVARIANT@@000FPAUIUnknown@@PAUIDispatch@@PAJPAU2@K4444444@Z+0x1>
+1000d52c:	57                   	push   edi
+1000d52d:	ff                   	.byte 0xff
+1000d52e:	15                   	.byte 0x15
+1000d52f:	f0                   	lock
+1000d530:	c1                   	.byte 0xc1
+1000d531:	02                   	.byte 0x2
+
+1000d532 <?InternalTransact@CVar2@@IAEJAAUtagVARIANT@@000FPAUIUnknown@@PAUIDispatch@@PAJPAU2@K4444444@Z>:
+1000d532:	10 83 c6 04 83 c7    	adc    BYTE PTR [ebx-0x387cfb3a],al
+1000d538:	10 4b 75             	adc    BYTE PTR [ebx+0x75],cl
+1000d53b:	e2 e8                	loop   1000d525 <?ReadVarAsync@CVar2@@UAGJUtagVARIANT@@PAU2@0FPAUIReadVarAsyncCallback@@PAUIDispatch@@PAJ1@Z+0x12f>
+1000d53d:	32 49 ff             	xor    cl,BYTE PTR [ecx-0x1]
+1000d540:	ff 8b f0 ff 75 e8    	dec    DWORD PTR [ebx-0x178a0010]
+1000d546:	ff 15 fc c1 02 10    	call   DWORD PTR ds:0x1002c1fc
+1000d54c:	8b c6                	mov    eax,esi
+1000d54e:	5f                   	pop    edi
+1000d54f:	5e                   	pop    esi
+1000d550:	5b                   	pop    ebx
+1000d551:	c9                   	leave
+1000d552:	c2 24 00             	ret    0x24
+1000d555:	39 9d 08 f0 ff ff    	cmp    DWORD PTR [ebp-0xff8],ebx
+1000d55b:	68 a8 00 00 00       	push   0xa8
+1000d560:	74 74                	je     1000d5d6 <?InternalTransact@CVar2@@IAEJAAUtagVARIANT@@000FPAUIUnknown@@PAUIDispatch@@PAJPAU2@K4444444@Z+0xa4>
+1000d562:	e8 6e a8 00 00       	call   10017dd5 <?ASLookupVarType_SiteMap@CVar2@@CAPAGPAGAAG@Z+0xa7>
+1000d567:	3b c3                	cmp    eax,ebx
+1000d569:	59                   	pop    ecx
+1000d56a:	74 47                	je     1000d5b3 <?InternalTransact@CVar2@@IAEJAAUtagVARIANT@@000FPAUIUnknown@@PAUIDispatch@@PAJPAU2@K4444444@Z+0x81>
+1000d56c:	8b 4d f0             	mov    ecx,DWORD PTR [ebp-0x10]
+1000d56f:	8d 95 88 b1 ff ff    	lea    edx,[ebp-0x4e78]
+1000d575:	f7 d9                	neg    ecx
+1000d577:	1b c9                	sbb    ecx,ecx
+1000d579:	8d 75 b4             	lea    esi,[ebp-0x4c]
+1000d57c:	23 ca                	and    ecx,edx
+1000d57e:	51                   	push   ecx
+1000d57f:	8d 8d 08 f0 ff ff    	lea    ecx,[ebp-0xff8]
+1000d585:	ff 75 1c             	push   DWORD PTR [ebp+0x1c]
+1000d588:	ff 75 18             	push   DWORD PTR [ebp+0x18]
+1000d58b:	ff 75 14             	push   DWORD PTR [ebp+0x14]
+1000d58e:	53                   	push   ebx
+1000d58f:	ff 75 d4             	push   DWORD PTR [ebp-0x2c]
+1000d592:	83 ec 0c             	sub    esp,0xc
+1000d595:	8b fc                	mov    edi,esp
+1000d597:	51                   	push   ecx
+1000d598:	8b c8                	mov    ecx,eax
+1000d59a:	ff 75 10             	push   DWORD PTR [ebp+0x10]
+1000d59d:	a5                   	movs   DWORD PTR es:[edi],DWORD PTR ds:[esi]
+1000d59e:	ff 75 0c             	push   DWORD PTR [ebp+0xc]
+1000d5a1:	a5                   	movs   DWORD PTR es:[edi],DWORD PTR ds:[esi]
+1000d5a2:	ff 75 08             	push   DWORD PTR [ebp+0x8]
+1000d5a5:	a5                   	movs   DWORD PTR es:[edi],DWORD PTR ds:[esi]
+1000d5a6:	ff 75 08             	push   DWORD PTR [ebp+0x8]
+1000d5a9:	e8 f6 01 00 00       	call   1000d7a4 <?InternalTransact@CVar2@@IAEJAAUtagVARIANT@@000FPAUIUnknown@@PAUIDispatch@@PAJPAU2@K4444444@Z+0x272>
+1000d5ae:	89 45 fc             	mov    DWORD PTR [ebp-0x4],eax
+1000d5b1:	eb 03                	jmp    1000d5b6 <?InternalTransact@CVar2@@IAEJAAUtagVARIANT@@000FPAUIUnknown@@PAUIDispatch@@PAJPAU2@K4444444@Z+0x84>
+1000d5b3:	89 5d fc             	mov    DWORD PTR [ebp-0x4],ebx
+1000d5b6:	ff b5 08 f0 ff ff    	push   DWORD PTR [ebp-0xff8]
+1000d5bc:	ff 15 fc c1 02 10    	call   DWORD PTR ds:0x1002c1fc
+1000d5c2:	39 5d f0             	cmp    DWORD PTR [ebp-0x10],ebx
+1000d5c5:	74 51                	je     1000d618 <?InternalTransact@CVar2@@IAEJAAUtagVARIANT@@000FPAUIUnknown@@PAUIDispatch@@PAJPAU2@K4444444@Z+0xe6>
+1000d5c7:	8d 85 88 b1 ff ff    	lea    eax,[ebp-0x4e78]
+1000d5cd:	50                   	push   eax
+1000d5ce:	ff 15 f0 c1 02 10    	call   DWORD PTR ds:0x1002c1f0
+1000d5d4:	eb 42                	jmp    1000d618 <?InternalTransact@CVar2@@IAEJAAUtagVARIANT@@000FPAUIUnknown@@PAUIDispatch@@PAJPAU2@K4444444@Z+0xe6>
+1000d5d6:	e8 fa a7 00 00       	call   10017dd5 <?ASLookupVarType_SiteMap@CVar2@@CAPAGPAGAAG@Z+0xa7>
+1000d5db:	3b c3                	cmp    eax,ebx
+1000d5dd:	59                   	pop    ecx
+1000d5de:	74 35                	je     1000d615 <?InternalTransact@CVar2@@IAEJAAUtagVARIANT@@000FPAUIUnknown@@PAUIDispatch@@PAJPAU2@K4444444@Z+0xe3>
+1000d5e0:	56                   	push   esi
+1000d5e1:	8d 4d e8             	lea    ecx,[ebp-0x18]
+1000d5e4:	ff 75 1c             	push   DWORD PTR [ebp+0x1c]
+1000d5e7:	8d 75 b4             	lea    esi,[ebp-0x4c]
+1000d5ea:	ff 75 18             	push   DWORD PTR [ebp+0x18]
+1000d5ed:	ff 75 14             	push   DWORD PTR [ebp+0x14]
+1000d5f0:	53                   	push   ebx
+1000d5f1:	ff 75 d4             	push   DWORD PTR [ebp-0x2c]
+1000d5f4:	83 ec 0c             	sub    esp,0xc
+1000d5f7:	8b fc                	mov    edi,esp
+1000d5f9:	51                   	push   ecx
+1000d5fa:	8b c8                	mov    ecx,eax
+1000d5fc:	ff 75 10             	push   DWORD PTR [ebp+0x10]
+1000d5ff:	a5                   	movs   DWORD PTR es:[edi],DWORD PTR ds:[esi]
+1000d600:	ff 75 0c             	push   DWORD PTR [ebp+0xc]
+1000d603:	a5                   	movs   DWORD PTR es:[edi],DWORD PTR ds:[esi]
+1000d604:	ff 75 08             	push   DWORD PTR [ebp+0x8]
+1000d607:	a5                   	movs   DWORD PTR es:[edi],DWORD PTR ds:[esi]
+1000d608:	ff 75 08             	push   DWORD PTR [ebp+0x8]
+1000d60b:	e8 94 01 00 00       	call   1000d7a4 <?InternalTransact@CVar2@@IAEJAAUtagVARIANT@@000FPAUIUnknown@@PAUIDispatch@@PAJPAU2@K4444444@Z+0x272>
+1000d610:	89 45 fc             	mov    DWORD PTR [ebp-0x4],eax
+1000d613:	eb 03                	jmp    1000d618 <?InternalTransact@CVar2@@IAEJAAUtagVARIANT@@000FPAUIUnknown@@PAUIDispatch@@PAJPAU2@K4444444@Z+0xe6>
+1000d615:	89 5d fc             	mov    DWORD PTR [ebp-0x4],ebx
+1000d618:	6a 0c                	push   0xc
+1000d61a:	e8 b6 a7 00 00       	call   10017dd5 <?ASLookupVarType_SiteMap@CVar2@@CAPAGPAGAAG@Z+0xa7>
+1000d61f:	3b c3                	cmp    eax,ebx
+1000d621:	59                   	pop    ecx
+1000d622:	74 11                	je     1000d635 <?InternalTransact@CVar2@@IAEJAAUtagVARIANT@@000FPAUIUnknown@@PAUIDispatch@@PAJPAU2@K4444444@Z+0x103>
+1000d624:	89 58 04             	mov    DWORD PTR [eax+0x4],ebx
+1000d627:	89 58 08             	mov    DWORD PTR [eax+0x8],ebx
+1000d62a:	c7 00 2c c9 02 10    	mov    DWORD PTR [eax],0x1002c92c
+1000d630:	89 45 0c             	mov    DWORD PTR [ebp+0xc],eax
+1000d633:	eb 03                	jmp    1000d638 <?InternalTransact@CVar2@@IAEJAAUtagVARIANT@@000FPAUIUnknown@@PAUIDispatch@@PAJPAU2@K4444444@Z+0x106>
+1000d635:	89 5d 0c             	mov    DWORD PTR [ebp+0xc],ebx
+1000d638:	39 5d 0c             	cmp    DWORD PTR [ebp+0xc],ebx
+1000d63b:	0f 84 fb fe ff ff    	je     1000d53c <?InternalTransact@CVar2@@IAEJAAUtagVARIANT@@000FPAUIUnknown@@PAUIDispatch@@PAJPAU2@K4444444@Z+0xa>
+1000d641:	39 5d fc             	cmp    DWORD PTR [ebp-0x4],ebx
+1000d644:	0f 84 f2 fe ff ff    	je     1000d53c <?InternalTransact@CVar2@@IAEJAAUtagVARIANT@@000FPAUIUnknown@@PAUIDispatch@@PAJPAU2@K4444444@Z+0xa>
+1000d64a:	e8 a4 41 ff ff       	call   100017f3 <??_Estringdispid@CComTypeInfoHolder@ATL@@QAEPAXI@Z-0x80d>
+1000d64f:	6a 02                	push   0x2
+1000d651:	5e                   	pop    esi
+1000d652:	39 30                	cmp    DWORD PTR [eax],esi
+1000d654:	74 04                	je     1000d65a <?InternalTransact@CVar2@@IAEJAAUtagVARIANT@@000FPAUIUnknown@@PAUIDispatch@@PAJPAU2@K4444444@Z+0x128>
+1000d656:	33 c0                	xor    eax,eax
+1000d658:	eb 05                	jmp    1000d65f <?InternalTransact@CVar2@@IAEJAAUtagVARIANT@@000FPAUIUnknown@@PAUIDispatch@@PAJPAU2@K4444444@Z+0x12d>
+1000d65a:	8b 40 0c             	mov    eax,DWORD PTR [eax+0xc]
+1000d65d:	8b 00                	mov    eax,DWORD PTR [eax]
+1000d65f:	a8 01                	test   al,0x1
+1000d661:	0f 84 1c 01 00 00    	je     1000d783 <?InternalTransact@CVar2@@IAEJAAUtagVARIANT@@000FPAUIUnknown@@PAUIDispatch@@PAJPAU2@K4444444@Z+0x251>
+1000d667:	8b bd 08 f0 ff ff    	mov    edi,DWORD PTR [ebp-0xff8]
+1000d66d:	3b fb                	cmp    edi,ebx
+1000d66f:	75 03                	jne    1000d674 <?InternalTransact@CVar2@@IAEJAAUtagVARIANT@@000FPAUIUnknown@@PAUIDispatch@@PAJPAU2@K4444444@Z+0x142>
+1000d671:	8b 7d e8             	mov    edi,DWORD PTR [ebp-0x18]
+1000d674:	39 5d ec             	cmp    DWORD PTR [ebp-0x14],ebx
+1000d677:	0f 84 82 00 00 00    	je     1000d6ff <?InternalTransact@CVar2@@IAEJAAUtagVARIANT@@000FPAUIUnknown@@PAUIDispatch@@PAJPAU2@K4444444@Z+0x1cd>
+1000d67d:	e8 71 41 ff ff       	call   100017f3 <??_Estringdispid@CComTypeInfoHolder@ATL@@QAEPAXI@Z-0x80d>
+1000d682:	39 30                	cmp    DWORD PTR [eax],esi
+1000d684:	74 04                	je     1000d68a <?InternalTransact@CVar2@@IAEJAAUtagVARIANT@@000FPAUIUnknown@@PAUIDispatch@@PAJPAU2@K4444444@Z+0x158>
+1000d686:	33 c0                	xor    eax,eax
+1000d688:	eb 05                	jmp    1000d68f <?InternalTransact@CVar2@@IAEJAAUtagVARIANT@@000FPAUIUnknown@@PAUIDispatch@@PAJPAU2@K4444444@Z+0x15d>
+1000d68a:	8b 40 0c             	mov    eax,DWORD PTR [eax+0xc]
+1000d68d:	8b 00                	mov    eax,DWORD PTR [eax]
+1000d68f:	a8 01                	test   al,0x1
+1000d691:	0f 84 ec 00 00 00    	je     1000d783 <?InternalTransact@CVar2@@IAEJAAUtagVARIANT@@000FPAUIUnknown@@PAUIDispatch@@PAJPAU2@K4444444@Z+0x251>
+1000d697:	3b fb                	cmp    edi,ebx
+1000d699:	75 05                	jne    1000d6a0 <?InternalTransact@CVar2@@IAEJAAUtagVARIANT@@000FPAUIUnknown@@PAUIDispatch@@PAJPAU2@K4444444@Z+0x16e>
+1000d69b:	bf 34 74 03 10       	mov    edi,0x10037434
+1000d6a0:	8b 75 10             	mov    esi,DWORD PTR [ebp+0x10]
+1000d6a3:	3b f3                	cmp    esi,ebx
+1000d6a5:	75 05                	jne    1000d6ac <?InternalTransact@CVar2@@IAEJAAUtagVARIANT@@000FPAUIUnknown@@PAUIDispatch@@PAJPAU2@K4444444@Z+0x17a>
+1000d6a7:	be 34 74 03 10       	mov    esi,0x10037434
+1000d6ac:	8b 4d 20             	mov    ecx,DWORD PTR [ebp+0x20]
+1000d6af:	8d 45 10             	lea    eax,[ebp+0x10]
+1000d6b2:	53                   	push   ebx
+1000d6b3:	50                   	push   eax
+1000d6b4:	8d 41 f8             	lea    eax,[ecx-0x8]
+1000d6b7:	f7 d9                	neg    ecx
+1000d6b9:	1b c9                	sbb    ecx,ecx
+1000d6bb:	23 c8                	and    ecx,eax
+1000d6bd:	e8 e1 96 ff ff       	call   10006da3 <?Set@CXVariant@@QAEPAVCResult@@AAUNCDDE_BINARY_HEADER@@UTagConvSpec@@PAE@Z+0x2da>
+1000d6c2:	ff 30                	push   DWORD PTR [eax]
+1000d6c4:	ff 75 1c             	push   DWORD PTR [ebp+0x1c]
+1000d6c7:	ff 75 18             	push   DWORD PTR [ebp+0x18]
+1000d6ca:	57                   	push   edi
+1000d6cb:	56                   	push   esi
+1000d6cc:	ff 75 08             	push   DWORD PTR [ebp+0x8]
+1000d6cf:	ff 75 fc             	push   DWORD PTR [ebp-0x4]
+1000d6d2:	68 dc 23 03 10       	push   0x100323dc
+1000d6d7:	e8 d3 c6 ff ff       	call   10009daf <??_E?$CList@PAVCTransactionID@@@@UAEPAXI@Z+0x1b>
+1000d6dc:	8b 45 10             	mov    eax,DWORD PTR [ebp+0x10]
+1000d6df:	83 c4 20             	add    esp,0x20
+1000d6e2:	3b c3                	cmp    eax,ebx
+1000d6e4:	0f 84 99 00 00 00    	je     1000d783 <?InternalTransact@CVar2@@IAEJAAUtagVARIANT@@000FPAUIUnknown@@PAUIDispatch@@PAJPAU2@K4444444@Z+0x251>
+1000d6ea:	80 38 00             	cmp    BYTE PTR [eax],0x0
+1000d6ed:	0f 84 90 00 00 00    	je     1000d783 <?InternalTransact@CVar2@@IAEJAAUtagVARIANT@@000FPAUIUnknown@@PAUIDispatch@@PAJPAU2@K4444444@Z+0x251>
+1000d6f3:	50                   	push   eax
+1000d6f4:	e8 d9 a2 00 00       	call   100179d2 <?ASLookupVarType@CVar2@@SAGAAVCComBSTR@ATL@@@Z+0x3d7>
+1000d6f9:	59                   	pop    ecx
+1000d6fa:	e9 84 00 00 00       	jmp    1000d783 <?InternalTransact@CVar2@@IAEJAAUtagVARIANT@@000FPAUIUnknown@@PAUIDispatch@@PAJPAU2@K4444444@Z+0x251>
+1000d6ff:	f6 45 26 01          	test   BYTE PTR [ebp+0x26],0x1
+1000d703:	74 31                	je     1000d736 <?InternalTransact@CVar2@@IAEJAAUtagVARIANT@@000FPAUIUnknown@@PAUIDispatch@@PAJPAU2@K4444444@Z+0x204>
+1000d705:	e8 e9 40 ff ff       	call   100017f3 <??_Estringdispid@CComTypeInfoHolder@ATL@@QAEPAXI@Z-0x80d>
+1000d70a:	39 30                	cmp    DWORD PTR [eax],esi
+1000d70c:	74 04                	je     1000d712 <?InternalTransact@CVar2@@IAEJAAUtagVARIANT@@000FPAUIUnknown@@PAUIDispatch@@PAJPAU2@K4444444@Z+0x1e0>
+1000d70e:	33 c0                	xor    eax,eax
+1000d710:	eb 05                	jmp    1000d717 <?InternalTransact@CVar2@@IAEJAAUtagVARIANT@@000FPAUIUnknown@@PAUIDispatch@@PAJPAU2@K4444444@Z+0x1e5>
+1000d712:	8b 40 0c             	mov    eax,DWORD PTR [eax+0xc]
+1000d715:	8b 00                	mov    eax,DWORD PTR [eax]
+1000d717:	a8 01                	test   al,0x1
+1000d719:	74 68                	je     1000d783 <?InternalTransact@CVar2@@IAEJAAUtagVARIANT@@000FPAUIUnknown@@PAUIDispatch@@PAJPAU2@K4444444@Z+0x251>
+1000d71b:	ff 75 1c             	push   DWORD PTR [ebp+0x1c]
+1000d71e:	ff 75 18             	push   DWORD PTR [ebp+0x18]
+1000d721:	ff 75 08             	push   DWORD PTR [ebp+0x8]
+1000d724:	ff 75 fc             	push   DWORD PTR [ebp-0x4]
+1000d727:	68 b0 23 03 10       	push   0x100323b0
+1000d72c:	e8 7e c6 ff ff       	call   10009daf <??_E?$CList@PAVCTransactionID@@@@UAEPAXI@Z+0x1b>
+1000d731:	83 c4 14             	add    esp,0x14
+1000d734:	eb 4d                	jmp    1000d783 <?InternalTransact@CVar2@@IAEJAAUtagVARIANT@@000FPAUIUnknown@@PAUIDispatch@@PAJPAU2@K4444444@Z+0x251>
+1000d736:	e8 b8 40 ff ff       	call   100017f3 <??_Estringdispid@CComTypeInfoHolder@ATL@@QAEPAXI@Z-0x80d>
+1000d73b:	39 30                	cmp    DWORD PTR [eax],esi
+1000d73d:	74 04                	je     1000d743 <?InternalTransact@CVar2@@IAEJAAUtagVARIANT@@000FPAUIUnknown@@PAUIDispatch@@PAJPAU2@K4444444@Z+0x211>
+1000d73f:	33 c0                	xor    eax,eax
+1000d741:	eb 05                	jmp    1000d748 <?InternalTransact@CVar2@@IAEJAAUtagVARIANT@@000FPAUIUnknown@@PAUIDispatch@@PAJPAU2@K4444444@Z+0x216>
+1000d743:	8b 40 0c             	mov    eax,DWORD PTR [eax+0xc]
+1000d746:	8b 00                	mov    eax,DWORD PTR [eax]
+1000d748:	a8 01                	test   al,0x1
+1000d74a:	74 37                	je     1000d783 <?InternalTransact@CVar2@@IAEJAAUtagVARIANT@@000FPAUIUnknown@@PAUIDispatch@@PAJPAU2@K4444444@Z+0x251>
+1000d74c:	3b fb                	cmp    edi,ebx
+1000d74e:	b9 34 74 03 10       	mov    ecx,0x10037434
+1000d753:	74 02                	je     1000d757 <?InternalTransact@CVar2@@IAEJAAUtagVARIANT@@000FPAUIUnknown@@PAUIDispatch@@PAJPAU2@K4444444@Z+0x225>
+1000d755:	8b cf                	mov    ecx,edi
+1000d757:	8b 45 10             	mov    eax,DWORD PTR [ebp+0x10]
+1000d75a:	3b c3                	cmp    eax,ebx
+1000d75c:	75 05                	jne    1000d763 <?InternalTransact@CVar2@@IAEJAAUtagVARIANT@@000FPAUIUnknown@@PAUIDispatch@@PAJPAU2@K4444444@Z+0x231>
+1000d75e:	b8 34 74 03 10       	mov    eax,0x10037434
+1000d763:	ff 75 1c             	push   DWORD PTR [ebp+0x1c]
+1000d766:	0f bf 55 14          	movsx  edx,WORD PTR [ebp+0x14]
+1000d76a:	ff 75 18             	push   DWORD PTR [ebp+0x18]
+1000d76d:	52                   	push   edx
+1000d76e:	51                   	push   ecx
+1000d76f:	50                   	push   eax
+1000d770:	ff 75 08             	push   DWORD PTR [ebp+0x8]
+1000d773:	ff 75 fc             	push   DWORD PTR [ebp-0x4]
+1000d776:	68 6c 23 03 10       	push   0x1003236c
+1000d77b:	e8 2f c6 ff ff       	call   10009daf <??_E?$CList@PAVCTransactionID@@@@UAEPAXI@Z+0x1b>
+1000d780:	83 c4 20             	add    esp,0x20
+1000d783:	8b 45 0c             	mov    eax,DWORD PTR [ebp+0xc]
+1000d786:	8b 4d fc             	mov    ecx,DWORD PTR [ebp-0x4]
+1000d789:	50                   	push   eax
+1000d78a:	89 48 04             	mov    DWORD PTR [eax+0x4],ecx
+1000d78d:	8b 4d 28             	mov    ecx,DWORD PTR [ebp+0x28]
+1000d790:	e8 0c 47 ff ff       	call   10001ea1 <??_Estringdispid@CComTypeInfoHolder@ATL@@QAEPAXI@Z-0x15f>
+1000d795:	85 c0                	test   eax,eax
+1000d797:	0f 84 9f fd ff ff    	je     1000d53c <?InternalTransact@CVar2@@IAEJAAUtagVARIANT@@000FPAUIUnknown@@PAUIDispatch@@PAJPAU2@K4444444@Z+0xa>
+1000d79d:	33 f6                	xor    esi,esi
+1000d79f:	e9 9f fd ff ff       	jmp    1000d543 <?InternalTransact@CVar2@@IAEJAAUtagVARIANT@@000FPAUIUnknown@@PAUIDispatch@@PAJPAU2@K4444444@Z+0x11>
+1000d7a4:	55                   	push   ebp
+1000d7a5:	8b ec                	mov    ebp,esp
+1000d7a7:	66 8b 45 30          	mov    ax,WORD PTR [ebp+0x30]
+1000d7ab:	53                   	push   ebx
+1000d7ac:	66 48                	dec    ax
+1000d7ae:	56                   	push   esi
+1000d7af:	66 f7 d8             	neg    ax
+1000d7b2:	1b c0                	sbb    eax,eax
+1000d7b4:	57                   	push   edi
+1000d7b5:	24 00                	and    al,0x0
+1000d7b7:	6a 64                	push   0x64
+1000d7b9:	05 00 01 00 00       	add    eax,0x100
+1000d7be:	6a 00                	push   0x0

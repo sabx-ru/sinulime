@@ -1,0 +1,57 @@
+{
+  "scope": "known async transaction and ReqID-related object fields from static instruction dataflow; 32-bit old/new MCVar.dll",
+  "inputs": {
+    "old": {"path": "/root/PL/PCU_old/H/mmc2/MCVar.dll", "sha256": "43a5c1991d98b6b6e155233a0114d7ff72bf4dec7edf58d0607da501e7d98712"},
+    "new": {"path": "/root/PL/PCU_new/C/RECYCLER/S-1-5-21-4025392478-4199590385-3038547483-1005/Dc28/files/F/mmc2/MCVar.dll", "sha256": "5e7d955ebe7cfd52424b04e91471b7408f42bf6cc427e3d94c50bc7f4428c24a"}
+  },
+  "objects": {
+    "readvar_async_result_wrapper": {
+      "size": 12,
+      "fields": {
+        "0x00": "vtable/data pointer installed after allocation",
+        "0x04": "transaction/result pointer, zeroed then assigned starter return pointer",
+        "0x08": "zeroed"
+      },
+      "evidence": {"old": "ReadVarAsync 0x1000d2e0-0x1000d2fd; transaction store 0x1000d48d-0x1000d494", "new": "ReadVarAsync 0x1000d3f2-0x1000d40f; transaction store 0x1000d59f-0x1000d5a6"}
+    },
+    "async_transaction_record": {
+      "known_fields": {
+        "0x20": {"meaning": "scalar loaded/tested by starter and passed to RID log formatting", "confidence": "dataflow proven; generation, external identity, and lookup key unproven"},
+        "0x78": "starter initializes related/context subobject and copies argument",
+        "0x80": "starter initializes shared sentinel/context pointer",
+        "0x84": "starter copies/initializes argument/context field",
+        "0x88": "starter copies/initializes argument/context field",
+        "0x90": "starter copies/initializes argument/context field",
+        "0x94": "starter initializes from mode/argument handling",
+        "0x98": {"meaning": "caller pReqID output pointer", "evidence_old": "0x1000d819 load [ebp+0x34]; 0x1000d842 store [ebx+0x98]", "evidence_new": "0x1000d92b load [ebp+0x34]; 0x1000d954 store [ebx+0x98]", "not": "not numeric ReqID"},
+        "0x9c": "starter copies another argument/result/context value",
+        "0xa0": "starter copies a 16-bit argument"
+      },
+      "allocation": {"old": "starter 0x1000d7a4; calls setup/allocation helpers; returns record in EAX at 0x1000d894; ret 0x38", "new": "starter 0x1000d8b6; matched flow relocated +0x112"}
+    },
+    "CTransactionID": {
+      "constructor": {"old": "0x1000df94", "new": "0x1000e0a6", "parameters_include": ["CList<CTransactionID*>*", "CVar2*"], "meaning": "list-aware constructor exists; not proof of async instance insertion"},
+      "operations": {"old": {"WaitComplete": "0x1000be8d", "Free": "0x1000bf73", "CloseUp": "0x10013b78", "Delete": "0x1000e189", "destructor": "0x1000e0ab", "CList<CTransactionID*>::DeleteAll": "0x10009e2a"}, "new": {"WaitComplete": "0x1000bf9f", "Free": "0x1000c085", "CloseUp": "0x10013c82", "Delete": "0x1000e29b", "destructor": "0x1000e1bd", "CList<CTransactionID*>::DeleteAll": "0x10009f38"}},
+      "limits": ["specific async registration/insertion unproven", "ReqID-keyed lookup unproven", "terminal binding of facilities to this request unproven"]
+    },
+    "CRequestID": {
+      "old_constructor": "0x1000e044",
+      "old_destructor": "0x1000e162",
+      "qualification": "Separate named object path; inspected constructor body does not prove async transaction registration or equivalence to the +0x98 pointer/numeric +0x20 scalar."
+    },
+    "CCyclicID": {
+      "old_constructor": "0x100113ba",
+      "old_start_cyclics": "0x100115f3",
+      "old_delete": "0x1001155c",
+      "old_list_delete_all": "0x10009e07",
+      "qualification": "Separate cyclic object/list family. Cyclic ReqID strings and calls must not be used as proof of async CTransactionID lookup or layout."
+    }
+  },
+  "explicitly_unknown": [
+    "numeric ReqID generator/source",
+    "whether scalar at transaction +0x20 equals the value stored by completion helper into caller output memory",
+    "list insertion edge for this ReadVarAsync transaction",
+    "lookup comparison key and its relationship, if any, to +0x20",
+    "exact completion/cancel/wait/delete/destructor chain for one async instance"
+  ]
+}

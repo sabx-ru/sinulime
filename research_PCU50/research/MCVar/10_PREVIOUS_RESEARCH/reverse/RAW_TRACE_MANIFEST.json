@@ -1,0 +1,188 @@
+[
+  {
+    "original": "logs_asmb/21_rizin_MCVar.dll.txt",
+    "stored_as": "research/logs_asmb/21_rizin_MCVar.dll.txt",
+    "sha256": "25a8ea0edc46a88227cfcd34d2614a81890c7975693b7745a0f7652164af415e",
+    "size": 3589
+  },
+  {
+    "original": "logs_asmb/22_objdump_MCVar.dll.txt",
+    "stored_as": "research/logs_asmb/22_objdump_MCVar.dll.txt",
+    "sha256": "cc87f4c3f927dd556436a9c9c15f17896d0753ecec8bd7b15bb33b2383f0d4dc",
+    "size": 1189
+  },
+  {
+    "original": "logs_asmb/consolidation_architect.asm",
+    "stored_as": "research/logs_asmb/consolidation_architect.asm",
+    "sha256": "5b77b3c4197ea959ea279595c5374d3b01530cf9a1d134f7cbefd81ab72b29d3",
+    "size": 14886
+  },
+  {
+    "original": "logs_asmb/phase9_mcvar_readvar_focus.asm",
+    "stored_as": "research/logs_asmb/phase9_mcvar_readvar_focus.asm",
+    "sha256": "801d2dc2e70248db969a03e58da264b9337513439e99a9025d828eb76b5ce5f8",
+    "size": 9535
+  },
+  {
+    "original": "logs_asmb/phase9_mcvar_rizin_flow.txt",
+    "stored_as": "research/logs_asmb/phase9_mcvar_rizin_flow.txt",
+    "sha256": "1b7c3ab981e172b4981fa737c026c3bb62e08499a7ad5ab61a2d6d7313182f68",
+    "size": 29771
+  },
+  {
+    "original": "functions/old_mcvar_disasm_0x4ac8.txt",
+    "stored_as": "research/functions/old_mcvar_disasm_0x4ac8.txt",
+    "sha256": "79c828184c53caf6dea23b100f9c3636665e008cbc796f915bdd1b0561fca040",
+    "size": 2302
+  },
+  {
+    "original": "functions/old_readvar_flow.rz",
+    "stored_as": "research/functions/old_readvar_flow.rz",
+    "sha256": "9367297837d81134af83d37a3e7c08b637fa1ad8ca213a5495915f4032556e0c",
+    "size": 53427
+  },
+  {
+    "original": "phase11/FUNCTIONS/mcvar_10004e2e.asm",
+    "stored_as": "research/phase11/FUNCTIONS/mcvar_10004e2e.asm",
+    "sha256": "20f6c5710929f3e6923a037ee4c6008ca2b4e847049e2cd5fd0263ffa5bebbb6",
+    "size": 28152
+  },
+  {
+    "original": "phase11/FUNCTIONS/mcvar_10004e2e_resolution.asm",
+    "stored_as": "research/phase11/FUNCTIONS/mcvar_10004e2e_resolution.asm",
+    "sha256": "663aeb831dfdf6f3b922465c24878722fb941a353c82debe8c7541c76d8d4ad0",
+    "size": 2116
+  },
+  {
+    "original": "phase11/FUNCTIONS/mcvar_4ca7_4e40_raw.asm",
+    "stored_as": "research/phase11/FUNCTIONS/mcvar_4ca7_4e40_raw.asm",
+    "sha256": "e9a2673c79576f1ffb19932fa26df8c190eb94055343881f7f6b4402608b3598",
+    "size": 42949
+  },
+  {
+    "original": "phase11/FUNCTIONS/reviewer_error_cleanup_audit.asm",
+    "stored_as": "research/phase11/FUNCTIONS/reviewer_error_cleanup_audit.asm",
+    "sha256": "dc2450d0759c0767e83144686f1e31e33ea2b73232fb7c7ac5f9a22f21d886b6",
+    "size": 5467
+  },
+  {
+    "original": "phase11/FUNCTIONS/reviewer_track_a_boundary.asm",
+    "stored_as": "research/phase11/FUNCTIONS/reviewer_track_a_boundary.asm",
+    "sha256": "f04a0863a3599ffc41a423672722a2e167b025126a590a2d8e1a39da86031b74",
+    "size": 2710
+  },
+  {
+    "original": "phase12/RAW_EVIDENCE/mcvar_api_xrefs.txt",
+    "stored_as": "research/phase12/RAW_EVIDENCE/mcvar_api_xrefs.txt",
+    "sha256": "165c2f57e65386215968ebac53cb315cffc78a5a39e7d3d0a85f3b75f4cf7e41",
+    "size": 1553
+  },
+  {
+    "original": "phase12/RAW_EVIDENCE/mcvar_mcvar_focus.rz.txt",
+    "stored_as": "research/phase12/RAW_EVIDENCE/mcvar_mcvar_focus.rz.txt",
+    "sha256": "6c90a48eb63770be5f8a5afd5b3f3fd5edfce65d0fae72b719f3270c391efc4e",
+    "size": 42134
+  },
+  {
+    "original": "phase12/RAW_EVIDENCE/new_direct_refs_old_addresses.txt",
+    "stored_as": "research/phase12/RAW_EVIDENCE/new_direct_refs_old_addresses.txt",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size": 0
+  },
+  {
+    "original": "phase12/RAW_EVIDENCE/new_mcvar_calls.txt",
+    "stored_as": "research/phase12/RAW_EVIDENCE/new_mcvar_calls.txt",
+    "sha256": "79cb0d321354e6f4dd9c16acdae8ab67dee0475c226662d739b3546e545885ec",
+    "size": 331296
+  },
+  {
+    "original": "phase12/RAW_EVIDENCE/new_mcvar_indirect_edge.txt",
+    "stored_as": "research/phase12/RAW_EVIDENCE/new_mcvar_indirect_edge.txt",
+    "sha256": "6cb3a1dc4d30d8262fc0ece9b6b2a05009e96e56cac9bfdfe3a8052fc1f146ea",
+    "size": 20356
+  },
+  {
+    "original": "phase12/RAW_EVIDENCE/new_mcvar_post_send_xrefs.rz.txt",
+    "stored_as": "research/phase12/RAW_EVIDENCE/new_mcvar_post_send_xrefs.rz.txt",
+    "sha256": "2e2cfa0e8227f3bdf6429880e203a5b4d3db3c54f14f0d6a764fb582bc16b723",
+    "size": 1486
+  },
+  {
+    "original": "phase12/RAW_EVIDENCE/new_mcvar_readvar_helper.rz.txt",
+    "stored_as": "research/phase12/RAW_EVIDENCE/new_mcvar_readvar_helper.rz.txt",
+    "sha256": "4f017a0914e4b35509e2997a629737e5ae9a7fe1d65e13d23c61a70e9986e0c3",
+    "size": 14139
+  },
+  {
+    "original": "phase12/RAW_EVIDENCE/new_objdump_headers_imports.txt",
+    "stored_as": "research/phase12/RAW_EVIDENCE/new_objdump_headers_imports.txt",
+    "sha256": "18a7b1690fe9e03fe1f037c8673d2fdf9b19f48b652db9d5e9de1ec0657d0c52",
+    "size": 474203
+  },
+  {
+    "original": "phase12/RAW_EVIDENCE/old_callsites_objdump.txt",
+    "stored_as": "research/phase12/RAW_EVIDENCE/old_callsites_objdump.txt",
+    "sha256": "e69dd75f10faabd5a28bf36a9e87a6277a5f810f1a4362ad81c75ec9197cf50b",
+    "size": 33985
+  },
+  {
+    "original": "phase12/RAW_EVIDENCE/old_callsites_rizin.txt",
+    "stored_as": "research/phase12/RAW_EVIDENCE/old_callsites_rizin.txt",
+    "sha256": "6059a22beb9efe9f728e749c15e40d63c76a2d65584b26e0675277aff3d95dee",
+    "size": 20633
+  },
+  {
+    "original": "phase12/RAW_EVIDENCE/old_mcvar_calls.txt",
+    "stored_as": "research/phase12/RAW_EVIDENCE/old_mcvar_calls.txt",
+    "sha256": "0491a266001c2aa29e095f74083b088cb88100b00b504e1d039bbc30b3d02e1e",
+    "size": 331881
+  },
+  {
+    "original": "phase12/RAW_EVIDENCE/old_mcvar_indirect_edge.txt",
+    "stored_as": "research/phase12/RAW_EVIDENCE/old_mcvar_indirect_edge.txt",
+    "sha256": "46442dca3f178e9f6ecae75ba121cffe8d92f749e656200f6029ad4fc03a5824",
+    "size": 20273
+  },
+  {
+    "original": "phase12/RAW_EVIDENCE/old_mcvar_message_callsite_context.rz.txt",
+    "stored_as": "research/phase12/RAW_EVIDENCE/old_mcvar_message_callsite_context.rz.txt",
+    "sha256": "8389260d2c0369bc0150911409130af11ef055fe156eede2f0ca6c6497f9c5f9",
+    "size": 5258
+  },
+  {
+    "original": "phase12/RAW_EVIDENCE/old_mcvar_post_send_xrefs.rz.txt",
+    "stored_as": "research/phase12/RAW_EVIDENCE/old_mcvar_post_send_xrefs.rz.txt",
+    "sha256": "538753f016e1bf0e3383906b0975165771150535ef55f1aaffc9c7ca14e36d7d",
+    "size": 1482
+  },
+  {
+    "original": "phase12/RAW_EVIDENCE/old_mcvar_user32_thunks.txt",
+    "stored_as": "research/phase12/RAW_EVIDENCE/old_mcvar_user32_thunks.txt",
+    "sha256": "0a64d1d82b24e1613325b5f3a9063b3755e5b99299a67b2b5ddbd98fe843134f",
+    "size": 16285
+  },
+  {
+    "original": "phase12/RAW_EVIDENCE/old_objdump_headers_imports.txt",
+    "stored_as": "research/phase12/RAW_EVIDENCE/old_objdump_headers_imports.txt",
+    "sha256": "d488c7eea1fcde5c194b32a3d23456b7ae61cc0831d0e84a79e25346c59720d1",
+    "size": 475663
+  },
+  {
+    "original": "phase12/RAW_EVIDENCE/old_rizin_import_sections_symbols.txt",
+    "stored_as": "research/phase12/RAW_EVIDENCE/old_rizin_import_sections_symbols.txt",
+    "sha256": "442def7dcc1eb941d73b5be0317f1f68a9862e381108117991cc5d5b4dacba8d",
+    "size": 2182
+  },
+  {
+    "original": "phase12/functions/mcvar/readvar_request_safearray_callbacks.asm",
+    "stored_as": "research/phase12/functions/mcvar/readvar_request_safearray_callbacks.asm",
+    "sha256": "d45af6765e75aacad001bc4983c4aefd57b5a3e000a8a3e928e839cfd37b4aaf",
+    "size": 2182
+  },
+  {
+    "original": "phase12/functions/mcvar/track_c_annotated_assembly.asm",
+    "stored_as": "research/phase12/functions/mcvar/track_c_annotated_assembly.asm",
+    "sha256": "bc304b8f8086762dc689fb4a9282d65be48de62b269dcb6abc7be4e803c021b9",
+    "size": 3922
+  }
+]
