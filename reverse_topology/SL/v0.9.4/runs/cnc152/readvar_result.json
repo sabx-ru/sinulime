@@ -1,0 +1,23 @@
+{
+  "status": "complete",
+  "incomplete_reasons": [],
+  "unresolved_addresses": [],
+  "cu": [
+    [
+      1,
+      6
+    ],
+    [
+      2,
+      3
+    ]
+  ],
+  "new_requests": 5232,
+  "health_checks": 0,
+  "health_recoveries": 0,
+  "cache_hits": 30,
+  "totals": {
+    "ok": 5137,
+    "item_error": 95
+  }
+}

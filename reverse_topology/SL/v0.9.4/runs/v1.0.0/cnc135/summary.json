@@ -1,0 +1,54 @@
+{
+  "read_events": 19475,
+  "read_statuses": {
+    "ok": 19205,
+    "item_error": 270
+  },
+  "cu_count": 5,
+  "sdb_blocks": 2,
+  "hw_slot_count": 27,
+  "hw_stations": [
+    {
+      "bus_id": 3,
+      "slave": 3
+    },
+    {
+      "bus_id": 3,
+      "slave": 12
+    },
+    {
+      "bus_id": 3,
+      "slave": 13
+    },
+    {
+      "bus_id": 3,
+      "slave": 14
+    },
+    {
+      "bus_id": 3,
+      "slave": 15
+    }
+  ],
+  "axes_active": 19,
+  "axes_verified": 19,
+  "physical_actual_edges": 58,
+  "physical_target_edges": 58,
+  "physical_edge_sets_equal": true,
+  "cu_link_pairs": 4,
+  "topology_all_tlv_complete": true,
+  "target_all_tlv_complete": true,
+  "unresolved_service_mappings": 0,
+  "actual_cu_with_complete_tlv": 5,
+  "target_cu_with_complete_tlv": 5,
+  "hwdata_available": true,
+  "journal_events": 19485,
+  "journal_kinds": {
+    "read": 19475,
+    "array_verified": 10
+  },
+  "component_records": 95,
+  "connection_records": 235,
+  "axis_records": 31,
+  "drive_records": 19,
+  "equipment_relation_records": 113
+}

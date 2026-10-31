@@ -1,0 +1,35 @@
+{
+  "read_events": 5232,
+  "read_statuses": {
+    "ok": 5137,
+    "item_error": 95
+  },
+  "cu_count": 2,
+  "sdb_blocks": 2,
+  "hw_slot_count": 9,
+  "hw_stations": [
+    {
+      "bus_id": 3,
+      "slave": 3
+    },
+    {
+      "bus_id": 3,
+      "slave": 15
+    }
+  ],
+  "axes_active": 6,
+  "axes_verified": 6,
+  "physical_actual_edges": 13,
+  "physical_target_edges": 13,
+  "physical_edge_sets_equal": true,
+  "cu_link_pairs": 1,
+  "topology_all_tlv_complete": true,
+  "target_all_tlv_complete": true,
+  "unresolved_service_mappings": 0,
+  "actual_cu_with_complete_tlv": 2,
+  "target_cu_with_complete_tlv": 2,
+  "hwdata_available": true,
+  "capture_phase": "COMPLETE",
+  "scan_finished": true,
+  "capture_complete": true
+}

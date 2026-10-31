@@ -1,0 +1,8935 @@
+{
+  "schema": "read-only-topology/v1.0.0",
+  "version": "1.0.0",
+  "provenance": {
+    "reads": "runs/cnc135/readvar/reads.jsonl",
+    "sdb": "runs/cnc135/sdb",
+    "reads_sha256": "42c0c5c0727b10b33764fc79d1866634643ea699db5cadf62ba89d570491873f"
+  },
+  "summary": {
+    "read_events": 19475,
+    "read_statuses": {
+      "ok": 19205,
+      "item_error": 270
+    },
+    "cu_count": 5,
+    "sdb_blocks": 2,
+    "hw_slot_count": 27,
+    "hw_stations": [
+      {
+        "bus_id": 3,
+        "slave": 3
+      },
+      {
+        "bus_id": 3,
+        "slave": 12
+      },
+      {
+        "bus_id": 3,
+        "slave": 13
+      },
+      {
+        "bus_id": 3,
+        "slave": 14
+      },
+      {
+        "bus_id": 3,
+        "slave": 15
+      }
+    ],
+    "axes_active": 19,
+    "axes_verified": 19,
+    "physical_actual_edges": 58,
+    "physical_target_edges": 58,
+    "physical_edge_sets_equal": true,
+    "cu_link_pairs": 4,
+    "topology_all_tlv_complete": true,
+    "target_all_tlv_complete": true,
+    "unresolved_service_mappings": 0,
+    "actual_cu_with_complete_tlv": 5,
+    "target_cu_with_complete_tlv": 5,
+    "hwdata_available": true,
+    "journal_events": 19485,
+    "journal_kinds": {
+      "read": 19475,
+      "array_verified": 10
+    },
+    "component_records": 95,
+    "connection_records": 235,
+    "axis_records": 31,
+    "drive_records": 19,
+    "equipment_relation_records": 113
+  },
+  "axes": [
+    {
+      "axis_unit": 1,
+      "name": "M_X",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "chain": {
+        "cu": 5,
+        "do": 4,
+        "bus_id": 3,
+        "slave": 15,
+        "slot": 2,
+        "do_type": 11
+      },
+      "evidence": {
+        "source": "NCK.ReadVar+SDB",
+        "md30110": {
+          "area": 0,
+          "block": 26,
+          "unit": 1,
+          "param": 30110,
+          "index": 0
+        },
+        "md13050": {
+          "area": 3,
+          "block": 26,
+          "unit": 1,
+          "param": 13050,
+          "index": 0
+        },
+        "md13060": {
+          "area": 3,
+          "block": 26,
+          "unit": 1,
+          "param": 13060,
+          "index": 0
+        }
+      }
+    },
+    {
+      "axis_unit": 2,
+      "name": "M_Y",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "chain": {
+        "cu": 1,
+        "do": 3,
+        "bus_id": 3,
+        "slave": 3,
+        "slot": 0,
+        "do_type": 11
+      },
+      "evidence": {
+        "source": "NCK.ReadVar+SDB",
+        "md30110": {
+          "area": 0,
+          "block": 26,
+          "unit": 2,
+          "param": 30110,
+          "index": 0
+        },
+        "md13050": {
+          "area": 3,
+          "block": 26,
+          "unit": 2,
+          "param": 13050,
+          "index": 0
+        },
+        "md13060": {
+          "area": 3,
+          "block": 26,
+          "unit": 2,
+          "param": 13060,
+          "index": 0
+        }
+      }
+    },
+    {
+      "axis_unit": 3,
+      "name": "M_Z",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "chain": {
+        "cu": 5,
+        "do": 2,
+        "bus_id": 3,
+        "slave": 15,
+        "slot": 0,
+        "do_type": 11
+      },
+      "evidence": {
+        "source": "NCK.ReadVar+SDB",
+        "md30110": {
+          "area": 0,
+          "block": 26,
+          "unit": 3,
+          "param": 30110,
+          "index": 0
+        },
+        "md13050": {
+          "area": 3,
+          "block": 26,
+          "unit": 3,
+          "param": 13050,
+          "index": 0
+        },
+        "md13060": {
+          "area": 3,
+          "block": 26,
+          "unit": 3,
+          "param": 13060,
+          "index": 0
+        }
+      }
+    },
+    {
+      "axis_unit": 4,
+      "name": "M_W",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "chain": {
+        "cu": 4,
+        "do": 4,
+        "bus_id": 3,
+        "slave": 14,
+        "slot": 1,
+        "do_type": 11
+      },
+      "evidence": {
+        "source": "NCK.ReadVar+SDB",
+        "md30110": {
+          "area": 0,
+          "block": 26,
+          "unit": 4,
+          "param": 30110,
+          "index": 0
+        },
+        "md13050": {
+          "area": 3,
+          "block": 26,
+          "unit": 4,
+          "param": 13050,
+          "index": 0
+        },
+        "md13060": {
+          "area": 3,
+          "block": 26,
+          "unit": 4,
+          "param": 13060,
+          "index": 0
+        }
+      }
+    },
+    {
+      "axis_unit": 5,
+      "name": "S_C10",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "chain": {
+        "cu": 4,
+        "do": 3,
+        "bus_id": 3,
+        "slave": 14,
+        "slot": 0,
+        "do_type": 11
+      },
+      "evidence": {
+        "source": "NCK.ReadVar+SDB",
+        "md30110": {
+          "area": 0,
+          "block": 26,
+          "unit": 5,
+          "param": 30110,
+          "index": 0
+        },
+        "md13050": {
+          "area": 3,
+          "block": 26,
+          "unit": 5,
+          "param": 13050,
+          "index": 0
+        },
+        "md13060": {
+          "area": 3,
+          "block": 26,
+          "unit": 5,
+          "param": 13060,
+          "index": 0
+        }
+      }
+    },
+    {
+      "axis_unit": 6,
+      "name": "S_C20",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "chain": {
+        "cu": 3,
+        "do": 3,
+        "bus_id": 3,
+        "slave": 13,
+        "slot": 0,
+        "do_type": 11
+      },
+      "evidence": {
+        "source": "NCK.ReadVar+SDB",
+        "md30110": {
+          "area": 0,
+          "block": 26,
+          "unit": 6,
+          "param": 30110,
+          "index": 0
+        },
+        "md13050": {
+          "area": 3,
+          "block": 26,
+          "unit": 6,
+          "param": 13050,
+          "index": 0
+        },
+        "md13060": {
+          "area": 3,
+          "block": 26,
+          "unit": 6,
+          "param": 13060,
+          "index": 0
+        }
+      }
+    },
+    {
+      "axis_unit": 7,
+      "name": "M_C1",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "chain": {
+        "cu": 1,
+        "do": 5,
+        "bus_id": 3,
+        "slave": 3,
+        "slot": 2,
+        "do_type": 11
+      },
+      "evidence": {
+        "source": "NCK.ReadVar+SDB",
+        "md30110": {
+          "area": 0,
+          "block": 26,
+          "unit": 7,
+          "param": 30110,
+          "index": 0
+        },
+        "md13050": {
+          "area": 3,
+          "block": 26,
+          "unit": 7,
+          "param": 13050,
+          "index": 0
+        },
+        "md13060": {
+          "area": 3,
+          "block": 26,
+          "unit": 7,
+          "param": 13060,
+          "index": 0
+        }
+      }
+    },
+    {
+      "axis_unit": 8,
+      "name": "M_B1",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "chain": {
+        "cu": 4,
+        "do": 6,
+        "bus_id": 3,
+        "slave": 14,
+        "slot": 3,
+        "do_type": 11
+      },
+      "evidence": {
+        "source": "NCK.ReadVar+SDB",
+        "md30110": {
+          "area": 0,
+          "block": 26,
+          "unit": 8,
+          "param": 30110,
+          "index": 0
+        },
+        "md13050": {
+          "area": 3,
+          "block": 26,
+          "unit": 8,
+          "param": 13050,
+          "index": 0
+        },
+        "md13060": {
+          "area": 3,
+          "block": 26,
+          "unit": 8,
+          "param": 13060,
+          "index": 0
+        }
+      }
+    },
+    {
+      "axis_unit": 9,
+      "name": "M_X2",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "chain": {
+        "cu": 5,
+        "do": 5,
+        "bus_id": 3,
+        "slave": 15,
+        "slot": 3,
+        "do_type": 11
+      },
+      "evidence": {
+        "source": "NCK.ReadVar+SDB",
+        "md30110": {
+          "area": 0,
+          "block": 26,
+          "unit": 9,
+          "param": 30110,
+          "index": 0
+        },
+        "md13050": {
+          "area": 3,
+          "block": 26,
+          "unit": 9,
+          "param": 13050,
+          "index": 0
+        },
+        "md13060": {
+          "area": 3,
+          "block": 26,
+          "unit": 9,
+          "param": 13060,
+          "index": 0
+        }
+      }
+    },
+    {
+      "axis_unit": 10,
+      "name": "M_Y10",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "chain": {
+        "cu": 1,
+        "do": 4,
+        "bus_id": 3,
+        "slave": 3,
+        "slot": 1,
+        "do_type": 11
+      },
+      "evidence": {
+        "source": "NCK.ReadVar+SDB",
+        "md30110": {
+          "area": 0,
+          "block": 26,
+          "unit": 10,
+          "param": 30110,
+          "index": 0
+        },
+        "md13050": {
+          "area": 3,
+          "block": 26,
+          "unit": 10,
+          "param": 13050,
+          "index": 0
+        },
+        "md13060": {
+          "area": 3,
+          "block": 26,
+          "unit": 10,
+          "param": 13060,
+          "index": 0
+        }
+      }
+    },
+    {
+      "axis_unit": 11,
+      "name": "M_Z10",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "chain": {
+        "cu": 5,
+        "do": 3,
+        "bus_id": 3,
+        "slave": 15,
+        "slot": 1,
+        "do_type": 11
+      },
+      "evidence": {
+        "source": "NCK.ReadVar+SDB",
+        "md30110": {
+          "area": 0,
+          "block": 26,
+          "unit": 11,
+          "param": 30110,
+          "index": 0
+        },
+        "md13050": {
+          "area": 3,
+          "block": 26,
+          "unit": 11,
+          "param": 13050,
+          "index": 0
+        },
+        "md13060": {
+          "area": 3,
+          "block": 26,
+          "unit": 11,
+          "param": 13060,
+          "index": 0
+        }
+      }
+    },
+    {
+      "axis_unit": 12,
+      "name": "M_W2",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "chain": {
+        "cu": 4,
+        "do": 5,
+        "bus_id": 3,
+        "slave": 14,
+        "slot": 2,
+        "do_type": 11
+      },
+      "evidence": {
+        "source": "NCK.ReadVar+SDB",
+        "md30110": {
+          "area": 0,
+          "block": 26,
+          "unit": 12,
+          "param": 30110,
+          "index": 0
+        },
+        "md13050": {
+          "area": 3,
+          "block": 26,
+          "unit": 12,
+          "param": 13050,
+          "index": 0
+        },
+        "md13060": {
+          "area": 3,
+          "block": 26,
+          "unit": 12,
+          "param": 13060,
+          "index": 0
+        }
+      }
+    },
+    {
+      "axis_unit": 13,
+      "name": "M_X12",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "chain": {
+        "cu": 2,
+        "do": 2,
+        "bus_id": 3,
+        "slave": 12,
+        "slot": 0,
+        "do_type": 11
+      },
+      "evidence": {
+        "source": "NCK.ReadVar+SDB",
+        "md30110": {
+          "area": 0,
+          "block": 26,
+          "unit": 13,
+          "param": 30110,
+          "index": 0
+        },
+        "md13050": {
+          "area": 3,
+          "block": 26,
+          "unit": 13,
+          "param": 13050,
+          "index": 0
+        },
+        "md13060": {
+          "area": 3,
+          "block": 26,
+          "unit": 13,
+          "param": 13060,
+          "index": 0
+        }
+      }
+    },
+    {
+      "axis_unit": 14,
+      "name": "M_Y12",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "chain": {
+        "cu": 2,
+        "do": 4,
+        "bus_id": 3,
+        "slave": 12,
+        "slot": 2,
+        "do_type": 11
+      },
+      "evidence": {
+        "source": "NCK.ReadVar+SDB",
+        "md30110": {
+          "area": 0,
+          "block": 26,
+          "unit": 14,
+          "param": 30110,
+          "index": 0
+        },
+        "md13050": {
+          "area": 3,
+          "block": 26,
+          "unit": 14,
+          "param": 13050,
+          "index": 0
+        },
+        "md13060": {
+          "area": 3,
+          "block": 26,
+          "unit": 14,
+          "param": 13060,
+          "index": 0
+        }
+      }
+    },
+    {
+      "axis_unit": 15,
+      "name": "M_Z12",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "chain": {
+        "cu": 2,
+        "do": 3,
+        "bus_id": 3,
+        "slave": 12,
+        "slot": 1,
+        "do_type": 11
+      },
+      "evidence": {
+        "source": "NCK.ReadVar+SDB",
+        "md30110": {
+          "area": 0,
+          "block": 26,
+          "unit": 15,
+          "param": 30110,
+          "index": 0
+        },
+        "md13050": {
+          "area": 3,
+          "block": 26,
+          "unit": 15,
+          "param": 13050,
+          "index": 0
+        },
+        "md13060": {
+          "area": 3,
+          "block": 26,
+          "unit": 15,
+          "param": 13060,
+          "index": 0
+        }
+      }
+    },
+    {
+      "axis_unit": 16,
+      "name": "M_A12",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "chain": {
+        "cu": 2,
+        "do": 5,
+        "bus_id": 3,
+        "slave": 12,
+        "slot": 3,
+        "do_type": 11
+      },
+      "evidence": {
+        "source": "NCK.ReadVar+SDB",
+        "md30110": {
+          "area": 0,
+          "block": 26,
+          "unit": 16,
+          "param": 30110,
+          "index": 0
+        },
+        "md13050": {
+          "area": 3,
+          "block": 26,
+          "unit": 16,
+          "param": 13050,
+          "index": 0
+        },
+        "md13060": {
+          "area": 3,
+          "block": 26,
+          "unit": 16,
+          "param": 13060,
+          "index": 0
+        }
+      }
+    },
+    {
+      "axis_unit": 17,
+      "name": "M_Q11",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "chain": {
+        "cu": 2,
+        "do": 6,
+        "bus_id": 3,
+        "slave": 12,
+        "slot": 4,
+        "do_type": 11
+      },
+      "evidence": {
+        "source": "NCK.ReadVar+SDB",
+        "md30110": {
+          "area": 0,
+          "block": 26,
+          "unit": 17,
+          "param": 30110,
+          "index": 0
+        },
+        "md13050": {
+          "area": 3,
+          "block": 26,
+          "unit": 17,
+          "param": 13050,
+          "index": 0
+        },
+        "md13060": {
+          "area": 3,
+          "block": 26,
+          "unit": 17,
+          "param": 13060,
+          "index": 0
+        }
+      }
+    },
+    {
+      "axis_unit": 18,
+      "name": "M_Q12",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "chain": {
+        "cu": 2,
+        "do": 7,
+        "bus_id": 3,
+        "slave": 12,
+        "slot": 5,
+        "do_type": 11
+      },
+      "evidence": {
+        "source": "NCK.ReadVar+SDB",
+        "md30110": {
+          "area": 0,
+          "block": 26,
+          "unit": 18,
+          "param": 30110,
+          "index": 0
+        },
+        "md13050": {
+          "area": 3,
+          "block": 26,
+          "unit": 18,
+          "param": 13050,
+          "index": 0
+        },
+        "md13060": {
+          "area": 3,
+          "block": 26,
+          "unit": 18,
+          "param": 13060,
+          "index": 0
+        }
+      }
+    },
+    {
+      "axis_unit": 19,
+      "name": "M_U1",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "chain": {
+        "cu": 3,
+        "do": 4,
+        "bus_id": 3,
+        "slave": 13,
+        "slot": 1,
+        "do_type": 11
+      },
+      "evidence": {
+        "source": "NCK.ReadVar+SDB",
+        "md30110": {
+          "area": 0,
+          "block": 26,
+          "unit": 19,
+          "param": 30110,
+          "index": 0
+        },
+        "md13050": {
+          "area": 3,
+          "block": 26,
+          "unit": 19,
+          "param": 13050,
+          "index": 0
+        },
+        "md13060": {
+          "area": 3,
+          "block": 26,
+          "unit": 19,
+          "param": 13060,
+          "index": 0
+        }
+      }
+    },
+    {
+      "axis_unit": 20,
+      "name": null,
+      "status": "unresolved",
+      "confidence": "unresolved",
+      "chain": {
+        "cu": null,
+        "do": null,
+        "bus_id": null,
+        "slave": null,
+        "slot": null,
+        "do_type": null
+      },
+      "evidence": {
+        "source": "NCK.ReadVar+SDB",
+        "md30110": {
+          "area": 0,
+          "block": 26,
+          "unit": 20,
+          "param": 30110,
+          "index": 0
+        },
+        "md13050": {
+          "area": 3,
+          "block": 26,
+          "unit": 20,
+          "param": 13050,
+          "index": 0
+        },
+        "md13060": {
+          "area": 3,
+          "block": 26,
+          "unit": 20,
+          "param": 13060,
+          "index": 0
+        }
+      }
+    },
+    {
+      "axis_unit": 21,
+      "name": null,
+      "status": "unresolved",
+      "confidence": "unresolved",
+      "chain": {
+        "cu": null,
+        "do": null,
+        "bus_id": null,
+        "slave": null,
+        "slot": null,
+        "do_type": null
+      },
+      "evidence": {
+        "source": "NCK.ReadVar+SDB",
+        "md30110": {
+          "area": 0,
+          "block": 26,
+          "unit": 21,
+          "param": 30110,
+          "index": 0
+        },
+        "md13050": {
+          "area": 3,
+          "block": 26,
+          "unit": 21,
+          "param": 13050,
+          "index": 0
+        },
+        "md13060": {
+          "area": 3,
+          "block": 26,
+          "unit": 21,
+          "param": 13060,
+          "index": 0
+        }
+      }
+    },
+    {
+      "axis_unit": 22,
+      "name": null,
+      "status": "unresolved",
+      "confidence": "unresolved",
+      "chain": {
+        "cu": null,
+        "do": null,
+        "bus_id": null,
+        "slave": null,
+        "slot": null,
+        "do_type": null
+      },
+      "evidence": {
+        "source": "NCK.ReadVar+SDB",
+        "md30110": {
+          "area": 0,
+          "block": 26,
+          "unit": 22,
+          "param": 30110,
+          "index": 0
+        },
+        "md13050": {
+          "area": 3,
+          "block": 26,
+          "unit": 22,
+          "param": 13050,
+          "index": 0
+        },
+        "md13060": {
+          "area": 3,
+          "block": 26,
+          "unit": 22,
+          "param": 13060,
+          "index": 0
+        }
+      }
+    },
+    {
+      "axis_unit": 23,
+      "name": null,
+      "status": "unresolved",
+      "confidence": "unresolved",
+      "chain": {
+        "cu": null,
+        "do": null,
+        "bus_id": null,
+        "slave": null,
+        "slot": null,
+        "do_type": null
+      },
+      "evidence": {
+        "source": "NCK.ReadVar+SDB",
+        "md30110": {
+          "area": 0,
+          "block": 26,
+          "unit": 23,
+          "param": 30110,
+          "index": 0
+        },
+        "md13050": {
+          "area": 3,
+          "block": 26,
+          "unit": 23,
+          "param": 13050,
+          "index": 0
+        },
+        "md13060": {
+          "area": 3,
+          "block": 26,
+          "unit": 23,
+          "param": 13060,
+          "index": 0
+        }
+      }
+    },
+    {
+      "axis_unit": 24,
+      "name": "S_C21",
+      "status": "unresolved",
+      "confidence": "unresolved",
+      "chain": {
+        "cu": null,
+        "do": null,
+        "bus_id": null,
+        "slave": null,
+        "slot": null,
+        "do_type": null
+      },
+      "evidence": {
+        "source": "NCK.ReadVar+SDB",
+        "md30110": {
+          "area": 0,
+          "block": 26,
+          "unit": 24,
+          "param": 30110,
+          "index": 0
+        },
+        "md13050": {
+          "area": 3,
+          "block": 26,
+          "unit": 24,
+          "param": 13050,
+          "index": 0
+        },
+        "md13060": {
+          "area": 3,
+          "block": 26,
+          "unit": 24,
+          "param": 13060,
+          "index": 0
+        }
+      }
+    },
+    {
+      "axis_unit": 25,
+      "name": "M_W10",
+      "status": "unresolved",
+      "confidence": "unresolved",
+      "chain": {
+        "cu": null,
+        "do": null,
+        "bus_id": null,
+        "slave": null,
+        "slot": null,
+        "do_type": null
+      },
+      "evidence": {
+        "source": "NCK.ReadVar+SDB",
+        "md30110": {
+          "area": 0,
+          "block": 26,
+          "unit": 25,
+          "param": 30110,
+          "index": 0
+        },
+        "md13050": {
+          "area": 3,
+          "block": 26,
+          "unit": 25,
+          "param": 13050,
+          "index": 0
+        },
+        "md13060": {
+          "area": 3,
+          "block": 26,
+          "unit": 25,
+          "param": 13060,
+          "index": 0
+        }
+      }
+    },
+    {
+      "axis_unit": 26,
+      "name": "M_W20",
+      "status": "unresolved",
+      "confidence": "unresolved",
+      "chain": {
+        "cu": null,
+        "do": null,
+        "bus_id": null,
+        "slave": null,
+        "slot": null,
+        "do_type": null
+      },
+      "evidence": {
+        "source": "NCK.ReadVar+SDB",
+        "md30110": {
+          "area": 0,
+          "block": 26,
+          "unit": 26,
+          "param": 30110,
+          "index": 0
+        },
+        "md13050": {
+          "area": 3,
+          "block": 26,
+          "unit": 26,
+          "param": 13050,
+          "index": 0
+        },
+        "md13060": {
+          "area": 3,
+          "block": 26,
+          "unit": 26,
+          "param": 13060,
+          "index": 0
+        }
+      }
+    },
+    {
+      "axis_unit": 27,
+      "name": null,
+      "status": "unresolved",
+      "confidence": "unresolved",
+      "chain": {
+        "cu": null,
+        "do": null,
+        "bus_id": null,
+        "slave": null,
+        "slot": null,
+        "do_type": null
+      },
+      "evidence": {
+        "source": "NCK.ReadVar+SDB",
+        "md30110": {
+          "area": 0,
+          "block": 26,
+          "unit": 27,
+          "param": 30110,
+          "index": 0
+        },
+        "md13050": {
+          "area": 3,
+          "block": 26,
+          "unit": 27,
+          "param": 13050,
+          "index": 0
+        },
+        "md13060": {
+          "area": 3,
+          "block": 26,
+          "unit": 27,
+          "param": 13060,
+          "index": 0
+        }
+      }
+    },
+    {
+      "axis_unit": 28,
+      "name": null,
+      "status": "unresolved",
+      "confidence": "unresolved",
+      "chain": {
+        "cu": null,
+        "do": null,
+        "bus_id": null,
+        "slave": null,
+        "slot": null,
+        "do_type": null
+      },
+      "evidence": {
+        "source": "NCK.ReadVar+SDB",
+        "md30110": {
+          "area": 0,
+          "block": 26,
+          "unit": 28,
+          "param": 30110,
+          "index": 0
+        },
+        "md13050": {
+          "area": 3,
+          "block": 26,
+          "unit": 28,
+          "param": 13050,
+          "index": 0
+        },
+        "md13060": {
+          "area": 3,
+          "block": 26,
+          "unit": 28,
+          "param": 13060,
+          "index": 0
+        }
+      }
+    },
+    {
+      "axis_unit": 29,
+      "name": null,
+      "status": "unresolved",
+      "confidence": "unresolved",
+      "chain": {
+        "cu": null,
+        "do": null,
+        "bus_id": null,
+        "slave": null,
+        "slot": null,
+        "do_type": null
+      },
+      "evidence": {
+        "source": "NCK.ReadVar+SDB",
+        "md30110": {
+          "area": 0,
+          "block": 26,
+          "unit": 29,
+          "param": 30110,
+          "index": 0
+        },
+        "md13050": {
+          "area": 3,
+          "block": 26,
+          "unit": 29,
+          "param": 13050,
+          "index": 0
+        },
+        "md13060": {
+          "area": 3,
+          "block": 26,
+          "unit": 29,
+          "param": 13060,
+          "index": 0
+        }
+      }
+    },
+    {
+      "axis_unit": 30,
+      "name": null,
+      "status": "unresolved",
+      "confidence": "unresolved",
+      "chain": {
+        "cu": null,
+        "do": null,
+        "bus_id": null,
+        "slave": null,
+        "slot": null,
+        "do_type": null
+      },
+      "evidence": {
+        "source": "NCK.ReadVar+SDB",
+        "md30110": {
+          "area": 0,
+          "block": 26,
+          "unit": 30,
+          "param": 30110,
+          "index": 0
+        },
+        "md13050": {
+          "area": 3,
+          "block": 26,
+          "unit": 30,
+          "param": 13050,
+          "index": 0
+        },
+        "md13060": {
+          "area": 3,
+          "block": 26,
+          "unit": 30,
+          "param": 13060,
+          "index": 0
+        }
+      }
+    },
+    {
+      "axis_unit": 31,
+      "name": null,
+      "status": "unresolved",
+      "confidence": "unresolved",
+      "chain": {
+        "cu": null,
+        "do": null,
+        "bus_id": null,
+        "slave": null,
+        "slot": null,
+        "do_type": null
+      },
+      "evidence": {
+        "source": "NCK.ReadVar+SDB",
+        "md30110": {
+          "area": 0,
+          "block": 26,
+          "unit": 31,
+          "param": 30110,
+          "index": 0
+        },
+        "md13050": {
+          "area": 3,
+          "block": 26,
+          "unit": 31,
+          "param": 13050,
+          "index": 0
+        },
+        "md13060": {
+          "area": 3,
+          "block": 26,
+          "unit": 31,
+          "param": 13060,
+          "index": 0
+        }
+      }
+    }
+  ],
+  "drives": [
+    {
+      "unit": 1,
+      "name": "SERVO_3.3:3",
+      "identity": {
+        "bus_id": 3,
+        "slave": 3,
+        "do": 3
+      },
+      "type": 11,
+      "do_state": 1,
+      "telegram": 136,
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "axis_unit": 2,
+      "cu": 1,
+      "evidence": {
+        "type": {
+          "area": 5,
+          "block": 130,
+          "unit": 1,
+          "param": 107,
+          "index": 0
+        },
+        "name": {
+          "area": 5,
+          "block": 130,
+          "unit": 1,
+          "param": 199,
+          "index": 0
+        },
+        "do_state": {
+          "area": 5,
+          "block": 130,
+          "unit": 1,
+          "param": 105,
+          "index": 0
+        },
+        "telegram": {
+          "area": 5,
+          "block": 130,
+          "unit": 1,
+          "param": 922,
+          "index": 0
+        }
+      }
+    },
+    {
+      "unit": 2,
+      "name": "SERVO_3.3:4",
+      "identity": {
+        "bus_id": 3,
+        "slave": 3,
+        "do": 4
+      },
+      "type": 11,
+      "do_state": 1,
+      "telegram": 136,
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "axis_unit": 10,
+      "cu": 1,
+      "evidence": {
+        "type": {
+          "area": 5,
+          "block": 130,
+          "unit": 2,
+          "param": 107,
+          "index": 0
+        },
+        "name": {
+          "area": 5,
+          "block": 130,
+          "unit": 2,
+          "param": 199,
+          "index": 0
+        },
+        "do_state": {
+          "area": 5,
+          "block": 130,
+          "unit": 2,
+          "param": 105,
+          "index": 0
+        },
+        "telegram": {
+          "area": 5,
+          "block": 130,
+          "unit": 2,
+          "param": 922,
+          "index": 0
+        }
+      }
+    },
+    {
+      "unit": 3,
+      "name": "SERVO_3.3:5",
+      "identity": {
+        "bus_id": 3,
+        "slave": 3,
+        "do": 5
+      },
+      "type": 11,
+      "do_state": 1,
+      "telegram": 136,
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "axis_unit": 7,
+      "cu": 1,
+      "evidence": {
+        "type": {
+          "area": 5,
+          "block": 130,
+          "unit": 3,
+          "param": 107,
+          "index": 0
+        },
+        "name": {
+          "area": 5,
+          "block": 130,
+          "unit": 3,
+          "param": 199,
+          "index": 0
+        },
+        "do_state": {
+          "area": 5,
+          "block": 130,
+          "unit": 3,
+          "param": 105,
+          "index": 0
+        },
+        "telegram": {
+          "area": 5,
+          "block": 130,
+          "unit": 3,
+          "param": 922,
+          "index": 0
+        }
+      }
+    },
+    {
+      "unit": 4,
+      "name": "SERVO_3.12:2_X12",
+      "identity": {
+        "bus_id": 3,
+        "slave": 12,
+        "do": 2
+      },
+      "type": 11,
+      "do_state": 1,
+      "telegram": 136,
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "axis_unit": 13,
+      "cu": 2,
+      "evidence": {
+        "type": {
+          "area": 5,
+          "block": 130,
+          "unit": 4,
+          "param": 107,
+          "index": 0
+        },
+        "name": {
+          "area": 5,
+          "block": 130,
+          "unit": 4,
+          "param": 199,
+          "index": 0
+        },
+        "do_state": {
+          "area": 5,
+          "block": 130,
+          "unit": 4,
+          "param": 105,
+          "index": 0
+        },
+        "telegram": {
+          "area": 5,
+          "block": 130,
+          "unit": 4,
+          "param": 922,
+          "index": 0
+        }
+      }
+    },
+    {
+      "unit": 5,
+      "name": "SERVO_3.12:3_Z12",
+      "identity": {
+        "bus_id": 3,
+        "slave": 12,
+        "do": 3
+      },
+      "type": 11,
+      "do_state": 1,
+      "telegram": 136,
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "axis_unit": 15,
+      "cu": 2,
+      "evidence": {
+        "type": {
+          "area": 5,
+          "block": 130,
+          "unit": 5,
+          "param": 107,
+          "index": 0
+        },
+        "name": {
+          "area": 5,
+          "block": 130,
+          "unit": 5,
+          "param": 199,
+          "index": 0
+        },
+        "do_state": {
+          "area": 5,
+          "block": 130,
+          "unit": 5,
+          "param": 105,
+          "index": 0
+        },
+        "telegram": {
+          "area": 5,
+          "block": 130,
+          "unit": 5,
+          "param": 922,
+          "index": 0
+        }
+      }
+    },
+    {
+      "unit": 6,
+      "name": "SERVO_3.12:4_Y12",
+      "identity": {
+        "bus_id": 3,
+        "slave": 12,
+        "do": 4
+      },
+      "type": 11,
+      "do_state": 1,
+      "telegram": 136,
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "axis_unit": 14,
+      "cu": 2,
+      "evidence": {
+        "type": {
+          "area": 5,
+          "block": 130,
+          "unit": 6,
+          "param": 107,
+          "index": 0
+        },
+        "name": {
+          "area": 5,
+          "block": 130,
+          "unit": 6,
+          "param": 199,
+          "index": 0
+        },
+        "do_state": {
+          "area": 5,
+          "block": 130,
+          "unit": 6,
+          "param": 105,
+          "index": 0
+        },
+        "telegram": {
+          "area": 5,
+          "block": 130,
+          "unit": 6,
+          "param": 922,
+          "index": 0
+        }
+      }
+    },
+    {
+      "unit": 7,
+      "name": "SERVO_3.12:5_A12",
+      "identity": {
+        "bus_id": 3,
+        "slave": 12,
+        "do": 5
+      },
+      "type": 11,
+      "do_state": 1,
+      "telegram": 136,
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "axis_unit": 16,
+      "cu": 2,
+      "evidence": {
+        "type": {
+          "area": 5,
+          "block": 130,
+          "unit": 7,
+          "param": 107,
+          "index": 0
+        },
+        "name": {
+          "area": 5,
+          "block": 130,
+          "unit": 7,
+          "param": 199,
+          "index": 0
+        },
+        "do_state": {
+          "area": 5,
+          "block": 130,
+          "unit": 7,
+          "param": 105,
+          "index": 0
+        },
+        "telegram": {
+          "area": 5,
+          "block": 130,
+          "unit": 7,
+          "param": 922,
+          "index": 0
+        }
+      }
+    },
+    {
+      "unit": 8,
+      "name": "SERVO_3.12:6_Q11",
+      "identity": {
+        "bus_id": 3,
+        "slave": 12,
+        "do": 6
+      },
+      "type": 11,
+      "do_state": 1,
+      "telegram": 136,
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "axis_unit": 17,
+      "cu": 2,
+      "evidence": {
+        "type": {
+          "area": 5,
+          "block": 130,
+          "unit": 8,
+          "param": 107,
+          "index": 0
+        },
+        "name": {
+          "area": 5,
+          "block": 130,
+          "unit": 8,
+          "param": 199,
+          "index": 0
+        },
+        "do_state": {
+          "area": 5,
+          "block": 130,
+          "unit": 8,
+          "param": 105,
+          "index": 0
+        },
+        "telegram": {
+          "area": 5,
+          "block": 130,
+          "unit": 8,
+          "param": 922,
+          "index": 0
+        }
+      }
+    },
+    {
+      "unit": 9,
+      "name": "SERVO_3.12:7_Q12",
+      "identity": {
+        "bus_id": 3,
+        "slave": 12,
+        "do": 7
+      },
+      "type": 11,
+      "do_state": 1,
+      "telegram": 136,
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "axis_unit": 18,
+      "cu": 2,
+      "evidence": {
+        "type": {
+          "area": 5,
+          "block": 130,
+          "unit": 9,
+          "param": 107,
+          "index": 0
+        },
+        "name": {
+          "area": 5,
+          "block": 130,
+          "unit": 9,
+          "param": 199,
+          "index": 0
+        },
+        "do_state": {
+          "area": 5,
+          "block": 130,
+          "unit": 9,
+          "param": 105,
+          "index": 0
+        },
+        "telegram": {
+          "area": 5,
+          "block": 130,
+          "unit": 9,
+          "param": 922,
+          "index": 0
+        }
+      }
+    },
+    {
+      "unit": 10,
+      "name": "SERVO_3.13:3",
+      "identity": {
+        "bus_id": 3,
+        "slave": 13,
+        "do": 3
+      },
+      "type": 11,
+      "do_state": 1,
+      "telegram": 136,
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "axis_unit": 6,
+      "cu": 3,
+      "evidence": {
+        "type": {
+          "area": 5,
+          "block": 130,
+          "unit": 10,
+          "param": 107,
+          "index": 0
+        },
+        "name": {
+          "area": 5,
+          "block": 130,
+          "unit": 10,
+          "param": 199,
+          "index": 0
+        },
+        "do_state": {
+          "area": 5,
+          "block": 130,
+          "unit": 10,
+          "param": 105,
+          "index": 0
+        },
+        "telegram": {
+          "area": 5,
+          "block": 130,
+          "unit": 10,
+          "param": 922,
+          "index": 0
+        }
+      }
+    },
+    {
+      "unit": 11,
+      "name": "SERVO_3.13:4",
+      "identity": {
+        "bus_id": 3,
+        "slave": 13,
+        "do": 4
+      },
+      "type": 11,
+      "do_state": 1,
+      "telegram": 136,
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "axis_unit": 19,
+      "cu": 3,
+      "evidence": {
+        "type": {
+          "area": 5,
+          "block": 130,
+          "unit": 11,
+          "param": 107,
+          "index": 0
+        },
+        "name": {
+          "area": 5,
+          "block": 130,
+          "unit": 11,
+          "param": 199,
+          "index": 0
+        },
+        "do_state": {
+          "area": 5,
+          "block": 130,
+          "unit": 11,
+          "param": 105,
+          "index": 0
+        },
+        "telegram": {
+          "area": 5,
+          "block": 130,
+          "unit": 11,
+          "param": 922,
+          "index": 0
+        }
+      }
+    },
+    {
+      "unit": 12,
+      "name": "SERVO_3.14:3",
+      "identity": {
+        "bus_id": 3,
+        "slave": 14,
+        "do": 3
+      },
+      "type": 11,
+      "do_state": 1,
+      "telegram": 136,
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "axis_unit": 5,
+      "cu": 4,
+      "evidence": {
+        "type": {
+          "area": 5,
+          "block": 130,
+          "unit": 12,
+          "param": 107,
+          "index": 0
+        },
+        "name": {
+          "area": 5,
+          "block": 130,
+          "unit": 12,
+          "param": 199,
+          "index": 0
+        },
+        "do_state": {
+          "area": 5,
+          "block": 130,
+          "unit": 12,
+          "param": 105,
+          "index": 0
+        },
+        "telegram": {
+          "area": 5,
+          "block": 130,
+          "unit": 12,
+          "param": 922,
+          "index": 0
+        }
+      }
+    },
+    {
+      "unit": 13,
+      "name": "SERVO_3.14:4",
+      "identity": {
+        "bus_id": 3,
+        "slave": 14,
+        "do": 4
+      },
+      "type": 11,
+      "do_state": 1,
+      "telegram": 136,
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "axis_unit": 4,
+      "cu": 4,
+      "evidence": {
+        "type": {
+          "area": 5,
+          "block": 130,
+          "unit": 13,
+          "param": 107,
+          "index": 0
+        },
+        "name": {
+          "area": 5,
+          "block": 130,
+          "unit": 13,
+          "param": 199,
+          "index": 0
+        },
+        "do_state": {
+          "area": 5,
+          "block": 130,
+          "unit": 13,
+          "param": 105,
+          "index": 0
+        },
+        "telegram": {
+          "area": 5,
+          "block": 130,
+          "unit": 13,
+          "param": 922,
+          "index": 0
+        }
+      }
+    },
+    {
+      "unit": 14,
+      "name": "SERVO_3.14:5",
+      "identity": {
+        "bus_id": 3,
+        "slave": 14,
+        "do": 5
+      },
+      "type": 11,
+      "do_state": 1,
+      "telegram": 136,
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "axis_unit": 12,
+      "cu": 4,
+      "evidence": {
+        "type": {
+          "area": 5,
+          "block": 130,
+          "unit": 14,
+          "param": 107,
+          "index": 0
+        },
+        "name": {
+          "area": 5,
+          "block": 130,
+          "unit": 14,
+          "param": 199,
+          "index": 0
+        },
+        "do_state": {
+          "area": 5,
+          "block": 130,
+          "unit": 14,
+          "param": 105,
+          "index": 0
+        },
+        "telegram": {
+          "area": 5,
+          "block": 130,
+          "unit": 14,
+          "param": 922,
+          "index": 0
+        }
+      }
+    },
+    {
+      "unit": 15,
+      "name": "SERVO_3.14:6",
+      "identity": {
+        "bus_id": 3,
+        "slave": 14,
+        "do": 6
+      },
+      "type": 11,
+      "do_state": 1,
+      "telegram": 136,
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "axis_unit": 8,
+      "cu": 4,
+      "evidence": {
+        "type": {
+          "area": 5,
+          "block": 130,
+          "unit": 15,
+          "param": 107,
+          "index": 0
+        },
+        "name": {
+          "area": 5,
+          "block": 130,
+          "unit": 15,
+          "param": 199,
+          "index": 0
+        },
+        "do_state": {
+          "area": 5,
+          "block": 130,
+          "unit": 15,
+          "param": 105,
+          "index": 0
+        },
+        "telegram": {
+          "area": 5,
+          "block": 130,
+          "unit": 15,
+          "param": 922,
+          "index": 0
+        }
+      }
+    },
+    {
+      "unit": 16,
+      "name": "SERVO_3.15:2",
+      "identity": {
+        "bus_id": 3,
+        "slave": 15,
+        "do": 2
+      },
+      "type": 11,
+      "do_state": 1,
+      "telegram": 136,
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "axis_unit": 3,
+      "cu": 5,
+      "evidence": {
+        "type": {
+          "area": 5,
+          "block": 130,
+          "unit": 16,
+          "param": 107,
+          "index": 0
+        },
+        "name": {
+          "area": 5,
+          "block": 130,
+          "unit": 16,
+          "param": 199,
+          "index": 0
+        },
+        "do_state": {
+          "area": 5,
+          "block": 130,
+          "unit": 16,
+          "param": 105,
+          "index": 0
+        },
+        "telegram": {
+          "area": 5,
+          "block": 130,
+          "unit": 16,
+          "param": 922,
+          "index": 0
+        }
+      }
+    },
+    {
+      "unit": 17,
+      "name": "SERVO_3.15:3",
+      "identity": {
+        "bus_id": 3,
+        "slave": 15,
+        "do": 3
+      },
+      "type": 11,
+      "do_state": 1,
+      "telegram": 136,
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "axis_unit": 11,
+      "cu": 5,
+      "evidence": {
+        "type": {
+          "area": 5,
+          "block": 130,
+          "unit": 17,
+          "param": 107,
+          "index": 0
+        },
+        "name": {
+          "area": 5,
+          "block": 130,
+          "unit": 17,
+          "param": 199,
+          "index": 0
+        },
+        "do_state": {
+          "area": 5,
+          "block": 130,
+          "unit": 17,
+          "param": 105,
+          "index": 0
+        },
+        "telegram": {
+          "area": 5,
+          "block": 130,
+          "unit": 17,
+          "param": 922,
+          "index": 0
+        }
+      }
+    },
+    {
+      "unit": 18,
+      "name": "SERVO_3.15:4",
+      "identity": {
+        "bus_id": 3,
+        "slave": 15,
+        "do": 4
+      },
+      "type": 11,
+      "do_state": 1,
+      "telegram": 136,
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "axis_unit": 1,
+      "cu": 5,
+      "evidence": {
+        "type": {
+          "area": 5,
+          "block": 130,
+          "unit": 18,
+          "param": 107,
+          "index": 0
+        },
+        "name": {
+          "area": 5,
+          "block": 130,
+          "unit": 18,
+          "param": 199,
+          "index": 0
+        },
+        "do_state": {
+          "area": 5,
+          "block": 130,
+          "unit": 18,
+          "param": 105,
+          "index": 0
+        },
+        "telegram": {
+          "area": 5,
+          "block": 130,
+          "unit": 18,
+          "param": 922,
+          "index": 0
+        }
+      }
+    },
+    {
+      "unit": 19,
+      "name": "SERVO_3.15:5",
+      "identity": {
+        "bus_id": 3,
+        "slave": 15,
+        "do": 5
+      },
+      "type": 11,
+      "do_state": 1,
+      "telegram": 136,
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "axis_unit": 9,
+      "cu": 5,
+      "evidence": {
+        "type": {
+          "area": 5,
+          "block": 130,
+          "unit": 19,
+          "param": 107,
+          "index": 0
+        },
+        "name": {
+          "area": 5,
+          "block": 130,
+          "unit": 19,
+          "param": 199,
+          "index": 0
+        },
+        "do_state": {
+          "area": 5,
+          "block": 130,
+          "unit": 19,
+          "param": 105,
+          "index": 0
+        },
+        "telegram": {
+          "area": 5,
+          "block": 130,
+          "unit": 19,
+          "param": 922,
+          "index": 0
+        }
+      }
+    }
+  ],
+  "components": [
+    {
+      "identity": {
+        "context": "CU",
+        "cu": 1,
+        "component": 1
+      },
+      "name": "Control_Unit_1",
+      "type_code": 102,
+      "device_class": "NCU",
+      "device_id": "T-E32008190",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "parameter": "r9901/r9903"
+      }
+    },
+    {
+      "identity": {
+        "context": "CU",
+        "cu": 1,
+        "component": 2
+      },
+      "name": "Line_Module_2",
+      "type_code": 368,
+      "device_class": "LINE_MODULE",
+      "device_id": "T-H96078978",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "parameter": "r9901/r9903"
+      }
+    },
+    {
+      "identity": {
+        "context": "CU",
+        "cu": 1,
+        "component": 3
+      },
+      "name": "Motor_Module_3",
+      "type_code": 260,
+      "device_class": "MOTOR_MODULE",
+      "device_id": "T-E56043376",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "parameter": "r9901/r9903"
+      }
+    },
+    {
+      "identity": {
+        "context": "CU",
+        "cu": 1,
+        "component": 4
+      },
+      "name": "Motor_Module_4",
+      "type_code": 260,
+      "device_class": "MOTOR_MODULE",
+      "device_id": "T-E56043374",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "parameter": "r9901/r9903"
+      }
+    },
+    {
+      "identity": {
+        "context": "CU",
+        "cu": 1,
+        "component": 5
+      },
+      "name": "Motor_Module_5",
+      "type_code": 260,
+      "device_class": "MOTOR_MODULE",
+      "device_id": "T-E56005283",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "parameter": "r9901/r9903"
+      }
+    },
+    {
+      "identity": {
+        "context": "CU",
+        "cu": 1,
+        "component": 6
+      },
+      "name": "SMI20_6",
+      "type_code": 576,
+      "device_class": "SENSOR_MODULE",
+      "device_id": "T-DD6011105",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "parameter": "r9901/r9903"
+      }
+    },
+    {
+      "identity": {
+        "context": "CU",
+        "cu": 1,
+        "component": 7
+      },
+      "name": "Encoder_7",
+      "type_code": 4001,
+      "device_class": "ENCODER",
+      "device_id": "T-DD6011105",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "parameter": "r9901/r9903"
+      }
+    },
+    {
+      "identity": {
+        "context": "CU",
+        "cu": 1,
+        "component": 8
+      },
+      "name": "Motor_SMI_8",
+      "type_code": 3801,
+      "device_class": "MOTOR",
+      "device_id": "E164 54795 01 002",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "parameter": "r9901/r9903"
+      }
+    },
+    {
+      "identity": {
+        "context": "CU",
+        "cu": 1,
+        "component": 9
+      },
+      "name": "SMI20_9",
+      "type_code": 576,
+      "device_class": "SENSOR_MODULE",
+      "device_id": "T-E26271493",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "parameter": "r9901/r9903"
+      }
+    },
+    {
+      "identity": {
+        "context": "CU",
+        "cu": 1,
+        "component": 10
+      },
+      "name": "Encoder_10",
+      "type_code": 4001,
+      "device_class": "ENCODER",
+      "device_id": "T-E26271493",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "parameter": "r9901/r9903"
+      }
+    },
+    {
+      "identity": {
+        "context": "CU",
+        "cu": 1,
+        "component": 11
+      },
+      "name": "Motor_SMI_11",
+      "type_code": 3801,
+      "device_class": "MOTOR",
+      "device_id": "E364 71679 02 002",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "parameter": "r9901/r9903"
+      }
+    },
+    {
+      "identity": {
+        "context": "CU",
+        "cu": 1,
+        "component": 12
+      },
+      "name": "SMI20_12",
+      "type_code": 576,
+      "device_class": "SENSOR_MODULE",
+      "device_id": "T-E26271496",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "parameter": "r9901/r9903"
+      }
+    },
+    {
+      "identity": {
+        "context": "CU",
+        "cu": 1,
+        "component": 13
+      },
+      "name": "Encoder_13",
+      "type_code": 4001,
+      "device_class": "ENCODER",
+      "device_id": "T-E26271496",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "parameter": "r9901/r9903"
+      }
+    },
+    {
+      "identity": {
+        "context": "CU",
+        "cu": 1,
+        "component": 14
+      },
+      "name": "Motor_SMI_14",
+      "type_code": 3801,
+      "device_class": "MOTOR",
+      "device_id": "E364 71679 02 001",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "parameter": "r9901/r9903"
+      }
+    },
+    {
+      "identity": {
+        "context": "CU",
+        "cu": 1,
+        "component": 15
+      },
+      "name": "SM_15",
+      "type_code": 512,
+      "device_class": "SENSOR_MODULE",
+      "device_id": "T-E56038935",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "parameter": "r9901/r9903"
+      }
+    },
+    {
+      "identity": {
+        "context": "CU",
+        "cu": 1,
+        "component": 17
+      },
+      "name": "CU_LINK_17",
+      "type_code": 23,
+      "device_class": "NX",
+      "device_id": "T-E36203328",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "parameter": "r9901/r9903"
+      }
+    },
+    {
+      "identity": {
+        "context": "CU",
+        "cu": 1,
+        "component": 18
+      },
+      "name": "CU_LINK_18",
+      "type_code": 24,
+      "device_class": "NX",
+      "device_id": "T-D26065486",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "parameter": "r9901/r9903"
+      }
+    },
+    {
+      "identity": {
+        "context": "CU",
+        "cu": 1,
+        "component": 19
+      },
+      "name": "CU_LINK_19",
+      "type_code": 23,
+      "device_class": "NX",
+      "device_id": "T-E36066702",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "parameter": "r9901/r9903"
+      }
+    },
+    {
+      "identity": {
+        "context": "CU",
+        "cu": 1,
+        "component": 20
+      },
+      "name": "CU_LINK_20",
+      "type_code": 23,
+      "device_class": "NX",
+      "device_id": "T-E36066704",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "parameter": "r9901/r9903"
+      }
+    },
+    {
+      "identity": {
+        "context": "CU",
+        "cu": 2,
+        "component": 1
+      },
+      "name": "CU_LINK_1",
+      "type_code": 23,
+      "device_class": "NX",
+      "device_id": "T-E36203328",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "parameter": "r9901/r9903"
+      }
+    },
+    {
+      "identity": {
+        "context": "CU",
+        "cu": 2,
+        "component": 2
+      },
+      "name": "Motor_Module_2",
+      "type_code": 262,
+      "device_class": "MOTOR_MODULE",
+      "device_id": "T-E56051999",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "parameter": "r9901/r9903"
+      }
+    },
+    {
+      "identity": {
+        "context": "CU",
+        "cu": 2,
+        "component": 3
+      },
+      "name": "Motor_Module_3",
+      "type_code": 262,
+      "device_class": "MOTOR_MODULE",
+      "device_id": "T-E56051999",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "parameter": "r9901/r9903"
+      }
+    },
+    {
+      "identity": {
+        "context": "CU",
+        "cu": 2,
+        "component": 4
+      },
+      "name": "Motor_Module_4",
+      "type_code": 262,
+      "device_class": "MOTOR_MODULE",
+      "device_id": "T-E56051997",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "parameter": "r9901/r9903"
+      }
+    },
+    {
+      "identity": {
+        "context": "CU",
+        "cu": 2,
+        "component": 5
+      },
+      "name": "Motor_Module_5",
+      "type_code": 262,
+      "device_class": "MOTOR_MODULE",
+      "device_id": "T-E56051997",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "parameter": "r9901/r9903"
+      }
+    },
+    {
+      "identity": {
+        "context": "CU",
+        "cu": 2,
+        "component": 6
+      },
+      "name": "Motor_Module_6",
+      "type_code": 262,
+      "device_class": "MOTOR_MODULE",
+      "device_id": "T-E56051998",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "parameter": "r9901/r9903"
+      }
+    },
+    {
+      "identity": {
+        "context": "CU",
+        "cu": 2,
+        "component": 7
+      },
+      "name": "Motor_Module_7",
+      "type_code": 262,
+      "device_class": "MOTOR_MODULE",
+      "device_id": "T-E56051998",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "parameter": "r9901/r9903"
+      }
+    },
+    {
+      "identity": {
+        "context": "CU",
+        "cu": 2,
+        "component": 8
+      },
+      "name": "SMI20_8",
+      "type_code": 576,
+      "device_class": "SENSOR_MODULE",
+      "device_id": "T-E26120074",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "parameter": "r9901/r9903"
+      }
+    },
+    {
+      "identity": {
+        "context": "CU",
+        "cu": 2,
+        "component": 9
+      },
+      "name": "Encoder_9",
+      "type_code": 4001,
+      "device_class": "ENCODER",
+      "device_id": "T-E26120074",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "parameter": "r9901/r9903"
+      }
+    },
+    {
+      "identity": {
+        "context": "CU",
+        "cu": 2,
+        "component": 10
+      },
+      "name": "Motor_SMI_10",
+      "type_code": 3801,
+      "device_class": "MOTOR",
+      "device_id": "E264 67650 02 002",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "parameter": "r9901/r9903"
+      }
+    },
+    {
+      "identity": {
+        "context": "CU",
+        "cu": 2,
+        "component": 11
+      },
+      "name": "SMI20_11",
+      "type_code": 576,
+      "device_class": "SENSOR_MODULE",
+      "device_id": "T-E26120064",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "parameter": "r9901/r9903"
+      }
+    },
+    {
+      "identity": {
+        "context": "CU",
+        "cu": 2,
+        "component": 12
+      },
+      "name": "Encoder_12",
+      "type_code": 4001,
+      "device_class": "ENCODER",
+      "device_id": "T-E26120064",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "parameter": "r9901/r9903"
+      }
+    },
+    {
+      "identity": {
+        "context": "CU",
+        "cu": 2,
+        "component": 13
+      },
+      "name": "Motor_SMI_13",
+      "type_code": 3801,
+      "device_class": "MOTOR",
+      "device_id": "E264 67650 02 005",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "parameter": "r9901/r9903"
+      }
+    },
+    {
+      "identity": {
+        "context": "CU",
+        "cu": 2,
+        "component": 14
+      },
+      "name": "SMI20_14",
+      "type_code": 576,
+      "device_class": "SENSOR_MODULE",
+      "device_id": "T-E26188498",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "parameter": "r9901/r9903"
+      }
+    },
+    {
+      "identity": {
+        "context": "CU",
+        "cu": 2,
+        "component": 15
+      },
+      "name": "Encoder_15",
+      "type_code": 4001,
+      "device_class": "ENCODER",
+      "device_id": "T-E26188498",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "parameter": "r9901/r9903"
+      }
+    },
+    {
+      "identity": {
+        "context": "CU",
+        "cu": 2,
+        "component": 16
+      },
+      "name": "Motor_SMI_16",
+      "type_code": 3801,
+      "device_class": "MOTOR",
+      "device_id": "E364 67650 03 004",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "parameter": "r9901/r9903"
+      }
+    },
+    {
+      "identity": {
+        "context": "CU",
+        "cu": 2,
+        "component": 17
+      },
+      "name": "SMI20_17",
+      "type_code": 576,
+      "device_class": "SENSOR_MODULE",
+      "device_id": "T-E26189095",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "parameter": "r9901/r9903"
+      }
+    },
+    {
+      "identity": {
+        "context": "CU",
+        "cu": 2,
+        "component": 18
+      },
+      "name": "Encoder_18",
+      "type_code": 4001,
+      "device_class": "ENCODER",
+      "device_id": "T-E26189095",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "parameter": "r9901/r9903"
+      }
+    },
+    {
+      "identity": {
+        "context": "CU",
+        "cu": 2,
+        "component": 19
+      },
+      "name": "Motor_SMI_19",
+      "type_code": 3801,
+      "device_class": "MOTOR",
+      "device_id": "E364 67650 03 006",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "parameter": "r9901/r9903"
+      }
+    },
+    {
+      "identity": {
+        "context": "CU",
+        "cu": 2,
+        "component": 20
+      },
+      "name": "SMI20_20",
+      "type_code": 576,
+      "device_class": "SENSOR_MODULE",
+      "device_id": "T-E26127285",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "parameter": "r9901/r9903"
+      }
+    },
+    {
+      "identity": {
+        "context": "CU",
+        "cu": 2,
+        "component": 21
+      },
+      "name": "Encoder_21",
+      "type_code": 4001,
+      "device_class": "ENCODER",
+      "device_id": "T-E26127285",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "parameter": "r9901/r9903"
+      }
+    },
+    {
+      "identity": {
+        "context": "CU",
+        "cu": 2,
+        "component": 22
+      },
+      "name": "Motor_SMI_22",
+      "type_code": 3801,
+      "device_class": "MOTOR",
+      "device_id": "E364 67650 01 006",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "parameter": "r9901/r9903"
+      }
+    },
+    {
+      "identity": {
+        "context": "CU",
+        "cu": 2,
+        "component": 23
+      },
+      "name": "SMI20_23",
+      "type_code": 576,
+      "device_class": "SENSOR_MODULE",
+      "device_id": "T-E26127283",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "parameter": "r9901/r9903"
+      }
+    },
+    {
+      "identity": {
+        "context": "CU",
+        "cu": 2,
+        "component": 24
+      },
+      "name": "Encoder_24",
+      "type_code": 4001,
+      "device_class": "ENCODER",
+      "device_id": "T-E26127283",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "parameter": "r9901/r9903"
+      }
+    },
+    {
+      "identity": {
+        "context": "CU",
+        "cu": 2,
+        "component": 25
+      },
+      "name": "Motor_SMI_25",
+      "type_code": 3801,
+      "device_class": "MOTOR",
+      "device_id": "E364 67650 01 005",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "parameter": "r9901/r9903"
+      }
+    },
+    {
+      "identity": {
+        "context": "CU",
+        "cu": 3,
+        "component": 1
+      },
+      "name": "CU_LINK_1",
+      "type_code": 24,
+      "device_class": "NX",
+      "device_id": "T-D26065486",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "parameter": "r9901/r9903"
+      }
+    },
+    {
+      "identity": {
+        "context": "CU",
+        "cu": 3,
+        "component": 2
+      },
+      "name": "Line_Module_2",
+      "type_code": 368,
+      "device_class": "LINE_MODULE",
+      "device_id": "T-E56050851",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "parameter": "r9901/r9903"
+      }
+    },
+    {
+      "identity": {
+        "context": "CU",
+        "cu": 3,
+        "component": 3
+      },
+      "name": "Motor_Module_3",
+      "type_code": 260,
+      "device_class": "MOTOR_MODULE",
+      "device_id": "T-E56032028",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "parameter": "r9901/r9903"
+      }
+    },
+    {
+      "identity": {
+        "context": "CU",
+        "cu": 3,
+        "component": 4
+      },
+      "name": "Motor_Module_4",
+      "type_code": 260,
+      "device_class": "MOTOR_MODULE",
+      "device_id": "T-E56068163",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "parameter": "r9901/r9903"
+      }
+    },
+    {
+      "identity": {
+        "context": "CU",
+        "cu": 3,
+        "component": 5
+      },
+      "name": "SMI20_5",
+      "type_code": 576,
+      "device_class": "SENSOR_MODULE",
+      "device_id": "T-E26093298",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "parameter": "r9901/r9903"
+      }
+    },
+    {
+      "identity": {
+        "context": "CU",
+        "cu": 3,
+        "component": 6
+      },
+      "name": "Encoder_6",
+      "type_code": 4001,
+      "device_class": "ENCODER",
+      "device_id": "T-E26093298",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "parameter": "r9901/r9903"
+      }
+    },
+    {
+      "identity": {
+        "context": "CU",
+        "cu": 3,
+        "component": 7
+      },
+      "name": "Motor_SMI_7",
+      "type_code": 3801,
+      "device_class": "MOTOR",
+      "device_id": "E264 71686 02 004",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "parameter": "r9901/r9903"
+      }
+    },
+    {
+      "identity": {
+        "context": "CU",
+        "cu": 3,
+        "component": 8
+      },
+      "name": "SM_8",
+      "type_code": 512,
+      "device_class": "SENSOR_MODULE",
+      "device_id": "T-E56038910",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "parameter": "r9901/r9903"
+      }
+    },
+    {
+      "identity": {
+        "context": "CU",
+        "cu": 3,
+        "component": 11
+      },
+      "name": "SM_11",
+      "type_code": 512,
+      "device_class": "SENSOR_MODULE",
+      "device_id": "T-E16203057",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "parameter": "r9901/r9903"
+      }
+    },
+    {
+      "identity": {
+        "context": "CU",
+        "cu": 4,
+        "component": 1
+      },
+      "name": "CU_LINK_1",
+      "type_code": 23,
+      "device_class": "NX",
+      "device_id": "T-E36066702",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "parameter": "r9901/r9903"
+      }
+    },
+    {
+      "identity": {
+        "context": "CU",
+        "cu": 4,
+        "component": 2
+      },
+      "name": "Line_Module_2",
+      "type_code": 368,
+      "device_class": "LINE_MODULE",
+      "device_id": "T-E56050932",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "parameter": "r9901/r9903"
+      }
+    },
+    {
+      "identity": {
+        "context": "CU",
+        "cu": 4,
+        "component": 3
+      },
+      "name": "Motor_Module_3",
+      "type_code": 260,
+      "device_class": "MOTOR_MODULE",
+      "device_id": "T-E56032029",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "parameter": "r9901/r9903"
+      }
+    },
+    {
+      "identity": {
+        "context": "CU",
+        "cu": 4,
+        "component": 4
+      },
+      "name": "Motor_Module_4",
+      "type_code": 260,
+      "device_class": "MOTOR_MODULE",
+      "device_id": "T-E56118512",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "parameter": "r9901/r9903"
+      }
+    },
+    {
+      "identity": {
+        "context": "CU",
+        "cu": 4,
+        "component": 5
+      },
+      "name": "Motor_Module_5",
+      "type_code": 260,
+      "device_class": "MOTOR_MODULE",
+      "device_id": "T-E56118509",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "parameter": "r9901/r9903"
+      }
+    },
+    {
+      "identity": {
+        "context": "CU",
+        "cu": 4,
+        "component": 6
+      },
+      "name": "Motor_Module_6",
+      "type_code": 260,
+      "device_class": "MOTOR_MODULE",
+      "device_id": "T-E56095601",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "parameter": "r9901/r9903"
+      }
+    },
+    {
+      "identity": {
+        "context": "CU",
+        "cu": 4,
+        "component": 7
+      },
+      "name": "SM_7",
+      "type_code": 512,
+      "device_class": "SENSOR_MODULE",
+      "device_id": "T-E56038944",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "parameter": "r9901/r9903"
+      }
+    },
+    {
+      "identity": {
+        "context": "CU",
+        "cu": 4,
+        "component": 10
+      },
+      "name": "SMI20_10",
+      "type_code": 576,
+      "device_class": "SENSOR_MODULE",
+      "device_id": "T-C98112812",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "parameter": "r9901/r9903"
+      }
+    },
+    {
+      "identity": {
+        "context": "CU",
+        "cu": 4,
+        "component": 11
+      },
+      "name": "Encoder_11",
+      "type_code": 4001,
+      "device_class": "ENCODER",
+      "device_id": "T-C98112812",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "parameter": "r9901/r9903"
+      }
+    },
+    {
+      "identity": {
+        "context": "CU",
+        "cu": 4,
+        "component": 12
+      },
+      "name": "Motor_SMI_12",
+      "type_code": 3801,
+      "device_class": "MOTOR",
+      "device_id": "CO37 4039 01 001",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "parameter": "r9901/r9903"
+      }
+    },
+    {
+      "identity": {
+        "context": "CU",
+        "cu": 4,
+        "component": 13
+      },
+      "name": "SMI20_13",
+      "type_code": 576,
+      "device_class": "SENSOR_MODULE",
+      "device_id": "T-C98112373",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "parameter": "r9901/r9903"
+      }
+    },
+    {
+      "identity": {
+        "context": "CU",
+        "cu": 4,
+        "component": 14
+      },
+      "name": "Encoder_14",
+      "type_code": 4001,
+      "device_class": "ENCODER",
+      "device_id": "T-C98112373",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "parameter": "r9901/r9903"
+      }
+    },
+    {
+      "identity": {
+        "context": "CU",
+        "cu": 4,
+        "component": 15
+      },
+      "name": "Motor_SMI_15",
+      "type_code": 3801,
+      "device_class": "MOTOR",
+      "device_id": "CO37 4039 01 002",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "parameter": "r9901/r9903"
+      }
+    },
+    {
+      "identity": {
+        "context": "CU",
+        "cu": 4,
+        "component": 16
+      },
+      "name": "SM_16",
+      "type_code": 512,
+      "device_class": "SENSOR_MODULE",
+      "device_id": "T-E56038955",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "parameter": "r9901/r9903"
+      }
+    },
+    {
+      "identity": {
+        "context": "CU",
+        "cu": 4,
+        "component": 19
+      },
+      "name": "DM_19",
+      "type_code": 896,
+      "device_class": "HUB_MODULE",
+      "device_id": "T-E52001296",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "parameter": "r9901/r9903"
+      }
+    },
+    {
+      "identity": {
+        "context": "CU",
+        "cu": 4,
+        "component": 20
+      },
+      "name": "SM_20",
+      "type_code": 512,
+      "device_class": "SENSOR_MODULE",
+      "device_id": "T-E56038914",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "parameter": "r9901/r9903"
+      }
+    },
+    {
+      "identity": {
+        "context": "CU",
+        "cu": 4,
+        "component": 22
+      },
+      "name": "DM_22",
+      "type_code": 896,
+      "device_class": "HUB_MODULE",
+      "device_id": "T-E52001296",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "parameter": "r9901/r9903"
+      }
+    },
+    {
+      "identity": {
+        "context": "CU",
+        "cu": 4,
+        "component": 23
+      },
+      "name": "SM_23",
+      "type_code": 512,
+      "device_class": "SENSOR_MODULE",
+      "device_id": "T-E56038913",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "parameter": "r9901/r9903"
+      }
+    },
+    {
+      "identity": {
+        "context": "CU",
+        "cu": 4,
+        "component": 25
+      },
+      "name": "SM_25",
+      "type_code": 512,
+      "device_class": "SENSOR_MODULE",
+      "device_id": "T-E56038921",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "parameter": "r9901/r9903"
+      }
+    },
+    {
+      "identity": {
+        "context": "CU",
+        "cu": 4,
+        "component": 27
+      },
+      "name": "SM_27",
+      "type_code": 512,
+      "device_class": "SENSOR_MODULE",
+      "device_id": "T-E56038934",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "parameter": "r9901/r9903"
+      }
+    },
+    {
+      "identity": {
+        "context": "CU",
+        "cu": 5,
+        "component": 1
+      },
+      "name": "CU_LINK_1",
+      "type_code": 23,
+      "device_class": "NX",
+      "device_id": "T-E36066704",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "parameter": "r9901/r9903"
+      }
+    },
+    {
+      "identity": {
+        "context": "CU",
+        "cu": 5,
+        "component": 2
+      },
+      "name": "Motor_Module_2",
+      "type_code": 260,
+      "device_class": "MOTOR_MODULE",
+      "device_id": "T-E56113969",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "parameter": "r9901/r9903"
+      }
+    },
+    {
+      "identity": {
+        "context": "CU",
+        "cu": 5,
+        "component": 3
+      },
+      "name": "Motor_Module_3",
+      "type_code": 260,
+      "device_class": "MOTOR_MODULE",
+      "device_id": "T-E56118510",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "parameter": "r9901/r9903"
+      }
+    },
+    {
+      "identity": {
+        "context": "CU",
+        "cu": 5,
+        "component": 4
+      },
+      "name": "Motor_Module_4",
+      "type_code": 260,
+      "device_class": "MOTOR_MODULE",
+      "device_id": "T-E56092272",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "parameter": "r9901/r9903"
+      }
+    },
+    {
+      "identity": {
+        "context": "CU",
+        "cu": 5,
+        "component": 5
+      },
+      "name": "Motor_Module_5",
+      "type_code": 260,
+      "device_class": "MOTOR_MODULE",
+      "device_id": "T-E56092273",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "parameter": "r9901/r9903"
+      }
+    },
+    {
+      "identity": {
+        "context": "CU",
+        "cu": 5,
+        "component": 6
+      },
+      "name": "SMI20_6",
+      "type_code": 576,
+      "device_class": "SENSOR_MODULE",
+      "device_id": "T-E26188525",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "parameter": "r9901/r9903"
+      }
+    },
+    {
+      "identity": {
+        "context": "CU",
+        "cu": 5,
+        "component": 7
+      },
+      "name": "Encoder_7",
+      "type_code": 4001,
+      "device_class": "ENCODER",
+      "device_id": "T-E26188525",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "parameter": "r9901/r9903"
+      }
+    },
+    {
+      "identity": {
+        "context": "CU",
+        "cu": 5,
+        "component": 8
+      },
+      "name": "Motor_SMI_8",
+      "type_code": 3801,
+      "device_class": "MOTOR",
+      "device_id": "E364 71685 02 002",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "parameter": "r9901/r9903"
+      }
+    },
+    {
+      "identity": {
+        "context": "CU",
+        "cu": 5,
+        "component": 9
+      },
+      "name": "SMI20_9",
+      "type_code": 576,
+      "device_class": "SENSOR_MODULE",
+      "device_id": "T-E26188523",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "parameter": "r9901/r9903"
+      }
+    },
+    {
+      "identity": {
+        "context": "CU",
+        "cu": 5,
+        "component": 10
+      },
+      "name": "Encoder_10",
+      "type_code": 4001,
+      "device_class": "ENCODER",
+      "device_id": "T-E26188523",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "parameter": "r9901/r9903"
+      }
+    },
+    {
+      "identity": {
+        "context": "CU",
+        "cu": 5,
+        "component": 11
+      },
+      "name": "Motor_SMI_11",
+      "type_code": 3801,
+      "device_class": "MOTOR",
+      "device_id": "E364 71685 02 005",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "parameter": "r9901/r9903"
+      }
+    },
+    {
+      "identity": {
+        "context": "CU",
+        "cu": 5,
+        "component": 12
+      },
+      "name": "SMI20_12",
+      "type_code": 576,
+      "device_class": "SENSOR_MODULE",
+      "device_id": "T-E26287476",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "parameter": "r9901/r9903"
+      }
+    },
+    {
+      "identity": {
+        "context": "CU",
+        "cu": 5,
+        "component": 13
+      },
+      "name": "Encoder_13",
+      "type_code": 4001,
+      "device_class": "ENCODER",
+      "device_id": "T-E26287476",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "parameter": "r9901/r9903"
+      }
+    },
+    {
+      "identity": {
+        "context": "CU",
+        "cu": 5,
+        "component": 14
+      },
+      "name": "Motor_SMI_14",
+      "type_code": 3801,
+      "device_class": "MOTOR",
+      "device_id": "E364 71679 01 002",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "parameter": "r9901/r9903"
+      }
+    },
+    {
+      "identity": {
+        "context": "CU",
+        "cu": 5,
+        "component": 15
+      },
+      "name": "SMI20_15",
+      "type_code": 576,
+      "device_class": "SENSOR_MODULE",
+      "device_id": "T-E26287474",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "parameter": "r9901/r9903"
+      }
+    },
+    {
+      "identity": {
+        "context": "CU",
+        "cu": 5,
+        "component": 16
+      },
+      "name": "Encoder_16",
+      "type_code": 4001,
+      "device_class": "ENCODER",
+      "device_id": "T-E26287474",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "parameter": "r9901/r9903"
+      }
+    },
+    {
+      "identity": {
+        "context": "CU",
+        "cu": 5,
+        "component": 17
+      },
+      "name": "Motor_SMI_17",
+      "type_code": 3801,
+      "device_class": "MOTOR",
+      "device_id": "E364 71679 01 001",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "parameter": "r9901/r9903"
+      }
+    },
+    {
+      "identity": {
+        "context": "CU",
+        "cu": 5,
+        "component": 18
+      },
+      "name": "DM_18",
+      "type_code": 896,
+      "device_class": "HUB_MODULE",
+      "device_id": "T-E52001291",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "parameter": "r9901/r9903"
+      }
+    },
+    {
+      "identity": {
+        "context": "CU",
+        "cu": 5,
+        "component": 19
+      },
+      "name": "SM_19",
+      "type_code": 512,
+      "device_class": "SENSOR_MODULE",
+      "device_id": "T-E56038930",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "parameter": "r9901/r9903"
+      }
+    },
+    {
+      "identity": {
+        "context": "CU",
+        "cu": 5,
+        "component": 21
+      },
+      "name": "DM_21",
+      "type_code": 896,
+      "device_class": "HUB_MODULE",
+      "device_id": "T-E52001291",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "parameter": "r9901/r9903"
+      }
+    },
+    {
+      "identity": {
+        "context": "CU",
+        "cu": 5,
+        "component": 22
+      },
+      "name": "SM_22",
+      "type_code": 512,
+      "device_class": "SENSOR_MODULE",
+      "device_id": "T-E56038843",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "parameter": "r9901/r9903"
+      }
+    },
+    {
+      "identity": {
+        "context": "CU",
+        "cu": 5,
+        "component": 24
+      },
+      "name": "SM_24",
+      "type_code": 512,
+      "device_class": "SENSOR_MODULE",
+      "device_id": "T-E56038928",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "parameter": "r9901/r9903"
+      }
+    }
+  ],
+  "connections": [
+    {
+      "kind": "DRIVE_CLIQ_CABLE",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 1,
+        "component": 1,
+        "port_ordinal": 0
+      },
+      "to": {
+        "cu": 1,
+        "component": 2,
+        "port_ordinal": 0
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "rule": "reciprocal_component_group1",
+        "peer_interface_selector": 1,
+        "reverse_selector": 1
+      }
+    },
+    {
+      "kind": "DRIVE_CLIQ_CABLE",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 1,
+        "component": 1,
+        "port_ordinal": 1
+      },
+      "to": {
+        "cu": 1,
+        "component": 15,
+        "port_ordinal": 0
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "rule": "reciprocal_component_group1",
+        "peer_interface_selector": 1,
+        "reverse_selector": 2
+      }
+    },
+    {
+      "kind": "DRIVE_CLIQ_CABLE",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 1,
+        "component": 1,
+        "port_ordinal": 2
+      },
+      "to": {
+        "cu": 1,
+        "component": 17,
+        "port_ordinal": 0
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "rule": "reciprocal_component_group1",
+        "peer_interface_selector": 1,
+        "reverse_selector": 3
+      }
+    },
+    {
+      "kind": "DRIVE_CLIQ_CABLE",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 1,
+        "component": 1,
+        "port_ordinal": 3
+      },
+      "to": {
+        "cu": 1,
+        "component": 18,
+        "port_ordinal": 0
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "rule": "reciprocal_component_group1",
+        "peer_interface_selector": 1,
+        "reverse_selector": 4
+      }
+    },
+    {
+      "kind": "DRIVE_CLIQ_CABLE",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 1,
+        "component": 1,
+        "port_ordinal": 4
+      },
+      "to": {
+        "cu": 1,
+        "component": 19,
+        "port_ordinal": 0
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "rule": "reciprocal_component_group1",
+        "peer_interface_selector": 1,
+        "reverse_selector": 5
+      }
+    },
+    {
+      "kind": "DRIVE_CLIQ_CABLE",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 1,
+        "component": 1,
+        "port_ordinal": 5
+      },
+      "to": {
+        "cu": 1,
+        "component": 20,
+        "port_ordinal": 0
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "rule": "reciprocal_component_group1",
+        "peer_interface_selector": 1,
+        "reverse_selector": 6
+      }
+    },
+    {
+      "kind": "DRIVE_CLIQ_CABLE",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 1,
+        "component": 2,
+        "port_ordinal": 1
+      },
+      "to": {
+        "cu": 1,
+        "component": 3,
+        "port_ordinal": 0
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "rule": "reciprocal_component_group1",
+        "peer_interface_selector": 1,
+        "reverse_selector": 2
+      }
+    },
+    {
+      "kind": "DRIVE_CLIQ_CABLE",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 1,
+        "component": 3,
+        "port_ordinal": 1
+      },
+      "to": {
+        "cu": 1,
+        "component": 4,
+        "port_ordinal": 0
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "rule": "reciprocal_component_group1",
+        "peer_interface_selector": 1,
+        "reverse_selector": 2
+      }
+    },
+    {
+      "kind": "DRIVE_CLIQ_CABLE",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 1,
+        "component": 3,
+        "port_ordinal": 2
+      },
+      "to": {
+        "cu": 1,
+        "component": 12,
+        "port_ordinal": 0
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "rule": "reciprocal_component_group1",
+        "peer_interface_selector": 1,
+        "reverse_selector": 3
+      }
+    },
+    {
+      "kind": "DRIVE_CLIQ_CABLE",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 1,
+        "component": 4,
+        "port_ordinal": 1
+      },
+      "to": {
+        "cu": 1,
+        "component": 5,
+        "port_ordinal": 0
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "rule": "reciprocal_component_group1",
+        "peer_interface_selector": 1,
+        "reverse_selector": 2
+      }
+    },
+    {
+      "kind": "DRIVE_CLIQ_CABLE",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 1,
+        "component": 4,
+        "port_ordinal": 2
+      },
+      "to": {
+        "cu": 1,
+        "component": 9,
+        "port_ordinal": 0
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "rule": "reciprocal_component_group1",
+        "peer_interface_selector": 1,
+        "reverse_selector": 3
+      }
+    },
+    {
+      "kind": "DRIVE_CLIQ_CABLE",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 1,
+        "component": 5,
+        "port_ordinal": 2
+      },
+      "to": {
+        "cu": 1,
+        "component": 6,
+        "port_ordinal": 0
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "rule": "reciprocal_component_group1",
+        "peer_interface_selector": 1,
+        "reverse_selector": 3
+      }
+    },
+    {
+      "kind": "DRIVE_CLIQ_CABLE",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 2,
+        "component": 1,
+        "port_ordinal": 1
+      },
+      "to": {
+        "cu": 2,
+        "component": 2,
+        "port_ordinal": 0
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "rule": "reciprocal_component_group1",
+        "peer_interface_selector": 1,
+        "reverse_selector": 2
+      }
+    },
+    {
+      "kind": "DRIVE_CLIQ_CABLE",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 2,
+        "component": 2,
+        "port_ordinal": 1
+      },
+      "to": {
+        "cu": 2,
+        "component": 3,
+        "port_ordinal": 0
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "rule": "reciprocal_component_group1",
+        "peer_interface_selector": 1,
+        "reverse_selector": 2
+      }
+    },
+    {
+      "kind": "DRIVE_CLIQ_CABLE",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 2,
+        "component": 2,
+        "port_ordinal": 2
+      },
+      "to": {
+        "cu": 2,
+        "component": 23,
+        "port_ordinal": 0
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "rule": "reciprocal_component_group1",
+        "peer_interface_selector": 1,
+        "reverse_selector": 3
+      }
+    },
+    {
+      "kind": "DRIVE_CLIQ_CABLE",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 2,
+        "component": 3,
+        "port_ordinal": 1
+      },
+      "to": {
+        "cu": 2,
+        "component": 4,
+        "port_ordinal": 0
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "rule": "reciprocal_component_group1",
+        "peer_interface_selector": 1,
+        "reverse_selector": 2
+      }
+    },
+    {
+      "kind": "DRIVE_CLIQ_CABLE",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 2,
+        "component": 3,
+        "port_ordinal": 2
+      },
+      "to": {
+        "cu": 2,
+        "component": 20,
+        "port_ordinal": 0
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "rule": "reciprocal_component_group1",
+        "peer_interface_selector": 1,
+        "reverse_selector": 3
+      }
+    },
+    {
+      "kind": "DRIVE_CLIQ_CABLE",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 2,
+        "component": 4,
+        "port_ordinal": 1
+      },
+      "to": {
+        "cu": 2,
+        "component": 5,
+        "port_ordinal": 0
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "rule": "reciprocal_component_group1",
+        "peer_interface_selector": 1,
+        "reverse_selector": 2
+      }
+    },
+    {
+      "kind": "DRIVE_CLIQ_CABLE",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 2,
+        "component": 4,
+        "port_ordinal": 2
+      },
+      "to": {
+        "cu": 2,
+        "component": 17,
+        "port_ordinal": 0
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "rule": "reciprocal_component_group1",
+        "peer_interface_selector": 1,
+        "reverse_selector": 3
+      }
+    },
+    {
+      "kind": "DRIVE_CLIQ_CABLE",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 2,
+        "component": 5,
+        "port_ordinal": 1
+      },
+      "to": {
+        "cu": 2,
+        "component": 6,
+        "port_ordinal": 0
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "rule": "reciprocal_component_group1",
+        "peer_interface_selector": 1,
+        "reverse_selector": 2
+      }
+    },
+    {
+      "kind": "DRIVE_CLIQ_CABLE",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 2,
+        "component": 5,
+        "port_ordinal": 2
+      },
+      "to": {
+        "cu": 2,
+        "component": 14,
+        "port_ordinal": 0
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "rule": "reciprocal_component_group1",
+        "peer_interface_selector": 1,
+        "reverse_selector": 3
+      }
+    },
+    {
+      "kind": "DRIVE_CLIQ_CABLE",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 2,
+        "component": 6,
+        "port_ordinal": 1
+      },
+      "to": {
+        "cu": 2,
+        "component": 7,
+        "port_ordinal": 0
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "rule": "reciprocal_component_group1",
+        "peer_interface_selector": 1,
+        "reverse_selector": 2
+      }
+    },
+    {
+      "kind": "DRIVE_CLIQ_CABLE",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 2,
+        "component": 6,
+        "port_ordinal": 2
+      },
+      "to": {
+        "cu": 2,
+        "component": 11,
+        "port_ordinal": 0
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "rule": "reciprocal_component_group1",
+        "peer_interface_selector": 1,
+        "reverse_selector": 3
+      }
+    },
+    {
+      "kind": "DRIVE_CLIQ_CABLE",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 2,
+        "component": 7,
+        "port_ordinal": 2
+      },
+      "to": {
+        "cu": 2,
+        "component": 8,
+        "port_ordinal": 0
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "rule": "reciprocal_component_group1",
+        "peer_interface_selector": 1,
+        "reverse_selector": 3
+      }
+    },
+    {
+      "kind": "DRIVE_CLIQ_CABLE",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 3,
+        "component": 1,
+        "port_ordinal": 1
+      },
+      "to": {
+        "cu": 3,
+        "component": 2,
+        "port_ordinal": 0
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "rule": "reciprocal_component_group1",
+        "peer_interface_selector": 1,
+        "reverse_selector": 2
+      }
+    },
+    {
+      "kind": "DRIVE_CLIQ_CABLE",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 3,
+        "component": 1,
+        "port_ordinal": 2
+      },
+      "to": {
+        "cu": 3,
+        "component": 3,
+        "port_ordinal": 0
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "rule": "reciprocal_component_group1",
+        "peer_interface_selector": 1,
+        "reverse_selector": 3
+      }
+    },
+    {
+      "kind": "DRIVE_CLIQ_CABLE",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 3,
+        "component": 1,
+        "port_ordinal": 3
+      },
+      "to": {
+        "cu": 3,
+        "component": 11,
+        "port_ordinal": 0
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "rule": "reciprocal_component_group1",
+        "peer_interface_selector": 1,
+        "reverse_selector": 4
+      }
+    },
+    {
+      "kind": "DRIVE_CLIQ_CABLE",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 3,
+        "component": 3,
+        "port_ordinal": 1
+      },
+      "to": {
+        "cu": 3,
+        "component": 4,
+        "port_ordinal": 0
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "rule": "reciprocal_component_group1",
+        "peer_interface_selector": 1,
+        "reverse_selector": 2
+      }
+    },
+    {
+      "kind": "DRIVE_CLIQ_CABLE",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 3,
+        "component": 3,
+        "port_ordinal": 2
+      },
+      "to": {
+        "cu": 3,
+        "component": 8,
+        "port_ordinal": 0
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "rule": "reciprocal_component_group1",
+        "peer_interface_selector": 1,
+        "reverse_selector": 3
+      }
+    },
+    {
+      "kind": "DRIVE_CLIQ_CABLE",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 3,
+        "component": 4,
+        "port_ordinal": 2
+      },
+      "to": {
+        "cu": 3,
+        "component": 5,
+        "port_ordinal": 0
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "rule": "reciprocal_component_group1",
+        "peer_interface_selector": 1,
+        "reverse_selector": 3
+      }
+    },
+    {
+      "kind": "DRIVE_CLIQ_CABLE",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 4,
+        "component": 1,
+        "port_ordinal": 1
+      },
+      "to": {
+        "cu": 4,
+        "component": 2,
+        "port_ordinal": 0
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "rule": "reciprocal_component_group1",
+        "peer_interface_selector": 1,
+        "reverse_selector": 2
+      }
+    },
+    {
+      "kind": "DRIVE_CLIQ_CABLE",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 4,
+        "component": 1,
+        "port_ordinal": 2
+      },
+      "to": {
+        "cu": 4,
+        "component": 3,
+        "port_ordinal": 0
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "rule": "reciprocal_component_group1",
+        "peer_interface_selector": 1,
+        "reverse_selector": 3
+      }
+    },
+    {
+      "kind": "DRIVE_CLIQ_CABLE",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 4,
+        "component": 1,
+        "port_ordinal": 3
+      },
+      "to": {
+        "cu": 4,
+        "component": 19,
+        "port_ordinal": 0
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "rule": "reciprocal_component_group1",
+        "peer_interface_selector": 1,
+        "reverse_selector": 4
+      }
+    },
+    {
+      "kind": "DRIVE_CLIQ_CABLE",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 4,
+        "component": 3,
+        "port_ordinal": 1
+      },
+      "to": {
+        "cu": 4,
+        "component": 4,
+        "port_ordinal": 0
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "rule": "reciprocal_component_group1",
+        "peer_interface_selector": 1,
+        "reverse_selector": 2
+      }
+    },
+    {
+      "kind": "DRIVE_CLIQ_CABLE",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 4,
+        "component": 3,
+        "port_ordinal": 2
+      },
+      "to": {
+        "cu": 4,
+        "component": 16,
+        "port_ordinal": 0
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "rule": "reciprocal_component_group1",
+        "peer_interface_selector": 1,
+        "reverse_selector": 3
+      }
+    },
+    {
+      "kind": "DRIVE_CLIQ_CABLE",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 4,
+        "component": 4,
+        "port_ordinal": 1
+      },
+      "to": {
+        "cu": 4,
+        "component": 5,
+        "port_ordinal": 0
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "rule": "reciprocal_component_group1",
+        "peer_interface_selector": 1,
+        "reverse_selector": 2
+      }
+    },
+    {
+      "kind": "DRIVE_CLIQ_CABLE",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 4,
+        "component": 4,
+        "port_ordinal": 2
+      },
+      "to": {
+        "cu": 4,
+        "component": 13,
+        "port_ordinal": 0
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "rule": "reciprocal_component_group1",
+        "peer_interface_selector": 1,
+        "reverse_selector": 3
+      }
+    },
+    {
+      "kind": "DRIVE_CLIQ_CABLE",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 4,
+        "component": 5,
+        "port_ordinal": 1
+      },
+      "to": {
+        "cu": 4,
+        "component": 6,
+        "port_ordinal": 0
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "rule": "reciprocal_component_group1",
+        "peer_interface_selector": 1,
+        "reverse_selector": 2
+      }
+    },
+    {
+      "kind": "DRIVE_CLIQ_CABLE",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 4,
+        "component": 5,
+        "port_ordinal": 2
+      },
+      "to": {
+        "cu": 4,
+        "component": 10,
+        "port_ordinal": 0
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "rule": "reciprocal_component_group1",
+        "peer_interface_selector": 1,
+        "reverse_selector": 3
+      }
+    },
+    {
+      "kind": "DRIVE_CLIQ_CABLE",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 4,
+        "component": 6,
+        "port_ordinal": 2
+      },
+      "to": {
+        "cu": 4,
+        "component": 7,
+        "port_ordinal": 0
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "rule": "reciprocal_component_group1",
+        "peer_interface_selector": 1,
+        "reverse_selector": 3
+      }
+    },
+    {
+      "kind": "DRIVE_CLIQ_CABLE",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 4,
+        "component": 19,
+        "port_ordinal": 1
+      },
+      "to": {
+        "cu": 4,
+        "component": 20,
+        "port_ordinal": 0
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "rule": "reciprocal_component_group1",
+        "peer_interface_selector": 1,
+        "reverse_selector": 2
+      }
+    },
+    {
+      "kind": "DRIVE_CLIQ_CABLE",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 4,
+        "component": 19,
+        "port_ordinal": 3
+      },
+      "to": {
+        "cu": 4,
+        "component": 22,
+        "port_ordinal": 0
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "rule": "reciprocal_component_group1",
+        "peer_interface_selector": 1,
+        "reverse_selector": 4
+      }
+    },
+    {
+      "kind": "DRIVE_CLIQ_CABLE",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 4,
+        "component": 22,
+        "port_ordinal": 1
+      },
+      "to": {
+        "cu": 4,
+        "component": 23,
+        "port_ordinal": 0
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "rule": "reciprocal_component_group1",
+        "peer_interface_selector": 1,
+        "reverse_selector": 2
+      }
+    },
+    {
+      "kind": "DRIVE_CLIQ_CABLE",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 4,
+        "component": 22,
+        "port_ordinal": 2
+      },
+      "to": {
+        "cu": 4,
+        "component": 25,
+        "port_ordinal": 0
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "rule": "reciprocal_component_group1",
+        "peer_interface_selector": 1,
+        "reverse_selector": 3
+      }
+    },
+    {
+      "kind": "DRIVE_CLIQ_CABLE",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 4,
+        "component": 22,
+        "port_ordinal": 3
+      },
+      "to": {
+        "cu": 4,
+        "component": 27,
+        "port_ordinal": 0
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "rule": "reciprocal_component_group1",
+        "peer_interface_selector": 1,
+        "reverse_selector": 4
+      }
+    },
+    {
+      "kind": "DRIVE_CLIQ_CABLE",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 5,
+        "component": 1,
+        "port_ordinal": 1
+      },
+      "to": {
+        "cu": 5,
+        "component": 2,
+        "port_ordinal": 0
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "rule": "reciprocal_component_group1",
+        "peer_interface_selector": 1,
+        "reverse_selector": 2
+      }
+    },
+    {
+      "kind": "DRIVE_CLIQ_CABLE",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 5,
+        "component": 1,
+        "port_ordinal": 3
+      },
+      "to": {
+        "cu": 5,
+        "component": 18,
+        "port_ordinal": 0
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "rule": "reciprocal_component_group1",
+        "peer_interface_selector": 1,
+        "reverse_selector": 4
+      }
+    },
+    {
+      "kind": "DRIVE_CLIQ_CABLE",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 5,
+        "component": 2,
+        "port_ordinal": 1
+      },
+      "to": {
+        "cu": 5,
+        "component": 3,
+        "port_ordinal": 0
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "rule": "reciprocal_component_group1",
+        "peer_interface_selector": 1,
+        "reverse_selector": 2
+      }
+    },
+    {
+      "kind": "DRIVE_CLIQ_CABLE",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 5,
+        "component": 2,
+        "port_ordinal": 2
+      },
+      "to": {
+        "cu": 5,
+        "component": 15,
+        "port_ordinal": 0
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "rule": "reciprocal_component_group1",
+        "peer_interface_selector": 1,
+        "reverse_selector": 3
+      }
+    },
+    {
+      "kind": "DRIVE_CLIQ_CABLE",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 5,
+        "component": 3,
+        "port_ordinal": 1
+      },
+      "to": {
+        "cu": 5,
+        "component": 4,
+        "port_ordinal": 0
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "rule": "reciprocal_component_group1",
+        "peer_interface_selector": 1,
+        "reverse_selector": 2
+      }
+    },
+    {
+      "kind": "DRIVE_CLIQ_CABLE",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 5,
+        "component": 3,
+        "port_ordinal": 2
+      },
+      "to": {
+        "cu": 5,
+        "component": 12,
+        "port_ordinal": 0
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "rule": "reciprocal_component_group1",
+        "peer_interface_selector": 1,
+        "reverse_selector": 3
+      }
+    },
+    {
+      "kind": "DRIVE_CLIQ_CABLE",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 5,
+        "component": 4,
+        "port_ordinal": 1
+      },
+      "to": {
+        "cu": 5,
+        "component": 5,
+        "port_ordinal": 0
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "rule": "reciprocal_component_group1",
+        "peer_interface_selector": 1,
+        "reverse_selector": 2
+      }
+    },
+    {
+      "kind": "DRIVE_CLIQ_CABLE",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 5,
+        "component": 4,
+        "port_ordinal": 2
+      },
+      "to": {
+        "cu": 5,
+        "component": 9,
+        "port_ordinal": 0
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "rule": "reciprocal_component_group1",
+        "peer_interface_selector": 1,
+        "reverse_selector": 3
+      }
+    },
+    {
+      "kind": "DRIVE_CLIQ_CABLE",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 5,
+        "component": 5,
+        "port_ordinal": 2
+      },
+      "to": {
+        "cu": 5,
+        "component": 6,
+        "port_ordinal": 0
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "rule": "reciprocal_component_group1",
+        "peer_interface_selector": 1,
+        "reverse_selector": 3
+      }
+    },
+    {
+      "kind": "DRIVE_CLIQ_CABLE",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 5,
+        "component": 18,
+        "port_ordinal": 1
+      },
+      "to": {
+        "cu": 5,
+        "component": 19,
+        "port_ordinal": 0
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "rule": "reciprocal_component_group1",
+        "peer_interface_selector": 1,
+        "reverse_selector": 2
+      }
+    },
+    {
+      "kind": "DRIVE_CLIQ_CABLE",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 5,
+        "component": 18,
+        "port_ordinal": 3
+      },
+      "to": {
+        "cu": 5,
+        "component": 21,
+        "port_ordinal": 0
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "rule": "reciprocal_component_group1",
+        "peer_interface_selector": 1,
+        "reverse_selector": 4
+      }
+    },
+    {
+      "kind": "DRIVE_CLIQ_CABLE",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 5,
+        "component": 21,
+        "port_ordinal": 2
+      },
+      "to": {
+        "cu": 5,
+        "component": 22,
+        "port_ordinal": 0
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "rule": "reciprocal_component_group1",
+        "peer_interface_selector": 1,
+        "reverse_selector": 3
+      }
+    },
+    {
+      "kind": "DRIVE_CLIQ_CABLE",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 5,
+        "component": 21,
+        "port_ordinal": 3
+      },
+      "to": {
+        "cu": 5,
+        "component": 24,
+        "port_ordinal": 0
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "rule": "reciprocal_component_group1",
+        "peer_interface_selector": 1,
+        "reverse_selector": 4
+      }
+    },
+    {
+      "kind": "ANALOG",
+      "status": "reference_only",
+      "confidence": "probable",
+      "from": {
+        "cu": 1,
+        "component": 6
+      },
+      "to": {
+        "cu": 1,
+        "component": 7
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "group": 5,
+        "source_ordinal": 0
+      }
+    },
+    {
+      "kind": "ANALOG",
+      "status": "reference_only",
+      "confidence": "probable",
+      "from": {
+        "cu": 1,
+        "component": 7
+      },
+      "to": {
+        "cu": 1,
+        "component": 6
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "group": 5,
+        "source_ordinal": 0
+      }
+    },
+    {
+      "kind": "MECHANICAL",
+      "status": "reference_only",
+      "confidence": "probable",
+      "from": {
+        "cu": 1,
+        "component": 7
+      },
+      "to": {
+        "cu": 1,
+        "component": 8
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "group": 8,
+        "source_ordinal": 0
+      }
+    },
+    {
+      "kind": "MECHANICAL",
+      "status": "reference_only",
+      "confidence": "probable",
+      "from": {
+        "cu": 1,
+        "component": 8
+      },
+      "to": {
+        "cu": 1,
+        "component": 7
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "group": 8,
+        "source_ordinal": 0
+      }
+    },
+    {
+      "kind": "ANALOG",
+      "status": "reference_only",
+      "confidence": "probable",
+      "from": {
+        "cu": 1,
+        "component": 9
+      },
+      "to": {
+        "cu": 1,
+        "component": 10
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "group": 5,
+        "source_ordinal": 0
+      }
+    },
+    {
+      "kind": "ANALOG",
+      "status": "reference_only",
+      "confidence": "probable",
+      "from": {
+        "cu": 1,
+        "component": 10
+      },
+      "to": {
+        "cu": 1,
+        "component": 9
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "group": 5,
+        "source_ordinal": 0
+      }
+    },
+    {
+      "kind": "MECHANICAL",
+      "status": "reference_only",
+      "confidence": "probable",
+      "from": {
+        "cu": 1,
+        "component": 10
+      },
+      "to": {
+        "cu": 1,
+        "component": 11
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "group": 8,
+        "source_ordinal": 0
+      }
+    },
+    {
+      "kind": "MECHANICAL",
+      "status": "reference_only",
+      "confidence": "probable",
+      "from": {
+        "cu": 1,
+        "component": 11
+      },
+      "to": {
+        "cu": 1,
+        "component": 10
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "group": 8,
+        "source_ordinal": 0
+      }
+    },
+    {
+      "kind": "ANALOG",
+      "status": "reference_only",
+      "confidence": "probable",
+      "from": {
+        "cu": 1,
+        "component": 12
+      },
+      "to": {
+        "cu": 1,
+        "component": 13
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "group": 5,
+        "source_ordinal": 0
+      }
+    },
+    {
+      "kind": "ANALOG",
+      "status": "reference_only",
+      "confidence": "probable",
+      "from": {
+        "cu": 1,
+        "component": 13
+      },
+      "to": {
+        "cu": 1,
+        "component": 12
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "group": 5,
+        "source_ordinal": 0
+      }
+    },
+    {
+      "kind": "MECHANICAL",
+      "status": "reference_only",
+      "confidence": "probable",
+      "from": {
+        "cu": 1,
+        "component": 13
+      },
+      "to": {
+        "cu": 1,
+        "component": 14
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "group": 8,
+        "source_ordinal": 0
+      }
+    },
+    {
+      "kind": "MECHANICAL",
+      "status": "reference_only",
+      "confidence": "probable",
+      "from": {
+        "cu": 1,
+        "component": 14
+      },
+      "to": {
+        "cu": 1,
+        "component": 13
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "group": 8,
+        "source_ordinal": 0
+      }
+    },
+    {
+      "kind": "ANALOG",
+      "status": "reference_only",
+      "confidence": "probable",
+      "from": {
+        "cu": 2,
+        "component": 8
+      },
+      "to": {
+        "cu": 2,
+        "component": 9
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "group": 5,
+        "source_ordinal": 0
+      }
+    },
+    {
+      "kind": "ANALOG",
+      "status": "reference_only",
+      "confidence": "probable",
+      "from": {
+        "cu": 2,
+        "component": 9
+      },
+      "to": {
+        "cu": 2,
+        "component": 8
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "group": 5,
+        "source_ordinal": 0
+      }
+    },
+    {
+      "kind": "MECHANICAL",
+      "status": "reference_only",
+      "confidence": "probable",
+      "from": {
+        "cu": 2,
+        "component": 9
+      },
+      "to": {
+        "cu": 2,
+        "component": 10
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "group": 8,
+        "source_ordinal": 0
+      }
+    },
+    {
+      "kind": "MECHANICAL",
+      "status": "reference_only",
+      "confidence": "probable",
+      "from": {
+        "cu": 2,
+        "component": 10
+      },
+      "to": {
+        "cu": 2,
+        "component": 9
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "group": 8,
+        "source_ordinal": 0
+      }
+    },
+    {
+      "kind": "ANALOG",
+      "status": "reference_only",
+      "confidence": "probable",
+      "from": {
+        "cu": 2,
+        "component": 11
+      },
+      "to": {
+        "cu": 2,
+        "component": 12
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "group": 5,
+        "source_ordinal": 0
+      }
+    },
+    {
+      "kind": "ANALOG",
+      "status": "reference_only",
+      "confidence": "probable",
+      "from": {
+        "cu": 2,
+        "component": 12
+      },
+      "to": {
+        "cu": 2,
+        "component": 11
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "group": 5,
+        "source_ordinal": 0
+      }
+    },
+    {
+      "kind": "MECHANICAL",
+      "status": "reference_only",
+      "confidence": "probable",
+      "from": {
+        "cu": 2,
+        "component": 12
+      },
+      "to": {
+        "cu": 2,
+        "component": 13
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "group": 8,
+        "source_ordinal": 0
+      }
+    },
+    {
+      "kind": "MECHANICAL",
+      "status": "reference_only",
+      "confidence": "probable",
+      "from": {
+        "cu": 2,
+        "component": 13
+      },
+      "to": {
+        "cu": 2,
+        "component": 12
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "group": 8,
+        "source_ordinal": 0
+      }
+    },
+    {
+      "kind": "ANALOG",
+      "status": "reference_only",
+      "confidence": "probable",
+      "from": {
+        "cu": 2,
+        "component": 14
+      },
+      "to": {
+        "cu": 2,
+        "component": 15
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "group": 5,
+        "source_ordinal": 0
+      }
+    },
+    {
+      "kind": "ANALOG",
+      "status": "reference_only",
+      "confidence": "probable",
+      "from": {
+        "cu": 2,
+        "component": 15
+      },
+      "to": {
+        "cu": 2,
+        "component": 14
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "group": 5,
+        "source_ordinal": 0
+      }
+    },
+    {
+      "kind": "MECHANICAL",
+      "status": "reference_only",
+      "confidence": "probable",
+      "from": {
+        "cu": 2,
+        "component": 15
+      },
+      "to": {
+        "cu": 2,
+        "component": 16
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "group": 8,
+        "source_ordinal": 0
+      }
+    },
+    {
+      "kind": "MECHANICAL",
+      "status": "reference_only",
+      "confidence": "probable",
+      "from": {
+        "cu": 2,
+        "component": 16
+      },
+      "to": {
+        "cu": 2,
+        "component": 15
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "group": 8,
+        "source_ordinal": 0
+      }
+    },
+    {
+      "kind": "ANALOG",
+      "status": "reference_only",
+      "confidence": "probable",
+      "from": {
+        "cu": 2,
+        "component": 17
+      },
+      "to": {
+        "cu": 2,
+        "component": 18
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "group": 5,
+        "source_ordinal": 0
+      }
+    },
+    {
+      "kind": "ANALOG",
+      "status": "reference_only",
+      "confidence": "probable",
+      "from": {
+        "cu": 2,
+        "component": 18
+      },
+      "to": {
+        "cu": 2,
+        "component": 17
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "group": 5,
+        "source_ordinal": 0
+      }
+    },
+    {
+      "kind": "MECHANICAL",
+      "status": "reference_only",
+      "confidence": "probable",
+      "from": {
+        "cu": 2,
+        "component": 18
+      },
+      "to": {
+        "cu": 2,
+        "component": 19
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "group": 8,
+        "source_ordinal": 0
+      }
+    },
+    {
+      "kind": "MECHANICAL",
+      "status": "reference_only",
+      "confidence": "probable",
+      "from": {
+        "cu": 2,
+        "component": 19
+      },
+      "to": {
+        "cu": 2,
+        "component": 18
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "group": 8,
+        "source_ordinal": 0
+      }
+    },
+    {
+      "kind": "ANALOG",
+      "status": "reference_only",
+      "confidence": "probable",
+      "from": {
+        "cu": 2,
+        "component": 20
+      },
+      "to": {
+        "cu": 2,
+        "component": 21
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "group": 5,
+        "source_ordinal": 0
+      }
+    },
+    {
+      "kind": "ANALOG",
+      "status": "reference_only",
+      "confidence": "probable",
+      "from": {
+        "cu": 2,
+        "component": 21
+      },
+      "to": {
+        "cu": 2,
+        "component": 20
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "group": 5,
+        "source_ordinal": 0
+      }
+    },
+    {
+      "kind": "MECHANICAL",
+      "status": "reference_only",
+      "confidence": "probable",
+      "from": {
+        "cu": 2,
+        "component": 21
+      },
+      "to": {
+        "cu": 2,
+        "component": 22
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "group": 8,
+        "source_ordinal": 0
+      }
+    },
+    {
+      "kind": "MECHANICAL",
+      "status": "reference_only",
+      "confidence": "probable",
+      "from": {
+        "cu": 2,
+        "component": 22
+      },
+      "to": {
+        "cu": 2,
+        "component": 21
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "group": 8,
+        "source_ordinal": 0
+      }
+    },
+    {
+      "kind": "ANALOG",
+      "status": "reference_only",
+      "confidence": "probable",
+      "from": {
+        "cu": 2,
+        "component": 23
+      },
+      "to": {
+        "cu": 2,
+        "component": 24
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "group": 5,
+        "source_ordinal": 0
+      }
+    },
+    {
+      "kind": "ANALOG",
+      "status": "reference_only",
+      "confidence": "probable",
+      "from": {
+        "cu": 2,
+        "component": 24
+      },
+      "to": {
+        "cu": 2,
+        "component": 23
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "group": 5,
+        "source_ordinal": 0
+      }
+    },
+    {
+      "kind": "MECHANICAL",
+      "status": "reference_only",
+      "confidence": "probable",
+      "from": {
+        "cu": 2,
+        "component": 24
+      },
+      "to": {
+        "cu": 2,
+        "component": 25
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "group": 8,
+        "source_ordinal": 0
+      }
+    },
+    {
+      "kind": "MECHANICAL",
+      "status": "reference_only",
+      "confidence": "probable",
+      "from": {
+        "cu": 2,
+        "component": 25
+      },
+      "to": {
+        "cu": 2,
+        "component": 24
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "group": 8,
+        "source_ordinal": 0
+      }
+    },
+    {
+      "kind": "ANALOG",
+      "status": "reference_only",
+      "confidence": "probable",
+      "from": {
+        "cu": 3,
+        "component": 5
+      },
+      "to": {
+        "cu": 3,
+        "component": 6
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "group": 5,
+        "source_ordinal": 0
+      }
+    },
+    {
+      "kind": "ANALOG",
+      "status": "reference_only",
+      "confidence": "probable",
+      "from": {
+        "cu": 3,
+        "component": 6
+      },
+      "to": {
+        "cu": 3,
+        "component": 5
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "group": 5,
+        "source_ordinal": 0
+      }
+    },
+    {
+      "kind": "MECHANICAL",
+      "status": "reference_only",
+      "confidence": "probable",
+      "from": {
+        "cu": 3,
+        "component": 6
+      },
+      "to": {
+        "cu": 3,
+        "component": 7
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "group": 8,
+        "source_ordinal": 0
+      }
+    },
+    {
+      "kind": "MECHANICAL",
+      "status": "reference_only",
+      "confidence": "probable",
+      "from": {
+        "cu": 3,
+        "component": 7
+      },
+      "to": {
+        "cu": 3,
+        "component": 6
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "group": 8,
+        "source_ordinal": 0
+      }
+    },
+    {
+      "kind": "ANALOG",
+      "status": "reference_only",
+      "confidence": "probable",
+      "from": {
+        "cu": 4,
+        "component": 10
+      },
+      "to": {
+        "cu": 4,
+        "component": 11
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "group": 5,
+        "source_ordinal": 0
+      }
+    },
+    {
+      "kind": "ANALOG",
+      "status": "reference_only",
+      "confidence": "probable",
+      "from": {
+        "cu": 4,
+        "component": 11
+      },
+      "to": {
+        "cu": 4,
+        "component": 10
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "group": 5,
+        "source_ordinal": 0
+      }
+    },
+    {
+      "kind": "MECHANICAL",
+      "status": "reference_only",
+      "confidence": "probable",
+      "from": {
+        "cu": 4,
+        "component": 11
+      },
+      "to": {
+        "cu": 4,
+        "component": 12
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "group": 8,
+        "source_ordinal": 0
+      }
+    },
+    {
+      "kind": "MECHANICAL",
+      "status": "reference_only",
+      "confidence": "probable",
+      "from": {
+        "cu": 4,
+        "component": 12
+      },
+      "to": {
+        "cu": 4,
+        "component": 11
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "group": 8,
+        "source_ordinal": 0
+      }
+    },
+    {
+      "kind": "ANALOG",
+      "status": "reference_only",
+      "confidence": "probable",
+      "from": {
+        "cu": 4,
+        "component": 13
+      },
+      "to": {
+        "cu": 4,
+        "component": 14
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "group": 5,
+        "source_ordinal": 0
+      }
+    },
+    {
+      "kind": "ANALOG",
+      "status": "reference_only",
+      "confidence": "probable",
+      "from": {
+        "cu": 4,
+        "component": 14
+      },
+      "to": {
+        "cu": 4,
+        "component": 13
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "group": 5,
+        "source_ordinal": 0
+      }
+    },
+    {
+      "kind": "MECHANICAL",
+      "status": "reference_only",
+      "confidence": "probable",
+      "from": {
+        "cu": 4,
+        "component": 14
+      },
+      "to": {
+        "cu": 4,
+        "component": 15
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "group": 8,
+        "source_ordinal": 0
+      }
+    },
+    {
+      "kind": "MECHANICAL",
+      "status": "reference_only",
+      "confidence": "probable",
+      "from": {
+        "cu": 4,
+        "component": 15
+      },
+      "to": {
+        "cu": 4,
+        "component": 14
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "group": 8,
+        "source_ordinal": 0
+      }
+    },
+    {
+      "kind": "ANALOG",
+      "status": "reference_only",
+      "confidence": "probable",
+      "from": {
+        "cu": 5,
+        "component": 6
+      },
+      "to": {
+        "cu": 5,
+        "component": 7
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "group": 5,
+        "source_ordinal": 0
+      }
+    },
+    {
+      "kind": "ANALOG",
+      "status": "reference_only",
+      "confidence": "probable",
+      "from": {
+        "cu": 5,
+        "component": 7
+      },
+      "to": {
+        "cu": 5,
+        "component": 6
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "group": 5,
+        "source_ordinal": 0
+      }
+    },
+    {
+      "kind": "MECHANICAL",
+      "status": "reference_only",
+      "confidence": "probable",
+      "from": {
+        "cu": 5,
+        "component": 7
+      },
+      "to": {
+        "cu": 5,
+        "component": 8
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "group": 8,
+        "source_ordinal": 0
+      }
+    },
+    {
+      "kind": "MECHANICAL",
+      "status": "reference_only",
+      "confidence": "probable",
+      "from": {
+        "cu": 5,
+        "component": 8
+      },
+      "to": {
+        "cu": 5,
+        "component": 7
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "group": 8,
+        "source_ordinal": 0
+      }
+    },
+    {
+      "kind": "ANALOG",
+      "status": "reference_only",
+      "confidence": "probable",
+      "from": {
+        "cu": 5,
+        "component": 9
+      },
+      "to": {
+        "cu": 5,
+        "component": 10
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "group": 5,
+        "source_ordinal": 0
+      }
+    },
+    {
+      "kind": "ANALOG",
+      "status": "reference_only",
+      "confidence": "probable",
+      "from": {
+        "cu": 5,
+        "component": 10
+      },
+      "to": {
+        "cu": 5,
+        "component": 9
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "group": 5,
+        "source_ordinal": 0
+      }
+    },
+    {
+      "kind": "MECHANICAL",
+      "status": "reference_only",
+      "confidence": "probable",
+      "from": {
+        "cu": 5,
+        "component": 10
+      },
+      "to": {
+        "cu": 5,
+        "component": 11
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "group": 8,
+        "source_ordinal": 0
+      }
+    },
+    {
+      "kind": "MECHANICAL",
+      "status": "reference_only",
+      "confidence": "probable",
+      "from": {
+        "cu": 5,
+        "component": 11
+      },
+      "to": {
+        "cu": 5,
+        "component": 10
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "group": 8,
+        "source_ordinal": 0
+      }
+    },
+    {
+      "kind": "ANALOG",
+      "status": "reference_only",
+      "confidence": "probable",
+      "from": {
+        "cu": 5,
+        "component": 12
+      },
+      "to": {
+        "cu": 5,
+        "component": 13
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "group": 5,
+        "source_ordinal": 0
+      }
+    },
+    {
+      "kind": "ANALOG",
+      "status": "reference_only",
+      "confidence": "probable",
+      "from": {
+        "cu": 5,
+        "component": 13
+      },
+      "to": {
+        "cu": 5,
+        "component": 12
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "group": 5,
+        "source_ordinal": 0
+      }
+    },
+    {
+      "kind": "MECHANICAL",
+      "status": "reference_only",
+      "confidence": "probable",
+      "from": {
+        "cu": 5,
+        "component": 13
+      },
+      "to": {
+        "cu": 5,
+        "component": 14
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "group": 8,
+        "source_ordinal": 0
+      }
+    },
+    {
+      "kind": "MECHANICAL",
+      "status": "reference_only",
+      "confidence": "probable",
+      "from": {
+        "cu": 5,
+        "component": 14
+      },
+      "to": {
+        "cu": 5,
+        "component": 13
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "group": 8,
+        "source_ordinal": 0
+      }
+    },
+    {
+      "kind": "ANALOG",
+      "status": "reference_only",
+      "confidence": "probable",
+      "from": {
+        "cu": 5,
+        "component": 15
+      },
+      "to": {
+        "cu": 5,
+        "component": 16
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "group": 5,
+        "source_ordinal": 0
+      }
+    },
+    {
+      "kind": "ANALOG",
+      "status": "reference_only",
+      "confidence": "probable",
+      "from": {
+        "cu": 5,
+        "component": 16
+      },
+      "to": {
+        "cu": 5,
+        "component": 15
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "group": 5,
+        "source_ordinal": 0
+      }
+    },
+    {
+      "kind": "MECHANICAL",
+      "status": "reference_only",
+      "confidence": "probable",
+      "from": {
+        "cu": 5,
+        "component": 16
+      },
+      "to": {
+        "cu": 5,
+        "component": 17
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "group": 8,
+        "source_ordinal": 0
+      }
+    },
+    {
+      "kind": "MECHANICAL",
+      "status": "reference_only",
+      "confidence": "probable",
+      "from": {
+        "cu": 5,
+        "component": 17
+      },
+      "to": {
+        "cu": 5,
+        "component": 16
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "group": 8,
+        "source_ordinal": 0
+      }
+    },
+    {
+      "kind": "AXIS_TO_DRIVE",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "axis_unit": 2
+      },
+      "to": {
+        "cu": 1,
+        "servo_unit": 1,
+        "bus_id": 3,
+        "slave": 3,
+        "do": 3
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "identity": {
+          "bus_id": 3,
+          "slave": 3,
+          "do": 3
+        }
+      }
+    },
+    {
+      "kind": "DRIVE_TO_MOTOR_MODULE",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 1,
+        "servo_unit": 1,
+        "bus_id": 3,
+        "slave": 3,
+        "do": 3
+      },
+      "to": {
+        "cu": 1,
+        "component": 3
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "reference": {
+          "area": 5,
+          "block": 130,
+          "unit": 1,
+          "param": 121,
+          "index": 0
+        }
+      }
+    },
+    {
+      "kind": "DRIVE_TO_MOTOR",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 1,
+        "servo_unit": 1,
+        "bus_id": 3,
+        "slave": 3,
+        "do": 3
+      },
+      "to": {
+        "cu": 1,
+        "component": 14
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "reference": {
+          "area": 5,
+          "block": 130,
+          "unit": 1,
+          "param": 131,
+          "index": 0
+        }
+      }
+    },
+    {
+      "kind": "DRIVE_TO_SENSOR_MODULE",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 1,
+        "servo_unit": 1,
+        "bus_id": 3,
+        "slave": 3,
+        "do": 3
+      },
+      "to": {
+        "cu": 1,
+        "component": 12
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "reference": {
+          "area": 5,
+          "block": 130,
+          "unit": 1,
+          "param": 141,
+          "index": 0
+        },
+        "state": 1
+      }
+    },
+    {
+      "kind": "SENSOR_TO_ENCODER",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 1,
+        "component": 12
+      },
+      "to": {
+        "cu": 1,
+        "component": 13
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "reference": {
+          "area": 5,
+          "block": 130,
+          "unit": 1,
+          "param": 142,
+          "index": 0
+        }
+      }
+    },
+    {
+      "kind": "DRIVE_TO_SENSOR_MODULE",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 1,
+        "servo_unit": 1,
+        "bus_id": 3,
+        "slave": 3,
+        "do": 3
+      },
+      "to": {
+        "cu": 1,
+        "component": 15
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "reference": {
+          "area": 5,
+          "block": 130,
+          "unit": 1,
+          "param": 141,
+          "index": 1
+        },
+        "state": 1
+      }
+    },
+    {
+      "kind": "SENSOR_TO_ENCODER",
+      "status": "unresolved",
+      "confidence": "unresolved",
+      "from": {
+        "cu": 1,
+        "component": 15
+      },
+      "to": {
+        "cu": 1,
+        "component": 16
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "reference": {
+          "area": 5,
+          "block": 130,
+          "unit": 1,
+          "param": 142,
+          "index": 1
+        }
+      }
+    },
+    {
+      "kind": "AXIS_TO_DRIVE",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "axis_unit": 10
+      },
+      "to": {
+        "cu": 1,
+        "servo_unit": 2,
+        "bus_id": 3,
+        "slave": 3,
+        "do": 4
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "identity": {
+          "bus_id": 3,
+          "slave": 3,
+          "do": 4
+        }
+      }
+    },
+    {
+      "kind": "DRIVE_TO_MOTOR_MODULE",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 1,
+        "servo_unit": 2,
+        "bus_id": 3,
+        "slave": 3,
+        "do": 4
+      },
+      "to": {
+        "cu": 1,
+        "component": 4
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "reference": {
+          "area": 5,
+          "block": 130,
+          "unit": 2,
+          "param": 121,
+          "index": 0
+        }
+      }
+    },
+    {
+      "kind": "DRIVE_TO_MOTOR",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 1,
+        "servo_unit": 2,
+        "bus_id": 3,
+        "slave": 3,
+        "do": 4
+      },
+      "to": {
+        "cu": 1,
+        "component": 11
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "reference": {
+          "area": 5,
+          "block": 130,
+          "unit": 2,
+          "param": 131,
+          "index": 0
+        }
+      }
+    },
+    {
+      "kind": "DRIVE_TO_SENSOR_MODULE",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 1,
+        "servo_unit": 2,
+        "bus_id": 3,
+        "slave": 3,
+        "do": 4
+      },
+      "to": {
+        "cu": 1,
+        "component": 9
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "reference": {
+          "area": 5,
+          "block": 130,
+          "unit": 2,
+          "param": 141,
+          "index": 0
+        },
+        "state": 1
+      }
+    },
+    {
+      "kind": "SENSOR_TO_ENCODER",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 1,
+        "component": 9
+      },
+      "to": {
+        "cu": 1,
+        "component": 10
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "reference": {
+          "area": 5,
+          "block": 130,
+          "unit": 2,
+          "param": 142,
+          "index": 0
+        }
+      }
+    },
+    {
+      "kind": "AXIS_TO_DRIVE",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "axis_unit": 7
+      },
+      "to": {
+        "cu": 1,
+        "servo_unit": 3,
+        "bus_id": 3,
+        "slave": 3,
+        "do": 5
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "identity": {
+          "bus_id": 3,
+          "slave": 3,
+          "do": 5
+        }
+      }
+    },
+    {
+      "kind": "DRIVE_TO_MOTOR_MODULE",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 1,
+        "servo_unit": 3,
+        "bus_id": 3,
+        "slave": 3,
+        "do": 5
+      },
+      "to": {
+        "cu": 1,
+        "component": 5
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "reference": {
+          "area": 5,
+          "block": 130,
+          "unit": 3,
+          "param": 121,
+          "index": 0
+        }
+      }
+    },
+    {
+      "kind": "DRIVE_TO_MOTOR",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 1,
+        "servo_unit": 3,
+        "bus_id": 3,
+        "slave": 3,
+        "do": 5
+      },
+      "to": {
+        "cu": 1,
+        "component": 8
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "reference": {
+          "area": 5,
+          "block": 130,
+          "unit": 3,
+          "param": 131,
+          "index": 0
+        }
+      }
+    },
+    {
+      "kind": "DRIVE_TO_SENSOR_MODULE",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 1,
+        "servo_unit": 3,
+        "bus_id": 3,
+        "slave": 3,
+        "do": 5
+      },
+      "to": {
+        "cu": 1,
+        "component": 6
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "reference": {
+          "area": 5,
+          "block": 130,
+          "unit": 3,
+          "param": 141,
+          "index": 0
+        },
+        "state": 1
+      }
+    },
+    {
+      "kind": "SENSOR_TO_ENCODER",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 1,
+        "component": 6
+      },
+      "to": {
+        "cu": 1,
+        "component": 7
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "reference": {
+          "area": 5,
+          "block": 130,
+          "unit": 3,
+          "param": 142,
+          "index": 0
+        }
+      }
+    },
+    {
+      "kind": "AXIS_TO_DRIVE",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "axis_unit": 13
+      },
+      "to": {
+        "cu": 2,
+        "servo_unit": 4,
+        "bus_id": 3,
+        "slave": 12,
+        "do": 2
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "identity": {
+          "bus_id": 3,
+          "slave": 12,
+          "do": 2
+        }
+      }
+    },
+    {
+      "kind": "DRIVE_TO_MOTOR_MODULE",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 2,
+        "servo_unit": 4,
+        "bus_id": 3,
+        "slave": 12,
+        "do": 2
+      },
+      "to": {
+        "cu": 2,
+        "component": 2
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "reference": {
+          "area": 5,
+          "block": 130,
+          "unit": 4,
+          "param": 121,
+          "index": 0
+        }
+      }
+    },
+    {
+      "kind": "DRIVE_TO_MOTOR",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 2,
+        "servo_unit": 4,
+        "bus_id": 3,
+        "slave": 12,
+        "do": 2
+      },
+      "to": {
+        "cu": 2,
+        "component": 25
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "reference": {
+          "area": 5,
+          "block": 130,
+          "unit": 4,
+          "param": 131,
+          "index": 0
+        }
+      }
+    },
+    {
+      "kind": "DRIVE_TO_SENSOR_MODULE",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 2,
+        "servo_unit": 4,
+        "bus_id": 3,
+        "slave": 12,
+        "do": 2
+      },
+      "to": {
+        "cu": 2,
+        "component": 23
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "reference": {
+          "area": 5,
+          "block": 130,
+          "unit": 4,
+          "param": 141,
+          "index": 0
+        },
+        "state": 1
+      }
+    },
+    {
+      "kind": "SENSOR_TO_ENCODER",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 2,
+        "component": 23
+      },
+      "to": {
+        "cu": 2,
+        "component": 24
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "reference": {
+          "area": 5,
+          "block": 130,
+          "unit": 4,
+          "param": 142,
+          "index": 0
+        }
+      }
+    },
+    {
+      "kind": "AXIS_TO_DRIVE",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "axis_unit": 15
+      },
+      "to": {
+        "cu": 2,
+        "servo_unit": 5,
+        "bus_id": 3,
+        "slave": 12,
+        "do": 3
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "identity": {
+          "bus_id": 3,
+          "slave": 12,
+          "do": 3
+        }
+      }
+    },
+    {
+      "kind": "DRIVE_TO_MOTOR_MODULE",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 2,
+        "servo_unit": 5,
+        "bus_id": 3,
+        "slave": 12,
+        "do": 3
+      },
+      "to": {
+        "cu": 2,
+        "component": 3
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "reference": {
+          "area": 5,
+          "block": 130,
+          "unit": 5,
+          "param": 121,
+          "index": 0
+        }
+      }
+    },
+    {
+      "kind": "DRIVE_TO_MOTOR",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 2,
+        "servo_unit": 5,
+        "bus_id": 3,
+        "slave": 12,
+        "do": 3
+      },
+      "to": {
+        "cu": 2,
+        "component": 22
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "reference": {
+          "area": 5,
+          "block": 130,
+          "unit": 5,
+          "param": 131,
+          "index": 0
+        }
+      }
+    },
+    {
+      "kind": "DRIVE_TO_SENSOR_MODULE",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 2,
+        "servo_unit": 5,
+        "bus_id": 3,
+        "slave": 12,
+        "do": 3
+      },
+      "to": {
+        "cu": 2,
+        "component": 20
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "reference": {
+          "area": 5,
+          "block": 130,
+          "unit": 5,
+          "param": 141,
+          "index": 0
+        },
+        "state": 1
+      }
+    },
+    {
+      "kind": "SENSOR_TO_ENCODER",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 2,
+        "component": 20
+      },
+      "to": {
+        "cu": 2,
+        "component": 21
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "reference": {
+          "area": 5,
+          "block": 130,
+          "unit": 5,
+          "param": 142,
+          "index": 0
+        }
+      }
+    },
+    {
+      "kind": "AXIS_TO_DRIVE",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "axis_unit": 14
+      },
+      "to": {
+        "cu": 2,
+        "servo_unit": 6,
+        "bus_id": 3,
+        "slave": 12,
+        "do": 4
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "identity": {
+          "bus_id": 3,
+          "slave": 12,
+          "do": 4
+        }
+      }
+    },
+    {
+      "kind": "DRIVE_TO_MOTOR_MODULE",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 2,
+        "servo_unit": 6,
+        "bus_id": 3,
+        "slave": 12,
+        "do": 4
+      },
+      "to": {
+        "cu": 2,
+        "component": 4
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "reference": {
+          "area": 5,
+          "block": 130,
+          "unit": 6,
+          "param": 121,
+          "index": 0
+        }
+      }
+    },
+    {
+      "kind": "DRIVE_TO_MOTOR",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 2,
+        "servo_unit": 6,
+        "bus_id": 3,
+        "slave": 12,
+        "do": 4
+      },
+      "to": {
+        "cu": 2,
+        "component": 19
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "reference": {
+          "area": 5,
+          "block": 130,
+          "unit": 6,
+          "param": 131,
+          "index": 0
+        }
+      }
+    },
+    {
+      "kind": "DRIVE_TO_SENSOR_MODULE",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 2,
+        "servo_unit": 6,
+        "bus_id": 3,
+        "slave": 12,
+        "do": 4
+      },
+      "to": {
+        "cu": 2,
+        "component": 17
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "reference": {
+          "area": 5,
+          "block": 130,
+          "unit": 6,
+          "param": 141,
+          "index": 0
+        },
+        "state": 1
+      }
+    },
+    {
+      "kind": "SENSOR_TO_ENCODER",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 2,
+        "component": 17
+      },
+      "to": {
+        "cu": 2,
+        "component": 18
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "reference": {
+          "area": 5,
+          "block": 130,
+          "unit": 6,
+          "param": 142,
+          "index": 0
+        }
+      }
+    },
+    {
+      "kind": "AXIS_TO_DRIVE",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "axis_unit": 16
+      },
+      "to": {
+        "cu": 2,
+        "servo_unit": 7,
+        "bus_id": 3,
+        "slave": 12,
+        "do": 5
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "identity": {
+          "bus_id": 3,
+          "slave": 12,
+          "do": 5
+        }
+      }
+    },
+    {
+      "kind": "DRIVE_TO_MOTOR_MODULE",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 2,
+        "servo_unit": 7,
+        "bus_id": 3,
+        "slave": 12,
+        "do": 5
+      },
+      "to": {
+        "cu": 2,
+        "component": 5
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "reference": {
+          "area": 5,
+          "block": 130,
+          "unit": 7,
+          "param": 121,
+          "index": 0
+        }
+      }
+    },
+    {
+      "kind": "DRIVE_TO_MOTOR",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 2,
+        "servo_unit": 7,
+        "bus_id": 3,
+        "slave": 12,
+        "do": 5
+      },
+      "to": {
+        "cu": 2,
+        "component": 16
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "reference": {
+          "area": 5,
+          "block": 130,
+          "unit": 7,
+          "param": 131,
+          "index": 0
+        }
+      }
+    },
+    {
+      "kind": "DRIVE_TO_SENSOR_MODULE",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 2,
+        "servo_unit": 7,
+        "bus_id": 3,
+        "slave": 12,
+        "do": 5
+      },
+      "to": {
+        "cu": 2,
+        "component": 14
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "reference": {
+          "area": 5,
+          "block": 130,
+          "unit": 7,
+          "param": 141,
+          "index": 0
+        },
+        "state": 1
+      }
+    },
+    {
+      "kind": "SENSOR_TO_ENCODER",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 2,
+        "component": 14
+      },
+      "to": {
+        "cu": 2,
+        "component": 15
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "reference": {
+          "area": 5,
+          "block": 130,
+          "unit": 7,
+          "param": 142,
+          "index": 0
+        }
+      }
+    },
+    {
+      "kind": "AXIS_TO_DRIVE",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "axis_unit": 17
+      },
+      "to": {
+        "cu": 2,
+        "servo_unit": 8,
+        "bus_id": 3,
+        "slave": 12,
+        "do": 6
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "identity": {
+          "bus_id": 3,
+          "slave": 12,
+          "do": 6
+        }
+      }
+    },
+    {
+      "kind": "DRIVE_TO_MOTOR_MODULE",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 2,
+        "servo_unit": 8,
+        "bus_id": 3,
+        "slave": 12,
+        "do": 6
+      },
+      "to": {
+        "cu": 2,
+        "component": 6
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "reference": {
+          "area": 5,
+          "block": 130,
+          "unit": 8,
+          "param": 121,
+          "index": 0
+        }
+      }
+    },
+    {
+      "kind": "DRIVE_TO_MOTOR",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 2,
+        "servo_unit": 8,
+        "bus_id": 3,
+        "slave": 12,
+        "do": 6
+      },
+      "to": {
+        "cu": 2,
+        "component": 13
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "reference": {
+          "area": 5,
+          "block": 130,
+          "unit": 8,
+          "param": 131,
+          "index": 0
+        }
+      }
+    },
+    {
+      "kind": "DRIVE_TO_SENSOR_MODULE",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 2,
+        "servo_unit": 8,
+        "bus_id": 3,
+        "slave": 12,
+        "do": 6
+      },
+      "to": {
+        "cu": 2,
+        "component": 11
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "reference": {
+          "area": 5,
+          "block": 130,
+          "unit": 8,
+          "param": 141,
+          "index": 0
+        },
+        "state": 1
+      }
+    },
+    {
+      "kind": "SENSOR_TO_ENCODER",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 2,
+        "component": 11
+      },
+      "to": {
+        "cu": 2,
+        "component": 12
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "reference": {
+          "area": 5,
+          "block": 130,
+          "unit": 8,
+          "param": 142,
+          "index": 0
+        }
+      }
+    },
+    {
+      "kind": "AXIS_TO_DRIVE",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "axis_unit": 18
+      },
+      "to": {
+        "cu": 2,
+        "servo_unit": 9,
+        "bus_id": 3,
+        "slave": 12,
+        "do": 7
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "identity": {
+          "bus_id": 3,
+          "slave": 12,
+          "do": 7
+        }
+      }
+    },
+    {
+      "kind": "DRIVE_TO_MOTOR_MODULE",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 2,
+        "servo_unit": 9,
+        "bus_id": 3,
+        "slave": 12,
+        "do": 7
+      },
+      "to": {
+        "cu": 2,
+        "component": 7
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "reference": {
+          "area": 5,
+          "block": 130,
+          "unit": 9,
+          "param": 121,
+          "index": 0
+        }
+      }
+    },
+    {
+      "kind": "DRIVE_TO_MOTOR",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 2,
+        "servo_unit": 9,
+        "bus_id": 3,
+        "slave": 12,
+        "do": 7
+      },
+      "to": {
+        "cu": 2,
+        "component": 10
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "reference": {
+          "area": 5,
+          "block": 130,
+          "unit": 9,
+          "param": 131,
+          "index": 0
+        }
+      }
+    },
+    {
+      "kind": "DRIVE_TO_SENSOR_MODULE",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 2,
+        "servo_unit": 9,
+        "bus_id": 3,
+        "slave": 12,
+        "do": 7
+      },
+      "to": {
+        "cu": 2,
+        "component": 8
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "reference": {
+          "area": 5,
+          "block": 130,
+          "unit": 9,
+          "param": 141,
+          "index": 0
+        },
+        "state": 1
+      }
+    },
+    {
+      "kind": "SENSOR_TO_ENCODER",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 2,
+        "component": 8
+      },
+      "to": {
+        "cu": 2,
+        "component": 9
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "reference": {
+          "area": 5,
+          "block": 130,
+          "unit": 9,
+          "param": 142,
+          "index": 0
+        }
+      }
+    },
+    {
+      "kind": "AXIS_TO_DRIVE",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "axis_unit": 6
+      },
+      "to": {
+        "cu": 3,
+        "servo_unit": 10,
+        "bus_id": 3,
+        "slave": 13,
+        "do": 3
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "identity": {
+          "bus_id": 3,
+          "slave": 13,
+          "do": 3
+        }
+      }
+    },
+    {
+      "kind": "DRIVE_TO_MOTOR_MODULE",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 3,
+        "servo_unit": 10,
+        "bus_id": 3,
+        "slave": 13,
+        "do": 3
+      },
+      "to": {
+        "cu": 3,
+        "component": 3
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "reference": {
+          "area": 5,
+          "block": 130,
+          "unit": 10,
+          "param": 121,
+          "index": 0
+        }
+      }
+    },
+    {
+      "kind": "DRIVE_TO_MOTOR",
+      "status": "unresolved",
+      "confidence": "unresolved",
+      "from": {
+        "cu": 3,
+        "servo_unit": 10,
+        "bus_id": 3,
+        "slave": 13,
+        "do": 3
+      },
+      "to": {
+        "cu": 3,
+        "component": 10
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "reference": {
+          "area": 5,
+          "block": 130,
+          "unit": 10,
+          "param": 131,
+          "index": 0
+        }
+      }
+    },
+    {
+      "kind": "DRIVE_TO_SENSOR_MODULE",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 3,
+        "servo_unit": 10,
+        "bus_id": 3,
+        "slave": 13,
+        "do": 3
+      },
+      "to": {
+        "cu": 3,
+        "component": 8
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "reference": {
+          "area": 5,
+          "block": 130,
+          "unit": 10,
+          "param": 141,
+          "index": 0
+        },
+        "state": 1
+      }
+    },
+    {
+      "kind": "SENSOR_TO_ENCODER",
+      "status": "unresolved",
+      "confidence": "unresolved",
+      "from": {
+        "cu": 3,
+        "component": 8
+      },
+      "to": {
+        "cu": 3,
+        "component": 9
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "reference": {
+          "area": 5,
+          "block": 130,
+          "unit": 10,
+          "param": 142,
+          "index": 0
+        }
+      }
+    },
+    {
+      "kind": "DRIVE_TO_SENSOR_MODULE",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 3,
+        "servo_unit": 10,
+        "bus_id": 3,
+        "slave": 13,
+        "do": 3
+      },
+      "to": {
+        "cu": 3,
+        "component": 11
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "reference": {
+          "area": 5,
+          "block": 130,
+          "unit": 10,
+          "param": 141,
+          "index": 1
+        },
+        "state": 1
+      }
+    },
+    {
+      "kind": "SENSOR_TO_ENCODER",
+      "status": "unresolved",
+      "confidence": "unresolved",
+      "from": {
+        "cu": 3,
+        "component": 11
+      },
+      "to": {
+        "cu": 3,
+        "component": 12
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "reference": {
+          "area": 5,
+          "block": 130,
+          "unit": 10,
+          "param": 142,
+          "index": 1
+        }
+      }
+    },
+    {
+      "kind": "AXIS_TO_DRIVE",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "axis_unit": 19
+      },
+      "to": {
+        "cu": 3,
+        "servo_unit": 11,
+        "bus_id": 3,
+        "slave": 13,
+        "do": 4
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "identity": {
+          "bus_id": 3,
+          "slave": 13,
+          "do": 4
+        }
+      }
+    },
+    {
+      "kind": "DRIVE_TO_MOTOR_MODULE",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 3,
+        "servo_unit": 11,
+        "bus_id": 3,
+        "slave": 13,
+        "do": 4
+      },
+      "to": {
+        "cu": 3,
+        "component": 4
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "reference": {
+          "area": 5,
+          "block": 130,
+          "unit": 11,
+          "param": 121,
+          "index": 0
+        }
+      }
+    },
+    {
+      "kind": "DRIVE_TO_MOTOR",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 3,
+        "servo_unit": 11,
+        "bus_id": 3,
+        "slave": 13,
+        "do": 4
+      },
+      "to": {
+        "cu": 3,
+        "component": 7
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "reference": {
+          "area": 5,
+          "block": 130,
+          "unit": 11,
+          "param": 131,
+          "index": 0
+        }
+      }
+    },
+    {
+      "kind": "DRIVE_TO_SENSOR_MODULE",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 3,
+        "servo_unit": 11,
+        "bus_id": 3,
+        "slave": 13,
+        "do": 4
+      },
+      "to": {
+        "cu": 3,
+        "component": 5
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "reference": {
+          "area": 5,
+          "block": 130,
+          "unit": 11,
+          "param": 141,
+          "index": 0
+        },
+        "state": 1
+      }
+    },
+    {
+      "kind": "SENSOR_TO_ENCODER",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 3,
+        "component": 5
+      },
+      "to": {
+        "cu": 3,
+        "component": 6
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "reference": {
+          "area": 5,
+          "block": 130,
+          "unit": 11,
+          "param": 142,
+          "index": 0
+        }
+      }
+    },
+    {
+      "kind": "AXIS_TO_DRIVE",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "axis_unit": 5
+      },
+      "to": {
+        "cu": 4,
+        "servo_unit": 12,
+        "bus_id": 3,
+        "slave": 14,
+        "do": 3
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "identity": {
+          "bus_id": 3,
+          "slave": 14,
+          "do": 3
+        }
+      }
+    },
+    {
+      "kind": "DRIVE_TO_MOTOR_MODULE",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 4,
+        "servo_unit": 12,
+        "bus_id": 3,
+        "slave": 14,
+        "do": 3
+      },
+      "to": {
+        "cu": 4,
+        "component": 3
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "reference": {
+          "area": 5,
+          "block": 130,
+          "unit": 12,
+          "param": 121,
+          "index": 0
+        }
+      }
+    },
+    {
+      "kind": "DRIVE_TO_MOTOR",
+      "status": "unresolved",
+      "confidence": "unresolved",
+      "from": {
+        "cu": 4,
+        "servo_unit": 12,
+        "bus_id": 3,
+        "slave": 14,
+        "do": 3
+      },
+      "to": {
+        "cu": 4,
+        "component": 18
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "reference": {
+          "area": 5,
+          "block": 130,
+          "unit": 12,
+          "param": 131,
+          "index": 0
+        }
+      }
+    },
+    {
+      "kind": "DRIVE_TO_SENSOR_MODULE",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 4,
+        "servo_unit": 12,
+        "bus_id": 3,
+        "slave": 14,
+        "do": 3
+      },
+      "to": {
+        "cu": 4,
+        "component": 16
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "reference": {
+          "area": 5,
+          "block": 130,
+          "unit": 12,
+          "param": 141,
+          "index": 0
+        },
+        "state": 1
+      }
+    },
+    {
+      "kind": "SENSOR_TO_ENCODER",
+      "status": "unresolved",
+      "confidence": "unresolved",
+      "from": {
+        "cu": 4,
+        "component": 16
+      },
+      "to": {
+        "cu": 4,
+        "component": 17
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "reference": {
+          "area": 5,
+          "block": 130,
+          "unit": 12,
+          "param": 142,
+          "index": 0
+        }
+      }
+    },
+    {
+      "kind": "DRIVE_TO_SENSOR_MODULE",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 4,
+        "servo_unit": 12,
+        "bus_id": 3,
+        "slave": 14,
+        "do": 3
+      },
+      "to": {
+        "cu": 4,
+        "component": 20
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "reference": {
+          "area": 5,
+          "block": 130,
+          "unit": 12,
+          "param": 141,
+          "index": 1
+        },
+        "state": 1
+      }
+    },
+    {
+      "kind": "SENSOR_TO_ENCODER",
+      "status": "unresolved",
+      "confidence": "unresolved",
+      "from": {
+        "cu": 4,
+        "component": 20
+      },
+      "to": {
+        "cu": 4,
+        "component": 21
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "reference": {
+          "area": 5,
+          "block": 130,
+          "unit": 12,
+          "param": 142,
+          "index": 1
+        }
+      }
+    },
+    {
+      "kind": "AXIS_TO_DRIVE",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "axis_unit": 4
+      },
+      "to": {
+        "cu": 4,
+        "servo_unit": 13,
+        "bus_id": 3,
+        "slave": 14,
+        "do": 4
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "identity": {
+          "bus_id": 3,
+          "slave": 14,
+          "do": 4
+        }
+      }
+    },
+    {
+      "kind": "DRIVE_TO_MOTOR_MODULE",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 4,
+        "servo_unit": 13,
+        "bus_id": 3,
+        "slave": 14,
+        "do": 4
+      },
+      "to": {
+        "cu": 4,
+        "component": 4
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "reference": {
+          "area": 5,
+          "block": 130,
+          "unit": 13,
+          "param": 121,
+          "index": 0
+        }
+      }
+    },
+    {
+      "kind": "DRIVE_TO_MOTOR",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 4,
+        "servo_unit": 13,
+        "bus_id": 3,
+        "slave": 14,
+        "do": 4
+      },
+      "to": {
+        "cu": 4,
+        "component": 15
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "reference": {
+          "area": 5,
+          "block": 130,
+          "unit": 13,
+          "param": 131,
+          "index": 0
+        }
+      }
+    },
+    {
+      "kind": "DRIVE_TO_SENSOR_MODULE",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 4,
+        "servo_unit": 13,
+        "bus_id": 3,
+        "slave": 14,
+        "do": 4
+      },
+      "to": {
+        "cu": 4,
+        "component": 13
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "reference": {
+          "area": 5,
+          "block": 130,
+          "unit": 13,
+          "param": 141,
+          "index": 0
+        },
+        "state": 1
+      }
+    },
+    {
+      "kind": "SENSOR_TO_ENCODER",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 4,
+        "component": 13
+      },
+      "to": {
+        "cu": 4,
+        "component": 14
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "reference": {
+          "area": 5,
+          "block": 130,
+          "unit": 13,
+          "param": 142,
+          "index": 0
+        }
+      }
+    },
+    {
+      "kind": "DRIVE_TO_SENSOR_MODULE",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 4,
+        "servo_unit": 13,
+        "bus_id": 3,
+        "slave": 14,
+        "do": 4
+      },
+      "to": {
+        "cu": 4,
+        "component": 27
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "reference": {
+          "area": 5,
+          "block": 130,
+          "unit": 13,
+          "param": 141,
+          "index": 1
+        },
+        "state": 1
+      }
+    },
+    {
+      "kind": "SENSOR_TO_ENCODER",
+      "status": "unresolved",
+      "confidence": "unresolved",
+      "from": {
+        "cu": 4,
+        "component": 27
+      },
+      "to": {
+        "cu": 4,
+        "component": 28
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "reference": {
+          "area": 5,
+          "block": 130,
+          "unit": 13,
+          "param": 142,
+          "index": 1
+        }
+      }
+    },
+    {
+      "kind": "AXIS_TO_DRIVE",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "axis_unit": 12
+      },
+      "to": {
+        "cu": 4,
+        "servo_unit": 14,
+        "bus_id": 3,
+        "slave": 14,
+        "do": 5
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "identity": {
+          "bus_id": 3,
+          "slave": 14,
+          "do": 5
+        }
+      }
+    },
+    {
+      "kind": "DRIVE_TO_MOTOR_MODULE",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 4,
+        "servo_unit": 14,
+        "bus_id": 3,
+        "slave": 14,
+        "do": 5
+      },
+      "to": {
+        "cu": 4,
+        "component": 5
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "reference": {
+          "area": 5,
+          "block": 130,
+          "unit": 14,
+          "param": 121,
+          "index": 0
+        }
+      }
+    },
+    {
+      "kind": "DRIVE_TO_MOTOR",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 4,
+        "servo_unit": 14,
+        "bus_id": 3,
+        "slave": 14,
+        "do": 5
+      },
+      "to": {
+        "cu": 4,
+        "component": 12
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "reference": {
+          "area": 5,
+          "block": 130,
+          "unit": 14,
+          "param": 131,
+          "index": 0
+        }
+      }
+    },
+    {
+      "kind": "DRIVE_TO_SENSOR_MODULE",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 4,
+        "servo_unit": 14,
+        "bus_id": 3,
+        "slave": 14,
+        "do": 5
+      },
+      "to": {
+        "cu": 4,
+        "component": 10
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "reference": {
+          "area": 5,
+          "block": 130,
+          "unit": 14,
+          "param": 141,
+          "index": 0
+        },
+        "state": 1
+      }
+    },
+    {
+      "kind": "SENSOR_TO_ENCODER",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 4,
+        "component": 10
+      },
+      "to": {
+        "cu": 4,
+        "component": 11
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "reference": {
+          "area": 5,
+          "block": 130,
+          "unit": 14,
+          "param": 142,
+          "index": 0
+        }
+      }
+    },
+    {
+      "kind": "DRIVE_TO_SENSOR_MODULE",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 4,
+        "servo_unit": 14,
+        "bus_id": 3,
+        "slave": 14,
+        "do": 5
+      },
+      "to": {
+        "cu": 4,
+        "component": 25
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "reference": {
+          "area": 5,
+          "block": 130,
+          "unit": 14,
+          "param": 141,
+          "index": 1
+        },
+        "state": 1
+      }
+    },
+    {
+      "kind": "SENSOR_TO_ENCODER",
+      "status": "unresolved",
+      "confidence": "unresolved",
+      "from": {
+        "cu": 4,
+        "component": 25
+      },
+      "to": {
+        "cu": 4,
+        "component": 26
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "reference": {
+          "area": 5,
+          "block": 130,
+          "unit": 14,
+          "param": 142,
+          "index": 1
+        }
+      }
+    },
+    {
+      "kind": "AXIS_TO_DRIVE",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "axis_unit": 8
+      },
+      "to": {
+        "cu": 4,
+        "servo_unit": 15,
+        "bus_id": 3,
+        "slave": 14,
+        "do": 6
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "identity": {
+          "bus_id": 3,
+          "slave": 14,
+          "do": 6
+        }
+      }
+    },
+    {
+      "kind": "DRIVE_TO_MOTOR_MODULE",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 4,
+        "servo_unit": 15,
+        "bus_id": 3,
+        "slave": 14,
+        "do": 6
+      },
+      "to": {
+        "cu": 4,
+        "component": 6
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "reference": {
+          "area": 5,
+          "block": 130,
+          "unit": 15,
+          "param": 121,
+          "index": 0
+        }
+      }
+    },
+    {
+      "kind": "DRIVE_TO_MOTOR",
+      "status": "unresolved",
+      "confidence": "unresolved",
+      "from": {
+        "cu": 4,
+        "servo_unit": 15,
+        "bus_id": 3,
+        "slave": 14,
+        "do": 6
+      },
+      "to": {
+        "cu": 4,
+        "component": 9
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "reference": {
+          "area": 5,
+          "block": 130,
+          "unit": 15,
+          "param": 131,
+          "index": 0
+        }
+      }
+    },
+    {
+      "kind": "DRIVE_TO_SENSOR_MODULE",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 4,
+        "servo_unit": 15,
+        "bus_id": 3,
+        "slave": 14,
+        "do": 6
+      },
+      "to": {
+        "cu": 4,
+        "component": 7
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "reference": {
+          "area": 5,
+          "block": 130,
+          "unit": 15,
+          "param": 141,
+          "index": 0
+        },
+        "state": 1
+      }
+    },
+    {
+      "kind": "SENSOR_TO_ENCODER",
+      "status": "unresolved",
+      "confidence": "unresolved",
+      "from": {
+        "cu": 4,
+        "component": 7
+      },
+      "to": {
+        "cu": 4,
+        "component": 8
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "reference": {
+          "area": 5,
+          "block": 130,
+          "unit": 15,
+          "param": 142,
+          "index": 0
+        }
+      }
+    },
+    {
+      "kind": "DRIVE_TO_SENSOR_MODULE",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 4,
+        "servo_unit": 15,
+        "bus_id": 3,
+        "slave": 14,
+        "do": 6
+      },
+      "to": {
+        "cu": 4,
+        "component": 23
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "reference": {
+          "area": 5,
+          "block": 130,
+          "unit": 15,
+          "param": 141,
+          "index": 1
+        },
+        "state": 1
+      }
+    },
+    {
+      "kind": "SENSOR_TO_ENCODER",
+      "status": "unresolved",
+      "confidence": "unresolved",
+      "from": {
+        "cu": 4,
+        "component": 23
+      },
+      "to": {
+        "cu": 4,
+        "component": 24
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "reference": {
+          "area": 5,
+          "block": 130,
+          "unit": 15,
+          "param": 142,
+          "index": 1
+        }
+      }
+    },
+    {
+      "kind": "AXIS_TO_DRIVE",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "axis_unit": 3
+      },
+      "to": {
+        "cu": 5,
+        "servo_unit": 16,
+        "bus_id": 3,
+        "slave": 15,
+        "do": 2
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "identity": {
+          "bus_id": 3,
+          "slave": 15,
+          "do": 2
+        }
+      }
+    },
+    {
+      "kind": "DRIVE_TO_MOTOR_MODULE",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 5,
+        "servo_unit": 16,
+        "bus_id": 3,
+        "slave": 15,
+        "do": 2
+      },
+      "to": {
+        "cu": 5,
+        "component": 2
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "reference": {
+          "area": 5,
+          "block": 130,
+          "unit": 16,
+          "param": 121,
+          "index": 0
+        }
+      }
+    },
+    {
+      "kind": "DRIVE_TO_MOTOR",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 5,
+        "servo_unit": 16,
+        "bus_id": 3,
+        "slave": 15,
+        "do": 2
+      },
+      "to": {
+        "cu": 5,
+        "component": 17
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "reference": {
+          "area": 5,
+          "block": 130,
+          "unit": 16,
+          "param": 131,
+          "index": 0
+        }
+      }
+    },
+    {
+      "kind": "DRIVE_TO_SENSOR_MODULE",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 5,
+        "servo_unit": 16,
+        "bus_id": 3,
+        "slave": 15,
+        "do": 2
+      },
+      "to": {
+        "cu": 5,
+        "component": 15
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "reference": {
+          "area": 5,
+          "block": 130,
+          "unit": 16,
+          "param": 141,
+          "index": 0
+        },
+        "state": 1
+      }
+    },
+    {
+      "kind": "SENSOR_TO_ENCODER",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 5,
+        "component": 15
+      },
+      "to": {
+        "cu": 5,
+        "component": 16
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "reference": {
+          "area": 5,
+          "block": 130,
+          "unit": 16,
+          "param": 142,
+          "index": 0
+        }
+      }
+    },
+    {
+      "kind": "DRIVE_TO_SENSOR_MODULE",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 5,
+        "servo_unit": 16,
+        "bus_id": 3,
+        "slave": 15,
+        "do": 2
+      },
+      "to": {
+        "cu": 5,
+        "component": 19
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "reference": {
+          "area": 5,
+          "block": 130,
+          "unit": 16,
+          "param": 141,
+          "index": 1
+        },
+        "state": 1
+      }
+    },
+    {
+      "kind": "SENSOR_TO_ENCODER",
+      "status": "unresolved",
+      "confidence": "unresolved",
+      "from": {
+        "cu": 5,
+        "component": 19
+      },
+      "to": {
+        "cu": 5,
+        "component": 20
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "reference": {
+          "area": 5,
+          "block": 130,
+          "unit": 16,
+          "param": 142,
+          "index": 1
+        }
+      }
+    },
+    {
+      "kind": "AXIS_TO_DRIVE",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "axis_unit": 11
+      },
+      "to": {
+        "cu": 5,
+        "servo_unit": 17,
+        "bus_id": 3,
+        "slave": 15,
+        "do": 3
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "identity": {
+          "bus_id": 3,
+          "slave": 15,
+          "do": 3
+        }
+      }
+    },
+    {
+      "kind": "DRIVE_TO_MOTOR_MODULE",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 5,
+        "servo_unit": 17,
+        "bus_id": 3,
+        "slave": 15,
+        "do": 3
+      },
+      "to": {
+        "cu": 5,
+        "component": 3
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "reference": {
+          "area": 5,
+          "block": 130,
+          "unit": 17,
+          "param": 121,
+          "index": 0
+        }
+      }
+    },
+    {
+      "kind": "DRIVE_TO_MOTOR",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 5,
+        "servo_unit": 17,
+        "bus_id": 3,
+        "slave": 15,
+        "do": 3
+      },
+      "to": {
+        "cu": 5,
+        "component": 14
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "reference": {
+          "area": 5,
+          "block": 130,
+          "unit": 17,
+          "param": 131,
+          "index": 0
+        }
+      }
+    },
+    {
+      "kind": "DRIVE_TO_SENSOR_MODULE",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 5,
+        "servo_unit": 17,
+        "bus_id": 3,
+        "slave": 15,
+        "do": 3
+      },
+      "to": {
+        "cu": 5,
+        "component": 12
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "reference": {
+          "area": 5,
+          "block": 130,
+          "unit": 17,
+          "param": 141,
+          "index": 0
+        },
+        "state": 1
+      }
+    },
+    {
+      "kind": "SENSOR_TO_ENCODER",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 5,
+        "component": 12
+      },
+      "to": {
+        "cu": 5,
+        "component": 13
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "reference": {
+          "area": 5,
+          "block": 130,
+          "unit": 17,
+          "param": 142,
+          "index": 0
+        }
+      }
+    },
+    {
+      "kind": "AXIS_TO_DRIVE",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "axis_unit": 1
+      },
+      "to": {
+        "cu": 5,
+        "servo_unit": 18,
+        "bus_id": 3,
+        "slave": 15,
+        "do": 4
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "identity": {
+          "bus_id": 3,
+          "slave": 15,
+          "do": 4
+        }
+      }
+    },
+    {
+      "kind": "DRIVE_TO_MOTOR_MODULE",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 5,
+        "servo_unit": 18,
+        "bus_id": 3,
+        "slave": 15,
+        "do": 4
+      },
+      "to": {
+        "cu": 5,
+        "component": 4
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "reference": {
+          "area": 5,
+          "block": 130,
+          "unit": 18,
+          "param": 121,
+          "index": 0
+        }
+      }
+    },
+    {
+      "kind": "DRIVE_TO_MOTOR",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 5,
+        "servo_unit": 18,
+        "bus_id": 3,
+        "slave": 15,
+        "do": 4
+      },
+      "to": {
+        "cu": 5,
+        "component": 11
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "reference": {
+          "area": 5,
+          "block": 130,
+          "unit": 18,
+          "param": 131,
+          "index": 0
+        }
+      }
+    },
+    {
+      "kind": "DRIVE_TO_SENSOR_MODULE",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 5,
+        "servo_unit": 18,
+        "bus_id": 3,
+        "slave": 15,
+        "do": 4
+      },
+      "to": {
+        "cu": 5,
+        "component": 9
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "reference": {
+          "area": 5,
+          "block": 130,
+          "unit": 18,
+          "param": 141,
+          "index": 0
+        },
+        "state": 1
+      }
+    },
+    {
+      "kind": "SENSOR_TO_ENCODER",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 5,
+        "component": 9
+      },
+      "to": {
+        "cu": 5,
+        "component": 10
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "reference": {
+          "area": 5,
+          "block": 130,
+          "unit": 18,
+          "param": 142,
+          "index": 0
+        }
+      }
+    },
+    {
+      "kind": "DRIVE_TO_SENSOR_MODULE",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 5,
+        "servo_unit": 18,
+        "bus_id": 3,
+        "slave": 15,
+        "do": 4
+      },
+      "to": {
+        "cu": 5,
+        "component": 24
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "reference": {
+          "area": 5,
+          "block": 130,
+          "unit": 18,
+          "param": 141,
+          "index": 1
+        },
+        "state": 1
+      }
+    },
+    {
+      "kind": "SENSOR_TO_ENCODER",
+      "status": "unresolved",
+      "confidence": "unresolved",
+      "from": {
+        "cu": 5,
+        "component": 24
+      },
+      "to": {
+        "cu": 5,
+        "component": 25
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "reference": {
+          "area": 5,
+          "block": 130,
+          "unit": 18,
+          "param": 142,
+          "index": 1
+        }
+      }
+    },
+    {
+      "kind": "AXIS_TO_DRIVE",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "axis_unit": 9
+      },
+      "to": {
+        "cu": 5,
+        "servo_unit": 19,
+        "bus_id": 3,
+        "slave": 15,
+        "do": 5
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "identity": {
+          "bus_id": 3,
+          "slave": 15,
+          "do": 5
+        }
+      }
+    },
+    {
+      "kind": "DRIVE_TO_MOTOR_MODULE",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 5,
+        "servo_unit": 19,
+        "bus_id": 3,
+        "slave": 15,
+        "do": 5
+      },
+      "to": {
+        "cu": 5,
+        "component": 5
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "reference": {
+          "area": 5,
+          "block": 130,
+          "unit": 19,
+          "param": 121,
+          "index": 0
+        }
+      }
+    },
+    {
+      "kind": "DRIVE_TO_MOTOR",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 5,
+        "servo_unit": 19,
+        "bus_id": 3,
+        "slave": 15,
+        "do": 5
+      },
+      "to": {
+        "cu": 5,
+        "component": 8
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "reference": {
+          "area": 5,
+          "block": 130,
+          "unit": 19,
+          "param": 131,
+          "index": 0
+        }
+      }
+    },
+    {
+      "kind": "DRIVE_TO_SENSOR_MODULE",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 5,
+        "servo_unit": 19,
+        "bus_id": 3,
+        "slave": 15,
+        "do": 5
+      },
+      "to": {
+        "cu": 5,
+        "component": 6
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "reference": {
+          "area": 5,
+          "block": 130,
+          "unit": 19,
+          "param": 141,
+          "index": 0
+        },
+        "state": 1
+      }
+    },
+    {
+      "kind": "SENSOR_TO_ENCODER",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 5,
+        "component": 6
+      },
+      "to": {
+        "cu": 5,
+        "component": 7
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "reference": {
+          "area": 5,
+          "block": 130,
+          "unit": 19,
+          "param": 142,
+          "index": 0
+        }
+      }
+    },
+    {
+      "kind": "DRIVE_TO_SENSOR_MODULE",
+      "status": "confirmed",
+      "confidence": "confirmed",
+      "from": {
+        "cu": 5,
+        "servo_unit": 19,
+        "bus_id": 3,
+        "slave": 15,
+        "do": 5
+      },
+      "to": {
+        "cu": 5,
+        "component": 22
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "reference": {
+          "area": 5,
+          "block": 130,
+          "unit": 19,
+          "param": 141,
+          "index": 1
+        },
+        "state": 1
+      }
+    },
+    {
+      "kind": "SENSOR_TO_ENCODER",
+      "status": "unresolved",
+      "confidence": "unresolved",
+      "from": {
+        "cu": 5,
+        "component": 22
+      },
+      "to": {
+        "cu": 5,
+        "component": 23
+      },
+      "evidence": {
+        "source": "NCK.ReadVar",
+        "reference": {
+          "area": 5,
+          "block": 130,
+          "unit": 19,
+          "param": 142,
+          "index": 1
+        }
+      }
+    }
+  ],
+  "unresolved_ports": [],
+  "mapping_problems": []
+}

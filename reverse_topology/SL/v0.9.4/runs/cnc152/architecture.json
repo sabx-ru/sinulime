@@ -1,0 +1,4109 @@
+{
+  "schema": "read-only-topology/v0.9.2",
+  "summary": {
+    "read_events": 5232,
+    "read_statuses": {
+      "ok": 5137,
+      "item_error": 95
+    },
+    "cu_count": 2,
+    "sdb_blocks": 2,
+    "hw_slot_count": 9,
+    "hw_stations": [
+      {
+        "bus_id": 3,
+        "slave": 3
+      },
+      {
+        "bus_id": 3,
+        "slave": 15
+      }
+    ],
+    "axes_active": 6,
+    "axes_verified": 6,
+    "physical_actual_edges": 13,
+    "physical_target_edges": 13,
+    "physical_edge_sets_equal": true,
+    "cu_link_pairs": 1,
+    "topology_all_tlv_complete": true,
+    "target_all_tlv_complete": true,
+    "unresolved_service_mappings": 0,
+    "actual_cu_with_complete_tlv": 2,
+    "target_cu_with_complete_tlv": 2,
+    "hwdata_available": true,
+    "capture_phase": "COMPLETE",
+    "scan_finished": true,
+    "capture_complete": true
+  },
+  "control_units": {
+    "1": {
+      "cu": 1,
+      "service_io": 6500,
+      "do_count": 6,
+      "do_numbers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        60
+      ],
+      "do_types": [
+        3,
+        11,
+        11,
+        11,
+        11,
+        254
+      ],
+      "p0978": [
+        2,
+        3,
+        4,
+        5,
+        255,
+        255,
+        1,
+        255,
+        0,
+        60,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "bus_id": 3,
+      "slave": 3,
+      "hw_match": "EXACT_SERVICE_IO"
+    },
+    "2": {
+      "cu": 2,
+      "service_io": 6530,
+      "do_count": 3,
+      "do_numbers": [
+        1,
+        2,
+        3
+      ],
+      "do_types": [
+        4,
+        11,
+        11
+      ],
+      "p0978": [
+        2,
+        3,
+        255,
+        1,
+        255,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "bus_id": 3,
+      "slave": 15,
+      "hw_match": "EXACT_SERVICE_IO"
+    }
+  },
+  "axes": [
+    {
+      "axis_unit": 1,
+      "name": "X1",
+      "md30130": 1,
+      "md30110": 1,
+      "encoders": [
+        {
+          "channel": 0,
+          "md30220": 1,
+          "md30230": 1,
+          "md30240": 4
+        },
+        {
+          "channel": 1,
+          "md30220": 1,
+          "md30230": 2,
+          "md30240": 0
+        }
+      ],
+      "io_address": 4100,
+      "md13060": 136,
+      "bus_id": 3,
+      "slave": 3,
+      "slot": 0,
+      "io_input_bytes": 38,
+      "io_output_bytes": 30,
+      "cu": 1,
+      "p0978_status": "OK",
+      "do": 2,
+      "do_type": 11,
+      "status": "VERIFIED_BY_NCK_SDB_CU",
+      "servo_unit": 1,
+      "servo_name": "SERVO_3.3:2",
+      "component_refs": {
+        "121": [
+          2,
+          null,
+          null,
+          null
+        ],
+        "131": [
+          17,
+          null,
+          null,
+          null
+        ],
+        "141": [
+          15,
+          null,
+          null,
+          null
+        ],
+        "142": [
+          16,
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "axis_unit": 2,
+      "name": "Y1",
+      "md30130": 1,
+      "md30110": 2,
+      "encoders": [
+        {
+          "channel": 0,
+          "md30220": 2,
+          "md30230": 1,
+          "md30240": 4
+        },
+        {
+          "channel": 1,
+          "md30220": 2,
+          "md30230": 2,
+          "md30240": 0
+        }
+      ],
+      "io_address": 4140,
+      "md13060": 136,
+      "bus_id": 3,
+      "slave": 3,
+      "slot": 1,
+      "io_input_bytes": 38,
+      "io_output_bytes": 30,
+      "cu": 1,
+      "p0978_status": "OK",
+      "do": 3,
+      "do_type": 11,
+      "status": "VERIFIED_BY_NCK_SDB_CU",
+      "servo_unit": 2,
+      "servo_name": "SERVO_3.3:3",
+      "component_refs": {
+        "121": [
+          3,
+          null,
+          null,
+          null
+        ],
+        "131": [
+          14,
+          null,
+          null,
+          null
+        ],
+        "141": [
+          12,
+          null,
+          null,
+          null
+        ],
+        "142": [
+          13,
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "axis_unit": 3,
+      "name": "Y2",
+      "md30130": 1,
+      "md30110": 3,
+      "encoders": [
+        {
+          "channel": 0,
+          "md30220": 3,
+          "md30230": 1,
+          "md30240": 4
+        },
+        {
+          "channel": 1,
+          "md30220": 3,
+          "md30230": 2,
+          "md30240": 0
+        }
+      ],
+      "io_address": 4180,
+      "md13060": 136,
+      "bus_id": 3,
+      "slave": 3,
+      "slot": 2,
+      "io_input_bytes": 38,
+      "io_output_bytes": 30,
+      "cu": 1,
+      "p0978_status": "OK",
+      "do": 4,
+      "do_type": 11,
+      "status": "VERIFIED_BY_NCK_SDB_CU",
+      "servo_unit": 3,
+      "servo_name": "SERVO_3.3:4",
+      "component_refs": {
+        "121": [
+          4,
+          null,
+          null,
+          null
+        ],
+        "131": [
+          11,
+          null,
+          null,
+          null
+        ],
+        "141": [
+          9,
+          null,
+          null,
+          null
+        ],
+        "142": [
+          10,
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "axis_unit": 4,
+      "name": "Z1",
+      "md30130": 1,
+      "md30110": 4,
+      "encoders": [
+        {
+          "channel": 0,
+          "md30220": 4,
+          "md30230": 1,
+          "md30240": 4
+        },
+        {
+          "channel": 1,
+          "md30220": 4,
+          "md30230": 2,
+          "md30240": 0
+        }
+      ],
+      "io_address": 4220,
+      "md13060": 136,
+      "bus_id": 3,
+      "slave": 3,
+      "slot": 3,
+      "io_input_bytes": 38,
+      "io_output_bytes": 30,
+      "cu": 1,
+      "p0978_status": "OK",
+      "do": 5,
+      "do_type": 11,
+      "status": "VERIFIED_BY_NCK_SDB_CU",
+      "servo_unit": 4,
+      "servo_name": "SERVO_3.3:5",
+      "component_refs": {
+        "121": [
+          5,
+          null,
+          null,
+          null
+        ],
+        "131": [
+          8,
+          null,
+          null,
+          null
+        ],
+        "141": [
+          6,
+          null,
+          null,
+          null
+        ],
+        "142": [
+          7,
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "axis_unit": 5,
+      "name": "C1",
+      "md30130": 1,
+      "md30110": 7,
+      "encoders": [
+        {
+          "channel": 0,
+          "md30220": 7,
+          "md30230": 1,
+          "md30240": 1
+        },
+        {
+          "channel": 1,
+          "md30220": 5,
+          "md30230": 2,
+          "md30240": 0
+        }
+      ],
+      "io_address": 4340,
+      "md13060": 136,
+      "bus_id": 3,
+      "slave": 15,
+      "slot": 0,
+      "io_input_bytes": 38,
+      "io_output_bytes": 30,
+      "cu": 2,
+      "p0978_status": "OK",
+      "do": 2,
+      "do_type": 11,
+      "status": "VERIFIED_BY_NCK_SDB_CU",
+      "servo_unit": 5,
+      "servo_name": "SERVO_3.15:2",
+      "component_refs": {
+        "121": [
+          2,
+          null,
+          null,
+          null
+        ],
+        "131": [
+          5,
+          null,
+          null,
+          null
+        ],
+        "141": [
+          9,
+          null,
+          null,
+          null
+        ],
+        "142": [
+          8,
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "axis_unit": 6,
+      "name": "B1",
+      "md30130": 1,
+      "md30110": 8,
+      "encoders": [
+        {
+          "channel": 0,
+          "md30220": 8,
+          "md30230": 1,
+          "md30240": 1
+        },
+        {
+          "channel": 1,
+          "md30220": 6,
+          "md30230": 2,
+          "md30240": 0
+        }
+      ],
+      "io_address": 4380,
+      "md13060": 136,
+      "bus_id": 3,
+      "slave": 15,
+      "slot": 1,
+      "io_input_bytes": 38,
+      "io_output_bytes": 30,
+      "cu": 2,
+      "p0978_status": "OK",
+      "do": 3,
+      "do_type": 11,
+      "status": "VERIFIED_BY_NCK_SDB_CU",
+      "servo_unit": 6,
+      "servo_name": "SERVO_3.15:3",
+      "component_refs": {
+        "121": [
+          3,
+          null,
+          null,
+          null
+        ],
+        "131": [
+          4,
+          null,
+          null,
+          null
+        ],
+        "141": [
+          7,
+          null,
+          null,
+          null
+        ],
+        "142": [
+          6,
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "axis_unit": 7,
+      "name": "U1",
+      "md30130": 0,
+      "md30110": 7,
+      "encoders": [
+        {
+          "channel": 0,
+          "md30220": 7,
+          "md30230": 1,
+          "md30240": 0
+        },
+        {
+          "channel": 1,
+          "md30220": 7,
+          "md30230": 2,
+          "md30240": 0
+        }
+      ],
+      "status": "INACTIVE_OR_UNKNOWN_SETPOINT"
+    },
+    {
+      "axis_unit": 8,
+      "name": "V1",
+      "md30130": 0,
+      "md30110": 8,
+      "encoders": [
+        {
+          "channel": 0,
+          "md30220": 8,
+          "md30230": 1,
+          "md30240": 0
+        },
+        {
+          "channel": 1,
+          "md30220": 8,
+          "md30230": 2,
+          "md30240": 0
+        }
+      ],
+      "status": "INACTIVE_OR_UNKNOWN_SETPOINT"
+    },
+    {
+      "axis_unit": 9,
+      "name": null,
+      "md30130": 0,
+      "md30110": 9,
+      "encoders": [
+        {
+          "channel": 0,
+          "md30220": 9,
+          "md30230": 1,
+          "md30240": 0
+        },
+        {
+          "channel": 1,
+          "md30220": 9,
+          "md30230": 2,
+          "md30240": 0
+        }
+      ],
+      "status": "INACTIVE_OR_UNKNOWN_SETPOINT"
+    },
+    {
+      "axis_unit": 10,
+      "name": "DSP",
+      "md30130": 0,
+      "md30110": 10,
+      "encoders": [
+        {
+          "channel": 0,
+          "md30220": 10,
+          "md30230": 1,
+          "md30240": 0
+        },
+        {
+          "channel": 1,
+          "md30220": 10,
+          "md30230": 2,
+          "md30240": 0
+        }
+      ],
+      "status": "INACTIVE_OR_UNKNOWN_SETPOINT"
+    },
+    {
+      "axis_unit": 11,
+      "name": null,
+      "md30130": 0,
+      "md30110": 11,
+      "encoders": [
+        {
+          "channel": 0,
+          "md30220": 11,
+          "md30230": 1,
+          "md30240": 0
+        },
+        {
+          "channel": 1,
+          "md30220": 11,
+          "md30230": 2,
+          "md30240": 0
+        }
+      ],
+      "status": "INACTIVE_OR_UNKNOWN_SETPOINT"
+    },
+    {
+      "axis_unit": 12,
+      "name": null,
+      "md30130": 0,
+      "md30110": 12,
+      "encoders": [
+        {
+          "channel": 0,
+          "md30220": 12,
+          "md30230": 1,
+          "md30240": 0
+        },
+        {
+          "channel": 1,
+          "md30220": 12,
+          "md30230": 2,
+          "md30240": 0
+        }
+      ],
+      "status": "INACTIVE_OR_UNKNOWN_SETPOINT"
+    },
+    {
+      "axis_unit": 13,
+      "name": null,
+      "md30130": 0,
+      "md30110": 13,
+      "encoders": [
+        {
+          "channel": 0,
+          "md30220": 13,
+          "md30230": 1,
+          "md30240": 0
+        },
+        {
+          "channel": 1,
+          "md30220": 13,
+          "md30230": 2,
+          "md30240": 0
+        }
+      ],
+      "status": "INACTIVE_OR_UNKNOWN_SETPOINT"
+    },
+    {
+      "axis_unit": 14,
+      "name": null,
+      "md30130": 0,
+      "md30110": 14,
+      "encoders": [
+        {
+          "channel": 0,
+          "md30220": 14,
+          "md30230": 1,
+          "md30240": 0
+        },
+        {
+          "channel": 1,
+          "md30220": 14,
+          "md30230": 2,
+          "md30240": 0
+        }
+      ],
+      "status": "INACTIVE_OR_UNKNOWN_SETPOINT"
+    },
+    {
+      "axis_unit": 15,
+      "name": null,
+      "md30130": 0,
+      "md30110": 15,
+      "encoders": [
+        {
+          "channel": 0,
+          "md30220": 15,
+          "md30230": 1,
+          "md30240": 0
+        },
+        {
+          "channel": 1,
+          "md30220": 15,
+          "md30230": 2,
+          "md30240": 0
+        }
+      ],
+      "status": "INACTIVE_OR_UNKNOWN_SETPOINT"
+    },
+    {
+      "axis_unit": 16,
+      "name": null,
+      "md30130": 0,
+      "md30110": 16,
+      "encoders": [
+        {
+          "channel": 0,
+          "md30220": 16,
+          "md30230": 1,
+          "md30240": 0
+        },
+        {
+          "channel": 1,
+          "md30220": 16,
+          "md30230": 2,
+          "md30240": 0
+        }
+      ],
+      "status": "INACTIVE_OR_UNKNOWN_SETPOINT"
+    },
+    {
+      "axis_unit": 17,
+      "name": null,
+      "md30130": 0,
+      "md30110": 17,
+      "encoders": [
+        {
+          "channel": 0,
+          "md30220": 17,
+          "md30230": 1,
+          "md30240": 0
+        },
+        {
+          "channel": 1,
+          "md30220": 17,
+          "md30230": 2,
+          "md30240": 0
+        }
+      ],
+      "status": "INACTIVE_OR_UNKNOWN_SETPOINT"
+    },
+    {
+      "axis_unit": 18,
+      "name": null,
+      "md30130": 0,
+      "md30110": 18,
+      "encoders": [
+        {
+          "channel": 0,
+          "md30220": 18,
+          "md30230": 1,
+          "md30240": 0
+        },
+        {
+          "channel": 1,
+          "md30220": 18,
+          "md30230": 2,
+          "md30240": 0
+        }
+      ],
+      "status": "INACTIVE_OR_UNKNOWN_SETPOINT"
+    },
+    {
+      "axis_unit": 19,
+      "name": null,
+      "md30130": 0,
+      "md30110": 19,
+      "encoders": [
+        {
+          "channel": 0,
+          "md30220": 19,
+          "md30230": 1,
+          "md30240": 0
+        },
+        {
+          "channel": 1,
+          "md30220": 19,
+          "md30230": 2,
+          "md30240": 0
+        }
+      ],
+      "status": "INACTIVE_OR_UNKNOWN_SETPOINT"
+    },
+    {
+      "axis_unit": 20,
+      "name": null,
+      "md30130": 0,
+      "md30110": 20,
+      "encoders": [
+        {
+          "channel": 0,
+          "md30220": 20,
+          "md30230": 1,
+          "md30240": 0
+        },
+        {
+          "channel": 1,
+          "md30220": 20,
+          "md30230": 2,
+          "md30240": 0
+        }
+      ],
+      "status": "INACTIVE_OR_UNKNOWN_SETPOINT"
+    },
+    {
+      "axis_unit": 21,
+      "name": null,
+      "md30130": 0,
+      "md30110": 21,
+      "encoders": [
+        {
+          "channel": 0,
+          "md30220": 21,
+          "md30230": 1,
+          "md30240": 0
+        },
+        {
+          "channel": 1,
+          "md30220": 21,
+          "md30230": 2,
+          "md30240": 0
+        }
+      ],
+      "status": "INACTIVE_OR_UNKNOWN_SETPOINT"
+    },
+    {
+      "axis_unit": 22,
+      "name": null,
+      "md30130": 0,
+      "md30110": 22,
+      "encoders": [
+        {
+          "channel": 0,
+          "md30220": 22,
+          "md30230": 1,
+          "md30240": 0
+        },
+        {
+          "channel": 1,
+          "md30220": 22,
+          "md30230": 2,
+          "md30240": 0
+        }
+      ],
+      "status": "INACTIVE_OR_UNKNOWN_SETPOINT"
+    },
+    {
+      "axis_unit": 23,
+      "name": null,
+      "md30130": 0,
+      "md30110": 23,
+      "encoders": [
+        {
+          "channel": 0,
+          "md30220": 23,
+          "md30230": 1,
+          "md30240": 0
+        },
+        {
+          "channel": 1,
+          "md30220": 23,
+          "md30230": 2,
+          "md30240": 0
+        }
+      ],
+      "status": "INACTIVE_OR_UNKNOWN_SETPOINT"
+    },
+    {
+      "axis_unit": 24,
+      "name": null,
+      "md30130": 0,
+      "md30110": 24,
+      "encoders": [
+        {
+          "channel": 0,
+          "md30220": 24,
+          "md30230": 1,
+          "md30240": 0
+        },
+        {
+          "channel": 1,
+          "md30220": 24,
+          "md30230": 2,
+          "md30240": 0
+        }
+      ],
+      "status": "INACTIVE_OR_UNKNOWN_SETPOINT"
+    },
+    {
+      "axis_unit": 25,
+      "name": null,
+      "md30130": 0,
+      "md30110": 25,
+      "encoders": [
+        {
+          "channel": 0,
+          "md30220": 25,
+          "md30230": 1,
+          "md30240": 0
+        },
+        {
+          "channel": 1,
+          "md30220": 25,
+          "md30230": 2,
+          "md30240": 0
+        }
+      ],
+      "status": "INACTIVE_OR_UNKNOWN_SETPOINT"
+    },
+    {
+      "axis_unit": 26,
+      "name": null,
+      "md30130": 0,
+      "md30110": 26,
+      "encoders": [
+        {
+          "channel": 0,
+          "md30220": 26,
+          "md30230": 1,
+          "md30240": 0
+        },
+        {
+          "channel": 1,
+          "md30220": 26,
+          "md30230": 2,
+          "md30240": 0
+        }
+      ],
+      "status": "INACTIVE_OR_UNKNOWN_SETPOINT"
+    },
+    {
+      "axis_unit": 27,
+      "name": null,
+      "md30130": 0,
+      "md30110": 27,
+      "encoders": [
+        {
+          "channel": 0,
+          "md30220": 27,
+          "md30230": 1,
+          "md30240": 0
+        },
+        {
+          "channel": 1,
+          "md30220": 27,
+          "md30230": 2,
+          "md30240": 0
+        }
+      ],
+      "status": "INACTIVE_OR_UNKNOWN_SETPOINT"
+    },
+    {
+      "axis_unit": 28,
+      "name": null,
+      "md30130": 0,
+      "md30110": 28,
+      "encoders": [
+        {
+          "channel": 0,
+          "md30220": 28,
+          "md30230": 1,
+          "md30240": 0
+        },
+        {
+          "channel": 1,
+          "md30220": 28,
+          "md30230": 2,
+          "md30240": 0
+        }
+      ],
+      "status": "INACTIVE_OR_UNKNOWN_SETPOINT"
+    },
+    {
+      "axis_unit": 29,
+      "name": null,
+      "md30130": 0,
+      "md30110": 29,
+      "encoders": [
+        {
+          "channel": 0,
+          "md30220": 29,
+          "md30230": 1,
+          "md30240": 0
+        },
+        {
+          "channel": 1,
+          "md30220": 29,
+          "md30230": 2,
+          "md30240": 0
+        }
+      ],
+      "status": "INACTIVE_OR_UNKNOWN_SETPOINT"
+    },
+    {
+      "axis_unit": 30,
+      "name": null,
+      "md30130": 0,
+      "md30110": 30,
+      "encoders": [
+        {
+          "channel": 0,
+          "md30220": 30,
+          "md30230": 1,
+          "md30240": 0
+        },
+        {
+          "channel": 1,
+          "md30220": 30,
+          "md30230": 2,
+          "md30240": 0
+        }
+      ],
+      "status": "INACTIVE_OR_UNKNOWN_SETPOINT"
+    },
+    {
+      "axis_unit": 31,
+      "name": null,
+      "md30130": 0,
+      "md30110": 31,
+      "encoders": [
+        {
+          "channel": 0,
+          "md30220": 31,
+          "md30230": 1,
+          "md30240": 0
+        },
+        {
+          "channel": 1,
+          "md30220": 31,
+          "md30230": 2,
+          "md30240": 0
+        }
+      ],
+      "status": "INACTIVE_OR_UNKNOWN_SETPOINT"
+    }
+  ],
+  "hwdata": {
+    "tables": [
+      {
+        "name": "SDB00022.full.bin",
+        "bus_id": 1,
+        "sha256": "9864d0751adcb6f8c32143ebe5035094a9e86b3fb572028c569b86756e4fc4f1",
+        "records_count": 27
+      },
+      {
+        "name": "SDB00023.full.bin",
+        "bus_id": 3,
+        "sha256": "283bb31405a9cdbd369792d9f40ea6893cb24e9b008a9acf9ab485d4b86c6def",
+        "records_count": 44
+      }
+    ],
+    "module_records": 71,
+    "slots": [
+      {
+        "bus_id": 3,
+        "slave": 3,
+        "address": 4100,
+        "output_bytes": 30,
+        "input_bytes": 38,
+        "offset": 104,
+        "modules": {
+          "output": 6,
+          "input": 5
+        },
+        "slot": 0,
+        "telegram_expected": 136,
+        "slot_order_confident": true
+      },
+      {
+        "bus_id": 3,
+        "slave": 3,
+        "address": 4140,
+        "output_bytes": 30,
+        "input_bytes": 38,
+        "offset": 160,
+        "modules": {
+          "output": 10,
+          "input": 9
+        },
+        "slot": 1,
+        "telegram_expected": 136,
+        "slot_order_confident": true
+      },
+      {
+        "bus_id": 3,
+        "slave": 3,
+        "address": 4180,
+        "output_bytes": 30,
+        "input_bytes": 38,
+        "offset": 216,
+        "modules": {
+          "output": 14,
+          "input": 13
+        },
+        "slot": 2,
+        "telegram_expected": 136,
+        "slot_order_confident": true
+      },
+      {
+        "bus_id": 3,
+        "slave": 3,
+        "address": 4220,
+        "output_bytes": 30,
+        "input_bytes": 38,
+        "offset": 272,
+        "modules": {
+          "output": 18,
+          "input": 17
+        },
+        "slot": 3,
+        "telegram_expected": 136,
+        "slot_order_confident": true
+      },
+      {
+        "bus_id": 3,
+        "slave": 3,
+        "address": 4260,
+        "output_bytes": 30,
+        "input_bytes": 38,
+        "offset": 328,
+        "modules": {
+          "output": 22,
+          "input": 21
+        },
+        "slot": 4,
+        "telegram_expected": 136,
+        "slot_order_confident": true
+      },
+      {
+        "bus_id": 3,
+        "slave": 3,
+        "address": 4300,
+        "output_bytes": 30,
+        "input_bytes": 38,
+        "offset": 384,
+        "modules": {
+          "output": 26,
+          "input": 25
+        },
+        "slot": 5,
+        "telegram_expected": 136,
+        "slot_order_confident": true
+      },
+      {
+        "bus_id": 3,
+        "slave": 15,
+        "address": 4340,
+        "output_bytes": 30,
+        "input_bytes": 38,
+        "offset": 524,
+        "modules": {
+          "output": 6,
+          "input": 5
+        },
+        "slot": 0,
+        "telegram_expected": 136,
+        "slot_order_confident": true
+      },
+      {
+        "bus_id": 3,
+        "slave": 15,
+        "address": 4380,
+        "output_bytes": 30,
+        "input_bytes": 38,
+        "offset": 580,
+        "modules": {
+          "output": 10,
+          "input": 9
+        },
+        "slot": 1,
+        "telegram_expected": 136,
+        "slot_order_confident": true
+      },
+      {
+        "bus_id": 3,
+        "slave": 15,
+        "address": 4420,
+        "output_bytes": 30,
+        "input_bytes": 38,
+        "offset": 636,
+        "modules": {
+          "output": 14,
+          "input": 13
+        },
+        "slot": 2,
+        "telegram_expected": 136,
+        "slot_order_confident": true
+      }
+    ],
+    "service": [
+      {
+        "bus_id": 3,
+        "slave": 3,
+        "address": 6500,
+        "output_bytes": 6,
+        "input_bytes": 14,
+        "offset": 412,
+        "modules": {
+          "output": 29,
+          "input": 28
+        }
+      },
+      {
+        "bus_id": 3,
+        "slave": 3,
+        "address": 6514,
+        "output_bytes": 2,
+        "input_bytes": 2,
+        "offset": 440,
+        "modules": {
+          "output": 32,
+          "input": 31
+        }
+      },
+      {
+        "bus_id": 3,
+        "slave": 15,
+        "address": 6530,
+        "output_bytes": 4,
+        "input_bytes": 4,
+        "offset": 664,
+        "modules": {
+          "output": 17,
+          "input": 16
+        }
+      },
+      {
+        "bus_id": 3,
+        "slave": 15,
+        "address": 6534,
+        "output_bytes": 2,
+        "input_bytes": 2,
+        "offset": 692,
+        "modules": {
+          "output": 20,
+          "input": 19
+        }
+      }
+    ],
+    "safety": [
+      {
+        "bus_id": 3,
+        "slave": 3,
+        "address": 6700,
+        "output_bytes": 24,
+        "input_bytes": 24,
+        "offset": 76,
+        "modules": {
+          "output": 4,
+          "input": 4
+        }
+      },
+      {
+        "bus_id": 3,
+        "slave": 3,
+        "address": 6724,
+        "output_bytes": 24,
+        "input_bytes": 24,
+        "offset": 132,
+        "modules": {
+          "output": 8,
+          "input": 8
+        }
+      },
+      {
+        "bus_id": 3,
+        "slave": 3,
+        "address": 6748,
+        "output_bytes": 24,
+        "input_bytes": 24,
+        "offset": 188,
+        "modules": {
+          "output": 12,
+          "input": 12
+        }
+      },
+      {
+        "bus_id": 3,
+        "slave": 3,
+        "address": 6772,
+        "output_bytes": 24,
+        "input_bytes": 24,
+        "offset": 244,
+        "modules": {
+          "output": 16,
+          "input": 16
+        }
+      },
+      {
+        "bus_id": 3,
+        "slave": 3,
+        "address": 6796,
+        "output_bytes": 24,
+        "input_bytes": 24,
+        "offset": 300,
+        "modules": {
+          "output": 20,
+          "input": 20
+        }
+      },
+      {
+        "bus_id": 3,
+        "slave": 3,
+        "address": 6820,
+        "output_bytes": 24,
+        "input_bytes": 24,
+        "offset": 356,
+        "modules": {
+          "output": 24,
+          "input": 24
+        }
+      },
+      {
+        "bus_id": 3,
+        "slave": 15,
+        "address": 6844,
+        "output_bytes": 24,
+        "input_bytes": 24,
+        "offset": 496,
+        "modules": {
+          "output": 4,
+          "input": 4
+        }
+      },
+      {
+        "bus_id": 3,
+        "slave": 15,
+        "address": 6868,
+        "output_bytes": 24,
+        "input_bytes": 24,
+        "offset": 552,
+        "modules": {
+          "output": 8,
+          "input": 8
+        }
+      },
+      {
+        "bus_id": 3,
+        "slave": 15,
+        "address": 6892,
+        "output_bytes": 24,
+        "input_bytes": 24,
+        "offset": 608,
+        "modules": {
+          "output": 12,
+          "input": 12
+        }
+      }
+    ],
+    "unclassified": [
+      {
+        "bus_id": 1,
+        "slave": 8,
+        "address": 132,
+        "output_bytes": 4,
+        "input_bytes": 6,
+        "offset": 76,
+        "modules": {
+          "output": 2,
+          "input": 2
+        }
+      },
+      {
+        "bus_id": 1,
+        "slave": 8,
+        "address": 138,
+        "output_bytes": 4,
+        "input_bytes": 6,
+        "offset": 104,
+        "modules": {
+          "output": 3,
+          "input": 3
+        }
+      },
+      {
+        "bus_id": 1,
+        "slave": 8,
+        "address": 144,
+        "output_bytes": 4,
+        "input_bytes": 6,
+        "offset": 132,
+        "modules": {
+          "output": 4,
+          "input": 4
+        }
+      },
+      {
+        "bus_id": 1,
+        "slave": 8,
+        "address": 150,
+        "output_bytes": 5,
+        "input_bytes": 5,
+        "offset": 160,
+        "modules": {
+          "output": 5,
+          "input": 5
+        }
+      },
+      {
+        "bus_id": 1,
+        "slave": 8,
+        "address": 155,
+        "output_bytes": 5,
+        "input_bytes": 5,
+        "offset": 188,
+        "modules": {
+          "output": 6,
+          "input": 6
+        }
+      },
+      {
+        "bus_id": 1,
+        "slave": 8,
+        "address": 32,
+        "output_bytes": 1,
+        "input_bytes": 1,
+        "offset": 216,
+        "modules": {
+          "output": 17,
+          "input": 7
+        }
+      },
+      {
+        "bus_id": 1,
+        "slave": 8,
+        "address": 33,
+        "output_bytes": 1,
+        "input_bytes": 1,
+        "offset": 244,
+        "modules": {
+          "output": 19,
+          "input": 9
+        }
+      },
+      {
+        "bus_id": 1,
+        "slave": 8,
+        "address": 35,
+        "output_bytes": 1,
+        "input_bytes": 1,
+        "offset": 300,
+        "modules": {
+          "output": 22,
+          "input": 13
+        }
+      },
+      {
+        "bus_id": 1,
+        "slave": 8,
+        "address": 36,
+        "output_bytes": 1,
+        "input_bytes": 1,
+        "offset": 328,
+        "modules": {
+          "output": 25,
+          "input": 15
+        }
+      }
+    ],
+    "other_blocks": []
+  },
+  "topology_actual": {
+    "1": {
+      "source": "CU1.9901",
+      "complete_tlv": true,
+      "tlv_consumed": 1624,
+      "tlv_words": 1624,
+      "field_errors": [],
+      "components": [
+        {
+          "name": "Control_Unit_1",
+          "number": 1,
+          "type_code": 101,
+          "device_class": "NCU",
+          "device_id": "T-EO2013329",
+          "ports": {
+            "0": {
+              "peer_component": 2,
+              "peer_port": 1
+            },
+            "1": {
+              "peer_component": 0,
+              "peer_port": 0
+            },
+            "2": {
+              "peer_component": 0,
+              "peer_port": 0
+            },
+            "3": {
+              "peer_component": 0,
+              "peer_port": 0
+            },
+            "4": {
+              "peer_component": 0,
+              "peer_port": 0
+            },
+            "5": {
+              "peer_component": 18,
+              "peer_port": 1
+            }
+          },
+          "groups": {
+            "2": {
+              "0": {
+                "peer_component": 0,
+                "peer_port": 0
+              }
+            }
+          },
+          "source": "CU1.9901",
+          "incomplete": false
+        },
+        {
+          "name": "Motor_Module_2",
+          "number": 2,
+          "type_code": 262,
+          "device_class": "MOTOR_MODULE",
+          "device_id": "T-EO6289188",
+          "ports": {
+            "0": {
+              "peer_component": 1,
+              "peer_port": 1
+            },
+            "1": {
+              "peer_component": 3,
+              "peer_port": 1
+            },
+            "2": {
+              "peer_component": 15,
+              "peer_port": 1
+            }
+          },
+          "groups": {
+            "4": {
+              "0": {
+                "peer_component": 0,
+                "peer_port": 0
+              }
+            }
+          },
+          "source": "CU1.9901",
+          "incomplete": false
+        },
+        {
+          "name": "Motor_Module_3",
+          "number": 3,
+          "type_code": 262,
+          "device_class": "MOTOR_MODULE",
+          "device_id": "T-EO6289188",
+          "ports": {
+            "0": {
+              "peer_component": 2,
+              "peer_port": 2
+            },
+            "1": {
+              "peer_component": 4,
+              "peer_port": 1
+            },
+            "2": {
+              "peer_component": 12,
+              "peer_port": 1
+            }
+          },
+          "groups": {
+            "4": {
+              "0": {
+                "peer_component": 0,
+                "peer_port": 0
+              }
+            }
+          },
+          "source": "CU1.9901",
+          "incomplete": false
+        },
+        {
+          "name": "Motor_Module_4",
+          "number": 4,
+          "type_code": 262,
+          "device_class": "MOTOR_MODULE",
+          "device_id": "T-EO6267567",
+          "ports": {
+            "0": {
+              "peer_component": 3,
+              "peer_port": 2
+            },
+            "1": {
+              "peer_component": 5,
+              "peer_port": 1
+            },
+            "2": {
+              "peer_component": 9,
+              "peer_port": 1
+            }
+          },
+          "groups": {
+            "4": {
+              "0": {
+                "peer_component": 0,
+                "peer_port": 0
+              }
+            }
+          },
+          "source": "CU1.9901",
+          "incomplete": false
+        },
+        {
+          "name": "Motor_Module_5",
+          "number": 5,
+          "type_code": 262,
+          "device_class": "MOTOR_MODULE",
+          "device_id": "T-EO6267567",
+          "ports": {
+            "0": {
+              "peer_component": 4,
+              "peer_port": 2
+            },
+            "1": {
+              "peer_component": 0,
+              "peer_port": 0
+            },
+            "2": {
+              "peer_component": 6,
+              "peer_port": 1
+            }
+          },
+          "groups": {
+            "4": {
+              "0": {
+                "peer_component": 0,
+                "peer_port": 0
+              }
+            }
+          },
+          "source": "CU1.9901",
+          "incomplete": false
+        },
+        {
+          "name": "DQI_6",
+          "number": 6,
+          "type_code": 576,
+          "device_class": "SENSOR_MODULE",
+          "device_id": "C0047486965",
+          "ports": {
+            "0": {
+              "peer_component": 5,
+              "peer_port": 3
+            }
+          },
+          "groups": {
+            "5": {
+              "0": {
+                "peer_component": 7,
+                "peer_port": 1
+              }
+            }
+          },
+          "source": "CU1.9901",
+          "incomplete": false
+        },
+        {
+          "name": "Encoder_7",
+          "number": 7,
+          "type_code": 4001,
+          "device_class": "ENCODER",
+          "device_id": "C0047486965",
+          "ports": {},
+          "groups": {
+            "5": {
+              "0": {
+                "peer_component": 6,
+                "peer_port": 1
+              }
+            },
+            "8": {
+              "0": {
+                "peer_component": 8,
+                "peer_port": 1
+              }
+            }
+          },
+          "source": "CU1.9901",
+          "incomplete": false
+        },
+        {
+          "name": "Motor_DQI_8",
+          "number": 8,
+          "type_code": 3801,
+          "device_class": "MOTOR",
+          "device_id": "EN61 34570 01 001",
+          "ports": {},
+          "groups": {
+            "4": {
+              "0": {
+                "peer_component": 0,
+                "peer_port": 0
+              }
+            },
+            "8": {
+              "0": {
+                "peer_component": 7,
+                "peer_port": 1
+              }
+            }
+          },
+          "source": "CU1.9901",
+          "incomplete": false
+        },
+        {
+          "name": "DQI_9",
+          "number": 9,
+          "type_code": 576,
+          "device_class": "SENSOR_MODULE",
+          "device_id": "C0047492011",
+          "ports": {
+            "0": {
+              "peer_component": 4,
+              "peer_port": 3
+            }
+          },
+          "groups": {
+            "5": {
+              "0": {
+                "peer_component": 10,
+                "peer_port": 1
+              }
+            }
+          },
+          "source": "CU1.9901",
+          "incomplete": false
+        },
+        {
+          "name": "Encoder_10",
+          "number": 10,
+          "type_code": 4001,
+          "device_class": "ENCODER",
+          "device_id": "C0047492011",
+          "ports": {},
+          "groups": {
+            "5": {
+              "0": {
+                "peer_component": 9,
+                "peer_port": 1
+              }
+            },
+            "8": {
+              "0": {
+                "peer_component": 11,
+                "peer_port": 1
+              }
+            }
+          },
+          "source": "CU1.9901",
+          "incomplete": false
+        },
+        {
+          "name": "Motor_DQI_11",
+          "number": 11,
+          "type_code": 3801,
+          "device_class": "MOTOR",
+          "device_id": "EN61 34570 02 001",
+          "ports": {},
+          "groups": {
+            "4": {
+              "0": {
+                "peer_component": 0,
+                "peer_port": 0
+              }
+            },
+            "8": {
+              "0": {
+                "peer_component": 10,
+                "peer_port": 1
+              }
+            }
+          },
+          "source": "CU1.9901",
+          "incomplete": false
+        },
+        {
+          "name": "DQI_12",
+          "number": 12,
+          "type_code": 576,
+          "device_class": "SENSOR_MODULE",
+          "device_id": "C0047492063",
+          "ports": {
+            "0": {
+              "peer_component": 3,
+              "peer_port": 3
+            }
+          },
+          "groups": {
+            "5": {
+              "0": {
+                "peer_component": 13,
+                "peer_port": 1
+              }
+            }
+          },
+          "source": "CU1.9901",
+          "incomplete": false
+        },
+        {
+          "name": "Encoder_13",
+          "number": 13,
+          "type_code": 4001,
+          "device_class": "ENCODER",
+          "device_id": "C0047492063",
+          "ports": {},
+          "groups": {
+            "5": {
+              "0": {
+                "peer_component": 12,
+                "peer_port": 1
+              }
+            },
+            "8": {
+              "0": {
+                "peer_component": 14,
+                "peer_port": 1
+              }
+            }
+          },
+          "source": "CU1.9901",
+          "incomplete": false
+        },
+        {
+          "name": "Motor_DQI_14",
+          "number": 14,
+          "type_code": 3801,
+          "device_class": "MOTOR",
+          "device_id": "EN61 34570 02 002",
+          "ports": {},
+          "groups": {
+            "4": {
+              "0": {
+                "peer_component": 0,
+                "peer_port": 0
+              }
+            },
+            "8": {
+              "0": {
+                "peer_component": 13,
+                "peer_port": 1
+              }
+            }
+          },
+          "source": "CU1.9901",
+          "incomplete": false
+        },
+        {
+          "name": "DQI_15",
+          "number": 15,
+          "type_code": 576,
+          "device_class": "SENSOR_MODULE",
+          "device_id": "C0047271675",
+          "ports": {
+            "0": {
+              "peer_component": 2,
+              "peer_port": 3
+            }
+          },
+          "groups": {
+            "5": {
+              "0": {
+                "peer_component": 16,
+                "peer_port": 1
+              }
+            }
+          },
+          "source": "CU1.9901",
+          "incomplete": false
+        },
+        {
+          "name": "Encoder_16",
+          "number": 16,
+          "type_code": 4001,
+          "device_class": "ENCODER",
+          "device_id": "C0047271675",
+          "ports": {},
+          "groups": {
+            "5": {
+              "0": {
+                "peer_component": 15,
+                "peer_port": 1
+              }
+            },
+            "8": {
+              "0": {
+                "peer_component": 17,
+                "peer_port": 1
+              }
+            }
+          },
+          "source": "CU1.9901",
+          "incomplete": false
+        },
+        {
+          "name": "Motor_DQI_17",
+          "number": 17,
+          "type_code": 3801,
+          "device_class": "MOTOR",
+          "device_id": "EN61 34570 03 001",
+          "ports": {},
+          "groups": {
+            "4": {
+              "0": {
+                "peer_component": 0,
+                "peer_port": 0
+              }
+            },
+            "8": {
+              "0": {
+                "peer_component": 16,
+                "peer_port": 1
+              }
+            }
+          },
+          "source": "CU1.9901",
+          "incomplete": false
+        },
+        {
+          "name": "CU_LINK_18",
+          "number": 18,
+          "type_code": 24,
+          "device_class": "NX",
+          "device_id": "T-EO6221151",
+          "ports": {
+            "0": {
+              "peer_component": 1,
+              "peer_port": 6
+            },
+            "1": {
+              "peer_component": 0,
+              "peer_port": 0
+            },
+            "2": {
+              "peer_component": 0,
+              "peer_port": 0
+            },
+            "3": {
+              "peer_component": 0,
+              "peer_port": 0
+            }
+          },
+          "groups": {},
+          "source": "CU1.9901",
+          "incomplete": false
+        }
+      ]
+    },
+    "2": {
+      "source": "CU2.9901",
+      "complete_tlv": true,
+      "tlv_consumed": 455,
+      "tlv_words": 455,
+      "field_errors": [],
+      "components": [
+        {
+          "name": "CU_LINK_1",
+          "number": 1,
+          "type_code": 24,
+          "device_class": "NX",
+          "device_id": "T-EO6221151",
+          "ports": {
+            "0": {
+              "peer_component": 0,
+              "peer_port": 0
+            },
+            "1": {
+              "peer_component": 2,
+              "peer_port": 1
+            },
+            "2": {
+              "peer_component": 0,
+              "peer_port": 0
+            },
+            "3": {
+              "peer_component": 0,
+              "peer_port": 0
+            }
+          },
+          "groups": {},
+          "source": "CU2.9901",
+          "incomplete": false
+        },
+        {
+          "name": "Motor_Module_2",
+          "number": 2,
+          "type_code": 262,
+          "device_class": "MOTOR_MODULE",
+          "device_id": "T-EO6289182",
+          "ports": {
+            "0": {
+              "peer_component": 1,
+              "peer_port": 2
+            },
+            "1": {
+              "peer_component": 3,
+              "peer_port": 1
+            },
+            "2": {
+              "peer_component": 9,
+              "peer_port": 1
+            }
+          },
+          "groups": {
+            "4": {
+              "0": {
+                "peer_component": 0,
+                "peer_port": 0
+              }
+            }
+          },
+          "source": "CU2.9901",
+          "incomplete": false
+        },
+        {
+          "name": "Motor_Module_3",
+          "number": 3,
+          "type_code": 262,
+          "device_class": "MOTOR_MODULE",
+          "device_id": "T-EO6289182",
+          "ports": {
+            "0": {
+              "peer_component": 2,
+              "peer_port": 2
+            },
+            "1": {
+              "peer_component": 0,
+              "peer_port": 0
+            },
+            "2": {
+              "peer_component": 7,
+              "peer_port": 1
+            }
+          },
+          "groups": {
+            "4": {
+              "0": {
+                "peer_component": 0,
+                "peer_port": 0
+              }
+            }
+          },
+          "source": "CU2.9901",
+          "incomplete": false
+        },
+        {
+          "name": "SM_7",
+          "number": 7,
+          "type_code": 512,
+          "device_class": "SENSOR_MODULE",
+          "device_id": "T-EO6200567",
+          "ports": {
+            "0": {
+              "peer_component": 3,
+              "peer_port": 3
+            }
+          },
+          "groups": {
+            "5": {
+              "0": {
+                "peer_component": 0,
+                "peer_port": 0
+              }
+            }
+          },
+          "source": "CU2.9901",
+          "incomplete": false
+        },
+        {
+          "name": "SM_9",
+          "number": 9,
+          "type_code": 512,
+          "device_class": "SENSOR_MODULE",
+          "device_id": "T-EO6200574",
+          "ports": {
+            "0": {
+              "peer_component": 2,
+              "peer_port": 3
+            }
+          },
+          "groups": {
+            "5": {
+              "0": {
+                "peer_component": 0,
+                "peer_port": 0
+              }
+            }
+          },
+          "source": "CU2.9901",
+          "incomplete": false
+        }
+      ]
+    }
+  },
+  "topology_target": {
+    "1": {
+      "source": "CU1.9903",
+      "complete_tlv": true,
+      "tlv_consumed": 1624,
+      "tlv_words": 1624,
+      "field_errors": [],
+      "components": [
+        {
+          "name": "Control_Unit_1",
+          "number": 1,
+          "type_code": 101,
+          "device_class": "NCU",
+          "device_id": "T-EO2013329",
+          "ports": {
+            "0": {
+              "peer_component": 2,
+              "peer_port": 1
+            },
+            "1": {
+              "peer_component": 0,
+              "peer_port": 0
+            },
+            "2": {
+              "peer_component": 0,
+              "peer_port": 0
+            },
+            "3": {
+              "peer_component": 0,
+              "peer_port": 0
+            },
+            "4": {
+              "peer_component": 0,
+              "peer_port": 0
+            },
+            "5": {
+              "peer_component": 18,
+              "peer_port": 1
+            }
+          },
+          "groups": {
+            "2": {
+              "0": {
+                "peer_component": 0,
+                "peer_port": 0
+              }
+            }
+          },
+          "source": "CU1.9903",
+          "incomplete": false
+        },
+        {
+          "name": "Motor_Module_2",
+          "number": 2,
+          "type_code": 262,
+          "device_class": "MOTOR_MODULE",
+          "device_id": "T-EO6289188",
+          "ports": {
+            "0": {
+              "peer_component": 1,
+              "peer_port": 1
+            },
+            "1": {
+              "peer_component": 3,
+              "peer_port": 1
+            },
+            "2": {
+              "peer_component": 15,
+              "peer_port": 1
+            }
+          },
+          "groups": {
+            "4": {
+              "0": {
+                "peer_component": 17,
+                "peer_port": 1
+              }
+            }
+          },
+          "source": "CU1.9903",
+          "incomplete": false
+        },
+        {
+          "name": "Motor_Module_3",
+          "number": 3,
+          "type_code": 262,
+          "device_class": "MOTOR_MODULE",
+          "device_id": "T-EO6289188",
+          "ports": {
+            "0": {
+              "peer_component": 2,
+              "peer_port": 2
+            },
+            "1": {
+              "peer_component": 4,
+              "peer_port": 1
+            },
+            "2": {
+              "peer_component": 12,
+              "peer_port": 1
+            }
+          },
+          "groups": {
+            "4": {
+              "0": {
+                "peer_component": 14,
+                "peer_port": 1
+              }
+            }
+          },
+          "source": "CU1.9903",
+          "incomplete": false
+        },
+        {
+          "name": "Motor_Module_4",
+          "number": 4,
+          "type_code": 262,
+          "device_class": "MOTOR_MODULE",
+          "device_id": "T-EO6267567",
+          "ports": {
+            "0": {
+              "peer_component": 3,
+              "peer_port": 2
+            },
+            "1": {
+              "peer_component": 5,
+              "peer_port": 1
+            },
+            "2": {
+              "peer_component": 9,
+              "peer_port": 1
+            }
+          },
+          "groups": {
+            "4": {
+              "0": {
+                "peer_component": 11,
+                "peer_port": 1
+              }
+            }
+          },
+          "source": "CU1.9903",
+          "incomplete": false
+        },
+        {
+          "name": "Motor_Module_5",
+          "number": 5,
+          "type_code": 262,
+          "device_class": "MOTOR_MODULE",
+          "device_id": "T-EO6267567",
+          "ports": {
+            "0": {
+              "peer_component": 4,
+              "peer_port": 2
+            },
+            "1": {
+              "peer_component": 0,
+              "peer_port": 0
+            },
+            "2": {
+              "peer_component": 6,
+              "peer_port": 1
+            }
+          },
+          "groups": {
+            "4": {
+              "0": {
+                "peer_component": 8,
+                "peer_port": 1
+              }
+            }
+          },
+          "source": "CU1.9903",
+          "incomplete": false
+        },
+        {
+          "name": "DQI_6",
+          "number": 6,
+          "type_code": 576,
+          "device_class": "SENSOR_MODULE",
+          "device_id": "C0047486965",
+          "ports": {
+            "0": {
+              "peer_component": 5,
+              "peer_port": 3
+            }
+          },
+          "groups": {
+            "5": {
+              "0": {
+                "peer_component": 7,
+                "peer_port": 1
+              }
+            }
+          },
+          "source": "CU1.9903",
+          "incomplete": false
+        },
+        {
+          "name": "Encoder_7",
+          "number": 7,
+          "type_code": 4001,
+          "device_class": "ENCODER",
+          "device_id": "C0047486965",
+          "ports": {},
+          "groups": {
+            "5": {
+              "0": {
+                "peer_component": 6,
+                "peer_port": 1
+              }
+            },
+            "8": {
+              "0": {
+                "peer_component": 8,
+                "peer_port": 1
+              }
+            }
+          },
+          "source": "CU1.9903",
+          "incomplete": false
+        },
+        {
+          "name": "Motor_DQI_8",
+          "number": 8,
+          "type_code": 3801,
+          "device_class": "MOTOR",
+          "device_id": "EN61 34570 01 001",
+          "ports": {},
+          "groups": {
+            "4": {
+              "0": {
+                "peer_component": 5,
+                "peer_port": 1
+              }
+            },
+            "8": {
+              "0": {
+                "peer_component": 7,
+                "peer_port": 1
+              }
+            }
+          },
+          "source": "CU1.9903",
+          "incomplete": false
+        },
+        {
+          "name": "DQI_9",
+          "number": 9,
+          "type_code": 576,
+          "device_class": "SENSOR_MODULE",
+          "device_id": "C0047492011",
+          "ports": {
+            "0": {
+              "peer_component": 4,
+              "peer_port": 3
+            }
+          },
+          "groups": {
+            "5": {
+              "0": {
+                "peer_component": 10,
+                "peer_port": 1
+              }
+            }
+          },
+          "source": "CU1.9903",
+          "incomplete": false
+        },
+        {
+          "name": "Encoder_10",
+          "number": 10,
+          "type_code": 4001,
+          "device_class": "ENCODER",
+          "device_id": "C0047492011",
+          "ports": {},
+          "groups": {
+            "5": {
+              "0": {
+                "peer_component": 9,
+                "peer_port": 1
+              }
+            },
+            "8": {
+              "0": {
+                "peer_component": 11,
+                "peer_port": 1
+              }
+            }
+          },
+          "source": "CU1.9903",
+          "incomplete": false
+        },
+        {
+          "name": "Motor_DQI_11",
+          "number": 11,
+          "type_code": 3801,
+          "device_class": "MOTOR",
+          "device_id": "EN61 34570 02 001",
+          "ports": {},
+          "groups": {
+            "4": {
+              "0": {
+                "peer_component": 4,
+                "peer_port": 1
+              }
+            },
+            "8": {
+              "0": {
+                "peer_component": 10,
+                "peer_port": 1
+              }
+            }
+          },
+          "source": "CU1.9903",
+          "incomplete": false
+        },
+        {
+          "name": "DQI_12",
+          "number": 12,
+          "type_code": 576,
+          "device_class": "SENSOR_MODULE",
+          "device_id": "C0047492063",
+          "ports": {
+            "0": {
+              "peer_component": 3,
+              "peer_port": 3
+            }
+          },
+          "groups": {
+            "5": {
+              "0": {
+                "peer_component": 13,
+                "peer_port": 1
+              }
+            }
+          },
+          "source": "CU1.9903",
+          "incomplete": false
+        },
+        {
+          "name": "Encoder_13",
+          "number": 13,
+          "type_code": 4001,
+          "device_class": "ENCODER",
+          "device_id": "C0047492063",
+          "ports": {},
+          "groups": {
+            "5": {
+              "0": {
+                "peer_component": 12,
+                "peer_port": 1
+              }
+            },
+            "8": {
+              "0": {
+                "peer_component": 14,
+                "peer_port": 1
+              }
+            }
+          },
+          "source": "CU1.9903",
+          "incomplete": false
+        },
+        {
+          "name": "Motor_DQI_14",
+          "number": 14,
+          "type_code": 3801,
+          "device_class": "MOTOR",
+          "device_id": "EN61 34570 02 002",
+          "ports": {},
+          "groups": {
+            "4": {
+              "0": {
+                "peer_component": 3,
+                "peer_port": 1
+              }
+            },
+            "8": {
+              "0": {
+                "peer_component": 13,
+                "peer_port": 1
+              }
+            }
+          },
+          "source": "CU1.9903",
+          "incomplete": false
+        },
+        {
+          "name": "DQI_15",
+          "number": 15,
+          "type_code": 576,
+          "device_class": "SENSOR_MODULE",
+          "device_id": "C0047271675",
+          "ports": {
+            "0": {
+              "peer_component": 2,
+              "peer_port": 3
+            }
+          },
+          "groups": {
+            "5": {
+              "0": {
+                "peer_component": 16,
+                "peer_port": 1
+              }
+            }
+          },
+          "source": "CU1.9903",
+          "incomplete": false
+        },
+        {
+          "name": "Encoder_16",
+          "number": 16,
+          "type_code": 4001,
+          "device_class": "ENCODER",
+          "device_id": "C0047271675",
+          "ports": {},
+          "groups": {
+            "5": {
+              "0": {
+                "peer_component": 15,
+                "peer_port": 1
+              }
+            },
+            "8": {
+              "0": {
+                "peer_component": 17,
+                "peer_port": 1
+              }
+            }
+          },
+          "source": "CU1.9903",
+          "incomplete": false
+        },
+        {
+          "name": "Motor_DQI_17",
+          "number": 17,
+          "type_code": 3801,
+          "device_class": "MOTOR",
+          "device_id": "EN61 34570 03 001",
+          "ports": {},
+          "groups": {
+            "4": {
+              "0": {
+                "peer_component": 2,
+                "peer_port": 1
+              }
+            },
+            "8": {
+              "0": {
+                "peer_component": 16,
+                "peer_port": 1
+              }
+            }
+          },
+          "source": "CU1.9903",
+          "incomplete": false
+        },
+        {
+          "name": "CU_LINK_18",
+          "number": 18,
+          "type_code": 24,
+          "device_class": "NX",
+          "device_id": "T-EO6221151",
+          "ports": {
+            "0": {
+              "peer_component": 1,
+              "peer_port": 6
+            },
+            "1": {
+              "peer_component": 0,
+              "peer_port": 0
+            },
+            "2": {
+              "peer_component": 0,
+              "peer_port": 0
+            },
+            "3": {
+              "peer_component": 0,
+              "peer_port": 0
+            }
+          },
+          "groups": {},
+          "source": "CU1.9903",
+          "incomplete": false
+        }
+      ]
+    },
+    "2": {
+      "source": "CU2.9903",
+      "complete_tlv": true,
+      "tlv_consumed": 765,
+      "tlv_words": 765,
+      "field_errors": [],
+      "components": [
+        {
+          "name": "CU_LINK_1",
+          "number": 1,
+          "type_code": 24,
+          "device_class": "NX",
+          "device_id": "T-EO6221151",
+          "ports": {
+            "0": {
+              "peer_component": 0,
+              "peer_port": 0
+            },
+            "1": {
+              "peer_component": 2,
+              "peer_port": 1
+            },
+            "2": {
+              "peer_component": 0,
+              "peer_port": 0
+            },
+            "3": {
+              "peer_component": 0,
+              "peer_port": 0
+            }
+          },
+          "groups": {},
+          "source": "CU2.9903",
+          "incomplete": false
+        },
+        {
+          "name": "Motor_Module_2",
+          "number": 2,
+          "type_code": 262,
+          "device_class": "MOTOR_MODULE",
+          "device_id": "T-EO6289182",
+          "ports": {
+            "0": {
+              "peer_component": 1,
+              "peer_port": 2
+            },
+            "1": {
+              "peer_component": 3,
+              "peer_port": 1
+            },
+            "2": {
+              "peer_component": 9,
+              "peer_port": 1
+            }
+          },
+          "groups": {
+            "4": {
+              "0": {
+                "peer_component": 5,
+                "peer_port": 1
+              }
+            }
+          },
+          "source": "CU2.9903",
+          "incomplete": false
+        },
+        {
+          "name": "Motor_Module_3",
+          "number": 3,
+          "type_code": 262,
+          "device_class": "MOTOR_MODULE",
+          "device_id": "T-EO6289182",
+          "ports": {
+            "0": {
+              "peer_component": 2,
+              "peer_port": 2
+            },
+            "1": {
+              "peer_component": 0,
+              "peer_port": 0
+            },
+            "2": {
+              "peer_component": 7,
+              "peer_port": 1
+            }
+          },
+          "groups": {
+            "4": {
+              "0": {
+                "peer_component": 4,
+                "peer_port": 1
+              }
+            }
+          },
+          "source": "CU2.9903",
+          "incomplete": false
+        },
+        {
+          "name": "SM_7",
+          "number": 7,
+          "type_code": 512,
+          "device_class": "SENSOR_MODULE",
+          "device_id": "T-EO6200567",
+          "ports": {
+            "0": {
+              "peer_component": 3,
+              "peer_port": 3
+            }
+          },
+          "groups": {
+            "5": {
+              "0": {
+                "peer_component": 6,
+                "peer_port": 1
+              }
+            }
+          },
+          "source": "CU2.9903",
+          "incomplete": false
+        },
+        {
+          "name": "Encoder_8",
+          "number": 6,
+          "type_code": 4001,
+          "device_class": "ENCODER",
+          "device_id": "",
+          "ports": {},
+          "groups": {
+            "5": {
+              "0": {
+                "peer_component": 7,
+                "peer_port": 1
+              }
+            },
+            "8": {
+              "0": {
+                "peer_component": 0,
+                "peer_port": 0
+              }
+            }
+          },
+          "source": "CU2.9903",
+          "incomplete": false
+        },
+        {
+          "name": "Motor_4",
+          "number": 4,
+          "type_code": 4000,
+          "device_class": "MOTOR",
+          "device_id": "",
+          "ports": {},
+          "groups": {
+            "4": {
+              "0": {
+                "peer_component": 3,
+                "peer_port": 1
+              }
+            },
+            "8": {
+              "0": {
+                "peer_component": 0,
+                "peer_port": 0
+              }
+            }
+          },
+          "source": "CU2.9903",
+          "incomplete": false
+        },
+        {
+          "name": "SM_9",
+          "number": 9,
+          "type_code": 512,
+          "device_class": "SENSOR_MODULE",
+          "device_id": "T-EO6200574",
+          "ports": {
+            "0": {
+              "peer_component": 2,
+              "peer_port": 3
+            }
+          },
+          "groups": {
+            "5": {
+              "0": {
+                "peer_component": 8,
+                "peer_port": 1
+              }
+            }
+          },
+          "source": "CU2.9903",
+          "incomplete": false
+        },
+        {
+          "name": "Encoder_10",
+          "number": 8,
+          "type_code": 4001,
+          "device_class": "ENCODER",
+          "device_id": "",
+          "ports": {},
+          "groups": {
+            "5": {
+              "0": {
+                "peer_component": 9,
+                "peer_port": 1
+              }
+            },
+            "8": {
+              "0": {
+                "peer_component": 0,
+                "peer_port": 0
+              }
+            }
+          },
+          "source": "CU2.9903",
+          "incomplete": false
+        },
+        {
+          "name": "Motor_5",
+          "number": 5,
+          "type_code": 4000,
+          "device_class": "MOTOR",
+          "device_id": "",
+          "ports": {},
+          "groups": {
+            "4": {
+              "0": {
+                "peer_component": 2,
+                "peer_port": 1
+              }
+            },
+            "8": {
+              "0": {
+                "peer_component": 0,
+                "peer_port": 0
+              }
+            }
+          },
+          "source": "CU2.9903",
+          "incomplete": false
+        }
+      ]
+    }
+  },
+  "cables_actual": {
+    "edges": [
+      {
+        "cu": 1,
+        "from": 1,
+        "from_group_port_ordinal": 0,
+        "to": 2,
+        "to_group_port_ordinal": 0,
+        "peer_interface_selector": 1,
+        "reverse_selector": 1,
+        "type": "DRIVE_CLIQ_CABLE",
+        "verified": "reciprocal_component_group1"
+      },
+      {
+        "cu": 1,
+        "from": 1,
+        "from_group_port_ordinal": 5,
+        "to": 18,
+        "to_group_port_ordinal": 0,
+        "peer_interface_selector": 1,
+        "reverse_selector": 6,
+        "type": "DRIVE_CLIQ_CABLE",
+        "verified": "reciprocal_component_group1"
+      },
+      {
+        "cu": 1,
+        "from": 2,
+        "from_group_port_ordinal": 1,
+        "to": 3,
+        "to_group_port_ordinal": 0,
+        "peer_interface_selector": 1,
+        "reverse_selector": 2,
+        "type": "DRIVE_CLIQ_CABLE",
+        "verified": "reciprocal_component_group1"
+      },
+      {
+        "cu": 1,
+        "from": 2,
+        "from_group_port_ordinal": 2,
+        "to": 15,
+        "to_group_port_ordinal": 0,
+        "peer_interface_selector": 1,
+        "reverse_selector": 3,
+        "type": "DRIVE_CLIQ_CABLE",
+        "verified": "reciprocal_component_group1"
+      },
+      {
+        "cu": 1,
+        "from": 3,
+        "from_group_port_ordinal": 1,
+        "to": 4,
+        "to_group_port_ordinal": 0,
+        "peer_interface_selector": 1,
+        "reverse_selector": 2,
+        "type": "DRIVE_CLIQ_CABLE",
+        "verified": "reciprocal_component_group1"
+      },
+      {
+        "cu": 1,
+        "from": 3,
+        "from_group_port_ordinal": 2,
+        "to": 12,
+        "to_group_port_ordinal": 0,
+        "peer_interface_selector": 1,
+        "reverse_selector": 3,
+        "type": "DRIVE_CLIQ_CABLE",
+        "verified": "reciprocal_component_group1"
+      },
+      {
+        "cu": 1,
+        "from": 4,
+        "from_group_port_ordinal": 1,
+        "to": 5,
+        "to_group_port_ordinal": 0,
+        "peer_interface_selector": 1,
+        "reverse_selector": 2,
+        "type": "DRIVE_CLIQ_CABLE",
+        "verified": "reciprocal_component_group1"
+      },
+      {
+        "cu": 1,
+        "from": 4,
+        "from_group_port_ordinal": 2,
+        "to": 9,
+        "to_group_port_ordinal": 0,
+        "peer_interface_selector": 1,
+        "reverse_selector": 3,
+        "type": "DRIVE_CLIQ_CABLE",
+        "verified": "reciprocal_component_group1"
+      },
+      {
+        "cu": 1,
+        "from": 5,
+        "from_group_port_ordinal": 2,
+        "to": 6,
+        "to_group_port_ordinal": 0,
+        "peer_interface_selector": 1,
+        "reverse_selector": 3,
+        "type": "DRIVE_CLIQ_CABLE",
+        "verified": "reciprocal_component_group1"
+      },
+      {
+        "cu": 2,
+        "from": 1,
+        "from_group_port_ordinal": 1,
+        "to": 2,
+        "to_group_port_ordinal": 0,
+        "peer_interface_selector": 1,
+        "reverse_selector": 2,
+        "type": "DRIVE_CLIQ_CABLE",
+        "verified": "reciprocal_component_group1"
+      },
+      {
+        "cu": 2,
+        "from": 2,
+        "from_group_port_ordinal": 1,
+        "to": 3,
+        "to_group_port_ordinal": 0,
+        "peer_interface_selector": 1,
+        "reverse_selector": 2,
+        "type": "DRIVE_CLIQ_CABLE",
+        "verified": "reciprocal_component_group1"
+      },
+      {
+        "cu": 2,
+        "from": 2,
+        "from_group_port_ordinal": 2,
+        "to": 9,
+        "to_group_port_ordinal": 0,
+        "peer_interface_selector": 1,
+        "reverse_selector": 3,
+        "type": "DRIVE_CLIQ_CABLE",
+        "verified": "reciprocal_component_group1"
+      },
+      {
+        "cu": 2,
+        "from": 3,
+        "from_group_port_ordinal": 2,
+        "to": 7,
+        "to_group_port_ordinal": 0,
+        "peer_interface_selector": 1,
+        "reverse_selector": 3,
+        "type": "DRIVE_CLIQ_CABLE",
+        "verified": "reciprocal_component_group1"
+      }
+    ],
+    "relations": [
+      {
+        "cu": 1,
+        "from": 6,
+        "to": 7,
+        "group": 5,
+        "type": "ANALOG",
+        "source_ordinal": 0,
+        "peer_selector": 1,
+        "status": "REFERENCE_ONLY"
+      },
+      {
+        "cu": 1,
+        "from": 7,
+        "to": 6,
+        "group": 5,
+        "type": "ANALOG",
+        "source_ordinal": 0,
+        "peer_selector": 1,
+        "status": "REFERENCE_ONLY"
+      },
+      {
+        "cu": 1,
+        "from": 7,
+        "to": 8,
+        "group": 8,
+        "type": "MECHANICAL",
+        "source_ordinal": 0,
+        "peer_selector": 1,
+        "status": "REFERENCE_ONLY"
+      },
+      {
+        "cu": 1,
+        "from": 8,
+        "to": 7,
+        "group": 8,
+        "type": "MECHANICAL",
+        "source_ordinal": 0,
+        "peer_selector": 1,
+        "status": "REFERENCE_ONLY"
+      },
+      {
+        "cu": 1,
+        "from": 9,
+        "to": 10,
+        "group": 5,
+        "type": "ANALOG",
+        "source_ordinal": 0,
+        "peer_selector": 1,
+        "status": "REFERENCE_ONLY"
+      },
+      {
+        "cu": 1,
+        "from": 10,
+        "to": 9,
+        "group": 5,
+        "type": "ANALOG",
+        "source_ordinal": 0,
+        "peer_selector": 1,
+        "status": "REFERENCE_ONLY"
+      },
+      {
+        "cu": 1,
+        "from": 10,
+        "to": 11,
+        "group": 8,
+        "type": "MECHANICAL",
+        "source_ordinal": 0,
+        "peer_selector": 1,
+        "status": "REFERENCE_ONLY"
+      },
+      {
+        "cu": 1,
+        "from": 11,
+        "to": 10,
+        "group": 8,
+        "type": "MECHANICAL",
+        "source_ordinal": 0,
+        "peer_selector": 1,
+        "status": "REFERENCE_ONLY"
+      },
+      {
+        "cu": 1,
+        "from": 12,
+        "to": 13,
+        "group": 5,
+        "type": "ANALOG",
+        "source_ordinal": 0,
+        "peer_selector": 1,
+        "status": "REFERENCE_ONLY"
+      },
+      {
+        "cu": 1,
+        "from": 13,
+        "to": 12,
+        "group": 5,
+        "type": "ANALOG",
+        "source_ordinal": 0,
+        "peer_selector": 1,
+        "status": "REFERENCE_ONLY"
+      },
+      {
+        "cu": 1,
+        "from": 13,
+        "to": 14,
+        "group": 8,
+        "type": "MECHANICAL",
+        "source_ordinal": 0,
+        "peer_selector": 1,
+        "status": "REFERENCE_ONLY"
+      },
+      {
+        "cu": 1,
+        "from": 14,
+        "to": 13,
+        "group": 8,
+        "type": "MECHANICAL",
+        "source_ordinal": 0,
+        "peer_selector": 1,
+        "status": "REFERENCE_ONLY"
+      },
+      {
+        "cu": 1,
+        "from": 15,
+        "to": 16,
+        "group": 5,
+        "type": "ANALOG",
+        "source_ordinal": 0,
+        "peer_selector": 1,
+        "status": "REFERENCE_ONLY"
+      },
+      {
+        "cu": 1,
+        "from": 16,
+        "to": 15,
+        "group": 5,
+        "type": "ANALOG",
+        "source_ordinal": 0,
+        "peer_selector": 1,
+        "status": "REFERENCE_ONLY"
+      },
+      {
+        "cu": 1,
+        "from": 16,
+        "to": 17,
+        "group": 8,
+        "type": "MECHANICAL",
+        "source_ordinal": 0,
+        "peer_selector": 1,
+        "status": "REFERENCE_ONLY"
+      },
+      {
+        "cu": 1,
+        "from": 17,
+        "to": 16,
+        "group": 8,
+        "type": "MECHANICAL",
+        "source_ordinal": 0,
+        "peer_selector": 1,
+        "status": "REFERENCE_ONLY"
+      }
+    ],
+    "unresolved_ports": [],
+    "component_count": 23
+  },
+  "cables_target": {
+    "edges": [
+      {
+        "cu": 1,
+        "from": 1,
+        "from_group_port_ordinal": 0,
+        "to": 2,
+        "to_group_port_ordinal": 0,
+        "peer_interface_selector": 1,
+        "reverse_selector": 1,
+        "type": "DRIVE_CLIQ_CABLE",
+        "verified": "reciprocal_component_group1"
+      },
+      {
+        "cu": 1,
+        "from": 1,
+        "from_group_port_ordinal": 5,
+        "to": 18,
+        "to_group_port_ordinal": 0,
+        "peer_interface_selector": 1,
+        "reverse_selector": 6,
+        "type": "DRIVE_CLIQ_CABLE",
+        "verified": "reciprocal_component_group1"
+      },
+      {
+        "cu": 1,
+        "from": 2,
+        "from_group_port_ordinal": 1,
+        "to": 3,
+        "to_group_port_ordinal": 0,
+        "peer_interface_selector": 1,
+        "reverse_selector": 2,
+        "type": "DRIVE_CLIQ_CABLE",
+        "verified": "reciprocal_component_group1"
+      },
+      {
+        "cu": 1,
+        "from": 2,
+        "from_group_port_ordinal": 2,
+        "to": 15,
+        "to_group_port_ordinal": 0,
+        "peer_interface_selector": 1,
+        "reverse_selector": 3,
+        "type": "DRIVE_CLIQ_CABLE",
+        "verified": "reciprocal_component_group1"
+      },
+      {
+        "cu": 1,
+        "from": 3,
+        "from_group_port_ordinal": 1,
+        "to": 4,
+        "to_group_port_ordinal": 0,
+        "peer_interface_selector": 1,
+        "reverse_selector": 2,
+        "type": "DRIVE_CLIQ_CABLE",
+        "verified": "reciprocal_component_group1"
+      },
+      {
+        "cu": 1,
+        "from": 3,
+        "from_group_port_ordinal": 2,
+        "to": 12,
+        "to_group_port_ordinal": 0,
+        "peer_interface_selector": 1,
+        "reverse_selector": 3,
+        "type": "DRIVE_CLIQ_CABLE",
+        "verified": "reciprocal_component_group1"
+      },
+      {
+        "cu": 1,
+        "from": 4,
+        "from_group_port_ordinal": 1,
+        "to": 5,
+        "to_group_port_ordinal": 0,
+        "peer_interface_selector": 1,
+        "reverse_selector": 2,
+        "type": "DRIVE_CLIQ_CABLE",
+        "verified": "reciprocal_component_group1"
+      },
+      {
+        "cu": 1,
+        "from": 4,
+        "from_group_port_ordinal": 2,
+        "to": 9,
+        "to_group_port_ordinal": 0,
+        "peer_interface_selector": 1,
+        "reverse_selector": 3,
+        "type": "DRIVE_CLIQ_CABLE",
+        "verified": "reciprocal_component_group1"
+      },
+      {
+        "cu": 1,
+        "from": 5,
+        "from_group_port_ordinal": 2,
+        "to": 6,
+        "to_group_port_ordinal": 0,
+        "peer_interface_selector": 1,
+        "reverse_selector": 3,
+        "type": "DRIVE_CLIQ_CABLE",
+        "verified": "reciprocal_component_group1"
+      },
+      {
+        "cu": 2,
+        "from": 1,
+        "from_group_port_ordinal": 1,
+        "to": 2,
+        "to_group_port_ordinal": 0,
+        "peer_interface_selector": 1,
+        "reverse_selector": 2,
+        "type": "DRIVE_CLIQ_CABLE",
+        "verified": "reciprocal_component_group1"
+      },
+      {
+        "cu": 2,
+        "from": 2,
+        "from_group_port_ordinal": 1,
+        "to": 3,
+        "to_group_port_ordinal": 0,
+        "peer_interface_selector": 1,
+        "reverse_selector": 2,
+        "type": "DRIVE_CLIQ_CABLE",
+        "verified": "reciprocal_component_group1"
+      },
+      {
+        "cu": 2,
+        "from": 2,
+        "from_group_port_ordinal": 2,
+        "to": 9,
+        "to_group_port_ordinal": 0,
+        "peer_interface_selector": 1,
+        "reverse_selector": 3,
+        "type": "DRIVE_CLIQ_CABLE",
+        "verified": "reciprocal_component_group1"
+      },
+      {
+        "cu": 2,
+        "from": 3,
+        "from_group_port_ordinal": 2,
+        "to": 7,
+        "to_group_port_ordinal": 0,
+        "peer_interface_selector": 1,
+        "reverse_selector": 3,
+        "type": "DRIVE_CLIQ_CABLE",
+        "verified": "reciprocal_component_group1"
+      }
+    ],
+    "relations": [
+      {
+        "cu": 1,
+        "from": 2,
+        "to": 17,
+        "group": 4,
+        "type": "POWER",
+        "source_ordinal": 0,
+        "peer_selector": 1,
+        "status": "REFERENCE_ONLY"
+      },
+      {
+        "cu": 1,
+        "from": 3,
+        "to": 14,
+        "group": 4,
+        "type": "POWER",
+        "source_ordinal": 0,
+        "peer_selector": 1,
+        "status": "REFERENCE_ONLY"
+      },
+      {
+        "cu": 1,
+        "from": 4,
+        "to": 11,
+        "group": 4,
+        "type": "POWER",
+        "source_ordinal": 0,
+        "peer_selector": 1,
+        "status": "REFERENCE_ONLY"
+      },
+      {
+        "cu": 1,
+        "from": 5,
+        "to": 8,
+        "group": 4,
+        "type": "POWER",
+        "source_ordinal": 0,
+        "peer_selector": 1,
+        "status": "REFERENCE_ONLY"
+      },
+      {
+        "cu": 1,
+        "from": 6,
+        "to": 7,
+        "group": 5,
+        "type": "ANALOG",
+        "source_ordinal": 0,
+        "peer_selector": 1,
+        "status": "REFERENCE_ONLY"
+      },
+      {
+        "cu": 1,
+        "from": 7,
+        "to": 6,
+        "group": 5,
+        "type": "ANALOG",
+        "source_ordinal": 0,
+        "peer_selector": 1,
+        "status": "REFERENCE_ONLY"
+      },
+      {
+        "cu": 1,
+        "from": 7,
+        "to": 8,
+        "group": 8,
+        "type": "MECHANICAL",
+        "source_ordinal": 0,
+        "peer_selector": 1,
+        "status": "REFERENCE_ONLY"
+      },
+      {
+        "cu": 1,
+        "from": 8,
+        "to": 5,
+        "group": 4,
+        "type": "POWER",
+        "source_ordinal": 0,
+        "peer_selector": 1,
+        "status": "REFERENCE_ONLY"
+      },
+      {
+        "cu": 1,
+        "from": 8,
+        "to": 7,
+        "group": 8,
+        "type": "MECHANICAL",
+        "source_ordinal": 0,
+        "peer_selector": 1,
+        "status": "REFERENCE_ONLY"
+      },
+      {
+        "cu": 1,
+        "from": 9,
+        "to": 10,
+        "group": 5,
+        "type": "ANALOG",
+        "source_ordinal": 0,
+        "peer_selector": 1,
+        "status": "REFERENCE_ONLY"
+      },
+      {
+        "cu": 1,
+        "from": 10,
+        "to": 9,
+        "group": 5,
+        "type": "ANALOG",
+        "source_ordinal": 0,
+        "peer_selector": 1,
+        "status": "REFERENCE_ONLY"
+      },
+      {
+        "cu": 1,
+        "from": 10,
+        "to": 11,
+        "group": 8,
+        "type": "MECHANICAL",
+        "source_ordinal": 0,
+        "peer_selector": 1,
+        "status": "REFERENCE_ONLY"
+      },
+      {
+        "cu": 1,
+        "from": 11,
+        "to": 4,
+        "group": 4,
+        "type": "POWER",
+        "source_ordinal": 0,
+        "peer_selector": 1,
+        "status": "REFERENCE_ONLY"
+      },
+      {
+        "cu": 1,
+        "from": 11,
+        "to": 10,
+        "group": 8,
+        "type": "MECHANICAL",
+        "source_ordinal": 0,
+        "peer_selector": 1,
+        "status": "REFERENCE_ONLY"
+      },
+      {
+        "cu": 1,
+        "from": 12,
+        "to": 13,
+        "group": 5,
+        "type": "ANALOG",
+        "source_ordinal": 0,
+        "peer_selector": 1,
+        "status": "REFERENCE_ONLY"
+      },
+      {
+        "cu": 1,
+        "from": 13,
+        "to": 12,
+        "group": 5,
+        "type": "ANALOG",
+        "source_ordinal": 0,
+        "peer_selector": 1,
+        "status": "REFERENCE_ONLY"
+      },
+      {
+        "cu": 1,
+        "from": 13,
+        "to": 14,
+        "group": 8,
+        "type": "MECHANICAL",
+        "source_ordinal": 0,
+        "peer_selector": 1,
+        "status": "REFERENCE_ONLY"
+      },
+      {
+        "cu": 1,
+        "from": 14,
+        "to": 3,
+        "group": 4,
+        "type": "POWER",
+        "source_ordinal": 0,
+        "peer_selector": 1,
+        "status": "REFERENCE_ONLY"
+      },
+      {
+        "cu": 1,
+        "from": 14,
+        "to": 13,
+        "group": 8,
+        "type": "MECHANICAL",
+        "source_ordinal": 0,
+        "peer_selector": 1,
+        "status": "REFERENCE_ONLY"
+      },
+      {
+        "cu": 1,
+        "from": 15,
+        "to": 16,
+        "group": 5,
+        "type": "ANALOG",
+        "source_ordinal": 0,
+        "peer_selector": 1,
+        "status": "REFERENCE_ONLY"
+      },
+      {
+        "cu": 1,
+        "from": 16,
+        "to": 15,
+        "group": 5,
+        "type": "ANALOG",
+        "source_ordinal": 0,
+        "peer_selector": 1,
+        "status": "REFERENCE_ONLY"
+      },
+      {
+        "cu": 1,
+        "from": 16,
+        "to": 17,
+        "group": 8,
+        "type": "MECHANICAL",
+        "source_ordinal": 0,
+        "peer_selector": 1,
+        "status": "REFERENCE_ONLY"
+      },
+      {
+        "cu": 1,
+        "from": 17,
+        "to": 2,
+        "group": 4,
+        "type": "POWER",
+        "source_ordinal": 0,
+        "peer_selector": 1,
+        "status": "REFERENCE_ONLY"
+      },
+      {
+        "cu": 1,
+        "from": 17,
+        "to": 16,
+        "group": 8,
+        "type": "MECHANICAL",
+        "source_ordinal": 0,
+        "peer_selector": 1,
+        "status": "REFERENCE_ONLY"
+      },
+      {
+        "cu": 2,
+        "from": 2,
+        "to": 5,
+        "group": 4,
+        "type": "POWER",
+        "source_ordinal": 0,
+        "peer_selector": 1,
+        "status": "REFERENCE_ONLY"
+      },
+      {
+        "cu": 2,
+        "from": 3,
+        "to": 4,
+        "group": 4,
+        "type": "POWER",
+        "source_ordinal": 0,
+        "peer_selector": 1,
+        "status": "REFERENCE_ONLY"
+      },
+      {
+        "cu": 2,
+        "from": 7,
+        "to": 6,
+        "group": 5,
+        "type": "ANALOG",
+        "source_ordinal": 0,
+        "peer_selector": 1,
+        "status": "REFERENCE_ONLY"
+      },
+      {
+        "cu": 2,
+        "from": 6,
+        "to": 7,
+        "group": 5,
+        "type": "ANALOG",
+        "source_ordinal": 0,
+        "peer_selector": 1,
+        "status": "REFERENCE_ONLY"
+      },
+      {
+        "cu": 2,
+        "from": 4,
+        "to": 3,
+        "group": 4,
+        "type": "POWER",
+        "source_ordinal": 0,
+        "peer_selector": 1,
+        "status": "REFERENCE_ONLY"
+      },
+      {
+        "cu": 2,
+        "from": 9,
+        "to": 8,
+        "group": 5,
+        "type": "ANALOG",
+        "source_ordinal": 0,
+        "peer_selector": 1,
+        "status": "REFERENCE_ONLY"
+      },
+      {
+        "cu": 2,
+        "from": 8,
+        "to": 9,
+        "group": 5,
+        "type": "ANALOG",
+        "source_ordinal": 0,
+        "peer_selector": 1,
+        "status": "REFERENCE_ONLY"
+      },
+      {
+        "cu": 2,
+        "from": 5,
+        "to": 2,
+        "group": 4,
+        "type": "POWER",
+        "source_ordinal": 0,
+        "peer_selector": 1,
+        "status": "REFERENCE_ONLY"
+      }
+    ],
+    "unresolved_ports": [],
+    "component_count": 27
+  },
+  "cu_links": [
+    {
+      "device_id": "T-EO6221151",
+      "representations": [
+        {
+          "cu": 1,
+          "component": 18
+        },
+        {
+          "cu": 2,
+          "component": 1
+        }
+      ],
+      "verified": true
+    }
+  ],
+  "mapping_problems": [],
+  "servo_objects": [
+    {
+      "unit": 1,
+      "type": 11,
+      "name": "SERVO_3.3:2",
+      "refs": {
+        "121": [
+          2,
+          null,
+          null,
+          null
+        ],
+        "131": [
+          17,
+          null,
+          null,
+          null
+        ],
+        "141": [
+          15,
+          null,
+          null,
+          null
+        ],
+        "142": [
+          16,
+          null,
+          null,
+          null
+        ]
+      },
+      "do_state": 1,
+      "telegram": 136,
+      "p9489_raw_probe": null,
+      "motor_module_ref": 2,
+      "motor_module_state": 1,
+      "sensor_refs": [
+        {
+          "component": 15,
+          "state": 1,
+          "sm_number": 1
+        }
+      ],
+      "identity": {
+        "bus_id": 3,
+        "slave": 3,
+        "do": 2
+      }
+    },
+    {
+      "unit": 2,
+      "type": 11,
+      "name": "SERVO_3.3:3",
+      "refs": {
+        "121": [
+          3,
+          null,
+          null,
+          null
+        ],
+        "131": [
+          14,
+          null,
+          null,
+          null
+        ],
+        "141": [
+          12,
+          null,
+          null,
+          null
+        ],
+        "142": [
+          13,
+          null,
+          null,
+          null
+        ]
+      },
+      "do_state": 1,
+      "telegram": 136,
+      "p9489_raw_probe": null,
+      "motor_module_ref": 3,
+      "motor_module_state": 1,
+      "sensor_refs": [
+        {
+          "component": 12,
+          "state": 1,
+          "sm_number": 1
+        }
+      ],
+      "identity": {
+        "bus_id": 3,
+        "slave": 3,
+        "do": 3
+      }
+    },
+    {
+      "unit": 3,
+      "type": 11,
+      "name": "SERVO_3.3:4",
+      "refs": {
+        "121": [
+          4,
+          null,
+          null,
+          null
+        ],
+        "131": [
+          11,
+          null,
+          null,
+          null
+        ],
+        "141": [
+          9,
+          null,
+          null,
+          null
+        ],
+        "142": [
+          10,
+          null,
+          null,
+          null
+        ]
+      },
+      "do_state": 1,
+      "telegram": 136,
+      "p9489_raw_probe": null,
+      "motor_module_ref": 4,
+      "motor_module_state": 1,
+      "sensor_refs": [
+        {
+          "component": 9,
+          "state": 1,
+          "sm_number": 1
+        }
+      ],
+      "identity": {
+        "bus_id": 3,
+        "slave": 3,
+        "do": 4
+      }
+    },
+    {
+      "unit": 4,
+      "type": 11,
+      "name": "SERVO_3.3:5",
+      "refs": {
+        "121": [
+          5,
+          null,
+          null,
+          null
+        ],
+        "131": [
+          8,
+          null,
+          null,
+          null
+        ],
+        "141": [
+          6,
+          null,
+          null,
+          null
+        ],
+        "142": [
+          7,
+          null,
+          null,
+          null
+        ]
+      },
+      "do_state": 1,
+      "telegram": 136,
+      "p9489_raw_probe": null,
+      "motor_module_ref": 5,
+      "motor_module_state": 1,
+      "sensor_refs": [
+        {
+          "component": 6,
+          "state": 1,
+          "sm_number": 1
+        }
+      ],
+      "identity": {
+        "bus_id": 3,
+        "slave": 3,
+        "do": 5
+      }
+    },
+    {
+      "unit": 5,
+      "type": 11,
+      "name": "SERVO_3.15:2",
+      "refs": {
+        "121": [
+          2,
+          null,
+          null,
+          null
+        ],
+        "131": [
+          5,
+          null,
+          null,
+          null
+        ],
+        "141": [
+          9,
+          null,
+          null,
+          null
+        ],
+        "142": [
+          8,
+          null,
+          null,
+          null
+        ]
+      },
+      "do_state": 1,
+      "telegram": 136,
+      "p9489_raw_probe": null,
+      "motor_module_ref": 2,
+      "motor_module_state": 1,
+      "sensor_refs": [
+        {
+          "component": 9,
+          "state": 1,
+          "sm_number": 1
+        }
+      ],
+      "identity": {
+        "bus_id": 3,
+        "slave": 15,
+        "do": 2
+      }
+    },
+    {
+      "unit": 6,
+      "type": 11,
+      "name": "SERVO_3.15:3",
+      "refs": {
+        "121": [
+          3,
+          null,
+          null,
+          null
+        ],
+        "131": [
+          4,
+          null,
+          null,
+          null
+        ],
+        "141": [
+          7,
+          null,
+          null,
+          null
+        ],
+        "142": [
+          6,
+          null,
+          null,
+          null
+        ]
+      },
+      "do_state": 1,
+      "telegram": 136,
+      "p9489_raw_probe": null,
+      "motor_module_ref": 3,
+      "motor_module_state": 1,
+      "sensor_refs": [
+        {
+          "component": 7,
+          "state": 1,
+          "sm_number": 1
+        }
+      ],
+      "identity": {
+        "bus_id": 3,
+        "slave": 15,
+        "do": 3
+      }
+    }
+  ]
+}

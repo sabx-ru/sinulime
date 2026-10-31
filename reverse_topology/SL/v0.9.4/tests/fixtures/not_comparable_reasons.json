@@ -1,0 +1,7 @@
+{
+  "selector_mismatch": {"actual": {"id": "actual-selector", "representation": "graph", "role": "actual", "items": [{"id": "axis-1", "selector": {"ordinal": 1}}]}, "target": {"id": "target-selector", "representation": "graph", "role": "actual", "items": [{"id": "axis-1", "selector": {"ordinal": 2}}]}},
+  "representation_mismatch": {"actual": {"id": "actual-representation", "representation": "graph", "role": "actual", "items": []}, "target": {"id": "target-representation", "representation": "table", "role": "target", "items": []}},
+  "incomplete_snapshot": {"actual": {"id": "actual-incomplete", "representation": "graph", "role": "actual", "completeness": "incomplete", "items": []}, "target": {"id": "target-incomplete", "representation": "graph", "role": "actual", "completeness": "complete", "items": []}},
+  "identity_mismatch": {"actual": {"id": "same-id", "representation": "graph", "role": "actual", "items": []}, "target": {"id": "same-id", "representation": "graph", "role": "actual", "items": []}},
+  "unsupported_comparison": {"actual": {"id": "actual-unsupported", "representation": "graph", "role": "actual", "items": []}, "target": {"id": "target-unsupported", "representation": "graph", "role": "actual", "comparison_supported": false, "items": []}}
+}

@@ -1,0 +1,20 @@
+{
+  "schema": "read-only-capture/v0.9.2",
+  "created": "2026-10-26T08:06:39.393+00:00",
+  "config": {
+    "host": "163.242.204.152",
+    "rack": 0,
+    "slot": 2,
+    "target": true,
+    "p978_cap": 128
+  },
+  "sessions": [
+    {
+      "started": "2026-10-26T08:06:39.393+00:00",
+      "state": "COMPLETE",
+      "version": "0.9.4",
+      "finished": "2026-10-26T08:24:08.294+00:00",
+      "error": null
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "status": "complete",
+  "incomplete_reasons": [],
+  "unresolved_addresses": [],
+  "cu": [
+    [
+      1,
+      9
+    ],
+    [
+      2,
+      7
+    ],
+    [
+      3,
+      4
+    ],
+    [
+      4,
+      7
+    ],
+    [
+      5,
+      6
+    ]
+  ],
+  "new_requests": 19475,
+  "health_checks": 0,
+  "health_recoveries": 0,
+  "cache_hits": 95,
+  "totals": {
+    "ok": 19205,
+    "item_error": 270
+  }
+}
