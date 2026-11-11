@@ -1,5 +1,0 @@
-/Channel/State/actParts[u1]
-/Channel/Spindle/actSpeed[u1,1]
-/Channel/Spindle/speedOvr[u1,1]
-/Channel/State/feedRateIpoOvr[u1]
-/Channel/Parameter/R[u1,10]

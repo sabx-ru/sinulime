@@ -1,1 +1,0 @@
-[1847](sec  1)(fl 0x00)(ty   20)(scl   2) (nx 0) 0x0000d2cf ?StartTransaction@CVar2@@IAEPAVCResult@@PAVCTransactionID@@AAVString@@PAGFJJPAUtagVARIANT@@KAAV?$CList@PAVCTransactionDestructor@@@@@Z

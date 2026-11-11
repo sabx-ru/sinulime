@@ -1,3 +1,0 @@
-/Nck/Configuration/numGlobMachAxes
-/Nck/Configuration/numChannels
-/Nck/State/PowerLineNeverExistingReadOnlyProbe987654

@@ -1,0 +1,28 @@
+# Never commit locally built Windows executables or private diagnostics.
+*.exe
+*.dll
+*.ocx
+*.pdb
+*.o
+*.obj
+*.PML
+*.apmx86
+*.vhdx
+*.nsk
+*.NSK
+*.7z
+*.rar
+*.zip
+windows/logs/*
+!windows/logs/.gitkeep
+windows/bin/*
+!windows/bin/README.txt
+# External proprietary PCU corpora and binary evidence.
+local-data/
+private/
+originals/
+*_dump/
+__pycache__/
+.pytest_cache/
+*.pyc
+.DS_Store

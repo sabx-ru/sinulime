@@ -1,5 +1,0 @@
-/Nck/State/PowerLineNeverExistingReadOnlyProbe987654
-/Nck/Configuration/numGlobMachAxes
-/Nck/State/SysTimeBCD
-/Nck/State/PowerLineNeverExistingReadOnlyProbe987655
-/Nck/Configuration/numChannels

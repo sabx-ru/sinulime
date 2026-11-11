@@ -1,5 +1,0 @@
-/Channel/Parameter/R[u1,1]
-/Channel/Parameter/R[u1,2]
-/Channel/Parameter/R[u1,10]
-/Channel/Parameter/R[u1,20]
-/Channel/Parameter/R[u1,100]

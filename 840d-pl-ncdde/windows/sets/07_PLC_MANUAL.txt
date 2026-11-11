@@ -1,0 +1,2 @@
+# Enter ONE known, reviewed PLC DDE item below. Do not guess indices.
+# /Plc/Memory/Bit[...]  (placeholder ONLY; NOT a valid tested address)

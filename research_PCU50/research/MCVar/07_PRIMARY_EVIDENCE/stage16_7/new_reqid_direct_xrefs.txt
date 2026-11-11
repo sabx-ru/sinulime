@@ -1,1 +1,0 @@
-0x00033374 0x10033374   42   43 .data   ascii   new CTransactionID 0x%x lst:0x%x var2:0x%x

@@ -1,0 +1,1 @@
+/acc/nc_pre/$MN_SYSCLOCK_CYCLE_TIME

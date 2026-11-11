@@ -1,5 +1,0 @@
-2026-10-31 18:38:13.737 [INFO] === dde_series v0.5 BEGIN ===
-2026-10-31 18:38:13.737 [INFO] EXE=C:\PCU_test\bin\dde_series.exe
-2026-10-31 18:38:13.737 [INFO] PID=152 args=9 target=Windows XP x86; log=C:\PCU_test\bin\logs\dde_series_20261031_183813_737_pid152.log
-2026-10-31 18:38:13.737 [ERROR] Expected 5 items, loaded 20 from config\items_control.txt. Check list location.
-2026-10-31 18:38:13.737 [FAIL] === dde_series END exit_code=3 elapsed_ms=0 ===

@@ -1,0 +1,62 @@
+{
+  "description": "Anonymized frame bytes recorded in eight PCU50 tests on 2026-11-11. Original log timestamps, PIDs and paths removed. No Siemens binaries included.",
+  "source_log_zip_sha256": "d18f78c2f538c43ef109b7058af9494fe391e418549518ae3e986fb7714e37e1",
+  "frames": [
+    {
+      "case": "00_BASELINE",
+      "item": "/Nck/Configuration/numGlobMachAxes",
+      "frame_hex": "14000100010002A10100000004000000F9F8F7F602000000",
+      "decode": "int32",
+      "expected": 2
+    },
+    {
+      "case": "01_MD_GENERAL_TEA",
+      "item": "/acc/nc_tea/$MN_SYSCLOCK_CYCLE_TIME",
+      "frame_hex": "14000100020005A20100000008000000F9F8F7F6FCA9F1D24D62703F",
+      "decode": "float64",
+      "expected": 0.004
+    },
+    {
+      "case": "02_MD_CHANNEL_TEA",
+      "item": "/acc/ch_tea/$MC_CHAN_NAME",
+      "frame_hex": "14000100640006A30100000010000000F9F8F7F64348414E310000000000000000000000",
+      "decode": "ascii_nul",
+      "expected": "CHAN1"
+    },
+    {
+      "case": "03_MD_AXIS_TEA",
+      "item": "/acc/ax_tea/$MA_CTRLOUT_MODULE_NR",
+      "frame_hex": "14000100010008A40100000004000000F9F8F7F601000000",
+      "decode": "int32",
+      "expected": 1
+    },
+    {
+      "case": "04_MD_GENERAL_PRE",
+      "item": "/acc/nc_pre/$MN_SYSCLOCK_CYCLE_TIME",
+      "frame_hex": "14000100020005A60100000008000000F9F8F7F6FCA9F1D24D62703F",
+      "decode": "float64",
+      "expected": 0.004
+    },
+    {
+      "case": "05_MD_CHANNEL_PRE",
+      "item": "/acc/ch_pre/$MC_RESET_MODE_MASK",
+      "frame_hex": "14000100010003A70100000004000000F9F8F7F600000000",
+      "decode": "int32",
+      "expected": 0
+    },
+    {
+      "case": "06_MD_AXIS_PRE",
+      "item": "/acc/ax_pre/$MA_AX_MOTION_DIR",
+      "frame_hex": "14000100010003A80100000004000000F9F8F7F601000000",
+      "decode": "int32",
+      "expected": 1
+    },
+    {
+      "case": "08_MD_DRIVE_PRE",
+      "item": "/acc/vs_pre/$MD_MOTOR_NOMINAL_CURRENT",
+      "frame_hex": "1400010002000EA50100000008000000F9F8F7F6000000A099993140",
+      "decode": "float64",
+      "expected": 17.600000381469727
+    }
+  ]
+}

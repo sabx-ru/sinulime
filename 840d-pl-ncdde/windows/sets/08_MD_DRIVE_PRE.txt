@@ -1,0 +1,1 @@
+/acc/vs_pre/$MD_MOTOR_NOMINAL_CURRENT

@@ -1,0 +1,1 @@
+/acc/ch_pre/$MC_RESET_MODE_MASK

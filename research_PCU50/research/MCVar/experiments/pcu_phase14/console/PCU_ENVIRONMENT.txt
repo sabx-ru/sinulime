@@ -1,9 +1,0 @@
-date=31/10/2026 17:56:28
-computer=PCU-1583
-arch=x86
-os=Windows_NT
-cwd=C:\PCU_test
-comspec=E:\WINDOWS\system32\cmd.exe
-sysdir=E:\WINDOWS\system32
-
-Microsoft Windows XP [Version 5.1.2600]

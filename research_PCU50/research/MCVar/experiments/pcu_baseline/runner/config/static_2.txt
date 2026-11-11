@@ -1,2 +1,0 @@
-/Nck/Configuration/numGlobMachAxes
-/Nck/Configuration/numChannels
